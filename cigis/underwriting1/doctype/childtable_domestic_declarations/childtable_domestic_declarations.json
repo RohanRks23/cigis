@@ -1,0 +1,55 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 11:07:32.663689",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dd_ref_no",
+  "date",
+  "policy_holder",
+  "dcl_month",
+  "dcl_year"
+ ],
+ "fields": [
+  {
+   "fieldname": "dd_ref_no",
+   "fieldtype": "Data",
+   "label": "DD Ref. No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "dcl_month",
+   "fieldtype": "Data",
+   "label": "Dcl Month"
+  },
+  {
+   "fieldname": "dcl_year",
+   "fieldtype": "Data",
+   "label": "Dcl Year"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:34.811286",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "childtable_Domestic Declarations",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

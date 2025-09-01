@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 12:17:22.743687",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "security_type",
+  "details2",
+  "security_value",
+  "security_signed_by",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID"
+  },
+  {
+   "fieldname": "security_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Security Type "
+  },
+  {
+   "fieldname": "details2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Security Details"
+  },
+  {
+   "fieldname": "security_value",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Security  Value"
+  },
+  {
+   "fieldname": "security_signed_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Security Signed By "
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nIn Use\nUse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:42.302702",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Security Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

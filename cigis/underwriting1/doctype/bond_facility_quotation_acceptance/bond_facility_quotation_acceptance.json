@@ -1,0 +1,185 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 06:28:07.205476",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general",
+  "section_break_7qjht",
+  "name1",
+  "quotation_no",
+  "bond_facility_limit1",
+  "bond_facility_limit2",
+  "bond_facility_limit3",
+  "bond_facility_limit4",
+  "net_facility_amount",
+  "column_break_kl8tl",
+  "faciity_no",
+  "bond_quotation_is_authorized_by",
+  "security_percentage_for_limit1",
+  "security_percentage_for_limit2",
+  "security_percentage_for_limit3",
+  "security_percentage_for_limit4",
+  "security_percentage_for_limit5",
+  "section_break_fq5fo",
+  "details",
+  "section_break_3zhxs",
+  "facility_inception_date",
+  "quotation_signed_by",
+  "quotation_signed_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "general",
+   "fieldtype": "Heading",
+   "label": "General"
+  },
+  {
+   "fieldname": "section_break_7qjht",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Bond Facility Quotation",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "name1.quotation_no",
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation No"
+  },
+  {
+   "fieldname": "bond_facility_limit1",
+   "fieldtype": "Data",
+   "label": "Bond Facility Limit1"
+  },
+  {
+   "fieldname": "bond_facility_limit2",
+   "fieldtype": "Data",
+   "label": "Bond Facility Limit2"
+  },
+  {
+   "fieldname": "bond_facility_limit3",
+   "fieldtype": "Data",
+   "label": "Bond Facility Limit3"
+  },
+  {
+   "fieldname": "bond_facility_limit4",
+   "fieldtype": "Data",
+   "label": "Bond Facility Limit4"
+  },
+  {
+   "fieldname": "net_facility_amount",
+   "fieldtype": "Data",
+   "label": "Net Facility Amount"
+  },
+  {
+   "fieldname": "column_break_kl8tl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "name1.bond_facility_no",
+   "fieldname": "faciity_no",
+   "fieldtype": "Data",
+   "label": "Faciity No"
+  },
+  {
+   "default": "Mrs.Lavanya",
+   "fieldname": "bond_quotation_is_authorized_by",
+   "fieldtype": "Data",
+   "label": "Bond Quotation is Authorized By "
+  },
+  {
+   "fieldname": "security_percentage_for_limit1",
+   "fieldtype": "Data",
+   "label": "Security Percentage for Limit1"
+  },
+  {
+   "fieldname": "security_percentage_for_limit2",
+   "fieldtype": "Data",
+   "label": "Security Percentage for Limit2"
+  },
+  {
+   "fieldname": "security_percentage_for_limit3",
+   "fieldtype": "Data",
+   "label": "Security Percentage for Limit3"
+  },
+  {
+   "fieldname": "security_percentage_for_limit4",
+   "fieldtype": "Data",
+   "label": "Security Percentage for limit4"
+  },
+  {
+   "fieldname": "security_percentage_for_limit5",
+   "fieldtype": "Data",
+   "label": "Security Percentage for Limit5"
+  },
+  {
+   "fieldname": "section_break_fq5fo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Heading",
+   "label": "Details"
+  },
+  {
+   "fieldname": "section_break_3zhxs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_inception_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Facility Inception Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quotation_signed_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quotation Signed by",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quotation_signed_on",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Quotation Signed on",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:41.638170",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Bond Facility Quotation Acceptance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

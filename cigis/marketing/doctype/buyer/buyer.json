@@ -1,0 +1,370 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{buyer_id}",
+ "creation": "2024-03-11 08:38:24.506403",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer_type",
+  "section_break_bakjh",
+  "dci",
+  "column_break_obddy",
+  "eci",
+  "column_break_muaxv",
+  "column_break_svsr2",
+  "section_break_iggn2",
+  "buyer_name",
+  "column_break_ibrys",
+  "buyer_id",
+  "section_break_jlf40",
+  "buyers_type",
+  "section_break_4eiuk",
+  "associated_companies",
+  "column_break_xanfy",
+  "government_buyers",
+  "column_break_zpyju",
+  "private_buyers",
+  "section_break_rjkyu",
+  "country",
+  "trading_name",
+  "physical_address",
+  "location1",
+  "phone",
+  "estddate",
+  "bank",
+  "ac_no",
+  "industry",
+  "column_break_rnwnr",
+  "registration_no",
+  "postal_address",
+  "location2",
+  "fax",
+  "no_of_employees",
+  "branch",
+  "status",
+  "business",
+  "date",
+  "section_break_zkutb",
+  "trade_references",
+  "section_break_wyl6b",
+  "referance_1",
+  "tel_no1",
+  "column_break_ktcid",
+  "referance_2",
+  "tel_no2",
+  "section_break_fasgk",
+  "directors",
+  "section_break_qsn8u",
+  "director_1",
+  "director_2",
+  "column_break_34cwn",
+  "director_3",
+  "director_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Heading",
+   "label": "Buyer Type:"
+  },
+  {
+   "fieldname": "section_break_bakjh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dci",
+   "fieldtype": "Check",
+   "label": "DCI",
+   "read_only_depends_on": "eci"
+  },
+  {
+   "fieldname": "column_break_obddy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "eci",
+   "fieldtype": "Check",
+   "label": "ECI",
+   "read_only_depends_on": "dci"
+  },
+  {
+   "fieldname": "column_break_muaxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_svsr2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_iggn2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "column_break_ibrys",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Short Name"
+  },
+  {
+   "fieldname": "section_break_jlf40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eci",
+   "fieldname": "buyers_type",
+   "fieldtype": "Heading",
+   "label": "Buyer_Type"
+  },
+  {
+   "fieldname": "section_break_4eiuk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "associated_companies",
+   "fieldtype": "Check",
+   "label": "ASSOCIATED COMPANIES"
+  },
+  {
+   "fieldname": "column_break_xanfy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "government_buyers",
+   "fieldtype": "Check",
+   "label": "GOVERNMENT BUYERS"
+  },
+  {
+   "fieldname": "column_break_zpyju",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_buyers",
+   "fieldtype": "Check",
+   "label": "PRIVATE BUYERS"
+  },
+  {
+   "fieldname": "section_break_rjkyu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Country",
+   "options": "Select\nAbu Dhabi\nAjman\nAndorra\nAngola\nAnguilla\nAntigua&Barbuda\nArgentina\nAruba\nAscension Island\nAustralia\nAustria\nAzores\nBahamas\nBahrain\nBarbados\nBelgium\nBELIZE\nBermuda\nBolivia\nBOTSWANA\nBrazil\nBrunei\nCanada\nCanary Islands\nCAYMAN ISLANDS\nCEUTA&MELILLA\nCHANNEL ISLANDS\nCHILE\nCHINA\nCHRISTMAS ISLANDS\nCOCOS ISLANDS\nCOLOMBIA\nCONGO DRC\nCOOK ISLANDS\nCYPRUS\nCZECH REPUBLIC\nDENMARK\nDOMINICAN REPUBLIC\nDUBAI\nECUADOR\nEGYPT\nEI SALVADOR\nEIRE\nFALKLAND ISLANDS\nFAROE ISLANDS\nFIJI\nFINLAND\nFRANCE\nFRENCH GUINEA\nFRENCH POLYNESIA\nFUJAIRAH\nGERMANY\nGHANA\nGIBRALTAR\nGREECE\nGREENLAND\nGRENADA\nGUADELOUPE\nGUAM\nGUATEMALA\nHONDURAS\nHONG KONG\nHUNGARY\nICELAND\nINDIA\nIsle of Man\nISRAEL\nITALY\nJAMAICA\nJAPAN\nJORDAN\nKENYA\nKIRIBATI\nKOREA(SOUTH)\nKUWAIT\nLAOS\nLIECHTENSTEIN\nLUXEMBOURG\nMACAO\nMADEIRA\nMALAWI\nMALAYSIA\nMALDIVES\nMALTA\nMARSHALL ISLANDS\nMARTINIQUE\nMAURITIUS\nMAYOTTE\nMEXICO\nMICRONESIA, FEDERATED STATES OF\nMONACO\nMONTSERRAT\nMOROCCO\nMOZAMBIQUE\nNAMBIA\nNETHERLANDS\nNETHERLANDS ANTILLES\nNEW CALEDONIA\nNEW ZEALAND\nNICARAGUA\nNIUE\nNORFOLK ISLANDS\nNORTHERN MARIANA ISLANDS\nNORWAY\nOMAN\nPAKISTAN\nPALAU\nPANAMA\nPARAGUAY\nPHILIPPINES\nPITCAIRN ISLAND\nPOLAND\nPORTUGAL\nPUERTO RICO\nQATAR\nRas Al Khaimah\nREUNION\nSAINT LUCIA\nSAINT VINCENT & THE GRENADINES\nSAMOA, AMERICAN\nSAMOA, WESTERN\nSAN MARINO\nSAUDI ARABIA\nSENEGAL\nSEYCHELLES\nSHARJAH\nSINGAPORE\nSOLOMON ISLANDS\nSOUTH AFRICA\nSOUTH GEORGIA & SOUTH SANDWICH ISLANDS\nSPAIN\nSRI LANKA\nST PIERRE & MIQUELON\nST. HELENA\nST. KITTS & NEVIS\nSWAZILAND\nSWEDEN\nSWITZERLAND\nTAIWAN\nTHAILAND\nTOKELAU\nTONGA\nTRINIDAD AND TOBAGO\nTRISTAN DA CUNHA\nTUNISIA\nTURKEY\nTURKS AND CAICOS ISLANDS\nTUVALU\nUMM AL QUWAIN\nUNITED KINGDOM\nUnited States of America\nURUGUAY\nVANUATU\nVATICAN CITY\nVIRGIN ISLANDS BRITISH\nVIRGIN ISLANDS, US\nWALLIS & FORTUNA ISLANDS\nYEMEN\nZAMBIA\nZimbabwe\nNULL"
+  },
+  {
+   "fieldname": "trading_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trading Name"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "location1",
+   "fieldtype": "Data",
+   "label": "Location 1"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "estddate",
+   "fieldtype": "Data",
+   "label": "Estd.Date",
+   "options": "Select\nABSA\nBANK OF BARODA(BOTSWANA)LTD\nBANC ABC\nBANCO COMMERICAL E DE INVESTIMENTOS\nBANCO INTERNATIONAL DE CREDITO\nBANK GABORONE\nBANK OF BOTSWANA\nBANK OF INDIA\nBANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY(BBS)\nBOTSWANA SAVINGS BANK\nBOTSWANA VACCINE INST\nCAPITAL BANK\nCBZ BANK\nECO BANK\nFIRST CARE CHEMIST (PTY LTD)\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK\nMIGRATION BANK\nNED BANK\nNMB BANK LIMITED\nRAND MERCHANT\nSTANBIC BANK\nSTANDARD BANK(SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD\n"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Select",
+   "label": "Bank",
+   "options": "\nABS01\nBanc1\nCBZB\nFIRS1\nBANK1\nBancA\nRAND\nNMBB\nSTANB\nCAPIT\nBANK3\nNEDBA\nSTAN4\nSTAN1\nECOB\nSTAN2\nFIRS4\nBARCL\nBOTSW\nBOTS1\nMIGRA\nSTAN3\nBANC2\nBANK2\nFIRST\nBANKG\nKING\nBOTS2\nBIM\nFIRS2\nBANK4"
+  },
+  {
+   "fieldname": "ac_no",
+   "fieldtype": "Data",
+   "label": "A/C No"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Select",
+   "label": "Industry",
+   "options": "Select\nAGRICULTURE\nBEEF\nCONFECTIONERY\nCommunications\nCONSTRUCTION\nDISTRIBUTOR\nFINANCIAL SERVICES\nHARDWARE\nIT SOFTWARE & HARDWARE\nMINING\nMOTOR PARTS\nOPTICALS\nPHARMACEUTICALS\nPVC PIPES\nRETAILER\nSTATIONARY\nSTEEL\nTEXTILES\nTOURISM\nTRANSPORTATION\nWATER TANKS\nNULL"
+  },
+  {
+   "fieldname": "column_break_rnwnr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "registration_no",
+   "fieldtype": "Data",
+   "label": "Registration No./ID No."
+  },
+  {
+   "fieldname": "postal_address",
+   "fieldtype": "Data",
+   "label": "Postal Address"
+  },
+  {
+   "fieldname": "location2",
+   "fieldtype": "Data",
+   "label": "Location 2"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "no_of_employees",
+   "fieldtype": "Data",
+   "label": "No.of Employees"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nSelect\nActive\nInActive"
+  },
+  {
+   "fieldname": "business",
+   "fieldtype": "Select",
+   "label": "Business",
+   "options": "Select\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nBUTCHERY\nCHEMICALS\nCIVIL ENGINEERING\nCHEMICALS AND STATIONARY\nENGINEERING CONSULTANCY\nELECTRICAL ENGINEERING\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nGOODS RETALING\nGENERAL DEALER\nHARDWARE\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nMANUFACTURER\nMECHANICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMANUFACTURING\nMINING ENGINEERING\nOTHERS\nROAD CONSTRUCTION\nRESTAURANT\nROAD MAINTENANCE\nSTATIONARY AND IT PRODUCTS\nSERVICES RETAILING\nSTATIONARY AND COMPUTERS\nSTATIONARY\nWHOLESALERS\nNULL"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_zkutb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "trade_references",
+   "fieldtype": "Heading",
+   "label": "Trade References"
+  },
+  {
+   "fieldname": "section_break_wyl6b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "referance_1",
+   "fieldtype": "Data",
+   "label": "Referance 1"
+  },
+  {
+   "fieldname": "referance_2",
+   "fieldtype": "Data",
+   "label": "Referance 2"
+  },
+  {
+   "fieldname": "column_break_ktcid",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tel_no1",
+   "fieldtype": "Data",
+   "label": "Tel. No1"
+  },
+  {
+   "fieldname": "tel_no2",
+   "fieldtype": "Data",
+   "label": "Tel. No2"
+  },
+  {
+   "fieldname": "section_break_fasgk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "Heading",
+   "label": "Directors"
+  },
+  {
+   "fieldname": "section_break_qsn8u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "director_1",
+   "fieldtype": "Data",
+   "label": "Director1"
+  },
+  {
+   "fieldname": "director_2",
+   "fieldtype": "Data",
+   "label": "Director2"
+  },
+  {
+   "fieldname": "column_break_34cwn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "director_3",
+   "fieldtype": "Data",
+   "label": "Director3"
+  },
+  {
+   "fieldname": "director_4",
+   "fieldtype": "Data",
+   "label": "Director4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-08 17:22:48.337201",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Buyer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

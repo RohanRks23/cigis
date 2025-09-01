@@ -1,0 +1,357 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:invoice1",
+ "creation": "2024-05-07 12:36:54.013015",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "export_credit",
+  "section_break_lrhxr",
+  "heading",
+  "section_break_wdpll",
+  "beci_matter",
+  "column_break_owgko",
+  "beci_side_matter",
+  "section_break_r5zq6",
+  "invoice1",
+  "attn",
+  "address",
+  "city",
+  "vat",
+  "telephone",
+  "fax",
+  "column_break_67wtv",
+  "invoice2",
+  "reference1",
+  "date1",
+  "section_break_zlc9h",
+  "month",
+  "column_break_mcyqw",
+  "description1",
+  "section_break_ljlnc",
+  "country",
+  "column_break_ao3uw",
+  "declaration_amount",
+  "column_break_pzlnv",
+  "rate",
+  "column_break_0jxih",
+  "premium",
+  "column_break_loki4",
+  "section_break_q8rdo",
+  "tax_child",
+  "column_break_nhkjk",
+  "column_break_cmxwp",
+  "column_break_wwuuf",
+  "currency7",
+  "column_break_x1fmu",
+  "g",
+  "section_break_40r9u",
+  "column_break_nd0gt",
+  "column_break_hdy2i",
+  "vat_column",
+  "column_break_qinas",
+  "sub_total",
+  "section_break_xrezd",
+  "column_break_clajr",
+  "column_break_4jnf5",
+  "total",
+  "column_break_rlsge",
+  "currency9",
+  "section_break_mgwxo",
+  "tearms",
+  "section_break_l212b"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "export_credit",
+   "fieldtype": "HTML",
+   "label": "Export Credit",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "section_break_lrhxr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<h3 style=\"text-align: center;\">TAX INVOICE</h3>\n"
+  },
+  {
+   "fieldname": "section_break_wdpll",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci_matter",
+   "fieldtype": "HTML",
+   "label": "BECI Matter",
+   "options": "<p>BECI<br>\nExport Credit Insurance &amp; Guarantee Co.Botswana(PTY)Ltd.<br>\nBECI VAT Reg.No.C00613601111</p>\n"
+  },
+  {
+   "fieldname": "column_break_owgko",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beci_side_matter",
+   "fieldtype": "HTML",
+   "label": "BECI side Matter",
+   "options": "<p>P/Bag BO 279<br>\nGABRONE<br>\nTel:3188015<br>\nFax:3188017<br>\n</p>"
+  },
+  {
+   "fieldname": "section_break_r5zq6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice1",
+   "fieldtype": "Data",
+   "label": "Invoice To:",
+   "unique": 1
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": " Attn:"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address:"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City:"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "VAT Registration No:"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone:"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "column_break_67wtv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice2",
+   "fieldtype": "Data",
+   "label": "Invoice No:"
+  },
+  {
+   "fieldname": "reference1",
+   "fieldtype": "Data",
+   "label": "Reference:"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Data",
+   "label": "Date:"
+  },
+  {
+   "fieldname": "section_break_zlc9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Declaration Month"
+  },
+  {
+   "fieldname": "column_break_mcyqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "HTML",
+   "label": "Description",
+   "options": "<br>\n<br>\n<p>Description: Export Insurance</p>"
+  },
+  {
+   "fieldname": "section_break_ljlnc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "column_break_ao3uw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "declaration_amount",
+   "fieldtype": "Data",
+   "label": "Declaration Amount"
+  },
+  {
+   "fieldname": "column_break_pzlnv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Data",
+   "label": "Rate"
+  },
+  {
+   "fieldname": "column_break_0jxih",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "Data",
+   "label": "Premium"
+  },
+  {
+   "fieldname": "column_break_loki4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_q8rdo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tax_child",
+   "fieldtype": "Table",
+   "options": "Tax invoice child"
+  },
+  {
+   "fieldname": "column_break_nhkjk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cmxwp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wwuuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency7",
+   "fieldtype": "HTML",
+   "label": "Sub Total",
+   "options": "<h5> Sub Total </h5>"
+  },
+  {
+   "fieldname": "column_break_x1fmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "g",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_40r9u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nd0gt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hdy2i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat_column",
+   "fieldtype": "HTML",
+   "label": "VAT @ ",
+   "options": " <h5> VAT @ </h5>"
+  },
+  {
+   "fieldname": "column_break_qinas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_xrezd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_clajr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4jnf5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "HTML",
+   "label": "Total",
+   "options": " <h5> Total </h5>"
+  },
+  {
+   "fieldname": "column_break_rlsge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency9",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_mgwxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tearms",
+   "fieldtype": "HTML",
+   "label": "Tearms",
+   "options": " <h5> TERMS : THIS INVOICE IS PAYABLE ON PRESENTATION </h5>"
+  },
+  {
+   "fieldname": "section_break_l212b",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:21.516135",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Tax Invoice For CI Invoice",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

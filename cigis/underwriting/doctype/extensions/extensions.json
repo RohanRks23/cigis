@@ -1,0 +1,379 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-17 16:18:07.003586",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "extensions_tab",
+  "bond_type",
+  "section_break_kzvqs",
+  "deputyshreiff_bond",
+  "column_break_3y43h",
+  "other_bonds",
+  "section_break_063po",
+  "bond_details",
+  "section_break_krkqd",
+  "bond_holder",
+  "section_break_sjmh5",
+  "bond_no",
+  "client",
+  "project",
+  "bond_period_from",
+  "bond_value",
+  "bondtype",
+  "column_break_ichda",
+  "bondextnreq_date",
+  "principal",
+  "description",
+  "bond_period_to",
+  "extension_req_no",
+  "section_break_efgvm",
+  "bond_extnsion",
+  "section_break_rovoh",
+  "request_date",
+  "reason",
+  "extension_upto",
+  "column_break_dudmu",
+  "new_bond_value",
+  "details",
+  "new_premium_rate",
+  "extension",
+  "bond",
+  "section_break_iqdst",
+  "deputyshreiffbond",
+  "column_break_sq51r",
+  "otherbonds",
+  "section_break_azmaa",
+  "details1",
+  "section_break_ykqai",
+  "bondholder",
+  "section_break_dht5b",
+  "bondno",
+  "clientname",
+  "projectname",
+  "bondperiodfrom",
+  "bondvalue",
+  "bondtype1",
+  "column_break_0bzyx",
+  "bondextnreqdate",
+  "principal1",
+  "description1",
+  "bondperiodto",
+  "extensionreqno",
+  "section_break_ndnli",
+  "approval",
+  "approved_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "extensions_tab",
+   "fieldtype": "Tab Break",
+   "label": "Extensions"
+  },
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Heading",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_kzvqs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshreiff_bond",
+   "fieldtype": "Check",
+   "label": "DeputyShreiff Bond"
+  },
+  {
+   "fieldname": "column_break_3y43h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_bonds",
+   "fieldtype": "Check",
+   "label": "Other Bonds"
+  },
+  {
+   "fieldname": "section_break_063po",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_details",
+   "fieldtype": "Heading",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "section_break_krkqd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Data",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_sjmh5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Currency",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "bondtype",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "column_break_ichda",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bondextnreq_date",
+   "fieldtype": "Date",
+   "label": "Bond/ExtnReq Date"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "extension_req_no",
+   "fieldtype": "Data",
+   "label": "Extension Req No"
+  },
+  {
+   "fieldname": "section_break_efgvm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_extnsion",
+   "fieldtype": "Heading",
+   "label": "Bond Extnsion"
+  },
+  {
+   "fieldname": "section_break_rovoh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Data",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "extension_upto",
+   "fieldtype": "Date",
+   "label": "Extension Upto"
+  },
+  {
+   "fieldname": "column_break_dudmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new_bond_value",
+   "fieldtype": "Data",
+   "label": "New Bond Value"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Data",
+   "label": "Details"
+  },
+  {
+   "fieldname": "new_premium_rate",
+   "fieldtype": "Data",
+   "label": "New Premium Rate"
+  },
+  {
+   "fieldname": "extension",
+   "fieldtype": "Tab Break",
+   "label": "Extensions"
+  },
+  {
+   "fieldname": "bond",
+   "fieldtype": "Heading",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_iqdst",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshreiffbond",
+   "fieldtype": "Check",
+   "label": "DeputyShreiff Bond"
+  },
+  {
+   "fieldname": "column_break_sq51r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "otherbonds",
+   "fieldtype": "Check",
+   "label": "Other Bonds"
+  },
+  {
+   "fieldname": "section_break_azmaa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details1",
+   "fieldtype": "Heading",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "section_break_ykqai",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bondholder",
+   "fieldtype": "Data",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_dht5b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bondno",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "clientname",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "projectname",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "bondperiodfrom",
+   "fieldtype": "Date",
+   "label": " Bond Period From"
+  },
+  {
+   "fieldname": "bondvalue",
+   "fieldtype": "Currency",
+   "label": " Bond Value"
+  },
+  {
+   "fieldname": "bondtype1",
+   "fieldtype": "Data",
+   "label": " Bond Type"
+  },
+  {
+   "fieldname": "column_break_0bzyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bondextnreqdate",
+   "fieldtype": "Data",
+   "label": "Bond/ExtnReq Date"
+  },
+  {
+   "fieldname": "principal1",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "bondperiodto",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "extensionreqno",
+   "fieldtype": "Data",
+   "label": "Extension Req No"
+  },
+  {
+   "fieldname": "section_break_ndnli",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval",
+   "fieldtype": "Heading",
+   "label": "Approval"
+  },
+  {
+   "fieldname": "approved_on",
+   "fieldtype": "Date",
+   "label": "Approved On"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 21:21:10.597314",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Extensions",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

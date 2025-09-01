@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-28 06:57:38.857276",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facility_no",
+  "quotation_no",
+  "client",
+  "total_facility_amount",
+  "total_security",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "label": "Facility No"
+  },
+  {
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation No",
+   "options": "Bond Facility Quotation"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "total_facility_amount",
+   "fieldtype": "Data",
+   "label": "Total Facility Amount "
+  },
+  {
+   "fieldname": "total_security",
+   "fieldtype": "Data",
+   "label": "Total Security"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date",
+   "options": "Bond Facility Quotation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:40.261204",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "security Registration_ch",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

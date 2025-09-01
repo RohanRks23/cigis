@@ -1,0 +1,31 @@
+{
+ "cards": [
+  {
+   "card": "Credit Limit Reviews Approved List"
+  },
+  {
+   "card": "Credit Limit Reviews Pending List"
+  },
+  {
+   "card": "Credit Limit Reviews Rejected List"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Credit Limit Reviews",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 08:41:47.858103",
+ "dashboard_name": "Credit Limit Reviews",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 08:41:47.858103",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Credit Limit Reviews",
+ "owner": "Administrator"
+}

@@ -1,0 +1,262 @@
+{
+ "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{payment_no}",
+ "creation": "2024-04-05 08:11:25.761236",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_owmqv",
+  "ph_name",
+  "policy_no",
+  "policy_no1",
+  "client_type",
+  "inception_date",
+  "buyer",
+  "buyer1",
+  "terms_of_payment",
+  "section_break_x3khi",
+  "potential_claim_no",
+  "potential_claim_no1",
+  "credit_limit",
+  "cl_inception_date",
+  "total_payment",
+  "total_potential_claim_value",
+  "balance_claim_value",
+  "section_break_oc8zh",
+  "payment_details",
+  "section_break_k3r9h",
+  "payment_no",
+  "section_break_y5fxe",
+  "payment_mode",
+  "column_break_diube",
+  "direct_payment",
+  "column_break_pgjuj",
+  "through_beci",
+  "column_break_mxybd",
+  "column_break_wqvto",
+  "column_break_ybep1",
+  "section_break_sowjp",
+  "date",
+  "column_break_mkr28",
+  "amount_paid",
+  "section_break_3nfhg",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_owmqv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Select",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "policy_no1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "client_type",
+   "fieldtype": "Data",
+   "label": "Client Type"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Data",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "buyer1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "section_break_x3khi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "potential_claim_no",
+   "fieldtype": "Data",
+   "label": "Potential Claim No"
+  },
+  {
+   "fieldname": "potential_claim_no1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Potential Claim No"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "cl_inception_date",
+   "fieldtype": "Data",
+   "label": "CL Inception Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_payment",
+   "fieldtype": "Currency",
+   "label": "Total Payment"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_potential_claim_value",
+   "fieldtype": "Currency",
+   "label": "Total Potential Claim Value"
+  },
+  {
+   "default": "0",
+   "fieldname": "balance_claim_value",
+   "fieldtype": "Currency",
+   "label": "Balance Claim Value"
+  },
+  {
+   "fieldname": "section_break_oc8zh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_details",
+   "fieldtype": "Heading",
+   "label": "Payment Details"
+  },
+  {
+   "fieldname": "section_break_k3r9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_no",
+   "fieldtype": "Data",
+   "label": "Payment No"
+  },
+  {
+   "fieldname": "section_break_y5fxe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "HTML",
+   "label": "Payment Mode",
+   "options": "<p> Payment Mode </p>"
+  },
+  {
+   "fieldname": "column_break_diube",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "direct_payment",
+   "fieldtype": "Check",
+   "label": "Direct Payment",
+   "read_only_depends_on": "through_beci"
+  },
+  {
+   "fieldname": "column_break_pgjuj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "through_beci",
+   "fieldtype": "Check",
+   "label": "Through BECI",
+   "read_only_depends_on": "direct_payment"
+  },
+  {
+   "fieldname": "column_break_mxybd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wqvto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ybep1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_sowjp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_mkr28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "amount_paid",
+   "fieldtype": "Currency",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "section_break_3nfhg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-01 09:12:50.362245",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Potential Claim Payment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

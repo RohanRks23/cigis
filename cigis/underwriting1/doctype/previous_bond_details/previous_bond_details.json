@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-29 07:56:45.499463",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_no",
+  "bond_in_favour",
+  "period_from",
+  "to",
+  "amount_in_pula",
+  "security_required",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "bond_in_favour",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Principal"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Period From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Period To"
+  },
+  {
+   "fieldname": "amount_in_pula",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "security_required",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Security"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:43.784344",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Previous Bond Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

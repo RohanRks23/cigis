@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-29 06:57:03.580336",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sl_no",
+  "buyer",
+  "terms_of_payment",
+  "exchange_rate",
+  "fx_value",
+  "pula"
+ ],
+ "fields": [
+  {
+   "fieldname": "sl_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sl No"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exchange Rate"
+  },
+  {
+   "fieldname": "fx_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FX Value"
+  },
+  {
+   "fieldname": "pula",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pula"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:41.378528",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Export Declaration Chid",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

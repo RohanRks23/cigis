@@ -1,0 +1,42 @@
+{
+ "chart_name": "Credit Insurance",
+ "chart_type": "Report",
+ "creation": "2024-07-03 08:08:37.672459",
+ "custom_options": "{\n\n\"colors\":[\"#4CAFD3\",\"#ff8ab5\",\"#FEDDA0\",\"#FF9282\"]\n\n}\n ",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2024-07-03 08:08:37.672459",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Credit Insurance",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "UnderWriting Dashboard Chart",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "workflow_state",
+ "y_axis": [
+  {
+   "y_field": "approved"
+  },
+  {
+   "y_field": "rejected"
+  },
+  {
+   "y_field": "pending"
+  },
+  {
+   "y_field": "draft"
+  }
+ ]
+}

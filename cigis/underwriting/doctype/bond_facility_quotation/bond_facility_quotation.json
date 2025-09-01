@@ -1,0 +1,395 @@
+{
+ "_liked_by": "[\"amrutha.p@techbulls.co.in\", \"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2024-02-27 09:01:36.392509",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general",
+  "section_break_mne3v",
+  "name1",
+  "quotation_status",
+  "quotation_date",
+  "column_break_scr38",
+  "bond_facility_no",
+  "quotation_no",
+  "section_break_qsgwn",
+  "details",
+  "column_break_dfym8",
+  "bond_facility_limit1",
+  "bond_facility_limit2",
+  "bond_facility_limit3",
+  "bond_facility_limit4",
+  "net_bond_facility",
+  "column_break_ujbdk",
+  "c1",
+  "c2",
+  "c3",
+  "c4",
+  "c5",
+  "column_break_nbihl",
+  "security_percentage_for_limit_1",
+  "security_percentage_for_limit_2",
+  "security_percentage_for_limit_3",
+  "security_percentage_for_limit_4",
+  "security_percentage_for_limit_5",
+  "column_break_bfig5",
+  "note1",
+  "note2",
+  "note3",
+  "note4",
+  "note5",
+  "section_break_ljmkc",
+  "guarantee_fee_percentage",
+  "column_break_cy4ss",
+  "min_fee_guarantee",
+  "section_break_renpe",
+  "min_period_month",
+  "column_break_pd5bl",
+  "max_period_year",
+  "section_break_g6w9j",
+  "reinsurer_sending_date",
+  "column_break_3sdqi",
+  "reinsurer_response_date",
+  "section_break_v6ipl",
+  "reinsurer_feedback",
+  "ue_remake",
+  "created_date",
+  "gmapprover_remark",
+  "quotation_authorized_by",
+  "section_break_x2nfv",
+  "send_to_recommendation",
+  "column_break_vi09k",
+  "send_to",
+  "column_break_lg95e",
+  "send_to_recomendation",
+  "column_break_pwves",
+  "include_marketing_as_mail_recipient"
+ ],
+ "fields": [
+  {
+   "fieldname": "general",
+   "fieldtype": "Heading",
+   "label": "General"
+  },
+  {
+   "fieldname": "section_break_mne3v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "label": "  Name",
+   "options": "Bond Facility"
+  },
+  {
+   "fieldname": "quotation_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Quotation Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_scr38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_facility_no",
+   "fieldtype": "Data",
+   "label": "Bond Facility No"
+  },
+  {
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation No"
+  },
+  {
+   "fieldname": "section_break_qsgwn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Heading",
+   "label": "Details"
+  },
+  {
+   "fieldname": "column_break_dfym8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "bond_facility_limit1",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit1"
+  },
+  {
+   "fieldname": "bond_facility_limit2",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit2"
+  },
+  {
+   "fieldname": "bond_facility_limit3",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit3"
+  },
+  {
+   "fieldname": "bond_facility_limit4",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit4"
+  },
+  {
+   "fieldname": "net_bond_facility",
+   "fieldtype": "Currency",
+   "label": "Net bond Facility"
+  },
+  {
+   "fieldname": "security_percentage_for_limit_1",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit 1"
+  },
+  {
+   "fieldname": "security_percentage_for_limit_2",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit 2",
+   "options": "\n"
+  },
+  {
+   "fieldname": "security_percentage_for_limit_3",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit 3"
+  },
+  {
+   "fieldname": "security_percentage_for_limit_4",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit 4"
+  },
+  {
+   "fieldname": "security_percentage_for_limit_5",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit 5"
+  },
+  {
+   "fieldname": "note1",
+   "fieldtype": "Data",
+   "label": "Note"
+  },
+  {
+   "fieldname": "note2",
+   "fieldtype": "Data",
+   "label": "Note"
+  },
+  {
+   "fieldname": "note3",
+   "fieldtype": "Data",
+   "label": "Note"
+  },
+  {
+   "fieldname": "note4",
+   "fieldtype": "Data",
+   "label": "Note"
+  },
+  {
+   "fieldname": "note5",
+   "fieldtype": "Data",
+   "label": "Note"
+  },
+  {
+   "fieldname": "guarantee_fee_percentage",
+   "fieldtype": "Currency",
+   "label": "Guarantee Fee Percentage",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cy4ss",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "min_fee_guarantee",
+   "fieldtype": "Currency",
+   "label": "Min. fee/ Guarantee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_renpe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "min_period_month",
+   "fieldtype": "Data",
+   "label": "Min. Period (Month)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pd5bl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "max_period_year",
+   "fieldtype": "Int",
+   "label": "Max. Period (Year)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_g6w9j",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsurer_sending_date",
+   "fieldtype": "Date",
+   "label": "ReInsurer Sending Date"
+  },
+  {
+   "fieldname": "column_break_3sdqi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reinsurer_response_date",
+   "fieldtype": "Date",
+   "label": "ReInsurer Response Date"
+  },
+  {
+   "fieldname": "section_break_v6ipl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsurer_feedback",
+   "fieldtype": "Long Text",
+   "label": "ReInsurer FeedBack"
+  },
+  {
+   "fieldname": "ue_remake",
+   "fieldtype": "Long Text",
+   "label": "UE Remark"
+  },
+  {
+   "fieldname": "gmapprover_remark",
+   "fieldtype": "Long Text",
+   "label": "GM/Approver Remark"
+  },
+  {
+   "fieldname": "quotation_authorized_by",
+   "fieldtype": "Data",
+   "label": "Quotation Authorized By"
+  },
+  {
+   "fieldname": "section_break_x2nfv",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "send_to_recommendation",
+   "fieldtype": "Heading",
+   "hidden": 1,
+   "label": "Send To Recommendation"
+  },
+  {
+   "fieldname": "column_break_vi09k",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "send_to",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Send to"
+  },
+  {
+   "fieldname": "column_break_lg95e",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "send_to_recomendation",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Send To Recomendation"
+  },
+  {
+   "fieldname": "column_break_pwves",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "include_marketing_as_mail_recipient",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Include Marketing as mail recipient"
+  },
+  {
+   "fieldname": "c4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ujbdk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "c1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "c2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nbihl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bfig5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ljmkc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "c5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "quotation_status",
+   "fieldtype": "Data",
+   "label": "Quotation Status"
+  },
+  {
+   "fieldname": "created_date",
+   "fieldtype": "Data",
+   "label": "created Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-30 12:40:31.666958",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Bond Facility Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

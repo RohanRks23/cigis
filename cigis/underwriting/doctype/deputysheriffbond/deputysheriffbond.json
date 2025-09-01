@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sheriffname",
+ "creation": "2024-03-11 15:44:53.216621",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sheriffname",
+  "shortname",
+  "physicaladdress",
+  "telephone",
+  "column_break_wfcxi",
+  "status",
+  "postaladdress",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "sheriffname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sheriff Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "Short Name"
+  },
+  {
+   "fieldname": "physicaladdress",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Telephone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nACTIVE\nINACTIVE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "postaladdress",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Postal Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-Mail"
+  },
+  {
+   "fieldname": "column_break_wfcxi",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-15 17:59:59.387320",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "DeputySheriffBond",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

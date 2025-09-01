@@ -1,0 +1,278 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:dedbit_note_no",
+ "creation": "2024-03-21 08:19:35.370968",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "debit_note",
+  "section_break_avrex",
+  "invoice",
+  "section_break_xi2wo",
+  "policy_holder",
+  "ph_name",
+  "section_break_nhd0n",
+  "invoice_no",
+  "invoice_date",
+  "vat",
+  "column_break_yeqin",
+  "debit_note_date",
+  "dedbit_note_no",
+  "total_amountincl_vat",
+  "invoice_details_tab",
+  "section_break_dbar8",
+  "dd_amount",
+  "no_of_cls",
+  "no_of_cl_enq",
+  "column_break_yac0q",
+  "premium_rate",
+  "cl_fee",
+  "cl_enquiry_fee",
+  "column_break_c4m3i",
+  "premiumrate",
+  "clfee",
+  "clenquiryfee",
+  "debit_note_details_tab",
+  "section_break_hbyci",
+  "ddamount",
+  "noofcls",
+  "noofclenq",
+  "column_break_aqdn8",
+  "premium_rate1",
+  "cl_fee1",
+  "cl_enquiry_fee1",
+  "column_break_ruyw9",
+  "premium_rate2",
+  "cl_fee2",
+  "cl_enquiry_fee2",
+  "section_break_v7usg",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "debit_note",
+   "fieldtype": "Tab Break",
+   "label": "Debit Note"
+  },
+  {
+   "fieldname": "section_break_avrex",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Heading",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "section_break_xi2wo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "section_break_nhd0n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Percent",
+   "label": "Vat%"
+  },
+  {
+   "fieldname": "column_break_yeqin",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debit_note_date",
+   "fieldtype": "Date",
+   "label": "Debit Note Date"
+  },
+  {
+   "fieldname": "dedbit_note_no",
+   "fieldtype": "Data",
+   "label": "Dedbit Note No",
+   "unique": 1
+  },
+  {
+   "fieldname": "total_amountincl_vat",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount(incl VAT)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "invoice_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Invoice Details"
+  },
+  {
+   "fieldname": "section_break_dbar8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dd_amount",
+   "fieldtype": "Data",
+   "label": "Dd Amount"
+  },
+  {
+   "fieldname": "no_of_cls",
+   "fieldtype": "Data",
+   "label": "No Of CLs"
+  },
+  {
+   "fieldname": "no_of_cl_enq",
+   "fieldtype": "Data",
+   "label": "No of CL Enq"
+  },
+  {
+   "fieldname": "column_break_yac0q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "cl_fee",
+   "fieldtype": "Data",
+   "label": "CL fee"
+  },
+  {
+   "fieldname": "cl_enquiry_fee",
+   "fieldtype": "Data",
+   "label": "CL Enquiry fee"
+  },
+  {
+   "fieldname": "column_break_c4m3i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premiumrate",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "clfee",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "clenquiryfee",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "debit_note_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Debit Note Details"
+  },
+  {
+   "fieldname": "section_break_hbyci",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ddamount",
+   "fieldtype": "Data",
+   "label": " Dd Amount"
+  },
+  {
+   "fieldname": "noofcls",
+   "fieldtype": "Data",
+   "label": "No Of CLs"
+  },
+  {
+   "fieldname": "noofclenq",
+   "fieldtype": "Data",
+   "label": "No of CL Enq"
+  },
+  {
+   "fieldname": "column_break_aqdn8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate1",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "cl_fee1",
+   "fieldtype": "Data",
+   "label": " CL fee"
+  },
+  {
+   "fieldname": "cl_enquiry_fee1",
+   "fieldtype": "Data",
+   "label": "CL Enquiry fee"
+  },
+  {
+   "fieldname": "column_break_ruyw9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "cl_fee2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "cl_enquiry_fee2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_v7usg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-25 06:21:38.539655",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Debit Note",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

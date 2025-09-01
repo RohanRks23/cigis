@@ -1,0 +1,35 @@
+{
+ "cards": [
+  {
+   "card": "Submitted"
+  },
+  {
+   "card": "Approved"
+  },
+  {
+   "card": "Declined"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Dci Proposals",
+   "width": "Half"
+  },
+  {
+   "chart": "ECI Proposals",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-27 09:03:26.394733",
+ "dashboard_name": "Dciproposal",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 11:21:58.251544",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Dciproposal",
+ "owner": "ashok.r@techbulls.co.in"
+}

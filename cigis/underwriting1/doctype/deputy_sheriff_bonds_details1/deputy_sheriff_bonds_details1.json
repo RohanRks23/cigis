@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:facility_name",
+ "creation": "2024-02-29 08:06:37.523018",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "deputy_sheriff_bonds",
+  "section_break_suavy",
+  "bond_no",
+  "facility_name",
+  "bond_value",
+  "premium_without_vat",
+  "reinsuree",
+  "period_from",
+  "reinsurer",
+  "ecgc_reisurance",
+  "broker",
+  "column_break_ppi8w",
+  "description_contract",
+  "premium",
+  "premium_rate",
+  "reinsurer_percentage",
+  "to",
+  "security_type",
+  "upload_document",
+  "view_document",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "deputy_sheriff_bonds",
+   "fieldtype": "HTML",
+   "label": "Deputy Sheriff Bonds Details",
+   "options": " <h6 style=\"color: black;\">Deputy Sheriff Bonds Details</h6>"
+  },
+  {
+   "fieldname": "section_break_suavy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond No:"
+  },
+  {
+   "fieldname": "facility_name",
+   "fieldtype": "Link",
+   "label": "Sheriff Name:",
+   "options": "Bond Facility",
+   "unique": 1
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Float",
+   "label": "Bond Value ($):"
+  },
+  {
+   "fieldname": "premium_without_vat",
+   "fieldtype": "Float",
+   "label": "Premium Without Vat:"
+  },
+  {
+   "fieldname": "reinsuree",
+   "fieldtype": "Select",
+   "label": "ReInsurer:"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From:"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "ReInsurer Ref.Number/ECGC Invoice No:"
+  },
+  {
+   "fieldname": "ecgc_reisurance",
+   "fieldtype": "Percent",
+   "label": "ECGC ReInsurance Commision %"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Select",
+   "label": "Broker:"
+  },
+  {
+   "fieldname": "column_break_ppi8w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description_contract",
+   "fieldtype": "Small Text",
+   "label": "Description of Contract:"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "Float",
+   "label": "Premium:"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Percent",
+   "label": "Premium Rate %:"
+  },
+  {
+   "fieldname": "reinsurer_percentage",
+   "fieldtype": "Percent",
+   "label": "ReInsurer %"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "label": "To:"
+  },
+  {
+   "fieldname": "security_type",
+   "fieldtype": "Data",
+   "label": "Security Type:"
+  },
+  {
+   "fieldname": "upload_document",
+   "fieldtype": "Attach",
+   "label": "Upload Document"
+  },
+  {
+   "fieldname": "view_document",
+   "fieldtype": "Attach",
+   "label": "View Document"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Deputy Sheriff Bonds details1",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:41.968242",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Deputy Sheriff Bonds details1",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

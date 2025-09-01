@@ -1,0 +1,144 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{facility_no}",
+ "creation": "2024-02-16 10:54:06.329525",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_ixoct",
+  "section_break_okhik",
+  "section_break_vgv3f",
+  "name1",
+  "quotation_no",
+  "column_break_lfxkg",
+  "facility_no",
+  "facilityamount",
+  "section_break_trgy8",
+  "add_security",
+  "link",
+  "section_break_a7ypj",
+  "security_summary",
+  "total_security_registered",
+  "released_security",
+  "net_security",
+  "column_break_wkc0n",
+  "id"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_break_ixoct",
+   "fieldtype": "Tab Break",
+   "label": "Bond Facility security"
+  },
+  {
+   "fieldname": "section_break_okhik",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_vgv3f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_trgy8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Table",
+   "options": "Security Child"
+  },
+  {
+   "fieldname": "security_summary",
+   "fieldtype": "Heading",
+   "label": "Security Summary"
+  },
+  {
+   "fieldname": "total_security_registered",
+   "fieldtype": "Currency",
+   "label": "Total Security Registered:      p"
+  },
+  {
+   "fieldname": "released_security",
+   "fieldtype": "Currency",
+   "label": "Released Security:         p"
+  },
+  {
+   "fieldname": "net_security",
+   "fieldtype": "Currency",
+   "label": "Net Security:         p"
+  },
+  {
+   "fieldname": "add_security",
+   "fieldtype": "Button",
+   "label": "Add Security"
+  },
+  {
+   "fieldname": "column_break_wkc0n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "ID"
+  },
+  {
+   "fieldname": "section_break_a7ypj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name"
+  },
+  {
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation No"
+  },
+  {
+   "fieldname": "column_break_lfxkg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "label": "Facility no"
+  },
+  {
+   "fieldname": "facilityamount",
+   "fieldtype": "Data",
+   "label": "Facility Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-08 06:58:08.276889",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Security",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{company}",
+ "creation": "2024-03-21 07:11:52.619320",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "credit",
+  "section_break_fntlj",
+  "company",
+  "address",
+  "dear_sirmadam",
+  "section_break_wfya2",
+  "quotation",
+  "companyname",
+  "paragraph",
+  "section_break_589z6",
+  "markting_manager"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "HTML",
+   "label": "credit",
+   "options": "<p style=\"text-align: right;\"><b>Export Credit Insurance and Guarantee<br>Company(Botswana) Pty. Ltd.<br>Private Bag BO 279, Bontleng, Gaborone, Botswana<br>Unit 1, Plot 142 Gaborone International Finance Park<br>Telephone: +267 318 8015, Facsimile: +267 318 8017<br>Email: beci@beci.co.bw<br>Website: http://www.beci.co.bw</b></p>"
+  },
+  {
+   "fieldname": "section_break_fntlj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "THE MANAGER"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "OF"
+  },
+  {
+   "fieldname": "dear_sirmadam",
+   "fieldtype": "HTML",
+   "label": "Dear Mr/Mrs",
+   "options": "<h5>Dear Mr/Mrs.</h5>\n"
+  },
+  {
+   "fieldname": "section_break_wfya2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "HTML",
+   "label": "Quotation",
+   "options": "<h5>QUOTATION FOR DOMESTIC SUPPLIER CREDIT COVER</h5><br><p>Thank you for responding to our proposal forms. We have made considerations to your request, and present here with a quotation with regarding to your proposal.<br>We enclose the following documents for your consideration : \n</p>\n<p>1. Domestic Credit Insurance Cover Specimen Policy and Endorsement <br>\n2. A Quotation Schedule.<br>3. An Acceptance Advice Form<br>4. Consent Form<br>5. A guide to  the collection of overdue amounts as per Proviso 12 of the Standard Domestic  policy Cover.<br><br>We draw your attention to the fact that this quotation is given subject to BECI obtaining a good bank report on  </p>"
+  },
+  {
+   "fieldname": "companyname",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": " It is valid for 60 days. if you accept this quotation, we would be grateful to receive your signed Acceptance Advice and Consent form.<br><br>  <br>Please do not hesitate to contact the underdesigned on any issue you consider relevant to your policy proposal.<p></p><p>\nYours Sincerely,</p>"
+  },
+  {
+   "fieldname": "section_break_589z6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "markting_manager",
+   "fieldtype": "HTML",
+   "label": "Markting Manager",
+   "options": "<h4><b>MARKETING MANAGER</b></h4>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-23 10:48:19.475057",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Covering Letters",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:receiptno",
+ "creation": "2024-04-02 09:56:47.641686",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "receiptno",
+  "reference",
+  "policyno",
+  "depositamt",
+  "totaldeduction",
+  "depositbalance",
+  "deduct_from_deposit",
+  "receiptamt",
+  "paymnetmode",
+  "paymentdate",
+  "column_break_ayrew",
+  "receiptdate",
+  "invoiceno",
+  "payments",
+  "deductamt",
+  "invoicebalanceamt",
+  "no"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "receiptno",
+   "fieldtype": "Data",
+   "label": "Recipt No",
+   "unique": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  },
+  {
+   "fieldname": "policyno",
+   "fieldtype": "Data",
+   "label": "PolicyNo"
+  },
+  {
+   "fieldname": "depositamt",
+   "fieldtype": "Currency",
+   "label": "Deposit Amt"
+  },
+  {
+   "fieldname": "totaldeduction",
+   "fieldtype": "Currency",
+   "label": "Total Deduction"
+  },
+  {
+   "fieldname": "depositbalance",
+   "fieldtype": "Currency",
+   "label": "Deposit Balance"
+  },
+  {
+   "default": "0",
+   "fieldname": "deduct_from_deposit",
+   "fieldtype": "Check",
+   "label": "Deduct From Deposit",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "receiptamt",
+   "fieldtype": "Currency",
+   "label": "Receipt Amt"
+  },
+  {
+   "fieldname": "paymnetmode",
+   "fieldtype": "Data",
+   "label": "Payment Mode"
+  },
+  {
+   "fieldname": "paymentdate",
+   "fieldtype": "Date",
+   "label": "Payment Date"
+  },
+  {
+   "fieldname": "column_break_ayrew",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receiptdate",
+   "fieldtype": "Date",
+   "label": "Receipt Date"
+  },
+  {
+   "fieldname": "invoiceno",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "payments",
+   "fieldtype": "Data",
+   "label": "Payments"
+  },
+  {
+   "fieldname": "deductamt",
+   "fieldtype": "Data",
+   "label": "Deduct Amt"
+  },
+  {
+   "fieldname": "invoicebalanceamt",
+   "fieldtype": "Data",
+   "label": "Invoice Balance Amt"
+  },
+  {
+   "fieldname": "no",
+   "fieldtype": "Data",
+   "label": "No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-21 07:13:42.475698",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Receipt",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

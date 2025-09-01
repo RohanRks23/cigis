@@ -1,0 +1,367 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:credit_note_no",
+ "creation": "2024-03-21 08:11:01.164135",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_note",
+  "section_break_dzaeu",
+  "invoice",
+  "section_break_ov1ux",
+  "policy_holder",
+  "policy_holder1",
+  "section_break_cwlkb",
+  "invoice_no",
+  "invoice_date",
+  "vat",
+  "column_break_ivii4",
+  "credit_note_date",
+  "credit_note_no",
+  "total_amountincl_vat",
+  "section_break_jqsgb",
+  "invoce_details",
+  "section_break_b27lx",
+  "credit_note_child",
+  "section_break_y56ey",
+  "dcl_amount1",
+  "no_of_cls",
+  "no_of_cl_enq",
+  "column_break_zfhs8",
+  "premium_rate1",
+  "cl_fee",
+  "cl_enquiry_fee",
+  "column_break_yxuq6",
+  "a",
+  "b",
+  "c",
+  "column_break_5xihb",
+  "credit_note_details",
+  "section_break_j9n5g",
+  "credit_note_child1",
+  "section_break_rfedf",
+  "dcl_amount2",
+  "no_of_cls1",
+  "no_of_cl_enq1",
+  "comments",
+  "column_break_htzb6",
+  "premium_rate2",
+  "cl_fee1",
+  "cl_enquiry_fee1",
+  "column_break_lghjb",
+  "d",
+  "e",
+  "f",
+  "section_break_wnero",
+  "column_break_0lhsl",
+  "column_break_lfqni",
+  "column_break_wpocd",
+  "column_break_nleav",
+  "internal_invoice",
+  "column_break_u2rrk",
+  "tax_invoice",
+  "column_break_0yyww",
+  "cancel"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_note",
+   "fieldtype": "HTML",
+   "label": "Credit Note",
+   "options": "<h3>Credit Note</h3><h3></h3>"
+  },
+  {
+   "fieldname": "section_break_dzaeu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Heading",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "section_break_ov1ux",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "policy_holder1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "section_break_cwlkb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice Number"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Vat%"
+  },
+  {
+   "fieldname": "column_break_ivii4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_note_date",
+   "fieldtype": "Data",
+   "label": "Credit Note Date"
+  },
+  {
+   "fieldname": "credit_note_no",
+   "fieldtype": "Data",
+   "label": "Credit Note Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "total_amountincl_vat",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Amount(incl VAT):                P",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_jqsgb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoce_details",
+   "fieldtype": "HTML",
+   "label": "Invoce Details",
+   "options": "<h5>Invoce Details</h5>"
+  },
+  {
+   "fieldname": "section_break_b27lx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_note_child",
+   "fieldtype": "Table",
+   "options": "credit note child"
+  },
+  {
+   "fieldname": "section_break_y56ey",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dcl_amount1",
+   "fieldtype": "Data",
+   "label": "Dcl.Amount :   P"
+  },
+  {
+   "fieldname": "no_of_cls",
+   "fieldtype": "Data",
+   "label": "No.of CLs"
+  },
+  {
+   "fieldname": "no_of_cl_enq",
+   "fieldtype": "Data",
+   "label": "No.of CL Enq."
+  },
+  {
+   "fieldname": "column_break_zfhs8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate1",
+   "fieldtype": "Data",
+   "label": "Premium Rate:"
+  },
+  {
+   "fieldname": "cl_fee",
+   "fieldtype": "Data",
+   "label": "CL fee:     P"
+  },
+  {
+   "fieldname": "cl_enquiry_fee",
+   "fieldtype": "Data",
+   "label": "CL Enquiry fee:    P"
+  },
+  {
+   "fieldname": "column_break_yxuq6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Currency",
+   "label": "P"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Currency",
+   "label": "P"
+  },
+  {
+   "fieldname": "c",
+   "fieldtype": "Currency",
+   "label": "P"
+  },
+  {
+   "fieldname": "column_break_5xihb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_note_details",
+   "fieldtype": "Heading",
+   "label": "Credit Note Details "
+  },
+  {
+   "fieldname": "section_break_j9n5g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_note_child1",
+   "fieldtype": "Table",
+   "options": "Credit Note Child2"
+  },
+  {
+   "fieldname": "section_break_rfedf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dcl_amount2",
+   "fieldtype": "Data",
+   "label": "Dcl.Amount: P"
+  },
+  {
+   "fieldname": "no_of_cls1",
+   "fieldtype": "Data",
+   "label": "No.of CLs"
+  },
+  {
+   "fieldname": "no_of_cl_enq1",
+   "fieldtype": "Data",
+   "label": "No.of CLs Enq."
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "label": "Comments:"
+  },
+  {
+   "fieldname": "column_break_htzb6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate2",
+   "fieldtype": "Data",
+   "label": "Premium Rate: P"
+  },
+  {
+   "fieldname": "cl_fee1",
+   "fieldtype": "Data",
+   "label": "CL fee:     P"
+  },
+  {
+   "fieldname": "cl_enquiry_fee1",
+   "fieldtype": "Data",
+   "label": "CL Enquiry fee:    P"
+  },
+  {
+   "fieldname": "column_break_lghjb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d",
+   "fieldtype": "Currency",
+   "label": "P"
+  },
+  {
+   "fieldname": "e",
+   "fieldtype": "Currency",
+   "label": "P"
+  },
+  {
+   "fieldname": "f",
+   "fieldtype": "Currency",
+   "label": "P"
+  },
+  {
+   "fieldname": "section_break_wnero",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_0lhsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lfqni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wpocd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nleav",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "internal_invoice",
+   "fieldtype": "Button",
+   "label": "Internal Invoice"
+  },
+  {
+   "fieldname": "column_break_u2rrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tax_invoice",
+   "fieldtype": "Button",
+   "label": "Tax Invoice"
+  },
+  {
+   "fieldname": "column_break_0yyww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "Cancel"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-25 06:46:39.081833",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Credit Note",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

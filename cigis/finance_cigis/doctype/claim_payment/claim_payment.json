@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{payment_no}",
+ "creation": "2024-06-03 10:47:19.649173",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "payment_details",
+  "section_break_ni7aq",
+  "client",
+  "payment_no",
+  "payment_amount",
+  "comments",
+  "column_break_z0yna",
+  "payment_mode",
+  "payment_date",
+  "transaction_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "payment_details",
+   "fieldtype": "Heading",
+   "label": "Payment Details"
+  },
+  {
+   "fieldname": "section_break_ni7aq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "payment_no",
+   "fieldtype": "Data",
+   "label": "Payment No"
+  },
+  {
+   "fieldname": "payment_amount",
+   "fieldtype": "Data",
+   "label": "Payment Amount"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_z0yna",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Data",
+   "label": "Payment Mode"
+  },
+  {
+   "fieldname": "payment_date",
+   "fieldtype": "Date",
+   "label": "Payment Date"
+  },
+  {
+   "fieldname": "transaction_no",
+   "fieldtype": "Data",
+   "label": "Transaction No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-27 09:49:40.460013",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Claim Payment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

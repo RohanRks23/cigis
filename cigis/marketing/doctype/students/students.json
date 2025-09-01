@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PRE. collage",
+ "creation": "2024-07-26 11:57:55.017752",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "collage",
+  "pincode",
+  "student_details",
+  "section_break_fdltp",
+  "country",
+  "phone"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Select",
+   "label": "Country",
+   "options": "\nBW\nIN\nCH"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "student_details",
+   "fieldtype": "Table",
+   "label": "student Details",
+   "options": "Student_child"
+  },
+  {
+   "fieldname": "collage",
+   "fieldtype": "Data",
+   "label": "Collage",
+   "options": "Select\nUnited States\nUnited Kingdom"
+  },
+  {
+   "fieldname": "section_break_fdltp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-22 11:48:09.932182",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Students",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

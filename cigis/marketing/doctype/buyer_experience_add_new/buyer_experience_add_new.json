@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-01 13:52:36.746114",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "section_break_vjabu",
+  "client_short_name",
+  "name1",
+  "column_break_9jcbg",
+  "proposal_no",
+  "id",
+  "section_break_9u6qj",
+  "buyer_experience1",
+  "section_break_pgi1g",
+  "financial_year",
+  "column_break_yiz5r",
+  "largest_loss",
+  "section_break_8laeb",
+  "turnover",
+  "relative_bad_debt_loss",
+  "section_break_2hvbv",
+  "largest_lost_client_name",
+  "column_break_gmn80",
+  "new",
+  "section_break_a7hhx",
+  "save",
+  "cancel",
+  "section_break_hjs0q",
+  "underwrite"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "Company"
+  },
+  {
+   "fieldname": "section_break_vjabu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_short_name",
+   "fieldtype": "Data",
+   "label": "Client Short Name"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_9jcbg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID"
+  },
+  {
+   "fieldname": "section_break_9u6qj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer_experience1",
+   "fieldtype": "Heading",
+   "label": "Buyer Experience"
+  },
+  {
+   "fieldname": "section_break_pgi1g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "financial_year",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Financial Year ",
+   "options": "\n2000\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_yiz5r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "largest_loss",
+   "fieldtype": "Currency",
+   "label": "Largest Loss",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8laeb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "turnover",
+   "fieldtype": "Currency",
+   "label": "Turnover",
+   "reqd": 1
+  },
+  {
+   "fieldname": "relative_bad_debt_loss",
+   "fieldtype": "Currency",
+   "label": "Relative Bad Debt Loss",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_2hvbv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "largest_lost_client_name",
+   "fieldtype": "Link",
+   "label": "Largest Lost (Client Name)",
+   "options": "Add_Buyers"
+  },
+  {
+   "fieldname": "column_break_gmn80",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new",
+   "fieldtype": "Button",
+   "label": "New"
+  },
+  {
+   "fieldname": "section_break_a7hhx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save and Continue"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "section_break_hjs0q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "underwrite",
+   "fieldtype": "HTML",
+   "label": "underwrite",
+   "options": "<style>\n  .underlined {\n    text-decoration: underline;\n    color: #8B4513; /* Brown color */\n  }\n</style>\n<p>\n    <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/directors_shareholders\" target=\"_blank\">Directors Shareholders</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/nature_of_business\" target=\"_blank\">Nature of Business</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/buyer_experience\" target=\"_blank\">Buyer Experience</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/debt-history\" target=\"_blank\">Debt History</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/debtor-schedule\" target=\"_blank\">Debtor Schedule</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/principal-buyer\" target=\"_blank\">Principal Buyer</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/quotation1\" target=\"_blank\">Quotation</a>\n  <a class=\"underlined\" href=\"http://frappe-rd.sais-erp.com:9100/app/status\">Status</a>\n</p>\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 11:16:35.914476",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Buyer_Experience_Add_New",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

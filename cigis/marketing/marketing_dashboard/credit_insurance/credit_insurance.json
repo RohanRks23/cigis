@@ -1,0 +1,41 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "ECI Proposals",
+   "width": "Half"
+  },
+  {
+   "chart": "Dci Quotations",
+   "width": "Half"
+  },
+  {
+   "chart": "Eci Quotation",
+   "width": "Half"
+  },
+  {
+   "chart": "DCI Proposal",
+   "width": "Half"
+  },
+  {
+   "chart": "Bond Facility",
+   "width": "Half"
+  },
+  {
+   "chart": "Policy Approvals",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-27 09:03:26.394733",
+ "dashboard_name": "Credit Insurance",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-07-01 10:53:58.062056",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Credit Insurance",
+ "owner": "ashok.r@techbulls.co.in"
+}

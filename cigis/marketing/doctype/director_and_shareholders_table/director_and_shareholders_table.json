@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-30 06:34:38.581033",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_type",
+  "surname",
+  "first_name",
+  "e_mail_id",
+  "fax_no",
+  "id_number",
+  "middle_name",
+  "contact_no",
+  "share_held",
+  "designation"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID Type"
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Surname"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name"
+  },
+  {
+   "fieldname": "e_mail_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "E-mail Id"
+  },
+  {
+   "fieldname": "fax_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fax No"
+  },
+  {
+   "fieldname": "id_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID Number"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "share_held",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "%Share Held"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Designation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-30 06:44:14.911372",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Director and Shareholders Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,408 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{review_number}",
+ "creation": "2024-03-28 18:20:32.133387",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facility_review",
+  "previous_details",
+  "name1",
+  "facility_no",
+  "column_break_njof3",
+  "review_date",
+  "review_number",
+  "review_type",
+  "column_break_enpfv",
+  "column_break_7sy1i",
+  "review",
+  "column_break_ajm2z",
+  "suspension",
+  "column_break_ntyac",
+  "restate",
+  "existing_facility_details",
+  "bond_facility_limit1",
+  "bond_facility_limit2",
+  "bond_facility_limit3",
+  "bond_facility_limit4",
+  "net_facility_amount",
+  "column_break_kkwwv",
+  "security_per_limit1",
+  "security_per_limit2",
+  "security_per_limit3",
+  "security_per_limit4",
+  "security_per_limit5",
+  "review_detailsnew_facility_details_section",
+  "bond_facility_limits1",
+  "bond_facility_limits2",
+  "bond_facility_limits3",
+  "bond_facility_limits4",
+  "net_facility_amounts",
+  "column_break_ssci1",
+  "security_per_limits1",
+  "security_per_limits2",
+  "security_per_limits3",
+  "security_per_limits4",
+  "security_per_limits5",
+  "section_break_txksj",
+  "ue_remarks",
+  "underwriting_remarks",
+  "column_break_lsda4",
+  "section_break_gp34v",
+  "gmapprover_remarks",
+  "gm_remarks",
+  "column_break_lw6xr",
+  "section_break_jcnbq",
+  "send_to_recomendation",
+  "section_break_0iqvw",
+  "send",
+  "column_break_jtn7f",
+  "send_to_recommendation",
+  "section_break_e4pfo",
+  "documents",
+  "section_break_3xyof",
+  "upload_document",
+  "section_break_eroii",
+  "new_terms_accepted_by_client_details",
+  "accepted_by",
+  "accepted_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "facility_review",
+   "fieldtype": "Heading",
+   "label": "Facility Review"
+  },
+  {
+   "fieldname": "previous_details",
+   "fieldtype": "Section Break",
+   "label": "Previous Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name"
+  },
+  {
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility No"
+  },
+  {
+   "fieldname": "column_break_njof3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "review_date",
+   "fieldtype": "Date",
+   "label": "Review Date"
+  },
+  {
+   "fieldname": "review_number",
+   "fieldtype": "Data",
+   "label": "Review Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "review_type",
+   "fieldtype": "Section Break",
+   "label": "Review Type"
+  },
+  {
+   "fieldname": "column_break_enpfv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_7sy1i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "review",
+   "fieldtype": "Check",
+   "label": "Review",
+   "read_only_depends_on": "eval:doc.restate || doc.suspension"
+  },
+  {
+   "fieldname": "column_break_ajm2z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "suspension",
+   "fieldtype": "Check",
+   "label": "Suspension",
+   "read_only_depends_on": "eval:doc.restate || doc.review"
+  },
+  {
+   "fieldname": "column_break_ntyac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "restate",
+   "fieldtype": "Check",
+   "label": "Restate",
+   "read_only_depends_on": "eval:doc.suspension || doc.review"
+  },
+  {
+   "fieldname": "existing_facility_details",
+   "fieldtype": "Section Break",
+   "label": "Existing Facility Details"
+  },
+  {
+   "fieldname": "bond_facility_limit1",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit1efd:"
+  },
+  {
+   "fieldname": "bond_facility_limit2",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit2efd:"
+  },
+  {
+   "fieldname": "bond_facility_limit3",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit3efd:"
+  },
+  {
+   "fieldname": "bond_facility_limit4",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit4efd:"
+  },
+  {
+   "fieldname": "net_facility_amount",
+   "fieldtype": "Currency",
+   "label": "Net Facility Amountefd:"
+  },
+  {
+   "fieldname": "column_break_kkwwv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "security_per_limit1",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit1efd:"
+  },
+  {
+   "fieldname": "security_per_limit2",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit2efd:"
+  },
+  {
+   "fieldname": "security_per_limit3",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit3efd:"
+  },
+  {
+   "fieldname": "security_per_limit4",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit4efd:"
+  },
+  {
+   "fieldname": "security_per_limit5",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit5efd:"
+  },
+  {
+   "depends_on": "review",
+   "fieldname": "review_detailsnew_facility_details_section",
+   "fieldtype": "Section Break",
+   "label": "Review Details(New Facility Details)"
+  },
+  {
+   "fieldname": "bond_facility_limits1",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit1rdf:"
+  },
+  {
+   "fieldname": "bond_facility_limits2",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit2rdf:"
+  },
+  {
+   "fieldname": "bond_facility_limits3",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit3rdf:"
+  },
+  {
+   "fieldname": "bond_facility_limits4",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit4rdf:"
+  },
+  {
+   "fieldname": "net_facility_amounts",
+   "fieldtype": "Currency",
+   "label": "Net Facility Amountrdf:"
+  },
+  {
+   "fieldname": "column_break_ssci1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "security_per_limits1",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit1rdf:"
+  },
+  {
+   "fieldname": "security_per_limits2",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit2rdf:"
+  },
+  {
+   "fieldname": "security_per_limits3",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit3rdf:"
+  },
+  {
+   "fieldname": "security_per_limits4",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit4rdf:"
+  },
+  {
+   "fieldname": "security_per_limits5",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit5rdf:"
+  },
+  {
+   "fieldname": "section_break_txksj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ue_remarks",
+   "fieldtype": "Heading",
+   "label": "UE Remarks"
+  },
+  {
+   "fieldname": "underwriting_remarks",
+   "fieldtype": "Small Text",
+   "label": "Underwriting Remarks"
+  },
+  {
+   "fieldname": "column_break_lsda4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_gp34v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gmapprover_remarks",
+   "fieldtype": "Heading",
+   "hidden": 1,
+   "label": "GM/APPROVER Remarks"
+  },
+  {
+   "fieldname": "gm_remarks",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "label": "GM Remarks:"
+  },
+  {
+   "fieldname": "column_break_lw6xr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_jcnbq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "send_to_recomendation",
+   "fieldtype": "Heading",
+   "hidden": 1,
+   "label": "Send To Recomendation"
+  },
+  {
+   "fieldname": "section_break_0iqvw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "send",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Send to:",
+   "options": "Select\nBonani Dube\nRocky Ramalefo\nAgree L Sebinyane\nHarold Kuvenga\nMurphy Ntuane\nAmantle Ramokutsomo\nTshepo Nfakose\nCowell Habana\nOnkabetse Magang\nMtlhogonolo Leoketsa"
+  },
+  {
+   "fieldname": "column_break_jtn7f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "send_to_recommendation",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Send To Recomendation"
+  },
+  {
+   "fieldname": "section_break_e4pfo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "documents",
+   "fieldtype": "Heading",
+   "hidden": 1,
+   "label": "Documents"
+  },
+  {
+   "fieldname": "section_break_3xyof",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "upload_document",
+   "fieldtype": "Attach",
+   "hidden": 1,
+   "label": "Upload Document"
+  },
+  {
+   "fieldname": "section_break_eroii",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "new_terms_accepted_by_client_details",
+   "fieldtype": "Heading",
+   "hidden": 1,
+   "label": "New Terms Accepted By (Client Details)"
+  },
+  {
+   "fieldname": "accepted_by",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Accepted By"
+  },
+  {
+   "fieldname": "accepted_on",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Accepted on"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-01 08:37:50.342622",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Facility Review",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

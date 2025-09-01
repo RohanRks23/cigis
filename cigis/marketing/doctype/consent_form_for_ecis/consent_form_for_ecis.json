@@ -1,0 +1,190 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{to}",
+ "creation": "2024-02-28 08:50:34.163992",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "export_credit",
+  "line",
+  "consent_form_to_request_bank_report",
+  "to",
+  "section_break_lof4w",
+  "section_break_zu9ov",
+  "of",
+  "section_break_zecxi",
+  "html",
+  "section_break_w5f7b",
+  "section_break_ly2iv",
+  "company_name",
+  "bank",
+  "branch",
+  "designation",
+  "account_number",
+  "signature",
+  "section_break_yk9w5",
+  "html1",
+  "section_break_mjivf",
+  "company_stamp",
+  "section_break_ldgbt",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "export_credit",
+   "fieldtype": "HTML",
+   "label": "Export Credit",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "LINE",
+   "options": "_____________________________________________________________________________________________________________________________________________________________________________________________________________________"
+  },
+  {
+   "fieldname": "consent_form_to_request_bank_report",
+   "fieldtype": "HTML",
+   "label": "CONSENT FORM TO REQUEST BANK REPORT",
+   "options": "\n\n\n    <style>\n        .center {\n            text-align: center;\n        }\n    </style>\n\n\n    <div class=\"center\">\n        <p><b> CONSENT FORM TO REQUEST BANK REPORT</b></p>\n    </div>\n\n\n"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "TO",
+   "options": "\n\n\n\n\n    <p><b>To</b>    : </p><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "section_break_lof4w",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_zu9ov",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "OF",
+   "options": "\n\n\n\n\n\n    <p><b>OF</b>    : P O BOX 80180, GABORONE</p><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "section_break_zecxi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "\n\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Authorization Paragraph</title>\n\n\n\n    <p></p><h5>Hereby give BECI authority to obtain a bank report on the business account of:</h5><h5><p></p>\n   \n\n\n</h5>"
+  },
+  {
+   "fieldname": "section_break_w5f7b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ly2iv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company name",
+   "options": "\n  \n\n\n\n    <p><b>Company name</b>         : </p><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number",
+   "options": "\n\n\n\n    <p><b>Account Number</b>    : </p><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation",
+   "options": "\n\n\n\n\n    <p><b>Disignation</b>    : </p><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature",
+   "options": "\n\n   \n\n\n\n    <p><b>Signature</b>    : </p><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "section_break_yk9w5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html1",
+   "fieldtype": "HTML",
+   "label": "html1",
+   "options": "    <p></p><h5>we aslo give Bank authority to debit the comapany's account with the relevant charge for the Bank report.</h5><h5><p></p></h5>"
+  },
+  {
+   "fieldname": "section_break_mjivf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_stamp",
+   "fieldtype": "HTML",
+   "label": "Company stamp",
+   "options": "\n\n\n\n    <p><b>Company stamp:</b>  </p>"
+  },
+  {
+   "fieldname": "section_break_ldgbt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "HTML",
+   "label": "Date"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Data",
+   "label": "Bank",
+   "options": "\n\n    \n\n\n\n    <p><b>Bank/Branch</b>    :  </p><b>\n\n\n</b>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-24 08:36:06.449182",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Consent Form For ECIS",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

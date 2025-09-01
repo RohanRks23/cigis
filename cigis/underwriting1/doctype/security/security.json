@@ -1,0 +1,207 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 10:54:06.329525",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "security_tab",
+  "security_registration",
+  "section_break_lf75d",
+  "period_from",
+  "client",
+  "quotation_number",
+  "column_break_zqm5e",
+  "period_to",
+  "facility_number",
+  "section_break_xkheq",
+  "search_results",
+  "child_table",
+  "tab_break_ixoct",
+  "section_break_okhik",
+  "name1",
+  "quotation_no",
+  "column_break_st4lo",
+  "facility_no",
+  "facility_amount",
+  "section_break_vgv3f",
+  "security_details",
+  "add_security",
+  "section_break_trgy8",
+  "link",
+  "security_summary",
+  "total_security_registered",
+  "released_security",
+  "net_security"
+ ],
+ "fields": [
+  {
+   "fieldname": "security_tab",
+   "fieldtype": "Tab Break",
+   "label": "Security"
+  },
+  {
+   "fieldname": "security_registration",
+   "fieldtype": "Heading",
+   "label": "security Registration"
+  },
+  {
+   "fieldname": "section_break_lf75d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "column_break_zqm5e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "Period To"
+  },
+  {
+   "fieldname": "facility_number",
+   "fieldtype": "Data",
+   "label": "Facility Number"
+  },
+  {
+   "fieldname": "section_break_xkheq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "search_results",
+   "fieldtype": "Heading",
+   "label": "Search Results"
+  },
+  {
+   "fieldname": "child_table",
+   "fieldtype": "Table",
+   "label": "child table",
+   "options": "security Registration_ch"
+  },
+  {
+   "fieldname": "tab_break_ixoct",
+   "fieldtype": "Tab Break",
+   "label": "Bond Facility security"
+  },
+  {
+   "fieldname": "section_break_okhik",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "quotation_no.name1",
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Bond Facility Quotation"
+  },
+  {
+   "fetch_from": "name1.quotation_no",
+   "fetch_if_empty": 1,
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation No"
+  },
+  {
+   "fieldname": "column_break_st4lo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "name1.bond_facility_no",
+   "fetch_if_empty": 1,
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "label": "Facility No"
+  },
+  {
+   "fetch_if_empty": 1,
+   "fieldname": "facility_amount",
+   "fieldtype": "Data",
+   "label": "Facility Amount"
+  },
+  {
+   "fieldname": "section_break_vgv3f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "security_details",
+   "fieldtype": "Heading",
+   "label": "Security Details"
+  },
+  {
+   "fieldname": "add_security",
+   "fieldtype": "Button",
+   "label": "Add Security"
+  },
+  {
+   "fieldname": "section_break_trgy8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Table",
+   "options": "Security Child"
+  },
+  {
+   "fieldname": "security_summary",
+   "fieldtype": "Heading",
+   "label": "Security Summary"
+  },
+  {
+   "fieldname": "total_security_registered",
+   "fieldtype": "Currency",
+   "label": "Total Security Registered:      p"
+  },
+  {
+   "fieldname": "released_security",
+   "fieldtype": "Currency",
+   "label": "Released Security:         p"
+  },
+  {
+   "fieldname": "net_security",
+   "fieldtype": "Int",
+   "label": "Net Security:         p"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:39.874176",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Security",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

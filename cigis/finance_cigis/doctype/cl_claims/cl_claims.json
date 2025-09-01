@@ -1,0 +1,192 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-19 08:30:19.969454",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_insurence_claim_details",
+  "section_break_phzu5",
+  "general_info",
+  "ph_name",
+  "policy_no",
+  "inception_date",
+  "buyer",
+  "terms_of_payment",
+  "potential_claim_no",
+  "claim_value",
+  "cause_of_loss",
+  "claim_date",
+  "column_break_merzo",
+  "client_type",
+  "credit_limit",
+  "claim_ref_no",
+  "cl_inception_date",
+  "cl_expiry_date",
+  "notes",
+  "section_break_4qghd",
+  "claim_invoices",
+  "section_break_lra8u",
+  "save",
+  "column_break_l1e5a",
+  "cancel"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_insurence_claim_details",
+   "fieldtype": "Heading",
+   "label": "Credit Insurence Claim Details"
+  },
+  {
+   "fieldname": "section_break_phzu5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General info"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PH Name",
+   "options": "select",
+   "reqd": 1
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Policy No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Buyer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "potential_claim_no",
+   "fieldtype": "Select",
+   "label": "Potential Claim No"
+  },
+  {
+   "fieldname": "claim_value",
+   "fieldtype": "Data",
+   "label": "Claim Value"
+  },
+  {
+   "fieldname": "cause_of_loss",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cause of Loss",
+   "reqd": 1
+  },
+  {
+   "fieldname": "claim_date",
+   "fieldtype": "Date",
+   "label": "Claim Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_merzo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client_type",
+   "fieldtype": "Data",
+   "label": "Client Type"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Data",
+   "label": "Claim Ref No"
+  },
+  {
+   "fieldname": "cl_inception_date",
+   "fieldtype": "Data",
+   "label": "CL Inception Date"
+  },
+  {
+   "fieldname": "cl_expiry_date",
+   "fieldtype": "Data",
+   "label": "CL Expiry Date"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_4qghd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "claim_invoices",
+   "fieldtype": "Data",
+   "label": "Claim Invoices"
+  },
+  {
+   "fieldname": "section_break_lra8u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save"
+  },
+  {
+   "fieldname": "column_break_l1e5a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "Cancel"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:50.975114",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "CL Claims",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

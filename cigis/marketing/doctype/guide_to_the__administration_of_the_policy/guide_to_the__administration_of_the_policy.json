@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PLY.#####",
+ "creation": "2024-02-01 11:28:39.672024",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "column_break_31mdy",
+  "address",
+  "section_break_dpcla",
+  "heading",
+  "paragraph",
+  "table",
+  "paragraph2"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "Image",
+   "options": "  <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "column_break_31mdy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "section_break_dpcla",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<h3>GUIDELINE TO COLLECTION OF OVERDUE AMOUNTS</h3>"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p>It has come to our attention that some of our valued policy holders are not adhering to the credit control and debt\ncollection procedures stipulated in Proviso 12 of the External Trade Policy document. We now take the opportunity to\nbring to your attention to this proviso, which lays out the procedure to follow in the collection of overdue amounts.\nCopy of the Proviso 12 is attached for your perusal, and the same is briefly discussed below.</p>\n<p>Proviso 12A is straight forward and reminds policy holders that they are expected to conduct their own credit control\nactivity and only refer to BECI after having sent out the final demand.</p>\n<p>Proviso 12A is straight forward and reminds policy holders that they are expected to conduct their own credit control\nactivity and only refer to BECI after having sent out the final demand.</p>\n<p>Proviso 12C describes the format that the final demand should take including the wording of the letter, information to\nbe sent to BECI in the event payment is not received within 10 days of sending the letter, or, on establishment of the\ndebtor\u2019s insolvency. The table below summarises the collection activity.</p>\n\n\n"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Guide_Child"
+  },
+  {
+   "fieldname": "paragraph2",
+   "fieldtype": "HTML",
+   "label": "Paragraph2",
+   "options": "\n<p>Please also note that instead of taking the debt to lawyers for collection in line with Proviso 12C(iv) BECI usually\nrecommends that the debts be handed to the BECI preferred debt collector - Credit Factors and Discounters - for\ncollection. However, if you already have an established external debt collector, you may hand over to them and advise\nBECI accordingly.</p>\n<p>Proviso 12D is a reminder to policy holders that failure to comply with the proviso may lead to repudiation of claims,\nand hence the importance that BECI attaches to this proviso and our added effort to ensure that all the policy holders\nunderstand and comply with the proviso.</p>\n<p>Please be reminded that once BECI has paid a claim, the debtor is pursued for the 100% recovery of the debt and\nany amounts recovered are shared with BECI according to the claims sharing ratio.</p>\n<p>Should you need any clarification regarding this proviso, please do not hesitate to contact us at 3188015.</p>\n<br><br>\n<p>&nbsp;&nbsp;Rated BBB+ by Global Credit Rating(\"GCR\")\n</p>\n<br>\n<p>a BDC Subsidiary | Directors: K.H. Munamati(Chairman), S Moncho, G. Mmelesi, M. Mbo, M.Radibe, B Ditlhabi</p>\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-24 08:11:57.604134",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Guide to the _Administration of the policy",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

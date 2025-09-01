@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{claim_ref_no}",
+ "creation": "2024-04-02 18:27:36.308700",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_ywr9g",
+  "ph_name",
+  "section_break_deu34",
+  "policy_no",
+  "column_break_mpei3",
+  "policy_type",
+  "section_break_gpwsb",
+  "buyer",
+  "column_break_ox0hh",
+  "claim_ref_no",
+  "section_break_3odz7",
+  "lawyer",
+  "column_break_6zrhz",
+  "lawyer_"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_ywr9g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "label": "Policy Holder Name"
+  },
+  {
+   "fieldname": "section_break_deu34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "column_break_mpei3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Policy Type"
+  },
+  {
+   "fieldname": "section_break_gpwsb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "column_break_ox0hh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Data",
+   "label": "Claim Ref No"
+  },
+  {
+   "fieldname": "section_break_3odz7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6zrhz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lawyer_",
+   "fieldtype": "Currency",
+   "label": "Lawyer %"
+  },
+  {
+   "fieldname": "lawyer",
+   "fieldtype": "Data",
+   "label": "Lawyer",
+   "options": "\nBECI\nModimo and Associates\nMaphakwane & partners\nRantao Kewagamang Attoneys"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-05 07:14:05.589379",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Assign_Lawyer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,192 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-03 06:32:15.257861",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "policy_review_history_listing",
+  "section_break_fnqky",
+  "period_from",
+  "period_to",
+  "column_break_qiv1w",
+  "policy_holder",
+  "status",
+  "section_break_w78y3",
+  "column_break_j9ihg",
+  "column_break_lirlz",
+  "column_break_vkcc3",
+  "section_break_zxs8e",
+  "column_break_shus2",
+  "column_break_ihqxs",
+  "column_break_gwzug",
+  "column_break_2skdz",
+  "section_break_mq1jx",
+  "column_break_qfdtw",
+  "column_break_2bqnc",
+  "column_break_qvaz6",
+  "column_break_3oy5x",
+  "generate_report",
+  "column_break_ohrvn",
+  "display_result",
+  "column_break_g4vse",
+  "clear",
+  "section_break_t7uqk",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "policy_review_history_listing",
+   "fieldtype": "Heading",
+   "label": "Policy Review History Listing"
+  },
+  {
+   "fieldname": "section_break_fnqky",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From "
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "Period To"
+  },
+  {
+   "fieldname": "column_break_qiv1w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Policy Reviews"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "options": "select"
+  },
+  {
+   "fieldname": "section_break_w78y3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_j9ihg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lirlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vkcc3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zxs8e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_shus2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ihqxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gwzug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2skdz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_mq1jx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_qfdtw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2bqnc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qvaz6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3oy5x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "generate_report",
+   "fieldtype": "Button",
+   "label": "Generate Report"
+  },
+  {
+   "fieldname": "column_break_ohrvn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "display_result",
+   "fieldtype": "Button",
+   "label": "Display result"
+  },
+  {
+   "fieldname": "column_break_g4vse",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clear",
+   "fieldtype": "Button",
+   "label": "Clear"
+  },
+  {
+   "fieldname": "section_break_t7uqk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Table",
+   "label": "Result",
+   "options": "Policy Review History Child Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 08:38:01.106890",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Policy Reviews History",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

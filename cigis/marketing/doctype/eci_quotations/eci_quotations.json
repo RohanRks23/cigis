@@ -1,0 +1,849 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\", \"nagoor.s@techbulls.co.in\", \"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:schedule_no",
+ "creation": "2024-02-27 13:14:36.475502",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "eci_schedule_tab",
+  "schedule",
+  "section_break_h9r1o",
+  "client_name",
+  "client_name1",
+  "proposal_no",
+  "proposal_no1",
+  "column_break_x91ix",
+  "schedule_no",
+  "status1",
+  "captured_on",
+  "export_credit_insurance_schedule_tab",
+  "countries_covered",
+  "section_break_yx5c8",
+  "country_of_dest",
+  "terms_of_payment",
+  "commercial_pre_rate",
+  "premium_rate",
+  "commercial_premium_amt_p",
+  "column_break_7hedl",
+  "buyer_type",
+  "political_pre_rate",
+  "turnover__p",
+  "political_premium_amt",
+  "total_pre_amt",
+  "section_break_gnd0n",
+  "add_new",
+  "eci_quo_table",
+  "section_break_ublax",
+  "com_pre_amt",
+  "column_break_eheuc",
+  "pol_pre_amt",
+  "column_break_oazlp",
+  "amt",
+  "section_break_jn7lt",
+  "schedule_tab",
+  "inception_date",
+  "individual_first_lossp",
+  "min_premium_depositp",
+  "all_market_principles_applicable",
+  "column_break_qyfnk",
+  "limit_of_descrition",
+  "franchise_lossp",
+  "insured_commercial_risks_for_all_insured_companies",
+  "column_break_oukaw",
+  "goodsservices",
+  "goods_services",
+  "agriculture",
+  "airconditioning",
+  "aluminium_boats",
+  "animal_vaccines",
+  "arts_crafts",
+  "batteries",
+  "building_materials",
+  "canning_cans",
+  "cellular",
+  "cereals",
+  "cigarettes",
+  "computer_electronic",
+  "concrete_products",
+  "corporate_clothing",
+  "cosmetics",
+  "couriers",
+  "engraving",
+  "fmcg",
+  "frozen_chicken",
+  "fuel",
+  "gas",
+  "hair_products",
+  "column_break_81fyz",
+  "heavy_plant",
+  "invoice_factoring",
+  "leather_products",
+  "logistics",
+  "lubricants__fuel",
+  "meat_products",
+  "media__radio",
+  "merchandise",
+  "packaging_materials",
+  "perishable_goods",
+  "pharmaceuticals",
+  "plastics_spices",
+  "road_construction",
+  "salt",
+  "security_services",
+  "soda_ash",
+  "stationary_diaries",
+  "steel_doors",
+  "steel_merchants",
+  "timber_products",
+  "travelling_bags",
+  "water_supplies",
+  "section_break_ndine",
+  "column_break_lmeze",
+  "maximum_liability",
+  "commercial",
+  "political",
+  "total",
+  "column_break_gqanp",
+  "credit_limit_fee",
+  "per_enquiryp",
+  "cl_per_monthp",
+  "status_tab",
+  "section_break_evjqp",
+  "html1",
+  "column_break_ei6m7",
+  "html2"
+ ],
+ "fields": [
+  {
+   "fieldname": "eci_schedule_tab",
+   "fieldtype": "Tab Break",
+   "label": "ECI Schedule"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "Heading",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "section_break_h9r1o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "schedule_no",
+   "fieldtype": "Data",
+   "label": "Schedule No",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_x91ix",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "captured_on",
+   "fieldtype": "Data",
+   "label": "Captured On"
+  },
+  {
+   "fieldname": "export_credit_insurance_schedule_tab",
+   "fieldtype": "Tab Break",
+   "label": "Export Credit Insurance Schedule"
+  },
+  {
+   "fieldname": "countries_covered",
+   "fieldtype": "Heading",
+   "label": "Countries Covered"
+  },
+  {
+   "fieldname": "section_break_yx5c8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Select",
+   "label": "Terms Of Payment",
+   "options": "\n1-3m\n1-3mLC\n4-6m\n4-6mLC\ncad\ncadLC\nTT7d"
+  },
+  {
+   "fieldname": "commercial_pre_rate",
+   "fieldtype": "Currency",
+   "label": "Commercial Pre. Rate"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Currency",
+   "label": "Premium rate"
+  },
+  {
+   "fieldname": "commercial_premium_amt_p",
+   "fieldtype": "Currency",
+   "label": "Commercial Premium Amt p"
+  },
+  {
+   "fieldname": "column_break_7hedl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Select",
+   "label": "Buyer Type",
+   "options": "\nASSOCIATED COMPANIES\nGOVERNMENT BUYERS\nPRIVATE BUYERS"
+  },
+  {
+   "fieldname": "political_pre_rate",
+   "fieldtype": "Currency",
+   "label": "Political Pre. Rate"
+  },
+  {
+   "fieldname": "turnover__p",
+   "fieldtype": "Currency",
+   "label": "Turnover  p"
+  },
+  {
+   "fieldname": "political_premium_amt",
+   "fieldtype": "Currency",
+   "label": "Political Premium Amt"
+  },
+  {
+   "fieldname": "total_pre_amt",
+   "fieldtype": "Currency",
+   "label": "Total Pre. Amt "
+  },
+  {
+   "fieldname": "schedule_tab",
+   "fieldtype": "Tab Break",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "individual_first_lossp",
+   "fieldtype": "Currency",
+   "label": "Individual First loss(p)"
+  },
+  {
+   "fieldname": "min_premium_depositp",
+   "fieldtype": "Currency",
+   "label": "Min Premium Deposit(p)"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_market_principles_applicable",
+   "fieldtype": "Check",
+   "label": "All Market Principles Applicable"
+  },
+  {
+   "fieldname": "column_break_qyfnk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "limit_of_descrition",
+   "fieldtype": "Currency",
+   "label": "Limit of Descrition"
+  },
+  {
+   "fieldname": "franchise_lossp",
+   "fieldtype": "Currency",
+   "label": "Franchise loss(p)"
+  },
+  {
+   "fieldname": "insured_commercial_risks_for_all_insured_companies",
+   "fieldtype": "Currency",
+   "label": "Insured % Commercial risks for all Insured Companies "
+  },
+  {
+   "fieldname": "column_break_oukaw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "goodsservices",
+   "fieldtype": "Heading",
+   "label": "Goods/Services"
+  },
+  {
+   "default": "0",
+   "depends_on": "agriculture",
+   "fieldname": "agriculture",
+   "fieldtype": "Check",
+   "label": "AGRICULTURE",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "airconditioning",
+   "fetch_from": "link.airconditioning",
+   "fieldname": "airconditioning",
+   "fieldtype": "Check",
+   "label": "AIR CONDITIONING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "aluminium_boats",
+   "fetch_from": "link.aluminium_boats",
+   "fieldname": "aluminium_boats",
+   "fieldtype": "Check",
+   "label": "ALUMINIUM BOATS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "animal_vaccines",
+   "fetch_from": "link.animal_vaccines",
+   "fieldname": "animal_vaccines",
+   "fieldtype": "Check",
+   "label": "ANIMAL VACCINES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "arts_crafts",
+   "fetch_from": "link.arts_crafts",
+   "fieldname": "arts_crafts",
+   "fieldtype": "Check",
+   "label": "ARTS AND CRAFTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "batteries",
+   "fetch_from": "link.batteries",
+   "fieldname": "batteries",
+   "fieldtype": "Check",
+   "label": "BATTERIES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "building_materials",
+   "fetch_from": "link.building_materials",
+   "fieldname": "building_materials",
+   "fieldtype": "Check",
+   "label": "BUILDING MATERIALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "canning_cans",
+   "fetch_from": "link.canning_cans",
+   "fieldname": "canning_cans",
+   "fieldtype": "Check",
+   "label": "CANNING CANS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cellular",
+   "fetch_from": "link.cellular",
+   "fieldname": "cellular",
+   "fieldtype": "Check",
+   "label": "CELLULAR",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cereals",
+   "fetch_from": "link.cereals",
+   "fieldname": "cereals",
+   "fieldtype": "Check",
+   "label": "CEREALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cigarettes",
+   "fetch_from": "link.cigarettes",
+   "fieldname": "cigarettes",
+   "fieldtype": "Check",
+   "label": "CIGARETTES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "computer_electronic",
+   "fetch_from": "link.computer_electronic",
+   "fieldname": "computer_electronic",
+   "fieldtype": "Check",
+   "label": "COMPUTER ELECTRONIC",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "concrete_products",
+   "fetch_from": "link.concrete_products",
+   "fieldname": "concrete_products",
+   "fieldtype": "Check",
+   "label": "CONCRETE PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "corporate_clothing",
+   "fetch_from": "link.corporate_clothing",
+   "fieldname": "corporate_clothing",
+   "fieldtype": "Check",
+   "label": "CORPORATE CLOTHING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cosmetics",
+   "fetch_from": "link.cosmetics",
+   "fieldname": "cosmetics",
+   "fieldtype": "Check",
+   "label": "COSMETICS ",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "couriers",
+   "fetch_from": "link.couriers",
+   "fieldname": "couriers",
+   "fieldtype": "Check",
+   "label": "COURIERS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "engraving",
+   "fetch_from": "link.engraving",
+   "fieldname": "engraving",
+   "fieldtype": "Check",
+   "label": "ENGRAVING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "fmcg",
+   "fetch_from": "link.fmcg",
+   "fieldname": "fmcg",
+   "fieldtype": "Check",
+   "label": "FMCG",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "frozen_chicken",
+   "fetch_from": "link.frozen_chicken",
+   "fieldname": "frozen_chicken",
+   "fieldtype": "Check",
+   "label": "FROZEN CHICKEN",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "fuel",
+   "fetch_from": "link.fuel",
+   "fieldname": "fuel",
+   "fieldtype": "Check",
+   "label": "FUEL",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "gas",
+   "fetch_from": "link.gas",
+   "fieldname": "gas",
+   "fieldtype": "Check",
+   "label": "GAS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "hair_products",
+   "fetch_from": "link.hair_products",
+   "fieldname": "hair_products",
+   "fieldtype": "Check",
+   "label": "HAIR PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_81fyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "heavy_plant",
+   "fetch_from": "link.heavy_plant",
+   "fieldname": "heavy_plant",
+   "fieldtype": "Check",
+   "label": "HEAVY PLANT MECHINARY",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "invoice_factoring",
+   "fetch_from": "link.invoice_factoring",
+   "fieldname": "invoice_factoring",
+   "fieldtype": "Check",
+   "label": "INVOICE FACTORING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "leather_products",
+   "fetch_from": "link.leather_products",
+   "fieldname": "leather_products",
+   "fieldtype": "Check",
+   "label": "LEATHER PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "logistics",
+   "fetch_from": "link.logistics",
+   "fieldname": "logistics",
+   "fieldtype": "Check",
+   "label": "LOGISTICS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "lubricants__fuel",
+   "fetch_from": "link.lubricants__fuel",
+   "fieldname": "lubricants__fuel",
+   "fieldtype": "Check",
+   "label": "LUBLICANTS/FUEL",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "meat_products",
+   "fetch_from": "link.meat_products",
+   "fieldname": "meat_products",
+   "fieldtype": "Check",
+   "label": "MEAT PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "merchandise",
+   "fetch_from": "link.merchandise",
+   "fieldname": "merchandise",
+   "fieldtype": "Check",
+   "label": "MERCHANDISE",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "packaging_materials",
+   "fetch_from": "link.packaging_materials",
+   "fieldname": "packaging_materials",
+   "fieldtype": "Check",
+   "label": "PACKAGING MATERIALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "perishable_goods",
+   "fetch_from": "link.perishable_goods",
+   "fieldname": "perishable_goods",
+   "fieldtype": "Check",
+   "label": "PERISHABLE GOODS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "salt",
+   "fetch_from": "link.salt",
+   "fieldname": "salt",
+   "fieldtype": "Check",
+   "label": "SALT",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "security_services",
+   "fetch_from": "link.security_services",
+   "fieldname": "security_services",
+   "fieldtype": "Check",
+   "label": "SECURITY SERVICES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "soda_ash",
+   "fetch_from": "link.soda_ash",
+   "fieldname": "soda_ash",
+   "fieldtype": "Check",
+   "label": "SODA ASH",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "timber_products",
+   "fetch_from": "link.timber_products",
+   "fieldname": "timber_products",
+   "fieldtype": "Check",
+   "label": "TIMBER PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "travelling_bags",
+   "fetch_from": "link.travelling_bags",
+   "fieldname": "travelling_bags",
+   "fieldtype": "Check",
+   "label": "TRAVELLING BAGS",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_ndine",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "maximum_liability",
+   "fieldtype": "Heading",
+   "label": "Maximum Liability"
+  },
+  {
+   "fieldname": "commercial",
+   "fieldtype": "Currency",
+   "label": "Commercial"
+  },
+  {
+   "fieldname": "political",
+   "fieldtype": "Currency",
+   "label": "Political"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total"
+  },
+  {
+   "fieldname": "column_break_lmeze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limit_fee",
+   "fieldtype": "Heading",
+   "label": "Credit Limit Fee"
+  },
+  {
+   "fieldname": "per_enquiryp",
+   "fieldtype": "Currency",
+   "label": "Per Enquiry(p)"
+  },
+  {
+   "fieldname": "cl_per_monthp",
+   "fieldtype": "Currency",
+   "label": "CL Per Month(p)"
+  },
+  {
+   "fieldname": "status_tab",
+   "fieldtype": "Tab Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "section_break_evjqp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html1",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "<style>\n  .underlined a {\n    text-decoration: underline;\n  }\n</style>\n\n<p class=\"underlined\"><a>Covering Letter</a></p>\n<p class=\"underlined\"><a>Specimen Policy document</a></p>\n<p class=\"underlined\"><a>Acceptance form</a></p>\n<p class=\"underlined\"><a>Country Listing and rates</a></p>\n"
+  },
+  {
+   "fieldname": "column_break_ei6m7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "country_of_dest",
+   "fieldtype": "Select",
+   "label": "Country",
+   "options": "\nAfghanistan\nAlbania\nAland Islands\nAlgeria\nAmerican Samoa\nAustralia\nAustria\nBangladesh\nBelgium\nBhutan\nBotswana\nBrazil\nBritish Indian Ocean Territory\nCanada\nCentral African Republic\nDenmark\nEgypt\nFinland\nFrance\nGeorgia\nGermany\nHong Kong\nIceland\nIndia\nIndonesia\nItaly\nJapan\nJersey\nKenya\nKorea, Republic of\nMalaysia\nMaldives\nMexico\nMonaco\nMongolia\nMontenegro\nMontserrat\nSwaziland"
+  },
+  {
+   "default": "0",
+   "depends_on": "pharmaceuticals",
+   "fetch_from": "link.pharmaceuticals",
+   "fieldname": "pharmaceuticals",
+   "fieldtype": "Check",
+   "label": "PHARMACEUITICALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "plastics_spices",
+   "fetch_from": "link.plastics_spices",
+   "fieldname": "plastics_spices",
+   "fieldtype": "Check",
+   "label": "PLASTICS & SPICES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "road_construction",
+   "fetch_from": "link.road_construction",
+   "fieldname": "road_construction",
+   "fieldtype": "Check",
+   "label": "ROAD CONSTRUCTION",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "stationary_diaries",
+   "fetch_from": "link.stationary_diaries",
+   "fieldname": "stationary_diaries",
+   "fieldtype": "Check",
+   "label": "STATIONARY AND DAIRIES"
+  },
+  {
+   "default": "0",
+   "depends_on": "steel_doors",
+   "fetch_from": "link.steel_doors",
+   "fieldname": "steel_doors",
+   "fieldtype": "Check",
+   "label": "STEEL ROADS AND WINDOW FARMES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "steel_merchants",
+   "fetch_from": "link.steel_merchants",
+   "fieldname": "steel_merchants",
+   "fieldtype": "Check",
+   "label": "STEEL MERCHANTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "water_supplies",
+   "fieldname": "water_supplies",
+   "fieldtype": "Check",
+   "label": "WATER SUPPLIES",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_gqanp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html2",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "<style>\n  .underlined a {\n    text-decoration: underline;\n  }\n</style>\n\n<p class=\"underlined\"><a>Policy Schedule</a></p>\n<p class=\"underlined\"><a>Consent Form</a></p>\n<p class=\"underlined\"><a>Agenda and Endorsement</a></p>\n"
+  },
+  {
+   "fieldname": "client_name1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Client name"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "goods/services"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Select",
+   "label": "Proposal No."
+  },
+  {
+   "fieldname": "section_break_gnd0n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "eci_quo_table",
+   "fieldtype": "Table",
+   "options": "ECI quotation childtable"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add "
+  },
+  {
+   "fieldname": "section_break_ublax",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "com_pre_amt",
+   "fieldtype": "Currency",
+   "label": "Total:  Comm.Pre.Amt"
+  },
+  {
+   "fieldname": "column_break_eheuc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pol_pre_amt",
+   "fieldtype": "Currency",
+   "label": "Total: Pol.Pre.Amt"
+  },
+  {
+   "fieldname": "column_break_oazlp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amt",
+   "fieldtype": "Currency",
+   "label": "Total: Amount"
+  },
+  {
+   "fieldname": "section_break_jn7lt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposal_no1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Proposal no."
+  },
+  {
+   "default": "0",
+   "depends_on": "media__radio",
+   "fetch_from": "link.media__radio",
+   "fieldname": "media__radio",
+   "fieldtype": "Check",
+   "label": "MEDIA/RADIO",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status1",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-05 06:16:48.403450",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "ECI Quotations",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,93 @@
+{
+ "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-06 13:09:13.023425",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "terms_of_payment",
+  "comm_pre_rate",
+  "political_pre_rate",
+  "pre_rate",
+  "commercial_premium_amt",
+  "political_premium_amt",
+  "total_pre_amt",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Country"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Terms Of Payment"
+  },
+  {
+   "fieldname": "comm_pre_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Comm Pre Rate"
+  },
+  {
+   "fieldname": "political_pre_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Political Pre Rate"
+  },
+  {
+   "fieldname": "pre_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pre Rate"
+  },
+  {
+   "fieldname": "commercial_premium_amt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Commercial Premium Amt"
+  },
+  {
+   "fieldname": "political_premium_amt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Political Premium Amt"
+  },
+  {
+   "fieldname": "total_pre_amt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total Pre Amt"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Policy Reviews Child",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-09 11:58:26.281189",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Policy Reviews Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

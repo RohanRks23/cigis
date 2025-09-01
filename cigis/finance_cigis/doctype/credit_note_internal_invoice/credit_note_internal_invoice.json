@@ -1,0 +1,714 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-25 12:08:05.865222",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "for",
+  "section_break_8bjyv",
+  "credit",
+  "section_break_esk1k",
+  "name1",
+  "address",
+  "column_break_to5en",
+  "city",
+  "column_break_x5tvu",
+  "date",
+  "column_break_kgjdp",
+  "vat",
+  "hl",
+  "section_break_srdww",
+  "a___premium",
+  "section_break_0gxns",
+  "domestic_premium",
+  "column_break_4prwo",
+  "currency1",
+  "column_break_gpnux",
+  "currency2",
+  "column_break_gzcdm",
+  "currency3",
+  "hl2",
+  "section_break_a1d4i",
+  "column_break_rpcp4",
+  "column_break_dvmjs",
+  "total",
+  "column_break_kenhf",
+  "currency4",
+  "section_break_ddbro",
+  "b_reinsurance_premium_payable",
+  "section_break_1r65l",
+  "botswana_insurance_con",
+  "column_break_foqqx",
+  "currency5",
+  "column_break_n9kmc",
+  "currency6",
+  "column_break_pkyu3",
+  "currency7",
+  "section_break_o25ph",
+  "fmre",
+  "column_break_a9zog",
+  "currency8",
+  "column_break_yybqq",
+  "currency9",
+  "column_break_rkya8",
+  "currency10",
+  "section_break_qzsoo",
+  "first_reinsurance",
+  "column_break_kn7sf",
+  "currency11",
+  "column_break_5juxl",
+  "currency12",
+  "column_break_ppnys",
+  "currency13",
+  "section_break_wunqt",
+  "lombard_insurance",
+  "column_break_m9juf",
+  "currency14",
+  "column_break_ainh6",
+  "currency15",
+  "column_break_ydzzh",
+  "currency16",
+  "section_break_uznww",
+  "munich_re_group",
+  "column_break_aqwe5",
+  "currency17",
+  "column_break_8pyti",
+  "currency18",
+  "column_break_gdtct",
+  "currency19",
+  "section_break_inw6e",
+  "column_break_ilrrh",
+  "column_break_texpa",
+  "tot",
+  "column_break_nnvds",
+  "currency26",
+  "section_break_rpmzt",
+  "c_handling_fee_income",
+  "section_break_osa2w",
+  "commercialbotswana_insurance_company",
+  "column_break_znhfz",
+  "currency27",
+  "column_break_ctnkk",
+  "currency28",
+  "column_break_zzilo",
+  "currency29",
+  "section_break_gkcpw",
+  "commercial",
+  "column_break_duyyi",
+  "currency30",
+  "column_break_xjchk",
+  "currency31",
+  "column_break_edxre",
+  "currency32",
+  "section_break_px5pp",
+  "commercialfirst_reinsurance_pty_ltd",
+  "column_break_atuai",
+  "currency33",
+  "column_break_x9ris",
+  "currency34",
+  "column_break_6p4xs",
+  "currency35",
+  "section_break_ilgh0",
+  "commerciallombard_insurance_company_limited",
+  "column_break_vlvbd",
+  "currency36",
+  "column_break_36pyr",
+  "currency37",
+  "column_break_zd62i",
+  "currency38",
+  "section_break_d1euz",
+  "commercial_munich_re_group",
+  "column_break_lopww",
+  "currency40",
+  "column_break_bv6ee",
+  "currency45",
+  "column_break_axvur",
+  "currency41",
+  "section_break_hsa3z",
+  "column_break_faqxm",
+  "column_break_mhnsn",
+  "tt",
+  "column_break_qurs1",
+  "currency46"
+ ],
+ "fields": [
+  {
+   "fieldname": "for",
+   "fieldtype": "HTML",
+   "label": "For",
+   "options": "\n\n\n    <style>\n        h3, h4 {\n            text-align: center;\n        }\n    </style>\n\n\n\n<h3>FOR INTERNAL USE ONLY</h3>\n\n\n\n"
+  },
+  {
+   "fieldname": "section_break_8bjyv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "HTML",
+   "label": "Credit",
+   "options": "\n\n\n    <style>\n        h3, h4 {\n            text-align: center;\n        }\n    </style>\n\n\n\n<h4>CREDIT NOTE INVOICE</h4>\n\n\n\n"
+  },
+  {
+   "fieldname": "section_break_esk1k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "NAME"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "column_break_to5en",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY"
+  },
+  {
+   "fieldname": "column_break_x5tvu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "column_break_kgjdp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "VAT REGISTRATION NO:"
+  },
+  {
+   "fieldname": "hl",
+   "fieldtype": "HTML",
+   "label": "HL",
+   "options": "<hr>"
+  },
+  {
+   "fieldname": "section_break_srdww",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a___premium",
+   "fieldtype": "HTML",
+   "label": "A   PREMIUM",
+   "options": "\n\n\n    <style>\n        h4 {\n            text-align: left;\n        }\n    </style>\n\n\n\n<h4>A   PREMIUM</h4>\n\n\n\n"
+  },
+  {
+   "fieldname": "section_break_0gxns",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "domestic_premium",
+   "fieldtype": "HTML",
+   "label": "Domestic Premium",
+   "options": "<p> Domestic Premium</p>"
+  },
+  {
+   "fieldname": "column_break_4prwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_gpnux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_gzcdm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "hl2",
+   "fieldtype": "HTML",
+   "label": "HL2",
+   "options": "<hr>"
+  },
+  {
+   "fieldname": "section_break_a1d4i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_rpcp4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dvmjs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "HTML",
+   "label": "TOTAL",
+   "options": "<p>TOTAL</p>"
+  },
+  {
+   "fieldname": "column_break_kenhf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ddbro",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b_reinsurance_premium_payable",
+   "fieldtype": "HTML",
+   "label": "B REINSURANCE PREMIUM PAYABLE",
+   "options": "<style>\n    h4 {\n        text-align: left;\n        display: inline; /* Display the heading inline */\n    }\n</style>\n\n<h4>B REINSURANCE PREMIUM PAYABLE</h4>\n"
+  },
+  {
+   "fieldname": "section_break_1r65l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "botswana_insurance_con",
+   "fieldtype": "HTML",
+   "label": "Botswana Insurance Company",
+   "options": "<p>Botswana Insurance Company</p>"
+  },
+  {
+   "fieldname": "column_break_foqqx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_n9kmc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_pkyu3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency7",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_o25ph",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fmre",
+   "fieldtype": "HTML",
+   "label": "FMRE PROPERTY&CA",
+   "options": "<p>FMRE PROPERTY&amp;CA</p>"
+  },
+  {
+   "fieldname": "column_break_a9zog",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency8",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_yybqq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency9",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_rkya8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency10",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_qzsoo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "first_reinsurance",
+   "fieldtype": "HTML",
+   "label": "FIRST REINSURANCE",
+   "options": "<p>FIRST REINSURANCE</p>"
+  },
+  {
+   "fieldname": "column_break_kn7sf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency11",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_5juxl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency12",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ppnys",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency13",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_wunqt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lombard_insurance",
+   "fieldtype": "HTML",
+   "label": "LOMBARD INSURANCE",
+   "options": "<p>LOMBARD INSURANCE</p>"
+  },
+  {
+   "fieldname": "column_break_m9juf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency14",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ainh6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency15",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ydzzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency16",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_uznww",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "munich_re_group",
+   "fieldtype": "Data",
+   "label": "Munich Re Group"
+  },
+  {
+   "fieldname": "column_break_aqwe5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency17",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_8pyti",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency18",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gdtct",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency19",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_inw6e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ilrrh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_texpa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tot",
+   "fieldtype": "HTML",
+   "label": "TOTAL",
+   "options": "<p>TOTAL</p>"
+  },
+  {
+   "fieldname": "column_break_nnvds",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency26",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_rpmzt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c_handling_fee_income",
+   "fieldtype": "HTML",
+   "label": "C HANDLING FEE INCOME",
+   "options": "<style>\n    h4 {\n        text-align: left;\n        display: inline; /* Display the heading inline */\n    }\n</style>\n\n<h4>C   HANDLING FEE INCOME</h4>\n"
+  },
+  {
+   "fieldname": "section_break_osa2w",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commercialbotswana_insurance_company",
+   "fieldtype": "HTML",
+   "label": "Commercial(Botswana Insurance Company)",
+   "options": "<p>Commercial(Botswana Insurance Company)</p>"
+  },
+  {
+   "fieldname": "column_break_znhfz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency27",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ctnkk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency28",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zzilo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency29",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_gkcpw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commercial",
+   "fieldtype": "HTML",
+   "label": "Commercial(PROPERTY&CASULALITY PTY LTD)",
+   "options": "<p>Commercial(PROPERTY&amp;CASULALITY PTY LTD)</p>"
+  },
+  {
+   "fieldname": "column_break_duyyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency30",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xjchk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency31",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_edxre",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency32",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_px5pp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commercialfirst_reinsurance_pty_ltd",
+   "fieldtype": "HTML",
+   "label": "Commercial(FIRST REINSURANCE PTY LTD)",
+   "options": "<p>Commercial(FIRST REINSURANCE PTY LTD)</p>"
+  },
+  {
+   "fieldname": "column_break_atuai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency33",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_x9ris",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency34",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_6p4xs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency35",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ilgh0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commerciallombard_insurance_company_limited",
+   "fieldtype": "HTML",
+   "label": "Commercial(LOMBARD INSURANCE COMPANY LIMITED)",
+   "options": "<p>Commercial(LOMBARD INSURANCE COMPANY LIMITED)</p>"
+  },
+  {
+   "fieldname": "column_break_vlvbd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency36",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_36pyr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency37",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zd62i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency38",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_d1euz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commercial_munich_re_group",
+   "fieldtype": "HTML",
+   "label": "Commercial (Munich Re Group)",
+   "options": "<p>Commercial (Munich Re Group)</p>"
+  },
+  {
+   "fieldname": "column_break_lopww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency40",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_bv6ee",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency45",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_axvur",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency41",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_hsa3z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_faqxm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mhnsn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tt",
+   "fieldtype": "HTML",
+   "label": "TOTAL",
+   "options": "<p>TOTAL</p>"
+  },
+  {
+   "fieldname": "column_break_qurs1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency46",
+   "fieldtype": "Currency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:34.487779",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Credit Note Internal Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

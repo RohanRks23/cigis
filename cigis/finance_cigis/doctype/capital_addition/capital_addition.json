@@ -1,0 +1,165 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2024-04-09 11:11:29.530091",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_jqdf6",
+  "fund_provider",
+  "name1",
+  "initial_fund",
+  "fund_transaction_type",
+  "column_break_kjdkw",
+  "status",
+  "fund_ref_id",
+  "fund_inception_date",
+  "section_break_mn1ic",
+  "capital_additions_history_section",
+  "add_new",
+  "capital_addition",
+  "section_break_xnkgm",
+  "fundtrtno",
+  "column_break_l8any",
+  "total_capital_addition",
+  "total_withdraw_amount",
+  "total1",
+  "total_rows"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_jqdf6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fund_provider",
+   "fieldtype": "Select",
+   "label": "Fund Provider"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name"
+  },
+  {
+   "fieldname": "initial_fund",
+   "fieldtype": "Data",
+   "label": "Initial Fund : P"
+  },
+  {
+   "fieldname": "fund_transaction_type",
+   "fieldtype": "Select",
+   "label": "Fund Transaction type",
+   "options": "\nINTEREST\nMGMTFEE"
+  },
+  {
+   "fieldname": "column_break_kjdkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "fund_ref_id",
+   "fieldtype": "Data",
+   "label": "Fund Ref. ID"
+  },
+  {
+   "fieldname": "fund_inception_date",
+   "fieldtype": "Data",
+   "label": "Fund Inception Date"
+  },
+  {
+   "fieldname": "section_break_mn1ic",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "capital_additions_history_section",
+   "fieldtype": "Section Break",
+   "label": "Capital Additions History"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "capital_addition",
+   "fieldtype": "Table",
+   "options": "Capital_Addition_History"
+  },
+  {
+   "fieldname": "section_break_xnkgm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fundtrtno",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "FundtrtNo"
+  },
+  {
+   "fieldname": "column_break_l8any",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_capital_addition",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Capital Addition"
+  },
+  {
+   "fieldname": "total_withdraw_amount",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Withdraw Amount"
+  },
+  {
+   "fieldname": "total1",
+   "fieldtype": "Currency",
+   "label": "Balance Amount"
+  },
+  {
+   "fieldname": "total_rows",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-06 12:09:55.770899",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Capital Addition",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

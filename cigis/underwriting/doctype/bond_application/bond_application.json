@@ -1,0 +1,695 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{bond_no}",
+ "creation": "2024-03-11 06:19:51.945637",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_application1",
+  "company",
+  "section_break_sesai",
+  "facility_name",
+  "reg_no",
+  "status",
+  "column_break_txua0",
+  "facility_no",
+  "reg_date",
+  "section_break_1qrlv",
+  "previous_bond_details",
+  "section_break_xxdk3",
+  "table",
+  "section_break_qggmw",
+  "section_break_6f7jc",
+  "security_details",
+  "column_break_s5204",
+  "total_facility_amt",
+  "utilized_facilty_amt",
+  "balanced_facilty_amt",
+  "column_break_wxnn9",
+  "total_security_amt",
+  "utilized_security_amt",
+  "balanced_security_amt",
+  "section_break_i1qly",
+  "bond_details",
+  "section_break_6mgmt",
+  "bond_no",
+  "bond_in_favour",
+  "address",
+  "bond_type",
+  "description_contract",
+  "column_break_lovqq",
+  "telephone",
+  "add_new",
+  "project",
+  "bond_subtype",
+  "section_break_7wb3s",
+  "period_from",
+  "demand_date",
+  "column_break_h8dck",
+  "to",
+  "section_break_ll6ky",
+  "bond_value",
+  "section_break_jb8ik",
+  "currency_code",
+  "foreign_currency_amount",
+  "column_break_empd6",
+  "exchange_rate",
+  "amount_in_pula",
+  "section_break_vxqb1",
+  "security_required",
+  "signed_by",
+  "column_break_yfuxj",
+  "calculate_security",
+  "signed_on",
+  "section_break_d3f2d",
+  "bond_app_checklist",
+  "registered_security",
+  "bond_application_form",
+  "evidence_of_awarded_constructionsupply_contract",
+  "bond_wording",
+  "upload_document",
+  "amended_from",
+  "bond_details_tab",
+  "refer_to_reinsurer",
+  "refer_date",
+  "other_insurers_details_tab",
+  "insurer_name",
+  "risk_percentage",
+  "column_break_mlqtw",
+  "new_insurer",
+  "reinsurer_details_tab",
+  "reinsurer",
+  "beci_ref_number",
+  "the_insured",
+  "guarantee_amount",
+  "total_beci_exposure_onincl_this_gurantee",
+  "total_in_excess_of_beci_exposure_limit_per_insured",
+  "excess_insurable_by_reisurer",
+  "premium_charged_for_period_of",
+  "guarantee_fee",
+  "guarantee_fee_p",
+  "portion_of_guarantee_guarantee_vat_p",
+  "reinsurer_portion_of_guarantee_fee_p",
+  "total_amount_payable_to_beci",
+  "reinsurer_portion_of_guarantee_amount",
+  "beci_commission_p",
+  "reinsurer_commissions",
+  "other_insurer_commissions",
+  "total_amount_payable_to_reinsurer",
+  "remarks",
+  "column_break_eemj2",
+  "reinsurer_refnumber",
+  "reinsurer_response_date",
+  "new",
+  "less_beci_exposure_limit_per_insured",
+  "amount_insurable_by_reinsurer_beci",
+  "month",
+  "portion_of_guarantee_to_beci",
+  "beci_portion_of_gurantee_fee",
+  "to_",
+  "beci_portion_of_gurantee_amount_p",
+  "beci_commission",
+  "reinsurer_commission",
+  "other_insurer_commission",
+  "vat",
+  "broker",
+  "phone"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_application1",
+   "fieldtype": "Tab Break",
+   "label": "Bond Application"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "Company",
+   "options": " <h6 style=\"color: black;\">Company</h6>"
+  },
+  {
+   "fieldname": "section_break_sesai",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_name",
+   "fieldtype": "Select",
+   "label": "Facility Name"
+  },
+  {
+   "fetch_from": "facility_name.reg_no",
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "label": "Reg. No :"
+  },
+  {
+   "fetch_from": "facility_name.status1",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status:"
+  },
+  {
+   "fieldname": "column_break_txua0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "facility_name.facility_no",
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility No:"
+  },
+  {
+   "fetch_from": "facility_name.estd_date",
+   "fieldname": "reg_date",
+   "fieldtype": "Data",
+   "label": "Reg. Date:"
+  },
+  {
+   "fieldname": "section_break_1qrlv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "previous_bond_details",
+   "fieldtype": "Heading",
+   "label": "Previous bond Details",
+   "options": " <h6 style=\"color: black;\">Previous bond Details</h6>"
+  },
+  {
+   "fieldname": "section_break_xxdk3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "options": "Previous Bond Details"
+  },
+  {
+   "fieldname": "section_break_qggmw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_6f7jc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "security_details",
+   "fieldtype": "Heading",
+   "label": "Security Details",
+   "options": " <h6 style=\"color: black;\">Security Details</h6>"
+  },
+  {
+   "fieldname": "column_break_s5204",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_facility_amt",
+   "fieldtype": "Data",
+   "label": "Total Facility Amt.:"
+  },
+  {
+   "fieldname": "utilized_facilty_amt",
+   "fieldtype": "Data",
+   "label": "Utilized Facility Amt.:"
+  },
+  {
+   "fieldname": "balanced_facilty_amt",
+   "fieldtype": "Data",
+   "label": "Balanced Facility Amt.:"
+  },
+  {
+   "fieldname": "column_break_wxnn9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_security_amt",
+   "fieldtype": "Data",
+   "label": "Total Security Amt.:"
+  },
+  {
+   "fieldname": "utilized_security_amt",
+   "fieldtype": "Data",
+   "label": "Utilized Security Amt.:"
+  },
+  {
+   "fieldname": "balanced_security_amt",
+   "fieldtype": "Data",
+   "label": "Balanced Security Amt.:"
+  },
+  {
+   "fieldname": "section_break_i1qly",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_details",
+   "fieldtype": "Heading",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "section_break_6mgmt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond No:"
+  },
+  {
+   "fieldname": "bond_in_favour",
+   "fieldtype": "Data",
+   "label": "Bond in favour of (Principal):"
+  },
+  {
+   "fetch_from": "bond_in_favour.postal_address",
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Data",
+   "label": "Bond Type:"
+  },
+  {
+   "fieldname": "description_contract",
+   "fieldtype": "Long Text",
+   "label": "Description of Contract:"
+  },
+  {
+   "fieldname": "column_break_lovqq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "bond_in_favour.telephone",
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Long Text",
+   "label": "Project:"
+  },
+  {
+   "fieldname": "bond_subtype",
+   "fieldtype": "Select",
+   "label": "Bond Sub type"
+  },
+  {
+   "fieldname": "section_break_7wb3s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Data",
+   "label": "Period From:"
+  },
+  {
+   "fieldname": "demand_date",
+   "fieldtype": "Data",
+   "label": "Demand Date:"
+  },
+  {
+   "fieldname": "column_break_h8dck",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To:"
+  },
+  {
+   "fieldname": "section_break_ll6ky",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Heading",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "section_break_jb8ik",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "currency_code",
+   "fieldtype": "Data",
+   "label": "Currency Code:"
+  },
+  {
+   "fieldname": "foreign_currency_amount",
+   "fieldtype": "Currency",
+   "label": "Foreign Currency Amount:"
+  },
+  {
+   "fieldname": "column_break_empd6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Data",
+   "label": "Exchange Rate:"
+  },
+  {
+   "fieldname": "amount_in_pula",
+   "fieldtype": "Currency",
+   "label": "Amount in Pula:"
+  },
+  {
+   "fieldname": "section_break_vxqb1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "security_required",
+   "fieldtype": "Currency",
+   "label": "Security Required:"
+  },
+  {
+   "fieldname": "signed_by",
+   "fieldtype": "Data",
+   "label": "Signed By:"
+  },
+  {
+   "fieldname": "column_break_yfuxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculate_security",
+   "fieldtype": "Button",
+   "label": "Calculate Security"
+  },
+  {
+   "fieldname": "signed_on",
+   "fieldtype": "Data",
+   "label": "Signed On:"
+  },
+  {
+   "fieldname": "section_break_d3f2d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_app_checklist",
+   "fieldtype": "HTML",
+   "label": "Bond Application Checklist Items"
+  },
+  {
+   "default": "0",
+   "fieldname": "registered_security",
+   "fieldtype": "Check",
+   "label": "Registered Security"
+  },
+  {
+   "default": "0",
+   "fieldname": "bond_application_form",
+   "fieldtype": "Check",
+   "label": "Bond Application Form"
+  },
+  {
+   "default": "0",
+   "fieldname": "evidence_of_awarded_constructionsupply_contract",
+   "fieldtype": "Check",
+   "label": "Evidence of awarded construction/Supply contract"
+  },
+  {
+   "default": "0",
+   "fieldname": "bond_wording",
+   "fieldtype": "Check",
+   "label": "Bond Wording"
+  },
+  {
+   "fieldname": "upload_document",
+   "fieldtype": "Attach",
+   "label": "Upload Document"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "Bond Application"
+  },
+  {
+   "fieldname": "bond_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "refer_to_reinsurer",
+   "fieldtype": "Data",
+   "label": "Refer to Reinsurer"
+  },
+  {
+   "fieldname": "refer_date",
+   "fieldtype": "Data",
+   "label": "Refer Date"
+  },
+  {
+   "fieldname": "other_insurers_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Other Insurers Details"
+  },
+  {
+   "fieldname": "insurer_name",
+   "fieldtype": "Data",
+   "label": "Insurer Name"
+  },
+  {
+   "fieldname": "risk_percentage",
+   "fieldtype": "Percent",
+   "label": "Risk Percentage"
+  },
+  {
+   "fieldname": "column_break_mlqtw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new_insurer",
+   "fieldtype": "Button",
+   "label": "New"
+  },
+  {
+   "fieldname": "reinsurer_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "ReInsurer Details"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "Reinsurer"
+  },
+  {
+   "fieldname": "beci_ref_number",
+   "fieldtype": "Data",
+   "label": "BECI Ref. Number"
+  },
+  {
+   "fieldname": "the_insured",
+   "fieldtype": "Data",
+   "label": "The Insured"
+  },
+  {
+   "fieldname": "guarantee_amount",
+   "fieldtype": "Currency",
+   "label": "Guarantee Amount"
+  },
+  {
+   "fieldname": "total_beci_exposure_onincl_this_gurantee",
+   "fieldtype": "Currency",
+   "label": "Total BECI exposure on(Incl this gurantee)"
+  },
+  {
+   "fieldname": "total_in_excess_of_beci_exposure_limit_per_insured",
+   "fieldtype": "Currency",
+   "label": "Total in excess of BECI exposure limit per insured"
+  },
+  {
+   "fieldname": "excess_insurable_by_reisurer",
+   "fieldtype": "Currency",
+   "label": "Excess Insurable by Reisurer"
+  },
+  {
+   "fieldname": "premium_charged_for_period_of",
+   "fieldtype": "Data",
+   "label": "Premium Charged is For Period of"
+  },
+  {
+   "fieldname": "guarantee_fee",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Guarantee Fee%"
+  },
+  {
+   "fieldname": "guarantee_fee_p",
+   "fieldtype": "Currency",
+   "label": "Guarantee Fee: P"
+  },
+  {
+   "fieldname": "portion_of_guarantee_guarantee_vat_p",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Portion Of Guarantee to ReInsurer %"
+  },
+  {
+   "fieldname": "reinsurer_portion_of_guarantee_fee_p",
+   "fieldtype": "Currency",
+   "label": "ReInsurer Portion of Guarantee Fee(EXLC VAT): P"
+  },
+  {
+   "fieldname": "total_amount_payable_to_beci",
+   "fieldtype": "Currency",
+   "label": "Total Amount Payable To BECI(Incl VAT): P"
+  },
+  {
+   "fieldname": "reinsurer_portion_of_guarantee_amount",
+   "fieldtype": "Currency",
+   "label": "Reinsurer Portion Of Gurantee Amount: P"
+  },
+  {
+   "fieldname": "beci_commission_p",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BECI Commission %"
+  },
+  {
+   "fieldname": "reinsurer_commissions",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ReInsurer Commission %"
+  },
+  {
+   "fieldname": "other_insurer_commissions",
+   "fieldtype": "Data",
+   "label": "Other Insurer Commission %"
+  },
+  {
+   "fieldname": "total_amount_payable_to_reinsurer",
+   "fieldtype": "Currency",
+   "label": "Total Amount Payable To ReInsurer(EXCL VAT): P"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Long Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_eemj2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reinsurer_refnumber",
+   "fieldtype": "Data",
+   "label": "ReInsurer Ref.Number"
+  },
+  {
+   "fieldname": "reinsurer_response_date",
+   "fieldtype": "Data",
+   "label": "ReInsurer Response Date"
+  },
+  {
+   "fieldname": "new",
+   "fieldtype": "Button",
+   "label": "New"
+  },
+  {
+   "fieldname": "less_beci_exposure_limit_per_insured",
+   "fieldtype": "Currency",
+   "label": "LESS BECI exposure limit per insured"
+  },
+  {
+   "fieldname": "amount_insurable_by_reinsurer_beci",
+   "fieldtype": "Currency",
+   "label": "Amount insurable by ReInsurer & BECI"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Int",
+   "label": "Month"
+  },
+  {
+   "fieldname": "portion_of_guarantee_to_beci",
+   "fieldtype": "Percent",
+   "label": "Portion Of Guarantee to BECI %"
+  },
+  {
+   "fieldname": "beci_portion_of_gurantee_fee",
+   "fieldtype": "Currency",
+   "label": "BECI Portion of Guarantee Fee(EXCL VAT): P"
+  },
+  {
+   "fieldname": "to_",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "beci_portion_of_gurantee_amount_p",
+   "fieldtype": "Currency",
+   "label": "BECI Portion of Guarantee Amount: P"
+  },
+  {
+   "fieldname": "beci_commission",
+   "fieldtype": "Currency",
+   "label": "BECI Commission"
+  },
+  {
+   "fieldname": "reinsurer_commission",
+   "fieldtype": "Currency",
+   "label": "ReInsurer Commission"
+  },
+  {
+   "fieldname": "other_insurer_commission",
+   "fieldtype": "Currency",
+   "label": "Other Insurer Commission"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Vat"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Broker"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "phone"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-02 09:14:42.502407",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Bond Application",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

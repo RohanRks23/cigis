@@ -1,0 +1,419 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: dsheriffname",
+ "creation": "2024-03-11 15:54:35.971713",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bondno",
+  "section_break_xa4ep",
+  "dsheriffname",
+  "column_break_ddycx",
+  "addnew",
+  "column_break_gp7b8",
+  "contract",
+  "section_break_e7xus",
+  "periodfrom",
+  "bondvalue",
+  "premiumwithoutvat",
+  "reinsure",
+  "invoiceno",
+  "commission",
+  "broker",
+  "bond_type",
+  "column_break_vfszo",
+  "to",
+  "premium",
+  "premiumrate",
+  "reinsureamt",
+  "securitytype",
+  "next",
+  "status_tab",
+  "bond_apllication_status",
+  "column_break_is5us",
+  "select",
+  "section_break_velxj",
+  "previous",
+  "column_break_cpxkk",
+  "save",
+  "column_break_67tkb",
+  "prepare_invoice",
+  "bond_invoice_tab",
+  "ecgc_ref_no",
+  "guarentee_amount",
+  "bond_period_from",
+  "month",
+  "guarentee_fee_rate",
+  "reinsure1",
+  "reinsurer_ref_number",
+  "reinsurer",
+  "portion_of_guarentee_amount_to_reinsurer",
+  "portion_of_guarentee_feeto_reinsurer",
+  "ecgc_commission",
+  "broker1",
+  "broker2",
+  "total_due_with_out_vat",
+  "vat",
+  "vat1",
+  "total_due",
+  "column_break_wih5s",
+  "invoice_date",
+  "bond_period_to",
+  "guarentee_fee",
+  "ecgc",
+  "portion_of_guarentee_amount_to_ecgc",
+  "portion_of_guarentee_fee_to_ecgc",
+  "ecgc1",
+  "broker_commission",
+  "section_break_joqrt",
+  "calculate",
+  "submit_to_finance",
+  "cancel"
+ ],
+ "fields": [
+  {
+   "fieldname": "bondno",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "periodfrom",
+   "fieldtype": "Date",
+   "label": "Period From"
+  },
+  {
+   "fieldname": "bondvalue",
+   "fieldtype": "Data",
+   "label": "Bond Value($)"
+  },
+  {
+   "fieldname": "premiumwithoutvat",
+   "fieldtype": "Data",
+   "label": "Premium Without Vat"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Select",
+   "label": "ReInsurer"
+  },
+  {
+   "fieldname": "invoiceno",
+   "fieldtype": "Data",
+   "label": "ReInsurer Ref. Numbe/ECGC Invoice No:"
+  },
+  {
+   "fieldname": "commission",
+   "fieldtype": "Data",
+   "label": "ECGC ReInsurance Commission%:"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "column_break_vfszo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "addnew",
+   "fieldtype": "Button",
+   "label": "AddNew",
+   "options": "DeputySheriffBond"
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Small Text",
+   "label": "Description of Contract"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Premium",
+   "reqd": 1
+  },
+  {
+   "fieldname": "premiumrate",
+   "fieldtype": "Data",
+   "label": "Premium Rate %"
+  },
+  {
+   "fieldname": "reinsureamt",
+   "fieldtype": "Percent",
+   "label": "ReInsurer %"
+  },
+  {
+   "fieldname": "securitytype",
+   "fieldtype": "Data",
+   "label": "Security Type"
+  },
+  {
+   "fetch_from": "bondno.sheriffname",
+   "fieldname": "dsheriffname",
+   "fieldtype": "Data",
+   "label": "Sheriff Name"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  },
+  {
+   "fieldname": "status_tab",
+   "fieldtype": "Tab Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "bond_apllication_status",
+   "fieldtype": "Data",
+   "label": "Bond Apllication Status"
+  },
+  {
+   "fieldname": "column_break_is5us",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "options": "Select\nAPPROVED\nCANCELLED\nDECLINE\nREFERED TO REINSURER"
+  },
+  {
+   "fieldname": "previous",
+   "fieldtype": "Button",
+   "label": "Previous"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save"
+  },
+  {
+   "fieldname": "prepare_invoice",
+   "fieldtype": "Button",
+   "label": "Prepare Invoice"
+  },
+  {
+   "fieldname": "column_break_cpxkk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_67tkb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_velxj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_invoice_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Invoice"
+  },
+  {
+   "fieldname": "ecgc_ref_no",
+   "fieldtype": "Data",
+   "label": "ECGC REF NO "
+  },
+  {
+   "fieldname": "guarentee_amount",
+   "fieldtype": "Currency",
+   "label": "Guarentee Amount"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "guarentee_fee_rate",
+   "fieldtype": "Data",
+   "label": "Guarentee Fee Rate"
+  },
+  {
+   "fieldname": "reinsure1",
+   "fieldtype": "Data",
+   "label": "Reinsure"
+  },
+  {
+   "fieldname": "reinsurer_ref_number",
+   "fieldtype": "Data",
+   "label": "Reinsurer Ref Number"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "Reinsurer"
+  },
+  {
+   "fieldname": "portion_of_guarentee_amount_to_reinsurer",
+   "fieldtype": "Data",
+   "label": "Portion of Guarentee Amount To Reinsurer"
+  },
+  {
+   "fieldname": "portion_of_guarentee_feeto_reinsurer",
+   "fieldtype": "Data",
+   "label": "Portion of Guarentee FeeTo Reinsurer"
+  },
+  {
+   "fieldname": "ecgc_commission",
+   "fieldtype": "Currency",
+   "label": "ECGC Commission"
+  },
+  {
+   "fieldname": "broker1",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "broker2",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "total_due_with_out_vat",
+   "fieldtype": "Data",
+   "label": "Total Due (with out VAT)"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "VAT%"
+  },
+  {
+   "fieldname": "vat1",
+   "fieldtype": "Data",
+   "label": "vat"
+  },
+  {
+   "fieldname": "total_due",
+   "fieldtype": "Data",
+   "label": "Total Due"
+  },
+  {
+   "fieldname": "column_break_wih5s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "guarentee_fee",
+   "fieldtype": "Currency",
+   "label": "Guarentee Fee"
+  },
+  {
+   "fieldname": "ecgc",
+   "fieldtype": "Data",
+   "label": "ECGC"
+  },
+  {
+   "fieldname": "portion_of_guarentee_amount_to_ecgc",
+   "fieldtype": "Percent",
+   "label": "Portion of Guarentee Amount To ECGC"
+  },
+  {
+   "fieldname": "portion_of_guarentee_fee_to_ecgc",
+   "fieldtype": "Percent",
+   "label": "Portion of Guarentee Fee To ECGC"
+  },
+  {
+   "fieldname": "ecgc1",
+   "fieldtype": "Data",
+   "label": "ECGC Commission"
+  },
+  {
+   "fieldname": "broker_commission",
+   "fieldtype": "Data",
+   "label": "Broker Commission"
+  },
+  {
+   "fieldname": "section_break_joqrt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "calculate",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "submit_to_finance",
+   "fieldtype": "Button",
+   "label": "Submit To Finance"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_xa4ep",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ddycx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gp7b8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_e7xus",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-03 12:32:16.691339",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "DeputySheriffBond_Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

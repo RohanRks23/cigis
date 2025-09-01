@@ -1,0 +1,362 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{credit_limit_no}",
+ "creation": "2024-02-16 11:37:17.587964",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_limit_application_search_policies_tab",
+  "policy",
+  "section_break_pa9h0",
+  "policy_number",
+  "policy_no",
+  "policy_holder_name",
+  "policy_expire_date",
+  "cl_application_date",
+  "column_break_skf7d",
+  "status",
+  "inception_date",
+  "credit_limit_no",
+  "policy_type",
+  "section_break_4ci4d",
+  "buyer1",
+  "section_break_ip99l",
+  "buyer",
+  "buyer_name",
+  "new",
+  "trading_style",
+  "reg_noid_no",
+  "tel_no",
+  "estd_date",
+  "column_break_hc8xl",
+  "address_1",
+  "address_2",
+  "fax_no",
+  "no_of_employees",
+  "section_break_nrwbc",
+  "trade_references",
+  "section_break_izjfk",
+  "reference_1",
+  "reference_2",
+  "column_break_emvrq",
+  "tel_no1",
+  "tel_no2",
+  "column_break_nicju",
+  "bank",
+  "branch",
+  "limit_required",
+  "director_1",
+  "director_3",
+  "director_5",
+  "section_break_5mbdk",
+  "account_number",
+  "terms_of_payments",
+  "days_from",
+  "notes",
+  "director_2",
+  "director_4"
+ ],
+ "fields": [
+  {
+   "fetch_from": "policy_approvals.policy_no",
+   "fetch_if_empty": 1,
+   "fieldname": "credit_limit_application_search_policies_tab",
+   "fieldtype": "Tab Break",
+   "label": "Credit Limit Application "
+  },
+  {
+   "fieldname": "policy",
+   "fieldtype": "HTML",
+   "label": "Policy",
+   "options": " <h4 style=\"color: black;\">Policy</h4>"
+  },
+  {
+   "fetch_from": "policy_number.policy_holder",
+   "fieldname": "policy_holder_name",
+   "fieldtype": "Data",
+   "label": "Policy Holder Name"
+  },
+  {
+   "fieldname": "policy_expire_date",
+   "fieldtype": "Date",
+   "label": "Policy Expire Date"
+  },
+  {
+   "default": "Today",
+   "fieldname": "cl_application_date",
+   "fieldtype": "Date",
+   "label": "Cl Application Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "options": "Active\nIn Active"
+  },
+  {
+   "fetch_from": "policy_number.inception_date",
+   "fetch_if_empty": 1,
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "credit_limit_no",
+   "fieldtype": "Data",
+   "label": "Credit limit Number"
+  },
+  {
+   "fieldname": "buyer1",
+   "fieldtype": "HTML",
+   "label": "Buyer",
+   "options": " <h4 style=\"color: black;\">Buyer</h4>"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fetch_from": "buyer.trading_name",
+   "fetch_if_empty": 1,
+   "fieldname": "trading_style",
+   "fieldtype": "Data",
+   "label": "Trading Style"
+  },
+  {
+   "fetch_from": "buyer.registration_no",
+   "fetch_if_empty": 1,
+   "fieldname": "reg_noid_no",
+   "fieldtype": "Data",
+   "label": "Reg No/Id No"
+  },
+  {
+   "fetch_from": "buyer.phone",
+   "fetch_if_empty": 1,
+   "fieldname": "tel_no",
+   "fieldtype": "Data",
+   "label": "Telephone No"
+  },
+  {
+   "fieldname": "new",
+   "fieldtype": "Button",
+   "label": "New"
+  },
+  {
+   "fetch_from": "buyer.no_of_employees",
+   "fetch_if_empty": 1,
+   "fieldname": "no_of_employees",
+   "fieldtype": "Data",
+   "label": "Number of Employees"
+  },
+  {
+   "fieldname": "trade_references",
+   "fieldtype": "Heading",
+   "label": "Trade References "
+  },
+  {
+   "fieldname": "reference_1",
+   "fieldtype": "Data",
+   "label": "Reference 1"
+  },
+  {
+   "fieldname": "reference_2",
+   "fieldtype": "Data",
+   "label": "Reference 2"
+  },
+  {
+   "fieldname": "tel_no1",
+   "fieldtype": "Data",
+   "label": "Telephone No"
+  },
+  {
+   "fieldname": "tel_no2",
+   "fieldtype": "Data",
+   "label": "Telephone No"
+  },
+  {
+   "fetch_from": "buyer.branch",
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "limit_required",
+   "fieldtype": "Currency",
+   "label": "Limit Required"
+  },
+  {
+   "fetch_from": "buyer.ac_no",
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "terms_of_payments",
+   "fieldtype": "Data",
+   "label": "Terms Of Payments"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "days_from",
+   "fieldtype": "Select",
+   "label": "Days From Date",
+   "options": "INVOICE\nSTATEMENT"
+  },
+  {
+   "fetch_from": "buyer.director_1",
+   "fieldname": "director_1",
+   "fieldtype": "Data",
+   "label": "Director 1"
+  },
+  {
+   "fetch_from": "buyer.director_3",
+   "fieldname": "director_3",
+   "fieldtype": "Data",
+   "label": "Director 3"
+  },
+  {
+   "fetch_from": "buyer.director_4",
+   "fieldname": "director_5",
+   "fieldtype": "Data",
+   "label": "Director 5"
+  },
+  {
+   "fetch_from": "buyer.director_2",
+   "fieldname": "director_2",
+   "fieldtype": "Data",
+   "label": "Director 2"
+  },
+  {
+   "fetch_from": "buyer.director_4",
+   "fetch_if_empty": 1,
+   "fieldname": "director_4",
+   "fieldtype": "Data",
+   "label": "Director 4"
+  },
+  {
+   "fetch_from": "policy_number.policy_type",
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Policy Type"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Select",
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "column_break_nicju",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_pa9h0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "buyer.bank",
+   "fieldname": "bank",
+   "fieldtype": "Select",
+   "label": "Bank",
+   "options": "\nABSA\nBancABC\nBANCO INTERNATIONAL DE CREDITO\nBanco Comercial e de Investimentos\nBANK GABORONE\nBANK OF BARODA (BOTSWANA) LTD\nBANK OF BOTSWANA\nBANK OF INDIA\nBank of Lesotho\nBANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY (BBS)\nBOTSWANA SAVINGS BANK\nBotswana Vaccine Inst.\nCAPITAL BANK\nCBZ BANK\nECOBANK\nFIRST CARE CHEMIST (PTY) LTD\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK\nMIGRATION BANK\nNEDBANK\nNMB BANK LIMITED\nRAND MERCHANT\nSTANDARD BANK (SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD\nSTANBIC BANK"
+  },
+  {
+   "fieldname": "column_break_skf7d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4ci4d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ip99l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hc8xl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nrwbc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_izjfk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_emvrq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5mbdk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_1",
+   "fieldtype": "Data",
+   "label": "Address 1"
+  },
+  {
+   "fieldname": "address_2",
+   "fieldtype": "Data",
+   "label": "Address 2"
+  },
+  {
+   "fieldname": "fax_no",
+   "fieldtype": "Data",
+   "label": "Fax No"
+  },
+  {
+   "fieldname": "estd_date",
+   "fieldtype": "Date",
+   "label": "Established Date"
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Buyer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-05 11:26:00.753974",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Credit Limits Application",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

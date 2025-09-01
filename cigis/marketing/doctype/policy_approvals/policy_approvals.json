@@ -1,0 +1,201 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\", \"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:policy_number",
+ "creation": "2024-02-16 06:43:28.228740",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_fq63x",
+  "section_break_07osr",
+  "policy_approval_details",
+  "section_break_nhdzy",
+  "quotation_numbers",
+  "quotation_date",
+  "policy_holder",
+  "policy_number",
+  "policy_type",
+  "premium",
+  "premium_rate",
+  "payment_mode",
+  "bank",
+  "column_break_aam9p",
+  "status",
+  "goods_services",
+  "proposal_no",
+  "acceptance_date",
+  "inception_date",
+  "expiry_date",
+  "autharoized_signatory",
+  "payment_terms",
+  "section_break_hctgr",
+  "html"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_break_fq63x",
+   "fieldtype": "Tab Break",
+   "label": "Policy Approvals"
+  },
+  {
+   "fieldname": "section_break_07osr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_approval_details",
+   "fieldtype": "Heading",
+   "label": "Policy Approval Details"
+  },
+  {
+   "fieldname": "section_break_nhdzy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "quotation_date",
+   "fieldtype": "Date",
+   "label": "Quotation Date"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "autharoized_signatory",
+   "fieldtype": "Data",
+   "label": "Autharoized Signatory",
+   "reqd": 1
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Select",
+   "label": "Bank",
+   "options": "\nABSA\nBANC ABC\nBanco Comercial e de Investimantos\nBANCO INTERNATIONAL DE CREDITO\nBANK GABORONE\nBANK OF BARODA(BOTSWANA)LTD\nBANK OF INDIA\nBANK OF BOTSWANA\nBANK OF INDIA BANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY (BBS)\nBOTSWANA SAVINGS BANK\nBotswana Vaccine Inst\nCAPITAL BANK\nCBZ BANK\nECOBANK\nFIRST CARE CHEMIST (PTY) LTD\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK MIGRATION BANK\nNEDBANK\nNMB BANK LIMITED\nMIGRATION BANK\nRAND MERCHANT\nSTANBIC BANK\nSTANDARD BANK(SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD"
+  },
+  {
+   "fieldname": "column_break_aam9p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "quotation_number.status12",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nActive\nInActive\nAccepted"
+  },
+  {
+   "fetch_from": "quotation_number.proposal_no",
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy Number",
+   "unique": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "acceptance_date",
+   "fieldtype": "Date",
+   "label": "Acceptance Date",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "quotation_number.inception_date",
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "\nBANK DIRECT DEPOSIT\nBANK GUARANTEE\nCREDIT CARD\nCHEQUE\nCASH"
+  },
+  {
+   "fieldname": "section_break_hctgr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "\n\n\n  <meta charset=\"UTF-8\">\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n  <style>\n    .underlined {\n      display: flex;\n      justify-content: space-between; /* Adjust space between items */\n    }\n\n    .underlined a {\n      text-decoration: underline;\n    }\n\n    .underlined p {\n      margin: 0 10px; /* Adjust the gap between items */\n    }\n  </style>\n  <title>Underlined Words</title>\n\n\n  <div class=\"underlined\">\n    <p class=\"underlined\"><a>Covering Letter</a></p>\n    <p class=\"underlined\"><a>Policy Document</a></p>\n    <p class=\"underlined\"><a>Policy Schedule</a></p>\n    <p class=\"underlined\"><a>Policy Administration Guidelines</a></p>\n    <p class=\"underlined\"><a>Credit Limit Application Forms</a></p>\n  </div>\n\n\n"
+  },
+  {
+   "fetch_from": "policy_holder.schedule_no",
+   "fieldname": "quotation_numbers",
+   "fieldtype": "Select",
+   "label": "Quotation Numbers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy Type"
+  },
+  {
+   "fetch_from": "quotation_number.premium_deposit",
+   "fieldname": "premium",
+   "fieldtype": "Data",
+   "label": "Premium (p)"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "goods/service"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "label": "Payment Terms"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-04 06:38:37.871662",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Policy Approvals",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

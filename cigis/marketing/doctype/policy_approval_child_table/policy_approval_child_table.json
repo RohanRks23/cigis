@@ -1,0 +1,66 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-21 06:21:28.425631",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "policy_number",
+  "policy_holder",
+  "inception_date",
+  "quotation_number",
+  "praposal_no",
+  "p"
+ ],
+ "fields": [
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quotation NO"
+  },
+  {
+   "fieldname": "praposal_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Praposal No"
+  },
+  {
+   "fieldname": "p",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Premium"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 11:12:35.894772",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Policy Approval Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

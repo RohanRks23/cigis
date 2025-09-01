@@ -1,0 +1,473 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{cancellation_req_no}",
+ "creation": "2024-03-26 12:34:21.609353",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_type",
+  "section_break_dkp4v",
+  "deputyshreiff_bond",
+  "column_break_64rqw",
+  "other_bonds",
+  "section_break_8ywpt",
+  "bond_details",
+  "section_break_9dap9",
+  "bond_holder",
+  "section_break_hyhlo",
+  "bond_no",
+  "column_break_e6o6o",
+  "date",
+  "section_break_xwqhj",
+  "client",
+  "column_break_dearp",
+  "principal",
+  "section_break_4fbmd",
+  "description1",
+  "column_break_jokrj",
+  "description",
+  "section_break_ajdjv",
+  "bond_period_from",
+  "column_break_4gjgz",
+  "bond_period_to",
+  "section_break_g11mo",
+  "bond_value",
+  "column_break_n4kdv",
+  "cancellation_req_no",
+  "section_break_y6tgd",
+  "bondtype1",
+  "section_break_ccpxh",
+  "bond_cancellation",
+  "section_break_kmtkl",
+  "request_date",
+  "column_break_awzot",
+  "project_completion_date",
+  "section_break_xlm3s",
+  "details",
+  "section_break_rwuea",
+  "bond_type1",
+  "section_break_9vn8v",
+  "deputyshreiff_bond1",
+  "column_break_4zqzn",
+  "other_bonds1",
+  "section_break_fdjgr",
+  "bond_details1",
+  "section_break_bk5bm",
+  "bond_holder1",
+  "section_break_dh1tb",
+  "bond_no1",
+  "column_break_k43ma",
+  "date1",
+  "section_break_1adce",
+  "client1",
+  "column_break_sgytd",
+  "principal1",
+  "section_break_4cyru",
+  "description2",
+  "column_break_58ye0",
+  "description3",
+  "section_break_yritx",
+  "bond_period_from1",
+  "column_break_hwrge",
+  "bond_period_to1",
+  "section_break_iajdm",
+  "bond_value1",
+  "column_break_5owag",
+  "cancellation_req_no1",
+  "section_break_pajxf",
+  "bondtype2",
+  "section_break_7afzz",
+  "approval",
+  "section_break_mmpba",
+  "send_to_recommendation",
+  "section_break_5wl7h",
+  "approved_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Heading",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_dkp4v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshreiff_bond",
+   "fieldtype": "Check",
+   "label": "DeputyShreiff Bond"
+  },
+  {
+   "fieldname": "column_break_64rqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_bonds",
+   "fieldtype": "Check",
+   "label": "Other Bonds"
+  },
+  {
+   "fieldname": "section_break_8ywpt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_details",
+   "fieldtype": "Heading",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "section_break_9dap9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Select",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_hyhlo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Select",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "column_break_e6o6o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_xwqhj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client "
+  },
+  {
+   "fieldname": "column_break_dearp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Long Text",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "section_break_4fbmd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_jokrj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_ajdjv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "column_break_4gjgz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "section_break_g11mo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "column_break_n4kdv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancellation_req_no",
+   "fieldtype": "Data",
+   "label": "Cancellation Req No"
+  },
+  {
+   "fieldname": "section_break_y6tgd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bondtype1",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_ccpxh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_cancellation",
+   "fieldtype": "Heading",
+   "label": "Bond Cancellation"
+  },
+  {
+   "fieldname": "section_break_kmtkl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "column_break_awzot",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Project Completion date"
+  },
+  {
+   "fieldname": "section_break_xlm3s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Details"
+  },
+  {
+   "fieldname": "section_break_rwuea",
+   "fieldtype": "Tab Break",
+   "label": "Cancellation"
+  },
+  {
+   "fieldname": "bond_type1",
+   "fieldtype": "Heading",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_9vn8v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshreiff_bond1",
+   "fieldtype": "Check",
+   "label": "DeputyShreiff Bond"
+  },
+  {
+   "fieldname": "column_break_4zqzn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_bonds1",
+   "fieldtype": "Check",
+   "label": "Other Bonds"
+  },
+  {
+   "fieldname": "section_break_fdjgr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_details1",
+   "fieldtype": "Heading",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "section_break_bk5bm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_holder1",
+   "fieldtype": "Data",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_dh1tb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no1",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "column_break_k43ma",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_1adce",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client1",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "column_break_sgytd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "principal1",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "section_break_4cyru",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description2",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_58ye0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description3",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_yritx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_period_from1",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "column_break_hwrge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_period_to1",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "section_break_iajdm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_value1",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "column_break_5owag",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancellation_req_no1",
+   "fieldtype": "Data",
+   "label": "Cancellation Req No"
+  },
+  {
+   "fieldname": "section_break_pajxf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bondtype2",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_7afzz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval",
+   "fieldtype": "Heading",
+   "label": "Approval"
+  },
+  {
+   "fieldname": "section_break_mmpba",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "send_to_recommendation",
+   "fieldtype": "Select",
+   "label": "Send to Recommendation"
+  },
+  {
+   "fieldname": "section_break_5wl7h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approved_on",
+   "fieldtype": "Date",
+   "label": "Approved on"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-04 13:01:58.469383",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Cancellation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

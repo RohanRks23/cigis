@@ -1,0 +1,441 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}",
+ "creation": "2024-05-21 20:08:15.986524",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "column_break_oti9e",
+  "paragraph",
+  "section_break_vdbq7",
+  "heading",
+  "section_break_vtjvr",
+  "head",
+  "section_break_u48u0",
+  "proposer",
+  "section_break_uaxpn",
+  "client_name",
+  "trade_style",
+  "registered_no",
+  "date_established",
+  "directors",
+  "print_child_table",
+  "postal_address",
+  "physical_address",
+  "telephone_number",
+  "fax_number",
+  "email",
+  "bankers_branch",
+  "account_number",
+  "nature_of_bussiness",
+  "section_break_k5dan",
+  "nature_of_bussines",
+  "section_break_7x0um",
+  "section_break_7bzcq",
+  "sold_services",
+  "section_break_bcxaj",
+  "section_break_samlq",
+  "type_buyer",
+  "section_break_wezgk",
+  "section_break_oae0l",
+  "spread_turnover",
+  "section_break_shg7c",
+  "spread_of_turnover",
+  "spread_of_turnover_eci",
+  "turnover_letter",
+  "turnover_letter_credit",
+  "cover_required",
+  "section_break_mt7lv",
+  "covering_all_markets",
+  "quotation_covering",
+  "include_exclude",
+  "principal_buyer",
+  "principal_buyers",
+  "principal_buyer_table",
+  "information",
+  "past_experience",
+  "debts",
+  "section_break_dr4ec",
+  "lines",
+  "baddebts",
+  "line",
+  "data",
+  "past_experiences",
+  "financial_statement",
+  "financial_statements",
+  "declaration",
+  "facts",
+  "representation",
+  "section_break_m13wv",
+  "proposers",
+  "column_break_zt4ec",
+  "name1",
+  "section_break_y643c",
+  "capacity",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "Image",
+   "options": "   <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "column_break_oti9e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n<br>"
+  },
+  {
+   "fieldname": "section_break_vdbq7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "heading",
+   "options": "<br>\n<p style=\"text-align: center;\"><strong>PROPOSAL FOR SHORT TERM EXPORT CREDIT INSURANCE POLICY</strong></p>\n"
+  },
+  {
+   "fieldname": "section_break_vtjvr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "head",
+   "fieldtype": "HTML",
+   "label": "head",
+   "options": "<br>\n<p>To enable you to prepare  a quotation ,we give you,without obligation and in the strictest confidence, the following information:</p>\n<br>"
+  },
+  {
+   "fieldname": "section_break_u48u0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposer",
+   "fieldtype": "HTML",
+   "label": "proposer",
+   "options": "<p style=\"text-align: center;\">\n<strong>1.PROPOSER</strong></p>"
+  },
+  {
+   "fieldname": "section_break_uaxpn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Registered name"
+  },
+  {
+   "fieldname": "trade_style",
+   "fieldtype": "Data",
+   "label": "Trade style"
+  },
+  {
+   "fieldname": "registered_no",
+   "fieldtype": "Data",
+   "label": "Registered No"
+  },
+  {
+   "fieldname": "date_established",
+   "fieldtype": "Data",
+   "label": "Date established"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "HTML",
+   "label": "Directors",
+   "options": "<p><b>e)Directors;Partners;Members;Proprietor</b></p>"
+  },
+  {
+   "fieldname": "print_child_table",
+   "fieldtype": "Table",
+   "options": "Print_child"
+  },
+  {
+   "fieldname": "postal_address",
+   "fieldtype": "Data",
+   "label": "Postal Address"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical address"
+  },
+  {
+   "fieldname": "telephone_number",
+   "fieldtype": "Data",
+   "label": "Telephone number"
+  },
+  {
+   "fieldname": "fax_number",
+   "fieldtype": "Data",
+   "label": "Fax Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-Mail"
+  },
+  {
+   "fieldname": "bankers_branch",
+   "fieldtype": "Data",
+   "label": "Bankers & Branch"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "nature_of_bussiness",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>2.NATURE OF BUSSINESS</strong></p>"
+  },
+  {
+   "fieldname": "section_break_k5dan",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nature_of_bussines",
+   "fieldtype": "HTML",
+   "options": "<p><b>e)Manufacturer;Wholesaler;Retailer;other</b></p>"
+  },
+  {
+   "fieldname": "section_break_7x0um",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_7bzcq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sold_services",
+   "fieldtype": "HTML",
+   "options": "<p><b>a)Kind of goods sold / services rendered</b></p>"
+  },
+  {
+   "fieldname": "section_break_bcxaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_samlq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type_buyer",
+   "fieldtype": "HTML",
+   "options": "<p><b>a)Type of buyer involved e.gGovernmants,manufacturers,wholesaler,retailers,associated companies</b></p>"
+  },
+  {
+   "fieldname": "section_break_wezgk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_oae0l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "spread_turnover",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>3.SPREAD OF TURNOVER</strong></p>"
+  },
+  {
+   "fieldname": "section_break_shg7c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "spread_of_turnover",
+   "fieldtype": "HTML",
+   "options": "<p>a) We give below details our export turnoverachieved with all markets during the last 12 months and our tital estimated export turnover to each of the countries for next 12 month during which the proposed policy to apply</p>"
+  },
+  {
+   "fieldname": "spread_of_turnover_eci",
+   "fieldtype": "Table",
+   "options": "Spread_of_turnover_ECI"
+  },
+  {
+   "fieldname": "turnover_letter",
+   "fieldtype": "HTML",
+   "options": "<p>b)  Turnover on Letter of Credit confirmed by a Bank in Botswana:          \n     Last 12 Months   P</p>"
+  },
+  {
+   "fieldname": "turnover_letter_credit",
+   "fieldtype": "HTML",
+   "options": "<p>c)  Turnover on Letter of Credit not confirmed by a Bank in Botswana:          \n     Last 12 Months   P</p>"
+  },
+  {
+   "fieldname": "cover_required",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>4.COVER REQUIRED</strong></p>"
+  },
+  {
+   "fieldname": "section_break_mt7lv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "covering_all_markets",
+   "fieldtype": "HTML",
+   "options": "<p>a)  We wish to obtain a quotation covering all markets.</p>"
+  },
+  {
+   "fieldname": "quotation_covering",
+   "fieldtype": "HTML",
+   "options": "<p>b)  We wish to obtain a quotation covering all exports to the following selected countries only.</p>"
+  },
+  {
+   "fieldname": "include_exclude",
+   "fieldtype": "HTML",
+   "options": "<p>c)  Include/ excludes irrevocable letters of credit opened by foregin banks and not confirmed by a bsnk in botswana</p>"
+  },
+  {
+   "fieldname": "principal_buyer",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>5.PRINCIPAL BUYERS</strong></p>"
+  },
+  {
+   "fieldname": "principal_buyers",
+   "fieldtype": "HTML",
+   "options": "<p>a)  We give below details of our principal buyers:</p>"
+  },
+  {
+   "fieldname": "principal_buyer_table",
+   "fieldtype": "Table",
+   "options": "ECI_Principal_buyer_table"
+  },
+  {
+   "fieldname": "information",
+   "fieldtype": "HTML",
+   "options": "<p>b)  We know of no adverse information on any of these buyers.</p>"
+  },
+  {
+   "fieldname": "past_experience",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>6.PAST EXPERIENCE</strong></p>"
+  },
+  {
+   "fieldname": "debts",
+   "fieldtype": "HTML",
+   "options": "<p>Our bad debts, which term shall mean the actual losses incurred on all  export buyers arising only from the insolvency or financial difficulties of such buyers, for the past three years and the subsequent period to date, have been as follows</p>"
+  },
+  {
+   "fieldname": "section_break_dr4ec",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lines",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">____________________________________________________________________________________________________________________________________________________________________________________________</p>"
+  },
+  {
+   "fieldname": "baddebts",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\nBad debts written off</p>"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">__________________________________________________________________________________________</p>"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\nFor each of the last Completed Financial Years</p>"
+  },
+  {
+   "fieldname": "past_experiences",
+   "fieldtype": "Table",
+   "options": "ECI_Past_experience"
+  },
+  {
+   "fieldname": "financial_statement",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>7.FINANCIAL STATEMENTS</strong></p>"
+  },
+  {
+   "fieldname": "financial_statements",
+   "fieldtype": "HTML",
+   "options": "<p>Kindly enclose a copy of your latest Financial Statement</p>"
+  },
+  {
+   "fieldname": "declaration",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: center;\">\n<strong>8.DECLARATION</strong></p>"
+  },
+  {
+   "fieldname": "facts",
+   "fieldtype": "HTML",
+   "options": "<p>a) We certify that the representation made and the facts stated by us are true and correct</p>"
+  },
+  {
+   "fieldname": "representation",
+   "fieldtype": "HTML",
+   "options": "<p>b) We agree that no statement or representation made will be binding on BECI unless confirmed in writing.</p>"
+  },
+  {
+   "fieldname": "section_break_m13wv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposers",
+   "fieldtype": "Signature",
+   "label": "Proposer's Authorised Signature"
+  },
+  {
+   "fieldname": "column_break_zt4ec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "section_break_y643c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-23 09:27:34.247706",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "ECI Print proposals",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

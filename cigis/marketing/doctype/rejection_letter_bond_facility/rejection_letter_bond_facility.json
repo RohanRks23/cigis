@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-05 05:57:32.755366",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "section_break_pcdpq",
+  "paragraph",
+  "section_break_20qxy",
+  "consent_form_to_request_bank_report",
+  "to",
+  "from",
+  "date",
+  "section_break_kza4q",
+  "registration_no",
+  "column_break_uxclm",
+  "facility_no",
+  "section_break_yevjp",
+  "a",
+  "b"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "   <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "section_break_pcdpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"\nhttp://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n<br>"
+  },
+  {
+   "fieldname": "section_break_20qxy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "consent_form_to_request_bank_report",
+   "fieldtype": "HTML",
+   "label": "Bonds Facility Application Form",
+   "options": "<br><p style=\"text-align: center;\">\n<strong>Rejection Letter</strong>\n</p>"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "HTML",
+   "label": "From",
+   "options": "<h5>From:</h5><p> Underwriting Executive</p>"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_kza4q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "to.registration_number",
+   "fetch_if_empty": 1,
+   "fieldname": "registration_no",
+   "fieldtype": "Data",
+   "label": "Registration No"
+  },
+  {
+   "fieldname": "column_break_uxclm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "label": "facility No"
+  },
+  {
+   "fieldname": "section_break_yevjp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "HTML",
+   "label": "a",
+   "options": "<h5>T.M SPARE SALES</h5>\n<h5>PLOT 14416 UNIT 4, G WEST INDUSTRIAL</h5>\n<h5>TLOKWENG</h5>\n<h5>GABORONE</h5>"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "HTML",
+   "label": "b",
+   "options": "<h5>We regret to inform you that,your proposal has rejected due to the following reasons:</h5>\n<h5>NEW CLIENT COMING THROUGH AGREEY HOLDINGS</h5>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-16 13:33:46.792436",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Rejection Letter Bond Facility",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

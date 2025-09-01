@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-05 09:08:12.572711",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "to",
+  "attention",
+  "from",
+  "attention1",
+  "subject",
+  "amount_required"
+ ],
+ "fields": [
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "ATTENTION"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "FROM"
+  },
+  {
+   "fieldname": "attention1",
+   "fieldtype": "Data",
+   "label": "ATTENTION"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "amount_required",
+   "fieldtype": "Data",
+   "label": "Amount Required"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:44.045758",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "CB Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,737 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 13:23:48.584354",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_limit_review_tab",
+  "section_break_qwhoh",
+  "policy",
+  "section_break_3cjiu",
+  "ph_name",
+  "policy_number",
+  "inception_date",
+  "clreview_no",
+  "column_break_y8qpn",
+  "status",
+  "policy_expiry_date",
+  "date",
+  "section_break_wubxg",
+  "cl_review",
+  "buyer",
+  "credit_limit_no",
+  "trading_style",
+  "estd_date",
+  "director_share_holder_exposure",
+  "column_break_qr1kq",
+  "total_exposure",
+  "no_of_employees",
+  "section_break_xsala",
+  "review_history",
+  "section_break_p7vap",
+  "credit_burea_report",
+  "section_break_pizwg",
+  "cb_report_required_",
+  "column_break_nyxfq",
+  "column_break_icvpt",
+  "column_break_hs6j4",
+  "yes",
+  "column_break_mcflq",
+  "no",
+  "section_break_snwhm",
+  "column_break_nlffh",
+  "column_break_zx5sb",
+  "column_break_gyakp",
+  "column_break_wgbrj",
+  "column_break_njbil",
+  "view_cb_report",
+  "section_break_mb06v",
+  "review",
+  "section_break_cvx5r",
+  "current_limit",
+  "column_break_kmjr5",
+  "initiated_by",
+  "beci",
+  "policy_holder",
+  "section_break_us3yn",
+  "required_limit",
+  "comments",
+  "column_break_hmsre",
+  "reasons",
+  "section_break_g7rgb",
+  "credit_analysis",
+  "section_break_gzqco",
+  "business_organisation",
+  "type__of_business",
+  "customers",
+  "location",
+  "present_mgt_in_control_since",
+  "management_experience",
+  "bank_risk_category",
+  "itc_clearence",
+  "annual_sales_for_the_last_23years",
+  "outstanding_amount",
+  "column_break_jo94j",
+  "main_product_service",
+  "level_of_competition",
+  "management_consists_of",
+  "credit_bureau_opinion",
+  "financials",
+  "trading_experience",
+  "balance_sheet_analysis",
+  "section_break_xxjkb",
+  "repayment_ability",
+  "column_break_xzuhs",
+  "column_break_dctbd",
+  "column_break_s0ysw",
+  "terms_of_payments",
+  "column_break_gsqzw",
+  "days_from",
+  "column_break_wdg8p",
+  "date1",
+  "section_break_fth9o",
+  "comments1",
+  "column_break_fzagy",
+  "recomended_exposure",
+  "overdue_amount",
+  "use_of_the_credit_limit",
+  "section_break_z5hfv",
+  "recommended",
+  "section_break_6y53h",
+  "recommended_to",
+  "column_break_yc6fs",
+  "recommended11",
+  "section_break_sxzvn",
+  "review11",
+  "section_break_j46qd",
+  "approved_limit",
+  "comments11",
+  "conditions",
+  "signatory_1",
+  "signatory_2",
+  "column_break_0cqsb",
+  "cl_review_date",
+  "signatory_officer1",
+  "signatory_officer2",
+  "section_break_hjsxo",
+  "column_break_lseyd",
+  "column_break_e33ni",
+  "column_break_nfpwz",
+  "cancel",
+  "section_break_tejbv",
+  "column_break_ioenv",
+  "column_break_l7oxp",
+  "column_break_hoj1p",
+  "go_to_finacial_analysis",
+  "column_break_lpexj",
+  "column_break_7jxcp"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_limit_review_tab",
+   "fieldtype": "Tab Break",
+   "label": "Credit Limit Review"
+  },
+  {
+   "fieldname": "section_break_qwhoh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy",
+   "fieldtype": "Heading",
+   "label": "Policy"
+  },
+  {
+   "fieldname": "section_break_3cjiu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PH Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Data",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "clreview_no",
+   "fieldtype": "Data",
+   "label": "CLReview No"
+  },
+  {
+   "fieldname": "column_break_y8qpn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "policy_expiry_date",
+   "fieldtype": "Date",
+   "label": "Policy Expiry Date"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_wubxg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cl_review",
+   "fieldtype": "Heading",
+   "label": "CL Review"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "credit_limit_no",
+   "fieldtype": "Data",
+   "label": "Credit Limit No"
+  },
+  {
+   "fieldname": "trading_style",
+   "fieldtype": "Data",
+   "label": "Trading Style"
+  },
+  {
+   "fieldname": "estd_date",
+   "fieldtype": "Date",
+   "label": "Estd Date"
+  },
+  {
+   "fieldname": "director_share_holder_exposure",
+   "fieldtype": "Button",
+   "label": "Director Share Holder Exposure"
+  },
+  {
+   "fieldname": "column_break_qr1kq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_exposure",
+   "fieldtype": "Data",
+   "label": "Total Exposure"
+  },
+  {
+   "fieldname": "no_of_employees",
+   "fieldtype": "Data",
+   "label": "No Of Employees"
+  },
+  {
+   "fieldname": "section_break_xsala",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "review_history",
+   "fieldtype": "Heading",
+   "label": "Review History"
+  },
+  {
+   "fieldname": "section_break_p7vap",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_burea_report",
+   "fieldtype": "Heading",
+   "label": "Credit Burea Report"
+  },
+  {
+   "fieldname": "section_break_pizwg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cb_report_required_",
+   "fieldtype": "Heading",
+   "label": "CB Report Required ?:"
+  },
+  {
+   "fieldname": "column_break_nyxfq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_icvpt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hs6j4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes",
+   "options": "                           "
+  },
+  {
+   "fieldname": "column_break_mcflq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_snwhm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nlffh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zx5sb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gyakp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wgbrj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_njbil",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "view_cb_report",
+   "fieldtype": "Button",
+   "label": "View CB Report"
+  },
+  {
+   "fieldname": "section_break_mb06v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "review",
+   "fieldtype": "Heading",
+   "label": "Review"
+  },
+  {
+   "fieldname": "section_break_cvx5r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_limit",
+   "fieldtype": "Currency",
+   "label": "Current Limit"
+  },
+  {
+   "fieldname": "column_break_kmjr5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "initiated_by",
+   "fieldtype": "Heading",
+   "label": "Initiated By"
+  },
+  {
+   "default": "0",
+   "fieldname": "beci",
+   "fieldtype": "Check",
+   "label": "BECI"
+  },
+  {
+   "default": "0",
+   "fieldname": "policy_holder",
+   "fieldtype": "Check",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "section_break_us3yn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "required_limit",
+   "fieldtype": "Currency",
+   "label": "Required Limit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Text",
+   "label": "Comments",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hmsre",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reasons",
+   "fieldtype": "Small Text",
+   "label": "Reasons",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_g7rgb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_analysis",
+   "fieldtype": "Heading",
+   "label": "Credit Analysis"
+  },
+  {
+   "fieldname": "section_break_gzqco",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "business_organisation",
+   "fieldtype": "Data",
+   "label": "Business Organisation"
+  },
+  {
+   "fieldname": "type__of_business",
+   "fieldtype": "Data",
+   "label": "Type  of Business"
+  },
+  {
+   "fieldname": "customers",
+   "fieldtype": "Data",
+   "label": "Customers"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Small Text",
+   "label": "Location"
+  },
+  {
+   "fieldname": "present_mgt_in_control_since",
+   "fieldtype": "Data",
+   "label": "Present MGT in Control Since"
+  },
+  {
+   "fieldname": "management_experience",
+   "fieldtype": "Data",
+   "label": "Management Experience"
+  },
+  {
+   "fieldname": "bank_risk_category",
+   "fieldtype": "Data",
+   "label": "Bank Risk Category"
+  },
+  {
+   "fieldname": "itc_clearence",
+   "fieldtype": "Data",
+   "label": "ITC Clearence"
+  },
+  {
+   "fieldname": "annual_sales_for_the_last_23years",
+   "fieldtype": "Data",
+   "label": "Annual sales for the last 2/3years"
+  },
+  {
+   "fieldname": "outstanding_amount",
+   "fieldtype": "Data",
+   "label": "Outstanding Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jo94j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_product_service",
+   "fieldtype": "Data",
+   "label": "Main Product Service"
+  },
+  {
+   "fieldname": "level_of_competition",
+   "fieldtype": "Data",
+   "label": "Level of Competition"
+  },
+  {
+   "fieldname": "management_consists_of",
+   "fieldtype": "Data",
+   "label": "Management Consists of"
+  },
+  {
+   "fieldname": "credit_bureau_opinion",
+   "fieldtype": "Small Text",
+   "label": "Credit Bureau Opinion"
+  },
+  {
+   "fieldname": "financials",
+   "fieldtype": "Small Text",
+   "label": "Financials"
+  },
+  {
+   "fieldname": "trading_experience",
+   "fieldtype": "Data",
+   "label": "Trading Experience"
+  },
+  {
+   "fieldname": "balance_sheet_analysis",
+   "fieldtype": "Small Text",
+   "label": "Balance Sheet Analysis"
+  },
+  {
+   "fieldname": "section_break_xxjkb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "repayment_ability",
+   "fieldtype": "Data",
+   "label": "Repayment Ability"
+  },
+  {
+   "fieldname": "column_break_xzuhs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dctbd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_s0ysw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "terms_of_payments",
+   "fieldtype": "Data",
+   "label": "Terms of Payments"
+  },
+  {
+   "fieldname": "column_break_gsqzw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days_from",
+   "fieldtype": "Select",
+   "label": "Days From"
+  },
+  {
+   "fieldname": "column_break_wdg8p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_fth9o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments1",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_fzagy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recomended_exposure",
+   "fieldtype": "Data",
+   "label": "Recomended Exposure"
+  },
+  {
+   "fieldname": "overdue_amount",
+   "fieldtype": "Data",
+   "label": "Overdue Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "use_of_the_credit_limit",
+   "fieldtype": "Data",
+   "label": "Use of the Credit Limit"
+  },
+  {
+   "fieldname": "section_break_z5hfv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recommended",
+   "fieldtype": "Heading",
+   "label": "Recommended"
+  },
+  {
+   "fieldname": "section_break_6y53h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recommended_to",
+   "fieldtype": "Select",
+   "label": "Recommended To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_yc6fs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recommended11",
+   "fieldtype": "Select",
+   "label": "Recommended",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_sxzvn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "review11",
+   "fieldtype": "Heading",
+   "label": "Review"
+  },
+  {
+   "fieldname": "section_break_j46qd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approved_limit",
+   "fieldtype": "Currency",
+   "label": "Approved Limit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "comments11",
+   "fieldtype": "Small Text",
+   "label": "Comments",
+   "reqd": 1
+  },
+  {
+   "fieldname": "conditions",
+   "fieldtype": "Small Text",
+   "label": "Conditions",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signatory_1",
+   "fieldtype": "Select",
+   "label": "Signatory 1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signatory_2",
+   "fieldtype": "Select",
+   "label": "Signatory 2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_0cqsb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cl_review_date",
+   "fieldtype": "Date",
+   "label": "CL Review Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signatory_officer1",
+   "fieldtype": "Select",
+   "label": "Signatory Officer1"
+  },
+  {
+   "fieldname": "signatory_officer2",
+   "fieldtype": "Select",
+   "label": "Signatory Officer2"
+  },
+  {
+   "fieldname": "section_break_hjsxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lseyd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_e33ni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nfpwz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "section_break_tejbv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ioenv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_l7oxp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hoj1p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "go_to_finacial_analysis",
+   "fieldtype": "HTML",
+   "label": "Go To Finacial Analysis>>",
+   "options": "<a href=\"http://frappe-rd.sais-erp.com:9100/app/finacial-analysis-1/new-finacial-analysis-1-ngyzchbhfc\" style=\"text-decoration: underline;\" target=\"_blank\">Go To Finacial Analysis&gt;&gt;</a>"
+  },
+  {
+   "fieldname": "column_break_lpexj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_7jxcp",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:44.336951",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Credit Limit Reviews",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

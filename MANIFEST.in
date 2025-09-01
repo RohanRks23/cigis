@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cigis *.css
+recursive-include cigis *.csv
+recursive-include cigis *.html
+recursive-include cigis *.ico
+recursive-include cigis *.js
+recursive-include cigis *.json
+recursive-include cigis *.md
+recursive-include cigis *.png
+recursive-include cigis *.py
+recursive-include cigis *.svg
+recursive-include cigis *.txt
+recursive-exclude cigis *.pyc

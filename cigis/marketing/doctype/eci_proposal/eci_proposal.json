@@ -1,0 +1,853 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:proposal_no",
+ "creation": "2024-03-11 06:03:20.914728",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "eci_proposal_tab",
+  "company",
+  "section_break_dscti",
+  "client_name",
+  "section_break_df0gr",
+  "registration_no",
+  "status",
+  "column_break_jhr7z",
+  "trading_name",
+  "establishment_date",
+  "section_break_faz35",
+  "section_break_nhr4g",
+  "general",
+  "section_break_jghf2",
+  "signed_by",
+  "signed_on",
+  "capacity",
+  "column_break_6lw2r",
+  "proposal_no",
+  "captured_on",
+  "broker",
+  "section_break_4dlkm",
+  "checklist_items",
+  "section_break_voakj",
+  "proposal_application",
+  "financial_statements__age_analysis",
+  "current_debtor_schedule",
+  "directors_shareholders_tab",
+  "section_break_cb5ui",
+  "directors_shareholder_add_new",
+  "directors_shareholders_table",
+  "nature_of_business_tab",
+  "section_break_cyeas",
+  "business_type",
+  "column_break_7acer",
+  "column_break_shvfs",
+  "goods_services",
+  "column_break_cbkau",
+  "column_break_fmgri",
+  "buyer_type",
+  "section_break_vv6rh",
+  "manufacturer",
+  "retailer",
+  "wholesaler",
+  "others",
+  "nature_of_bussiness4",
+  "column_break_iogb6",
+  "agriculture",
+  "airconditioning",
+  "aluminium_boats",
+  "animal_vaccines",
+  "arts_crafts",
+  "batteries",
+  "building_materials",
+  "canning_cans",
+  "cellular",
+  "cereals",
+  "cigarettes",
+  "computer_electronic",
+  "concrete_products",
+  "corporate_clothing",
+  "cosmetics",
+  "couriers",
+  "engraving",
+  "fmcg",
+  "frozen_chicken",
+  "fuel",
+  "gas",
+  "hair_products",
+  "column_break_mc02r",
+  "heavy_plant",
+  "invoice_factoring",
+  "leather_products",
+  "logistics",
+  "lubricants__fuel",
+  "meat_products",
+  "media__radio",
+  "merchandise",
+  "packaging_materials",
+  "perishable_goods",
+  "pharmaceuticals",
+  "plastics_spices",
+  "road_construction",
+  "salt",
+  "security_services",
+  "soda_ash",
+  "stationary_diaries",
+  "steel_doors",
+  "steel_merchants",
+  "timber_products",
+  "travelling_bags",
+  "water_supplies",
+  "column_break_1gscc",
+  "associated_companies",
+  "government",
+  "private_buyers",
+  "export_turnover_tab",
+  "export_turnover_add_new",
+  "export_turnover",
+  "section_break_vxbqh",
+  "turnover_on_letters_of_credit",
+  "letters_of_credit",
+  "confirmed_by_bank_of_botswana",
+  "not_confirmed_by_bank_of_botswana",
+  "cover_required_tab",
+  "quotation",
+  "all_markets",
+  "selected_countries",
+  "column_break_sleg6",
+  "text",
+  "options",
+  "include",
+  "exclude",
+  "section_break_dx3xt",
+  "country_text",
+  "section_break_onq7p",
+  "principal_buyer_tab",
+  "principalbuyer_add_new",
+  "principal_buyer",
+  "past_experience_tab",
+  "bad_debts",
+  "section_break_jgxjt",
+  "baddebts_addnew",
+  "baddebts",
+  "section_break_as8ko",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "eci_proposal_tab",
+   "fieldtype": "Tab Break",
+   "label": " ECI Proposal"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "Company"
+  },
+  {
+   "fieldname": "section_break_dscti",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Company-Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_df0gr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "client_name.vat_reg_no",
+   "fieldname": "registration_no",
+   "fieldtype": "Data",
+   "label": "Reg.No"
+  },
+  {
+   "fetch_from": "client_name.status",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jhr7z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "client_name.trading_name",
+   "fieldname": "trading_name",
+   "fieldtype": "Data",
+   "label": "Trading Name"
+  },
+  {
+   "fetch_from": "client_name.establisheddate",
+   "fieldname": "establishment_date",
+   "fieldtype": "Data",
+   "label": "Estd.Date"
+  },
+  {
+   "fieldname": "section_break_faz35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_nhr4g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general",
+   "fieldtype": "Heading",
+   "label": "General"
+  },
+  {
+   "fieldname": "section_break_jghf2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "signed_by",
+   "fieldtype": "Data",
+   "label": " Signed By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signed_on",
+   "fieldtype": "Date",
+   "label": "Signed On",
+   "reqd": 1
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Select",
+   "label": "Capacity",
+   "options": "\nDIRECTOR\nMEMBER\nMANAGER\nOTHERS\nPARTNER\nPROPRIETOR",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6lw2r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": " Proposal No",
+   "unique": 1
+  },
+  {
+   "fieldname": "captured_on",
+   "fieldtype": "Date",
+   "label": " Captured On",
+   "reqd": 1
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Link",
+   "label": "Broker",
+   "options": "Brokers"
+  },
+  {
+   "fieldname": "section_break_4dlkm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checklist_items",
+   "fieldtype": "Heading",
+   "label": "Data Stored"
+  },
+  {
+   "fieldname": "proposal_application",
+   "fieldtype": "Attach",
+   "label": " Proposal Application"
+  },
+  {
+   "fieldname": "financial_statements__age_analysis",
+   "fieldtype": "Attach",
+   "label": "Financial Statements/Age Analysis"
+  },
+  {
+   "fieldname": "current_debtor_schedule",
+   "fieldtype": "Attach",
+   "label": "Current Debtor Schedule"
+  },
+  {
+   "fieldname": "directors_shareholders_tab",
+   "fieldtype": "Tab Break",
+   "label": " Directors/Share Holders"
+  },
+  {
+   "fieldname": "section_break_cb5ui",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "directors_shareholder_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "directors_shareholders_table",
+   "fieldtype": "Table",
+   "label": "Directors Share Holders",
+   "options": "ECI Proposal Directors ShareHolders table"
+  },
+  {
+   "fieldname": "nature_of_business_tab",
+   "fieldtype": "Tab Break",
+   "label": " Nature Of Business"
+  },
+  {
+   "fieldname": "section_break_cyeas",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "business_type",
+   "fieldtype": "Heading",
+   "label": "Business Type"
+  },
+  {
+   "fieldname": "column_break_7acer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Heading",
+   "label": "Goods/Services"
+  },
+  {
+   "fieldname": "column_break_fmgri",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Heading",
+   "label": "Buyer Type"
+  },
+  {
+   "fieldname": "section_break_vv6rh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "manufacturer",
+   "fieldtype": "Check",
+   "label": " MANUFACTURER"
+  },
+  {
+   "default": "0",
+   "fieldname": "retailer",
+   "fieldtype": "Check",
+   "label": "RETAILER"
+  },
+  {
+   "default": "0",
+   "fieldname": "wholesaler",
+   "fieldtype": "Check",
+   "label": "WHOLESALER"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "OTHERS"
+  },
+  {
+   "fieldname": "column_break_iogb6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "agriculture",
+   "fieldtype": "Check",
+   "label": "AGRICULTURE"
+  },
+  {
+   "default": "0",
+   "fieldname": "airconditioning",
+   "fieldtype": "Check",
+   "label": "AIR CONDITIONING"
+  },
+  {
+   "default": "0",
+   "fieldname": "aluminium_boats",
+   "fieldtype": "Check",
+   "label": "ALUMINIUM BOATS"
+  },
+  {
+   "default": "0",
+   "fieldname": "animal_vaccines",
+   "fieldtype": "Check",
+   "label": " ANIMAL VACCINES"
+  },
+  {
+   "default": "0",
+   "fieldname": "arts_crafts",
+   "fieldtype": "Check",
+   "label": "ARTS & CRAFTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "batteries",
+   "fieldtype": "Check",
+   "label": "BATTERIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "building_materials",
+   "fieldtype": "Check",
+   "label": " BUILDING MATERIALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "canning_cans",
+   "fieldtype": "Check",
+   "label": "CANNING CANS"
+  },
+  {
+   "default": "0",
+   "fieldname": "cellular",
+   "fieldtype": "Check",
+   "label": "CELLULAR"
+  },
+  {
+   "default": "0",
+   "fieldname": "cereals",
+   "fieldtype": "Check",
+   "label": "CEREALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "cigarettes",
+   "fieldtype": "Check",
+   "label": "CIGARETTES"
+  },
+  {
+   "default": "0",
+   "fieldname": "computer_electronic",
+   "fieldtype": "Check",
+   "label": "COMPUTER ELECTRONIC"
+  },
+  {
+   "default": "0",
+   "fieldname": "concrete_products",
+   "fieldtype": "Check",
+   "label": "CONCRETE PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "corporate_clothing",
+   "fieldtype": "Check",
+   "label": "CORPORATE CLOTHING"
+  },
+  {
+   "default": "0",
+   "fieldname": "cosmetics",
+   "fieldtype": "Check",
+   "label": "COSMETICS"
+  },
+  {
+   "default": "0",
+   "fieldname": "couriers",
+   "fieldtype": "Check",
+   "label": "COURIERS"
+  },
+  {
+   "default": "0",
+   "fieldname": "engraving",
+   "fieldtype": "Check",
+   "label": "ENGRAVING"
+  },
+  {
+   "default": "0",
+   "fieldname": "fmcg",
+   "fieldtype": "Check",
+   "label": "FMCG"
+  },
+  {
+   "default": "0",
+   "fieldname": "frozen_chicken",
+   "fieldtype": "Check",
+   "label": "FROZEN CHICKEN"
+  },
+  {
+   "default": "0",
+   "fieldname": "fuel",
+   "fieldtype": "Check",
+   "label": "FUEL"
+  },
+  {
+   "default": "0",
+   "fieldname": "gas",
+   "fieldtype": "Check",
+   "label": "GAS"
+  },
+  {
+   "default": "0",
+   "fieldname": "hair_products",
+   "fieldtype": "Check",
+   "label": "HAIR PRODUCTS"
+  },
+  {
+   "fieldname": "column_break_mc02r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "heavy_plant",
+   "fieldtype": "Check",
+   "label": "HEAVY PLANT"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoice_factoring",
+   "fieldtype": "Check",
+   "label": "INVOICE FACTORING"
+  },
+  {
+   "default": "0",
+   "fieldname": "leather_products",
+   "fieldtype": "Check",
+   "label": "LEATHER PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "logistics",
+   "fieldtype": "Check",
+   "label": "LOGISTICS"
+  },
+  {
+   "default": "0",
+   "fieldname": "lubricants__fuel",
+   "fieldtype": "Check",
+   "label": "LUBRICANTS / FUEL"
+  },
+  {
+   "default": "0",
+   "fieldname": "meat_products",
+   "fieldtype": "Check",
+   "label": "MEAT PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "media__radio",
+   "fieldtype": "Check",
+   "label": "MEDIA / RADIO"
+  },
+  {
+   "default": "0",
+   "fieldname": "merchandise",
+   "fieldtype": "Check",
+   "label": "MERCHANDISE"
+  },
+  {
+   "default": "0",
+   "fieldname": "packaging_materials",
+   "fieldtype": "Check",
+   "label": "PACKAGING MATERIALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "perishable_goods",
+   "fieldtype": "Check",
+   "label": "PERISHABLE GOODS"
+  },
+  {
+   "default": "0",
+   "fieldname": "pharmaceuticals",
+   "fieldtype": "Check",
+   "label": "PHARMACEUTICALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "plastics_spices",
+   "fieldtype": "Check",
+   "label": "PLASTICS & SPICES"
+  },
+  {
+   "default": "0",
+   "fieldname": "road_construction",
+   "fieldtype": "Check",
+   "label": "ROAD CONSTRUCTION"
+  },
+  {
+   "default": "0",
+   "fieldname": "salt",
+   "fieldtype": "Check",
+   "label": "SALT"
+  },
+  {
+   "default": "0",
+   "fieldname": "security_services",
+   "fieldtype": "Check",
+   "label": "SECURITY SERVICES"
+  },
+  {
+   "default": "0",
+   "fieldname": "soda_ash",
+   "fieldtype": "Check",
+   "label": "SODA ASH"
+  },
+  {
+   "default": "0",
+   "fieldname": "stationary_diaries",
+   "fieldtype": "Check",
+   "label": "STATIONARY & DIARIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "steel_doors",
+   "fieldtype": "Check",
+   "label": "STEEL DOORS & WINDOW FARMES"
+  },
+  {
+   "default": "0",
+   "fieldname": "steel_merchants",
+   "fieldtype": "Check",
+   "label": "STEEL MERCHANTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "timber_products",
+   "fieldtype": "Check",
+   "label": "TIMBER PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "travelling_bags",
+   "fieldtype": "Check",
+   "label": "TRAVELLING BAGS"
+  },
+  {
+   "default": "0",
+   "fieldname": "water_supplies",
+   "fieldtype": "Check",
+   "label": "WATER SUPPLIES"
+  },
+  {
+   "fieldname": "column_break_1gscc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "associated_companies",
+   "fieldtype": "Check",
+   "label": "ASSOCIATED COMPANIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "government",
+   "fieldtype": "Check",
+   "label": "GOVERNMENT BUYERS"
+  },
+  {
+   "fieldname": "export_turnover_tab",
+   "fieldtype": "Tab Break",
+   "label": "Export Turnover"
+  },
+  {
+   "fieldname": "export_turnover_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "export_turnover",
+   "fieldtype": "Table",
+   "label": "Export Turnover",
+   "options": "Export Turnover Table"
+  },
+  {
+   "fieldname": "section_break_vxbqh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Last 12 Months",
+   "fieldname": "turnover_on_letters_of_credit",
+   "fieldtype": "Data",
+   "label": "Turnover on Letters of Credit"
+  },
+  {
+   "fieldname": "letters_of_credit",
+   "fieldtype": "Select",
+   "label": "Letters of Credit",
+   "options": "\nLetter of Credit\nLetter of Credit Not Confirmed\nLetter of Credit Confirmed by Bank in Botswana\nNone"
+  },
+  {
+   "fieldname": "principal_buyer_tab",
+   "fieldtype": "Tab Break",
+   "label": "Principal Buyer"
+  },
+  {
+   "fieldname": "principalbuyer_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "principal_buyer",
+   "fieldtype": "Table",
+   "label": "Principal Buyer",
+   "options": "Principal_Buyer_Table"
+  },
+  {
+   "fieldname": "cover_required_tab",
+   "fieldtype": "Tab Break",
+   "label": "Cover Required"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "Heading",
+   "label": "Quotation Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_markets",
+   "fieldtype": "Check",
+   "label": "All Markets",
+   "read_only_depends_on": "selected_countries"
+  },
+  {
+   "default": "0",
+   "fieldname": "selected_countries",
+   "fieldtype": "Check",
+   "label": "Selected Countries",
+   "read_only_depends_on": "all_markets"
+  },
+  {
+   "fieldname": "column_break_sleg6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "HTML",
+   "options": "<p>Include/Exclude cover for transactions for which payment is to be made against presentation of shipping documents under irrecoverable letters of credit opened for foreign banks and not confirmed by bank of botswana.</p>"
+  },
+  {
+   "fieldname": "options",
+   "fieldtype": "Heading",
+   "label": "Options"
+  },
+  {
+   "fieldname": "country_text",
+   "fieldtype": "Heading",
+   "label": "Country"
+  },
+  {
+   "fieldname": "past_experience_tab",
+   "fieldtype": "Tab Break",
+   "label": " Past Experience"
+  },
+  {
+   "fieldname": "baddebts_addnew",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "baddebts",
+   "fieldtype": "Table",
+   "label": "Past Experience",
+   "options": "BadDebts_Table"
+  },
+  {
+   "fieldname": "bad_debts",
+   "fieldtype": "Heading",
+   "label": "Bad Debts"
+  },
+  {
+   "fieldname": "section_break_jgxjt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "include",
+   "fieldtype": "Check",
+   "label": "Include",
+   "read_only_depends_on": "exclude"
+  },
+  {
+   "default": "0",
+   "fieldname": "exclude",
+   "fieldtype": "Check",
+   "label": "Exclude",
+   "read_only_depends_on": "include"
+  },
+  {
+   "fieldname": "column_break_shvfs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cbkau",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_voakj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_buyers",
+   "fieldtype": "Check",
+   "label": "PRIVATE BUYERS"
+  },
+  {
+   "fieldname": "section_break_as8ko",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "nature_of_bussiness4",
+   "fieldtype": "Data",
+   "label": "Nature of Bussiness"
+  },
+  {
+   "depends_on": "eval:doc.letters_of_credit== \"Letter of Credit Confirmed by Bank in Botswana\"",
+   "fieldname": "confirmed_by_bank_of_botswana",
+   "fieldtype": "Data",
+   "label": "Confirmed by Bank of Botswana"
+  },
+  {
+   "depends_on": "eval:doc.letters_of_credit== \"Letter of Credit Not Confirmed\"",
+   "fieldname": "not_confirmed_by_bank_of_botswana",
+   "fieldtype": "Data",
+   "label": "Not Confirmed by Bank of Botswana"
+  },
+  {
+   "fieldname": "section_break_dx3xt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_onq7p",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-04 08:46:36.534722",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "ECI Proposal",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,224 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{policy_holder_name}",
+ "creation": "2024-04-01 07:33:31.425144",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "column_break_dhjzp",
+  "paragraph",
+  "section_break_ncdun",
+  "credit_limit_annexure",
+  "section_break_mwj0d",
+  "capture_date",
+  "policy_holder_name",
+  "policy_no",
+  "credit_limit_no",
+  "trading__style",
+  "column_break_zkqnz",
+  "buyer_id",
+  "location",
+  "credit_limit",
+  "conditions",
+  "buyer_name",
+  "section_break_y9hbl",
+  "column_break_3ocmt",
+  "payment",
+  "column_break_n5py8",
+  "terms_of_payments",
+  "column_break_sqmuz",
+  "days",
+  "column_break_ratbi",
+  "days_from",
+  "column_break_k6gnb",
+  "date",
+  "column_break_dnxm5",
+  "section_break_h4msb",
+  "beci",
+  "data"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "  <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "column_break_dhjzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "section_break_ncdun",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_annexure",
+   "fieldtype": "HTML",
+   "label": "CREDIT LIMIT ANNEXURE",
+   "options": "<style>\nh3 {text-align: center;}\n \n</style>\n<h3><u> CREDIT LIMIT ANNEXURE </u></h3>\n\n\n"
+  },
+  {
+   "fieldname": "section_break_mwj0d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "capture_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "policy_holder_name",
+   "fieldtype": "Data",
+   "label": "POLICY HOLDER"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "POLICY NUMBER"
+  },
+  {
+   "fieldname": "credit_limit_no",
+   "fieldtype": "Data",
+   "label": "REFERENCE NUMBER"
+  },
+  {
+   "fieldname": "trading__style",
+   "fieldtype": "Data",
+   "label": "TRADING STYLE"
+  },
+  {
+   "fieldname": "column_break_zkqnz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_id",
+   "fieldtype": "Data",
+   "label": "BUYER ID"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "APPROVED CREDIT LIMIT"
+  },
+  {
+   "fieldname": "conditions",
+   "fieldtype": "Data",
+   "label": "CONDITIONS (IF ANY)"
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "label": "BUYER LEGAL ENTITY"
+  },
+  {
+   "fieldname": "section_break_y9hbl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3ocmt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment",
+   "fieldtype": "HTML",
+   "options": "<p style=\"margin-top: 33px;\">Terms of Payment</p>\n"
+  },
+  {
+   "fieldname": "column_break_n5py8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "terms_of_payments",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_sqmuz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "HTML",
+   "label": "Days From",
+   "options": "<p style=\"margin-top: 33px;\">Days From</p>"
+  },
+  {
+   "fieldname": "column_break_ratbi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days_from",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_k6gnb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "HTML",
+   "label": "Date",
+   "options": "<p style=\"margin-top: 33px;\">Date</p>"
+  },
+  {
+   "fieldname": "column_break_dnxm5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_h4msb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "HTML",
+   "label": "beci",
+   "options": "<p><b>BECI'S  AUTHORISED SIGNATORIES</b>\n<br><br><br>_______________________________________________Credit and Data Analyst (Keletso Ntsiyakgotla)<br> <br><br>\n<br>_______________________________________________ Risk Executive(Goabaone Mokupil)<br> <br><br> <br>\n </p>"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "HTML",
+   "options": "<p><b>The information in this credit limit annexure shall be regarded as strictly confidential and shall not be divulged to the buyer or\nany other party without BECI's consent in writing. Please ensure that the buyer's name and address stated on this annexure\ncorresponds with that on your credit limit application. This is your credit limit annexure. No mail annexure will follow.\na BDC</b></p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 07:59:22.209458",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Credit Limit  Annexure",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

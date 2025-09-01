@@ -1,0 +1,314 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-02 11:39:54.104088",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "column_break_7hlld",
+  "adrs",
+  "section_break_wow8b",
+  "taxinvoice",
+  "section_break_7koof",
+  "beci1",
+  "column_break_1h85n",
+  "beci2",
+  "section_break_z3syo",
+  "invoice_to",
+  "attn",
+  "address",
+  "city",
+  "vat_registration_no",
+  "telephone",
+  "fax",
+  "column_break_kpo1p",
+  "invoice_no",
+  "reference",
+  "date",
+  "section_break_wffdv",
+  "description",
+  "column_break_jqfr6",
+  "bond_sub_type",
+  "section_break_baryo",
+  "reinsurer_refno",
+  "client",
+  "principal",
+  "description1",
+  "bond_no",
+  "section_break_7lb9f",
+  "period",
+  "column_break_5vfex",
+  "to",
+  "column_break_2kr4u",
+  "month",
+  "section_break_lkdbt",
+  "guarantee_amount",
+  "column_break_kppgr",
+  "rate",
+  "column_break_fo6yj",
+  "premiumpula",
+  "section_break_tmaxo",
+  "sub_total",
+  "vat__14_",
+  "total_due",
+  "section_break_dzgpp",
+  "data"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png\" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n"
+  },
+  {
+   "fieldname": "column_break_7hlld",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "adrs",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: right;\">\n\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\n\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n\n<br>\n\nUnit 1, Plot 142 Gaborone International Finance Park\n\n<br>\n\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n\n<br>\n\nEmail: beci@beci.co.bw\n\n<br>  \n\nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n\n</p>"
+  },
+  {
+   "fieldname": "section_break_wow8b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "taxinvoice",
+   "fieldtype": "Heading",
+   "label": "TAX INVOICE"
+  },
+  {
+   "fieldname": "section_break_7koof",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci1",
+   "fieldtype": "HTML",
+   "options": "<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Left Aligned Text</title>\n<style>\n    p {\n        font-weight: bold;\n    }\n</style>\n\n<p>BECI</p>\n<p>Export Credit Insurance &amp; Guarantee Co. Botswana (PTY) Ltd.</p>\n<p>BECI VAT Reg.No.C00613601111</p>\n"
+  },
+  {
+   "fieldname": "column_break_1h85n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beci2",
+   "fieldtype": "HTML",
+   "options": "<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title> Text</title>\n<style>\n    p {\n       \n        font-weight: bold;\n    }\n</style>\n\n\n<p>P/Bag BO 279</p>\n<p>GABORANE</p>\n<p>Tel:3188015</p>\n<p>Fax:3188017</p>\n"
+  },
+  {
+   "fieldname": "section_break_z3syo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_to",
+   "fieldtype": "Data",
+   "label": "INVOICE TO"
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": "ATTN."
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY"
+  },
+  {
+   "fieldname": "vat_registration_no",
+   "fieldtype": "Data",
+   "label": "VAT REGISTRATION No"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "TELEPHONE"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX"
+  },
+  {
+   "fieldname": "column_break_kpo1p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "INVOICE NO"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "REFERENCE"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "section_break_wffdv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "DESCRIPTION"
+  },
+  {
+   "fieldname": "column_break_jqfr6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_sub_type",
+   "fieldtype": "Data",
+   "label": "BOND SUB TYPE"
+  },
+  {
+   "fieldname": "section_break_baryo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsurer_refno",
+   "fieldtype": "Data",
+   "label": "REINSURER REF.NO."
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "CLIENT"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "PRINCIPAL"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "Long Text",
+   "label": " DESCRIPTION"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "BOND NO."
+  },
+  {
+   "fieldname": "section_break_7lb9f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period",
+   "fieldtype": "Date",
+   "label": "PERIOD"
+  },
+  {
+   "fieldname": "column_break_5vfex",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "label": "TO"
+  },
+  {
+   "fieldname": "column_break_2kr4u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "MONTH"
+  },
+  {
+   "fieldname": "section_break_lkdbt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "guarantee_amount",
+   "fieldtype": "Currency",
+   "label": "GUARANTEE AMOUNT"
+  },
+  {
+   "fieldname": "column_break_kppgr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "label": "RATE"
+  },
+  {
+   "fieldname": "column_break_fo6yj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premiumpula",
+   "fieldtype": "Currency",
+   "label": "PREMIUM(pula)"
+  },
+  {
+   "fieldname": "section_break_tmaxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "Currency",
+   "label": "SUB TOTAL"
+  },
+  {
+   "fieldname": "vat__14_",
+   "fieldtype": "Currency",
+   "label": "VAT @ 14 %"
+  },
+  {
+   "fieldname": "total_due",
+   "fieldtype": "Currency",
+   "label": "TOTAL DUE"
+  },
+  {
+   "fieldname": "section_break_dzgpp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "HTML",
+   "options": "<style>.center{text-align:center;}</style><div class=\"center\"><p><b>NOTE: </b> This invoice is payable on presentation and could be paid into our account at ABSA Bank Branch Government Enclave, Branch Code: 290367, Swift Code: BARCBWGX, A/C: 1075246, Account Type: Corporate Current</p></div>\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 08:21:13.943346",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Print Internal Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,13 @@
+{
+ "creation": "2024-06-24 14:44:02.971458",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2024-06-24 14:44:02.971458",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Bond facility",
+ "owner": "Administrator",
+ "source_name": "Bond facility",
+ "timeseries": 1
+}

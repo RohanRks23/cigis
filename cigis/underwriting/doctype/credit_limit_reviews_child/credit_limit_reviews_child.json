@@ -1,0 +1,60 @@
+{
+ "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-02 19:36:56.003060",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cl_review_no",
+  "review_date",
+  "expiry_date",
+  "credit_limit",
+  "reason"
+ ],
+ "fields": [
+  {
+   "fieldname": "cl_review_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CL Review No"
+  },
+  {
+   "fieldname": "review_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Review Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Reason"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-09 09:19:13.080020",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Credit Limit Reviews Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

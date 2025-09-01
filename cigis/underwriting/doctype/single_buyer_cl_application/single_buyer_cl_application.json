@@ -1,0 +1,501 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:credit_limit_no",
+ "creation": "2024-02-18 16:21:13.798104",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "single_buyer_cl_application_tab",
+  "section_break_3yely",
+  "section_break_7trvd",
+  "cl_application_for_single_buyer",
+  "section_break_l0kp2",
+  "client",
+  "section_break_sqcsm",
+  "client1",
+  "column_break_cmufs",
+  "credit_limit_no",
+  "section_break_gszxk",
+  "buyer_details",
+  "section_break_4rdsb",
+  "column_break_cpefz",
+  "eci_buyer",
+  "section_break_ozm5b",
+  "dci_buyer",
+  "column_break_3owiq",
+  "column_break_m1kf1",
+  "column_break_mqiun",
+  "column_break_xvvuf",
+  "section_break_hv9c4",
+  "buyer",
+  "buyer1",
+  "buyer_short_name",
+  "buyer_short_name1",
+  "column_break_hh3du",
+  "column_break_z5toq",
+  "new",
+  "section_break_f93la",
+  "trading_style",
+  "trading_style1",
+  "regno__id_no",
+  "regno__id_no1",
+  "tel_no",
+  "tel_no1",
+  "bank",
+  "bank1",
+  "branch",
+  "branch1",
+  "director_1",
+  "1_director_1",
+  "director_3",
+  "3_director_3",
+  "director_5",
+  "5_director_5",
+  "column_break_tl8d2",
+  "address1",
+  "1_address1",
+  "address2",
+  "2_address2",
+  "fax_no",
+  "fax_no1",
+  "account_no",
+  "account_no1",
+  "director2",
+  "2_director2",
+  "director4",
+  "4_director4",
+  "section_break_ivsek",
+  "credit_limit",
+  "section_break_o3dpa",
+  "credit_limit_required",
+  "credit_limit_required1",
+  "comment",
+  "comment1",
+  "column_break_a2men",
+  "cl_application_date",
+  "cl_application_date1",
+  "section_break_crfbm"
+ ],
+ "fields": [
+  {
+   "fieldname": "single_buyer_cl_application_tab",
+   "fieldtype": "Tab Break",
+   "label": "Single Buyer CL Application"
+  },
+  {
+   "fieldname": "section_break_3yely",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_7trvd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cl_application_for_single_buyer",
+   "fieldtype": "Heading",
+   "label": "CL Application for Single Buyer"
+  },
+  {
+   "fieldname": "section_break_l0kp2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Heading",
+   "label": "Client"
+  },
+  {
+   "fieldname": "section_break_sqcsm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Company-Details"
+  },
+  {
+   "fieldname": "section_break_gszxk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer_details",
+   "fieldtype": "Heading",
+   "label": "Buyer details"
+  },
+  {
+   "fieldname": "section_break_4rdsb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cpefz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fetch_from": "buyer.eci",
+   "fieldname": "dci_buyer",
+   "fieldtype": "Check",
+   "label": "DCI Buyer",
+   "read_only_depends_on": "eci_buyer"
+  },
+  {
+   "fieldname": "section_break_ozm5b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fetch_from": "buyer.dci",
+   "fieldname": "eci_buyer",
+   "fieldtype": "Check",
+   "label": "ECI Buyer",
+   "read_only_depends_on": "dci_buyer"
+  },
+  {
+   "fieldname": "column_break_3owiq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_m1kf1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mqiun",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xvvuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hv9c4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.buyer_id",
+   "fieldname": "buyer_short_name",
+   "fieldtype": "Data",
+   "label": "Buyer Short Name"
+  },
+  {
+   "fieldname": "column_break_hh3du",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new",
+   "fieldtype": "Button",
+   "label": "New"
+  },
+  {
+   "fieldname": "section_break_f93la",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.trading_name",
+   "fieldname": "trading_style",
+   "fieldtype": "Data",
+   "label": "Trading Style"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.registration_no",
+   "fieldname": "regno__id_no",
+   "fieldtype": "Data",
+   "label": "Reg.No / Id No."
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.phone",
+   "fieldname": "tel_no",
+   "fieldtype": "Data",
+   "label": "Tel No."
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.director_1",
+   "fieldname": "director_1",
+   "fieldtype": "Data",
+   "label": "Director 1"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.director_2",
+   "fieldname": "director_3",
+   "fieldtype": "Data",
+   "label": "Director 3"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "director_5",
+   "fieldtype": "Data",
+   "label": "Director 5"
+  },
+  {
+   "fieldname": "column_break_tl8d2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limit_no",
+   "fieldtype": "Data",
+   "label": "Credit Limit No.",
+   "unique": 1
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.physical_address",
+   "fieldname": "address1",
+   "fieldtype": "Data",
+   "label": "Address1"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.postal_address",
+   "fieldname": "address2",
+   "fieldtype": "Data",
+   "label": " Address2"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.fax",
+   "fieldname": "fax_no",
+   "fieldtype": "Data",
+   "label": "Fax. No."
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.ac_no",
+   "fieldname": "account_no",
+   "fieldtype": "Data",
+   "label": "Account No."
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "director2",
+   "fieldtype": "Data",
+   "label": "Director2"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "director4",
+   "fieldtype": "Data",
+   "label": "Director4"
+  },
+  {
+   "fieldname": "section_break_ivsek",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eci_buyer\ndci_buyer",
+   "fieldname": "credit_limit",
+   "fieldtype": "Heading",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "section_break_o3dpa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "credit_limit_required",
+   "fieldtype": "Data",
+   "label": "Credit Limit Required"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "comment",
+   "fieldtype": "Data",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "column_break_a2men",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "depends_on": "eci_buyer",
+   "fieldname": "cl_application_date",
+   "fieldtype": "Date",
+   "label": "CL Application Date"
+  },
+  {
+   "fieldname": "section_break_crfbm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_z5toq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "buyer1",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": " Buyer"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "buyer_short_name1",
+   "fieldtype": "Data",
+   "label": "Buyer Short Name"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "trading_style1",
+   "fieldtype": "Data",
+   "label": "Trading Style"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "regno__id_no1",
+   "fieldtype": "Data",
+   "label": "Reg.No / Id No."
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "tel_no1",
+   "fieldtype": "Data",
+   "label": "Tel No."
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "bank1",
+   "fieldtype": "Data",
+   "label": "Bank"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "branch1",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "1_director_1",
+   "fieldtype": "Data",
+   "label": "Director 1"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "3_director_3",
+   "fieldtype": "Data",
+   "label": "Director 3"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "5_director_5",
+   "fieldtype": "Data",
+   "label": "Director 5"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "1_address1",
+   "fieldtype": "Data",
+   "label": "Address1"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "2_address2",
+   "fieldtype": "Data",
+   "label": " Address2"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "fax_no1",
+   "fieldtype": "Data",
+   "label": "Fax. No."
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "account_no1",
+   "fieldtype": "Data",
+   "label": "Account No."
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "2_director2",
+   "fieldtype": "Data",
+   "label": "Director2"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "4_director4",
+   "fieldtype": "Data",
+   "label": "Director4"
+  },
+  {
+   "fieldname": "column_break_cmufs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "credit_limit_required1",
+   "fieldtype": "Data",
+   "label": "Credit Limit Required"
+  },
+  {
+   "depends_on": "dci_buyer",
+   "fieldname": "comment1",
+   "fieldtype": "Data",
+   "label": "Comment"
+  },
+  {
+   "default": "Today",
+   "depends_on": "dci_buyer",
+   "fieldname": "cl_application_date1",
+   "fieldtype": "Data",
+   "label": "CL Application Date"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fieldname": "bank",
+   "fieldtype": "Data",
+   "label": "Bank"
+  },
+  {
+   "depends_on": "eci_buyer",
+   "fetch_from": "buyer.branch",
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-21 12:27:08.796883",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Single Buyer CL Application",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

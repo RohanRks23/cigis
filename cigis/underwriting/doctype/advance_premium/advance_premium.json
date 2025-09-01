@@ -1,0 +1,307 @@
+{
+ "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:adv_premium_no",
+ "creation": "2024-03-01 12:39:37.606516",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "policy_details",
+  "section_break_oenzi",
+  "policy_holder",
+  "policy_no",
+  "policy_no1",
+  "estimated_turnover_for_year",
+  "payment_month_and_year",
+  "year",
+  "noof_months_for_the_purpose",
+  "comments",
+  "column_break_xn1cx",
+  "date",
+  "premium_rate",
+  "estimated_premium",
+  "payment_type",
+  "monthly_premium_value",
+  "quartely_premium_value",
+  "half_yearly_premium_value",
+  "yearly_premium_value",
+  "vat",
+  "adv_premium_no",
+  "section_break_tu0wy",
+  "premium_items",
+  "section_break_f3abw",
+  "child_table",
+  "section_break_hgrqd",
+  "advance_premium",
+  "section_break_gg3xg",
+  "credit_limit_fee",
+  "column_break_5blo5",
+  "credit_limit",
+  "column_break_ohumz",
+  "a",
+  "section_break_caugd",
+  "credit_limit_enquiry_fee",
+  "column_break_392ys",
+  "credit_limits",
+  "column_break_pyleq",
+  "b",
+  "column_break_lxmku",
+  "add",
+  "column_break_yousf",
+  "column_break_0qrco",
+  "total_amount",
+  "invoice_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "estimated_turnover_for_year",
+   "fieldtype": "Currency",
+   "label": "Estimated Turnover for Year"
+  },
+  {
+   "fieldname": "payment_month_and_year",
+   "fieldtype": "Select",
+   "label": "Payment Month and Year",
+   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOBER\nNOVEMBER\nDECEMBER"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025"
+  },
+  {
+   "fieldname": "noof_months_for_the_purpose",
+   "fieldtype": "Data",
+   "label": "No.of Months for the Purpose"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Long Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_xn1cx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fetch_from": "policy_no.premium_rate",
+   "fieldname": "premium_rate",
+   "fieldtype": "Currency",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "estimated_premium",
+   "fieldtype": "Currency",
+   "label": "Estimated Premium"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Select",
+   "label": "Payment Type",
+   "options": "\nMonthly\nQuarterly\nHalf Yearly\nYearly"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Percent",
+   "label": "Vat"
+  },
+  {
+   "fieldname": "policy_details",
+   "fieldtype": "Heading",
+   "label": "Policy Details"
+  },
+  {
+   "fieldname": "section_break_oenzi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Monthly\"",
+   "fieldname": "monthly_premium_value",
+   "fieldtype": "Currency",
+   "label": "Monthly Premium Value"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Quarterly\"",
+   "fieldname": "quartely_premium_value",
+   "fieldtype": "Data",
+   "label": "Quartely Premium Value"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Half Yearly\"",
+   "fieldname": "half_yearly_premium_value",
+   "fieldtype": "Data",
+   "label": "Half Yearly Premium Value"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Yearly\"",
+   "fieldname": "yearly_premium_value",
+   "fieldtype": "Data",
+   "label": "Yearly Premium Value"
+  },
+  {
+   "fieldname": "section_break_tu0wy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "premium_items",
+   "fieldtype": "Heading",
+   "label": "Premium Items"
+  },
+  {
+   "fieldname": "section_break_f3abw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "child_table",
+   "fieldtype": "Table",
+   "label": "Child Table",
+   "options": "Advance Premium Child"
+  },
+  {
+   "fieldname": "section_break_hgrqd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "advance_premium",
+   "fieldtype": "Data",
+   "label": "Advance Premium"
+  },
+  {
+   "fieldname": "credit_limit_fee",
+   "fieldtype": "Data",
+   "label": "Credit Limit Fee"
+  },
+  {
+   "fieldname": "credit_limit_enquiry_fee",
+   "fieldtype": "Data",
+   "label": "Credit Limit Enquiry fee"
+  },
+  {
+   "fieldname": "adv_premium_no",
+   "fieldtype": "Data",
+   "label": "Adv.Premium No",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_gg3xg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_5blo5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_caugd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_392ys",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lxmku",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "label": "Add"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit limit"
+  },
+  {
+   "fieldname": "column_break_ohumz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "credit_limits",
+   "fieldtype": "Data",
+   "label": "Credit limits"
+  },
+  {
+   "fieldname": "column_break_pyleq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Data"
+  },
+  {
+   "depends_on": "child_table",
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "column_break_yousf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0qrco",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Select",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Select",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "policy_no1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-29 08:20:46.039348",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Advance Premium",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

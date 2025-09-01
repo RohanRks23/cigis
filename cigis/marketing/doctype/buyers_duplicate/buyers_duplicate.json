@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-25 17:17:17.881765",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyers",
+  "indicates_mandatory",
+  "section_break_nzouc",
+  "search_page",
+  "section_break_oruv3",
+  "buyer_id",
+  "country",
+  "column_break_q6q6d",
+  "buyer_name",
+  "trading_name",
+  "section_break_9yiwn",
+  "column_break_p4a6w",
+  "column_break_po126",
+  "column_break_4g5v5",
+  "column_break_xxpbb",
+  "column_break_8vg7e",
+  "column_break_mvy1t",
+  "column_break_eisuf",
+  "column_break_xlmj0",
+  "column_break_xmphq",
+  "column_break_qa4gk",
+  "column_break_7dleg",
+  "search",
+  "column_break_iycpr",
+  "clear",
+  "section_break_3nmg6",
+  "search_result",
+  "section_break_nyi7m",
+  "add_new",
+  "buyers_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyers",
+   "fieldtype": "HTML",
+   "label": "Buyers",
+   "options": "<h4 style=\"color: blue;\">Administration&gt;&gt;Buyers</h4>"
+  },
+  {
+   "fieldname": "indicates_mandatory",
+   "fieldtype": "HTML",
+   "label": "Indicates Mandatory",
+   "options": "<h5><span style=\"color: red;\">*</span>Indicates Mandatory</h5>"
+  },
+  {
+   "fieldname": "section_break_nzouc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "search_page",
+   "fieldtype": "Heading",
+   "label": "Search"
+  },
+  {
+   "fieldname": "section_break_oruv3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer_id",
+   "fieldtype": "Data",
+   "label": "Buyer Short Name"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "column_break_q6q6d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "label": "Buyer Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "trading_name",
+   "fieldtype": "Data",
+   "label": "Trading Name"
+  },
+  {
+   "fieldname": "section_break_9yiwn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_p4a6w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_po126",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4g5v5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xxpbb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8vg7e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mvy1t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_eisuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xlmj0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xmphq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qa4gk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_7dleg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "search",
+   "fieldtype": "Button",
+   "label": "Search"
+  },
+  {
+   "fieldname": "column_break_iycpr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clear",
+   "fieldtype": "Button",
+   "label": "Clear"
+  },
+  {
+   "fieldname": "section_break_3nmg6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "search_result",
+   "fieldtype": "Heading",
+   "label": "Search Results"
+  },
+  {
+   "fieldname": "section_break_nyi7m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "buyers_table",
+   "fieldtype": "Table",
+   "label": "Buyers_table",
+   "options": "Buyers_Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 11:13:11.810004",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Buyers_Duplicate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

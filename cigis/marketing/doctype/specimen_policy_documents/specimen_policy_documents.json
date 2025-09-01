@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{to}",
+ "creation": "2024-03-21 10:26:06.927665",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "company_details",
+  "section_break_x0ur1",
+  "heading",
+  "to",
+  "of",
+  "of_next",
+  "now__therefore"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "company_details",
+   "fieldtype": "HTML",
+   "label": "company_details",
+   "options": "<p style=\"text-align: right;\"><b>Export Credit Insurance and Guarantee<br>Company(Botswana) Pty. Ltd.<br>Private Bag BO 279, Bontleng, Gaborone, Botswana<br>Unit 1, Plot 142 Gaborone International Finance Park<br>Telephone: +267 318 8015, Facsimile: +267 318 8017<br>Email: beci@beci.co.bw<br>Website: http://www.beci.co.bw<br>_____________________________________________________________________________________________________________________________________________________________________</b></p>"
+  },
+  {
+   "fieldname": "section_break_x0ur1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "options": "<br><p style=\"text-align: center;\">\n<strong>Export Credit Insurance &amp; Guarantee Company Botswana</strong>\n</p>"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "OF"
+  },
+  {
+   "fieldname": "of_next",
+   "fieldtype": "HTML",
+   "label": "OF_Next",
+   "options": "<p>The Insured has accepted an offer of indemnity made by BECI Pursuant to a Proposal for Domestic Credit Insurance completed by the Insured.</p>"
+  },
+  {
+   "fieldname": "now__therefore",
+   "fieldtype": "HTML",
+   "label": "NOW _THEREFORE",
+   "options": "<p><b>NOW THEREFORE </b>&nbsp; subject to the teams and conditions of this Policy BECI agrees that in the event of a <b> CAUSE OF LOSS* (6)</b>resulting in the Insured not receiving Payment of an <b>INSURED DEBT* (5)</b> arising from any <b> INSURABLE TRANSACTION  *(1)</b> BECI will indemnify the insured to the extent of the <b>INSURED PERCENTAGE * (8)</b> of the <b> AMOUNT OF LOSS * (7),</b> subject to the <b>MAXIMUM LIABILITY * (12).</b><br><br>*As defined<br><br>SIGNED for on behalf of BECI<br><br>______________________________<br><br>______________________________<br><br><br></p><p></p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 06:42:33.779192",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Specimen Policy Documents",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

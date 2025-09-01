@@ -1,0 +1,2439 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {buyer}",
+ "creation": "2024-03-21 12:22:40.667048",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "section_break_aa66o",
+  "buyer",
+  "section_break_ob7gi",
+  "year_ended",
+  "section_break_szw6e",
+  "tab_break_xty5x",
+  "section_break_8tihv",
+  "assets",
+  "select_year",
+  "column_break_laixb",
+  "latest_year1",
+  "column_break_btgny",
+  "latest_year_2",
+  "column_break_qfnqm",
+  "latest_year3",
+  "column_break_0bdeo",
+  "ly",
+  "column_break_neymk",
+  "ly1",
+  "column_break_viydp",
+  "ly2",
+  "section_break_7bh9h",
+  "cash",
+  "column_break_e2crv",
+  "cashlatestyear",
+  "column_break_qxkoy",
+  "cashlatestyear1",
+  "column_break_aoa6p",
+  "cashlatestyear2",
+  "column_break_m9isd",
+  "cashlatestyear3",
+  "column_break_xeb4s",
+  "cashlatestyear4",
+  "column_break_bbkjt",
+  "cashlatestyear5",
+  "section_break_frsr7",
+  "account_receiveble_less_bed_debt",
+  "column_break_yn5km",
+  "arly",
+  "column_break_cjfr6",
+  "arly1",
+  "column_break_huj8b",
+  "arly3",
+  "column_break_ai3hb",
+  "arly4",
+  "column_break_8a7v0",
+  "arly5",
+  "column_break_qfxnv",
+  "arly6",
+  "section_break_00bgv",
+  "merchandise_inventory",
+  "column_break_kl2jc",
+  "mily",
+  "column_break_3r5op",
+  "mily2",
+  "column_break_hnu8w",
+  "mily3",
+  "column_break_7vooa",
+  "mily4",
+  "column_break_8z6du",
+  "mily5",
+  "column_break_o38iy",
+  "mily6",
+  "section_break_vlcfe",
+  "prepaid_expenses",
+  "column_break_rqs8s",
+  "pely",
+  "column_break_h7vbw",
+  "pely2",
+  "column_break_tyaxi",
+  "pely3",
+  "column_break_arysu",
+  "pely4",
+  "column_break_qruve",
+  "pely5",
+  "column_break_ofk4d",
+  "pely6",
+  "section_break_liazu",
+  "total_current_assets",
+  "column_break_9nkd3",
+  "tcaly",
+  "column_break_2ydtl",
+  "tcaly2",
+  "section_break_09n6k",
+  "tcaly3",
+  "column_break_vaat9",
+  "tcaly4",
+  "column_break_fpmcn",
+  "tcaly5",
+  "column_break_26t5j",
+  "tcaly6",
+  "section_break_suw7l",
+  "furniture_and_equipmentless_depreciation",
+  "column_break_coc4z",
+  "faely",
+  "column_break_chgq0",
+  "faely2",
+  "column_break_mzyzs",
+  "faely3",
+  "column_break_dftbe",
+  "faely4",
+  "column_break_h20dg",
+  "faely5",
+  "column_break_mvjz4",
+  "faely6",
+  "section_break_vj0xr",
+  "total_assets",
+  "column_break_fj056",
+  "taly",
+  "column_break_e0shd",
+  "taly2",
+  "column_break_zla3z",
+  "taly3",
+  "column_break_2bwbt",
+  "taly4",
+  "column_break_mhdsy",
+  "taly5",
+  "column_break_4sudx",
+  "taly6",
+  "section_break_v2vm3",
+  "liabilities_and_capital",
+  "section_break_uraxg",
+  "account_payable",
+  "column_break_t49kf",
+  "acply",
+  "column_break_7dh9v",
+  "acply2",
+  "column_break_ogjme",
+  "acply3",
+  "column_break_ok3hq",
+  "acply4",
+  "column_break_5warl",
+  "acply5",
+  "column_break_nh3un",
+  "acply6",
+  "section_break_keian",
+  "notes_payable",
+  "column_break_jxqdr",
+  "nply",
+  "column_break_w1gxi",
+  "nply2",
+  "column_break_6yike",
+  "nply3",
+  "column_break_iwvjk",
+  "nply4",
+  "column_break_un53m",
+  "nply5",
+  "column_break_fqphm",
+  "nply6",
+  "section_break_qqarm",
+  "accrued_expenses",
+  "column_break_u6zxq",
+  "aely",
+  "column_break_xzqtf",
+  "aely2",
+  "column_break_bozgg",
+  "aely3",
+  "column_break_zhfq2",
+  "aely4",
+  "column_break_3yh59",
+  "aely5",
+  "column_break_kvrrd",
+  "aely6",
+  "section_break_hczzy",
+  "total_current_liability",
+  "column_break_ckqae",
+  "tclly",
+  "column_break_6gxpb",
+  "tclly2",
+  "column_break_pqyti",
+  "tclly3",
+  "column_break_d0z90",
+  "tclly4",
+  "column_break_a9ajz",
+  "tclly5",
+  "column_break_zobbc",
+  "tclly6",
+  "section_break_3wlrd",
+  "long_term_liability",
+  "column_break_2lf8u",
+  "ltlly",
+  "column_break_xhobx",
+  "ltlly2",
+  "column_break_fvw5u",
+  "ltlly3",
+  "column_break_qbp0t",
+  "ltlly4",
+  "column_break_3hios",
+  "ltlly5",
+  "column_break_svlpk",
+  "ltlly6",
+  "section_break_dtevb",
+  "total_liability",
+  "column_break_mn14b",
+  "tlly",
+  "column_break_u11o8",
+  "tlly2",
+  "column_break_cz3jd",
+  "tlly3",
+  "column_break_vprv1",
+  "tlly4",
+  "column_break_hci90",
+  "tlly5",
+  "column_break_fueny",
+  "tlly6",
+  "section_break_ginud",
+  "capital_owners_equity",
+  "column_break_z1kfn",
+  "coely",
+  "column_break_6ieru",
+  "coely2",
+  "column_break_8qghm",
+  "coely3",
+  "column_break_qbuiu",
+  "coely4",
+  "column_break_1zkvx",
+  "coely5",
+  "column_break_krmbh",
+  "coely6",
+  "section_break_ecebe",
+  "total_liabilities_and_capitalowners_equity",
+  "column_break_wm0tk",
+  "tlacoely",
+  "column_break_dzysl",
+  "tlaoely2",
+  "column_break_4dboh",
+  "tlaoely3",
+  "column_break_qstif",
+  "tlaoely4",
+  "column_break_xjajk",
+  "tlaoely5",
+  "column_break_af9ey",
+  "tlaoely6",
+  "section_break_9blv5",
+  "1",
+  "section_break_7kojr",
+  "2",
+  "section_break_khxrk",
+  "sales_net",
+  "column_break_jnwn5",
+  "latest_year",
+  "column_break_a6exs",
+  "latest_year_1",
+  "column_break_iwmxh",
+  "latest_year_3",
+  "column_break_uqp3s",
+  "latest_year_4",
+  "column_break_rgowx",
+  "latest_year_5",
+  "column_break_rrnhd",
+  "latest_year_6",
+  "section_break_dllxk",
+  "cost_of_goods_sold1",
+  "column_break_sfjex",
+  "cogsly",
+  "column_break_qcoc5",
+  "cogsly1",
+  "column_break_caunk",
+  "cogsly2",
+  "column_break_u1ji1",
+  "cogsly3",
+  "column_break_craen",
+  "cogsly4",
+  "column_break_6uhil",
+  "cogsly5",
+  "section_break_u9orh",
+  "grossmargin1",
+  "column_break_isefj",
+  "gmly",
+  "column_break_mqg3z",
+  "gmly1",
+  "column_break_mmrwq",
+  "gmly2",
+  "column_break_nb60c",
+  "gmly3",
+  "column_break_u974d",
+  "gmly4",
+  "column_break_r71lt",
+  "gmly5",
+  "section_break_essf8",
+  "expenses1",
+  "column_break_tfcxr",
+  "ely",
+  "column_break_klbpn",
+  "ely1",
+  "column_break_yh3uy",
+  "ely2",
+  "column_break_i6pay",
+  "ely3",
+  "column_break_i6eat",
+  "ely4",
+  "column_break_y6q6e",
+  "ely5",
+  "section_break_uvazc",
+  "netincomefortheyear1",
+  "column_break_ksjdt",
+  "niftyly",
+  "column_break_ordqt",
+  "niftyly1",
+  "column_break_x7t4e",
+  "niftyly2",
+  "column_break_ntply",
+  "niftyly3",
+  "column_break_l3qa1",
+  "niftyly4",
+  "column_break_lsobi",
+  "niftyly5",
+  "section_break_mcbb7",
+  "3",
+  "section_break_i9wtq",
+  "salesnet",
+  "column_break_8vro7",
+  "sales",
+  "column_break_6povg",
+  "salesly",
+  "column_break_2hbke",
+  "salesly2",
+  "section_break_kfrvp",
+  "cost_of_goods_sold",
+  "column_break_t7ps8",
+  "costofgoodssold",
+  "column_break_4vof5",
+  "costofgoodssoldly1",
+  "column_break_hijbh",
+  "costofgoodssoldly2",
+  "section_break_5xnin",
+  "gross_margin",
+  "column_break_am4qq",
+  "grossmargin",
+  "column_break_luxon",
+  "grossmarginly1",
+  "column_break_m1h45",
+  "grossmarginly2",
+  "section_break_r4vsy",
+  "expensesless_other_income",
+  "column_break_kzkfo",
+  "expenses",
+  "column_break_s0kii",
+  "expensesly",
+  "column_break_duj1t",
+  "expensesly2",
+  "section_break_rud7p",
+  "net_income_for_the_year",
+  "column_break_5rnjs",
+  "netincome",
+  "column_break_8dcaz",
+  "netincomely",
+  "column_break_nq4kh",
+  "netincomely2",
+  "ratio_analysis_tab",
+  "ratio_analysis",
+  "column_break_mojig",
+  "calculated",
+  "section_break_gw3dm",
+  "4",
+  "section_break_hphoc",
+  "current_ratio",
+  "column_break_phe3b",
+  "currentratio",
+  "column_break_odngl",
+  "currentratio1",
+  "column_break_tq9dm",
+  "currentratio2",
+  "section_break_3bgyk",
+  "quick_ratio_acid_test",
+  "column_break_fq9io",
+  "quickratio",
+  "column_break_fwfgh",
+  "quickratio1",
+  "column_break_q8rap",
+  "quickratio2",
+  "section_break_dxn8u",
+  "debt_to_quity_ratio",
+  "column_break_lt2nj",
+  "debttoquityratio",
+  "column_break_uclst",
+  "debttoequityratio1",
+  "column_break_gr8wk",
+  "debttoequityratio2",
+  "section_break_pxl4u",
+  "working_captial",
+  "column_break_qr7zh",
+  "workingcaptial",
+  "column_break_cqw4f",
+  "workingcaptial1",
+  "column_break_gzwbi",
+  "workingcaptial2",
+  "section_break_he3j8",
+  "net_worth",
+  "column_break_o9173",
+  "networth",
+  "column_break_ekqes",
+  "networth1",
+  "column_break_gsefv",
+  "networth2",
+  "section_break_3tmai",
+  "5",
+  "section_break_8a1qz",
+  "d_s_o_days_sales_outstandin",
+  "column_break_syqnn",
+  "dayssalesoutstanding",
+  "column_break_y8yf2",
+  "dayssalesoutstanding1",
+  "column_break_aeekx",
+  "dayssalesoutstanding2",
+  "section_break_dmyk3",
+  "inventory_turnover",
+  "column_break_ydmvs",
+  "inventoryturnover",
+  "column_break_znnly",
+  "inventoryturnover1",
+  "column_break_lwnku",
+  "inventoryturnover2",
+  "section_break_tzu1s",
+  "accounts_payable_to_sales",
+  "column_break_rgsso",
+  "accountpayabletosales",
+  "column_break_cuqy8",
+  "accountpayabletosales1",
+  "column_break_84jkv",
+  "accountpayabletosales2",
+  "section_break_9kgiv",
+  "account_receivable_turnover",
+  "column_break_naysh",
+  "accountreceivaleturnover",
+  "column_break_seqmp",
+  "accountreceivaleturnover1",
+  "column_break_er07i",
+  "accountreceivaleturnover2",
+  "section_break_q6j8v",
+  "6",
+  "section_break_7vcjr",
+  "return_on_sales",
+  "column_break_wmfjq",
+  "returnonsales",
+  "column_break_gcopt",
+  "returnonsales1",
+  "column_break_nwnvh",
+  "returnonsales2",
+  "section_break_h52vg",
+  "return_on_captialequity",
+  "column_break_mzog7",
+  "returnoncaptialequity",
+  "column_break_7eswo",
+  "returnoncaptialequity1",
+  "column_break_njd5t",
+  "returnoncaptialequity2",
+  "section_break_valgi",
+  "return_on_assets",
+  "column_break_5sq0i",
+  "returnonassets",
+  "column_break_9hzfd",
+  "returnonassets1",
+  "column_break_lzlzl",
+  "returnonassets2",
+  "section_break_ywnhw",
+  "gross_profit_margin",
+  "column_break_c2jlb",
+  "grossprofitmargin",
+  "column_break_uhzqk",
+  "grossprofitmargin1",
+  "column_break_zt59h",
+  "grossprofitmargin2"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "Company"
+  },
+  {
+   "fieldname": "section_break_aa66o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer",
+   "options": "Buyer"
+  },
+  {
+   "fieldname": "section_break_ob7gi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "year_ended",
+   "fieldtype": "Date",
+   "label": "Year Ended"
+  },
+  {
+   "fieldname": "section_break_szw6e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_break_xty5x",
+   "fieldtype": "Tab Break",
+   "label": "Ratio Analysis"
+  },
+  {
+   "fieldname": "section_break_8tihv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "assets",
+   "fieldtype": "Heading",
+   "label": "Assets "
+  },
+  {
+   "fieldname": "select_year",
+   "fieldtype": "Heading",
+   "label": "Select Year"
+  },
+  {
+   "fieldname": "column_break_laixb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year1",
+   "fieldtype": "Data",
+   "label": "Latest Year(1)",
+   "options": "2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "column_break_btgny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year_2",
+   "fieldtype": "Data",
+   "label": "Latest Year (2)",
+   "options": "2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "column_break_qfnqm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year3",
+   "fieldtype": "Data",
+   "label": "Latest Year(3) ",
+   "options": "2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "column_break_0bdeo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ly",
+   "fieldtype": "Data",
+   "label": "Latest                   Year",
+   "options": "2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "column_break_neymk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ly1",
+   "fieldtype": "Data",
+   "label": "Latest              Year_I",
+   "options": "2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "column_break_viydp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ly2",
+   "fieldtype": "Data",
+   "label": "Latest               Year_II",
+   "options": "2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "section_break_7bh9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cash",
+   "fieldtype": "Heading",
+   "label": "Cash"
+  },
+  {
+   "fieldname": "column_break_e2crv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cashlatestyear",
+   "fieldtype": "Currency",
+   "width": "5"
+  },
+  {
+   "fieldname": "column_break_qxkoy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cashlatestyear1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_aoa6p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cashlatestyear2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_m9isd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cashlatestyear3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xeb4s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cashlatestyear4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_bbkjt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cashlatestyear5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_frsr7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account_receiveble_less_bed_debt",
+   "fieldtype": "Heading",
+   "label": "Account Receivable (less bed debt)"
+  },
+  {
+   "fieldname": "column_break_yn5km",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_cjfr6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arly1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_huj8b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ai3hb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_8a7v0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qfxnv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arly6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_00bgv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "merchandise_inventory",
+   "fieldtype": "Heading",
+   "label": "Merchandise Inventory"
+  },
+  {
+   "fieldname": "column_break_kl2jc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mily",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_3r5op",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mily2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_hnu8w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mily3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_7vooa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mily4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_8z6du",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mily5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_o38iy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mily6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_vlcfe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prepaid_expenses",
+   "fieldtype": "Heading",
+   "label": "Prepaid Expenses"
+  },
+  {
+   "fieldname": "column_break_rqs8s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_h7vbw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_tyaxi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pely3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_arysu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pely4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qruve",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pely5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ofk4d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pely6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_liazu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_current_assets",
+   "fieldtype": "Heading",
+   "label": "Total Current Assets"
+  },
+  {
+   "fieldname": "column_break_9nkd3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tcaly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_2ydtl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tcaly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_09n6k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tcaly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_vaat9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tcaly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_fpmcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tcaly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_26t5j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tcaly6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_suw7l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "furniture_and_equipmentless_depreciation",
+   "fieldtype": "Heading",
+   "label": "Furniture & Equipment (Less depreciation)"
+  },
+  {
+   "fieldname": "column_break_coc4z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_chgq0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_mzyzs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faely3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_dftbe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faely4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_h20dg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faely5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_mvjz4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faely6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_vj0xr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_assets",
+   "fieldtype": "Heading",
+   "label": "Total Assets"
+  },
+  {
+   "fieldname": "column_break_fj056",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_e0shd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zla3z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_2bwbt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_mhdsy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_4sudx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taly6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_v2vm3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "liabilities_and_capital",
+   "fieldtype": "Tab Break",
+   "label": "Liabilities and Capital"
+  },
+  {
+   "fieldname": "section_break_uraxg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account_payable",
+   "fieldtype": "Heading",
+   "label": "Account Payable"
+  },
+  {
+   "fieldname": "column_break_t49kf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acply",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_7dh9v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acply2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ogjme",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acply3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ok3hq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acply4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_5warl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acply5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nh3un",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acply6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_keian",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes_payable",
+   "fieldtype": "Heading",
+   "label": "Notes Payable"
+  },
+  {
+   "fieldname": "column_break_jxqdr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nply",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_w1gxi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nply2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_6yike",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nply3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_iwvjk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nply4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_un53m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nply5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_fqphm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nply6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_qqarm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "accrued_expenses",
+   "fieldtype": "Heading",
+   "label": "Accrued Expenses"
+  },
+  {
+   "fieldname": "column_break_u6zxq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xzqtf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_bozgg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aely3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zhfq2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aely4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_3yh59",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aely5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_kvrrd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aely6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_hczzy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_current_liability",
+   "fieldtype": "Heading",
+   "label": "Total Current Liability"
+  },
+  {
+   "fieldname": "column_break_ckqae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tclly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_6gxpb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tclly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_pqyti",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tclly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_d0z90",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tclly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_a9ajz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tclly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zobbc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tclly6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_3wlrd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "long_term_liability",
+   "fieldtype": "Heading",
+   "label": "Long Term Liability"
+  },
+  {
+   "fieldname": "column_break_2lf8u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ltlly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xhobx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ltlly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_fvw5u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ltlly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qbp0t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ltlly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_3hios",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ltlly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_svlpk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ltlly6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_dtevb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_liability",
+   "fieldtype": "Heading",
+   "label": "Total Liability"
+  },
+  {
+   "fieldname": "column_break_mn14b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_u11o8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_cz3jd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_vprv1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_hci90",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_fueny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlly6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ginud",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "capital_owners_equity",
+   "fieldtype": "Heading",
+   "label": "Capital/ Owner's Equity"
+  },
+  {
+   "fieldname": "column_break_z1kfn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_6ieru",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_8qghm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coely3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qbuiu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coely4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_1zkvx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coely5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_krmbh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coely6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ecebe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_liabilities_and_capitalowners_equity",
+   "fieldtype": "Heading",
+   "label": "Total Liabilities and Capital/Owner's Equity"
+  },
+  {
+   "fieldname": "column_break_wm0tk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlacoely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_dzysl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlaoely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_4dboh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlaoely3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qstif",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlaoely4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xjajk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlaoely5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_af9ey",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tlaoely6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_9blv5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "1",
+   "fieldtype": "HTML",
+   "label": "1",
+   "options": "<p><b> please Note: the above balance sheet analysis is designed for 3 year comparative statements .</b></p>"
+  },
+  {
+   "fieldname": "section_break_7kojr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "2",
+   "fieldtype": "HTML",
+   "label": "2",
+   "options": "<h4 style=\"text-align: center;\"> COMPARATIVE INCOME STATEMENT </h4>\n<h5 style=\"text-align: center;\"> For Year's ended December 31</h5>"
+  },
+  {
+   "fieldname": "section_break_khxrk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sales_net",
+   "fieldtype": "Heading",
+   "label": "Sales (Net)"
+  },
+  {
+   "fieldname": "column_break_jnwn5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year",
+   "fieldtype": "Currency",
+   "label": "Latest Year"
+  },
+  {
+   "fieldname": "column_break_a6exs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year_1",
+   "fieldtype": "Currency",
+   "label": "Latest Year (2)"
+  },
+  {
+   "fieldname": "column_break_iwmxh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year_3",
+   "fieldtype": "Currency",
+   "label": "Latest Year (3)"
+  },
+  {
+   "fieldname": "column_break_uqp3s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year_4",
+   "fieldtype": "Currency",
+   "label": "Latest Year (4)"
+  },
+  {
+   "fieldname": "column_break_rgowx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year_5",
+   "fieldtype": "Currency",
+   "label": "Latest Year (5)"
+  },
+  {
+   "fieldname": "column_break_rrnhd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "latest_year_6",
+   "fieldtype": "Currency",
+   "label": "Latest Year (6)"
+  },
+  {
+   "fieldname": "section_break_dllxk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_of_goods_sold1",
+   "fieldtype": "Heading",
+   "label": "Cost of Goods Sold"
+  },
+  {
+   "fieldname": "column_break_sfjex",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cogsly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qcoc5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cogsly1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_caunk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cogsly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_u1ji1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cogsly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_craen",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cogsly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_6uhil",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cogsly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_u9orh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "grossmargin1",
+   "fieldtype": "Heading",
+   "label": "Gross Margin"
+  },
+  {
+   "fieldname": "column_break_isefj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gmly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_mqg3z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gmly1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_mmrwq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gmly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nb60c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gmly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_u974d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gmly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_r71lt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gmly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_essf8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expenses1",
+   "fieldtype": "Heading",
+   "label": "Expenses (less other Income)"
+  },
+  {
+   "fieldname": "column_break_tfcxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_klbpn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ely1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_yh3uy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_i6pay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ely3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_i6eat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ely4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_y6q6e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ely5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_uvazc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "netincomefortheyear1",
+   "fieldtype": "Heading",
+   "label": "Net Income for the year"
+  },
+  {
+   "fieldname": "column_break_ksjdt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "niftyly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ordqt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "niftyly1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_x7t4e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "niftyly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ntply",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "niftyly3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_l3qa1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "niftyly4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_lsobi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "niftyly5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_mcbb7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "3",
+   "fieldtype": "HTML",
+   "label": "3",
+   "options": "\n<h5 style=\"text-align: center;\"> COMPARATIVE COMMON SIZE INCOME STATEMENT</h5><h5></h5>"
+  },
+  {
+   "fieldname": "section_break_i9wtq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "salesnet",
+   "fieldtype": "Heading",
+   "label": "Sales(Net)"
+  },
+  {
+   "fieldname": "column_break_8vro7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sales",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_6povg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "salesly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_2hbke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "salesly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_kfrvp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_of_goods_sold",
+   "fieldtype": "Heading",
+   "label": "Cost of Goods Sold"
+  },
+  {
+   "fieldname": "column_break_t7ps8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "costofgoodssold",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_4vof5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "costofgoodssoldly1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_hijbh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "costofgoodssoldly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_5xnin",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gross_margin",
+   "fieldtype": "Heading",
+   "label": "Gross Margin"
+  },
+  {
+   "fieldname": "column_break_am4qq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grossmargin",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_luxon",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grossmarginly1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_m1h45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grossmarginly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_r4vsy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expensesless_other_income",
+   "fieldtype": "Heading",
+   "label": "Expenses(less other Income)"
+  },
+  {
+   "fieldname": "column_break_kzkfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expenses",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_s0kii",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expensesly",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_duj1t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expensesly2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_rud7p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_income_for_the_year",
+   "fieldtype": "Heading",
+   "label": "Net Income for the year"
+  },
+  {
+   "fieldname": "column_break_5rnjs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "netincome",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_8dcaz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "netincomely",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nq4kh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "netincomely2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "ratio_analysis_tab",
+   "fieldtype": "Tab Break",
+   "label": "Ratio Analysis"
+  },
+  {
+   "fieldname": "ratio_analysis",
+   "fieldtype": "Heading",
+   "label": "Ratio Analysis"
+  },
+  {
+   "fieldname": "column_break_mojig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculated",
+   "fieldtype": "Heading",
+   "label": "CALCULATED"
+  },
+  {
+   "fieldname": "section_break_gw3dm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "4",
+   "fieldtype": "HTML",
+   "label": "4",
+   "options": "<h5 style=\"text-align: center;\"> Liquidity</h5>"
+  },
+  {
+   "fieldname": "section_break_hphoc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_ratio",
+   "fieldtype": "Heading",
+   "label": "Current Ratio"
+  },
+  {
+   "fieldname": "column_break_phe3b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentratio",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_odngl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentratio1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_tq9dm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentratio2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_3bgyk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quick_ratio_acid_test",
+   "fieldtype": "Heading",
+   "label": "Quick Ratio (Acid Test)"
+  },
+  {
+   "fieldname": "column_break_fq9io",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quickratio",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_fwfgh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quickratio1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_q8rap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quickratio2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_dxn8u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "debt_to_quity_ratio",
+   "fieldtype": "Heading",
+   "label": "Debt to Equity Ratio"
+  },
+  {
+   "fieldname": "column_break_lt2nj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debttoquityratio",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_uclst",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debttoequityratio1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gr8wk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debttoequityratio2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_pxl4u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "working_captial",
+   "fieldtype": "Heading",
+   "label": "Working Captial"
+  },
+  {
+   "fieldname": "column_break_qr7zh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "workingcaptial",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_cqw4f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "workingcaptial1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gzwbi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "workingcaptial2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_he3j8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_worth",
+   "fieldtype": "Heading",
+   "label": "Net Worth"
+  },
+  {
+   "fieldname": "column_break_o9173",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "networth",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ekqes",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "networth1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gsefv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "networth2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_3tmai",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "5",
+   "fieldtype": "HTML",
+   "label": "5",
+   "options": "<h5 style=\"text-align: center;\"> Efficiency</h5>"
+  },
+  {
+   "fieldname": "section_break_8a1qz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "d_s_o_days_sales_outstandin",
+   "fieldtype": "Heading",
+   "label": "D S O Days Sales Outstanding"
+  },
+  {
+   "fieldname": "column_break_syqnn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dayssalesoutstanding",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_y8yf2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dayssalesoutstanding1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_aeekx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dayssalesoutstanding2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_dmyk3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inventory_turnover",
+   "fieldtype": "Heading",
+   "label": "Inventory Turnover"
+  },
+  {
+   "fieldname": "column_break_ydmvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inventoryturnover",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_znnly",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inventoryturnover1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_lwnku",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inventoryturnover2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_tzu1s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "accounts_payable_to_sales",
+   "fieldtype": "Heading",
+   "label": "Accounts Payable to Sales"
+  },
+  {
+   "fieldname": "column_break_rgsso",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accountpayabletosales",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_cuqy8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accountpayabletosales1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_84jkv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accountpayabletosales2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_9kgiv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account_receivable_turnover",
+   "fieldtype": "Heading",
+   "label": "Account Receivable Turnover"
+  },
+  {
+   "fieldname": "column_break_naysh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accountreceivaleturnover",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_seqmp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accountreceivaleturnover1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_er07i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accountreceivaleturnover2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_q6j8v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "6",
+   "fieldtype": "HTML",
+   "label": "6",
+   "options": "<h5 style=\"text-align: center;\"> Profitability</h5><h5></h5>"
+  },
+  {
+   "fieldname": "section_break_7vcjr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "return_on_sales",
+   "fieldtype": "Heading",
+   "label": "Return on Sales"
+  },
+  {
+   "fieldname": "column_break_wmfjq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnonsales",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gcopt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnonsales1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nwnvh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnonsales2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_h52vg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "return_on_captialequity",
+   "fieldtype": "Heading",
+   "label": "Return on Captial/Equity"
+  },
+  {
+   "fieldname": "column_break_mzog7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnoncaptialequity",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_7eswo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnoncaptialequity1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_njd5t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnoncaptialequity2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_valgi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "return_on_assets",
+   "fieldtype": "Heading",
+   "label": "Return on Assets"
+  },
+  {
+   "fieldname": "column_break_5sq0i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnonassets",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_9hzfd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnonassets1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_lzlzl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "returnonassets2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ywnhw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gross_profit_margin",
+   "fieldtype": "Heading",
+   "label": "Gross Profit Margin"
+  },
+  {
+   "fieldname": "column_break_c2jlb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grossprofitmargin",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_uhzqk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grossprofitmargin1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zt59h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grossprofitmargin2",
+   "fieldtype": "Currency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-08 12:34:04.569929",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Financial Analysis",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

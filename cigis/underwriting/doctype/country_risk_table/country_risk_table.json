@@ -1,0 +1,122 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{country_group}",
+ "creation": "2024-03-20 07:13:37.420299",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "section_break_8zip1",
+  "country_group",
+  "buyer_type",
+  "political_premimum_rate",
+  "premimum_rate",
+  "column_break_op3h5",
+  "column_break_faxlk",
+  "status",
+  "payment_team",
+  "commercial_premimum_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Heading",
+   "label": " Search-Country Risk Table",
+   "options": "Search-Country Risk Table"
+  },
+  {
+   "fieldname": "section_break_8zip1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country_group",
+   "fieldtype": "Select",
+   "label": "Country Group:",
+   "options": "1A\n1B\n1C\n2A\n2B\n2C\n3A\n3B\n3C\nANGOLA\nSOUTH AFRICA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Buyer Type",
+   "options": "ASSOCIATED COMPANIES\nGOVERMENT BUYER\nPRIVATE BUYER (COMMERCIAL)\nPRIVATE BUYER (PLOITICALL)\nPRIVATE BUYER (FULL COVER)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "political_premimum_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Political Premimum Rate",
+   "options": "0.00",
+   "reqd": 1
+  },
+  {
+   "fieldname": "premimum_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Premimum Rate",
+   "options": "0.00",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_op3h5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_faxlk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "ACTIVE\nINACTIVE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_team",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Terms:",
+   "options": "1-3m\n1-3mLC\n4-6m\n4-6mLC\ncad\ncadLC\nTT7d",
+   "reqd": 1
+  },
+  {
+   "fieldname": "commercial_premimum_rate",
+   "fieldtype": "Currency",
+   "label": "Commercial Premimum Rate",
+   "options": "0.00",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 07:56:48.615088",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Country Risk Table",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

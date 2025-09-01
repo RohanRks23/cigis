@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-26 07:07:27.261473",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "policy_no",
+  "policy_holder",
+  "buyer",
+  "credit_limit_approved",
+  "cl_approved_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "credit_limit_approved",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Credit limit Approved"
+  },
+  {
+   "fieldname": "cl_approved_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CL Approved Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 21:21:06.291663",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Buyer Exposure child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

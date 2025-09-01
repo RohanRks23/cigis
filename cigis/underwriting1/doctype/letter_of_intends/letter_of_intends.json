@@ -1,0 +1,147 @@
+{
+ "_liked_by": "[\"sandhya.m@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 13:27:02.189875",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "letter_of_intends_tab",
+  "bond_facility_no",
+  "letter_of_intends_details",
+  "letter_of_intends_tab1",
+  "letter_of_intends_no_table",
+  "section_break_xr8j5",
+  "column_break_8nujn",
+  "column_break_fwonl",
+  "total_letter_of_intend_issued",
+  "letter_of_intends_details_tab",
+  "loi_req_no",
+  "principal",
+  "tender_no",
+  "project_description",
+  "letter_of_intent_date",
+  "bond_value",
+  "project_value",
+  "attach_files"
+ ],
+ "fields": [
+  {
+   "fieldname": "letter_of_intends_tab",
+   "fieldtype": "Tab Break",
+   "label": "Existing Bond"
+  },
+  {
+   "fetch_from": "bond.facility_no",
+   "fieldname": "bond_facility_no",
+   "fieldtype": "Link",
+   "label": "Bond Facility No:",
+   "options": "Bond Facility"
+  },
+  {
+   "fieldname": "letter_of_intends_details",
+   "fieldtype": "Table",
+   "label": "Letter Of Intends Details Table",
+   "options": "Letter Of Intends Details table"
+  },
+  {
+   "fieldname": "letter_of_intends_tab1",
+   "fieldtype": "Tab Break",
+   "label": "Letter Of Intends"
+  },
+  {
+   "fieldname": "letter_of_intends_no_table",
+   "fieldtype": "Table",
+   "label": "Letter Of Intends Table",
+   "options": "Letter Of Intends No Table"
+  },
+  {
+   "fieldname": "section_break_xr8j5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_8nujn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_fwonl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_letter_of_intend_issued",
+   "fieldtype": "Data",
+   "label": "Total Letter of intend issued"
+  },
+  {
+   "fieldname": "letter_of_intends_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Letter Of Intends Details"
+  },
+  {
+   "fieldname": "loi_req_no",
+   "fieldtype": "Data",
+   "label": "LOI Req No"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "tender_no",
+   "fieldtype": "Data",
+   "label": "Tender No"
+  },
+  {
+   "fieldname": "project_description",
+   "fieldtype": "Data",
+   "label": "Project Description"
+  },
+  {
+   "fieldname": "letter_of_intent_date",
+   "fieldtype": "Date",
+   "label": "Letter of Intent Date"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Currency",
+   "label": "Bond value: P"
+  },
+  {
+   "fieldname": "project_value",
+   "fieldtype": "Currency",
+   "label": "Project Sum: P"
+  },
+  {
+   "fieldname": "attach_files",
+   "fieldtype": "Attach",
+   "label": "Attach Files"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:35.716519",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Letter Of Intends",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,191 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 12:18:53.851801",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "search_cb_report_tab",
+  "section_break_ueyvp",
+  "cb_report_child_table",
+  "section_break_8xxt1",
+  "tab_break_wdgsd",
+  "cb_report",
+  "section_break_kw5pq",
+  "credit_bureau_request",
+  "section_break_32uw7",
+  "cb_request_number",
+  "reqdate",
+  "buyer",
+  "column_break_k5b5l",
+  "refnumber",
+  "veiw_cb_request",
+  "section_break_aphdp",
+  "section_break_u1k6d",
+  "credit_bureau_responce",
+  "date",
+  "catagory",
+  "code",
+  "column_break_alu3w",
+  "details",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "search_cb_report_tab",
+   "fieldtype": "Tab Break",
+   "label": "Search CB report"
+  },
+  {
+   "fieldname": "section_break_ueyvp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cb_report_child_table",
+   "fieldtype": "Table",
+   "options": "CB Report Child Table"
+  },
+  {
+   "fieldname": "section_break_8xxt1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_break_wdgsd",
+   "fieldtype": "Tab Break",
+   "label": "CB Report "
+  },
+  {
+   "fieldname": "cb_report",
+   "fieldtype": "HTML",
+   "label": "CB Report",
+   "options": "<h3>CB Report</h3>\n"
+  },
+  {
+   "fieldname": "section_break_kw5pq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_bureau_request",
+   "fieldtype": "HTML",
+   "label": "Credit Bureau Request",
+   "options": "<h4>Credit Bureau Request</h4>\n"
+  },
+  {
+   "fieldname": "section_break_32uw7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cb_request_number",
+   "fieldtype": "Data",
+   "label": "CB Req Number"
+  },
+  {
+   "fetch_from": "refnumber.capture_date",
+   "fieldname": "reqdate",
+   "fieldtype": "Date",
+   "label": "Req.Date"
+  },
+  {
+   "fetch_from": "refnumber.buyer_name",
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "column_break_k5b5l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "refnumber",
+   "fieldtype": "Link",
+   "label": "Ref.Number",
+   "options": "Credit Limit Processing"
+  },
+  {
+   "fieldname": "veiw_cb_request",
+   "fieldtype": "Button",
+   "label": "Veiw CB Request"
+  },
+  {
+   "fieldname": "section_break_aphdp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_u1k6d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_bureau_responce",
+   "fieldtype": "HTML",
+   "label": "Credit Bureau Response",
+   "options": "<h4>Credit Bureau Response</h4>\n"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "catagory",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "select\nCREDIT GUARANTEE INSURENCE CORPORATION\nKREDITNET\nTRANSUNION",
+   "reqd": 1
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Code",
+   "options": "Others\nRISK1\nRISK2\nRISK3\nRISK4\nRISK5\nRISK6",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_alu3w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Details",
+   "options": "select",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:30.606719",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "CB Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

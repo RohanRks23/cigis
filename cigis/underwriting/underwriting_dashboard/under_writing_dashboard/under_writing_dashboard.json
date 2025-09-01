@@ -1,0 +1,35 @@
+{
+ "cards": [
+  {
+   "card": "Approved-5"
+  },
+  {
+   "card": "Rejected"
+  },
+  {
+   "card": "Pending"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Credit Limit Applications Daily Updates",
+   "width": "Half"
+  },
+  {
+   "chart": "Credit Limit Processing Daily Updates",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 07:10:24.978789",
+ "dashboard_name": "Under Writing Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 08:34:04.528431",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Under Writing Dashboard",
+ "owner": "Administrator"
+}

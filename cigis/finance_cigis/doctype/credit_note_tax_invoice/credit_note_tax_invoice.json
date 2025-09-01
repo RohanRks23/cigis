@@ -1,0 +1,514 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:invoice1",
+ "creation": "2024-04-25 08:10:22.421813",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "export_credit",
+  "credit_note_tax_invoice",
+  "section_break_9cwm2",
+  "beci",
+  "column_break_ruywa",
+  "pbag",
+  "section_break_8rkkn",
+  "invoice1",
+  "attn",
+  "address",
+  "city",
+  "telephone",
+  "fax",
+  "column_break_sh635",
+  "crn",
+  "date1",
+  "reference1",
+  "ref_inv",
+  "section_break_sli9s",
+  "section_break_0doap",
+  "description",
+  "section_break_gls66",
+  "declaration_of_month",
+  "column_break_vxe94",
+  "declaration_amount",
+  "column_break_e9qej",
+  "rate",
+  "column_break_lxmvn",
+  "premium",
+  "column_break_n61hp",
+  "section_break_8uxfs",
+  "column_break_d9gyc",
+  "amount1",
+  "column_break_bsjum",
+  "amount2",
+  "column_break_uzwms",
+  "amount3",
+  "column_break_70p03",
+  "amount4",
+  "column_break_ymuzg",
+  "section_break_cace2",
+  "column_break_ylpjj",
+  "column_break_2361l",
+  "quantity",
+  "column_break_yup1q",
+  "rate_1",
+  "column_break_ffllh",
+  "amount",
+  "section_break_kfz2u",
+  "credit_limit_fees",
+  "column_break_9wbqa",
+  "amount9",
+  "column_break_o60sy",
+  "amount10",
+  "column_break_awlt2",
+  "amount11",
+  "section_break_jcapx",
+  "credit_limit_enquiry_fee",
+  "column_break_xkgx3",
+  "amount12",
+  "column_break_kratc",
+  "amount13",
+  "column_break_zmlqb",
+  "amount14",
+  "section_break_alry1",
+  "column_break_svrh1",
+  "column_break_xr67n",
+  "sub_total",
+  "column_break_u0zql",
+  "amount15",
+  "section_break_trjde",
+  "column_break_xjwwx",
+  "column_break_qiglh",
+  "vat1200",
+  "column_break_fw9yv",
+  "amount19",
+  "section_break_7qwop",
+  "column_break_hked8",
+  "column_break_dwjfb",
+  "total",
+  "column_break_xlznn",
+  "amount16",
+  "section_break_kgyfz",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "export_credit",
+   "fieldtype": "HTML",
+   "label": "Export Credit",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "credit_note_tax_invoice",
+   "fieldtype": "HTML",
+   "label": "Credit Note Tax Invoice",
+   "options": "<h3 style=\"text-align: center;\">CREDIT NOTE TAX INVOICE</h3>\n"
+  },
+  {
+   "fieldname": "section_break_9cwm2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "HTML",
+   "label": "BECI",
+   "options": "<p>BECI<br>\nExport Credit Insurance &amp; Guarantee Co.Botswana(PTY)Ltd.<br>\nBECI VAT Reg.No.C00613601111</p>\n"
+  },
+  {
+   "fieldname": "column_break_ruywa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pbag",
+   "fieldtype": "HTML",
+   "label": "P/Bag",
+   "options": "<p>P/Bag BO 279<br>\nGABRONE<br>\nTel:3188015<br>\nFax:3188017<br>\n</p>\n"
+  },
+  {
+   "fieldname": "section_break_8rkkn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice1",
+   "fieldtype": "Data",
+   "label": "INVOICE TO:",
+   "unique": 1
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": "ATTN:"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS:"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY:"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "TELEPHONE:"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX:"
+  },
+  {
+   "fieldname": "column_break_sh635",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "crn",
+   "fieldtype": "Data",
+   "label": "CRN.Inv.No:"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Data",
+   "label": "DATE:"
+  },
+  {
+   "fieldname": "reference1",
+   "fieldtype": "Data",
+   "label": "REFERENCE:"
+  },
+  {
+   "fieldname": "ref_inv",
+   "fieldtype": "Data",
+   "label": "Ref.Inv.No:"
+  },
+  {
+   "fieldname": "section_break_sli9s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_0doap",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "HTML",
+   "label": "Description",
+   "options": "<p>DESCRIPTION: Domestic Comercial Insurance</p>"
+  },
+  {
+   "fieldname": "section_break_gls66",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "declaration_of_month",
+   "fieldtype": "HTML",
+   "label": "DECLARATION OF MONTH",
+   "options": "<h4>DECLERATION OF MONTH </h4><h4></h4>"
+  },
+  {
+   "fieldname": "column_break_vxe94",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "declaration_amount",
+   "fieldtype": "HTML",
+   "label": "DECLARATION AMOUNT",
+   "options": "<h4>DECLARATION AMOUNT</h4><h4></h4>"
+  },
+  {
+   "fieldname": "column_break_e9qej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "HTML",
+   "label": "RATE",
+   "options": "<h4>RATE</h4><h4></h4>"
+  },
+  {
+   "fieldname": "column_break_lxmvn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "HTML",
+   "label": "PREMIUM",
+   "options": "<h4>PREMIUM</h4><h4></h4>"
+  },
+  {
+   "fieldname": "column_break_n61hp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8uxfs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_d9gyc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_bsjum",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_uzwms",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_70p03",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_ymuzg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cace2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ylpjj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2361l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "HTML",
+   "label": "Quantity",
+   "options": "<h4>Quantity</h4><h4></h4>"
+  },
+  {
+   "fieldname": "column_break_yup1q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate_1",
+   "fieldtype": "HTML",
+   "label": "Rate",
+   "options": "<h4>Rate</h4><h4></h4>"
+  },
+  {
+   "fieldname": "column_break_ffllh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "HTML",
+   "label": "Amount",
+   "options": "<h4>Amount</h4><h4></h4>"
+  },
+  {
+   "fieldname": "section_break_kfz2u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_fees",
+   "fieldtype": "HTML",
+   "label": "CREDIT LIMIT FEES",
+   "options": "<h4>CREDIT LIMIT FEES</h4>"
+  },
+  {
+   "fieldname": "column_break_9wbqa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_o60sy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount10",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_awlt2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount11",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_jcapx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_enquiry_fee",
+   "fieldtype": "HTML",
+   "label": "CREDIT LIMIT ENQUIRY FEE",
+   "options": "<h4>CREDIT LIMIT ENQUIRY FEE</h4>"
+  },
+  {
+   "fieldname": "column_break_xkgx3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount12",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_kratc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount13",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_zmlqb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount14",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_alry1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_svrh1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xr67n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "HTML",
+   "label": "SUB TOTAL",
+   "options": "<h4>SUB TOTAL</h4>"
+  },
+  {
+   "fieldname": "column_break_u0zql",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount15",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_trjde",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xjwwx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qiglh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat1200",
+   "fieldtype": "HTML",
+   "label": "VAT@",
+   "options": "<h4>VAT @</h4>"
+  },
+  {
+   "fieldname": "column_break_fw9yv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount19",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_7qwop",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hked8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dwjfb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "HTML",
+   "label": "TOTAL",
+   "options": "<h4>TOTAL</h4>"
+  },
+  {
+   "fieldname": "column_break_xlznn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount16",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_kgyfz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "HTML",
+   "label": "Remarks",
+   "options": "<p>REMARKS:<br>\nincorrection declaration<br></p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:35.730691",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Credit Note Tax Invoice",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

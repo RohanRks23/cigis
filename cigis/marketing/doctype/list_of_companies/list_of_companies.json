@@ -1,0 +1,98 @@
+{
+ "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-19 13:36:12.088428",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "list_of_companies",
+  "section_break_w1vhz",
+  "business_type",
+  "status",
+  "column_break_vxxuk",
+  "industry",
+  "section_break_zzzy6",
+  "column_break_jgr7e",
+  "column_break_colki",
+  "column_break_yqomr",
+  "display_result"
+ ],
+ "fields": [
+  {
+   "fieldname": "list_of_companies",
+   "fieldtype": "Heading",
+   "label": "List Of Companies"
+  },
+  {
+   "fieldname": "section_break_w1vhz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "business_type",
+   "fieldtype": "Select",
+   "label": "Business Type"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  },
+  {
+   "fieldname": "column_break_vxxuk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Select",
+   "label": "Industry"
+  },
+  {
+   "fieldname": "section_break_zzzy6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_jgr7e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_colki",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yqomr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "display_result",
+   "fieldtype": "Button",
+   "label": "Display Result"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 06:41:49.252105",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "List Of Companies",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

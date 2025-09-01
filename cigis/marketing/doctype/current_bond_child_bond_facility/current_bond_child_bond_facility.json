@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-23 13:13:03.033357",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_bankinsurance_company",
+  "facility",
+  "bonds_out_standing",
+  "rate_charged"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_bankinsurance_company",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name Of Bank/Insurance Company"
+  },
+  {
+   "fieldname": "facility",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility"
+  },
+  {
+   "fieldname": "bonds_out_standing",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Bond(s) Outstanding"
+  },
+  {
+   "fieldname": "rate_charged",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate Charged%"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-20 12:07:30.051582",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "current bond child bond facility",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,347 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-13 12:09:10.638653",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_limit_application_domestic",
+  "line",
+  "policy_holder",
+  "policy_number",
+  "linetwo",
+  "section_break_efkfx",
+  "buyers_name",
+  "trading_style",
+  "registration_numberid_no",
+  "address",
+  "section_break_jryfs",
+  "directors_details",
+  "section_break_z9pk0",
+  "namet",
+  "namett",
+  "nameff",
+  "namt",
+  "namef",
+  "column_break_o8p5l",
+  "column_break_xy4av",
+  "column_break_twyde",
+  "column_break_aaeb2",
+  "ido",
+  "idt",
+  "idth",
+  "idfo",
+  "idfi",
+  "section_break_lazge",
+  "tel_no",
+  "bank",
+  "trading_experience",
+  "column_break_hm2gx",
+  "fax",
+  "branch",
+  "section_break_p59i7",
+  "limit_required______p",
+  "written_bank",
+  "order_on_hand__p",
+  "terms_of_payment",
+  "of_which",
+  "remarks",
+  "is_security",
+  "nb",
+  "if",
+  "information",
+  "weknow",
+  "date_and_singed"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_limit_application_domestic",
+   "fieldtype": "HTML",
+   "label": "Credit Limit Application Domestic",
+   "options": "\n\n\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Credit Limit Application Domestic</title>\n    <style>\n        h2 {\n            text-align: center;\n        }\n    </style>\n\n\n    <h2><u>CREDIT LIMIT APPLICATION DOMESTIC<u></u></u></h2>\n\n"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "LINE",
+   "options": "<hr>"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "HTML",
+   "label": "POLICY HOLDER",
+   "options": "<h3>POLICY HOLDER :</h3>"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "HTML",
+   "label": "POLICY NUMBER",
+   "options": "<h3>POLICY NUMBER :</h3>"
+  },
+  {
+   "fieldname": "linetwo",
+   "fieldtype": "HTML",
+   "label": "LINE",
+   "options": "<hr>"
+  },
+  {
+   "fieldname": "section_break_efkfx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyers_name",
+   "fieldtype": "HTML",
+   "label": "BUYER'S NAME",
+   "options": "<p>BUYER'S NAME :...........................................................................................</p>"
+  },
+  {
+   "fieldname": "trading_style",
+   "fieldtype": "HTML",
+   "label": "TRADING STYLE",
+   "options": "<p>TRADING STYLE : .........................................................................</p>"
+  },
+  {
+   "fieldname": "registration_numberid_no",
+   "fieldtype": "HTML",
+   "label": "REGISTRATION NUMBER/ID NO",
+   "options": "<p>REGISTRATION NUMBER./ID NO. : .........................................................................</p>"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "ADDRESS",
+   "options": "<p>ADDRESS : ..........................................................................</p>"
+  },
+  {
+   "fieldname": "section_break_jryfs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "directors_details",
+   "fieldtype": "HTML",
+   "label": "DIRECTOR'S DETAILS",
+   "options": "DIRECTOR'S DETAILS "
+  },
+  {
+   "fieldname": "section_break_z9pk0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "namet",
+   "fieldtype": "HTML",
+   "label": "NAME",
+   "options": "<p>NAME : ...............................................................</p>"
+  },
+  {
+   "fieldname": "namett",
+   "fieldtype": "HTML",
+   "label": "NAME",
+   "options": "<p>NAME : ..............................................................</p>"
+  },
+  {
+   "fieldname": "nameff",
+   "fieldtype": "HTML",
+   "label": "NAME",
+   "options": "<p>NAME : ..............................................................</p>"
+  },
+  {
+   "fieldname": "namt",
+   "fieldtype": "HTML",
+   "label": "NAME",
+   "options": "<p>NAME : .............................................................</p>"
+  },
+  {
+   "fieldname": "namef",
+   "fieldtype": "HTML",
+   "label": "NAME",
+   "options": "<p>NAME : ............................................................</p>"
+  },
+  {
+   "fieldname": "column_break_o8p5l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xy4av",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_twyde",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_aaeb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ido",
+   "fieldtype": "HTML",
+   "label": "I.D.NUMBER",
+   "options": "<p>I.D.NUMBER : ...................................................................</p>"
+  },
+  {
+   "fieldname": "idt",
+   "fieldtype": "HTML",
+   "label": "I.D.NUMBER",
+   "options": "<p>I.D.NUMBER : ...................................................................</p>"
+  },
+  {
+   "fieldname": "idth",
+   "fieldtype": "HTML",
+   "label": "I.D.NUMBER",
+   "options": "<p>I.D.NUMBER : ...................................................................</p>"
+  },
+  {
+   "fieldname": "idfo",
+   "fieldtype": "HTML",
+   "label": "I.D.NUMBER",
+   "options": "<p>I.D.NUMBER : ...................................................................</p>"
+  },
+  {
+   "fieldname": "idfi",
+   "fieldtype": "HTML",
+   "label": "I.D.NUMBER",
+   "options": "<p>I.D.NUMBER : ...................................................................</p>"
+  },
+  {
+   "fieldname": "section_break_lazge",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tel_no",
+   "fieldtype": "HTML",
+   "label": "TEL NO",
+   "options": "<p>TEL.NO : ................................................................................</p>"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "HTML",
+   "label": "BANK ",
+   "options": "<p>BANK : ............................................................</p>"
+  },
+  {
+   "fieldname": "trading_experience",
+   "fieldtype": "HTML",
+   "label": "TRADING EXPERIENCE",
+   "options": "TRADING EXPERIENCE : GOOD/BAD/NONE"
+  },
+  {
+   "fieldname": "column_break_hm2gx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "HTML",
+   "label": "FAX",
+   "options": "<p>FAX : ................................................</p>"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "HTML",
+   "label": "BRANCH",
+   "options": "<p style=\"display: inline-block;\">BRANCH : ..........................A/C NO : .....................</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "section_break_p59i7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "limit_required______p",
+   "fieldtype": "HTML",
+   "label": "LIMIT REQUIRED      P",
+   "options": "<p>LIMIT REQUIRED :     P ....................................................................</p>"
+  },
+  {
+   "fieldname": "written_bank",
+   "fieldtype": "HTML",
+   "label": "WRITTEN BANK",
+   "options": "<p>WRITTEN BANK REPORT HELD FOR P .........................................DATED......................................... (IF APPLICABLE)</p>"
+  },
+  {
+   "fieldname": "order_on_hand__p",
+   "fieldtype": "HTML",
+   "label": "ORDER ON HAND  P",
+   "options": "<p>OPDER ON HAND : P......................................SHIPMENT/DELIVERY PERIOD</p>"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "HTML",
+   "label": "TERMS OF PAYMENT",
+   "options": "<p>TERMS OF PAYMENT....................................DAYS/CAD/LC/BILLS,CURRENTLY OUTSTANDING : P</p>"
+  },
+  {
+   "fieldname": "of_which",
+   "fieldtype": "HTML",
+   "label": "OF WHICH ",
+   "options": "<p> OF WHICH P...................IS 30 DAYS ARE MORE PAST DUE DATE (REFER PROVISO 8B-\"AUTOMATIC SUSPENSIONV OF COVER\")</p>"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "HTML",
+   "label": "REMARKS",
+   "options": "<p>REMARKS : .......................................................</p>"
+  },
+  {
+   "fieldname": "is_security",
+   "fieldtype": "HTML",
+   "label": "IS SECURITY",
+   "options": "<p>IS SECURITY HELD? IF SO PLEASE SPECIFY..............................................................</p>"
+  },
+  {
+   "fieldname": "nb",
+   "fieldtype": "HTML",
+   "label": "NB.",
+   "options": "<p>NB.WHEN APPLYING ON A NEW BUYER,PLEASE ATTACH A COPY OF ANY RELEVENT APPLICATION; A COPY OF THE LATEST BALANCE SHEET AND INCOME STATEMENT(IF APPLICABLE).</p>"
+  },
+  {
+   "fieldname": "if",
+   "fieldtype": "HTML",
+   "label": "IF",
+   "options": "<p>IF APPLYING ON EXISTING BUYER ATTACH A COPY OF TRADING EXPERIENCE WITH THEM.</p>"
+  },
+  {
+   "fieldname": "information",
+   "fieldtype": "HTML",
+   "label": "INFORMATION",
+   "options": "<p>IF INFORMATION OBTAINED IS INSUFFICIANT,BECI MAY CONTACT THE BUYER DIRECT,THEREBY REFERRING TO OUR COMPANY.</p>"
+  },
+  {
+   "fieldname": "weknow",
+   "fieldtype": "HTML",
+   "label": "WEKNOW",
+   "options": "<p>WE KNOW OF ADVERSE INFORMATION OTHER THAN THAT DISCLOSED IN THIS FORM EHICH MIGHT INFLUENCE THE COMPANY IN CONSIDERING THIS APPLICATION.</p>"
+  },
+  {
+   "fieldname": "date_and_singed",
+   "fieldtype": "HTML",
+   "label": "DATE AND SINGED",
+   "options": "<p> DATE..............................................\n     \n  SIGNED................................................</p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 11:58:30.322877",
+ "modified_by": "Administrator",
+ "module": "Reports_CIGIS",
+ "name": "Credit Limit Application  Forms",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

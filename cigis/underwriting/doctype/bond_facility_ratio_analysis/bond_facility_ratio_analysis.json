@@ -1,0 +1,1835 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}-{####}",
+ "creation": "2024-03-19 12:54:07.076111",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "section_break_73iao",
+  "client_name",
+  "bond_facility_no",
+  "current_year_ended",
+  "section_break_xgoym",
+  "analysis_type",
+  "column_break_mpszx",
+  "managment_account",
+  "column_break_addzt",
+  "un_audited_annual_account",
+  "column_break_st15p",
+  "audited_financial",
+  "section_break_zb3y7",
+  "as_on_date",
+  "column_break_aon9z",
+  "period",
+  "section_break_lrm7s",
+  "ratio_analysis",
+  "section_break_2tay6",
+  "column_break_vfywo",
+  "column_break_gb3kg",
+  "current_year",
+  "column_break_vwqa2",
+  "previous_1year",
+  "column_break_mlhs0",
+  "previous_2_year",
+  "section_break_jggyb",
+  "turn_over",
+  "column_break_xxbpu",
+  "currentassetscurrentyear",
+  "column_break_neahi",
+  "currentassetspreviousyear2",
+  "column_break_l0k76",
+  "currentassetspreviousyear1",
+  "section_break_oxq65",
+  "current_assets",
+  "column_break_czbnx",
+  "current_assests",
+  "column_break_fmxbz",
+  "current_assests1",
+  "column_break_thmsk",
+  "current_assests2",
+  "column_break_uulgd",
+  "debtors",
+  "column_break_m6f8b",
+  "debtors1",
+  "column_break_dzalt",
+  "debtors2",
+  "column_break_0riyq",
+  "debtors3",
+  "section_break_drflv",
+  "cruuent_liabilities",
+  "column_break_8pjpr",
+  "cruuent_liabilities1",
+  "column_break_rto5t",
+  "cruuent_liabilities2",
+  "column_break_jvrmd",
+  "cruuent_liabilities3",
+  "section_break_skhjx",
+  "bank_overdraft",
+  "column_break_05r5r",
+  "bank_overdraft1",
+  "column_break_ubmer",
+  "bank_overdraft2",
+  "column_break_sjyph",
+  "bank_overdraft3",
+  "section_break_4kuxp",
+  "creditors",
+  "column_break_xmojd",
+  "creditors1",
+  "column_break_pfi2h",
+  "creditors2",
+  "column_break_n7nbj",
+  "creditors3",
+  "section_break_jwthp",
+  "net_current_assests",
+  "column_break_dqwzw",
+  "net_current_assests1",
+  "column_break_7dm0g",
+  "net_current_assests2",
+  "column_break_3p6fp",
+  "net_current_assests3",
+  "section_break_ekxl0",
+  "share_captial",
+  "column_break_hsdjo",
+  "share_capital1",
+  "column_break_nbtff",
+  "share_capital2",
+  "column_break_uv7gx",
+  "share_capital3",
+  "section_break_mcqfc",
+  "retained_incomelast_yr",
+  "column_break_mvri3",
+  "retained_income1",
+  "column_break_c77u2",
+  "retained_income2",
+  "column_break_exhvp",
+  "retained_income3",
+  "column_break_zgojd",
+  "retained_incomecurrent_yr",
+  "column_break_16szh",
+  "reatined_income4",
+  "column_break_1tufs",
+  "reatined_income5",
+  "column_break_gdwae",
+  "reatined_income6",
+  "section_break_zuji9",
+  "net_profit_before_tax",
+  "column_break_hkpm9",
+  "net_profit1",
+  "column_break_dfir8",
+  "net_profit2",
+  "column_break_yiwvw",
+  "net_profit3",
+  "section_break_wejcs",
+  "fixed_assets_plant_machinery_and_equipmentlast_yr",
+  "column_break_mmzmm",
+  "fixed_assets1",
+  "column_break_elphb",
+  "fixed_assets2",
+  "column_break_ibc7n",
+  "fixed_assets3",
+  "section_break_m4hb1",
+  "fixed_assets_plant_machinery_and_equipmentcurrent_yr",
+  "column_break_sf4ly",
+  "fixed_assets4",
+  "column_break_0fmev",
+  "fixed_assets5",
+  "column_break_wvcqd",
+  "fixed_assets6",
+  "section_break_zngx2",
+  "overheads",
+  "column_break_rywxo",
+  "overheads1",
+  "column_break_jtsys",
+  "overheads2",
+  "column_break_a57uk",
+  "overheads3",
+  "section_break_wcffs",
+  "work_in_progressstock",
+  "column_break_utl5o",
+  "work_in_progress1",
+  "column_break_awp71",
+  "work_in_progress2",
+  "column_break_biy45",
+  "work_in_progress3",
+  "section_break_l0zbw",
+  "total_liabilities",
+  "column_break_nnghp",
+  "total_liabilities1",
+  "column_break_i7sse",
+  "total_liabilities2",
+  "column_break_jejx5",
+  "total_liabilities3",
+  "section_break_7gjfm",
+  "column_break_r9xgi",
+  "column_break_pmcye",
+  "column_break_yvqkl",
+  "ratio_analysis_calculated",
+  "column_break_xoz0z",
+  "column_break_nnkvz",
+  "column_break_j9xst",
+  "standard",
+  "section_break_iullg",
+  "column_break_hia5y",
+  "column_break_pkkre",
+  "current_year1",
+  "column_break_qtx4w",
+  "section_break_ucygx",
+  "_net_profit_before_tax",
+  "column_break_xw073",
+  "net_profit_before1",
+  "column_break_92adr",
+  "net_profit_before2",
+  "column_break_rbc2r",
+  "net_profit_before3",
+  "column_break_bmfl0",
+  "heading",
+  "column_break_hqaoy",
+  "6",
+  "section_break_sawye",
+  "20of_turnover_a",
+  "column_break_i6gh5",
+  "turnover1",
+  "column_break_dbilm",
+  "turnover2",
+  "column_break_jfzf2",
+  "turnover3",
+  "column_break_kf3q1",
+  "column_break_62ru0",
+  "section_break_d28hc",
+  "3_x_retained_earnings_b",
+  "column_break_komoc",
+  "retained_earnings1",
+  "column_break_tclpc",
+  "retained_earnings2",
+  "column_break_bctkc",
+  "retained_earnings3",
+  "column_break_amsst",
+  "column_break_uzcc5",
+  "section_break_gpy7d",
+  "beaver_ratio",
+  "column_break_wbwym",
+  "beaverratio1",
+  "column_break_eo9nw",
+  "beaverratio2",
+  "column_break_kry1d",
+  "beaverratio3",
+  "column_break_jfnhn",
+  "heading1",
+  "column_break_qmrmq",
+  "18",
+  "section_break_ynzkt",
+  "liquidity_ratio",
+  "column_break_vquqn",
+  "liquidity_ratio1",
+  "column_break_3pyrc",
+  "liquidity_ratio2",
+  "column_break_jblak",
+  "liquidity_ratio3",
+  "column_break_f5041",
+  "heading2",
+  "column_break_y7cgn",
+  "10",
+  "section_break_asi3u",
+  "working_capitalturnover",
+  "column_break_jg5xm",
+  "working_capital1",
+  "column_break_57fwr",
+  "working_capital2",
+  "column_break_w68sb",
+  "working_capital3",
+  "column_break_ubfbq",
+  "heading3",
+  "column_break_a741r",
+  "8",
+  "section_break_lhw4l",
+  "retained_earnings_growth",
+  "column_break_igla6",
+  "retained_currency1",
+  "column_break_rt1iy",
+  "retained_currency2",
+  "column_break_qqh2o",
+  "retained_currency3",
+  "column_break_quhkt",
+  "heading4",
+  "column_break_wvtlo",
+  "5",
+  "section_break_6inyn",
+  "depreciation_movement",
+  "column_break_8rubd",
+  "depriciation_mevement1",
+  "column_break_2gf2t",
+  "depriciation_mevement2",
+  "column_break_nubto",
+  "depriciation_mevement3",
+  "column_break_ibsan",
+  "heading5",
+  "column_break_amdzz",
+  "25",
+  "section_break_3vlq0",
+  "wipturnover",
+  "column_break_rpyam",
+  "wip_turnover1",
+  "column_break_beqbv",
+  "wip_turnover2",
+  "column_break_ukuhq",
+  "wip_turnover3",
+  "column_break_7zy6k",
+  "heading6",
+  "column_break_ygy8h",
+  "heading8",
+  "section_break_dwepi",
+  "debtorsturnover",
+  "column_break_66thz",
+  "debtors_turnover1",
+  "column_break_84hpn",
+  "debtors_turnover2",
+  "column_break_ztinv",
+  "debtors_turnover3",
+  "column_break_lrgcx",
+  "heading7",
+  "column_break_ryefd",
+  "heading25",
+  "section_break_p8bjs",
+  "overheadsturnover",
+  "column_break_heh8d",
+  "overheads_turnover1",
+  "column_break_70gjf",
+  "overheads_turnover2",
+  "column_break_xaccq",
+  "overheads_turnover3",
+  "column_break_ser9r",
+  "headin8",
+  "column_break_szeb3",
+  "heading10",
+  "section_break_4jonv",
+  "current_ratioworking_capital_ratio",
+  "column_break_goz0p",
+  "currentratio_working1",
+  "column_break_basmp",
+  "currentratio_working2",
+  "column_break_wvhaq",
+  "currentratio_working3",
+  "column_break_xblmz",
+  "column_break_utppx",
+  "section_break_wdisg",
+  "turnover_growth",
+  "column_break_vrxxj",
+  "turnover_growth1",
+  "column_break_gywbk",
+  "turnover_growth2",
+  "column_break_stqun",
+  "turnover_growth3",
+  "column_break_rxdjw",
+  "column_break_wqu0c",
+  "section_break_sbzek",
+  "caculated_facility",
+  "column_break_xdav5",
+  "calculated_facility1",
+  "column_break_ziwvl",
+  "calculated_facility2",
+  "column_break_5zxom",
+  "calculated_facility3",
+  "column_break_8wytp",
+  "column_break_xhcjw",
+  "section_break_1g1r9",
+  "remark",
+  "section_break_oq7bd",
+  "column_break_6rdyo",
+  "column_break_sicaa",
+  "column_break_f6ylw",
+  "column_break_sqn3x",
+  "calculate",
+  "column_break_0mzt4",
+  "column_break_lnv3z",
+  "column_break_u7beo"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "company"
+  },
+  {
+   "fieldname": "section_break_73iao",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "bond_facility_no.name12",
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Bond Facility"
+  },
+  {
+   "fetch_from": "client_name.facility_no",
+   "fieldname": "bond_facility_no",
+   "fieldtype": "Data",
+   "label": "Bond Facility No "
+  },
+  {
+   "fieldname": "current_year_ended",
+   "fieldtype": "Date",
+   "label": "Current Year Ended "
+  },
+  {
+   "fieldname": "section_break_xgoym",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "analysis_type",
+   "fieldtype": "HTML",
+   "label": "Analysis Type",
+   "options": "<p>Analysis Type</p>\n"
+  },
+  {
+   "fieldname": "column_break_mpszx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "managment_account",
+   "fieldtype": "Check",
+   "label": "Managment Account"
+  },
+  {
+   "fieldname": "column_break_addzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "un_audited_annual_account",
+   "fieldtype": "Check",
+   "label": "Un Audited Annual Account"
+  },
+  {
+   "fieldname": "column_break_st15p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "audited_financial",
+   "fieldtype": "Check",
+   "label": "Audited Financial"
+  },
+  {
+   "fieldname": "section_break_zb3y7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ratio_analysis",
+   "fieldtype": "Heading",
+   "label": "Ratio Analysis"
+  },
+  {
+   "fieldname": "section_break_2tay6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vfywo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gb3kg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_year",
+   "fieldtype": "Heading",
+   "label": "Current Year"
+  },
+  {
+   "fieldname": "column_break_vwqa2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "previous_1year",
+   "fieldtype": "Heading",
+   "label": "Previous (1)Year"
+  },
+  {
+   "fieldname": "column_break_mlhs0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "previous_2_year",
+   "fieldtype": "Heading",
+   "label": "Previous (2) Year"
+  },
+  {
+   "fieldname": "section_break_jggyb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "turn_over",
+   "fieldtype": "HTML",
+   "label": "Turn Over",
+   "options": "<p>Turn Over</p>"
+  },
+  {
+   "fieldname": "column_break_xxbpu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentassetscurrentyear",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_neahi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentassetspreviousyear2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_l0k76",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentassetspreviousyear1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_oxq65",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_assets",
+   "fieldtype": "HTML",
+   "label": "Current Assets",
+   "options": "<p>Current Assets</p>"
+  },
+  {
+   "fieldname": "column_break_czbnx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_assests",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_fmxbz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_assests1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_thmsk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_assests2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_uulgd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "debtors",
+   "fieldtype": "HTML",
+   "label": "Debtors",
+   "options": "<p>Debtors</p>"
+  },
+  {
+   "fieldname": "column_break_m6f8b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtors1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_dzalt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtors2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_0riyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtors3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_drflv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cruuent_liabilities",
+   "fieldtype": "HTML",
+   "label": "Current Liabilities",
+   "options": "<p>Current Liabilities</p>"
+  },
+  {
+   "fieldname": "column_break_8pjpr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cruuent_liabilities1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_rto5t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cruuent_liabilities2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_jvrmd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cruuent_liabilities3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_skhjx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bank_overdraft",
+   "fieldtype": "HTML",
+   "label": "Bank Overdraft",
+   "options": "<p>Bank Overdraft</p>\n"
+  },
+  {
+   "fieldname": "column_break_05r5r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_overdraft1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ubmer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_overdraft2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_sjyph",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_overdraft3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_4kuxp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "creditors",
+   "fieldtype": "HTML",
+   "label": "Creditors",
+   "options": "<p>Creditors</p>\n"
+  },
+  {
+   "fieldname": "column_break_xmojd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creditors1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_pfi2h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creditors2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_n7nbj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creditors3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_jwthp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_current_assests",
+   "fieldtype": "HTML",
+   "label": "Net Current Assests",
+   "options": "<p>Net Current Assests</p>\n"
+  },
+  {
+   "fieldname": "column_break_dqwzw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_current_assests1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_7dm0g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_current_assests2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_3p6fp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_current_assests3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ekxl0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "share_captial",
+   "fieldtype": "HTML",
+   "label": "Share Captial",
+   "options": "<p>Share Captial</p>\n"
+  },
+  {
+   "fieldname": "column_break_hsdjo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "share_capital1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nbtff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "share_capital2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_uv7gx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "share_capital3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_mcqfc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "retained_incomelast_yr",
+   "fieldtype": "HTML",
+   "label": "Retained Income(LAST YR)",
+   "options": "<p>Retained Income(LAST YR)</p>\n"
+  },
+  {
+   "fieldname": "column_break_mvri3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_income1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_c77u2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_income2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_exhvp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_income3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_zgojd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "retained_incomecurrent_yr",
+   "fieldtype": "HTML",
+   "label": "Retained Income(CURRENT YR)",
+   "options": "<p>Retained Income(CURRENT YR)</p>\n"
+  },
+  {
+   "fieldname": "column_break_16szh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reatined_income4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_1tufs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reatined_income5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gdwae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reatined_income6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_zuji9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "net_profit_before_tax",
+   "fieldtype": "HTML",
+   "label": "Net Profit Before Tax",
+   "options": "<p>Net Profit Before Tax</p>\n"
+  },
+  {
+   "fieldname": "column_break_hkpm9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_profit1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_dfir8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_profit2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_yiwvw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_profit3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_wejcs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fixed_assets_plant_machinery_and_equipmentlast_yr",
+   "fieldtype": "HTML",
+   "label": "Fixed Assets (Plant, Machinery and Equipment)(LAST YR)",
+   "options": "<p>Fixed Assets (Plant, Machinery and Equipment)(LAST YR)</p>\n"
+  },
+  {
+   "fieldname": "column_break_mmzmm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_assets1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_elphb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_assets2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ibc7n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_assets3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_m4hb1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fixed_assets_plant_machinery_and_equipmentcurrent_yr",
+   "fieldtype": "HTML",
+   "label": "Fixed Assets (Plant, Machinery and Equipment)(CURRENT YR)",
+   "options": "<p>Fixed Assets (Plant, Machinery and Equipment)(CURRENT YR)</p>\n"
+  },
+  {
+   "fieldname": "column_break_sf4ly",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_assets4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_0fmev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_assets5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_wvcqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fixed_assets6",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_zngx2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overheads",
+   "fieldtype": "HTML",
+   "label": "Overheads",
+   "options": "<p>Overheads</p>\n"
+  },
+  {
+   "fieldname": "column_break_rywxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overheads1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_jtsys",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overheads2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_a57uk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overheads3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_wcffs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "work_in_progressstock",
+   "fieldtype": "HTML",
+   "label": "Work In Progress/Stock",
+   "options": "<p>Work In Progress/Stock</p>\n"
+  },
+  {
+   "fieldname": "column_break_utl5o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_in_progress1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_awp71",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_in_progress2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_biy45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_in_progress3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_l0zbw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_liabilities",
+   "fieldtype": "HTML",
+   "label": "Total Liabilities",
+   "options": "<p>Total Liabilities</p>\n"
+  },
+  {
+   "fieldname": "column_break_nnghp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_liabilities1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_i7sse",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_liabilities2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_jejx5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_liabilities3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_7gjfm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_r9xgi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pmcye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yvqkl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ratio_analysis_calculated",
+   "fieldtype": "Heading",
+   "label": "RATIO ANALYSIS CALCULATED"
+  },
+  {
+   "fieldname": "column_break_xoz0z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nnkvz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_j9xst",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "standard",
+   "fieldtype": "Heading",
+   "label": "STANDARD"
+  },
+  {
+   "fieldname": "section_break_iullg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hia5y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pkkre",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_year1",
+   "fieldtype": "Heading",
+   "label": "Current Year"
+  },
+  {
+   "fieldname": "column_break_qtx4w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ucygx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "_net_profit_before_tax",
+   "fieldtype": "HTML",
+   "label": "% NET PROFIT BEFORE TAX",
+   "options": "<p>% NET PROFIT BEFORE TAX</p>\n"
+  },
+  {
+   "fieldname": "column_break_xw073",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_profit_before1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_92adr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_profit_before2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_rbc2r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "net_profit_before3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_bmfl0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": ">"
+  },
+  {
+   "fieldname": "column_break_hqaoy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "6",
+   "fieldtype": "Heading",
+   "label": "6%"
+  },
+  {
+   "fieldname": "section_break_sawye",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "20of_turnover_a",
+   "fieldtype": "HTML",
+   "label": "20%OF TURNOVER (A)",
+   "options": "<p>20%OF TURNOVER (A)</p>"
+  },
+  {
+   "fieldname": "column_break_i6gh5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "turnover1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_dbilm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "turnover2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_jfzf2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "turnover3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_kf3q1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_62ru0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_d28hc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "3_x_retained_earnings_b",
+   "fieldtype": "HTML",
+   "label": "3 X RETAINED EARNINGS (B)",
+   "options": "<p>3 X RETAINED EARNINGS (B)</p>\n"
+  },
+  {
+   "fieldname": "column_break_komoc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_earnings1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_tclpc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_earnings2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_bctkc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_earnings3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_amsst",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_uzcc5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_gpy7d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beaver_ratio",
+   "fieldtype": "HTML",
+   "label": "BEAVER RATIO",
+   "options": "<p>BEAVER RATIO</p>\n"
+  },
+  {
+   "fieldname": "column_break_wbwym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beaverratio1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_eo9nw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beaverratio2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_kry1d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beaverratio3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_jfnhn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading1",
+   "fieldtype": "Heading",
+   "label": ">"
+  },
+  {
+   "fieldname": "column_break_qmrmq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "18",
+   "fieldtype": "Heading",
+   "label": "18%"
+  },
+  {
+   "fieldname": "section_break_ynzkt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "liquidity_ratio",
+   "fieldtype": "HTML",
+   "label": "LIQUIDITY RATIO",
+   "options": "<p>LIQUIDITY RATIO</p>\n"
+  },
+  {
+   "fieldname": "column_break_vquqn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "liquidity_ratio1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_3pyrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "liquidity_ratio2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_jblak",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "liquidity_ratio3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_f5041",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading2",
+   "fieldtype": "Heading",
+   "label": ">"
+  },
+  {
+   "fieldname": "column_break_y7cgn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "10",
+   "fieldtype": "Heading",
+   "label": "10%"
+  },
+  {
+   "fieldname": "section_break_asi3u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "working_capitalturnover",
+   "fieldtype": "HTML",
+   "label": "WORKING CAPITAL/TURNOVER",
+   "options": "<p>WORKING CAPITAL/TURNOVER</p>\n"
+  },
+  {
+   "fieldname": "column_break_jg5xm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "working_capital1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_57fwr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "working_capital2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_w68sb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "working_capital3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ubfbq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading3",
+   "fieldtype": "Heading",
+   "label": ">"
+  },
+  {
+   "fieldname": "column_break_a741r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "8",
+   "fieldtype": "Heading",
+   "label": "8%"
+  },
+  {
+   "fieldname": "section_break_lhw4l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "retained_earnings_growth",
+   "fieldtype": "HTML",
+   "label": "RETAINED EARNINGS GROWTH",
+   "options": "<p>RETAINED EARNINGS GROWTH</p>\n"
+  },
+  {
+   "fieldname": "column_break_igla6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_currency1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_rt1iy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_currency2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_qqh2o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "retained_currency3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_quhkt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading4",
+   "fieldtype": "Heading",
+   "label": ">"
+  },
+  {
+   "fieldname": "column_break_wvtlo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "5",
+   "fieldtype": "Heading",
+   "label": "5%"
+  },
+  {
+   "fieldname": "section_break_6inyn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "depreciation_movement",
+   "fieldtype": "HTML",
+   "label": "DEPRECIATION MOVEMENT",
+   "options": "<p> DEPRECIATION MOVEMENT</p>\n"
+  },
+  {
+   "fieldname": "column_break_8rubd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "depriciation_mevement1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_2gf2t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "depriciation_mevement2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_nubto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "depriciation_mevement3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ibsan",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading5",
+   "fieldtype": "Heading",
+   "label": ">"
+  },
+  {
+   "fieldname": "column_break_amdzz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "25",
+   "fieldtype": "Heading",
+   "label": "25%"
+  },
+  {
+   "fieldname": "section_break_3vlq0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "wipturnover",
+   "fieldtype": "HTML",
+   "label": "WIP/TURNOVER",
+   "options": "<p>WIP/TURNOVER</p>\n"
+  },
+  {
+   "fieldname": "column_break_rpyam",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wip_turnover1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_beqbv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wip_turnover2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ukuhq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wip_turnover3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_7zy6k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading6",
+   "fieldtype": "Heading",
+   "label": "<"
+  },
+  {
+   "fieldname": "column_break_ygy8h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading8",
+   "fieldtype": "Heading",
+   "label": "8%"
+  },
+  {
+   "fieldname": "section_break_dwepi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "debtorsturnover",
+   "fieldtype": "HTML",
+   "label": "DEBTORS/TURNOVER",
+   "options": "<p>DEBTORS/TURNOVER</p>\n"
+  },
+  {
+   "fieldname": "column_break_66thz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtors_turnover1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_84hpn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtors_turnover2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ztinv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debtors_turnover3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_lrgcx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading7",
+   "fieldtype": "Heading",
+   "label": "<"
+  },
+  {
+   "fieldname": "column_break_ryefd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading25",
+   "fieldtype": "Heading",
+   "label": "25%"
+  },
+  {
+   "fieldname": "section_break_p8bjs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overheadsturnover",
+   "fieldtype": "HTML",
+   "label": "OVERHEADS/TURNOVER",
+   "options": "<p>OVERHEADS/TURNOVER</p>\n"
+  },
+  {
+   "fieldname": "column_break_heh8d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overheads_turnover1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_70gjf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overheads_turnover2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xaccq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overheads_turnover3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ser9r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "headin8",
+   "fieldtype": "Heading",
+   "label": "<"
+  },
+  {
+   "fieldname": "column_break_szeb3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading10",
+   "fieldtype": "Heading",
+   "label": "10%"
+  },
+  {
+   "fieldname": "section_break_4jonv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_ratioworking_capital_ratio",
+   "fieldtype": "HTML",
+   "label": "CURRENT RATIO/WORKING CAPITAL RATIO",
+   "options": "<p>CURRENT RATIO/ WORKING CAPITAL RATIO</p>\n"
+  },
+  {
+   "fieldname": "column_break_goz0p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentratio_working1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_basmp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentratio_working2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_wvhaq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentratio_working3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xblmz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_utppx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_wdisg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "turnover_growth",
+   "fieldtype": "HTML",
+   "label": "TURNOVER GROWTH",
+   "options": "<p>TURNOVER GROWTH</p>\n"
+  },
+  {
+   "fieldname": "column_break_vrxxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "turnover_growth1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_gywbk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "turnover_growth2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_stqun",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "turnover_growth3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_rxdjw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wqu0c",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_sbzek",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "caculated_facility",
+   "fieldtype": "HTML",
+   "label": "CACULATED FACILITY",
+   "options": "<p>CACULATED FACILITY</p>\n"
+  },
+  {
+   "fieldname": "column_break_xdav5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculated_facility1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_ziwvl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculated_facility2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_5zxom",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculated_facility3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_8wytp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xhcjw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_1g1r9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "section_break_oq7bd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6rdyo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sicaa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_f6ylw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sqn3x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculate",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "column_break_0mzt4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lnv3z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_u7beo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "as_on_date",
+   "fieldtype": "Date",
+   "label": "As on date"
+  },
+  {
+   "fieldname": "column_break_aon9z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "period",
+   "fieldtype": "Date",
+   "label": "Period"
+  },
+  {
+   "fieldname": "section_break_lrm7s",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-07 07:33:05.190303",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Bond Facility Ratio Analysis",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

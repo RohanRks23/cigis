@@ -1,0 +1,119 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-31 11:43:30.075515",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_type",
+  "column_break_3vrqh",
+  "industry",
+  "column_break_nrg8i",
+  "status",
+  "column_break_plnva",
+  "section_break_yfgkz",
+  "generate_report",
+  "column_break_igxlp",
+  "display_result",
+  "column_break_xcjsg",
+  "clear",
+  "section_break_hvm9y",
+  "results"
+ ],
+ "fields": [
+  {
+   "fieldname": "business_type",
+   "fieldtype": "Select",
+   "label": "Business Type",
+   "options": "\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nBUTCHERY\nCHEMICALS\nCIVIL ENGINEERING\nCHEMICALS AND STATIONARY\nENGINEERING CONSULTANCY\nELECTRICAL ENGINEERING\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nGOODS RETALING\nGENERAL DEALER\nHARDWARE\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nMANUFACTURER\nMECHANNICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMANUFACTURING\nMINING ENGINEERING\nOTHERS\nROAD CONSTRUCTION\nRESTAURTANT\nROAD MAINTENANCE\nSTATIONARY AND IT PRODUCTS\nSERVICES RETAILING\nSTATIONARY AND COMPUTERS\nSTATIONARY"
+  },
+  {
+   "fieldname": "column_break_3vrqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Select",
+   "label": "Industry",
+   "options": "\nCONSTRUCTION\nRETAIL"
+  },
+  {
+   "fieldname": "column_break_nrg8i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nACTIVE\nINACTIVE"
+  },
+  {
+   "fieldname": "column_break_plnva",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_yfgkz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "generate_report",
+   "fieldtype": "Button",
+   "label": "Generate Report"
+  },
+  {
+   "fieldname": "column_break_igxlp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "display_result",
+   "fieldtype": "Button",
+   "label": "Display Result"
+  },
+  {
+   "fieldname": "column_break_xcjsg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clear",
+   "fieldtype": "Button",
+   "label": "Clear"
+  },
+  {
+   "fieldname": "section_break_hvm9y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "results",
+   "fieldtype": "Table",
+   "label": "Results",
+   "options": "Companies_Data_Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 11:13:40.596572",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Companies",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

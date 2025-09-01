@@ -1,0 +1,163 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:invoice_to",
+ "creation": "2024-03-27 13:12:15.174225",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "address",
+  "city",
+  "invoice_to",
+  "name1",
+  "vat_registration_no",
+  "taxno",
+  "reference",
+  "date",
+  "telephone",
+  "fax",
+  "section_break_g0ilw",
+  "data1",
+  "section_break_f1icj",
+  "data2",
+  "section_break_wnvlt",
+  "data3",
+  "section_break_aotbs",
+  "data4",
+  "section_break_nisvn",
+  "section_break_mlk5o",
+  "terms"
+ ],
+ "fields": [
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "ADDRESS",
+   "options": "    <style>\n        .right-align {\n            text-align: right;\n        }\n    </style>\n\n\n    <div class=\"right-align\">\n        <p><b>ADDRESS: P O BOX 80180</b></p>\n    </div>\n"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "HTML",
+   "label": "CITY",
+   "options": "    <style>\n        .right-align {\n            text-align: right;\n        }\n    </style>\n\n\n    <div class=\"right-align\">\n        <p><b>CITY: GABORONE</b></p>\n    </div>\n"
+  },
+  {
+   "fieldname": "invoice_to",
+   "fieldtype": "Data",
+   "label": "Invoice To",
+   "unique": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "vat_registration_no",
+   "fieldtype": "Data",
+   "label": "VAT Registration No"
+  },
+  {
+   "fieldname": "taxno",
+   "fieldtype": "Data",
+   "label": "Tax No"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX"
+  },
+  {
+   "fieldname": "section_break_g0ilw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data",
+   "label": "Premium"
+  },
+  {
+   "fieldname": "section_break_f1icj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data2",
+   "fieldtype": "Data",
+   "label": "Sub Total"
+  },
+  {
+   "fieldname": "section_break_wnvlt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data3",
+   "fieldtype": "Data",
+   "label": "VAT @14.00 %"
+  },
+  {
+   "fieldname": "section_break_aotbs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_nisvn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_mlk5o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "HTML",
+   "options": "\n\n\n    <style>\n        .center {\n            text-align: center;\n        }\n    </style>\n\n\n    <div class=\"center\">\n        <p><b>Terms:</b> This Invoice Is Payable On Presentation</p>\n    </div>\n\n\n\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 11:58:31.235079",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Proforma Invoice",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

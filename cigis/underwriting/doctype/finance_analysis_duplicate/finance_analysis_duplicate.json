@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-23 11:10:31.317059",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asserts",
+  "select_year",
+  "cash",
+  "account_receivable_and_less_bad_debts",
+  "column_break_zri7x",
+  "last_year",
+  "dat",
+  "column_break_kghmh",
+  "last_year_1",
+  "data4",
+  "column_break_avyn1",
+  "last_year2",
+  "data23",
+  "column_break_supsu",
+  "last_year3",
+  "data2",
+  "column_break_podzj",
+  "column_break_dll0b",
+  "last",
+  "data1",
+  "column_break_7bhei",
+  "year",
+  "data",
+  "column_break_wsr7s",
+  "year2",
+  "section_break_ejlda"
+ ],
+ "fields": [
+  {
+   "fieldname": "asserts",
+   "fieldtype": "Heading",
+   "label": "Asserts"
+  },
+  {
+   "fieldname": "column_break_zri7x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_year",
+   "fieldtype": "Heading",
+   "label": "Last year"
+  },
+  {
+   "fieldname": "column_break_kghmh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_year_1",
+   "fieldtype": "Heading",
+   "label": "Last Year (1)"
+  },
+  {
+   "fieldname": "column_break_avyn1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_year2",
+   "fieldtype": "Heading",
+   "label": "Last Year(2)"
+  },
+  {
+   "fieldname": "column_break_supsu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_year3",
+   "fieldtype": "Heading",
+   "label": "Last Year(3)"
+  },
+  {
+   "fieldname": "column_break_podzj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dll0b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last",
+   "fieldtype": "Heading",
+   "label": "Last Year"
+  },
+  {
+   "fieldname": "column_break_7bhei",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Heading",
+   "label": "Last Year (1)"
+  },
+  {
+   "fieldname": "column_break_wsr7s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year2",
+   "fieldtype": "Heading",
+   "label": "Last Year(2)"
+  },
+  {
+   "fieldname": "select_year",
+   "fieldtype": "Heading",
+   "label": "Select Year"
+  },
+  {
+   "fieldname": "cash",
+   "fieldtype": "Heading",
+   "label": "Cash"
+  },
+  {
+   "fieldname": "section_break_ejlda",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account_receivable_and_less_bad_debts",
+   "fieldtype": "Heading",
+   "label": "Account receivable and less bad debts"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data23",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "dat",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-12 08:15:21.968868",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Finance Analysis Duplicate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-30 08:10:11.635228",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_facility_application_tab",
+  "company",
+  "section_break_lod8s",
+  "client_name",
+  "reg_no",
+  "status1",
+  "column_break_ly6we",
+  "estd_date",
+  "nature_of_business",
+  "created_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_facility_application_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Facility Application"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "HTML",
+   "label": "Company",
+   "options": " <h4 style=\"color: black;\">Company</h4>"
+  },
+  {
+   "fieldname": "section_break_lod8s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Company-Details"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "label": "Registration Number"
+  },
+  {
+   "fieldname": "status1",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInActive"
+  },
+  {
+   "fieldname": "column_break_ly6we",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estd_date",
+   "fieldtype": "Date",
+   "label": "Established Date"
+  },
+  {
+   "fieldname": "nature_of_business",
+   "fieldtype": "Select",
+   "label": "Nature Of Business",
+   "options": "\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nCHEMICALS\nCHEMICALS AND STATIONARY\nCIVIL ENGINEERING\nELECTRICAL ENGINEERING\nENGINEERING CONSULTANCY\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nGENERAL DEALER\nGOODS RETAILING\nGOODS RETALING\nHARDWARE\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nMANUFACTURER\nMANUFACTURING\nMECHANICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMINING ENGINEERING\nOTHERS\nRESTAURANT\nROAD CONSTRUCTION\nROAD MAINTENANCE\nSERVICES RETAILING\nSTATIONARY\nSTATIONARY AND COMPUTERS\nSTATIONARY AND IT PRODUCTS\nWHOLESALERS"
+  },
+  {
+   "fieldname": "created_date",
+   "fieldtype": "Data",
+   "label": "created Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-30 08:10:11.635228",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Bond Facilities",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

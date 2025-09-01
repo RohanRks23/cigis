@@ -1,0 +1,61 @@
+{
+ "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-23 08:16:53.877179",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "director_1",
+  "director_2",
+  "director_3",
+  "director_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company"
+  },
+  {
+   "fieldname": "director_1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Director 1"
+  },
+  {
+   "fieldname": "director_2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Director 2"
+  },
+  {
+   "fieldname": "director_3",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Director 3"
+  },
+  {
+   "fieldname": "director_4",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Director 4"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-09 13:10:40.607535",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Director and Shareholder Exposure childtable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

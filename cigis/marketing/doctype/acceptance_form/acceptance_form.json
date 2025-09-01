@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{tos}",
+ "creation": "2024-03-20 06:01:09.737685",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "acceptance_advice",
+  "section_break_evkvq",
+  "tos",
+  "schedule_no",
+  "column_break_6p7wr",
+  "proposal_no",
+  "section_break_y2wyv",
+  "matter"
+ ],
+ "fields": [
+  {
+   "fieldname": "acceptance_advice",
+   "fieldtype": "HTML",
+   "label": "ACCEPTANCE ADVICE",
+   "options": "<style>\nh3 {text-align: center;}\n</style>\n<h3><u> ACCEPTANCE ADVICE </u></h3>\n<p>Dear Sir/Madam,<br></p>\n"
+  },
+  {
+   "fieldname": "section_break_evkvq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tos",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "schedule_no",
+   "fieldtype": "Data",
+   "label": "QUOTATION POLICY NO",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_6p7wr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "PROPOSAL NUMBER"
+  },
+  {
+   "fieldname": "section_break_y2wyv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "matter",
+   "fieldtype": "HTML",
+   "label": "Matter",
+   "options": "<br>\n<p>We have examined the specimen policy and  quotation dated;&nbsp;&nbsp;&nbsp; and confirmed that we understand and  confirm that we understand and are in agreement with the terms and conditions of the proposal cover<br><br>\nWe, therefore, accept your quotation and to a enable you to issue the policy, we attach our cheque for P in  payment for the minimum premium and confirm that:<br></p><p></p><br>\n<p>(a) we are not aware of any adverse information of circumstances relating to any particular Buyer are  or insurable Transaction which might influence your willingness to assume the risk in respect of such Buyer or Transaction: and <br><br></p>\n<p>(b) The terms and conditions of the policy as well any details concerning any Buyer shell be regarded as confidential and shell not be disclosed to any party without your express approval.<br></p><br>\n<p>Your's faithfully,<br><br></p>\n<p>-----------------------------------------------------------</p>\n<p>Being duly authorised to sign for and on behalf of:<br>\n</p><p><strong>Date:------------------------------------</strong></p><hr>\n "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 06:38:13.051541",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Acceptance Form",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

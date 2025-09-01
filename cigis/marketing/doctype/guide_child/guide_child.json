@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-01 11:53:18.808078",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "period_overdue_days",
+  "column_break_it4a5",
+  "action_to_be_taken"
+ ],
+ "fields": [
+  {
+   "fieldname": "period_overdue_days",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Period Overdue (Days)"
+  },
+  {
+   "fieldname": "column_break_it4a5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_to_be_taken",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Action to be taken"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 11:22:30.331377",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Guide_Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,252 @@
+{
+ "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{invoice_no}",
+ "creation": "2024-04-14 14:41:24.327201",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "advance_premium",
+  "section_break_61ptn",
+  "invoice_no",
+  "policy_holder",
+  "policy_no",
+  "estimated_turnover_for_year",
+  "vat",
+  "payment_month",
+  "payment_year",
+  "no_of_months_for_the_purpose",
+  "invoice_amount_without_vat",
+  "comments",
+  "column_break_gxi1o",
+  "date",
+  "premium_rate",
+  "premium_amount",
+  "total_amount",
+  "payment_type",
+  "monthly_premium_value",
+  "quarterly_premium_value",
+  "half_yearly_premium_value",
+  "yearly_premium_value",
+  "invoice_amount",
+  "section_break_bitky",
+  "invoice_items",
+  "section_break_h43ku",
+  "advance_premium_invoice_table",
+  "section_break_imnk7",
+  "column_break_a7hrk",
+  "column_break_emnwj",
+  "export_cl_fees_to_excel",
+  "column_break_zmxxj",
+  "export_cl_enquiry_fees_to_excel",
+  "column_break_swysh",
+  "column_break_ca8pr"
+ ],
+ "fields": [
+  {
+   "fieldname": "advance_premium",
+   "fieldtype": "Heading",
+   "label": "Advance Premium"
+  },
+  {
+   "fieldname": "section_break_61ptn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "estimated_turnover_for_year",
+   "fieldtype": "Data",
+   "label": "Estimated Turnover For Year"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Vat"
+  },
+  {
+   "fieldname": "payment_month",
+   "fieldtype": "Data",
+   "label": "Payment Month"
+  },
+  {
+   "fieldname": "payment_year",
+   "fieldtype": "Data",
+   "label": "Payment Year"
+  },
+  {
+   "fieldname": "no_of_months_for_the_purpose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No. of Months For The Purpose"
+  },
+  {
+   "fieldname": "invoice_amount_without_vat",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Invoice Amount Without VAT"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_gxi1o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "premium_amount",
+   "fieldtype": "Data",
+   "label": "Premium Amount"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Data",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Select",
+   "label": "Payment Type",
+   "options": "\nMonthly\nQuarterly\nHalf Yearly\nYearly"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Monthly\"",
+   "fieldname": "monthly_premium_value",
+   "fieldtype": "Data",
+   "label": "Monthly Premium Value"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Quarterly\"",
+   "fieldname": "quarterly_premium_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quarterly Premium Value is"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Half Yearly\"",
+   "fieldname": "half_yearly_premium_value",
+   "fieldtype": "Data",
+   "label": "Half Yearly Premium Value"
+  },
+  {
+   "depends_on": "eval:doc.payment_type== \"Yearly\"",
+   "fieldname": "yearly_premium_value",
+   "fieldtype": "Data",
+   "label": "Yearly Premium Value"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "section_break_bitky",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_items",
+   "fieldtype": "Heading",
+   "label": "Invoice Items"
+  },
+  {
+   "fieldname": "section_break_h43ku",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "advance_premium_invoice_table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Advance premium Invoice Child"
+  },
+  {
+   "fieldname": "section_break_imnk7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_a7hrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_emnwj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "export_cl_fees_to_excel",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Export CL Fees to Excel"
+  },
+  {
+   "fieldname": "column_break_zmxxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "export_cl_enquiry_fees_to_excel",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Export CL Enquiry Fees to Excel"
+  },
+  {
+   "fieldname": "column_break_swysh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ca8pr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-31 09:14:30.119638",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Advance Premium Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

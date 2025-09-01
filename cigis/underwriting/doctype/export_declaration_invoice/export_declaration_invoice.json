@@ -1,0 +1,317 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{invoice_no}",
+ "creation": "2024-03-15 05:54:32.085023",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "invoice_tab",
+  "general",
+  "section_break_fvph7",
+  "policy_holder",
+  "invoice_date",
+  "column_break_kmsa4",
+  "vat",
+  "column_break_ygqsb",
+  "invoice_no",
+  "invoice_amount",
+  "section_break_j020m",
+  "buyer",
+  "export_buyer",
+  "invoice_item",
+  "section_break_tz2on",
+  "export_invoice",
+  "section_break_3fob2",
+  "line_item",
+  "section_break_hppuy",
+  "month",
+  "premium_charges",
+  "section_break_yhwab",
+  "year",
+  "section_break_lri0c",
+  "credit_limit_fee",
+  "column_break_vbutj",
+  "credit_limits",
+  "column_break_afoio",
+  "x",
+  "section_break_pbsup",
+  "credit_limit_enquiry_fee",
+  "column_break_js63s",
+  "credit_limits1",
+  "column_break_fghi7",
+  "y",
+  "total",
+  "section_break_u2j51",
+  "column_break_5nkm3",
+  "column_break_8bo6q",
+  "add",
+  "column_break_t4kfj",
+  "submit_to_finance",
+  "section_break_wpwsw",
+  "country"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice_tab",
+   "fieldtype": "Tab Break",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "general",
+   "fieldtype": "HTML",
+   "label": "General",
+   "options": "<h5>General</h5>"
+  },
+  {
+   "fieldname": "section_break_fvph7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy Holder Name"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "column_break_kmsa4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Select",
+   "label": "Vat",
+   "options": "\n0\n10\n12\n14"
+  },
+  {
+   "fieldname": "column_break_ygqsb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice Number"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Currency",
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "section_break_j020m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "HTML",
+   "label": "Buyer",
+   "options": "<h5>Buyer</h5>"
+  },
+  {
+   "fieldname": "export_buyer",
+   "fieldtype": "Table",
+   "options": "Export Declaration Buyer Child"
+  },
+  {
+   "fieldname": "invoice_item",
+   "fieldtype": "HTML",
+   "label": "Invoice Item",
+   "options": "<h5>Invoice Item</h5>"
+  },
+  {
+   "fieldname": "section_break_tz2on",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "export_invoice",
+   "fieldtype": "Table",
+   "options": "Export Invoice Item Child"
+  },
+  {
+   "fieldname": "section_break_3fob2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "line_item",
+   "fieldtype": "HTML",
+   "label": "Line Item",
+   "options": "<h5>Line Item</h5>"
+  },
+  {
+   "fieldname": "section_break_hppuy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Month",
+   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOMBER\nNOVEMBER\nDECEMBER"
+  },
+  {
+   "fieldname": "premium_charges",
+   "fieldtype": "Data",
+   "label": "Premium Charges"
+  },
+  {
+   "fieldname": "section_break_yhwab",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "\n2018\n2019\n2020\n2021\n2022\n2023\n2024"
+  },
+  {
+   "fieldname": "section_break_lri0c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_fee",
+   "fieldtype": "Data",
+   "label": "Credit Limit Fee"
+  },
+  {
+   "fieldname": "column_break_vbutj",
+   "fieldtype": "Column Break",
+   "options": " "
+  },
+  {
+   "fieldname": "credit_limits",
+   "fieldtype": "Data",
+   "label": "Credit Limits"
+  },
+  {
+   "fieldname": "column_break_afoio",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "x",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_pbsup",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_enquiry_fee",
+   "fieldtype": "Data",
+   "label": "Credit Limit Enquiry Fee"
+  },
+  {
+   "fieldname": "column_break_js63s",
+   "fieldtype": "Column Break",
+   "options": " "
+  },
+  {
+   "fieldname": "credit_limits1",
+   "fieldtype": "Data",
+   "label": "Credit Limits"
+  },
+  {
+   "fieldname": "column_break_fghi7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "y",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "total"
+  },
+  {
+   "fieldname": "section_break_u2j51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_5nkm3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8bo6q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "ADD"
+  },
+  {
+   "fieldname": "column_break_t4kfj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "submit_to_finance",
+   "fieldtype": "Button",
+   "label": "Submit To Finance"
+  },
+  {
+   "fieldname": "section_break_wpwsw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Country"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-14 08:12:52.816257",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Export Declaration Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Finance Assistance",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Finance Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

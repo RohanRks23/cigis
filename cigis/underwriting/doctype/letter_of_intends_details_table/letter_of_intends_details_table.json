@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 13:29:27.746650",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_no",
+  "date",
+  "description",
+  "value",
+  "expiry"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Value"
+  },
+  {
+   "fieldname": "expiry",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Expiry"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-01 18:30:06.442909",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Letter Of Intends Details table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-01 13:01:41.591477",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "period_from",
+  "period_to",
+  "column_break_wuk2r",
+  "client",
+  "status",
+  "section_break_akz9s",
+  "column_break_snnw9",
+  "column_break_isocj",
+  "column_break_jujeg",
+  "generate_report",
+  "column_break_dljtk",
+  "display_result",
+  "column_break_kapmd",
+  "column_break_scnpn"
+ ],
+ "fields": [
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From"
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "Period To"
+  },
+  {
+   "fieldname": "column_break_wuk2r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  },
+  {
+   "fieldname": "section_break_akz9s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_snnw9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_isocj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jujeg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "generate_report",
+   "fieldtype": "Button",
+   "label": "Generate Report"
+  },
+  {
+   "fieldname": "column_break_dljtk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "display_result",
+   "fieldtype": "Button",
+   "label": "Display Result"
+  },
+  {
+   "fieldname": "column_break_kapmd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_scnpn",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:43.486788",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "List Of Quotations",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

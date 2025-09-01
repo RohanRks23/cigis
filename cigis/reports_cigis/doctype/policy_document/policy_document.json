@@ -1,0 +1,1297 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-14 12:00:17.805430",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_uchbj",
+  "image",
+  "company_address",
+  "line",
+  "heading",
+  "column_break_qm2xc",
+  "column_break_kf1i2",
+  "column_break_umlmz",
+  "column_break_il9bv",
+  "policy_no",
+  "column_break_e3eiv",
+  "column_break_29g8w",
+  "section_break_rimlc",
+  "issued_by",
+  "section_break_qjwun",
+  "section_break_4esw7",
+  "export",
+  "section_break_o9ktj",
+  "to",
+  "of",
+  "the_insured",
+  "therefore",
+  "section_break_umri5",
+  "column_break_kj0sq",
+  "as_define",
+  "signed",
+  "directors",
+  "section_break_rxlv4",
+  "section_break_zzzy6",
+  "linethree",
+  "section_break_yz3ts",
+  "tab_break_rjqm0",
+  "summary",
+  "definitions",
+  "amount_of_loss",
+  "associated_or_subsidiary_company",
+  "buyer",
+  "cause_of_loss",
+  "credit_limt",
+  "franchise_loss",
+  "goodservices",
+  "government_buyers",
+  "inception_date",
+  "individual_first_loss",
+  "insurable_transaction",
+  "insured_buyer",
+  "insured_debt",
+  "insured_percentage",
+  "maximum_liability",
+  "policy",
+  "salvage",
+  "section_break_frszo",
+  "section_break_afz3e",
+  "provis0s_tab",
+  "provis0s",
+  "all_buyers_principle",
+  "allocation_of_payments",
+  "alterations_in_conditions_0f_cover",
+  "assignment_of_rights",
+  "automatic_suspension_cover_of",
+  "collection_of_overdue_payments",
+  "collection_of_salvage",
+  "conditions_precedent",
+  "costs_incurred_to_prevent_or_migrate_a_loss",
+  "credit_limit",
+  "currency",
+  "declaration_of_insured_debt",
+  "exercising_of_care",
+  "fraudulent_or_false_claims",
+  "legal_proceeding",
+  "loading_of_claims",
+  "order_of_preference_of_proceeds_of_security",
+  "other_insurance",
+  "payment_of_indemnity",
+  "postponement_of_payment",
+  "premiumscredit_limit_fees",
+  "protracted_default_in_cases_of_dispute",
+  "termination_of_policy",
+  "value_added_tax_exclusive",
+  "whole_turnover_principle",
+  "section_break_xodqu",
+  "definitions_tab",
+  "schdule_sections",
+  "inceptiondatetwo",
+  "goodsservices",
+  "insuredpercentagetwo",
+  "limit_of_discretion",
+  "franchiselosstwo",
+  "minimum_premium",
+  "premium_rate",
+  "credit_limit_fee",
+  "maximumliabilitytwo",
+  "individualfirstlosstwo",
+  "section_break_oabpr",
+  "section_break_71kx7",
+  "linefour",
+  "section_break_283j6",
+  "definitionstwo1",
+  "definitionstwo",
+  "insurabletransactiontwo",
+  "insurable_transaction_means",
+  "insurabletransactionthree",
+  "business_inbotswana",
+  "insurable_buyer",
+  "insured_means",
+  "criditlimit",
+  "credit_limit_means",
+  "insuredebtthree",
+  "insureddebttwo",
+  "tab_break_fhw4t",
+  "causeoflosstwo",
+  "a__insolvency",
+  "insolvency_two",
+  "protracted_default",
+  "the_insured_buyer",
+  "section_break_tn0nn",
+  "exclusions",
+  "provided",
+  "any_peril",
+  "amount_of_loss_two",
+  "amount_of_loss_means_two",
+  "any_expenses",
+  "net_proceeds",
+  "insured_percentage_two",
+  "insured_percentage_means",
+  "franchise_loss_two",
+  "franchise_loss_means",
+  "tab_break_prstv",
+  "individual_first_loss_two",
+  "individual_first_loss_is",
+  "salvage_two",
+  "salvage_means_two",
+  "maximum_liability_two",
+  "maximum_liability_means",
+  "associated_or_susidary_company",
+  "associated_or_susidary_company_means",
+  "nception_date",
+  "nception_date_means",
+  "goodsservices_two",
+  "government_buyer_two",
+  "government_buyer_means",
+  "policytwo",
+  "policy_definition",
+  "tab_break_o8wi7",
+  "credit_limits",
+  "html1",
+  "credit_limit_application_should",
+  "html2",
+  "html3",
+  "credit_limit_annexure",
+  "the_insured_shall_be",
+  "effects_of_credit_limit_exceeded",
+  "should_the",
+  "allocation_of_payment",
+  "any_payment",
+  "tab_break_d0upr",
+  "declaration_of_insured_debt_two",
+  "the_insured_shall_declare",
+  "collection_of_overdue_payments__two",
+  "collection_of_overdue_payments_def",
+  "13_premiumscredit_limit_fees",
+  "the_minimum_premium_shown",
+  "14_postponement_of_payment",
+  "1postponement_of_payment_def",
+  "protracted_defaul_twot_in_cases_of_dispute",
+  "protracted_defaul__in_cases_of_dispute_def",
+  "legal_proceedings",
+  "legal_proceedings_def",
+  "costs_incurred_to_prevent_or_mitigate_a_loss",
+  "costs_incurred_to_prevent_or_mitigate_a_loss_def",
+  "lodging_of_claims",
+  "lodging_of_claims_def",
+  "payment_of_indemnity_two",
+  "payment_of_indemnity_def",
+  "collection_of_salvage_two",
+  "collection_of_salvage_def",
+  "order_of_preference_of_proceeds_of_security_two",
+  "order_of_preference_of_proceeds_of_security_def",
+  "fraudulent_or_false_claims_two",
+  "22_fraudulent_or_false_claims_def",
+  "termination_of_policy_two",
+  "termination_of_policy_def",
+  "other_insurance_two",
+  "other_insurance_def",
+  "currency_two",
+  "currency_def_three",
+  "vat",
+  "vat_def"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "company_address",
+   "fieldtype": "HTML",
+   "label": "Company Address",
+   "options": "\n<p style=\"text-align: right;\"><b>Export Credit Insurance and Guarantee<br>Company(Botswana) Pty. Ltd.<br>Private Bag BO 279, Bontleng, Gaborone, Botswana<br>Unit 1, Plot 142 Gaborone International Finance Park<br>Telephone: +267 318 8015, Facsimile: +267 318 8017<br>Email: beci@beci.co.bw<br>Website: http://www.beci.co.bw</b></p>"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "line",
+   "options": "________________________________________________________________________________________________________________________________________________________________________________________________________________________"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "heading",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  h3 {\n    text-align: center;\n  }\n</style>\n\n\n\n<h3>STANDARD DOMESTIC COVER</h3>\n\n\n\n"
+  },
+  {
+   "fieldname": "column_break_qm2xc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kf1i2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_umlmz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_il9bv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "POLICY NUMBER",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  h5 {\n    text-align: center;\n  }\n</style>\n\n\n\n<h5><b>POLICY NO : </b></h5>\n\n\n\n"
+  },
+  {
+   "fieldname": "column_break_e3eiv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_29g8w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_rimlc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "issued_by",
+   "fieldtype": "HTML",
+   "label": "Issued by",
+   "options": "\n\n\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Center Issued by</title>\n    <style>\n        /* Center the element horizontally */\n        body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n        }\n    </style>\n\n\n    <div>\n        <p style=\"text-align: center;\"><b>Issued by</b></p>\n    </div>\n\n\n"
+  },
+  {
+   "fieldname": "section_break_qjwun",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_4esw7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "export",
+   "fieldtype": "HTML",
+   "label": "export",
+   "options": "<style>\n    .centered-text {\n        position: absolute;\n        top: 60%; /* Adjusted top position */\n        left: 60%; /* Adjusted left position */\n        transform: translate(-50%, -50%);\n        font-weight: bold;\n    }\n</style>\n\n<div class=\"centered-text\">\n    <p>Export Credit Insurance &amp; Guarantee Company Botswana(Pty) Ltd</p>\n    <p>(\"BECI\")</p>\n</div>\n"
+  },
+  {
+   "fieldname": "section_break_o9ktj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "TO",
+   "options": "<p><b>TO  :</b></p>"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "HTML",
+   "label": "OF",
+   "options": "<p><b>OF :</b> P O BOX 80180, GABORONE</p>"
+  },
+  {
+   "fieldname": "the_insured",
+   "fieldtype": "HTML",
+   "label": "the insured",
+   "options": "<p>The Insured has accepted an offer of indemnity made by BECI pursuant to a proposal for Domestic Credit Insurance completed by the insured.</p>"
+  },
+  {
+   "fieldname": "therefore",
+   "fieldtype": "HTML",
+   "label": "therefore",
+   "options": "<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  .bold-uppercase {\n    font-weight: bold;\n  }\n\n  .bold {\n    font-weight: bold;\n  }\n</style>\n\n<p><span class=\"bold\">NOW THEREFORE</span> subject to the terms and conditions of the policy <span class=\"bold-uppercase\">BECI</span> agrees that in the event of a <span class=\"bold\">CAUSE OF LOSE<span class=\"bold\">*</span>(<span class=\"bold\">6</span>)</span> resulting in the insured not receiving payment of an <span class=\"bold-uppercase\">INSURED DEBT<span class=\"bold\">*</span></span> <span class=\"bold\">(5)</span> arising from any <span class=\"bold-uppercase\">INSURABLE TRANSACTION*(1)</span> <span class=\"bold-uppercase\"></span>BECI will indemnify the insured to the extent of the <span class=\"bold-uppercase\">INSURED PERCENTAGE</span> <span class=\"bold\">*(8)</span> of the<span class=\"bold\">AMOUNT OF LOSS*(7)</span>subject to the <span class=\"bold-uppercase\">MAXIMUM LIABILITY</span> <span class=\"bold\">*</span><span class=\"bold\">(12).</span></p>\n\n\n"
+  },
+  {
+   "fieldname": "section_break_umri5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kj0sq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "as_define",
+   "fieldtype": "HTML",
+   "label": "As define",
+   "options": "\n\n\n\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  .left-align {\n    text-align: left;\n  }\n</style>\n\n\n\n<p class=\"left-align\">*As defined</p>\n\n\n\n\n\n\n\n"
+  },
+  {
+   "fieldname": "signed",
+   "fieldtype": "HTML",
+   "label": "Signed",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  .left-align {\n    text-align: left;\n  }\n</style>\n\n\n\n<p class=\"left-align\">\n  <br>SIGNED for on behalf of BECI<br><br>______________________________<br><br>______________________________<br><br><br>\n</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "HTML",
+   "label": "Directors",
+   "options": "<p>Directors: W.Bapidi-Maje(chairperson).M.M.Tau,L.lewanika,k.laletsang,K.H Munamati.</p><p></p>"
+  },
+  {
+   "fieldname": "section_break_rxlv4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_zzzy6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "linethree",
+   "fieldtype": "HTML",
+   "label": "LINETHREE",
+   "options": "________________________________________________________________________________________________________________________________________________________________________________________________________________________"
+  },
+  {
+   "fieldname": "section_break_yz3ts",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "summary",
+   "fieldtype": "HTML",
+   "label": "SUMMARY",
+   "options": "<h3><u>SUMMARY OF POLICY TERMS AND CONDITIONS<u><h3></h3></u></u></h3>"
+  },
+  {
+   "fieldname": "definitions",
+   "fieldtype": "HTML",
+   "label": "DEFINITIONS",
+   "options": "<h3>DEFINITIONS<u><h3></h3></u></h3>"
+  },
+  {
+   "fieldname": "amount_of_loss",
+   "fieldtype": "HTML",
+   "label": "Amount Of Loss",
+   "options": "Amount Of Loss :"
+  },
+  {
+   "fieldname": "associated_or_subsidiary_company",
+   "fieldtype": "HTML",
+   "label": "Associated Or Subsidiary Company",
+   "options": "Associated Or Subsidiary Company :"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "HTML",
+   "label": "Buyer",
+   "options": "Buyer :"
+  },
+  {
+   "fieldname": "cause_of_loss",
+   "fieldtype": "HTML",
+   "label": "Cause Of Loss",
+   "options": "Cause Of Loss :"
+  },
+  {
+   "fieldname": "credit_limt",
+   "fieldtype": "HTML",
+   "label": "Credit Limit",
+   "options": "Credit Limit :"
+  },
+  {
+   "fieldname": "franchise_loss",
+   "fieldtype": "HTML",
+   "label": "Franchise Loss",
+   "options": "Franchise Loss :"
+  },
+  {
+   "fieldname": "goodservices",
+   "fieldtype": "HTML",
+   "label": "Good/Services",
+   "options": "Good/Services :"
+  },
+  {
+   "fieldname": "government_buyers",
+   "fieldtype": "HTML",
+   "label": "Government Buyers",
+   "options": "Government Buyers :"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "HTML",
+   "label": "Inception Date ",
+   "options": "Inception Date  :"
+  },
+  {
+   "fieldname": "individual_first_loss",
+   "fieldtype": "HTML",
+   "label": "Individual First Loss",
+   "options": "Individual First Loss :"
+  },
+  {
+   "fieldname": "insurable_transaction",
+   "fieldtype": "HTML",
+   "label": "Insurable Transaction",
+   "options": "Insurable Transaction :"
+  },
+  {
+   "fieldname": "insured_buyer",
+   "fieldtype": "HTML",
+   "label": "Insured Buyer",
+   "options": "Insured Buyer :"
+  },
+  {
+   "fieldname": "insured_debt",
+   "fieldtype": "HTML",
+   "label": "Insured Debt",
+   "options": "Insured Debt :"
+  },
+  {
+   "fieldname": "insured_percentage",
+   "fieldtype": "HTML",
+   "label": "Insured Percentage",
+   "options": "Insured Percentage :"
+  },
+  {
+   "fieldname": "maximum_liability",
+   "fieldtype": "HTML",
+   "label": "Maximum Liability",
+   "options": "Maximum Liability :"
+  },
+  {
+   "fieldname": "policy",
+   "fieldtype": "HTML",
+   "label": "Policy",
+   "options": "Policy :"
+  },
+  {
+   "fieldname": "salvage",
+   "fieldtype": "HTML",
+   "label": "Salvage",
+   "options": "Salvage :"
+  },
+  {
+   "fieldname": "section_break_frszo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_afz3e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "provis0s",
+   "fieldtype": "HTML",
+   "label": "PROVIS0S",
+   "options": "<h3>PROVIS0S<u><h3></h3></u></h3>"
+  },
+  {
+   "fieldname": "all_buyers_principle",
+   "fieldtype": "HTML",
+   "label": "All Buyers Principle",
+   "options": "All Buyers Principle:"
+  },
+  {
+   "fieldname": "allocation_of_payments",
+   "fieldtype": "HTML",
+   "label": "Allocation of Payments",
+   "options": "Allocation of Payments :"
+  },
+  {
+   "fieldname": "alterations_in_conditions_0f_cover",
+   "fieldtype": "HTML",
+   "label": "Alterations In Conditions 0f Cover",
+   "options": "Alterations In Conditions 0f Cover :"
+  },
+  {
+   "fieldname": "assignment_of_rights",
+   "fieldtype": "HTML",
+   "label": "Assignment Of Rights",
+   "options": "Assignment Of Rights :"
+  },
+  {
+   "fieldname": "automatic_suspension_cover_of",
+   "fieldtype": "HTML",
+   "label": "Automatic Suspension Cover Of",
+   "options": "Automatic Suspension Cover Of :"
+  },
+  {
+   "fieldname": "collection_of_overdue_payments",
+   "fieldtype": "HTML",
+   "label": "Collection Of Overdue Payments",
+   "options": "Collection Of Overdue Payments :"
+  },
+  {
+   "fieldname": "collection_of_salvage",
+   "fieldtype": "HTML",
+   "label": "Collection Of Salvage",
+   "options": "Collection Of Salvage :"
+  },
+  {
+   "fieldname": "conditions_precedent",
+   "fieldtype": "HTML",
+   "label": "Conditions Precedent",
+   "options": "Conditions Precedent :"
+  },
+  {
+   "fieldname": "costs_incurred_to_prevent_or_migrate_a_loss",
+   "fieldtype": "HTML",
+   "label": "Costs Incurred To Prevent Or Migrate a Loss",
+   "options": "Costs Incurred To Prevent Or Migrate a Loss :"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "HTML",
+   "label": "Credit Limit",
+   "options": "Credit Limit :"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "HTML",
+   "label": "Currency",
+   "options": "Currency :"
+  },
+  {
+   "fieldname": "declaration_of_insured_debt",
+   "fieldtype": "HTML",
+   "label": "Declaration Of Insured Debt",
+   "options": "Declaration Of Insured Debt :"
+  },
+  {
+   "fieldname": "exercising_of_care",
+   "fieldtype": "HTML",
+   "label": "Exercising Of Care",
+   "options": "Exercising Of Care :"
+  },
+  {
+   "fieldname": "fraudulent_or_false_claims",
+   "fieldtype": "HTML",
+   "label": "Fraudulent Or False Claims",
+   "options": "Fraudulent Or False Claims :"
+  },
+  {
+   "fieldname": "legal_proceeding",
+   "fieldtype": "HTML",
+   "label": "Legal Proceeding",
+   "options": "Legal Proceeding :"
+  },
+  {
+   "fieldname": "loading_of_claims",
+   "fieldtype": "HTML",
+   "label": "Loading of Claims",
+   "options": "Loading of Claims :"
+  },
+  {
+   "fieldname": "order_of_preference_of_proceeds_of_security",
+   "fieldtype": "HTML",
+   "label": "Order Of Preference Of Proceeds Of Security",
+   "options": "Order Of Preference Of Proceeds Of Security :"
+  },
+  {
+   "fieldname": "other_insurance",
+   "fieldtype": "HTML",
+   "label": "Other Insurance",
+   "options": "Other Insurance :"
+  },
+  {
+   "fieldname": "payment_of_indemnity",
+   "fieldtype": "HTML",
+   "label": "Payment Of Indemnity",
+   "options": "Payment Of Indemnity :"
+  },
+  {
+   "fieldname": "postponement_of_payment",
+   "fieldtype": "HTML",
+   "label": "Postponement of payment",
+   "options": "Postponement of payment :"
+  },
+  {
+   "fieldname": "premiumscredit_limit_fees",
+   "fieldtype": "HTML",
+   "label": "Premiums/Credit Limit Fees",
+   "options": "Premiums/Credit Limit Fees :"
+  },
+  {
+   "fieldname": "protracted_default_in_cases_of_dispute",
+   "fieldtype": "HTML",
+   "label": "Protracted Default in cases of Dispute",
+   "options": "Protracted Default in cases of Dispute :"
+  },
+  {
+   "fieldname": "termination_of_policy",
+   "fieldtype": "HTML",
+   "label": "Termination Of Policy",
+   "options": "Termination Of Policy :"
+  },
+  {
+   "fieldname": "value_added_tax_exclusive",
+   "fieldtype": "HTML",
+   "label": "Value Added Tax Exclusive",
+   "options": "Value Added Tax Exclusive :"
+  },
+  {
+   "fieldname": "whole_turnover_principle",
+   "fieldtype": "HTML",
+   "label": "Whole Turnover Principle",
+   "options": "Whole Turnover Principle :"
+  },
+  {
+   "fieldname": "section_break_xodqu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "schdule_sections",
+   "fieldtype": "HTML",
+   "label": "SCHDULE SECTIONS",
+   "options": "<h3>SCHDULE SECTIONS<u><h3></h3></u></h3>"
+  },
+  {
+   "fieldname": "inceptiondatetwo",
+   "fieldtype": "HTML",
+   "label": "Inception Date",
+   "options": "Inception Date :"
+  },
+  {
+   "fieldname": "goodsservices",
+   "fieldtype": "HTML",
+   "label": "Goods/services",
+   "options": "Goods/services :"
+  },
+  {
+   "fieldname": "insuredpercentagetwo",
+   "fieldtype": "HTML",
+   "label": "Insured Percentage",
+   "options": "Insured Percentage :"
+  },
+  {
+   "fieldname": "limit_of_discretion",
+   "fieldtype": "HTML",
+   "label": "Limit Of Discretion",
+   "options": "Limit Of Discretion :"
+  },
+  {
+   "fieldname": "franchiselosstwo",
+   "fieldtype": "HTML",
+   "label": "Franchise Loss",
+   "options": "Franchise Loss :"
+  },
+  {
+   "fieldname": "minimum_premium",
+   "fieldtype": "HTML",
+   "label": "Minimum Premium",
+   "options": "Minimum Premium :"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "HTML",
+   "label": "Premium Rate",
+   "options": "Premium Rate :"
+  },
+  {
+   "fieldname": "credit_limit_fee",
+   "fieldtype": "HTML",
+   "label": "Credit Limit Fee",
+   "options": "Credit Limit Fee :"
+  },
+  {
+   "fieldname": "maximumliabilitytwo",
+   "fieldtype": "HTML",
+   "label": "Maximum Liability",
+   "options": "Maximum Liability :"
+  },
+  {
+   "fieldname": "individualfirstlosstwo",
+   "fieldtype": "HTML",
+   "label": "Individual First Loss",
+   "options": "Individual First Loss :"
+  },
+  {
+   "fieldname": "section_break_oabpr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_71kx7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "linefour",
+   "fieldtype": "HTML",
+   "label": "linefour",
+   "options": "________________________________________________________________________________________________________________________________________________________________________________________________________________________"
+  },
+  {
+   "fieldname": "section_break_283j6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "definitionstwo",
+   "fieldtype": "HTML",
+   "label": "Definitions",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  h4 {\n    text-align: center;\n  }\n</style>\n\n\n\n<h4><u>DEFINITIONS<u></u></u></h4><u>\n\n\n\n</u>"
+  },
+  {
+   "fieldname": "insurabletransactiontwo",
+   "fieldtype": "HTML",
+   "label": "Insurable Transaction",
+   "options": "<h4 class=\"left-align\">1.INSURABLE TRANSACTION</h4>"
+  },
+  {
+   "fieldname": "insurable_transaction_means",
+   "fieldtype": "HTML",
+   "label": "Insurable Transaction means",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  p {\n    text-align: left;\n  }\n</style>\n\n\n\n<p>An \"<b>Insurable Transaction</b>\" means any goods delivered or services rendered by the Insured to a buyer. After the inception date of the policy, on credit terms of not less than 30 days unless provided for by way of endorsement to the policy, but not exceeding 18 days. Excluding any goods delivered on consignment. cash sales or cash payments by a negotiable instrument. Payment terms which are less than 30 days will be considered on a case by case basis.\n</p>"
+  },
+  {
+   "fieldname": "insurabletransactionthree",
+   "fieldtype": "HTML",
+   "label": "BUYER",
+   "options": "<h4 class=\"left-align\">2.BUYER</h4>"
+  },
+  {
+   "fieldname": "business_inbotswana",
+   "fieldtype": "HTML",
+   "label": "Business inBotswana",
+   "options": "<p>A \"<b>Buyer</b>\" means any company, association, partnership(excluding Government Buyer in terms of definition 16),associated or subsidiary company of the Insured, carrying business Botswana.</p>"
+  },
+  {
+   "fieldname": "insurable_buyer",
+   "fieldtype": "HTML",
+   "label": "Insured Buyer",
+   "options": "\n\n<h4 class=\"left-align\">3. INSURED BUYER</h4>\n\n"
+  },
+  {
+   "fieldname": "insured_means",
+   "fieldtype": "HTML",
+   "label": "Insured means",
+   "options": "\n\n\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  .left-align {\n    text-align: left;\n  }\n</style>\n\n\n\n<p class=\"left-align\">A \"<b>Insured Buyer</b>\" means any buyer in respect of whom a credit limit has been issued in writing or established under the Insured's Limit Of Discretion in terms of Proviso 8B .</p>\n\n\n"
+  },
+  {
+   "fieldname": "criditlimit",
+   "fieldtype": "HTML",
+   "label": "CRIDITLIMIT",
+   "options": "<h4 class=\"left-align\">4.CREDIT LIMIT</h4>"
+  },
+  {
+   "fieldname": "credit_limit_means",
+   "fieldtype": "HTML",
+   "label": "credit limit means",
+   "options": "<p>A \"<b>CREDIT LIMIT</b>\" means the maximum amount owned at any time by a particular Insured Buyer which is covered in terms of this policy. Any Credit limit approved in respect of a particular Insured Buyer replaces and it is not additional to any Credit Limit approved in respect of the Insured Buyer under this are any earlier policy </p>"
+  },
+  {
+   "fieldname": "insuredebtthree",
+   "fieldtype": "HTML",
+   "label": "INSURED DEBT HEADING",
+   "options": "<h4 class=\"left-align\">5.INSURED DEBT </h4>"
+  },
+  {
+   "fieldname": "insureddebttwo",
+   "fieldtype": "HTML",
+   "label": "INSURED DEBT",
+   "options": "\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  .left-align {\n    text-align: left;\n  }\n</style>\n\n\n\n<p class=\"left-align\">A \"<b>INSURED DEBT</b>\" means the amount, not exceeding the Credit Limit approved. Owned to the Insured by an Insured Buyer arising from an insurable transaction</p>\n\n\n"
+  },
+  {
+   "fieldname": "causeoflosstwo",
+   "fieldtype": "HTML",
+   "label": "CAUSE OF LOSS",
+   "options": "<h4 class=\"left-align\">6.CAUSE OF LOSS</h4>"
+  },
+  {
+   "fieldname": "a__insolvency",
+   "fieldtype": "HTML",
+   "label": "A)  Insolvency",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p style=\"text-align: left;\"><b>A)</b> <b>Insolvency</b></p>\n\n\n"
+  },
+  {
+   "fieldname": "insolvency_two",
+   "fieldtype": "HTML",
+   "label": "Insolvency two",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  ul {\n    list-style-type: none; /* Remove bullet points */\n    padding: 0; /* Remove default padding */\n  }\n  li {\n    margin-left: 0; /* Remove left margin */\n  }\n</style>\n\n\n\n<p>The Insured Buyer Insolvency means any of the following events:</p>\n\n<ul>\n  <li>a provisional compulsory sequestration order granted by the Insured Buyer;</li>\n  <li>the provisional acceptance by the Court of a voluntary surrender of the Insured Buyer's estate;</li>\n  <li>a provisional winding-up order granted against the insured Buyer;</li>\n  <li>the acceptance of a statutory compromise or scheme of arrangement binding on all the Insured Buyer's creditors;</li>\n  <li>a provisional judicial management order granted against the Insured Buyer.</li>\n</ul>\n\n\n\n"
+  },
+  {
+   "fieldname": "protracted_default",
+   "fieldtype": "HTML",
+   "label": "Protracted default",
+   "options": "\n\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p style=\"text-align: left;\"><b>B)</b> <b>Protracted default</b></p>\n\n\n\n"
+  },
+  {
+   "fieldname": "the_insured_buyer",
+   "fieldtype": "HTML",
+   "label": "The Insured Buyer",
+   "options": "<p>The Insured Buyer's Protracted Default means the failure to pay an undisputed Insured Debt not later than 6 months after the due date or the postponed due date in terms of Proviso14.</p>"
+  },
+  {
+   "fieldname": "section_break_tn0nn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "exclusions",
+   "fieldtype": "HTML",
+   "label": "Exclusions",
+   "options": "\n\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p style=\"text-align: left;\"><b>C)</b> <b>Exclusions</b></p>\n\n\n\n"
+  },
+  {
+   "fieldname": "provided",
+   "fieldtype": "HTML",
+   "label": "Provided",
+   "options": "<p>Provided that the insured Buyer's Insolvency or Protracted default is not due to any of the following:</p>"
+  },
+  {
+   "fieldname": "any_peril",
+   "fieldtype": "HTML",
+   "label": "Any peril",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>Any peril which is not readily insurable in Botswana including war, civil war, rebellion, revolution, and other war-like occurrences, acts of God;<br>\nAny dispute relating to the Insured Debt or any other transaction between the Insured and the Insured Buyer, resulting in non-payment of the insured Debt;<br>\nAny actual or alleged breach of contact by the Insured or an agent of the insured.</p>\n\n\n"
+  },
+  {
+   "fieldname": "amount_of_loss_two",
+   "fieldtype": "HTML",
+   "label": "Amount Of Loss two",
+   "options": "<h4 class=\"left-align\">7.AMOUNT OF LOSS</h4>"
+  },
+  {
+   "fieldname": "amount_of_loss_means_two",
+   "fieldtype": "HTML",
+   "label": "Amount of loss means two",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p><b>\"Amount Of Loss\"</b> means any Insured Debt, exceeding the franchise loss, that has not been paid due to a Cause of Loss, less;</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "any_expenses",
+   "fieldtype": "HTML",
+   "label": "Any expenses",
+   "options": "<p>A) Any expenses or  commission saved by the Insured or any counter-claim or set of which can be applied in the reduction  of the Insured Debt;\nand /or</p>"
+  },
+  {
+   "fieldname": "net_proceeds",
+   "fieldtype": "HTML",
+   "label": "net proceeds",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>B) The net proceeds of any security whether listed in credit limit annexure or not;<br>\nAny amount excluded under Proviso 7 dealing with the automatic suspension of the cover;<br>\nThe amount representing the individual First Loss as per Definition 10;<br>\nAny amount relating to the deliveries made after the date when a Credit Limit was suspended or withdrawn by BECI.</p>\n\n\n"
+  },
+  {
+   "fieldname": "insured_percentage_two",
+   "fieldtype": "HTML",
+   "label": "insured percentage two",
+   "options": "<h4 class=\"left-align\">8.INSURED PERCENTAGE</h4>"
+  },
+  {
+   "fieldname": "insured_percentage_means",
+   "fieldtype": "HTML",
+   "label": "insured percentage means",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p><b>\"Insured Percentage\"</b> means the percentage of the Amount of Loss which will be indemnified by BECI as started in section 3 of the schedule.</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "franchise_loss_two",
+   "fieldtype": "HTML",
+   "label": "franchise loss two",
+   "options": "<h4 class=\"left-align\">9.FRANCHISE LOSS</h4>"
+  },
+  {
+   "fieldname": "franchise_loss_means",
+   "fieldtype": "HTML",
+   "label": "franchise loss means",
+   "options": "<p>&lt;<b>\"Franchise Loss \"</b> means the amount shown in section 5 of the schedule which the insured agrees to accept for his own account in respect of any insured Buyer, where the Amount of Loss does not exceed this amount .</p>\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p><b>\"Franchise Loss\"</b> means the amount shown in section 5 of the schedule which the insured agrees to accept for his own account in respect of any insured Buyer, where the Amount of Loss does not exceed this amount .</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "individual_first_loss_two",
+   "fieldtype": "HTML",
+   "label": "INDIVIDUAL FIRST LOSS TWO",
+   "options": "<h4 class=\"left-align\">10.INDIVIDUAL FIRST LOSS</h4>"
+  },
+  {
+   "fieldname": "individual_first_loss_is",
+   "fieldtype": "HTML",
+   "label": "INDIVIDUAL FIRST LOSS IS",
+   "options": "<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<p><b>\"Individual First Loss\"</b> is the amount shown in section 8 of the schedule, which the insured shall retain for its own account in each and every occurrence giving rise to claim. Prior to calculation of the indemnity, the amount shown as an individual First Loss will be reduced from the Insured Debt.</p>\n<p><b>\"Individual First Loss\"</b> is the amount shown in section 8 of the schedule, which the insured shall retain for its own account in each and every occurrence giving rise to claim. Prior to calculation of the indemnity, the amount shown as an individual First Loss will be reduced from the Insured Debt.</p>"
+  },
+  {
+   "fieldname": "salvage_two",
+   "fieldtype": "HTML",
+   "label": "SALVAGE TWO",
+   "options": "<h4 class=\"left-align\">11.SALVAGE</h4>"
+  },
+  {
+   "fieldname": "salvage_means_two",
+   "fieldtype": "HTML",
+   "label": "Salvage means two",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p><b>\"SALVAGE\"</b> means any amount, net of any legal or other costs of recovery,received after a Cause Of Loss which will reduce the Amount of Loss up on which the indemnity was based .</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "maximum_liability_two",
+   "fieldtype": "HTML",
+   "label": "Maximum Liability two",
+   "options": "<h4 class=\"left-align\">12.MAXIMUM LIABILITY</h4>"
+  },
+  {
+   "fieldname": "maximum_liability_means",
+   "fieldtype": "HTML",
+   "label": "Maximum Liability means",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p><b>\"Maximum Liability \"</b> means the cumulative maximum sum, shown in Section 7 of the Schedule ,for which BECI will be liable for claims in respect of Insured Debt arising during each insurance year commencing on the inception date or any subsequent anniversary.</p>\n\n\n"
+  },
+  {
+   "fieldname": "associated_or_susidary_company",
+   "fieldtype": "HTML",
+   "label": "ASSOCIATED OR SUSIDARY COMPANY",
+   "options": "<h4 class=\"left-align\">13.ASSOCIATED OR SUSIDARY COMPANY</h4>"
+  },
+  {
+   "fieldname": "associated_or_susidary_company_means",
+   "fieldtype": "HTML",
+   "label": ".ASSOCIATED OR SUSIDARY COMPANY MEANS",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  ul {\n    list-style-type: none;\n    padding: 0;\n  }\n</style>\n\n\n\n<p><b>\"ASSOCIATED OR SUBSIDIARY COMPANY\"</b> shall mean:</p>\n<ul>\n  <li>Any Buyer in which the insured holds directly a financial interest in excess of ten percent or, conversely, any Insured Buyer which holds a similar financial interest in the Insured; and/or</li>\n  <li>Any Buyer whose board the Insured has the right to appoint or has appointed a director or where Insured Buyer enjoys a similar right with regard to the Insured.</li>\n</ul>\n\n\n"
+  },
+  {
+   "fieldname": "nception_date",
+   "fieldtype": "HTML",
+   "label": "NCEPTION DATE",
+   "options": "<h4 class=\"left-align\">14.INCEPTION DATE</h4>"
+  },
+  {
+   "fieldname": "nception_date_means",
+   "fieldtype": "HTML",
+   "label": "NCEPTION DATE MEANS",
+   "options": "<p><b>\"Inception Date\"</b>of the policy is the date specified in Section 1 of the Schedule</p>"
+  },
+  {
+   "fieldname": "goodsservices_two",
+   "fieldtype": "HTML",
+   "label": "GOODS/SERVICES TWO",
+   "options": "<h4 class=\"left-align\">GOODS/SERVICES</h4>"
+  },
+  {
+   "fieldname": "government_buyer_two",
+   "fieldtype": "HTML",
+   "label": "GOVERNMENT BUYER TWO",
+   "options": "<h4 class=\"left-align\">GOVERNMENT BUYER</h4>"
+  },
+  {
+   "fieldname": "government_buyer_means",
+   "fieldtype": "HTML",
+   "label": "GOVERNMENT BUYER MEANS",
+   "options": "<p><b>\"Government Buyer\"</b>means any Department of Central Government of Botswana,any parastatal agency or organ of Local or Regional Government  </p>\n"
+  },
+  {
+   "fieldname": "policytwo",
+   "fieldtype": "HTML",
+   "label": "POLICYTWO",
+   "options": "<h4 class=\"left-align\">POLICY</h4>"
+  },
+  {
+   "fieldname": "policy_definition",
+   "fieldtype": "HTML",
+   "label": "POLICY DEFINITION",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>The <b>POLICY</b> includes the schedules of the Policy, any credit limit annexures, endorsements, and notifications which are issued in connection with the Policy includes (where the context admits) a reference to such schedules, credit limit annexures, endorsements, and notifications.</p>\n\n<p>The Policy constitutes the sole record between the Insured and BECI with regard to the subject matter hereof. No addition to, variation of, this policy shall be of force or effect unless in writing.</p>\n\n<p>A cheque or any other negotiable instrument remains unpaid by the Insured Buyer for a period of 15 days or more; or</p>\n\n<p>Any amount owned by the Insured Buyer on open account remains unpaid for one month or more after the original or postponed due date (in accordance with Proviso14); or</p>\n\n<p>The Insured is aware of a Pending Cause Of Loss based upon the Insured Buyer's Insolvency.</p>\n\n\n\n\n\n\n\n\n\n"
+  },
+  {
+   "fieldname": "credit_limits",
+   "fieldtype": "HTML",
+   "label": "CREDIT LIMITS",
+   "options": "<h4 class=\"left-align\">8.CREDIT LIMITS</h4>"
+  },
+  {
+   "fieldname": "html1",
+   "fieldtype": "HTML",
+   "label": "HTML1",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  h2 {\n    text-align: left;\n    margin: 0;\n    padding: 0;\n  }\n</style>\n\n\n\n<h5>Credit Limit Application</h5>\n\n\n\n"
+  },
+  {
+   "fieldname": "credit_limit_application_should",
+   "fieldtype": "HTML",
+   "label": "Credit Limit Application should",
+   "options": "<p> Credit Limit Application Should be submitted to BECI immediately after the inception of the policy, and failure to do so may lead to repudiation of a claim.</p>"
+  },
+  {
+   "fieldname": "html2",
+   "fieldtype": "HTML",
+   "label": "html2",
+   "options": "\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<style>\n  h5 {\n    text-align: left;\n  }\n</style>\n\n<h5>Limit of Discretion</h5>\n"
+  },
+  {
+   "fieldname": "html3",
+   "fieldtype": "HTML",
+   "label": "html3",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>Credit Limit required by the Insured up to the limit of discretion stated in the Section 4 of the schedule shall be established by the Insured according to the following criteria, which shall be applicable prior to conclusion of any Insurable Transaction:</p>\n\n<p> by the insured's favourable trading experience with the Buyer over an immediately preceding period of not less than 12 months, evidenced by a satisfactory payment record involving at least 4 separate months purchase; or</p>\n\n<p>by written bank report not older than 6 months giving a code A, B, or C for an amount not less than the limit established by the Insured.</p>\n\n<p>Once established the Credit Limit shall be deemed to have been approved by BECI.</p>\n\n\n"
+  },
+  {
+   "fieldname": "credit_limit_annexure",
+   "fieldtype": "HTML",
+   "label": "Credit Limit Annexure",
+   "options": "<h5>Credit Limit Annexure</h5>\n"
+  },
+  {
+   "fieldname": "the_insured_shall_be",
+   "fieldtype": "HTML",
+   "label": "the insured shall be",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>The insured shall be apply to BECI for Credit Limit required on Buyers for amounts in excess of the limit of discretion. Any Credit Limit Approved by BECI, with in it's discretion, shall only be of force and effect if confirmed by Credit Limit annexure issued by BECI.</p>\n\n<p>Credit Limits approved subject to the Insured obtaining certain securities mentioned in such credit limit annexure have been obtain and to the extent that such securities are valid and enforceable in a court of law.</p>\n\n<p>Any Credit Limit approved under the limit of discretion or by the issue of a credit limit annexure shall not apply to amount owing by the relevant Insured Buyer, which was unpaid as described in Proviso 7A or B at the date of the approval of the Credit limit or, at which point, adverse information concerning the Insured Buyer.</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "effects_of_credit_limit_exceeded",
+   "fieldtype": "HTML",
+   "label": "EFFECTS OF CREDIT LIMIT EXCEEDED",
+   "options": "<h4 class=\"left-align\">9.EFFECTS OF CREDIT LIMIT EXCEEDED</h4>"
+  },
+  {
+   "fieldname": "should_the",
+   "fieldtype": "HTML",
+   "label": "Should the ",
+   "options": "<p>Should the amount owning to the insured exceed the Credit Limit approved on a particular Insured Buyer, the excess shall only qualify for cover under the credit Limit Once and to the extent that the Insured Debt covered under the Credit Limit is reduced by way of a payment received ,at a time when the insured was not aware of any adverse information concerning the issued Buyers.</p>"
+  },
+  {
+   "fieldname": "allocation_of_payment",
+   "fieldtype": "HTML",
+   "label": "ALLOCATION OF PAYMENT",
+   "options": "<h4 class=\"left-align\">10.ALLOCATION OF PAYMENTS</h4>"
+  },
+  {
+   "fieldname": "any_payment",
+   "fieldtype": "HTML",
+   "label": "ANY PAYMENT",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>Any payment other than the net proceeds of any security referred to in Proviso 20, made by or on behalf of an insured Buyer or by any other source before a Cause of Loss and which is received.</p>\n\n<p>Other than by way of legal proceeding shall liquidate the outstanding amounts which have fallen due first even though the Insured Buyer may have indicated that the payment was in settlement of an amount falling due at some later date.</p>\n\n<p>By way of leading proceedings, shall be deemed to liquidate the outstanding balance, on a pro rata basis.</p>\n\n\n"
+  },
+  {
+   "fieldname": "declaration_of_insured_debt_two",
+   "fieldtype": "HTML",
+   "label": "DECLARATION OF INSURED DEBT TWO",
+   "options": "<h4 class=\"left-align\">11.DECLARATION OF INSURED DEBT</h4>"
+  },
+  {
+   "fieldname": "the_insured_shall_declare",
+   "fieldtype": "HTML",
+   "label": "the insured shall declare",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>The insured shall declare BECI on the provided by BECI for this purpose, the total of all Insured Debts outstanding on the last accounting day of each month, with the exclusion of :</p>\n\n<p>Any insured Debt which does not exceed the Franchise Loss;</p>\n\n<p>The VAT associated to the Insured Debt.</p>\n\n<p>Any portion of the Insured Debt which is 3 months or more overdue should be declared for monitoring by BECI, but not for Premium charging.</p>\n<p> The declarations shall be sent by the insured in order to reach BECI with in 14 days after the end of the each month.\n\n\n</p>"
+  },
+  {
+   "fieldname": "collection_of_overdue_payments__two",
+   "fieldtype": "HTML",
+   "label": "COLLECTION OF OVERDUE PAYMENTS  TWO",
+   "options": "<h4 class=\"left-align\">12.COLLECTION OF OVERDUE PAYMENTS </h4>"
+  },
+  {
+   "fieldname": "collection_of_overdue_payments_def",
+   "fieldtype": "HTML",
+   "label": "Collection of overdue payments def",
+   "options": "\n\n\n<meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n\n\n<p>The Insured shall conduct their own Credit control collection procedures, without references to BECI, prior to sending out any final demand.</p>\n\n<p>The Insured shall send a final demand to any defaulting Buyer:</p>\n<ul>\n  <li>within 30 days of the Insured Debt becoming 60 days or more overdue or at any time at the discretion of the Insured;</li>\n  <li>Immediately upon the Insured becoming aware of any dishonoured negotiable instrument;</li>\n  <li>Immediately the Insured is aware of the Insured Buyer having committed an act of Insolvency.</li>\n</ul>\n\n<p><b></b>C) i) The final demand shall be on the Insured's own letterhead and in all cases must incorporate the following paragraph:</p>\n<blockquote>\n  <p>\"Unless payment is received within a period of 10 days from the date of this letter we shall obliged to report your default to BECI in terms of our credit insurance Policy whereafter legal action will be instituted against you without further notice.\"</p>\n</blockquote>\n\n<p>The final demand must be sent to the correct legal entity by means of facsimile or where no facsimile is available, posted registered mail to the physical or postal address of the Insured Buyer;</p>\n\n<p>Should the Insured not receive payment within 10 days of the final demand having been sent, the Insured must inform BECI in writing under the heading \"Instruction to take legal action,\" and together with a copy of the final demand submit these documents to BECI.</p>\n\n<p>Unless otherwise directed by BECI, all legal proceedings to be taken against an Insured Buyer or any third party, for the purpose of recovering an unpaid Insured Debt shall be instituted in the name of the insured and conducted by BECI's nominated Attorney and Counsel, who shall take instructions from BECI concerning the direction of legal proceedings.</p>\n\n<p>Upon request, the Insured shall furnish BECI with all the relevant documentation pertaining to the Insured Debt and shall sign any documents necessary in pursuance of the action instituted against the Insured Buyer if required to do so.</p>\n\n<p>The Insured shall not institute any legal proceedings for the recovery of an insured Debt without BECI's written approval should the insured become aware of any Insured Buyer's insolvency, the Insured shall immediately advice BECI in writing under the heading, \"Advice of actual/threatening Cause of Loss.\"</p>\n\n<p>The insured shall not accept any repayment proposal or offer of settlement tendered by an insured Buyer nor shall the Insured accept or reject any offer of compromise made in respect of an Insured Debt without the prior written approval of BECI.</p>\n\n<p>Failure by the Insured to comply with the above Collection of Overdue Payments Procedure shall lead to repudiation of a claim.</p>\n\n\n\n"
+  },
+  {
+   "fieldname": "13_premiumscredit_limit_fees",
+   "fieldtype": "HTML",
+   "label": "13. PREMIUMS/CREDIT LIMIT FEES",
+   "options": "<h4 class=\"left-align\">13. PREMIUMS/CREDIT LIMIT FEES</h4>"
+  },
+  {
+   "fieldname": "the_minimum_premium_shown",
+   "fieldtype": "HTML",
+   "label": "The minimum premium shown",
+   "options": "<p>The minimum premium shown in Section 6(a) of the Schedule shall be paid by the Insured to BECI before the issue of the Policy and shall be applied in reduction of premiums payable. Once the minimum premium has been liquidated, any additional premium payable shall be settled by the Insured upon receipt of BECI's statement.</p>\n\n<p>If not utilised, the balance of any minimum premium shall not be refundable to the Insured except in the event of this policy being cancelled by BECI, other than in terms of Proviso 1, within a period of 1 year from the Inception Date The premium payable under this policy shall be the premium rate stated in section 6(b) of the Schedule, calculated on the total of all Insured Debts required to be declared in terms of Proviso 11.</p>\n\n<p>In addition, the Insured shall pay a monthly fee as specified in Section 6(c) of the Schedule, for each credit limit annexure in force at the end of each month.</p>\n\n<p>In the event of the Policy being terminated in terms of Proviso 22, the Insured shall pay an extra premium equal to the premium payable in respect of the Insured's final declaration of Insured Debt Failure to pay the additional premium mentioned above will absolve BECI of any liability in respect of any loss which may occur after the termination date where deliveries were made prior to such termination date.</p>\n"
+  },
+  {
+   "fieldname": "14_postponement_of_payment",
+   "fieldtype": "HTML",
+   "label": "14. POSTPONEMENT OF PAYMENT",
+   "options": "\n<h4 class=\"left-align\">14. POSTPONEMENT OF PAYMENT</h4>\n"
+  },
+  {
+   "fieldname": "1postponement_of_payment_def",
+   "fieldtype": "HTML",
+   "label": "1POSTPONEMENT OF PAYMENT DEF",
+   "options": "<p>The insured shall not agree to a postponement of the due date for payment of any Insured Debt without the prior written consent of BECI, except that, in the event of a request being received on or shortly before the due date the Insured may grant an extension to be evidenced in writing, not exceeding 30 days without reference to BECI .</p>"
+  },
+  {
+   "fieldname": "protracted_defaul_twot_in_cases_of_dispute",
+   "fieldtype": "HTML",
+   "label": "PROTRACTED DEFAUL TWOT IN CASES OF DISPUTE",
+   "options": "<h4 class=\"left-align\">15. PROTRACTED DEFAULT IN CASES OF DISPUTE</h4>"
+  },
+  {
+   "fieldname": "protracted_defaul__in_cases_of_dispute_def",
+   "fieldtype": "HTML",
+   "label": "PROTRACTED DEFAUL  IN CASES OF DISPUTE DEF",
+   "options": "<p>In the event of an Insured Buyer disputing the payment of an insured Debt, the six months Protracted Default period shall only commence once the dispute has been settled and the amount, in respect of which the Insured Buyer has accepted liability, has been established.</p>\n<p>BECI may, at its discretion, agree that the 6 months period can commence from an earlier date, where BECI is of the opinion that the grounds for such dispute are frivolous and without substance.</p>\n"
+  },
+  {
+   "fieldname": "legal_proceedings",
+   "fieldtype": "HTML",
+   "label": "LEGAL PROCEEDINGS",
+   "options": "\n<h4 class=\"left-align\">16. LEGAL PROCEEDINGS</h4>\n"
+  },
+  {
+   "fieldname": "legal_proceedings_def",
+   "fieldtype": "HTML",
+   "label": "LEGAL PROCEEDINGS DEF",
+   "options": "<p>Unless otherwise directed by BECI, all legal proceedings to be taken against an Insured Buyer or any third party, for the purpose recovering an unpaid Insured Debt and/or recovery of the Goods, shall be instituted in the name of the Insured and conducted t BECI's nominated Attorney and Counsel, who shall take instructions from BECI concerning the direction of the legal proceedings.</p>\n<p>The Insured shall not institute any legal proceedings for the recovery of any Insured Debt without BECI's written approval.</p>\n"
+  },
+  {
+   "fieldname": "costs_incurred_to_prevent_or_mitigate_a_loss",
+   "fieldtype": "HTML",
+   "label": " COSTS INCURRED TO PREVENT OR MITIGATE A LOSS",
+   "options": "<h4 class=\"left-align\">17. COSTS INCURRED TO PREVENT OR MITIGATE A LOSS</h4>\n"
+  },
+  {
+   "fieldname": "costs_incurred_to_prevent_or_mitigate_a_loss_def",
+   "fieldtype": "HTML",
+   "label": " COSTS INCURRED TO PREVENT OR MITIGATE A LOSS DEF",
+   "options": "<p>Any costs incurred by BECI or by the Insured, with the written consent of BECI, for the purpose of recovering an Insured Debt pursuant to a threatening or actual Cause of Loss, shall be shared by BECI and the Insured to the extent of their proportionate interest in such Insured Debt. Such costs shall be taken into account at the time of the payment of any indemnity or should no indemnity become payable, then BECI and the Insured shall reimburse each other, upon request, for their pro rata share of the costs incurred.</p>\n\n<p>Any unrecovered costs incurred after payment of an indemnity or the subsequent termination of the Policy in terms of Proviso 22 will be shared on a pro rata basis in respect of the Amount of Loss.</p>\n"
+  },
+  {
+   "fieldname": "lodging_of_claims",
+   "fieldtype": "HTML",
+   "label": "LODGING OF CLAIMS",
+   "options": "<h4 class=\"left-align\">18.LODGING OF CLAIMS</h4>\n"
+  },
+  {
+   "fieldname": "lodging_of_claims_def",
+   "fieldtype": "HTML",
+   "label": "LODGING OF CLAIMS DEF",
+   "options": "<p>Once BECI has received confirmation of a Cause of Loss, the Insured shall be entitled to lodge a claim under the Policy within 12 months of a Cause of Loss arising in respect of any Amount of Loss, by completing a claim form provided by BECI for this purpose together with all the other documentation required in that claim for in substantiation of the claim.</p>\n\n<p>BECI will not be liable for any claim which is not lodged with in a period of 12 months from the date of the Cause of Loss occurring. Any claim lodged after this period may be repudiated in its entirety.</p>\n"
+  },
+  {
+   "fieldname": "payment_of_indemnity_two",
+   "fieldtype": "HTML",
+   "label": "PAYMENT OF INDEMNITY TWO",
+   "options": "\n\n<h4 class=\"left-align\">19.PAYMENT OF INDEMNITY</h4>"
+  },
+  {
+   "fieldname": "payment_of_indemnity_def",
+   "fieldtype": "HTML",
+   "label": "PAYMENT OF INDEMNITY DEF",
+   "options": "<p>After the occurrence of a Cause of Loss and after the submission of the relevant claim form within the time period stipulated in Proviso 17, BECI shall indemnify the Insured in respect of any claim arising under the Policy, once the insured has agreed to the proposed basis of settlement.</p>\n\n<p>Where BECI's indemnity cheque accompanies the proposed settlement of claim, the Insured's subsequent deposit of the indemnity cheque into the Insured's banking account will constitute acceptance of the proposed settlement of claim.</p>\n\n<p>In accepting payment of the indemnity, the Insured agrees:</p>\n<ul>\n  <li>to prove a claim in the insolvent estate where the claim is based upon the Insured Buyer's Insolvency, except where danger of contribution exists;</li>\n  <li>to refund the indemnity, if requested by BECI, should a claim not be proved as in B(i) above;</li>\n  <li>to refund the indemnity where the Amount of Loss became subject to a dispute either before or after payment of the Indemnity, and, the Insured has failed to commence proceedings whether by way of action or arbitration within 90 (ninety) days of the date of payment of the indemnity or the dispute arising, whichever is the later, and to prosecute such proceedings with due expectation.</li>\n  <li>upon request, to cede and transfer to BECI all rights relating to the Insured Debt which formed the subject of the claim.</li>\n</ul>\n"
+  },
+  {
+   "fieldname": "collection_of_salvage_two",
+   "fieldtype": "HTML",
+   "label": "COLLECTION OF SALVAGE TWO",
+   "options": "<h4 class=\"left-align\">20. COLLECTION OF SALVAGE</h4>\n"
+  },
+  {
+   "fieldname": "collection_of_salvage_def",
+   "fieldtype": "HTML",
+   "label": "COLLECTION OF SALVAGE DEF",
+   "options": "<p>A) After the occurrence of a Cause of Loss or payment of an indemnity, the Insured shall, at the request of BECI or with BECT'S permission, remain obligated to take all reasonable steps, including legal proceedings, in order to obtain recoveries from whatever source.</p>\n\n<p>B) The Insured shall not accept or reject any offer of compromise made in respect of any Insured Debt, before obtaining BECT's written approval.</p>\n\n<p>C) Any Salvage (net of costs), collected by the Insured or BECI other than the net proceeds of securities referred to in Proviso 20, shall be shared in proportion to their respective interests, with payment being allocated to the Insured Debt and any uninsured portion of the outstanding balance on a pro rata basis.</p>\n"
+  },
+  {
+   "fieldname": "order_of_preference_of_proceeds_of_security_two",
+   "fieldtype": "HTML",
+   "label": "ORDER OF PREFERENCE OF PROCEEDS OF SECURITY TWO",
+   "options": "<h4 class=\"left-align\">21. ORDER OF PREFERENCE OF PROCEEDS OF SECURITY</h4>\n"
+  },
+  {
+   "fieldname": "order_of_preference_of_proceeds_of_security_def",
+   "fieldtype": "HTML",
+   "label": " ORDER OF PREFERENCE OF PROCEEDS OF SECURITY DEF",
+   "options": "<p>Unless specifically excluded in any credit limit annexure the net proceeds of all security, other than any suretyship or guarantee listed in each credit limit annexure, whether realised before or after the occurrence of a Cause of Loss, shall be applied in settlement of the Insured Debt prior to any portion of the proceeds being applied in settlement of any amount, other than the Insured Debt, owing to the Insured.</p>"
+  },
+  {
+   "fieldname": "fraudulent_or_false_claims_two",
+   "fieldtype": "HTML",
+   "label": " FRAUDULENT OR FALSE CLAIMS TWO",
+   "options": "<h4 class=\"left-align\">22. FRAUDULENT OR FALSE CLAIMS</h4>\n"
+  },
+  {
+   "fieldname": "22_fraudulent_or_false_claims_def",
+   "fieldtype": "HTML",
+   "label": " FRAUDULENT OR FALSE CLAIMS DEF",
+   "options": "<p>If the Insured willfully makes a false, fraudulent or misleading statement concerning this Policy or in connection with any claim lodged under the Policy or if any Amount of Loss is due to the Insured's willful act or connivance, the policy shall be rendered void, all premiums paid by the Insured shall be forfeited and any sums previously paid by BECI under the policy shall immediately be repayable by the Insured.</p>"
+  },
+  {
+   "fieldname": "termination_of_policy_two",
+   "fieldtype": "HTML",
+   "label": "TERMINATION OF POLICY TWO",
+   "options": "<h4 class=\"left-align\">23. TERMINATION OF POLICY </h4>\n"
+  },
+  {
+   "fieldname": "termination_of_policy_def",
+   "fieldtype": "HTML",
+   "label": " TERMINATION OF POLICY DEF",
+   "options": "<p>Both the Insured and BECI shall have the right to terminate this Policy by giving 1 calendar month's written notice, provided that the terms and provisos of this Policy shall remain binding upon BECI and the Insured in respect of any Insured Debt arising from any Insurable Transaction concluded before the expiry of the notice period (the termination date) provided the Insured has paid  additional premium mentioned  in Proviso  13D.</p>"
+  },
+  {
+   "fieldname": "other_insurance_two",
+   "fieldtype": "HTML",
+   "label": "OTHER INSURANCE TWO",
+   "options": "\n<h4 class=\"left-align\">24.OTHER INSURANCE </h4>\n"
+  },
+  {
+   "fieldname": "other_insurance_def",
+   "fieldtype": "HTML",
+   "label": "OTHER INSURANCE DEF",
+   "options": " \n<p>The credit risks insured under this Policy may not be insured under any other Policy of insurance and the Insured shall retain for its own risk that amount which is not covered by the Insured Percentage. Failure to comply with this Proviso will result in the Insured's rights in connection with any claim being forfeited and BECI will be absolved from any liability in respect thereof.</p>\n \n<p>A waiver of this Proviso may be considered where the Insured participates in a self funding captive insurance scheme on the condition that BECI is aware of such arrangement and reduced to writing by way of endorsement to this Policy.</p>"
+  },
+  {
+   "fieldname": "currency_two",
+   "fieldtype": "HTML",
+   "label": "CURRENCY TWO",
+   "options": "<h4 class=\"left-align\">25.CURRENCY</h4>\n"
+  },
+  {
+   "fieldname": "currency_def_three",
+   "fieldtype": "HTML",
+   "label": "CURRENCY DEF THREE",
+   "options": "\n\n<p>Premiums payable by the Insured and any indemnity payable by BECI shall be paid in Botswana Pula.</p>\n<p>Where Botswana Pula is not used in an Insurable Transaction, the Insured Debt and any payments received in respect of any Insured Debt shall, for the purpose of payment of premium and any indemnity, be converted to Botswana Pula.</p>\n<p>at the rate of exchange quoted in the original forward exchange cover contract relating to the Insurable Transaction or</p>\n<p>in the absence of any relevant forward exchange cover contract at the insured's banker's public buying rate of exchange for the currency concerned ruling at 10am on the date of invoicing.</p>\n"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "HTML",
+   "label": "VAT",
+   "options": "<h4 class=\"left-align\">VALUE ADDED TAX EXCLUSIVE</h4>\n"
+  },
+  {
+   "fieldname": "vat_def",
+   "fieldtype": "HTML",
+   "label": "VAT DEF",
+   "options": "<p> All rates or fees quoted are exclusive of VAT.</p>"
+  },
+  {
+   "fieldname": "tab_break_uchbj",
+   "fieldtype": "Tab Break",
+   "label": "STANDARD DOMESTIC COVER "
+  },
+  {
+   "fieldname": "tab_break_rjqm0",
+   "fieldtype": "Tab Break",
+   "label": "SUMMARY OF POLICY TERMS AND CONDITIONS "
+  },
+  {
+   "fieldname": "definitions_tab",
+   "fieldtype": "Tab Break",
+   "label": "SCHDULE SECTIONS"
+  },
+  {
+   "fieldname": "provis0s_tab",
+   "fieldtype": "Tab Break",
+   "label": "PROVIS0S"
+  },
+  {
+   "fieldname": "definitionstwo1",
+   "fieldtype": "Tab Break",
+   "label": "DEFINITIONS"
+  },
+  {
+   "fieldname": "tab_break_fhw4t",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "tab_break_prstv",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "tab_break_o8wi7",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "tab_break_d0upr",
+   "fieldtype": "Tab Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-25 14:46:05.072962",
+ "modified_by": "Administrator",
+ "module": "Reports_CIGIS",
+ "name": "Policy Document",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

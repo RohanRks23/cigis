@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-23 11:59:01.084413",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "registration_number",
+  "share_held",
+  "nature_of_business",
+  "bond_required"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Company-Details"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Registration Number"
+  },
+  {
+   "fieldname": "share_held",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "%Shares Held"
+  },
+  {
+   "fieldname": "nature_of_business",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Nature Of Business"
+  },
+  {
+   "fieldname": "bond_required",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond Required"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-30 10:32:02.638286",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Company child bond facility",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

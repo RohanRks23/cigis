@@ -1,0 +1,95 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-21 12:17:11.155691",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer_type",
+  "country",
+  "payment_terms",
+  "commprerate",
+  "turnover",
+  "premium_rate",
+  "polprerate",
+  "commpreamt",
+  "polpreamt",
+  "total_pre_amt"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Type"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Country"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "commprerate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Comm.Pre.Rate"
+  },
+  {
+   "fieldname": "polprerate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Pol.Pre.Rate"
+  },
+  {
+   "fieldname": "turnover",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Turnover"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "polpreamt",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Pol.Pre.Amt"
+  },
+  {
+   "fieldname": "commpreamt",
+   "fieldtype": "Currency",
+   "label": " Comm.Pre.Amt"
+  },
+  {
+   "fieldname": "total_pre_amt",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-25 12:30:27.798637",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "ECI quotation childtable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

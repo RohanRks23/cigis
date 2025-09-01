@@ -1,0 +1,31 @@
+{
+ "cards": [
+  {
+   "card": "Approved-2"
+  },
+  {
+   "card": "Declined-2"
+  },
+  {
+   "card": "Submitted-2"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Eci Proposal",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 06:19:31.365782",
+ "dashboard_name": "Eci Proposal",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 06:20:23.860675",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Eci Proposal",
+ "owner": "Administrator"
+}

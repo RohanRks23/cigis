@@ -1,0 +1,239 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{policy_name}",
+ "creation": "2024-02-28 10:43:22.079540",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html",
+  "section_break_stauf",
+  "policy_name",
+  "policy_number",
+  "proposal_no",
+  "section_break_pdjyh",
+  "line",
+  "section_break_jjyov",
+  "html1",
+  "section_break_nbced",
+  "section_break_gnwei",
+  "html2",
+  "section_break_immow",
+  "section_break_r1jmb",
+  "html3",
+  "section_break_epb9p",
+  "html4",
+  "section_break_j4dvu",
+  "html5",
+  "html6",
+  "html7",
+  "html8",
+  "html9",
+  "section_break_ngqde",
+  "html10",
+  "section_break_azs6s",
+  "section_break_pm2fb",
+  "html11",
+  "html12",
+  "html13",
+  "html14",
+  "html15"
+ ],
+ "fields": [
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "\n\n\n    <style>\n        .center {\n            text-align: center;\n        }\n    </style>\n\n\n    <div class=\"center\">\n        <p><b></b></p><h3><b><b>ENDORSEMENT TO STANDARD DOMESTIC COVER </b></b></h3><p></p><b>\n    </b></div><b>\n\n\n</b>"
+  },
+  {
+   "fieldname": "section_break_stauf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_name",
+   "fieldtype": "Data",
+   "label": "POLICY NAME"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "POLICY NUMBER"
+  },
+  {
+   "fieldname": "section_break_pdjyh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "LINE",
+   "options": "_____________________________________________________________________________________________________________________________________________________________________________________________________________________"
+  },
+  {
+   "fieldname": "section_break_jjyov",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html1",
+   "fieldtype": "HTML",
+   "label": "html1",
+   "options": "    <p></p>The following Definitions and Proviso's in the Standard Domestic Cover wording shall be amended to read as follows:<p></p>\n"
+  },
+  {
+   "fieldname": "section_break_nbced",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_gnwei",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html2",
+   "fieldtype": "HTML",
+   "label": "html2",
+   "options": "<h5><b>1. Definition  1- Insurable Transaction </b></h5><h5></h5>"
+  },
+  {
+   "fieldname": "section_break_immow",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_r1jmb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html3",
+   "fieldtype": "HTML",
+   "label": "html3",
+   "options": "    <p></p>An \"\ud835\udc08\ud835\udc27\ud835\udc2c\ud835\udc2e\ud835\udc2b\ud835\udc1a\ud835\udc1b\ud835\udc25\ud835\udc1e \ud835\udc13\ud835\udc2b\ud835\udc1a\ud835\udc27\ud835\udc2c\ud835\udc1a\ud835\udc1c\ud835\udc2d\ud835\udc22\ud835\udc28\ud835\udc27\" means any goods delivered or services rendered by the Insured to a buyer, after the inception date of the policy, on credit terms not exceeding 180 days and excluding any goods my goods delivered on consignment, cash sales or cash payments by a negotiable instrument.<p></p>\n"
+  },
+  {
+   "fieldname": "section_break_epb9p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html4",
+   "fieldtype": "HTML",
+   "label": "html4",
+   "options": "<h5><b>1. Proviso  11- Declaration Of Transactions </b></h5><h5></h5>"
+  },
+  {
+   "fieldname": "section_break_j4dvu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html5",
+   "fieldtype": "HTML",
+   "label": "html5",
+   "options": "    <p></p>A. The Insured  shall declare to BECI, in respect of each Insured Buyer individually on the forms provided by BECI for this purpose, the grass invoice value of all insurable Transactions in respect of each insured Buyer as follows:<p></p>\n"
+  },
+  {
+   "fieldname": "html6",
+   "fieldtype": "HTML",
+   "label": "HTML6",
+   "options": "<p></p>i. Concluded for each month form the inception date of the policy or the effective date of the annual policy review with each insured customer.<p></p>"
+  },
+  {
+   "fieldname": "html7",
+   "fieldtype": "HTML",
+   "label": "html7",
+   "options": "<p></p> ii.  The gross invoice value shall include anu insurance, freight or other charges payable by the insured on behalf of Insured Buyer but shall exclude VAT.<p></p>"
+  },
+  {
+   "fieldname": "html8",
+   "fieldtype": "HTML",
+   "label": "html8",
+   "options": "<p></p> A.  The declarations shall be sent by the Insured in order to reach BECI with in 14 days after the end of each month from the Inception Date of the policy or from the effective date of the annual policy renewal.<p></p>"
+  },
+  {
+   "fieldname": "html9",
+   "fieldtype": "HTML",
+   "label": "html9",
+   "options": "<p></p>B. The Insured shall also be declare to BECI, in respect of each Insured Buyer individually, on the forms provided by BECI for this purpose, the Insured Debit that is 30 days or more overdue for payment by the Insured Buyer. The declaration must reach BECI with in 14 days after the end of the each calendar month.<p></p>"
+  },
+  {
+   "fieldname": "section_break_ngqde",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html10",
+   "fieldtype": "HTML",
+   "label": "html10",
+   "options": "<h5><b>2. Proviso  13- Premiums/Credit Limit Fees</b></h5><h5></h5>"
+  },
+  {
+   "fieldname": "section_break_azs6s",
+   "fieldtype": "HTML",
+   "label": "html11",
+   "options": "<p></p>The minimum premium shown in Section 6(a) of the schedule shall be paid by the Insured to BECI before the issue of the policy and shall be applied in reduction of premiums payable. \n Once the minimum premium has been liquidated, any additional premium.<p></p>"
+  },
+  {
+   "fieldname": "section_break_pm2fb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html11",
+   "fieldtype": "HTML",
+   "label": "html11",
+   "options": "<p></p> A. Payable shall be settled by the Insured up on the receipt of BECI statement.<p></p>"
+  },
+  {
+   "fieldname": "html12",
+   "fieldtype": "HTML",
+   "label": "html12",
+   "options": "<p></p> B. The minimum monthly premium shall be the product of monthly gross turnover (gross invoice value ) and the  relevant  premium rate shown in Section 6(b) of the schedule<p></p>"
+  },
+  {
+   "fieldname": "html13",
+   "fieldtype": "HTML",
+   "label": "html13",
+   "options": "<p></p> C.  The premium shall be paid by the Insured to BECI on the presentation of the invoice raised on the basis of (A) above.<p></p>"
+  },
+  {
+   "fieldname": "html14",
+   "fieldtype": "HTML",
+   "label": "html14",
+   "options": "<p> </p> In addition, the Insured shall pay a monthly fee  as specified in Section 6(c) of the schedule for each Credit  Limit in force at the end of each month.<p></p>"
+  },
+  {
+   "fieldname": "html15",
+   "fieldtype": "HTML",
+   "label": "html15",
+   "options": "<p><br>SIGNED for on behalf of BECI<br><br>______________________________<br><br>______________________________<br><br><br></p>"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "PROPOSAL NUMBER"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-24 08:39:31.094848",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Agenda and Endorsements for ECIS",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

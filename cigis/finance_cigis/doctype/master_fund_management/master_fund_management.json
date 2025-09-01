@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-29 13:40:43.115031",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stg_id",
+  "column_break_ibe3y",
+  "stg_interest",
+  "column_break_y3iqj",
+  "stg_mgmt_fee",
+  "column_break_shsmb",
+  "stg_created_by",
+  "column_break_evn4d",
+  "stg_created_on",
+  "column_break_x5j62",
+  "stg_modified_by",
+  "column_break_xfpxu",
+  "stg_modified_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "stg_id",
+   "fieldtype": "Data",
+   "label": "Stg Id"
+  },
+  {
+   "fieldname": "column_break_ibe3y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stg_interest",
+   "fieldtype": "Data",
+   "label": "Stg Interest"
+  },
+  {
+   "fieldname": "column_break_y3iqj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stg_mgmt_fee",
+   "fieldtype": "Currency",
+   "label": "Stg Mgmt Fee"
+  },
+  {
+   "fieldname": "column_break_shsmb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stg_created_by",
+   "fieldtype": "Data",
+   "label": "Stg Created By"
+  },
+  {
+   "fieldname": "column_break_evn4d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stg_created_on",
+   "fieldtype": "Date",
+   "label": "Stg Created On"
+  },
+  {
+   "fieldname": "column_break_x5j62",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stg_modified_by",
+   "fieldtype": "Data",
+   "label": "Stg Modified By"
+  },
+  {
+   "fieldname": "column_break_xfpxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stg_modified_on",
+   "fieldtype": "Date",
+   "label": "Stg Modified On"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:32.366615",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Master Fund Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

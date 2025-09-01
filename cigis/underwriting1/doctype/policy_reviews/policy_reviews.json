@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-01 12:39:28.037063",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "policy_details",
+  "section_break_gv6oj",
+  "policy_holder",
+  "section_break_k8lfc",
+  "policy_no",
+  "policy_type",
+  "pr_number",
+  "column_break_5pknq",
+  "inception_date",
+  "policy_expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "policy_details",
+   "fieldtype": "Heading",
+   "label": "Policy Details"
+  },
+  {
+   "fieldname": "section_break_gv6oj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Select",
+   "label": "Policy Holder",
+   "options": "Select"
+  },
+  {
+   "fieldname": "section_break_k8lfc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Policy Type"
+  },
+  {
+   "fieldname": "pr_number",
+   "fieldtype": "Data",
+   "label": "PR Number"
+  },
+  {
+   "fieldname": "column_break_5pknq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Data",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "policy_expiry_date",
+   "fieldtype": "Data",
+   "label": "Policy Expiry Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:42.889094",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Policy Reviews",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

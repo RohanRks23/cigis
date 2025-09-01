@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-23 10:40:56.073256",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "recptno",
+  "amtreceived",
+  "date",
+  "payment_mode"
+ ],
+ "fields": [
+  {
+   "fieldname": "recptno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recpt.No"
+  },
+  {
+   "fieldname": "amtreceived",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amt.Received"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Payment Mode"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:18.952798",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Bond Recoveries Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

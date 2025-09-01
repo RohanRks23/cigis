@@ -1,0 +1,313 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{ed_number}",
+ "creation": "2024-02-29 05:52:50.230115",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "export_declarations_tab",
+  "policy",
+  "section_break_jsefr",
+  "policy_holder",
+  "policy_holder1",
+  "policy_number",
+  "policy_no",
+  "policy_expire_date",
+  "declaration_for_the_month_of",
+  "column_break_acprc",
+  "status",
+  "inception_date",
+  "ed_number",
+  "capture_date",
+  "section_break_nns50",
+  "year",
+  "section_break_ucgls",
+  "upload",
+  "upload1",
+  "section_break_yyhg6",
+  "turn_over",
+  "export_declaration",
+  "section_break_sbgwf",
+  "buyer1",
+  "section_break_zrcx6",
+  "buyer",
+  "column_break_agrr7",
+  "section_break_al9cz",
+  "terms_of_payment",
+  "column_break_bt867",
+  "exchange_rate",
+  "column_break_mqk98",
+  "fx_value",
+  "column_break_zx3oq",
+  "column_break_sxdjt",
+  "amount_pula",
+  "column_break_z0rgn",
+  "section_break_gkup3",
+  "add",
+  "column_break_wx5ck",
+  "prepare_invoice",
+  "amount1",
+  "premium_rate",
+  "country"
+ ],
+ "fields": [
+  {
+   "fieldname": "export_declarations_tab",
+   "fieldtype": "Tab Break",
+   "label": "Export Declarations"
+  },
+  {
+   "fieldname": "policy",
+   "fieldtype": "HTML",
+   "label": "Policy",
+   "options": "<h5>Policy</h5>"
+  },
+  {
+   "fieldname": "section_break_jsefr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "policy_number.inception_date",
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "policy_expire_date",
+   "fieldtype": "Data",
+   "label": "Policy Expire Date"
+  },
+  {
+   "fieldname": "declaration_for_the_month_of",
+   "fieldtype": "Select",
+   "label": "Declaration for the month of",
+   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOMBER\nNOVEMBER\nDECEMBER"
+  },
+  {
+   "fieldname": "column_break_acprc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "policy_number.status",
+   "fetch_if_empty": 1,
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Status"
+  },
+  {
+   "default": "Today",
+   "fieldname": "capture_date",
+   "fieldtype": "Date",
+   "label": "Capture Date"
+  },
+  {
+   "fieldname": "section_break_nns50",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+  },
+  {
+   "fieldname": "section_break_ucgls",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "upload",
+   "fieldtype": "HTML",
+   "label": "Upload",
+   "options": " <h5>Upload</h5>"
+  },
+  {
+   "fieldname": "upload1",
+   "fieldtype": "Attach",
+   "label": "Upload"
+  },
+  {
+   "fieldname": "section_break_yyhg6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "turn_over",
+   "fieldtype": "HTML",
+   "label": "Turn Over",
+   "options": " <h5>Turn Over</h5>"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "label": "Buyer",
+   "options": "Buyer"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Select",
+   "label": "Terms Of Payment",
+   "options": "\nterms of payment\n1-3m\n1-3mlc\n4-6m\n4-6mlc\ncad\ncadLC\nTT7d"
+  },
+  {
+   "fieldname": "column_break_bt867",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Exchange Rate(1 Pula =.)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mqk98",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fx_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FX Value",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_sxdjt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_pula",
+   "fieldtype": "Currency",
+   "label": "Amount (Pula)"
+  },
+  {
+   "fieldname": "column_break_agrr7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_z0rgn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "export_declaration",
+   "fieldtype": "Table",
+   "options": "Export Declaration Chid"
+  },
+  {
+   "fieldname": "section_break_sbgwf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "label": "Add "
+  },
+  {
+   "fieldname": "prepare_invoice",
+   "fieldtype": "Button",
+   "label": "Prepare Invoice"
+  },
+  {
+   "fieldname": "buyer1",
+   "fieldtype": "HTML",
+   "label": "Buyer",
+   "options": " <h5>Buyer</h5>"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "premium Rate"
+  },
+  {
+   "fieldname": "amount1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "section_break_al9cz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "country"
+  },
+  {
+   "fetch_from": "ph_name.policy_number",
+   "fetch_if_empty": 1,
+   "fieldname": "policy_number",
+   "fieldtype": "Select",
+   "label": "Policy Number"
+  },
+  {
+   "fetch_from": "policy_number.policy_holder",
+   "fieldname": "policy_holder",
+   "fieldtype": "Select",
+   "label": "Policy Holder Name"
+  },
+  {
+   "fieldname": "section_break_zrcx6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zx3oq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_gkup3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wx5ck",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ED Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "policy_holder1",
+   "fieldtype": "Data",
+   "label": "policy Holder"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-31 09:16:33.497478",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Export Declarations",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

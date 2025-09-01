@@ -1,0 +1,232 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-11 06:43:43.266084",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "company_address",
+  "section_break_gznhe",
+  "toaddress",
+  "attention",
+  "date",
+  "column_break_fq5mw",
+  "from",
+  "attention1",
+  "subject",
+  "line",
+  "html",
+  "company_info",
+  "section_break_cej4d",
+  "company_name",
+  "trading_style",
+  "postal_address",
+  "registration_number",
+  "column_break_arvvp",
+  "physical_address",
+  "telephone_number",
+  "fax_no",
+  "country",
+  "section_break_xi2zi",
+  "banking_detailes",
+  "section_break_lpnlp",
+  "bank",
+  "branch",
+  "account_number",
+  "section_break_fh1al",
+  "credit_limit",
+  "trade_references",
+  "director_and_share_holders"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "company_address",
+   "fieldtype": "HTML",
+   "label": "Company Address",
+   "options": "<p style=\"text-align: right;\"><b>Export Credit Insurance and Guarantee<br>Company(Botswana) Pty. Ltd.<br>Private Bag BO 279, Bontleng, Gaborone, Botswana<br>Unit 1, Plot 142 Gaborone International Finance Park<br>Telephone: +267 318 8015, Facsimile: +267 318 8017<br>Email: beci@beci.co.bw<br>Website: http://www.beci.co.bw</b></p>"
+  },
+  {
+   "fieldname": "section_break_gznhe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "toaddress",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "ATTENTION"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "column_break_fq5mw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "FROM"
+  },
+  {
+   "fieldname": "attention1",
+   "fieldtype": "Data",
+   "label": "ATTENTION"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "SUBJECT"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "<p> Please give us a report and underwriting opinion on the following buyer.</p><p></p>"
+  },
+  {
+   "fieldname": "company_info",
+   "fieldtype": "HTML",
+   "label": "COMPANY INFO",
+   "options": "<p><b><u>COMPANY INFO<u><b></b></u></u></b></p><p></p>"
+  },
+  {
+   "fieldname": "section_break_cej4d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "COMPANY NAME "
+  },
+  {
+   "fieldname": "trading_style",
+   "fieldtype": "Data",
+   "label": "TRADING STYLE"
+  },
+  {
+   "fieldname": "postal_address",
+   "fieldtype": "Data",
+   "label": "POSTAL ADDRESS"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "label": "REGISTRATION NUMBER"
+  },
+  {
+   "fieldname": "column_break_arvvp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "PHYSICAL ADDRESS "
+  },
+  {
+   "fieldname": "telephone_number",
+   "fieldtype": "Data",
+   "label": "TELEPHONE NUMBER"
+  },
+  {
+   "fieldname": "fax_no",
+   "fieldtype": "Data",
+   "label": "FAX NO"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "COUNTRY"
+  },
+  {
+   "fieldname": "section_break_xi2zi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "banking_detailes",
+   "fieldtype": "Heading",
+   "label": "BANKING DETAILES"
+  },
+  {
+   "fieldname": "section_break_lpnlp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Data",
+   "label": "BANK"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "BRANCH"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "ACCOUNT NUMBER"
+  },
+  {
+   "fieldname": "section_break_fh1al",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "CREDIT LIMIT"
+  },
+  {
+   "fieldname": "trade_references",
+   "fieldtype": "Data",
+   "label": "TRADE REFERENCES"
+  },
+  {
+   "fieldname": "director_and_share_holders",
+   "fieldtype": "Data",
+   "label": "DIRECTOR AND SHARE HOLDERS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 08:20:47.746258",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "View CB Request  Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

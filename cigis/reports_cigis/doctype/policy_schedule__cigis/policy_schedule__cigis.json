@@ -1,0 +1,111 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{policy_number}",
+ "creation": "2024-03-13 06:26:47.483215",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "schedule",
+  "section_break_izwzi",
+  "policy_number",
+  "policy_holder",
+  "column_break_lq5xf",
+  "proposal_no",
+  "quotation_numbers",
+  "section_break_koigm",
+  "child_letter",
+  "section_break_fsp7x",
+  "line"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Centered Image</title>\n    <style>\n        /* Style to center the image */\n        .centered-image {\n            display: block;\n            margin: auto;\n        }\n    </style>\n\n\n\n    <img alt=\"https://www.beci.co.bw/themes/theme/logo.png\" class=\"centered-image\" src=\"https://www.beci.co.bw/themes/theme/logo.png\">\n<br>\n\n\n\n"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "HTML",
+   "label": "Schedule",
+   "options": "<h3><br><p style=\"text-align: center;\">\n<strong>SCHEDULE</strong>\n</p></h3>"
+  },
+  {
+   "fieldname": "section_break_izwzi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "POLICY NO"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "NAME OF INSURED"
+  },
+  {
+   "fieldname": "column_break_lq5xf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "PROPOSAL NO"
+  },
+  {
+   "fieldname": "quotation_numbers",
+   "fieldtype": "Data",
+   "label": "QUOTATION  NO"
+  },
+  {
+   "fieldname": "section_break_koigm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "child_letter",
+   "fieldtype": "Table",
+   "options": "Policy_schedule_childtable"
+  },
+  {
+   "fieldname": "section_break_fsp7x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "LINE",
+   "options": "<p><br>SIGNED for on behalf of BECI<br><br>______________________________<br><br>Date:______________________________<br><br><br></p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 11:58:15.885862",
+ "modified_by": "Administrator",
+ "module": "Reports_CIGIS",
+ "name": "Policy Schedule _CIGIS",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

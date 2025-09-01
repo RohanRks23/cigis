@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{short_name}",
+ "creation": "2024-04-03 06:27:03.790463",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "short_name",
+  "column_break_e0kcl",
+  "status",
+  "section_break_ricpe",
+  "currency_name",
+  "column_break_8pkvs",
+  "conversion_rate_1_pula"
+ ],
+ "fields": [
+  {
+   "fieldname": "short_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Short Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_e0kcl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nACTIVE\nIN ACTIVE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_ricpe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "currency_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Currency Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8pkvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "conversion_rate_1_pula",
+   "fieldtype": "Currency",
+   "label": "Conversion Rate 1 Pula"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-04 13:44:02.342470",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Currency_Finance",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

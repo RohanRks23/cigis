@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-05 10:59:04.949734",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer_id",
+  "buyer_name",
+  "create_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer ID"
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "create_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Create Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 11:08:44.702123",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "List Of Active Buyers_Child_Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

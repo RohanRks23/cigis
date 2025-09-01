@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-11 06:01:28.976296",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer",
+  "current",
+  "tdays",
+  "sdays",
+  "ndays",
+  "odays",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "current",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Current"
+  },
+  {
+   "fieldname": "tdays",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "30Days"
+  },
+  {
+   "fieldname": "sdays",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "60Days"
+  },
+  {
+   "fieldname": "ndays",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "90Days"
+  },
+  {
+   "fieldname": "odays",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "120Days"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-26 06:53:17.547773",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Debtor_schedule_child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

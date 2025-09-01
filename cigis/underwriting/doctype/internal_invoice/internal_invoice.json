@@ -1,0 +1,491 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-01 09:27:20.045916",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_umxm4",
+  "for",
+  "credit",
+  "column_break_aig4t",
+  "section_break_oxytd",
+  "name1",
+  "address",
+  "city",
+  "column_break_pqtoo",
+  "date",
+  "section_break_fhhmx",
+  "vat_registration_no",
+  "section_break_30bry",
+  "a_premium_income",
+  "section_break_3u0y2",
+  "domestic_premium",
+  "column_break_rd0jt",
+  "domestic_data",
+  "column_break_rzbhe",
+  "domestic_per",
+  "column_break_vl3ok",
+  "domestic_total",
+  "section_break_ewd4h",
+  "section_break_nqflu",
+  "section_break_8nco6",
+  "total",
+  "section_break_8s7fk",
+  "b_reinsurer_premium_payable",
+  "section_break_yo3qk",
+  "section_break_qgtve",
+  "fmre_property_and_ca",
+  "first_reinsurance",
+  "lombard_insurances",
+  "manich_re_group",
+  "column_break_31m7h",
+  "botswana_group",
+  "fmre",
+  "first_property",
+  "lombard_insurance",
+  "manich_group",
+  "column_break_qerkc",
+  "botswana_group_per",
+  "fmre_per",
+  "first_property_per",
+  "lombard_insurance_per",
+  "manich_group_per",
+  "column_break_zbffc",
+  "botswana_group_total",
+  "fmre_total",
+  "first_property_total",
+  "lombard_insurance_total",
+  "manich_group_total",
+  "section_break_x3b93",
+  "column_break_clqd0",
+  "column_break_1qziy",
+  "total1",
+  "section_break_0dech",
+  "c_handling_fee_income",
+  "section_break_ovuau",
+  "commerical_botswana_insurance_company",
+  "commerical_fmr_property_casual_pyt_ltd",
+  "commerical_first_reinsurance_pyt_ltd",
+  "commerical_lombard_insurance_company_limited",
+  "commerical_munich_re_group",
+  "column_break_51s69",
+  "commerical_botswana",
+  "commerical_fmr",
+  "commerical_first",
+  "commerical_lombar",
+  "commerical_munich",
+  "column_break_qdbrq",
+  "commerical_botswana_per",
+  "commerical_fmr_per",
+  "commerical_first_per",
+  "commerical_lombar_per",
+  "commerical_munich_per",
+  "column_break_0pzjg",
+  "commerical_botswana_total",
+  "commerical_fmr_total",
+  "commerical_first_total",
+  "commerical_lombar_total",
+  "commerical_munich_total",
+  "section_break_po1to",
+  "column_break_h8ijo",
+  "column_break_bdkuc",
+  "total2"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_umxm4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "for",
+   "fieldtype": "Heading",
+   "label": "FOR INTERNAL USE ONLY "
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Heading",
+   "label": "CREDIT NOTE INVOICE"
+  },
+  {
+   "fieldname": "column_break_aig4t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_oxytd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "NAME:"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS:"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY:"
+  },
+  {
+   "fieldname": "column_break_pqtoo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE:"
+  },
+  {
+   "fieldname": "section_break_fhhmx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vat_registration_no",
+   "fieldtype": "Heading",
+   "label": "VAT REGISTRATION NO:"
+  },
+  {
+   "fieldname": "section_break_30bry",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a_premium_income",
+   "fieldtype": "Heading",
+   "label": "A PREMIUM INCOME"
+  },
+  {
+   "fieldname": "section_break_3u0y2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "domestic_premium",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 25px;\">Domestic Premium</h5>"
+  },
+  {
+   "fieldname": "column_break_rd0jt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "domestic_data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_rzbhe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "domestic_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_vl3ok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "domestic_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_ewd4h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_nqflu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8nco6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_8s7fk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b_reinsurer_premium_payable",
+   "fieldtype": "Heading",
+   "label": "B REINSURER PREMIUM PAYABLE"
+  },
+  {
+   "fieldname": "section_break_yo3qk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_qgtve",
+   "fieldtype": "HTML",
+   "options": "<h4 style=\"margin-top: 25px;\">Botswana Insurance Company</h4>"
+  },
+  {
+   "fieldname": "fmre_property_and_ca",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 45px;\">FMRE PROPERTY AND CASUALITY  PYT LTD</h5>\n"
+  },
+  {
+   "fieldname": "first_reinsurance",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 50px;\">FIRST REINSURANCE PYT LTD</h5>\n"
+  },
+  {
+   "fieldname": "lombard_insurances",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 45px;\">LOMBARD INSURANCE COMPANY LIMITED</h5>\n"
+  },
+  {
+   "fieldname": "manich_re_group",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 30px;\">Manich Re Group</h5>"
+  },
+  {
+   "fieldname": "column_break_31m7h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "botswana_group",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "fmre",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "first_property",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "lombard_insurance",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "manich_group",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_qerkc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "botswana_group_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "fmre_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "first_property_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "lombard_insurance_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "manich_group_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_zbffc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "botswana_group_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "fmre_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "first_property_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "lombard_insurance_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "manich_group_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_x3b93",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_clqd0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_1qziy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total1",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_0dech",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c_handling_fee_income",
+   "fieldtype": "Heading",
+   "label": "C HANDLING FEE INCOME"
+  },
+  {
+   "fieldname": "section_break_ovuau",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commerical_botswana_insurance_company",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 10px;\">Commerical (Botswana Insurance Company)</h5>"
+  },
+  {
+   "fieldname": "commerical_fmr_property_casual_pyt_ltd",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 45px;\">Commerical (FMR PROPERTY &amp; CASUALITY  PYT LTD)</h5>"
+  },
+  {
+   "fieldname": "commerical_first_reinsurance_pyt_ltd",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 45px;\">Commerical (FIRST REINSURANCE PYT LTD)</h5>"
+  },
+  {
+   "fieldname": "commerical_lombard_insurance_company_limited",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 40px;\">Commerical (LOMBARD INSURANCE COMPANY LIMITED)</h5>\n"
+  },
+  {
+   "fieldname": "commerical_munich_re_group",
+   "fieldtype": "HTML",
+   "options": "<h5 style=\"margin-top: 30px;\">Commerical (Munich Re Group)</h5>"
+  },
+  {
+   "fieldname": "column_break_51s69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commerical_botswana",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_fmr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_first",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_lombar",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_munich",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_qdbrq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commerical_botswana_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_fmr_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_first_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_lombar_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_munich_per",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_0pzjg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commerical_botswana_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_fmr_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_first_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_lombar_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commerical_munich_total",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_po1to",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_h8ijo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bdkuc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total2",
+   "fieldtype": "Data",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 08:39:24.021125",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Internal Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

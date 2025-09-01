@@ -1,0 +1,31 @@
+{
+ "cards": [
+  {
+   "card": "Approved-6"
+  },
+  {
+   "card": "Pending-2"
+  },
+  {
+   "card": "Rejected-2"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Credit Limit Processing Daily Updates",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 08:16:05.631164",
+ "dashboard_name": "Credit Limit Processing Daily Updates",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 08:43:20.089744",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Credit Limit Processing Daily Updates",
+ "owner": "Administrator"
+}

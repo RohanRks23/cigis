@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-27 08:19:34.679177",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cb_req_number",
+  "reqdate",
+  "buyer",
+  "refnumber"
+ ],
+ "fields": [
+  {
+   "fieldname": "cb_req_number",
+   "fieldtype": "Data",
+   "label": "CB Req Number"
+  },
+  {
+   "fieldname": "reqdate",
+   "fieldtype": "Date",
+   "label": "Req.Date"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "refnumber",
+   "fieldtype": "Data",
+   "label": "Ref.Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 21:21:04.873970",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "View CB Request",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

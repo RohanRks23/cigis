@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-01 12:39:37.606516",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "policy_holder",
+  "policy_no",
+  "estimated_turnover_for_year",
+  "payment_month_and_year",
+  "year",
+  "noof_months_for_the_purpose",
+  "comments",
+  "column_break_xn1cx",
+  "date",
+  "premium_rate",
+  "estimated_premium",
+  "payment_type",
+  "vat"
+ ],
+ "fields": [
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "estimated_turnover_for_year",
+   "fieldtype": "Data",
+   "label": "Estimated Turnover for Year"
+  },
+  {
+   "fieldname": "payment_month_and_year",
+   "fieldtype": "Data",
+   "label": "Payment Month and Year"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year"
+  },
+  {
+   "fieldname": "noof_months_for_the_purpose",
+   "fieldtype": "Data",
+   "label": "No.of Months for the Purpose"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_xn1cx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "estimated_premium",
+   "fieldtype": "Data",
+   "label": "Estimated Premium"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Data",
+   "label": "Payment Type"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "vat"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:42.588557",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Advance Premium",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

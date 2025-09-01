@@ -1,0 +1,1095 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:proposal_no",
+ "creation": "2024-02-15 08:02:13.502932",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dci_proposal_tab",
+  "section_break_rfvtk",
+  "company",
+  "section_break_trqk8",
+  "client_name",
+  "column_break_kbhst",
+  "section_break_155uw",
+  "trading_name",
+  "establishmentdate",
+  "column_break_bciwp",
+  "registrationno",
+  "status",
+  "section_break_ipz80",
+  "section_break_y4xxr",
+  "general",
+  "section_break_dnzci",
+  "signed_by",
+  "signed_on",
+  "capacity",
+  "column_break_q1wc1",
+  "proposal_no",
+  "broker",
+  "section_break",
+  "checklist_items",
+  "section_break_ppydo",
+  "proposal_application",
+  "financial_statements__age_analysis",
+  "current_debtor_schedule",
+  "column_break_68ntn",
+  "section_break_rpjdi",
+  "directors_shareholders_tab",
+  "section_break_v8eot",
+  "directors_shareholder_add_new",
+  "directors_shareholders_table",
+  "tab_break_kgnw2",
+  "section_break_eezme",
+  "business_type",
+  "column_break_fmyu1",
+  "column_break_vrehy",
+  "goods_services",
+  "column_break_c8khf",
+  "column_break_o58re",
+  "buyer_type",
+  "section_break_egx7v",
+  "manufacturer",
+  "retailer",
+  "wholesaler",
+  "others",
+  "nature_of_bussiness_4",
+  "column_break_immen",
+  "agriculture",
+  "airconditioning",
+  "aluminium_boats",
+  "animal_vaccines",
+  "arts_crafts",
+  "batteries",
+  "building_materials",
+  "canning_cans",
+  "cellular",
+  "cereals",
+  "cigarettes",
+  "computer_electronic",
+  "concrete_products",
+  "corporate_clothing",
+  "cosmetics",
+  "couriers",
+  "engraving",
+  "fmcg",
+  "frozen_chicken",
+  "fuel",
+  "gas",
+  "hair_products",
+  "column_break_waiec",
+  "heavy_plant",
+  "invoice_factoring",
+  "leather_products",
+  "logistics",
+  "lubricants__fuel",
+  "meat_products",
+  "media__radio",
+  "merchandise",
+  "packaging_materials",
+  "perishable_goods",
+  "pharmaceuticals",
+  "plastic_and_spices",
+  "road_construction",
+  "salt",
+  "security_services",
+  "soda_ash",
+  "_diaries",
+  "steel_doors_window_farmes",
+  "steel_merchants",
+  "timber_products",
+  "travelling_bags",
+  "water_supplies",
+  "column_break_dyrxh",
+  "associated_companies",
+  "government",
+  "retailers",
+  "manufacturers",
+  "wholesalers",
+  "buyer_experience_tab",
+  "buyer_experience_add_new",
+  "buyer_experience_child_table",
+  "section_break_5ofxj",
+  "year_count",
+  "column_break_bh4ay",
+  "total_turnover",
+  "column_break_yto49",
+  "total_bad_debt",
+  "section_break_dupxh",
+  "actual_estimated_bad_debts",
+  "for_the_period_of",
+  "actual_loss",
+  "estimated_loss",
+  "on_a_turnover",
+  "column_break_mmin2",
+  "current_year_estimates",
+  "currentyear_turnover",
+  "govtsales",
+  "column_break_iuirw",
+  "next_year_estimates",
+  "nextyear_turnover",
+  "govtsales2",
+  "debt_history_tab",
+  "debt_history_add_new",
+  "debt_history_child_table",
+  "credit_period",
+  "section_break_tli1r",
+  "normal",
+  "column_break_h8s5k",
+  "days",
+  "section_break_zlpc0",
+  "maximum",
+  "column_break_wdhay",
+  "days1",
+  "section_break_srhhm",
+  "debtor_schedule_tab",
+  "debtor_schedule",
+  "column_break_t67yw",
+  "alternate_information",
+  "section_break_cxaqg",
+  "upload",
+  "debtorsheduletable",
+  "grand_total",
+  "section_break_t1tiy",
+  "debtor_schedule_add_new",
+  "alternate_information_table",
+  "total_debtors",
+  "principal_buyer_tab",
+  "principal_buyer_add_new",
+  "principal_buyer_child_table",
+  "quatation_tab",
+  "select_quotation_type",
+  "column_break_frek0",
+  "section_break_kieas",
+  "select_buyers",
+  "all_buyers",
+  "section_break_z13gr",
+  "account_on_which_amount_exceeds",
+  "column_break_g14cc",
+  "calculate",
+  "section_break_m33li",
+  "estimated_of_the_total_monthly_book_debits",
+  "column_break_3imlq",
+  "remarks",
+  "excel_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "dci_proposal_tab",
+   "fieldtype": "Tab Break",
+   "label": "DCI Proposal"
+  },
+  {
+   "fieldname": "section_break_rfvtk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "Company"
+  },
+  {
+   "fieldname": "section_break_trqk8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Company-Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_kbhst",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_155uw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "client_name.trading_name",
+   "fieldname": "trading_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trading Name",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "client_name.establisheddate",
+   "fieldname": "establishmentdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Established Date"
+  },
+  {
+   "fieldname": "column_break_bciwp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "client_name.vat_reg_no",
+   "fieldname": "registrationno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reg.No"
+  },
+  {
+   "fetch_from": "client_name.status",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "section_break_ipz80",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_y4xxr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general",
+   "fieldtype": "Heading",
+   "label": "General"
+  },
+  {
+   "fieldname": "section_break_dnzci",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "signed_by",
+   "fieldtype": "Data",
+   "label": "Signed By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "signed_on",
+   "fieldtype": "Date",
+   "label": "Signed On",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_q1wc1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Select",
+   "label": "Capacity",
+   "options": "\nDIRECTOR\nMEMBER\nMANAGER\nOTHERS\nPARTNER\nPROPRIETOR",
+   "reqd": 1
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Link",
+   "label": "Broker",
+   "options": "Brokers"
+  },
+  {
+   "fieldname": "section_break_rpjdi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "checklist_items",
+   "fieldtype": "Heading",
+   "label": "Checklist Items"
+  },
+  {
+   "fieldname": "proposal_application",
+   "fieldtype": "Attach",
+   "label": "Proposal Application"
+  },
+  {
+   "fieldname": "financial_statements__age_analysis",
+   "fieldtype": "Attach",
+   "label": "Financial Statements/Age Analysis"
+  },
+  {
+   "fieldname": "current_debtor_schedule",
+   "fieldtype": "Attach",
+   "label": "Current Debtor Schedule"
+  },
+  {
+   "fieldname": "directors_shareholders_tab",
+   "fieldtype": "Tab Break",
+   "label": "Directors ShareHolders"
+  },
+  {
+   "fieldname": "section_break_v8eot",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "directors_shareholder_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "directors_shareholders_table",
+   "fieldtype": "Table",
+   "label": "Directors ShareHolders",
+   "options": "Directors_Shareholders_table"
+  },
+  {
+   "fieldname": "tab_break_kgnw2",
+   "fieldtype": "Tab Break",
+   "label": "Nature Of Business"
+  },
+  {
+   "fieldname": "section_break_eezme",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "business_type",
+   "fieldtype": "Heading",
+   "label": "Business Type"
+  },
+  {
+   "fieldname": "column_break_fmyu1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Heading",
+   "label": "Goods /Services"
+  },
+  {
+   "fieldname": "column_break_c8khf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Heading",
+   "label": "Buyer Type"
+  },
+  {
+   "fieldname": "section_break_egx7v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "manufacturer",
+   "fieldtype": "Check",
+   "label": "MANUFACTURER"
+  },
+  {
+   "default": "0",
+   "fieldname": "retailer",
+   "fieldtype": "Check",
+   "label": "RETAILER"
+  },
+  {
+   "default": "0",
+   "fieldname": "wholesaler",
+   "fieldtype": "Check",
+   "label": "WHOLESALER"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "OTHERS"
+  },
+  {
+   "fieldname": "column_break_immen",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "agriculture",
+   "fieldtype": "Check",
+   "label": "AGRICULTURE"
+  },
+  {
+   "default": "0",
+   "fieldname": "airconditioning",
+   "fieldtype": "Check",
+   "label": "AIRCONDITIONING"
+  },
+  {
+   "default": "0",
+   "fieldname": "aluminium_boats",
+   "fieldtype": "Check",
+   "label": "ALUMINIUM BOATS"
+  },
+  {
+   "default": "0",
+   "fieldname": "animal_vaccines",
+   "fieldtype": "Check",
+   "label": "ANIMAL VACCINES"
+  },
+  {
+   "default": "0",
+   "fieldname": "arts_crafts",
+   "fieldtype": "Check",
+   "label": "ARTS & CRAFTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "batteries",
+   "fieldtype": "Check",
+   "label": "BATTERIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "building_materials",
+   "fieldtype": "Check",
+   "label": "BUILDING MATERIALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "canning_cans",
+   "fieldtype": "Check",
+   "label": "CANNING CANS"
+  },
+  {
+   "default": "0",
+   "fieldname": "cellular",
+   "fieldtype": "Check",
+   "label": "CELLULAR"
+  },
+  {
+   "default": "0",
+   "fieldname": "cereals",
+   "fieldtype": "Check",
+   "label": "CEREALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "cigarettes",
+   "fieldtype": "Check",
+   "label": "CIGARETTES"
+  },
+  {
+   "default": "0",
+   "fieldname": "computer_electronic",
+   "fieldtype": "Check",
+   "label": "COMPUTER ELECTRONIC"
+  },
+  {
+   "default": "0",
+   "fieldname": "concrete_products",
+   "fieldtype": "Check",
+   "label": "CONCRETE PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "corporate_clothing",
+   "fieldtype": "Check",
+   "label": "CORPORATE CLOTHING"
+  },
+  {
+   "default": "0",
+   "fieldname": "cosmetics",
+   "fieldtype": "Check",
+   "label": "COSMETICS"
+  },
+  {
+   "default": "0",
+   "fieldname": "couriers",
+   "fieldtype": "Check",
+   "label": "COURIERS"
+  },
+  {
+   "default": "0",
+   "fieldname": "engraving",
+   "fieldtype": "Check",
+   "label": "ENGRAVING"
+  },
+  {
+   "default": "0",
+   "fieldname": "fmcg",
+   "fieldtype": "Check",
+   "label": "FMCG"
+  },
+  {
+   "default": "0",
+   "fieldname": "frozen_chicken",
+   "fieldtype": "Check",
+   "label": "FROZEN CHICKEN"
+  },
+  {
+   "default": "0",
+   "fieldname": "fuel",
+   "fieldtype": "Check",
+   "label": "FUEL"
+  },
+  {
+   "default": "0",
+   "fieldname": "gas",
+   "fieldtype": "Check",
+   "label": "GAS"
+  },
+  {
+   "default": "0",
+   "fieldname": "hair_products",
+   "fieldtype": "Check",
+   "label": "HAIR PRODUCTS"
+  },
+  {
+   "fieldname": "column_break_waiec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "heavy_plant",
+   "fieldtype": "Check",
+   "label": "HEAVY PLANT MACHINERY"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoice_factoring",
+   "fieldtype": "Check",
+   "label": "INVOICE FACTORING"
+  },
+  {
+   "default": "0",
+   "fieldname": "leather_products",
+   "fieldtype": "Check",
+   "label": "LEATHER PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "logistics",
+   "fieldtype": "Check",
+   "label": "LOGISTICS"
+  },
+  {
+   "default": "0",
+   "fieldname": "lubricants__fuel",
+   "fieldtype": "Check",
+   "label": "LUBRICANTS / FUEL"
+  },
+  {
+   "default": "0",
+   "fieldname": "meat_products",
+   "fieldtype": "Check",
+   "label": "MEAT PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "media__radio",
+   "fieldtype": "Check",
+   "label": "MEDIA / RADIO"
+  },
+  {
+   "default": "0",
+   "fieldname": "merchandise",
+   "fieldtype": "Check",
+   "label": "MERCHANDISE"
+  },
+  {
+   "default": "0",
+   "fieldname": "packaging_materials",
+   "fieldtype": "Check",
+   "label": "PACKAGING MATERIALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "perishable_goods",
+   "fieldtype": "Check",
+   "label": "PERISHABLE GOODS"
+  },
+  {
+   "default": "0",
+   "fieldname": "pharmaceuticals",
+   "fieldtype": "Check",
+   "label": "PHARMACEUTICALS"
+  },
+  {
+   "default": "0",
+   "fieldname": "plastic_and_spices",
+   "fieldtype": "Check",
+   "label": "PLASTICS & SPICES"
+  },
+  {
+   "default": "0",
+   "fieldname": "road_construction",
+   "fieldtype": "Check",
+   "label": "ROAD CONSTRUCTION"
+  },
+  {
+   "default": "0",
+   "fieldname": "salt",
+   "fieldtype": "Check",
+   "label": "SALT"
+  },
+  {
+   "default": "0",
+   "fieldname": "security_services",
+   "fieldtype": "Check",
+   "label": "SECURITY SERVICES"
+  },
+  {
+   "default": "0",
+   "fieldname": "soda_ash",
+   "fieldtype": "Check",
+   "label": "SODA ASH"
+  },
+  {
+   "default": "0",
+   "fieldname": "_diaries",
+   "fieldtype": "Check",
+   "label": "STATIONARY & DIARIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "steel_doors_window_farmes",
+   "fieldtype": "Check",
+   "label": "STEEL DOORS & WINDOW FARMES"
+  },
+  {
+   "default": "0",
+   "fieldname": "steel_merchants",
+   "fieldtype": "Check",
+   "label": "STEEL MERCHANTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "timber_products",
+   "fieldtype": "Check",
+   "label": "TIMBER PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "travelling_bags",
+   "fieldtype": "Check",
+   "label": "TRAVELLING BAGS"
+  },
+  {
+   "default": "0",
+   "fieldname": "water_supplies",
+   "fieldtype": "Check",
+   "label": "WATER SUPPLIES"
+  },
+  {
+   "fieldname": "column_break_dyrxh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "associated_companies",
+   "fieldtype": "Check",
+   "label": "ASSOCIATED COMPANIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "government",
+   "fieldtype": "Check",
+   "label": "GOVERNMENT"
+  },
+  {
+   "default": "0",
+   "fieldname": "retailers",
+   "fieldtype": "Check",
+   "label": "RETAILERS"
+  },
+  {
+   "default": "0",
+   "fieldname": "manufacturers",
+   "fieldtype": "Check",
+   "label": "MANUFACTURERS"
+  },
+  {
+   "default": "0",
+   "fieldname": "wholesalers",
+   "fieldtype": "Check",
+   "label": "WHOLESALERS"
+  },
+  {
+   "fieldname": "buyer_experience_tab",
+   "fieldtype": "Tab Break",
+   "label": "Buyer Experience"
+  },
+  {
+   "fieldname": "buyer_experience_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "buyer_experience_child_table",
+   "fieldtype": "Table",
+   "label": "Buyer Experience",
+   "options": "Buyer_experience_ch"
+  },
+  {
+   "fieldname": "section_break_dupxh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "actual_estimated_bad_debts",
+   "fieldtype": "Heading",
+   "label": "Actual Estimated Bad Debts"
+  },
+  {
+   "fieldname": "for_the_period_of",
+   "fieldtype": "Int",
+   "label": "For the Period of(Months)"
+  },
+  {
+   "fieldname": "actual_loss",
+   "fieldtype": "Currency",
+   "label": "Actual Loss"
+  },
+  {
+   "fieldname": "estimated_loss",
+   "fieldtype": "Currency",
+   "label": "Estimated Loss"
+  },
+  {
+   "fieldname": "on_a_turnover",
+   "fieldtype": "Currency",
+   "label": "On a Turnover"
+  },
+  {
+   "fieldname": "column_break_mmin2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_year_estimates",
+   "fieldtype": "Heading",
+   "label": "Current Year Estimates"
+  },
+  {
+   "fieldname": "currentyear_turnover",
+   "fieldtype": "Currency",
+   "label": "Current Year Turnover"
+  },
+  {
+   "fieldname": "govtsales",
+   "fieldtype": "Currency",
+   "label": "Current Year Govt.Sales"
+  },
+  {
+   "fieldname": "column_break_iuirw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next_year_estimates",
+   "fieldtype": "Heading",
+   "label": "Next Year Estimates"
+  },
+  {
+   "fieldname": "nextyear_turnover",
+   "fieldtype": "Currency",
+   "label": "Next Year Turnover"
+  },
+  {
+   "fieldname": "govtsales2",
+   "fieldtype": "Currency",
+   "label": "Next Year Govt.Sales"
+  },
+  {
+   "fieldname": "debt_history_tab",
+   "fieldtype": "Tab Break",
+   "label": "Debt History"
+  },
+  {
+   "fieldname": "debt_history_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "debt_history_child_table",
+   "fieldtype": "Table",
+   "label": "Debt History",
+   "options": "Debt_History_Child"
+  },
+  {
+   "fieldname": "credit_period",
+   "fieldtype": "Heading",
+   "label": "Credit Period"
+  },
+  {
+   "fieldname": "section_break_tli1r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "normal",
+   "fieldtype": "Int",
+   "label": "Normal"
+  },
+  {
+   "fieldname": "column_break_h8s5k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "HTML",
+   "label": "Days",
+   "options": "<p style=\"margin-top: 33px;\">Days</p>\n"
+  },
+  {
+   "fieldname": "section_break_zlpc0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "maximum",
+   "fieldtype": "Int",
+   "label": "Maximum"
+  },
+  {
+   "fieldname": "column_break_wdhay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days1",
+   "fieldtype": "HTML",
+   "label": "Days",
+   "options": "<p style=\"margin-top: 31px;\">Days</p>"
+  },
+  {
+   "fieldname": "section_break_srhhm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "debtor_schedule_tab",
+   "fieldtype": "Tab Break",
+   "label": "Debtor Schedule"
+  },
+  {
+   "default": "0",
+   "fieldname": "debtor_schedule",
+   "fieldtype": "Check",
+   "label": "Debtor Schedule",
+   "read_only_depends_on": "alternate_information"
+  },
+  {
+   "fieldname": "column_break_t67yw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "alternate_information",
+   "fieldtype": "Check",
+   "label": "Alternate Information",
+   "read_only_depends_on": "debtor_schedule"
+  },
+  {
+   "fieldname": "section_break_cxaqg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "debtor_schedule",
+   "fieldname": "upload",
+   "fieldtype": "Attach",
+   "label": "Upload"
+  },
+  {
+   "depends_on": "debtor_schedule",
+   "fieldname": "debtorsheduletable",
+   "fieldtype": "Table",
+   "label": "Debtor Schedule",
+   "options": "Debtor_schedule_child"
+  },
+  {
+   "fieldname": "section_break_t1tiy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "alternate_information",
+   "fieldname": "debtor_schedule_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "depends_on": "alternate_information",
+   "fieldname": "alternate_information_table",
+   "fieldtype": "Table",
+   "label": "Alternate Information",
+   "options": "Alter_Child_table"
+  },
+  {
+   "depends_on": "alternate_information",
+   "fieldname": "total_debtors",
+   "fieldtype": "Data",
+   "label": "Total Debtors",
+   "read_only": 1
+  },
+  {
+   "fieldname": "principal_buyer_tab",
+   "fieldtype": "Tab Break",
+   "label": "Principal Buyer"
+  },
+  {
+   "fieldname": "principal_buyer_add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "principal_buyer_child_table",
+   "fieldtype": "Table",
+   "label": "Principal Buyer",
+   "options": "Principal_Buyer_ch"
+  },
+  {
+   "fieldname": "quatation_tab",
+   "fieldtype": "Tab Break",
+   "label": "Quotation"
+  },
+  {
+   "fieldname": "select_quotation_type",
+   "fieldtype": "Heading",
+   "label": "Select Quotation Type"
+  },
+  {
+   "fieldname": "column_break_frek0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_kieas",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "select_buyers",
+   "fieldtype": "Check",
+   "label": "Select Buyers"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_buyers",
+   "fieldtype": "Check",
+   "label": "All Buyers"
+  },
+  {
+   "fieldname": "section_break_z13gr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account_on_which_amount_exceeds",
+   "fieldtype": "Currency",
+   "label": "Account on which amount exceeds"
+  },
+  {
+   "fieldname": "section_break_m33li",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "estimated_of_the_total_monthly_book_debits",
+   "fieldtype": "Percent",
+   "label": "estimated of the total monthly book debits %",
+   "read_only": 1
+  },
+  {
+   "depends_on": "debtor_schedule",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Grand Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_g14cc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculate",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "year_count",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Year Count"
+  },
+  {
+   "fieldname": "column_break_bh4ay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_turnover",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Turnover"
+  },
+  {
+   "fieldname": "column_break_yto49",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_bad_debt",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Bad Debt"
+  },
+  {
+   "fieldname": "section_break_5ofxj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3imlq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_ppydo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_68ntn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "excel_data",
+   "fieldtype": "JSON",
+   "hidden": 1,
+   "label": "excel_data "
+  },
+  {
+   "fieldname": "column_break_vrehy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_o58re",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nature_of_bussiness_4",
+   "fieldtype": "Data",
+   "label": "Nature Of Bussiness"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-18 09:19:14.590949",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "DCI Proposals",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

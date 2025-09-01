@@ -1,0 +1,201 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {claim_refno}",
+ "creation": "2024-04-23 06:24:45.890080",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_9klpq",
+  "ph_name",
+  "ph_name1",
+  "section_break_lupdn",
+  "policyno",
+  "policyno1",
+  "inception_date",
+  "buyer",
+  "terms_of_payment",
+  "potential_claim_no",
+  "potential_claim_no1",
+  "claim_value__p",
+  "cause_of_loss",
+  "column_break_jmfte",
+  "cl_claim_date",
+  "client_type",
+  "credit_limit",
+  "claim_refno",
+  "cl_inception_date",
+  "cl_expiry_date",
+  "notes",
+  "section_break_vtpzj",
+  "claim_invoices",
+  "section_break_yefef",
+  "ci_claim_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_9klpq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PH Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ph_name1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "section_break_lupdn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policyno",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Policy.No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "policyno1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy.No"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Data",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "potential_claim_no",
+   "fieldtype": "Select",
+   "label": "Potential Claim No"
+  },
+  {
+   "fieldname": "potential_claim_no1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Potential Claim No"
+  },
+  {
+   "fieldname": "claim_value__p",
+   "fieldtype": "Data",
+   "label": "Claim Value  p"
+  },
+  {
+   "fieldname": "cause_of_loss",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cause Of Loss",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jmfte",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cl_claim_date",
+   "fieldtype": "Data",
+   "label": "Claim Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client_type",
+   "fieldtype": "Data",
+   "label": "Client Type"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit Limit  p"
+  },
+  {
+   "fieldname": "claim_refno",
+   "fieldtype": "Data",
+   "label": "Claim Ref.No"
+  },
+  {
+   "fieldname": "cl_inception_date",
+   "fieldtype": "Data",
+   "label": "CL Inception Date"
+  },
+  {
+   "fieldname": "cl_expiry_date",
+   "fieldtype": "Data",
+   "label": "CL Expiry Date"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_vtpzj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "claim_invoices",
+   "fieldtype": "Heading",
+   "label": "Claim Invoices"
+  },
+  {
+   "fieldname": "section_break_yefef",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ci_claim_table",
+   "fieldtype": "Table",
+   "options": "CI Claim Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-27 10:35:42.648914",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "CI Claim",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

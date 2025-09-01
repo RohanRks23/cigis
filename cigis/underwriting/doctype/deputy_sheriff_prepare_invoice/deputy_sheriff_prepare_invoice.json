@@ -1,0 +1,206 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ecgc_refno",
+ "creation": "2024-04-16 08:36:10.833204",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_invoice",
+  "section_break_bn0mh",
+  "ecgc_refno",
+  "guarantee_amount",
+  "date",
+  "month",
+  "guarantee_fee_rate",
+  "reinsure",
+  "reinsurer_ref_number",
+  "reinsurer_",
+  "portion_of_guarantee_amount_to_reinsurer",
+  "portion_of_guarantee_fee_to_reinsurer",
+  "ecgc_comission_",
+  "broker",
+  "broker_",
+  "column_break_rsnhc",
+  "total_due_with_out_vat",
+  "vat_",
+  "vat",
+  "total_due",
+  "invoice_date",
+  "bond_period_to",
+  "guarantee_fee",
+  "ecgc_",
+  "portion_of_guarantee_amount_to_ecgc",
+  "portion_of_guarantee_fee_to_ecgc",
+  "ecgc_commission",
+  "broker_commission"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_invoice",
+   "fieldtype": "Heading",
+   "label": "Bond Invoice"
+  },
+  {
+   "fieldname": "section_break_bn0mh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ecgc_refno",
+   "fieldtype": "Data",
+   "label": "ECGC REF.No",
+   "unique": 1
+  },
+  {
+   "fieldname": "guarantee_amount",
+   "fieldtype": "Data",
+   "label": "Guarantee Amount"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "guarantee_fee_rate",
+   "fieldtype": "Percent",
+   "label": "Guarantee Fee Rate"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "ReInsure"
+  },
+  {
+   "fieldname": "reinsurer_ref_number",
+   "fieldtype": "Data",
+   "label": "ReInsurer Ref. Number"
+  },
+  {
+   "fieldname": "reinsurer_",
+   "fieldtype": "Data",
+   "label": "ReInsurer %"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_reinsurer",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarantee Amount To ReInsurer"
+  },
+  {
+   "fieldname": "portion_of_guarantee_fee_to_reinsurer",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarantee Fee To ReInsurer"
+  },
+  {
+   "fieldname": "ecgc_comission_",
+   "fieldtype": "Percent",
+   "label": "ECGC Comission %"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "broker_",
+   "fieldtype": "Data",
+   "label": "Broker %"
+  },
+  {
+   "fieldname": "column_break_rsnhc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_due_with_out_vat",
+   "fieldtype": "Currency",
+   "label": "Total Due (With out VAT)"
+  },
+  {
+   "fieldname": "vat_",
+   "fieldtype": "Percent",
+   "label": "VAT %"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Currency",
+   "label": "Vat"
+  },
+  {
+   "fieldname": "total_due",
+   "fieldtype": "Currency",
+   "label": "Total Due"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "guarantee_fee",
+   "fieldtype": "Currency",
+   "label": "Guarantee Fee"
+  },
+  {
+   "fieldname": "ecgc_",
+   "fieldtype": "Percent",
+   "label": "ECGC %"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_ecgc",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarantee Amount To ECGC"
+  },
+  {
+   "fieldname": "portion_of_guarantee_fee_to_ecgc",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarantee Fee To ECGC"
+  },
+  {
+   "fieldname": "ecgc_commission",
+   "fieldtype": "Currency",
+   "label": "ECGC Commission"
+  },
+  {
+   "fieldname": "broker_commission",
+   "fieldtype": "Currency",
+   "label": "Broker Commission"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 08:34:37.560074",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Deputy Sheriff Prepare Invoice",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-27 11:10:16.233751",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "phname",
+  "policyno",
+  "clienttype",
+  "inceptiondate",
+  "buyer",
+  "termsofpayment",
+  "clinceptiondate",
+  "claimvalue",
+  "causeofloss",
+  "column_break_l79pb",
+  "claimdate",
+  "claimrefno",
+  "vat",
+  "creditlimit",
+  "clexpirydat"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "phname",
+   "fieldtype": "Select",
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "policyno",
+   "fieldtype": "Select",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "clienttype",
+   "fieldtype": "Data",
+   "label": "Client Type"
+  },
+  {
+   "fieldname": "inceptiondate",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "termsofpayment",
+   "fieldtype": "Data",
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "clinceptiondate",
+   "fieldtype": "Data",
+   "label": "CL Inception Date"
+  },
+  {
+   "fieldname": "claimvalue",
+   "fieldtype": "Data",
+   "label": "Claim Value"
+  },
+  {
+   "fieldname": "causeofloss",
+   "fieldtype": "Select",
+   "label": "Cause of Loss",
+   "options": "Select\nDEFAULT\nINSOLVENT"
+  },
+  {
+   "fieldname": "column_break_l79pb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claimdate",
+   "fieldtype": "Date",
+   "label": "ClaimDate"
+  },
+  {
+   "fieldname": "claimrefno",
+   "fieldtype": "Data",
+   "label": "Claim Ref No"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Select",
+   "label": "VAT%"
+  },
+  {
+   "fieldname": "creditlimit",
+   "fieldtype": "Data",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "clexpirydat",
+   "fieldtype": "Date",
+   "label": "CL Expiry Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:51.605737",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Potential Client",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

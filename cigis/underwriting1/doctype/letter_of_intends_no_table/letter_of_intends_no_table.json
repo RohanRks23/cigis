@@ -1,0 +1,74 @@
+{
+ "_liked_by": "[\"sandhya.m@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 13:39:50.707189",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "letter_intends_no",
+  "bond_facility_no",
+  "tendor_no",
+  "principal",
+  "date",
+  "description",
+  "value"
+ ],
+ "fields": [
+  {
+   "fieldname": "letter_intends_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Letter Of Intends No"
+  },
+  {
+   "fieldname": "bond_facility_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond Facility No"
+  },
+  {
+   "fieldname": "tendor_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tendor No"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Principal"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:36.084366",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Letter Of Intends No Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

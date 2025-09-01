@@ -1,0 +1,60 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-20 13:38:39.278420",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "request_no",
+  "request_date",
+  "refnumber",
+  "cb_response_date",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "request_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Request No"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "refnumber",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ref.Number"
+  },
+  {
+   "fieldname": "cb_response_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "CB Response Date"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Result"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:37.135790",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "CB Report Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

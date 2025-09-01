@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:reinsurename",
+ "creation": "2024-03-11 07:09:10.031502",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reinsurename",
+  "shortname",
+  "physicaladdress",
+  "physicaladdress2",
+  "city",
+  "telephone",
+  "contactperson",
+  "column_break_7phll",
+  "status",
+  "postaladdress",
+  "country",
+  "fax",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "reinsurename",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "Short Name"
+  },
+  {
+   "fieldname": "physicaladdress",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "contactperson",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "column_break_7phll",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInActive"
+  },
+  {
+   "fieldname": "postaladdress",
+   "fieldtype": "Data",
+   "label": "Postal Address"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Select",
+   "label": "Country",
+   "options": "\nABU DHABI\nAJMAN\nANDORRA\nANGOLA\nANGUILLA\nANTIGUA&BARBUDA\nARGENTINA\nARUBA\nASCENSION ISLAND\nAUSTRALIA\nAUSTRIA\nAZORES\nBAHAMAS\nBAHRAIN\nBARBADOS\nBELGIUM\nBELIZE\nBERMUDA\nBOLIVIA\nBOTSWANA\nBRAZIL\nBRUNEI\nCANADA\nCANARY ISLANDS\nCAYMAN ISLANDS\nCEUTA&MELILLA\nCHANNEL ISLANDS\nCHILE\nCHINA\nCHRISTMAS ISLANDS\nCOCOS ISLANDS\nCOLOMBIA\nCONGO DRC\nCOOK ISLANDS\nCYPRUS\nCZECH REPUBLIC\nDENMARK\nDOMINICAN REPUBLIC\nDUBAI\nECUADOR\nEGYPT\nEI SALVADOR\nEIRE\nFALKLAND ISLANDS\nFAROE ISLANDS\nFIJI\nFINLAND\nFRANCE\nFRENCH GUINEA\nFRENCH POLYNESIA\nFUJAIRAH\nGERMANY\nGHANA\nGIBRALTAR\nGREECE\nGREENLAND\nGRENADA\nGUADELOUPE\nGUAM\nGUATEMALA\nHONDURAS\nHONG KONG\nHUNGARY\nICELAND\nINDIA\nISLE OF MAN\nISRAEL\nITALY\nJAMAICA\nJAPAN\nJORDAN\nKENYA\nKIRIBATI\nKOREA(SOUTH)\nKUWAIT\nLAOS\nLIECHTENSTEIN\nLUXEMBOURG\nMACAO\nMADEIRA\nMALAWI\nMALAYSIA\nMALDIVES\nMALTA\nMARSHALL ISLANDS\nMARTINIQUE\nMAURITIUS\nMAYOTTE\nMEXICO\nMICRONESIA, FEDERATED STATES OF\nMONACO\nMONTSERRAT\nMOROCCO\nMOZAMBIQUE\nNAMBIA\nNETHERLANDS\nNETHERLANDS ANTILLES\nNEW CALEDONIA\nNEW ZEALAND\nNICARAGUA\nNIUE\nNORFOLK ISLANDS\nNORTHERN MARIANA ISLANDS\nNORWAY\nOMAN\nPAKISTAN\nPALAU\nPANAMA\nPARAGUAY\nPHILIPPINES\nPITCAIRN ISLAND\nPOLAND\nPORTUGAL\nPUERTO RICO\nQATAR\nRAS AL KHAIMAH\nREUNION\nSAINT LUCIA\nSAINT VINCENT & THE GRENADINES\nSAMOA, AMERICAN\nSAMOA, WESTERN\nSAN MARINO\nSAUDI ARABIA\nSENEGAL\nSEYCHELLES\nSHARJAH\nSINGAPORE\nSOLOMON ISLANDS\nSOUTH AFRICA\nSOUTH GEORGIA & SOUTH SANDWICH ISLANDS\nSPAIN\nSRI LANKA\nST PIERRE & MIQUELON\nST. HELENA\nST. KITTS & NEVIS\nSWAZILAND\nSWEDEN\nSWITZERLAND\nTAIWAN\nTHAILAND\nTOKELAU\nTONGA\nTRINIDAD AND TOBAGO\nTRISTAN DA CUNHA\nTUNISIA\nTURKEY\nTURKS AND CAICOS ISLANDS\nTUVALU\nUMM AL QUWAIN\nUNITED KINGDOM\nUNITED STATES OF AMERICA\nURUGUAY\nVANUATU\nVATICAN CITY\nVIRGIN ISLANDS BRITISH\nVIRGIN ISLANDS, US\nWALLIS & FORTUNA ISLANDS\nYEMEN\nZAMBIA\nZIMBABWE\nNULL"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "physicaladdress2",
+   "fieldtype": "Data",
+   "label": "Another Physical Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-25 06:21:43.034185",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "ReInsurers Details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

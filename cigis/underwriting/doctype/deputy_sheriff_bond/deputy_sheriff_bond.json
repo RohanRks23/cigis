@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:bond_no",
+ "creation": "2024-04-15 13:48:59.575287",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "deputy_sheriff_bond_details",
+  "section_break_foff1",
+  "bond_no",
+  "section_break_ei2wa",
+  "sheriff_name",
+  "add_new",
+  "column_break_aq4co",
+  "description_of_contract",
+  "section_break_6xvo6",
+  "period_from",
+  "bond_value",
+  "premium_without_vat",
+  "reinsurer",
+  "reinsurer_ref_numbeecgc_invoice_no",
+  "ecgc_reinsurance_commission",
+  "column_break_yfdti",
+  "broker",
+  "period_to",
+  "premium",
+  "premium_rate",
+  "reinsurer_rate",
+  "security_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond No",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_ei2wa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sheriff_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sheriff Name",
+   "options": "DeputySheriffBond",
+   "reqd": 1
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "column_break_aq4co",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description_of_contract",
+   "fieldtype": "Long Text",
+   "label": "Description of Contract"
+  },
+  {
+   "fieldname": "section_break_6xvo6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Period From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Bond Value($)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "premium_without_vat",
+   "fieldtype": "Currency",
+   "label": "Premium without Vat"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Link",
+   "label": "ReInsurer",
+   "options": "ReInsurers Details"
+  },
+  {
+   "fieldname": "reinsurer_ref_numbeecgc_invoice_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ReInsurer Ref. Numbe/ECGC Invoice No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ecgc_reinsurance_commission",
+   "fieldtype": "Percent",
+   "label": "ECGC ReInsurance Commission %"
+  },
+  {
+   "fieldname": "column_break_yfdti",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Link",
+   "label": "Broker",
+   "options": "DataStored"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "Currency",
+   "label": "Premium",
+   "reqd": 1
+  },
+  {
+   "fieldname": "security_type",
+   "fieldtype": "Data",
+   "label": "Security Type"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Percent",
+   "label": "Premium Rate %"
+  },
+  {
+   "fieldname": "reinsurer_rate",
+   "fieldtype": "Percent",
+   "label": "ReInsurer %"
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deputy_sheriff_bond_details",
+   "fieldtype": "Heading",
+   "label": "Deputy Sheriff Bond Details"
+  },
+  {
+   "fieldname": "section_break_foff1",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-08 06:48:13.310720",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Deputy Sheriff Bond",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

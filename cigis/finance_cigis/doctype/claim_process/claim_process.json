@@ -1,0 +1,401 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:paymentrefno",
+ "creation": "2024-03-27 10:57:14.264256",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_aoydq",
+  "paymentrefno",
+  "client",
+  "client1",
+  "policy_number",
+  "policy_no",
+  "policy_type",
+  "bond",
+  "dci",
+  "eci",
+  "buyer",
+  "buyer1",
+  "claim_ref_no",
+  "claimamount",
+  "reinsure",
+  "column_break_re4jw",
+  "status",
+  "processdate",
+  "causeofloss",
+  "insuredamt",
+  "beci",
+  "section_break_gwfq0",
+  "payment_check_list_items",
+  "section_break_g3qzr",
+  "column_break_c5rth",
+  "delivery_column",
+  "deman_letter",
+  "column_break_4ligk",
+  "contractor_final_account_report",
+  "section_break_1jili",
+  "invoiceattached",
+  "column_break_umvi5",
+  "order_attached",
+  "column_break_7gbj0",
+  "delivary_notes",
+  "column_break_majkw",
+  "statement",
+  "column_break_fy6ir",
+  "section_break_8rhid",
+  "sureties",
+  "column_break_puitb",
+  "claims_application_formannexure",
+  "column_break_ixnae",
+  "column_break_zpte7",
+  "copies_of_correspondence_with_the_buyer",
+  "column_break_0mlay",
+  "section_break_oygtv",
+  "claims_application_form",
+  "column_break_2v3i2",
+  "statement_to_show_with_is_outstanding_from_a_specific_buyer",
+  "column_break_h2y0n",
+  "column_break_dvscp",
+  "column_break_8fj9u",
+  "column_break_5uhqp",
+  "column_break_er6sj",
+  "column_break_yz9wa",
+  "column_break_qokri",
+  "next"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_aoydq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Select",
+   "label": "Name"
+  },
+  {
+   "fieldname": "client1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "name"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Select",
+   "label": "Policy Number/Bond Number"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "policy no"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "default": "0",
+   "fieldname": "bond",
+   "fieldtype": "Check",
+   "label": "BOND"
+  },
+  {
+   "default": "0",
+   "fieldname": "dci",
+   "fieldtype": "Check",
+   "label": "DCI"
+  },
+  {
+   "default": "0",
+   "fieldname": "eci",
+   "fieldtype": "Check",
+   "label": "ECI"
+  },
+  {
+   "fieldname": "paymentrefno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Payment Reference Number",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "buyer1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Select",
+   "label": "Claim Ref.Number"
+  },
+  {
+   "fieldname": "claimamount",
+   "fieldtype": "Currency",
+   "label": "Claim Amount"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "Reinsure%"
+  },
+  {
+   "fieldname": "column_break_re4jw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Stauts"
+  },
+  {
+   "fieldname": "processdate",
+   "fieldtype": "Data",
+   "label": "Process Date"
+  },
+  {
+   "fieldname": "causeofloss",
+   "fieldtype": "Data",
+   "label": "Cause of Loss"
+  },
+  {
+   "fieldname": "insuredamt",
+   "fieldtype": "Data",
+   "label": "Insured Amt "
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "Currency",
+   "label": "BECI %"
+  },
+  {
+   "fieldname": "section_break_gwfq0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_check_list_items",
+   "fieldtype": "HTML",
+   "label": "Payment Check List Items",
+   "options": "<h5>Payment Check List Items</h5>"
+  },
+  {
+   "fieldname": "section_break_g3qzr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_c5rth",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "delivery_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deman_letter",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Demand Letter"
+  },
+  {
+   "fieldname": "column_break_4ligk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "contractor_final_account_report",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Contractor Final Account Report"
+  },
+  {
+   "fieldname": "section_break_1jili",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoiceattached",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Invoiceattached"
+  },
+  {
+   "fieldname": "column_break_umvi5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "order_attached",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "order attached"
+  },
+  {
+   "fieldname": "column_break_7gbj0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "delivary_notes",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Delivery Notes"
+  },
+  {
+   "fieldname": "column_break_majkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "statement",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Statement"
+  },
+  {
+   "fieldname": "column_break_fy6ir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8rhid",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureties",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Sureties"
+  },
+  {
+   "fieldname": "column_break_puitb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "claims_application_formannexure",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Claims Application Form/Annexure"
+  },
+  {
+   "fieldname": "column_break_ixnae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zpte7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "copies_of_correspondence_with_the_buyer",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Copies of Correspondence With the Buyer"
+  },
+  {
+   "fieldname": "column_break_0mlay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_oygtv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "claims_application_form",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Claims Application Form"
+  },
+  {
+   "fieldname": "column_break_2v3i2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "statement_to_show_with_is_outstanding_from_a_specific_buyer",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Statement To Show With is Outstanding from a specific Buyer"
+  },
+  {
+   "fieldname": "column_break_h2y0n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dvscp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8fj9u",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_5uhqp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_er6sj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yz9wa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qokri",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-18 13:47:06.988461",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Claim Process",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

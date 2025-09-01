@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-26 10:37:48.838790",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer_type",
+  "country_of_dest",
+  "total_turnoverlast_year",
+  "estturnovernext_12_months",
+  "currency_invoiced_eg_pularandsusd",
+  "terms_of_payment",
+  "associated_companies",
+  "government_buyers",
+  "private_buyers"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Type"
+  },
+  {
+   "fieldname": "country_of_dest",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Country of Dest"
+  },
+  {
+   "fieldname": "total_turnoverlast_year",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Turnover(Last Year)"
+  },
+  {
+   "fieldname": "estturnovernext_12_months",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Est/Turnover(Next 12 Months)"
+  },
+  {
+   "fieldname": "currency_invoiced_eg_pularandsusd",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Currency Invoiced e.g Pula,Rands,USD"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Terms of Payment"
+  },
+  {
+   "default": "0",
+   "fieldname": "associated_companies",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Associated Companies"
+  },
+  {
+   "default": "0",
+   "fieldname": "government_buyers",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Government Buyers"
+  },
+  {
+   "default": "0",
+   "fieldname": "private_buyers",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Private Buyers"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-12 07:02:41.611563",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Export Turnover Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

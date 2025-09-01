@@ -1,0 +1,459 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{claim_ref_no}",
+ "creation": "2024-04-11 12:56:46.246190",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_xd5mo",
+  "ph_name",
+  "section_break_g8vvc",
+  "policyno",
+  "policy_no",
+  "client_type",
+  "column_break_fdhtz",
+  "claim_date",
+  "claim_ref_no",
+  "section_break_csisk",
+  "inception_date",
+  "section_break_5ash9",
+  "buyer",
+  "terms_of_payment",
+  "cl_inception_date",
+  "claim_value",
+  "cause_of_loss",
+  "column_break_rzbqx",
+  "vat",
+  "credit_limit",
+  "cl_expiry_date",
+  "status",
+  "notes",
+  "section_break_rq51w",
+  "check_list",
+  "section_break_uvgfx",
+  "column_break_4ci3h",
+  "column_break_vx93v",
+  "invoice_attached",
+  "delivery_notes",
+  "sureties",
+  "cl_approval_form__annexure",
+  "column_break_zzhr3",
+  "order_attached",
+  "statement",
+  "claims_application_form",
+  "copies_of_correspondence_with_the_buyer",
+  "column_break_qufr3",
+  "section_break_3svap",
+  "column_break_tcrt6",
+  "column_break_uf9tf",
+  "upload_document",
+  "column_break_l5srj",
+  "view_document",
+  "column_break_kdvar",
+  "section_break_6uzuu",
+  "claim_invoices",
+  "section_break_lzqtx",
+  "upload",
+  "section_break_njras",
+  "invoice_details",
+  "section_break_5vghx",
+  "type",
+  "invoice_no",
+  "column_break_x9q59",
+  "date",
+  "amount",
+  "section_break_wzkhu",
+  "column_break_khhhv",
+  "column_break_0dgec",
+  "column_break_bpqzz",
+  "column_break_yjfxa",
+  "with_vat",
+  "column_break_kbcbd",
+  "without_vat",
+  "column_break_b3b2n",
+  "section_break_fnqpd",
+  "add_new",
+  "section_break_t0t6r",
+  "potential_claim_table",
+  "section_break_z4jfk"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_xd5mo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "section_break_g8vvc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policyno",
+   "fieldtype": "Select",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "client_type",
+   "fieldtype": "Data",
+   "label": "Client Type"
+  },
+  {
+   "fieldname": "column_break_fdhtz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claim_date",
+   "fieldtype": "Date",
+   "label": " Claim Date"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Data",
+   "label": "Claim Ref No",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_csisk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "section_break_5ash9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "label": "Buyer"
+  },
+  {
+   "default": "30",
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "cl_inception_date",
+   "fieldtype": "Data",
+   "label": "CL Inception Date"
+  },
+  {
+   "fieldname": "claim_value",
+   "fieldtype": "Data",
+   "label": "Claim Value"
+  },
+  {
+   "fieldname": "cause_of_loss",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cause of Loss",
+   "options": "\nSelect\nDEFAULT\nINSOLVENT",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_rzbqx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "VAT"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "cl_expiry_date",
+   "fieldtype": "Data",
+   "label": "CL Expiry Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nPending\nPartial Payment\nFull Payment\nNo Payment"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_rq51w",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "check_list",
+   "fieldtype": "Heading",
+   "label": "Check List"
+  },
+  {
+   "fieldname": "section_break_uvgfx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4ci3h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vx93v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoice_attached",
+   "fieldtype": "Check",
+   "label": "Invoice attached?"
+  },
+  {
+   "default": "0",
+   "fieldname": "delivery_notes",
+   "fieldtype": "Check",
+   "label": "Delivery Notes"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureties",
+   "fieldtype": "Check",
+   "label": "Sureties"
+  },
+  {
+   "default": "0",
+   "fieldname": "cl_approval_form__annexure",
+   "fieldtype": "Check",
+   "label": "CL Approval Form / Annexure"
+  },
+  {
+   "fieldname": "column_break_zzhr3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "order_attached",
+   "fieldtype": "Check",
+   "label": "Order attached?"
+  },
+  {
+   "default": "0",
+   "fieldname": "statement",
+   "fieldtype": "Check",
+   "label": "Statement"
+  },
+  {
+   "default": "0",
+   "fieldname": "claims_application_form",
+   "fieldtype": "Check",
+   "label": "Claims Application Form"
+  },
+  {
+   "default": "0",
+   "fieldname": "copies_of_correspondence_with_the_buyer",
+   "fieldtype": "Check",
+   "label": "Copies of Correspondence with the Buyer"
+  },
+  {
+   "fieldname": "column_break_qufr3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_3svap",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tcrt6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_uf9tf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "upload_document",
+   "fieldtype": "Attach",
+   "label": "Upload Document"
+  },
+  {
+   "fieldname": "column_break_l5srj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "view_document",
+   "fieldtype": "Attach",
+   "label": "View Document"
+  },
+  {
+   "fieldname": "column_break_kdvar",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6uzuu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "claim_invoices",
+   "fieldtype": "Heading",
+   "label": "Claim Invoices"
+  },
+  {
+   "fieldname": "section_break_lzqtx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "upload",
+   "fieldtype": "Button",
+   "label": "Upload"
+  },
+  {
+   "fieldname": "section_break_njras",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_details",
+   "fieldtype": "Heading",
+   "label": "Invoice Details"
+  },
+  {
+   "fieldname": "section_break_5vghx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nInvoice\nPayment\nOthers"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "column_break_x9q59",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "section_break_wzkhu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_khhhv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0dgec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bpqzz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yjfxa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_vat",
+   "fieldtype": "Check",
+   "label": "With VAT",
+   "read_only_depends_on": "without_vat"
+  },
+  {
+   "fieldname": "column_break_kbcbd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "without_vat",
+   "fieldtype": "Check",
+   "label": "Without VAT",
+   "read_only_depends_on": "with_vat"
+  },
+  {
+   "fieldname": "column_break_b3b2n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_fnqpd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "section_break_t0t6r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "potential_claim_table",
+   "fieldtype": "Table",
+   "options": "Potential Claim Child"
+  },
+  {
+   "fieldname": "section_break_z4jfk",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-01 07:09:10.369926",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Potential Claims",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

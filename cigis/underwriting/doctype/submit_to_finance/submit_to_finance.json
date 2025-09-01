@@ -1,0 +1,312 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:invoice_no",
+ "creation": "2024-05-07 12:24:42.163253",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general",
+  "section_break_egjkz",
+  "client",
+  "name1",
+  "invoice_date",
+  "vat",
+  "column_break_ak6ib",
+  "status",
+  "invoice_no",
+  "invoice_amount",
+  "section_break_inhpr",
+  "child_table",
+  "section_break_k0j1z",
+  "line_items",
+  "section_break_vypcr",
+  "month",
+  "column_break_fddih",
+  "year",
+  "section_break_fl3vl",
+  "premium_charges",
+  "column_break_o0wcc",
+  "premium_rate",
+  "column_break_ensok",
+  "a",
+  "section_break_bingk",
+  "credit_limit_fee",
+  "column_break_on9lu",
+  "credit_limit",
+  "column_break_prazd",
+  "b",
+  "section_break_ybkak",
+  "credit_limit_enquiry_fee",
+  "column_break_ihech",
+  "credit_limits",
+  "column_break_ztvx9",
+  "c",
+  "section_break_zv3n7",
+  "add",
+  "column_break_owmug",
+  "column_break_ibnty",
+  "total",
+  "section_break_nnkli",
+  "column_break_7ramw",
+  "column_break_fddhi",
+  "column_break_eiqw2",
+  "submit_to_finance",
+  "column_break_6m1mk",
+  "column_break_kasnc",
+  "column_break_mwjit"
+ ],
+ "fields": [
+  {
+   "fieldname": "general",
+   "fieldtype": "Heading",
+   "label": "General"
+  },
+  {
+   "fieldname": "section_break_egjkz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Vat"
+  },
+  {
+   "fieldname": "column_break_ak6ib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No",
+   "unique": 1
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Currency",
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "section_break_inhpr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "child_table",
+   "fieldtype": "Table",
+   "options": "Submit to Finance Child"
+  },
+  {
+   "fieldname": "section_break_k0j1z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "line_items",
+   "fieldtype": "Heading",
+   "label": "Line Items "
+  },
+  {
+   "fieldname": "section_break_vypcr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month",
+   "options": "Select\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "column_break_fddih",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year",
+   "options": "Select\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030"
+  },
+  {
+   "fieldname": "section_break_fl3vl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "premium_charges",
+   "fieldtype": "Currency",
+   "label": "Premium Charges:"
+  },
+  {
+   "fieldname": "column_break_o0wcc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium rate"
+  },
+  {
+   "fieldname": "column_break_ensok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_bingk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_fee",
+   "fieldtype": "Currency",
+   "label": "Credit Limit Fee:"
+  },
+  {
+   "fieldname": "column_break_on9lu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Currency",
+   "label": "Credit Limits"
+  },
+  {
+   "fieldname": "column_break_prazd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_ybkak",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit_enquiry_fee",
+   "fieldtype": "Currency",
+   "label": "Credit Limit Enquiry fee:"
+  },
+  {
+   "fieldname": "column_break_ihech",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limits",
+   "fieldtype": "Currency",
+   "label": "Credit Limits"
+  },
+  {
+   "fieldname": "column_break_ztvx9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "c",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "section_break_zv3n7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "label": "Add"
+  },
+  {
+   "fieldname": "column_break_owmug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ibnty",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_nnkli",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7ramw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_fddhi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_eiqw2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "submit_to_finance",
+   "fieldtype": "Button",
+   "label": "Submit to Finance"
+  },
+  {
+   "fieldname": "column_break_6m1mk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kasnc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mwjit",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-02 06:47:14.174650",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Submit to Finance",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

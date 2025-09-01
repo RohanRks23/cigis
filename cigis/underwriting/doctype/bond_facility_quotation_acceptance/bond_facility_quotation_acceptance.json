@@ -1,0 +1,279 @@
+{
+ "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2024-02-19 06:28:07.205476",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general",
+  "section_break_7qjht",
+  "name1",
+  "quotation_no",
+  "column_break_aqhcq",
+  "faciity_no",
+  "bond_quotation_is_authorized_by",
+  "section_break_qrsr0",
+  "bond_facility_limit1",
+  "bond_facility_limit2",
+  "bond_facility_limit3",
+  "bond_facility_limit4",
+  "net_facility_amount",
+  "column_break_10vrj",
+  "currency1",
+  "currency2",
+  "currency3",
+  "currency4",
+  "currency5",
+  "column_break_xt2za",
+  "security_percentage_for_limit1",
+  "security_percentage_for_limit2",
+  "security_percentage_for_limit3",
+  "security_percentage_for_limit4",
+  "security_percentage_for_limit5",
+  "section_break_xbim5",
+  "facility_inception_date",
+  "quotation_signed_by",
+  "quotation_signed_on",
+  "created_date",
+  "section_break_ywgtq",
+  "gmapprover_remark",
+  "quotation_authorized_by",
+  "section_break_x2nfv",
+  "send_to_recommendation",
+  "column_break_vi09k",
+  "send_to",
+  "column_break_lg95e",
+  "send_to_recomendation",
+  "column_break_pwves",
+  "include_marketing_as_mail_recipient"
+ ],
+ "fields": [
+  {
+   "fieldname": "general",
+   "fieldtype": "Heading",
+   "label": "General"
+  },
+  {
+   "fieldname": "section_break_7qjht",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name",
+   "options": "Bond Facility Quotation",
+   "unique": 1
+  },
+  {
+   "fetch_from": "name1.quotation_no",
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation No"
+  },
+  {
+   "fetch_from": "name1.bond_facility_no",
+   "fieldname": "faciity_no",
+   "fieldtype": "Data",
+   "label": "Faciity No"
+  },
+  {
+   "fieldname": "bond_quotation_is_authorized_by",
+   "fieldtype": "Data",
+   "label": "Bond Quotation is Authorized By "
+  },
+  {
+   "fieldname": "facility_inception_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Facility Inception Date"
+  },
+  {
+   "fieldname": "quotation_signed_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quotation Signed by"
+  },
+  {
+   "fieldname": "quotation_signed_on",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Quotation Signed on"
+  },
+  {
+   "fieldname": "column_break_aqhcq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qrsr0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_facility_limit1",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit1"
+  },
+  {
+   "fieldname": "currency1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "currency2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_percentage_for_limit1",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit1"
+  },
+  {
+   "fieldname": "currency3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_10vrj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_xbim5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_facility_limit2",
+   "fieldtype": "Data",
+   "label": "Bond Facility Limit2"
+  },
+  {
+   "fieldname": "security_percentage_for_limit2",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit2"
+  },
+  {
+   "fieldname": "currency4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "currency5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_xt2za",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_facility_limit3",
+   "fieldtype": "Data",
+   "label": "Bond Facility Limit3"
+  },
+  {
+   "fieldname": "security_percentage_for_limit3",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit3"
+  },
+  {
+   "fieldname": "bond_facility_limit4",
+   "fieldtype": "Currency",
+   "label": "Bond Facility Limit4"
+  },
+  {
+   "fieldname": "security_percentage_for_limit4",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit4"
+  },
+  {
+   "fieldname": "net_facility_amount",
+   "fieldtype": "Currency",
+   "label": "Net Facility Amount"
+  },
+  {
+   "fieldname": "security_percentage_for_limit5",
+   "fieldtype": "Currency",
+   "label": "Security Percentage for Limit5"
+  },
+  {
+   "fieldname": "created_date",
+   "fieldtype": "Data",
+   "label": "Created Date"
+  },
+  {
+   "fieldname": "section_break_ywgtq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gmapprover_remark",
+   "fieldtype": "Data",
+   "label": "GM/Approver Remark"
+  },
+  {
+   "fieldname": "quotation_authorized_by",
+   "fieldtype": "Data",
+   "label": "Quotation Authorized By"
+  },
+  {
+   "fieldname": "section_break_x2nfv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "send_to_recommendation",
+   "fieldtype": "Heading",
+   "label": "Send To Recommendation"
+  },
+  {
+   "fieldname": "column_break_vi09k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "send_to",
+   "fieldtype": "Select",
+   "label": "Send to"
+  },
+  {
+   "fieldname": "column_break_lg95e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "send_to_recomendation",
+   "fieldtype": "Button",
+   "label": "Send To Recomendation"
+  },
+  {
+   "fieldname": "column_break_pwves",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "include_marketing_as_mail_recipient",
+   "fieldtype": "Check",
+   "label": "Include Marketing as mail recipient"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-01 07:28:22.476038",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Bond Facility Quotation Acceptance",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

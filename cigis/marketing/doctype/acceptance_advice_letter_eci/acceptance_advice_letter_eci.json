@@ -1,0 +1,99 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{to}",
+ "creation": "2024-03-11 12:23:45.495379",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tittle",
+  "to",
+  "section_break_6j8zi",
+  "policy_no",
+  "column_break_8cxii",
+  "proposal_no",
+  "section_break_qkq62",
+  "section_break_5udga",
+  "matter",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "tittle",
+   "fieldtype": "HTML",
+   "label": "tittle",
+   "options": "<style>\nh4 {text-align: center;}\n \n</style>\n<h4><u> ACCEPTANCE ADVICE </u></h4>\n"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "section_break_6j8zi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "QUOTATION POLICY No"
+  },
+  {
+   "fieldname": "column_break_8cxii",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "PROPOSAL NUMBER"
+  },
+  {
+   "fieldname": "section_break_qkq62",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_5udga",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "matter",
+   "fieldtype": "HTML",
+   "label": "matter",
+   "options": "<p>We have examined the above specimen policy and quotation dated and confirm that we. understand and confirm that we understand and are in agreement with the terms and conditions of the proposed cover.  <br><br> We, therefore, accept your quotation and to enable you to issue the policy, we attach our cheque for P in payment for the minimum premium and confirm that : <br> <br> (a).We are not aware of any adverse information or circumstances relating to any particular Buyer or Insurable Transaction which might influence your willingness to assume the risk in respect of such Buyer or Transaction; and <br> <br> (b) the terms and conditions of the policy as well as any details concerning any Buyer shell be regarded as confidential and shell not be disclosed to any party without your express approval. <br> <br> Yours faithfully,<br> <br><br> <br>_______________________________________________<br> <br> Being duly authorised to sign for and on behalf of : <br> <br><br> <br> </p>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 06:44:41.529389",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Acceptance Advice letter_ECI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

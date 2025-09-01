@@ -1,0 +1,305 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-13 08:51:15.710601",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "security_calculation",
+  "section_break_m9w1a",
+  "facility_no",
+  "bond_no",
+  "bf_expousre",
+  "column_break_7hihk",
+  "currency_code",
+  "total_expousre",
+  "section_break_68w5i",
+  "column_break_dtq8k",
+  "limits",
+  "section_break_t0qy7",
+  "from",
+  "limit1",
+  "limit2",
+  "limit3",
+  "limit4",
+  "limit5",
+  "column_break_veu9t",
+  "to",
+  "limit1data",
+  "limit2data",
+  "limit3data",
+  "limit4data",
+  "limit5data",
+  "section_break_pmjod",
+  "security_per",
+  "security_per_limit1",
+  "security_per_limit2",
+  "security_per_limit3",
+  "security_per_limit4",
+  "security_per_limit5",
+  "column_break_yfyot",
+  "split_ups",
+  "split_ups_limit1",
+  "split_ups_limit2",
+  "split_ups_limit3",
+  "split_ups_limit4",
+  "split_ups_limit5",
+  "column_break_rajbu",
+  "security",
+  "security_limit1",
+  "security_limit2",
+  "security_limit3",
+  "security_limit4",
+  "security_limit5",
+  "section_break_xiluf",
+  "column_break_bsitl",
+  "column_break_gajkr",
+  "total_required"
+ ],
+ "fields": [
+  {
+   "fieldname": "security_calculation",
+   "fieldtype": "Heading",
+   "label": "Security Calculation"
+  },
+  {
+   "fieldname": "section_break_m9w1a",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "label": "Facility Number:"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond Number:"
+  },
+  {
+   "fieldname": "bf_expousre",
+   "fieldtype": "Data",
+   "label": "B/F Expousre:"
+  },
+  {
+   "fieldname": "column_break_7hihk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency_code",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "total_expousre",
+   "fieldtype": "Data",
+   "label": "Total Expousre:"
+  },
+  {
+   "fieldname": "section_break_68w5i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dtq8k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "limits",
+   "fieldtype": "HTML",
+   "options": "<h5>Limits</h5>"
+  },
+  {
+   "fieldname": "section_break_t0qy7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "HTML",
+   "options": "<h5>From</h5>"
+  },
+  {
+   "fieldname": "limit1",
+   "fieldtype": "Data",
+   "label": "Limit1(Min):"
+  },
+  {
+   "fieldname": "limit2",
+   "fieldtype": "Data",
+   "label": "Limit2:"
+  },
+  {
+   "fieldname": "limit3",
+   "fieldtype": "Data",
+   "label": "Limit3:"
+  },
+  {
+   "fieldname": "limit4",
+   "fieldtype": "Data",
+   "label": "Limit4:"
+  },
+  {
+   "fieldname": "limit5",
+   "fieldtype": "Data",
+   "label": "Limit5(Max):"
+  },
+  {
+   "fieldname": "column_break_veu9t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "HTML",
+   "options": "<h5>to</h5>"
+  },
+  {
+   "fieldname": "limit1data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "limit2data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "limit3data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "limit4data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "limit5data",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_pmjod",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "security_per",
+   "fieldtype": "HTML",
+   "options": "<h5>Security%</h5>"
+  },
+  {
+   "fieldname": "security_per_limit1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_per_limit2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_per_limit3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_per_limit4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_per_limit5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_yfyot",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "split_ups",
+   "fieldtype": "HTML",
+   "options": "<h5>Split Ups</h5>"
+  },
+  {
+   "fieldname": "split_ups_limit1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "split_ups_limit2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "split_ups_limit3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "split_ups_limit4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "split_ups_limit5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_rajbu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "security",
+   "fieldtype": "HTML",
+   "options": "<h5>Security</h5>"
+  },
+  {
+   "fieldname": "security_limit1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_limit2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_limit3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_limit4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "security_limit5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_xiluf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bsitl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gajkr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_required",
+   "fieldtype": "Data",
+   "label": "Total Required Security:"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 08:43:20.423198",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Security Calculation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

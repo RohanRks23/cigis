@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-11 06:03:16.221536",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "debt_range_from",
+  "debt_range_to",
+  "number_of_debtors"
+ ],
+ "fields": [
+  {
+   "fieldname": "debt_range_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Debt From"
+  },
+  {
+   "fieldname": "debt_range_to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Debt To"
+  },
+  {
+   "fieldname": "number_of_debtors",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Debtor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-05 08:10:02.548031",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Alter_Child_table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

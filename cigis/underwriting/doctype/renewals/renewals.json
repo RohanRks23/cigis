@@ -1,0 +1,495 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{renewal_req_no1}",
+ "creation": "2024-02-16 12:32:08.631428",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_type2",
+  "section_break_f0u4u",
+  "deputyshreiff_bond",
+  "column_break_p2oke",
+  "other_bonds",
+  "section_break_1asy2",
+  "bond_history_tab",
+  "section_break_gb8zk",
+  "bond_holder",
+  "section_break_m4mqt",
+  "bond_no",
+  "column_break_pwfye",
+  "date1",
+  "section_break_vrlsx",
+  "client",
+  "column_break_og8op",
+  "principal",
+  "section_break_4pmd1",
+  "project",
+  "column_break_qygyh",
+  "description",
+  "section_break_zbajn",
+  "bond_period_from",
+  "column_break_7gbxk",
+  "bond_period_to",
+  "section_break_e9xkf",
+  "bond_value",
+  "column_break_pj0kv",
+  "renewal_req_no1",
+  "section_break_fzqwr",
+  "bondtype1",
+  "bond_renewal_tab",
+  "request_date",
+  "section_break_bijw3",
+  "renewal_period_to",
+  "column_break_2nrwm",
+  "renewal_period_from",
+  "section_break_pqvqj",
+  "new_bond_value",
+  "column_break_vssig",
+  "new_premium_rate",
+  "section_break_sytgx",
+  "reason",
+  "column_break_y0ahc",
+  "details",
+  "section_break_hqisw",
+  "bond_type",
+  "section_break_ioqpd",
+  "other_bonds1",
+  "column_break_bdib0",
+  "deputyshireff_bond1",
+  "section_break_fpe7p",
+  "bond_history1",
+  "section_break_crxe6",
+  "bond_holder1",
+  "section_break_f0661",
+  "bond_no1",
+  "column_break_us3bw",
+  "date",
+  "section_break_mbsxz",
+  "client1",
+  "column_break_xgkd8",
+  "principal1",
+  "section_break_5s4hv",
+  "project1",
+  "column_break_aro50",
+  "description1",
+  "section_break_uqavt",
+  "bond_period_from1",
+  "column_break_28r40",
+  "bond_period_to1",
+  "section_break_g03oz",
+  "bond_value1",
+  "column_break_imfvx",
+  "renewal_req_no",
+  "section_break_vwxqg",
+  "bond_type1",
+  "section_break_btvmj",
+  "approval",
+  "section_break_wfojn",
+  "approved_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Heading",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_f0u4u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshreiff_bond",
+   "fieldtype": "Check",
+   "label": "DeputyShreiff Bond"
+  },
+  {
+   "fieldname": "column_break_p2oke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_bonds",
+   "fieldtype": "Check",
+   "label": "Other Bonds"
+  },
+  {
+   "fieldname": "bond_history_tab",
+   "fieldtype": "Heading",
+   "label": "Bond History"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Select",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_m4mqt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "column_break_pwfye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vrlsx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "column_break_og8op",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "section_break_4pmd1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Long Text",
+   "label": "Project"
+  },
+  {
+   "fieldname": "column_break_qygyh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_zbajn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "column_break_7gbxk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "section_break_e9xkf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "column_break_pj0kv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "renewal_req_no",
+   "fieldtype": "Data",
+   "label": "Renewal Req No"
+  },
+  {
+   "fieldname": "section_break_fzqwr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bondtype1",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "bond_renewal_tab",
+   "fieldtype": "Heading",
+   "label": "Bond Renewal"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Request Date"
+  },
+  {
+   "fieldname": "section_break_bijw3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "renewal_period_to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Renewal Period To"
+  },
+  {
+   "fieldname": "column_break_2nrwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "renewal_period_from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Renewal Period From"
+  },
+  {
+   "fieldname": "section_break_pqvqj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "new_bond_value",
+   "fieldtype": "Data",
+   "label": "New Bond Value"
+  },
+  {
+   "fieldname": "column_break_vssig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new_premium_rate",
+   "fieldtype": "Data",
+   "label": "New Premium Rate"
+  },
+  {
+   "fieldname": "section_break_sytgx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reason"
+  },
+  {
+   "fieldname": "column_break_y0ahc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "section_break_1asy2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_hqisw",
+   "fieldtype": "Tab Break",
+   "label": "Renewals"
+  },
+  {
+   "fieldname": "section_break_gb8zk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_type2",
+   "fieldtype": "Heading",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "renewal_req_no1",
+   "fieldtype": "Data",
+   "label": "Renewal Req No"
+  },
+  {
+   "fieldname": "section_break_ioqpd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "other_bonds1",
+   "fieldtype": "Check",
+   "label": "Other Bonds"
+  },
+  {
+   "fieldname": "column_break_bdib0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshireff_bond1",
+   "fieldtype": "Check",
+   "label": "DeputyShireff Bond"
+  },
+  {
+   "fieldname": "section_break_fpe7p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_history1",
+   "fieldtype": "Heading",
+   "label": "Bond History"
+  },
+  {
+   "fieldname": "section_break_crxe6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_holder1",
+   "fieldtype": "Data",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_f0661",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no1",
+   "fieldtype": "Data",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "column_break_us3bw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_mbsxz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client1",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "column_break_xgkd8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "principal1",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "section_break_5s4hv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project1",
+   "fieldtype": "Long Text",
+   "label": "Project"
+  },
+  {
+   "fieldname": "column_break_aro50",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_uqavt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_period_from1",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "column_break_28r40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_period_to1",
+   "fieldtype": "Date",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "section_break_g03oz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_value1",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "column_break_imfvx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vwxqg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_type1",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_btvmj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval",
+   "fieldtype": "Heading",
+   "label": "Approval"
+  },
+  {
+   "fieldname": "section_break_wfojn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approved_on",
+   "fieldtype": "Date",
+   "label": "Approved On"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-04 12:10:27.778299",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Renewals",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

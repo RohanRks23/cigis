@@ -1,0 +1,222 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-02 07:08:27.837414",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "credit_insurence_guarentee_information_system",
+  "section_break_74hkq",
+  "logout",
+  "help",
+  "home",
+  "welcome_admin",
+  "section_break_olzvl",
+  "system_administration",
+  "finance",
+  "undrerwriting",
+  "marketing",
+  "credit",
+  "report",
+  "section_break_h5tfp",
+  "proposal_listing",
+  "section_break_iwljd",
+  "period_from",
+  "column_break_unbit",
+  "client",
+  "section_break_3zjdm",
+  "period_to",
+  "column_break_svoz9",
+  "status",
+  "section_break_8chqx",
+  "generate_button",
+  "column_break_58q1g",
+  "display_result",
+  "column_break_uiuw5",
+  "clear"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "Image",
+   "options": "   <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">"
+  },
+  {
+   "fieldname": "credit_insurence_guarentee_information_system",
+   "fieldtype": "HTML",
+   "label": "Credit Insurence Guarentee information system",
+   "options": "<div class=\"centered\">\n<strong class=\"text-primary\">Credit Insurence Guarentee information system\n</strong>\n<style>\n.centered {\n  position: absolute;\n \nfont-size : 20px;\n  transform: translate(-50%, -50%);\n}\n</style>\n</div>\n"
+  },
+  {
+   "fieldname": "section_break_74hkq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "logout",
+   "fieldtype": "HTML",
+   "label": "Logout",
+   "options": "<button class=\"btn\" style=\"float: right;\">Logout</button>\n<p align=\"right\"></p>\n<style>\n.btn {\n  background-color: DodgerBlue;\n  align:right;\n  border: none;\n  color: white;\n  padding: 12px 16px;\n  font-size: 16px;\n  cursor: pointer;\n  absolute; top: 10px;\n  Right: 10px;\n  padding-right:10px\n}\n</style>\n"
+  },
+  {
+   "fieldname": "help",
+   "fieldtype": "HTML",
+   "label": "Help",
+   "options": "<button class=\"btn\" style=\"float: right;\">Help</button>\n<p align=\"right\"></p>\n<style>\n.btn {\n  background-color: DodgerBlue;\n  align:right;\n  border: none;\n  color: white;\n  padding: 12px 16px;\n  font-size: 16px;\n  cursor: pointer;\n  absolute; top: 10px;\n  Right: 10px;\n}\n</style>\n"
+  },
+  {
+   "fieldname": "home",
+   "fieldtype": "HTML",
+   "label": "Home",
+   "options": "<button class=\"btn\" style=\"float: right;\">Home</button>\n<p align=\"right\"></p>\n<style>\n.btn {\n  background-color: DodgerBlue;\n  align:right;\n  border: none;\n  color: white;\n  padding: 12px 16px;\n  font-size: 16px;\n  cursor: pointer;\n  absolute; top: 10px;\n  Right: 10px;\n}\n</style>\n"
+  },
+  {
+   "fieldname": "welcome_admin",
+   "fieldtype": "HTML",
+   "label": "Welcome Admin",
+   "options": "<div class=\"tab\">\n<a class=\"active\" href=\"#Welcome Admin\">Welcome Admin</a>\n</div>"
+  },
+  {
+   "fieldname": "section_break_olzvl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "system_administration",
+   "fieldtype": "HTML",
+   "label": "System Administration",
+   "options": "<div class=\"topnav-right\">\n<nav class=\"breadcrumb is-right\"> \n<ul class=\"breadcrumb\">\n  <li><a href=\"#\">  SYSTEM ADMINISTRATION  </a></li>\n  <style>\n.topnav-right {\n  float: right;\n}\n</style>\n</ul>\n</nav>\n</div>"
+  },
+  {
+   "fieldname": "finance",
+   "fieldtype": "HTML",
+   "label": "Finance",
+   "options": "<div class=\"topnav-right\">\n<nav class=\"breadcrumb is-right\"> \n<ul class=\"breadcrumb\">\n  <li><a href=\"#\">  FINANCE  /  </a></li>\n  <style>\n.topnav-right {\n  float: right;\n}\n</style>\n</ul>\n</nav>\n</div>"
+  },
+  {
+   "fieldname": "undrerwriting",
+   "fieldtype": "HTML",
+   "label": "Undrerwriting",
+   "options": "<div class=\"topnav-right\">\n<nav class=\"breadcrumb is-right\"> \n<ul class=\"breadcrumb\">\n  <li><a href=\"#\">  UNDERWRITING  /  </a></li>\n  <style>\n.topnav-right {\n  float: right;\n}\n</style>\n</ul>\n</nav>\n</div>"
+  },
+  {
+   "fieldname": "marketing",
+   "fieldtype": "HTML",
+   "label": "Marketing ",
+   "options": "<div class=\"topnav-right\">\n<nav class=\"breadcrumb is-right\"> \n<ul class=\"breadcrumb\">\n  <li><a href=\"#\">MARKETING  /  </a></li>\n  <style>\n.topnav-right {\n  float: right;\n}\n</style>\n</ul>\n</nav>\n</div>"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "HTML",
+   "label": "Credit",
+   "options": "\n<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">\n\n<style>\n\n.dropbtn {\n\n  background-color:  #f1f1f1;\n\n  color: black;\n\n  padding: 16px;\n\n  font-size: 16px;\n\n  border: none;\n\n}\n\n.dropdown {\n\n  position: relative;\n\n  display: inline-block;\n\n}\n\n.dropdown-content {\n\n  display: none;\n\n  position: absolute;\n\n  background-color: #f1f1f1;\n\n  min-width: 160px;\n\n  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\n\n  z-index: 1;\n\n}\n\n.dropdown-content a {\n\n  color: black;\n\n  padding: 12px 16px;\n\n  text-decoration: none;\n\n  display: block;\n\n}\n\n.dropdown-content a:hover {background-color: #ddd;}\n\n.dropdown:hover .dropdown-content {display: block;}\n\n.dropdown:hover .dropbtn {background-color: #f1f1f1;}\n\n</style>\n\n\n<div class=\"dropdown\">\n\n<button class=\"dropbtn\" style=\"float: left;\">Credit</button>\n<div class=\"dropdown-content\">\n<p align=\"left\"></p>\n<a href=\"#\">DCI Proposal</a>\n\n<a href=\"#\">ECI Proposal</a>\n\n<a href=\"#\">Follow-ups</a>\n\n<a href=\"#\">DCI Quotation</a>\n\n<a href=\"#\">ECI Quotation</a>\n\n<a href=\"#\">Policy Approvals</a>\n</div>\n  </div>\n<div class=\"dropdown\">\n\n<button class=\"dropbtn\" style=\"float: left;\">Insurance</button>\n<div class=\"dropdown-content\">\n\n<p align=\"left\"></p>\n<a href=\"#\">A</a>\n\n<a href=\"#\">B</a>\n\n<a href=\"#\">C</a>\n\n<a href=\"#\">D</a>\n\n</div>\n  </div>\n<div class=\"dropdown\">\n\n<button class=\"dropbtn\" style=\"float: left;\">Guarantee</button>\n<div class=\"dropdown-content\">\n\n<p align=\"left\"></p>\n<a href=\"#\">x</a>\n\n<a href=\"#\">y</a>\n\n<a href=\"#\">z</a>\n\n<a href=\"#\">p</a>\n\n</div>\n  </div>\n\n<div class=\"dropdown\">\n\n<button class=\"dropbtn\" style=\"float: left;\">Administration</button>\n<div class=\"dropdown-content\">\n<p align=\"left\"></p>\n<a href=\"#\">Insured</a>\n\n<a href=\"#\">Companies</a>\n\n<a href=\"#\">Brokers</a>\n\n<a href=\"#\">Buyers</a>\n\n</div>\n  </div>\n\n<div class=\"dropdown\">\n\n<button class=\"dropbtn\" style=\"float: left;\">Reports</button>\n<div class=\"dropdown-content\">\n<p align=\"left\"></p>\n<a href=\"#\">List of Active Buyers</a>\n\n<a href=\"#\">List of Active Companies</a>\n\n<a href=\"#\">List of Potentials</a>\n\n<a href=\"#\">DCI Quotation</a>\n\n<a href=\"#\">ECI Quotation</a>\n\n<a href=\"#\">Policy Approvals</a>\n</div>\n</div>\n\n\n\n\n\n"
+  },
+  {
+   "fieldname": "report",
+   "fieldtype": "HTML",
+   "label": "Report",
+   "options": "<meta content=\"width=device-width, initial-scale=1\" name=\"viewport\">\n\n<style>\n\n.dropbtn {\n\n  background-color:  #f1f1f1;\n\n  color: black;\n\n  padding: 16px;\n\n  font-size: 16px;\n\n  border: none;\n\n}\n\n.dropdown {\n\n  position: relative;\n\n  display: inline-block;\n\n}\n\n.dropdown-content {\n\n  display: none;\n\n  position: absolute;\n\n  background-color: #f1f1f1;\n\n  min-width: 160px;\n\n  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\n\n  z-index: 1;\n\n}\n\n.dropdown-content a {\n\n  color: black;\n\n  padding: 12px 16px;\n\n  text-decoration: none;\n\n  display: block;\n\n}\n\n\n\n&lt;div class=\"dropdown\"&gt;\n\n&lt;button class=\"dropbtn\" style=\"float: left;\"&gt;Reports&lt;/button&gt;\n&lt;div class=\"dropdown-content\"&gt;\n&lt;p align=\"left\"&gt;&lt;/p&gt;\n&lt;a href=\"#\"&gt;List of Active Buyers&lt;/a&gt;\n\n&lt;a href=\"#\"&gt;List of Active Companies&lt;/a&gt;\n\n&lt;a href=\"#\"&gt;List of Potentials&lt;/a&gt;\n\n&lt;a href=\"#\"&gt;DCI Quotation&lt;/a&gt;\n\n&lt;a href=\"#\"&gt;ECI Quotation&lt;/a&gt;\n\n&lt;a href=\"#\"&gt;Policy Approvals&lt;/a&gt;\n&lt;/div&gt;\n&lt;/div&gt;</style>"
+  },
+  {
+   "fieldname": "section_break_h5tfp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposal_listing",
+   "fieldtype": "Heading",
+   "label": "Proposal Listing"
+  },
+  {
+   "fieldname": "section_break_iwljd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From"
+  },
+  {
+   "fieldname": "column_break_unbit",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "section_break_3zjdm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "Period To"
+  },
+  {
+   "fieldname": "column_break_svoz9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "SELECT"
+  },
+  {
+   "fieldname": "section_break_8chqx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "generate_button",
+   "fieldtype": "Button",
+   "label": "Generate Button"
+  },
+  {
+   "fieldname": "column_break_58q1g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "display_result",
+   "fieldtype": "Button",
+   "label": "Display Result"
+  },
+  {
+   "fieldname": "column_break_uiuw5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clear",
+   "fieldtype": "Button",
+   "label": "Clear"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 11:25:10.887217",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "LIst_Of_Proposals",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

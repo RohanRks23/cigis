@@ -1,0 +1,117 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{fundname}",
+ "creation": "2024-03-28 09:53:08.949153",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fund_provider",
+  "fname",
+  "fund_refid",
+  "fundname",
+  "purpose",
+  "column_break_hd9ud",
+  "status",
+  "address",
+  "fstatus",
+  "inceptiondate",
+  "intialfundamount"
+ ],
+ "fields": [
+  {
+   "fieldname": "fund_provider",
+   "fieldtype": "Select",
+   "label": "Fund Provider",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fname",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "fund_refid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fund Ref.ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fundname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fund Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Purpose",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hd9ud",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "fstatus",
+   "fieldtype": "Select",
+   "label": "Fund Status",
+   "options": "\nACTIVE\nINACTIVE"
+  },
+  {
+   "fieldname": "inceptiondate",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "intialfundamount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Initial Fund Amount",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-05 07:37:01.679647",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Funds",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

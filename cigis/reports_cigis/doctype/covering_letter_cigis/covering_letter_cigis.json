@@ -1,0 +1,180 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{attention_mr}",
+ "creation": "2024-03-12 11:36:40.442457",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "company_address",
+  "line",
+  "section_break_dnosg",
+  "attention_mr",
+  "postal_address",
+  "location",
+  "column_break_udbgl",
+  "policy_number",
+  "section_break_bcuox",
+  "html_label1",
+  "section_break_bz8zu",
+  "issue_of_insurence",
+  "html",
+  "text",
+  "htmlthree",
+  "htmlfour",
+  "declaration",
+  "guide",
+  "guideline",
+  "event",
+  "thank"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "Image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "company_address",
+   "fieldtype": "HTML",
+   "label": "Company Address",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "line",
+   "options": "__________________________________________________________________________________________________________________________________________________________________________________________________________________"
+  },
+  {
+   "fieldname": "postal_address",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_dnosg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_udbgl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "POLICY NUMBER"
+  },
+  {
+   "fieldname": "section_break_bz8zu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "issue_of_insurence",
+   "fieldtype": "HTML",
+   "label": "Issue of insurence",
+   "options": "<h3><u>INSURANCE OF DOMESTIC CREDIT INSURANCE POLICY<u></u></u></h3><h3></h3>"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html1",
+   "options": "\n    <p></p>We thank you for accepting terms and conditions of the\nDomestic Credit Insurance Policy. As a new policy holder we issue the following documents for ease of reference and policy administration. \nPlease find enclosed:<p></p>\n"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "HTML",
+   "label": "html2",
+   "options": "<p>1.The Domestic Credit Insurance Policy document and addendum</p><p></p>"
+  },
+  {
+   "fieldname": "htmlthree",
+   "fieldtype": "HTML",
+   "label": "html3",
+   "options": "<p>2.Schedule with revised policy number;</p><p></p>"
+  },
+  {
+   "fieldname": "htmlfour",
+   "fieldtype": "HTML",
+   "label": "HTML",
+   "options": "<p> The Credit Limit Application form which should be used whenever you apply for credit limit(s) for existing customers(s)/buyer(s) or revising credit limit(s). Your existing credit application form shall also be maintained for your internal records.</p>"
+  },
+  {
+   "fieldname": "declaration",
+   "fieldtype": "HTML",
+   "label": "Declaration",
+   "options": "<p> 4.The Declaration Forms # 3, to be used when declaring debts outstanding on the last accounting day of the month. In  substitution for the attached form we shall  request for the current age analysis on a month to month basis as a soft copy on excel spread sheet.</p><p>\n</p>"
+  },
+  {
+   "fieldname": "guide",
+   "fieldtype": "HTML",
+   "label": "Guide",
+   "options": "<p> 5.A \"Guide to the Administration of  the Domestic Credit Insurance Policy\" to help you in the general administration of your policy;</p>"
+  },
+  {
+   "fieldname": "guideline",
+   "fieldtype": "HTML",
+   "label": "guideline",
+   "options": "<p> 6.A guideline of follow up of over dues as per Proviso of the domestic policy wording</p>"
+  },
+  {
+   "fieldname": "event",
+   "fieldtype": "HTML",
+   "label": "event",
+   "options": "<p>In the event you require clarification on any issue you regard relevant to your policy, do not hesitate to contact undersigned.</p>"
+  },
+  {
+   "fieldname": "thank",
+   "fieldtype": "HTML",
+   "label": "Thank",
+   "options": "<p>Thank you,</p><p></p>"
+  },
+  {
+   "fieldname": "section_break_bcuox",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "html_label1",
+   "fieldtype": "HTML",
+   "label": "ATTENTION MR.  ",
+   "options": "<h4><b>ATTENTION MR:</b></h4> "
+  },
+  {
+   "fieldname": "attention_mr",
+   "fieldtype": "Data",
+   "label": "THE DIRECTOR"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-04 08:26:17.649781",
+ "modified_by": "Administrator",
+ "module": "Reports_CIGIS",
+ "name": "Covering letter_CIGIS",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,570 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:cl_check_no",
+ "creation": "2024-02-21 06:37:00.925928",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_limit_processing_tab",
+  "client",
+  "section_break_tdngf",
+  "cl_check_no",
+  "client1",
+  "column_break_ctfuw",
+  "name1",
+  "section_break_sovkt",
+  "buyer_details",
+  "section_break_1hrvg",
+  "buyer",
+  "column_break_mejr0",
+  "buyer_name",
+  "section_break_pnlnr",
+  "credit_limit",
+  "section_break_uo9wm",
+  "credit_limit_required",
+  "comment",
+  "column_break_vpzac",
+  "date",
+  "buyer_type",
+  "section_break_eyrhr",
+  "credit_bureau_report",
+  "section_break_pth1l",
+  "cb_report_required",
+  "cb_report",
+  "column_break_yjwk1",
+  "yes",
+  "cb_report_required__for_this_buyer",
+  "column_break_cmagd",
+  "no",
+  "section_break_zumhv",
+  "cb_reports",
+  "column_break_nuiij",
+  "cb_reports1",
+  "section_break_nnqgq",
+  "column_break_dhu3p",
+  "column_break_tyxny",
+  "column_break_4ylcz",
+  "cb_requests",
+  "section_break_s6kjg",
+  "credit_analysis",
+  "section_break_7tfv2",
+  "business_organization",
+  "type_of_business",
+  "customers",
+  "location",
+  "present_mgt_in_control_since",
+  "management_experience",
+  "bank_risk_category",
+  "itc_clearence",
+  "annual_sales_for_the_last",
+  "outstanding_amount",
+  "repayment_ability",
+  "total_exposure",
+  "comments",
+  "column_break_ddon7",
+  "main__product",
+  "level_of_completion",
+  "management_consists_of",
+  "credit_bureau_opinion",
+  "financials",
+  "trading_experience",
+  "overdue_amount",
+  "balance_sheet_analysis",
+  "use_of_the_credit_limit",
+  "recommended_exposure",
+  "section_break_7wjh6",
+  "terms_of_payment",
+  "column_break_lpnjj",
+  "days_from",
+  "column_break_optwy",
+  "dates",
+  "section_break_dmw6e",
+  "recommended",
+  "section_break_bdlyw",
+  "recommended_to",
+  "column_break_uxpwd",
+  "recommen",
+  "section_break_vdf5o",
+  "cl_approve",
+  "section_break_ize9h",
+  "approved_amount",
+  "comment1",
+  "conditions",
+  "signatory",
+  "signatory1",
+  "column_break_vdevg",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_limit_processing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Credit limit Processing"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Heading",
+   "label": "Client"
+  },
+  {
+   "fieldname": "section_break_tdngf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "client1.credit_limit_no",
+   "fieldname": "cl_check_no",
+   "fieldtype": "Data",
+   "label": "CL Check No",
+   "unique": 1
+  },
+  {
+   "fetch_from": "cl_check_no.client1",
+   "fieldname": "client1",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "column_break_ctfuw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "cl_check_no.buyer_short_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "section_break_sovkt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer_details",
+   "fieldtype": "Heading",
+   "label": "Buyer Details"
+  },
+  {
+   "fieldname": "section_break_1hrvg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "cl_check_no.buyer",
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "column_break_mejr0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "cl_check_no.buyer_short_name",
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "section_break_pnlnr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Heading",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "section_break_uo9wm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "cl_check_no.credit_limit_required",
+   "fieldname": "credit_limit_required",
+   "fieldtype": "Currency",
+   "label": "Credit Limit Required"
+  },
+  {
+   "fetch_from": "cl_check_no.comment",
+   "fieldname": "comment",
+   "fieldtype": "Data",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "column_break_vpzac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "cl_check_no.cl_application_date",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_eyrhr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_bureau_report",
+   "fieldtype": "Heading",
+   "label": "Credit Bureau Report"
+  },
+  {
+   "fieldname": "section_break_pth1l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "yes",
+   "fieldname": "cb_report_required",
+   "fieldtype": "Heading",
+   "label": "CB Report Required?"
+  },
+  {
+   "fieldname": "cb_report",
+   "fieldtype": "Heading",
+   "label": "CB Report"
+  },
+  {
+   "fieldname": "column_break_yjwk1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes",
+   "read_only_depends_on": "no"
+  },
+  {
+   "depends_on": "yes",
+   "fieldname": "cb_report_required__for_this_buyer",
+   "fieldtype": "Heading",
+   "label": "CB Report required  for this Buyer"
+  },
+  {
+   "fieldname": "column_break_cmagd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No",
+   "read_only_depends_on": "yes"
+  },
+  {
+   "fieldname": "section_break_zumhv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_analysis",
+   "fieldtype": "Heading",
+   "label": "Credit Analysis"
+  },
+  {
+   "fieldname": "section_break_7tfv2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "business_organization",
+   "fieldtype": "Data",
+   "label": "Business Organization "
+  },
+  {
+   "fieldname": "type_of_business",
+   "fieldtype": "Data",
+   "label": "Type of Business"
+  },
+  {
+   "fieldname": "customers",
+   "fieldtype": "Data",
+   "label": "Customers"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Small Text",
+   "label": "Location"
+  },
+  {
+   "fieldname": "present_mgt_in_control_since",
+   "fieldtype": "Data",
+   "label": "Present MGT in Control Since"
+  },
+  {
+   "fieldname": "management_experience",
+   "fieldtype": "Data",
+   "label": "Management Experience"
+  },
+  {
+   "fieldname": "bank_risk_category",
+   "fieldtype": "Small Text",
+   "label": "Bank Risk Category"
+  },
+  {
+   "fieldname": "itc_clearence",
+   "fieldtype": "Small Text",
+   "label": "ITC Clearence"
+  },
+  {
+   "fieldname": "column_break_ddon7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main__product",
+   "fieldtype": "Data",
+   "label": "Main  Product/Service"
+  },
+  {
+   "fieldname": "level_of_completion",
+   "fieldtype": "Data",
+   "label": "Level of Completion"
+  },
+  {
+   "fieldname": "management_consists_of",
+   "fieldtype": "Data",
+   "label": "Management Consists of"
+  },
+  {
+   "fieldname": "credit_bureau_opinion",
+   "fieldtype": "Small Text",
+   "label": "Credit Bureau Opinion"
+  },
+  {
+   "fieldname": "financials",
+   "fieldtype": "Data",
+   "label": "Financials"
+  },
+  {
+   "fieldname": "trading_experience",
+   "fieldtype": "Data",
+   "label": "Trading Experience"
+  },
+  {
+   "fieldname": "overdue_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Overdue Amount"
+  },
+  {
+   "fieldname": "balance_sheet_analysis",
+   "fieldtype": "Small Text",
+   "label": "Balance Sheet Analysis"
+  },
+  {
+   "fieldname": "annual_sales_for_the_last",
+   "fieldtype": "Small Text",
+   "label": "Annual sales for the last 2/3 years"
+  },
+  {
+   "fieldname": "outstanding_amount",
+   "fieldtype": "Currency",
+   "label": "Outstanding Amount"
+  },
+  {
+   "fieldname": "repayment_ability",
+   "fieldtype": "Data",
+   "label": "Repayment Ability"
+  },
+  {
+   "fieldname": "total_exposure",
+   "fieldtype": "Currency",
+   "label": "Total Exposure"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "use_of_the_credit_limit",
+   "fieldtype": "Data",
+   "label": "Use of the Credit Limit"
+  },
+  {
+   "fieldname": "recommended_exposure",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Recommended Exposure"
+  },
+  {
+   "fieldname": "section_break_dmw6e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recommended",
+   "fieldtype": "Heading",
+   "label": "Recommend"
+  },
+  {
+   "fieldname": "section_break_bdlyw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recommended_to",
+   "fieldtype": "Select",
+   "label": "Recommend To"
+  },
+  {
+   "fieldname": "column_break_uxpwd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recommen",
+   "fieldtype": "Data",
+   "label": "Recommend",
+   "options": "\n"
+  },
+  {
+   "fieldname": "section_break_vdf5o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cl_approve",
+   "fieldtype": "Heading",
+   "label": "CL Approve"
+  },
+  {
+   "fieldname": "section_break_ize9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approved_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Approved Amount"
+  },
+  {
+   "fieldname": "comment1",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Comment"
+  },
+  {
+   "fieldname": "conditions",
+   "fieldtype": "Small Text",
+   "label": "Conditions"
+  },
+  {
+   "fieldname": "signatory",
+   "fieldtype": "Data",
+   "label": "Signatory 1",
+   "options": "\n"
+  },
+  {
+   "fieldname": "signatory1",
+   "fieldtype": "Data",
+   "label": "Signatory 2",
+   "options": "\n"
+  },
+  {
+   "fieldname": "column_break_vdevg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "default": "30",
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms Of Payment"
+  },
+  {
+   "fieldname": "days_from",
+   "fieldtype": "Select",
+   "label": "Days from ",
+   "options": "\nInvoice\nStatement"
+  },
+  {
+   "fieldname": "dates",
+   "fieldtype": "HTML",
+   "options": "<p style=\"margin-top: 31px;\">Days</p>"
+  },
+  {
+   "fieldname": "column_break_lpnjj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_optwy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7wjh6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "yes",
+   "fieldname": "cb_requests",
+   "fieldtype": "Button",
+   "label": "CB Request"
+  },
+  {
+   "fieldname": "section_break_s6kjg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "no",
+   "fieldname": "cb_reports",
+   "fieldtype": "HTML",
+   "options": "<h5>CB Report:</h5>"
+  },
+  {
+   "fieldname": "column_break_nuiij",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "no",
+   "fieldname": "cb_reports1",
+   "fieldtype": "HTML",
+   "options": "<h5>CB Report required for this Buyer</h5>"
+  },
+  {
+   "fieldname": "section_break_nnqgq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dhu3p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4ylcz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tyxny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "buyer_type",
+   "fieldtype": "Data",
+   "label": "Buyer Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-03 14:05:28.060989",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Single Buyer CL Processing",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

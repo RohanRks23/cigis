@@ -1,0 +1,35 @@
+{
+ "cards": [
+  {
+   "card": "Approved"
+  },
+  {
+   "card": "Declined"
+  },
+  {
+   "card": "Submitted"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "nb",
+   "width": "Half"
+  },
+  {
+   "chart": "ECI Chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 08:55:38.969914",
+ "dashboard_name": "DCI",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 09:30:55.555050",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "DCI",
+ "owner": "Administrator"
+}

@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-27 08:11:42.863745",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_type1",
+  "id_no1",
+  "surname1",
+  "first_name1",
+  "middle_name1",
+  "email",
+  "fax1",
+  "contact_no1",
+  "designation1"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_type1",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "ID Type1",
+   "options": "\nDRIVING LICENSE\nOMANG\nPASSPORT"
+  },
+  {
+   "fieldname": "id_no1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID No1"
+  },
+  {
+   "fieldname": "surname1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Surname1"
+  },
+  {
+   "fieldname": "first_name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name1"
+  },
+  {
+   "fieldname": "middle_name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name1"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "E-Mail Address1"
+  },
+  {
+   "fieldname": "fax1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fax1"
+  },
+  {
+   "fieldname": "contact_no1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact No1"
+  },
+  {
+   "fieldname": "designation1",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Designation1",
+   "options": "\nDIRECTOR\nMEMBER\nMANAGER\nOTHERS\nPARTNERS\nPROPRIETOR"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-27 08:16:45.704917",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "DCI_DATA",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

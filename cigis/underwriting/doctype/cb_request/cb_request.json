@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:buyer",
+ "creation": "2024-03-05 09:08:12.572711",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_bureau_request",
+  "section_break_b9w9z",
+  "toaddress",
+  "attention",
+  "from",
+  "attention1",
+  "column_break_hodgo",
+  "subject",
+  "date",
+  "amount_required",
+  "section_break_ekujn",
+  "cb_report",
+  "section_break_i1pvq",
+  "buyer",
+  "cb_request_number",
+  "reqdate",
+  "column_break_qmzai",
+  "refnumber",
+  "policy_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ATTENTION"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FROM"
+  },
+  {
+   "fieldname": "attention1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ATTENTION"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject"
+  },
+  {
+   "fieldname": "amount_required",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount Required"
+  },
+  {
+   "fieldname": "toaddress",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TO",
+   "unique": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "credit_bureau_request",
+   "fieldtype": "Heading",
+   "label": "Credit Bureau Request"
+  },
+  {
+   "fieldname": "section_break_b9w9z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hodgo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ekujn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cb_report",
+   "fieldtype": "Heading",
+   "label": "CB Report "
+  },
+  {
+   "fieldname": "section_break_i1pvq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": " Buyer",
+   "unique": 1
+  },
+  {
+   "fieldname": "cb_request_number",
+   "fieldtype": "Data",
+   "label": "CB Req Number"
+  },
+  {
+   "default": "Today",
+   "fieldname": "reqdate",
+   "fieldtype": "Date",
+   "label": "Req.Date"
+  },
+  {
+   "fieldname": "column_break_qmzai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "refnumber",
+   "fieldtype": "Data",
+   "label": "Ref.Number"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-16 10:30:52.094463",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "CB Request",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

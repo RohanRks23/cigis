@@ -1,0 +1,127 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{to}",
+ "creation": "2024-03-12 06:55:19.366734",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "credit",
+  "section_break_k6t9t",
+  "column_break_3vtnx",
+  "policy_no",
+  "proposal_no",
+  "issued_by",
+  "ec",
+  "section_break_um5th",
+  "to",
+  "of",
+  "section_break_mx1jh",
+  "matter",
+  "esa"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "HTML",
+   "label": "credit",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n"
+  },
+  {
+   "fieldname": "section_break_k6t9t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3vtnx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "issued_by",
+   "fieldtype": "HTML",
+   "label": "Issued by",
+   "options": "  <p>Issued by </p><br>\n\n   "
+  },
+  {
+   "fieldname": "ec",
+   "fieldtype": "HTML",
+   "options": "<style>\n        h5 {text-align: center;}\n    </style>\n  <h5>  Export Credit Insurance Guarantee Company Botswana (Pty) Ltd </h5>"
+  },
+  {
+   "fieldname": "section_break_um5th",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_mx1jh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "matter",
+   "fieldtype": "HTML",
+   "label": "Matter",
+   "options": "<p>The Insured has accepted an offer of indemnity made by <b>BECI</b> pursuant to a proposal for Export Cred Insurance completed by the Insured. Now therefore subject to the teams and conditions of this policy BEC agrees that in the event of a <b>CAUSE OF LOSS* </b> (8) resulting in the Insured not receiving Payment of a <b>INSURED DEBT* </b> (7) arising from any <b>INSURABLE TRANSACTION *</b> (1), BECI will indemnify the Insured to the extent of the <b>INSURED PERCENTAGE* </b> (11) of the <b>AMOUNT OF LOSS* </b> (10), subject to the <b>MAXIMUILIABILITY*</b> (15) <br><br>  As defined<br><br><br> <b>SIGNED</b> for and on behalf of  BECI</p><p></p>"
+  },
+  {
+   "fieldname": "esa",
+   "fieldtype": "HTML",
+   "options": " <hr>"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "Of"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-03 13:08:06.177515",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Specimen Policy Document_ECI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,44 @@
+{
+ "charts": [
+  {
+   "chart_name": "Bond Facility Chart",
+   "label": "Guarantee"
+  },
+  {
+   "chart_name": "Credit   Insurance",
+   "label": "Credit  Insurance"
+  }
+ ],
+ "content": "[{\"id\":\"V0j913ZiwT\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">MARKETING</span>\",\"col\":12}},{\"id\":\"cno-twtLwp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Credit  Insurance\",\"col\":12}},{\"id\":\"CpjOmMu1m7\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Guarantee\",\"col\":12}}]",
+ "creation": "2024-03-18 07:18:40.519243",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "color-monthly-rank",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "MARKETING",
+ "links": [],
+ "modified": "2025-01-09 12:37:11.372209",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "MARKETING",
+ "number_cards": [],
+ "owner": "swath.a@techbulls.co.in",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Marketing Manager"
+  },
+  {
+   "role": "Marketing Assistance"
+  }
+ ],
+ "sequence_id": 20.0,
+ "shortcuts": [],
+ "title": "MARKETING"
+}

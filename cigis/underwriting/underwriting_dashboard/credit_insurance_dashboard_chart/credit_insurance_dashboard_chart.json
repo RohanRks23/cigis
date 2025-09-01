@@ -1,0 +1,36 @@
+{
+ "cards": [
+  {
+   "card": "Credit Limits Application"
+  },
+  {
+   "card": "Credit Limit Processing"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Credit Limit Application",
+   "width": "Half"
+  },
+  {
+   "chart": "Credit Limit Processing",
+   "width": "Half"
+  },
+  {
+   "chart": "Credit Limit Application",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-07-01 06:40:02.258426",
+ "dashboard_name": "Credit Insurance Dashboard Chart",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2024-07-01 06:52:34.666700",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Credit Insurance Dashboard Chart",
+ "owner": "Administrator"
+}

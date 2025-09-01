@@ -1,0 +1,466 @@
+{
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{#####}",
+ "creation": "2024-03-11 13:26:56.694170",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_details",
+  "section_break_vaaad",
+  "bond_no",
+  "facility_name",
+  "period_from",
+  "bond_type",
+  "bond_subtype",
+  "bond_invoice_no",
+  "month",
+  "premium_rate",
+  "invoice_date",
+  "reinsurer",
+  "reinsurer_refnumber",
+  "reinsurer1",
+  "portion_of_guarantee_guarantee_vat_p",
+  "beci_commission_p",
+  "reinsurer_commissions",
+  "other_insurer_commissions",
+  "broker1",
+  "column_break_39i9l",
+  "broker",
+  "with_vat",
+  "with_out_vat",
+  "total_due_without_vat",
+  "vat",
+  "total_due",
+  "demand_date",
+  "bond_in_favour",
+  "guarantee_amount",
+  "premium_p",
+  "to",
+  "beci",
+  "beci_portion_of_gurantee_amount_p",
+  "beci_commission",
+  "reinsurer_commission",
+  "other_insurer_commission",
+  "broker_commission__p",
+  "vat_p",
+  "section_break_ix0uu",
+  "bond_invoice",
+  "section_break_oyzp1",
+  "ecgc_ref_no",
+  "sheriff_name",
+  "bond_guarantee_amount",
+  "bond_period_from",
+  "bond_month",
+  "guarantee_fee_rate",
+  "reinsure",
+  "reinsurern_refnumber",
+  "reinsurer_per",
+  "portion_of_guarantee_amount_to_reinsurer",
+  "portion_of_guarantee_fee_to_reinsurer",
+  "ecgc_commission_",
+  "bond_broker",
+  "column_break_nyqox",
+  "broker_",
+  "total_duewith_out_vat",
+  "vat_",
+  "v_at",
+  "bond_total_due",
+  "bond_invoice_date",
+  "bond_period_to",
+  "guarantee_fee",
+  "ecgc",
+  "portion_of_guarantee_to_amount_ecgc",
+  "portion_of_guarante_fee_to_ecgc",
+  "ecgc_commission",
+  "broker_commission",
+  "top_button",
+  "renewal_top_buttons"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_details",
+   "fieldtype": "Heading",
+   "label": "Bond Details"
+  },
+  {
+   "fieldname": "section_break_vaaad",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "facility_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Data",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "bond_subtype",
+   "fieldtype": "Data",
+   "label": "Bond Sub Type"
+  },
+  {
+   "fieldname": "bond_invoice_no",
+   "fieldtype": "Data",
+   "label": "Bond Invoice No"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Currency",
+   "label": "Premium Rate"
+  },
+  {
+   "default": "Today",
+   "fieldname": "invoice_date",
+   "fieldtype": "Data",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "ReInsurer "
+  },
+  {
+   "fieldname": "reinsurer_refnumber",
+   "fieldtype": "Data",
+   "label": "ReInsurer Ref.Number"
+  },
+  {
+   "fieldname": "reinsurer1",
+   "fieldtype": "Data",
+   "label": "ReInsurer%"
+  },
+  {
+   "fieldname": "portion_of_guarantee_guarantee_vat_p",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarante Fee To ReInsurer    P"
+  },
+  {
+   "fieldname": "beci_commission_p",
+   "fieldtype": "Data",
+   "label": "BECI Commission %"
+  },
+  {
+   "fieldname": "reinsurer_commissions",
+   "fieldtype": "Data",
+   "label": "ReInsurer Commission %"
+  },
+  {
+   "fieldname": "other_insurer_commissions",
+   "fieldtype": "Data",
+   "label": "Other Insurer Commission%"
+  },
+  {
+   "fieldname": "broker1",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "column_break_39i9l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Data",
+   "label": "Broker%"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_vat",
+   "fieldtype": "Check",
+   "label": "With VAT"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_out_vat",
+   "fieldtype": "Check",
+   "label": "With Out VAT"
+  },
+  {
+   "fieldname": "total_due_without_vat",
+   "fieldtype": "Currency",
+   "label": "Total Due Without VAT"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Percent",
+   "label": "VAT %"
+  },
+  {
+   "fieldname": "total_due",
+   "fieldtype": "Currency",
+   "label": "Total Due"
+  },
+  {
+   "fieldname": "demand_date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bond_in_favour",
+   "fieldtype": "Data",
+   "label": "Principle"
+  },
+  {
+   "fieldname": "guarantee_amount",
+   "fieldtype": "Currency",
+   "label": "Guarantee Amount     P"
+  },
+  {
+   "fieldname": "premium_p",
+   "fieldtype": "Currency",
+   "label": "Premium            P"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "Percent",
+   "label": "BECI%"
+  },
+  {
+   "fieldname": "beci_portion_of_gurantee_amount_p",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarante Fee To BECI "
+  },
+  {
+   "fieldname": "beci_commission",
+   "fieldtype": "Currency",
+   "label": "BECI Commission    P"
+  },
+  {
+   "fieldname": "reinsurer_commission",
+   "fieldtype": "Currency",
+   "label": "ReInsurer Commission    P"
+  },
+  {
+   "fieldname": "other_insurer_commission",
+   "fieldtype": "Currency",
+   "label": "Other Insurer Commission    P"
+  },
+  {
+   "fieldname": "broker_commission__p",
+   "fieldtype": "Data",
+   "label": "Broker Commission  P"
+  },
+  {
+   "fieldname": "vat_p",
+   "fieldtype": "Currency",
+   "label": "Vat    P"
+  },
+  {
+   "fieldname": "section_break_ix0uu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_invoice",
+   "fieldtype": "Heading",
+   "label": "Prepare Invoice"
+  },
+  {
+   "fieldname": "section_break_oyzp1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ecgc_ref_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ECGC REF. No"
+  },
+  {
+   "fieldname": "sheriff_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "bond_guarantee_amount",
+   "fieldtype": "Currency",
+   "label": "Guarantee Amount"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Date",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "bond_month",
+   "fieldtype": "Int",
+   "label": "Month"
+  },
+  {
+   "fieldname": "guarantee_fee_rate",
+   "fieldtype": "Currency",
+   "label": "Guarantee Fee Rate"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "ReInsure"
+  },
+  {
+   "fieldname": "reinsurern_refnumber",
+   "fieldtype": "Data",
+   "label": "ReInsurern Ref.Number"
+  },
+  {
+   "fieldname": "reinsurer_per",
+   "fieldtype": "Percent",
+   "label": "ReInsurer %"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_reinsurer",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarantee Amount to Reinsurer"
+  },
+  {
+   "fieldname": "portion_of_guarantee_fee_to_reinsurer",
+   "fieldtype": "Currency",
+   "label": "Portion of Guarantee Fee To ReInsurer"
+  },
+  {
+   "fieldname": "ecgc_commission_",
+   "fieldtype": "Percent",
+   "label": "ECGC Commission %"
+  },
+  {
+   "fieldname": "bond_broker",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "column_break_nyqox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "10",
+   "fieldname": "broker_",
+   "fieldtype": "Percent",
+   "label": "Broker %"
+  },
+  {
+   "fieldname": "total_duewith_out_vat",
+   "fieldtype": "Currency",
+   "label": "Total Due(With out VAT)"
+  },
+  {
+   "default": "14",
+   "fieldname": "vat_",
+   "fieldtype": "Percent",
+   "label": "VAT %"
+  },
+  {
+   "fieldname": "v_at",
+   "fieldtype": "Currency",
+   "label": "vat"
+  },
+  {
+   "fieldname": "bond_total_due",
+   "fieldtype": "Currency",
+   "label": "Total Due"
+  },
+  {
+   "default": "Today",
+   "fieldname": "bond_invoice_date",
+   "fieldtype": "Data",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Date",
+   "label": "Bond Period to"
+  },
+  {
+   "fieldname": "guarantee_fee",
+   "fieldtype": "Currency",
+   "label": "Guarantee Fee"
+  },
+  {
+   "fieldname": "ecgc",
+   "fieldtype": "Percent",
+   "label": "ECGC%"
+  },
+  {
+   "fieldname": "portion_of_guarantee_to_amount_ecgc",
+   "fieldtype": "Currency",
+   "label": "Portion of guarantee To Amount ECGC"
+  },
+  {
+   "fieldname": "portion_of_guarante_fee_to_ecgc",
+   "fieldtype": "Currency",
+   "label": "Portion of guarante Fee To ECGC"
+  },
+  {
+   "fieldname": "ecgc_commission",
+   "fieldtype": "Currency",
+   "label": "ECGC Commission"
+  },
+  {
+   "fieldname": "broker_commission",
+   "fieldtype": "Currency",
+   "label": "Broker Commission"
+  },
+  {
+   "fieldname": "top_button",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Top Button"
+  },
+  {
+   "fieldname": "renewal_top_buttons",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Renewal Top Buttons "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 12:06:48.738017",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Bond Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

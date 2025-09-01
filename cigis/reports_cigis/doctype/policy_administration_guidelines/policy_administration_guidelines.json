@@ -1,0 +1,141 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ADM-PLY.#####",
+ "creation": "2024-03-13 08:03:19.908642",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "export_credit",
+  "guidelines",
+  "it_has_come_to",
+  "copy",
+  "proviso",
+  "proviso12b",
+  "proviso12c",
+  "section_break_srllm",
+  "table",
+  "section_break_kx09q",
+  "please",
+  "proviso12d",
+  "please_be",
+  "should"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
+  },
+  {
+   "fieldname": "export_credit",
+   "fieldtype": "HTML",
+   "label": "Export Credit",
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+  },
+  {
+   "fieldname": "guidelines",
+   "fieldtype": "HTML",
+   "label": "Guidelines",
+   "options": "<h4><b></b><p style=\"text-align: center;\"><b>GUIDELINE TO COLLECTION OF OVERDUE AMOUNTS</b></p></h4>"
+  },
+  {
+   "fieldname": "it_has_come_to",
+   "fieldtype": "HTML",
+   "label": "It has come to",
+   "options": "<p>It has come to our attention that some of our valued policy holders are not adhering to the credit control debt collection procedures stipulated in Proviso 12 of the External Trade Policy document. We now take the opportunity to bring to your attention to this proviso, which lays out the procedure to follow in the collection of overdue amounts.</p><p></p>"
+  },
+  {
+   "fieldname": "copy",
+   "fieldtype": "HTML",
+   "label": "copy",
+   "options": "<p>Copy of the Proviso 12 is attached for your perusal, and the same is briefly discussed below.</p><p></p>"
+  },
+  {
+   "fieldname": "proviso",
+   "fieldtype": "HTML",
+   "label": "Proviso12A",
+   "options": "<p>Proviso 12A is straight forward and reminds policy holders that they are expected to conduct their own credit control activity and only refer to BECI after having sent out the demand.</p>"
+  },
+  {
+   "fieldname": "proviso12b",
+   "fieldtype": "HTML",
+   "label": "Proviso12B",
+   "options": "<p> Proviso 12B prescribes when to send the final demand to the defaulting buyer.</p>"
+  },
+  {
+   "fieldname": "proviso12c",
+   "fieldtype": "HTML",
+   "label": "Proviso12C",
+   "options": "<p>Proviso 12C describes the format that the final demand should take including the wording of the letter, Information to be sent to BECI in the event payment is not received with in 10 days of sending the letter ,or, on, establishment of the debtor's insolvency. The table below summarises the collection activity.</p>"
+  },
+  {
+   "fieldname": "section_break_srllm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "HTML",
+   "label": "TABLE",
+   "options": "\n\n\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <style>\n        table, th, td {\n            border: 1px solid black;\n            border-collapse: collapse;\n        }\n\n        body {\n            text-align: left;\n        }\n\n        th, td {\n            padding: 8px;\n        }\n\n        hr {\n            width: 50%;\n            text-align: left;\n            margin-left: 0;\n        }\n\n        h3 {\n            width: 50%;\n            text-align: left;\n            margin-left: 0;\n        }\n\n        h3 hr {\n            width: 20%;\n            text-align: left;\n            margin-left: 0;\n        }\n    </style>\n\n\n    <table style=\"width: 100%;\">\n        <tbody><tr>\n            <th>Period Overdue Days</th>\n            <th>Action to be taken</th>\n        </tr>\n        <tr>\n            <td>30</td>\n            <td>Telephone reminders to the Buyers</td>\n        </tr>\n        <tr>\n            <td>60</td>\n            <td>First Letter of demand sent to the Buyers</td>\n        </tr>\n        <tr>\n            <td>90</td>\n            <td>Final Letter of demand sent to the Buyers</td>\n        </tr>\n        <tr>\n            <td>120</td>\n            <td>\n                i. Threatening cause of loss form is reported to BECI on the prescribed form<br>\n                ii. The debt is handed over for collection in line with Proviso 12(C)\n            </td>\n        </tr>\n        <tr>\n            <td>180</td>\n            <td>Policy holder lodges a claim with BECI</td>\n        </tr>\n    </tbody></table>\n\n\n"
+  },
+  {
+   "fieldname": "section_break_kx09q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "please",
+   "fieldtype": "HTML",
+   "label": "please",
+   "options": "Please also note that instead of taking the debt to lawyers for collection in line with Proviso 12C(iv) BECI  usually recommends that the debts be handed to the BECI preferred debt collector  -Credit Factors and Discounters  for collection .However, if you already have an established external debt collector, you may handover to them and advise BECI accordingly."
+  },
+  {
+   "fieldname": "proviso12d",
+   "fieldtype": "HTML",
+   "label": "Proviso12D",
+   "options": "<p>Proviso 12D is a reminder to policy holders that failure to comply with the may lead to repudiation of claims and hence the importance of BECI attaches to this proviso and our added effort to ensure that al the policy holders understand and comply with the  proviso.</p>"
+  },
+  {
+   "fieldname": "please_be",
+   "fieldtype": "HTML",
+   "label": "Please be",
+   "options": "<p>Please be remind that once BECI has paid a claim, the debtor is pursued for the 100% recovery of the debt and any amounts recovered and shared with BECI according to the claims sharing ratio.</p>"
+  },
+  {
+   "fieldname": "should",
+   "fieldtype": "HTML",
+   "label": "Should ",
+   "options": "<p>Should you need any clarification regarding this this proviso, Please do not hesitate to contact us at 3188015.</p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-09 11:58:21.043135",
+ "modified_by": "Administrator",
+ "module": "Reports_CIGIS",
+ "name": "Policy Administration guidelines",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

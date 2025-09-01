@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_of_insured}",
+ "creation": "2024-03-21 07:14:46.981823",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "schedule",
+  "section_break_lmese",
+  "policy_no",
+  "column_break_6uzpp",
+  "proposal_no",
+  "section_break_rctnn",
+  "name_of_insured",
+  "column_break_wigtf",
+  "quotation_no",
+  "section_break_mizad",
+  "dci_child",
+  "sign"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "Image",
+   "options": "    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Centered Image</title>\n    <style>\n        /* Style to center the image */\n        .centered-image {\n            display: block;\n            margin: auto;\n        }\n    </style>\n\n\n\n    <img alt=\"https://www.beci.co.bw/themes/theme/logo.png\" class=\"centered-image\" src=\"https://www.beci.co.bw/themes/theme/logo.png\">\n\n\n\n"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "HTML",
+   "label": "Schedule",
+   "options": "  <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Centered and Capitalized Heading</title>\n    <style>\n        /* Style to center and capitalize the heading */\n        body {\n            text-align: center;\n        }\n\n        h1 {\n            text-transform: uppercase;\n            font-weight: bold;\n        }\n       \n  \n      \n    </style>\n\n\n\n    <h3 style=\"text-align: center ;\">SCHEDULE</h3>\n    <h2 style=\"text-align: center ;\">Domestic Credit Insurance Policy</h2>\n\n\n\n\n\n\n   "
+  },
+  {
+   "fieldname": "section_break_lmese",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "column_break_6uzpp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "section_break_rctnn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_insured",
+   "fieldtype": "Data",
+   "label": "Name of Insured"
+  },
+  {
+   "fieldname": "column_break_wigtf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "Quotation no"
+  },
+  {
+   "fieldname": "section_break_mizad",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dci_child",
+   "fieldtype": "Table",
+   "options": "DCI_Child_Schedule_letter"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "HTML",
+   "label": "sign",
+   "options": "\n\n\n    <style>\n        .signature-block {\n            text-align: left;\n        }\n    </style>\n\n\n    <div class=\"signature-block\">\n        <p>\n            SIGNED for and on behalf of BECI\n            <br>\n            <span>_____________________________</span>\n            <br>\n            Date: <span id=\"date\">_____________________________</span>\n        </p>\n    </div>\n\n\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 06:36:05.533959",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Schedule Letter",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

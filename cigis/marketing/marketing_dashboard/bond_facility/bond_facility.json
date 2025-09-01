@@ -1,0 +1,35 @@
+{
+ "cards": [
+  {
+   "card": "Approved-4"
+  },
+  {
+   "card": "Rejected-1"
+  }
+ ],
+ "charts": [
+  {
+   "width": "Half"
+  },
+  {
+   "chart": "Bond Facility",
+   "width": "Half"
+  },
+  {
+   "chart": "Bond Facility",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 07:08:16.949343",
+ "dashboard_name": "Bond Facility",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-07-01 08:02:34.203622",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Bond Facility",
+ "owner": "Administrator"
+}

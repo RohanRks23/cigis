@@ -1,0 +1,67 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\", \"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-08 12:16:29.482165",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_no",
+  "principal",
+  "bond_holder",
+  "bond_value",
+  "period_from",
+  "period_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond No."
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Principal"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Period From"
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Period to"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-03 06:07:23.420836",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Buyer Exposure Bond Details Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-02 10:00:51.259288",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "minturnover",
+  "maxturnover",
+  "column_break_r9ac2",
+  "mindiscount",
+  "maxdiscount",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "minturnover",
+   "fieldtype": "Data",
+   "label": "Min Turnover"
+  },
+  {
+   "fieldname": "maxturnover",
+   "fieldtype": "Data",
+   "label": "Max Turnover"
+  },
+  {
+   "fieldname": "column_break_r9ac2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mindiscount",
+   "fieldtype": "Data",
+   "label": "Min Discount"
+  },
+  {
+   "fieldname": "maxdiscount",
+   "fieldtype": "Data",
+   "label": "Max Discount"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "ACTIVE\nINACTIVE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-02 10:00:51.259288",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Premium Discount",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

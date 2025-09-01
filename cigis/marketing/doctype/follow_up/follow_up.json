@@ -1,0 +1,202 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:followup_id",
+ "creation": "2024-06-20 11:15:21.744123",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "add_new_follow_ups_tab",
+  "client_name",
+  "date",
+  "visited_by",
+  "column_break_tvxbl",
+  "visit_no",
+  "status",
+  "followup_id",
+  "section_break_7gf9f",
+  "comments",
+  "column_break_131nv",
+  "interest",
+  "upload",
+  "section_break_hxzet",
+  "schedule_tab",
+  "schdate",
+  "column_break_jkrg9",
+  "contactperson",
+  "section_break_9x0ln",
+  "mailid",
+  "column_break_gomvk",
+  "comment1",
+  "section_break_vzrp0",
+  "schtime",
+  "column_break_mub5g",
+  "phoneno"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name of Client",
+   "options": "Company-Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "visited_by",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Visited By",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tvxbl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nACTIVE\nINACTIVE"
+  },
+  {
+   "fieldname": "followup_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Follow Up ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_7gf9f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_131nv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "interest",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Interest",
+   "options": "\nAGREED TO SUBMIT PROPOSAL\nHIGH INTEREST\nLOW INTEREST\nMEDIUM INTEREST",
+   "reqd": 1
+  },
+  {
+   "fieldname": "upload",
+   "fieldtype": "Attach",
+   "label": "Upload"
+  },
+  {
+   "fieldname": "section_break_hxzet",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "schedule_tab",
+   "fieldtype": "Tab Break",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "schdate",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "contactperson",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "column_break_jkrg9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mailid",
+   "fieldtype": "Data",
+   "label": "Mail Id"
+  },
+  {
+   "fieldname": "schtime",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "phoneno",
+   "fieldtype": "Phone",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "add_new_follow_ups_tab",
+   "fieldtype": "Tab Break",
+   "label": " Follow Ups"
+  },
+  {
+   "fieldname": "column_break_gomvk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vzrp0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_9x0ln",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mub5g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "visit_no",
+   "fieldtype": "Int",
+   "label": "Visit No"
+  },
+  {
+   "fieldname": "comment1",
+   "fieldtype": "Data",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-31 08:07:09.170854",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Follow UP",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

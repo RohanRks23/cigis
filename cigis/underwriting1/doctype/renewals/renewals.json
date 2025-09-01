@@ -1,0 +1,565 @@
+{
+ "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\", \"amrutha.p@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 12:32:08.631428",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_type",
+  "section_break_f0u4u",
+  "deputyshreiff_bond",
+  "column_break_p2oke",
+  "other_bonds",
+  "bond_history_tab",
+  "bond_holder",
+  "section_break_m4mqt",
+  "bond_no",
+  "column_break_pwfye",
+  "date",
+  "section_break_vrlsx",
+  "client",
+  "column_break_og8op",
+  "principal",
+  "section_break_4pmd1",
+  "project",
+  "column_break_qygyh",
+  "description",
+  "section_break_zbajn",
+  "bond_period_from",
+  "column_break_7gbxk",
+  "bond_period_to",
+  "section_break_e9xkf",
+  "bond_value",
+  "column_break_pj0kv",
+  "renewal_req_no",
+  "section_break_fzqwr",
+  "bondtype1",
+  "bond_renewal_tab",
+  "request_date",
+  "section_break_bijw3",
+  "renewal_period_to",
+  "column_break_2nrwm",
+  "renewal_period_from",
+  "section_break_pqvqj",
+  "new_bond_value",
+  "column_break_vssig",
+  "new_premium_rate",
+  "section_break_sytgx",
+  "reason",
+  "column_break_y0ahc",
+  "details",
+  "approval_tab",
+  "approved_on",
+  "bond_extension_tab",
+  "beci_ref_no",
+  "column_break_ehwff",
+  "invoice_date",
+  "section_break_vab0h",
+  "guarantee_amount",
+  "section_break_qcqed",
+  "extended_up_to",
+  "column_break_dsttd",
+  "month",
+  "section_break_n1fmb",
+  "guarantee_fee_",
+  "column_break_imhoy",
+  "guarantee_fee",
+  "section_break_lac6d",
+  "vat_",
+  "column_break_0nk3z",
+  "vat",
+  "section_break_hgkhy",
+  "reinsure",
+  "section_break_wsksi",
+  "reinsure_ref_no",
+  "section_break_aezan",
+  "reinsurepercentage",
+  "column_break_2lqbt",
+  "beci",
+  "section_break_vyo8h",
+  "portion_of_guarantee_amount_to_reinsure",
+  "column_break_u9s5b",
+  "portion_of_guarantee_amount_to_beci",
+  "section_break_gyrnf",
+  "portion_of_guarantee_fee_to_reinsure",
+  "column_break_dwkqm",
+  "portion_of_guarantee_fee_to_beci",
+  "section_break_vwq7h",
+  "beci_commission_",
+  "column_break_uisrs",
+  "beci_commission",
+  "section_break_5fzrz",
+  "broker",
+  "section_break_e3vd5",
+  "broker_",
+  "column_break_lnkhl",
+  "broker_commission",
+  "section_break_xqsee",
+  "total_due__without_vat",
+  "section_break_oqd7p",
+  "total_due"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Tab Break",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "section_break_f0u4u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deputyshreiff_bond",
+   "fieldtype": "HTML",
+   "label": "DeputyShreiff Bond",
+   "options": " <label>\n        <input name=\"DeputyShreiff Bond\" type=\"radio\" value=\"other\"> DeputyShreiff Bond\n    </label>"
+  },
+  {
+   "fieldname": "column_break_p2oke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "other_bonds",
+   "fieldtype": "HTML",
+   "label": "Other Bonds",
+   "options": " <div style=\"margin-bottom: 10px;\">\n        <input name=\"Other bonds\" type=\"radio\" value=\"other\"> Other Bonds\n    </div>"
+  },
+  {
+   "fieldname": "bond_history_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond History"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Select",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "section_break_m4mqt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Select",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "column_break_pwfye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vrlsx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "column_break_og8op",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "section_break_4pmd1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "column_break_qygyh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_zbajn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Data",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "column_break_7gbxk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Data",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "section_break_e9xkf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "column_break_pj0kv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "renewal_req_no",
+   "fieldtype": "Data",
+   "label": "Renewal Req No"
+  },
+  {
+   "fieldname": "section_break_fzqwr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bondtype1",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "bond_renewal_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Renewal"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Request Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_bijw3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "renewal_period_to",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Renewal Period To",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2nrwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "renewal_period_from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Renewal Period From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_pqvqj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "new_bond_value",
+   "fieldtype": "Data",
+   "label": "New Bond Value"
+  },
+  {
+   "fieldname": "column_break_vssig",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new_premium_rate",
+   "fieldtype": "Data",
+   "label": "New Premium Rate"
+  },
+  {
+   "fieldname": "section_break_sytgx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reason",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_y0ahc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "approval_tab",
+   "fieldtype": "Tab Break",
+   "label": "Approval"
+  },
+  {
+   "fieldname": "approved_on",
+   "fieldtype": "Date",
+   "label": "Approved On"
+  },
+  {
+   "fieldname": "bond_extension_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Extension"
+  },
+  {
+   "fieldname": "beci_ref_no",
+   "fieldtype": "Data",
+   "label": "BECI Ref No"
+  },
+  {
+   "fieldname": "column_break_ehwff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "section_break_vab0h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "guarantee_amount",
+   "fieldtype": "Data",
+   "label": "Guarantee Amount"
+  },
+  {
+   "fieldname": "section_break_qcqed",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "extended_up_to",
+   "fieldtype": "Data",
+   "label": "Extended Up To"
+  },
+  {
+   "fieldname": "column_break_dsttd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "section_break_n1fmb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "guarantee_fee_",
+   "fieldtype": "Data",
+   "label": "Guarantee Fee %"
+  },
+  {
+   "fieldname": "column_break_imhoy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "guarantee_fee",
+   "fieldtype": "Data",
+   "label": "Guarantee Fee"
+  },
+  {
+   "fieldname": "section_break_lac6d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vat_",
+   "fieldtype": "Data",
+   "label": "Vat %"
+  },
+  {
+   "fieldname": "column_break_0nk3z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Vat"
+  },
+  {
+   "fieldname": "section_break_hgkhy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "ReInsure"
+  },
+  {
+   "fieldname": "section_break_wsksi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsure_ref_no",
+   "fieldtype": "Data",
+   "label": "ReInsure Ref No"
+  },
+  {
+   "fieldname": "section_break_aezan",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsurepercentage",
+   "fieldtype": "Data",
+   "label": "ReInsure%"
+  },
+  {
+   "fieldname": "column_break_2lqbt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "Data",
+   "label": "BECI%"
+  },
+  {
+   "fieldname": "section_break_vyo8h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_reinsure",
+   "fieldtype": "Data",
+   "label": "Portion Of Guarantee Amount To ReInsure"
+  },
+  {
+   "fieldname": "column_break_u9s5b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_beci",
+   "fieldtype": "Data",
+   "label": "Portion Of Guarantee Amount To BECI"
+  },
+  {
+   "fieldname": "section_break_gyrnf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "portion_of_guarantee_fee_to_reinsure",
+   "fieldtype": "Data",
+   "label": "Portion Of Guarantee Fee To ReInsure"
+  },
+  {
+   "fieldname": "column_break_dwkqm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "portion_of_guarantee_fee_to_beci",
+   "fieldtype": "Data",
+   "label": "Portion Of Guarantee Fee To BECI"
+  },
+  {
+   "fieldname": "section_break_vwq7h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci_commission_",
+   "fieldtype": "Data",
+   "label": "BECI Commission %"
+  },
+  {
+   "fieldname": "column_break_uisrs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beci_commission",
+   "fieldtype": "Data",
+   "label": "BECI Commission"
+  },
+  {
+   "fieldname": "section_break_5fzrz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "section_break_e3vd5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "broker_",
+   "fieldtype": "Data",
+   "label": "Broker %"
+  },
+  {
+   "fieldname": "column_break_lnkhl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "broker_commission",
+   "fieldtype": "Data",
+   "label": "Broker Commission"
+  },
+  {
+   "fieldname": "section_break_xqsee",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_due__without_vat",
+   "fieldtype": "Data",
+   "label": "Total Due ( Without VAT)"
+  },
+  {
+   "fieldname": "section_break_oqd7p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_due",
+   "fieldtype": "Data",
+   "label": "Total Due"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 18:54:38.154570",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Renewals",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,645 @@
+{
+ "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ed_number",
+ "creation": "2024-03-19 12:17:10.971098",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "domestic_declarations",
+  "section_break_vjbqa",
+  "general_info",
+  "policy_holder",
+  "policy_holder1",
+  "section_break_787rt",
+  "policy_number",
+  "policy_number1",
+  "status",
+  "inception_date",
+  "month",
+  "vat_percentage",
+  "column_break_w6vyv",
+  "ed_number",
+  "expiry_date",
+  "year",
+  "with_vat",
+  "without_vat",
+  "section_break_liyqx",
+  "column_break_vjg4j",
+  "column_break_yu4yv",
+  "column_break_nsqo2",
+  "outstanding",
+  "column_break_2rykk",
+  "turnover",
+  "column_break_obvrd",
+  "column_break_5zw3d",
+  "section_break_gctry",
+  "upload_excel1",
+  "upload1",
+  "section_break_hk5hh",
+  "outstanding1",
+  "section_break_wvukz",
+  "section_break_etfef",
+  "buyer_name",
+  "section_break_sl5nz",
+  "current",
+  "column_break_yjvln",
+  "thirty_days",
+  "column_break_xynmj",
+  "sixty_days",
+  "column_break_ngzdv",
+  "ninety_days",
+  "column_break_0iizr",
+  "onetwenty_days",
+  "column_break_2mrbs",
+  "credit_days",
+  "column_break_gplsx",
+  "total",
+  "column_break_cx5dz",
+  "adjusted",
+  "column_break_ml3rz",
+  "add",
+  "section_break_oew0h",
+  "upload_excel",
+  "upload",
+  "turnover1",
+  "section_break_zzdyv",
+  "declarations",
+  "buyername1",
+  "section_break_q79um",
+  "turn",
+  "column_break_rpzxe",
+  "creditdays1",
+  "section_break_ouroa",
+  "current1",
+  "column_break_60syx",
+  "thirty_days1",
+  "column_break_ekol7",
+  "sixty_days1",
+  "column_break_ym2xl",
+  "ninety_days1",
+  "column_break_8qjea",
+  "onetwenty_days1",
+  "column_break_gqukq",
+  "column_break_v07qh",
+  "total1",
+  "column_break_7fmff",
+  "adjusted1",
+  "column_break_q9jh2",
+  "add1",
+  "section_break_hifzt",
+  "grandtotal",
+  "column_break_9asbb",
+  "outstanding_adjusted_wo_vat",
+  "section_break_9sd2m",
+  "grandtotal1",
+  "column_break_kxv1p",
+  "turnover_adjusted_wo_vat",
+  "section_break_aovev",
+  "column_break_0b2rj",
+  "column_break_iiq4v",
+  "column_break_qflpi",
+  "prepare_invoice",
+  "column_break_obaur",
+  "column_break_rzjxj",
+  "column_break_hie2g"
+ ],
+ "fields": [
+  {
+   "fieldname": "domestic_declarations",
+   "fieldtype": "HTML",
+   "label": "Domestic Declarations"
+  },
+  {
+   "fieldname": "section_break_vjbqa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general_info",
+   "fieldtype": "HTML",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Select",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "section_break_787rt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Select",
+   "label": "Policy Number."
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Status"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception date"
+  },
+  {
+   "fieldname": "vat_percentage",
+   "fieldtype": "Data",
+   "label": "VAT percentage"
+  },
+  {
+   "fieldname": "column_break_w6vyv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Data",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_vat",
+   "fieldtype": "Check",
+   "label": "With VAT",
+   "read_only_depends_on": "without_vat"
+  },
+  {
+   "default": "0",
+   "fieldname": "without_vat",
+   "fieldtype": "Check",
+   "label": "Without VAT",
+   "read_only_depends_on": "with_vat"
+  },
+  {
+   "fieldname": "section_break_liyqx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yu4yv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "outstanding",
+   "fieldtype": "Check",
+   "label": "OutStanding",
+   "read_only_depends_on": "turnover"
+  },
+  {
+   "fieldname": "column_break_2rykk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "turnover",
+   "fieldtype": "Check",
+   "label": "Turnover",
+   "read_only_depends_on": "outstanding"
+  },
+  {
+   "fieldname": "section_break_gctry",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "upload_excel1",
+   "fieldtype": "Heading",
+   "label": "Upload Excel"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "upload1",
+   "fieldtype": "Attach",
+   "label": "Upload"
+  },
+  {
+   "fieldname": "section_break_hk5hh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "outstanding1",
+   "fieldtype": "Table",
+   "label": "Outstanding Declarations Items",
+   "options": "Outstanding_Turnover_table"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "label": "ADD"
+  },
+  {
+   "fieldname": "section_break_etfef",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "buyer_name",
+   "fieldtype": "Select",
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "section_break_sl5nz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "current",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Current"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "thirty_days",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "30 Days"
+  },
+  {
+   "fieldname": "column_break_xynmj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "sixty_days",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "60 Days"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "ninety_days",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "90 Days"
+  },
+  {
+   "default": "30",
+   "depends_on": "outstanding",
+   "fieldname": "credit_days",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Credit days "
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "onetwenty_days",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "120+days"
+  },
+  {
+   "fieldname": "column_break_gplsx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "fieldname": "column_break_cx5dz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "adjusted",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Adjusted W/O VAT"
+  },
+  {
+   "fieldname": "section_break_oew0h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "upload_excel",
+   "fieldtype": "Heading",
+   "label": "Upload Excel"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "upload",
+   "fieldtype": "Attach",
+   "label": "Upload"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "turnover1",
+   "fieldtype": "Table",
+   "label": "Turnover Declarations Items",
+   "options": "Outstanding_Turnover_table"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "add1",
+   "fieldtype": "Button",
+   "label": "ADD"
+  },
+  {
+   "fieldname": "section_break_zzdyv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "declarations",
+   "fieldtype": "Heading",
+   "label": "Declarations"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "buyername1",
+   "fieldtype": "Select",
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "section_break_q79um",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "current1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Current"
+  },
+  {
+   "fieldname": "column_break_60syx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "thirty_days1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "30 Days"
+  },
+  {
+   "fieldname": "column_break_ekol7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "sixty_days1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "60 Days"
+  },
+  {
+   "fieldname": "column_break_ym2xl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "ninety_days1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "90 Days"
+  },
+  {
+   "fieldname": "column_break_8qjea",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "90",
+   "depends_on": "turnover",
+   "fieldname": "creditdays1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Credit days "
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "onetwenty_days1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "120+days"
+  },
+  {
+   "fieldname": "column_break_v07qh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "total1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "fieldname": "column_break_7fmff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "adjusted1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Adjusted W/O VAT"
+  },
+  {
+   "fieldname": "section_break_hifzt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_iiq4v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qflpi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "prepare_invoice",
+   "fieldtype": "Button",
+   "label": "Prepare Invoice"
+  },
+  {
+   "fieldname": "column_break_obaur",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rzjxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hie2g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "grandtotal",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Outstanding Grand Total"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Declaration for the month of",
+   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOBER\nNOVEMBER\nDECEMBER"
+  },
+  {
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "label": "DD.Ref.No",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_2mrbs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gqukq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "outstanding",
+   "fieldname": "outstanding_adjusted_wo_vat",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Outstanding(GT)  Adjusted W/O VAT"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "grandtotal1",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Turnover Grand Total"
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "turnover_adjusted_wo_vat",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Turnover(GT) Adjusted W/O VAT"
+  },
+  {
+   "fieldname": "section_break_aovev",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_0b2rj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yjvln",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ngzdv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0iizr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_9asbb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kxv1p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_9sd2m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_q9jh2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ml3rz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_wvukz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": " Policy Holder"
+  },
+  {
+   "fieldname": "policy_number1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": " Policy No."
+  },
+  {
+   "depends_on": "turnover",
+   "fieldname": "turn",
+   "fieldtype": "Currency",
+   "label": "Turnover"
+  },
+  {
+   "fieldname": "column_break_rpzxe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ouroa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vjg4j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nsqo2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_obvrd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_5zw3d",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-05 11:09:29.208593",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Domestic Declarations",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

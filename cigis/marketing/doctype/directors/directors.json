@@ -1,0 +1,244 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-31 12:08:27.720663",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "head",
+  "company",
+  "section_break_bsyze",
+  "client_short_name",
+  "name1",
+  "column_break_hvss0",
+  "proposal_no",
+  "section_break_e1ba0",
+  "section_break_ad9ic",
+  "director__share_holder",
+  "directors",
+  "section_break_3svnu",
+  "id_type",
+  "surname",
+  "first_name",
+  "emailaddress",
+  "fax",
+  "column_break_v8pf9",
+  "id_number",
+  "middle_name",
+  "contact_no",
+  "designation",
+  "section_break_woszm",
+  "column_break_h9ive",
+  "column_break_n5feh",
+  "column_break_laba0",
+  "delete",
+  "column_break_a8jgq",
+  "save",
+  "column_break_zdbpf",
+  "cancel",
+  "column_break_4rrkt",
+  "section_break_qmq6z",
+  "column_break_7nns7",
+  "style"
+ ],
+ "fields": [
+  {
+   "fieldname": "head",
+   "fieldtype": "HTML",
+   "label": "Head",
+   "options": "<h4 style=\"color: blue;\">Credit Insurance&gt;&gt;DCI-Proposals</h4>"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Heading",
+   "label": "Company"
+  },
+  {
+   "fieldname": "section_break_bsyze",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_short_name",
+   "fieldtype": "Data",
+   "label": "Client Short Name"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_hvss0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "section_break_e1ba0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ad9ic",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "director__share_holder",
+   "fieldtype": "Heading",
+   "label": "Director / Share Holder"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "HTML",
+   "label": "Directors",
+   "options": "<h5 style=\"color: black;\">Directors / Shareholders</h5>"
+  },
+  {
+   "fieldname": "section_break_3svnu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "id_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "emailaddress",
+   "fieldtype": "Data",
+   "label": "E-Mail Address"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "column_break_v8pf9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_woszm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_h9ive",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_n5feh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_laba0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "delete",
+   "fieldtype": "Button",
+   "label": "Delete"
+  },
+  {
+   "fieldname": "column_break_a8jgq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "label": "Save"
+  },
+  {
+   "fieldname": "column_break_zdbpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "column_break_4rrkt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qmq6z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7nns7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "style",
+   "fieldtype": "HTML",
+   "label": "Style",
+   "options": "<style>\n  .underlined {\n    text-decoration: underline;\n    color: #8B4513; /* Brown color */\n  }\n</style>\n<p>\n  <span class=\"underlined\">Directors</span> \n  <span class=\"underlined\">/Shareholders</span>\n  <span class=\"underlined\">Nature of Business</span>  \n  <span class=\"underlined\">Buyer Experience</span>\n  <span class=\"underlined\">Debt History</span>\n  <span class=\"underlined\">Debtor Schedule</span>\n  <span class=\"underlined\">Principal Buyer</span>\n  <span class=\"underlined\">Quotation</span>\n  <span class=\"underlined\">Status</span>  \n</p>\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 11:21:36.317484",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Directors",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

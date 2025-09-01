@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{claim_reg_no}",
+ "creation": "2024-03-20 09:16:40.059142",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "claim_register",
+  "section_break_aiboe",
+  "section_break_xxebk",
+  "claim_reg_no",
+  "ph_name",
+  "policy_no",
+  "policyno",
+  "column_break_syndj",
+  "date_of_claim",
+  "section_break_9pexy",
+  "buyer",
+  "buyerinfo",
+  "claim_value",
+  "policy_type",
+  "inception_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "claim_register",
+   "fieldtype": "Heading",
+   "label": "Claim Register"
+  },
+  {
+   "fieldname": "section_break_aiboe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_xxebk",
+   "fieldtype": "Section Break",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "claim_reg_no",
+   "fieldtype": "Data",
+   "label": "Claim Reg. No",
+   "unique": 1
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Select",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "policyno",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "column_break_syndj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_claim",
+   "fieldtype": "Date",
+   "label": "Date of Claim"
+  },
+  {
+   "fieldname": "section_break_9pexy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "buyerinfo",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "claim_value",
+   "fieldtype": "Currency",
+   "label": "Claim value"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Type"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Inception date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-05 09:16:24.324776",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Claim Register",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

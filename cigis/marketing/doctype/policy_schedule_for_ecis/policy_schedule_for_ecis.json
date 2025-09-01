@@ -1,0 +1,136 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_of_insured}",
+ "creation": "2024-02-28 07:04:04.236971",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "section_break_ujfb8",
+  "schedule",
+  "section_break_y8w5f",
+  "policy_number",
+  "column_break_ssfah",
+  "proposal_no",
+  "section_break_tc4kd",
+  "name_of_insured",
+  "column_break_wsw2t",
+  "quotation_no",
+  "section_break_bqyb0",
+  "section_break_qejwd",
+  "line",
+  "section_break_0oylh",
+  "eci_policy"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "image",
+   "options": "\n\n\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Centered Image</title>\n    <style>\n        /* Style to center the image */\n        .centered-image {\n            display: block;\n            margin: auto;\n        }\n    </style>\n\n\n    <!-- Place the image inside a container div for better alignment control -->\n    <div style=\"text-align: center;\">\n        <img alt=\"Logo\" class=\"centered-image\" src=\"https://www.beci.co.bw/themes/theme/logo.png\">\n    </div>\n\n\n<br>"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "HTML",
+   "label": "schdule",
+   "options": "<style>\n    /* Center-align both headings */\n    h3, h2 {\n        text-align: center;\n    }\n</style>\n\n<h3>SCHEDULE</h3>\n<h2>Export Credit Insurance Policy</h2>\n"
+  },
+  {
+   "fieldname": "section_break_y8w5f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "POLICY NO",
+   "options": "\n\n\n    POLICY NO:"
+  },
+  {
+   "fieldname": "column_break_ssfah",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "PROPOSAL NO",
+   "options": "\n\n\n  PROPOSAL NO \n"
+  },
+  {
+   "fieldname": "section_break_tc4kd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_insured",
+   "fieldtype": "Data",
+   "label": "NAME OF INSURED",
+   "options": " <p>NAME OF THE INSURED:</p>",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_wsw2t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bqyb0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_qejwd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "label": "LINE",
+   "options": "<p><br>SIGNED for on behalf of BECI<br><br>______________________________<br><br>Date:______________________________<br><br><br></p>"
+  },
+  {
+   "fieldname": "quotation_no",
+   "fieldtype": "Data",
+   "label": "QUOTATION  NO"
+  },
+  {
+   "fieldname": "section_break_0oylh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "eci_policy",
+   "fieldtype": "Table",
+   "options": "ECI_Policy_Schedule_letter"
+  },
+  {
+   "fieldname": "section_break_ujfb8",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-21 11:34:56.602496",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Policy Schedule For ECIS",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

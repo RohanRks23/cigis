@@ -1,0 +1,192 @@
+{
+ "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:cb_request_number",
+ "creation": "2024-02-16 12:18:53.851801",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_wdgsd",
+  "cb_report",
+  "section_break_kw5pq",
+  "credit_bureau_request",
+  "section_break_32uw7",
+  "buyer",
+  "cb_request_number",
+  "reqdate",
+  "column_break_k5b5l",
+  "refnumber",
+  "policy_type",
+  "veiw_cb_request",
+  "section_break_aphdp",
+  "section_break_u1k6d",
+  "credit_bureau_responce",
+  "section_break_jnrlv",
+  "date",
+  "catagory",
+  "code",
+  "column_break_alu3w",
+  "details",
+  "description",
+  "section_break_yfzp1",
+  "number"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_break_wdgsd",
+   "fieldtype": "Tab Break",
+   "label": "CB Report "
+  },
+  {
+   "fieldname": "cb_report",
+   "fieldtype": "HTML",
+   "label": "CB Report",
+   "options": "<h3>CB Report</h3>\n"
+  },
+  {
+   "fieldname": "section_break_kw5pq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_bureau_request",
+   "fieldtype": "HTML",
+   "label": "Credit Bureau Request",
+   "options": "<h4>Credit Bureau Request</h4>\n"
+  },
+  {
+   "fieldname": "section_break_32uw7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "buyer.cb_request_number",
+   "fieldname": "cb_request_number",
+   "fieldtype": "Data",
+   "label": "CB Req Number",
+   "unique": 1
+  },
+  {
+   "fetch_from": "buyer.reqdate",
+   "fieldname": "reqdate",
+   "fieldtype": "Data",
+   "label": "Req.Date"
+  },
+  {
+   "fetch_from": "refnumber.buyer_name",
+   "fieldname": "buyer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "column_break_k5b5l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "buyer.refnumber",
+   "fieldname": "refnumber",
+   "fieldtype": "Data",
+   "label": "Ref.Number"
+  },
+  {
+   "fieldname": "veiw_cb_request",
+   "fieldtype": "Button",
+   "label": "Veiw CB Request"
+  },
+  {
+   "fieldname": "section_break_aphdp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_u1k6d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credit_bureau_responce",
+   "fieldtype": "HTML",
+   "label": "Credit Bureau Response",
+   "options": "<h4>Credit Bureau Response</h4>\n"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "catagory",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Code"
+  },
+  {
+   "fieldname": "column_break_alu3w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Details"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_jnrlv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "buyer.policy_type",
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Type"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "count doc clicks"
+  },
+  {
+   "fieldname": "section_break_yfzp1",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-08 13:11:24.016037",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "CB Report",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,42 @@
+{
+ "chart_name": "Marketing",
+ "chart_type": "Report",
+ "creation": "2024-07-03 05:59:44.136928",
+ "custom_options": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2024-07-03 09:32:52.496931",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Marketing",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Marketing",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "workflow_state",
+ "y_axis": [
+  {
+   "y_field": "approved"
+  },
+  {
+   "y_field": "rejected"
+  },
+  {
+   "y_field": "submitted"
+  },
+  {
+   "y_field": "declined"
+  }
+ ]
+}
