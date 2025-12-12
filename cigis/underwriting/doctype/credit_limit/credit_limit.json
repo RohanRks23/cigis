@@ -15,12 +15,12 @@
    "fieldname": "credit_limit",
    "fieldtype": "Table",
    "label": "Credit Limit",
-   "options": "CreditLimitDisplaychild"
+   "options": "Credit Limit Display Child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 07:35:08.874592",
+ "modified": "2025-09-26 14:02:44.648716",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Credit Limit",

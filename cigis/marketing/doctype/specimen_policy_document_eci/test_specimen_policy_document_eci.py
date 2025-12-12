@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestSpecimenPolicyDocument_ECI(FrappeTestCase):
+class TestSpecimenPolicyDocumentECI(FrappeTestCase):
 	pass

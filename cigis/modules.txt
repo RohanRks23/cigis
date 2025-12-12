@@ -8,3 +8,6 @@ BrokerModule
 Broker
 Reference
 Finance_CIGIS
+Administration
+Finance
+Insured_Module

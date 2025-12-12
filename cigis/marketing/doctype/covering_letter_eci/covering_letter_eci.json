@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{to}",
@@ -27,7 +26,7 @@
    "fieldname": "credit",
    "fieldtype": "HTML",
    "label": "credit",
-   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
+   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee <br>Company(Botswana)Pty.Ltd.  <br>\nCredSure House, 69 Sam Nujoma Street, Hre, Zw\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\" https://www.credsure.co.zw\">https://www.credsure.co.zw</a>\n</p>"
   },
   {
    "fieldname": "section_break_ysol7",
@@ -60,7 +59,7 @@
   {
    "fieldname": "draw",
    "fieldtype": "Data",
-   "label": "We draw your attention to the fact that this quotation is given subject to BECI obtaining a good bank "
+   "label": "We draw your attention to the fact that this quotation is given subject to Credsure obtaining a good bank "
   },
   {
    "fieldname": "section_break_dgwfb",
@@ -85,10 +84,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-04 12:23:19.693014",
+ "modified": "2025-10-29 12:59:25.858856",
  "modified_by": "Administrator",
  "module": "Marketing",
- "name": "covering Letter_ECI",
+ "name": "Covering Letter ECI",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

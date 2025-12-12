@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{policy_names}",
+ "autoname": "format:{policy_names}-{YYYY}-{#####}",
  "creation": "2024-03-21 10:26:46.370419",
  "default_view": "List",
  "doctype": "DocType",
@@ -16,7 +16,15 @@
   "column_break_wpxwa",
   "proposal_no1",
   "section_break_wld9t",
-  "endorsement"
+  "endorsement",
+  "section_break_hvuhn",
+  "paragraph",
+  "section_break_c3elj",
+  "sub",
+  "column_break_vtlus",
+  "address",
+  "column_break_orey3",
+  "address1"
  ],
  "fields": [
   {
@@ -61,12 +69,52 @@
    "fieldname": "endorsement",
    "fieldtype": "HTML",
    "label": "ENDORSEMENT",
-   "options": "<br>\n<p>The following Definitions and Proviso\u2019s in the Standard Domestic Cover wording shall be amended to read as follows:\n</p>\n<br>\n<p><b>1. Definition 1 - Insurable Transaction</b>\n</p>\n<br>\n<p>An <b>\u201cInsurable Transaction\u201d </b>means any goods delivered or services rendered by the Insured to a buyer,\nafter the inception date of the policy, on credit terms not exceeding 180 days and excluding any goods\ndelivered on consignment, cash sales or cash payments by a negotiable instrument.</p><br>\n<p><b>1. Proviso 11 - Declarations Of Transactions</b>\n</p><br>\n<p>A. The Insured shall declare to BECI, in respect of each Insured Buyer individually, on the formsprovided by BECI for this purpose, the gross invoice value of all Insurable Transactions in respect\nof each Insured Buyer as follows:\n</p><br>\n<p>i. concluded for each month from the inception date of the policy or the effective date of the annual\npolicy review with each Insured customer;</p><br>\n<p>ii. The gross invoice value shall include any insurance, freight or other charges payable by the\nInsured on behalf of the Insured Buyer but shall exclude VAT.</p><br>\n<p>A. The declarations shall be sent by the Insured in order to reach BECI within 14 days after the end of\neach month from the Inception Date of the policy or from the effective date of the annual policy\nrenewal.</p><br>\n<p>B. The Insured shall also declare to BECI, in respect of each Insured Buyer individually, on the forms\nprovided by BECI for this purpose, the Insured Debt that is 30 days or more overdue for payment\nby the Insured Buyer. This declaration must reach BECI within 14 days after the end of each\ncalendar month.</p><br>\n<p><b>2. Proviso 13 - Premiums / Credit Limit Fees</b>\n</p><br>\n<p>The minimum premium shown in Section 6(a) of the schedule shall be paid by the insured to BECI before the issue of\nthe policy and shall be applied in reduction of premiums payable. Once the minimum premium has been liquidated,\nany additional premium</p><br>\n<p>A. payable shall be settled by the Insured upon receipt of BECI\u2019s statement\n</p><br>\n<p>B. The minimum monthly premium shall be the product of monthly gross turnover (gross invoice value)\nand the relevant premium rate shown in Section 6(b) of the schedule.</p><br>\n<p>C. The premium shall be paid by the Insured to BECI on presentation of the invoice raised on the basis\nof (A) above.</p><br>\n<p>D. In addition, the Insured shall pay a monthly fee as specified in Section 6(c) of the schedule for each\nCredit Limit in force at the end of each month.</p><br>\n<p>SIGNED for and on behalf of BECI\n</p>\n<hr>\n<hr>"
+   "options": "<br>\n<p>The following Definitions and Proviso\u2019s in the Standard Domestic Cover wording shall be amended to read as follows:\n</p>\n<br>\n<p><b>1. Definition 1 - Insurable Transaction</b>\n</p>\n<br>\n<p>An <b>\u201cInsurable Transaction\u201d </b>means any goods delivered or services rendered by the Insured to a buyer,\nafter the inception date of the policy, on credit terms not exceeding 180 days and excluding any goods\ndelivered on consignment, cash sales or cash payments by a negotiable instrument.</p><br>\n<p><b>1. Proviso 11 - Declarations Of Transactions</b>\n</p><br>\n<p>A. The Insured shall declare to CREDSURE, in respect of each Insured Buyer individually, on the forms provided by CREDSURE for this purpose, the gross invoice value of all Insurable Transactions in respect\nof each Insured Buyer as follows:\n</p><br>\n<p>i. concluded for each month from the inception date of the policy or the effective date of the annual\npolicy review with each Insured customer;</p><br>\n<p>ii. The gross invoice value shall include any insurance, freight or other charges payable by the\nInsured on behalf of the Insured Buyer but shall exclude VAT.</p><br>\n<p>A. The declarations shall be sent by the Insured in order to reach CREDSURE within 14 days after the end of\neach month from the Inception Date of the policy or from the effective date of the annual policy\nrenewal.</p><br>\n<p>B. The Insured shall also declare to CREDSURE, in respect of each Insured Buyer individually, on the forms\nprovided by CREDSURE for this purpose, the Insured Debt that is 30 days or more overdue for payment\nby the Insured Buyer. This declaration must reach CREDSURE within 14 days after the end of each\ncalendar month.</p><br>\n<p><b>2. Proviso 13 - Premiums / Credit Limit Fees</b>\n</p><br>\n<p>The minimum premium shown in Section 6(a) of the schedule shall be paid by the insured to CREDSURE before the issue of\nthe policy and shall be applied in reduction of premiums payable. Once the minimum premium has been liquidated,\nany additional premium</p><br>\n<p>A. payable shall be settled by the Insured upon receipt of CREDSURE\u2019s statement\n</p><br>\n<p>B. The minimum monthly premium shall be the product of monthly gross turnover (gross invoice value)\nand the relevant premium rate shown in Section 6(b) of the schedule.</p><br>\n<p>C. The premium shall be paid by the Insured to CREDSURE on presentation of the invoice raised on the basis\nof (A) above.</p><br>\n<p>D. In addition, the Insured shall pay a monthly fee as specified in Section 6(c) of the schedule for each\nCredit Limit in force at the end of each month.</p><br>\n<p>SIGNED for and on behalf of CREDSURE\n</p>\n<p>------------------------------</p>\n<p>------------------------------</p>\n"
+  },
+  {
+   "fieldname": "section_break_hvuhn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_c3elj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_vtlus",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_orey3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-26 06:50:26.752756",
+ "modified": "2025-11-25 07:10:18.657338",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Addendum and Endorsements to the policy",

@@ -1,0 +1,307 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: {name1}",
+ "creation": "2024-03-08 06:42:28.011722",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bc",
+  "h",
+  "section_break_70xvl",
+  "name1",
+  "short_name",
+  "postal_address",
+  "location",
+  "physical_address",
+  "location1",
+  "telephone",
+  "fax",
+  "registration_number",
+  "taxno",
+  "is_group_company",
+  "column_break_o6hkb",
+  "establisheddate",
+  "vat_reg_no",
+  "company_group",
+  "status",
+  "country",
+  "contact_person",
+  "email",
+  "industry",
+  "business",
+  "trading_name",
+  "parent_company",
+  "section_break_hgwqu",
+  "bank_details",
+  "section_break_jjcgw",
+  "bank",
+  "ac_no",
+  "column_break_ckyo3",
+  "branch",
+  "section_break_hmvne",
+  "directors",
+  "section_break_q9tws",
+  "director_1",
+  "director_2",
+  "column_break_0scrd",
+  "director_3",
+  "director_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "bc",
+   "fieldtype": "HTML",
+   "label": "BC"
+  },
+  {
+   "fieldname": "h",
+   "fieldtype": "HTML",
+   "label": "H"
+  },
+  {
+   "fieldname": "section_break_70xvl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "short_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Short Name"
+  },
+  {
+   "fieldname": "postal_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Postal Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "City 1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group_company",
+   "fieldtype": "Check",
+   "label": "Is Group Company"
+  },
+  {
+   "fieldname": "establisheddate",
+   "fieldtype": "Date",
+   "label": "Established Date"
+  },
+  {
+   "depends_on": "is_group_company",
+   "fieldname": "company_group",
+   "fieldtype": "Select",
+   "label": "Company Group",
+   "options": "\n1A\n1B\n1C\n2A\n2B\n2C\n3A\n3B\n3C"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nActive\nInActive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "label": "Contact Person",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Select",
+   "label": "Industry",
+   "options": "\nAGRICULTURE\nBEEF\nCONFECTIONERY\nCOMMUNICATIONS\nCONSTRUCTION\nCONSULTANTS\nDISTRIBUTOR\nFINANCIAL SERVICES\nGENERAL TRADING\nHARDWARE\nHOSPITALITY\nIT SOFTWARE & HARDWARE\nMANUFACTURING\nMINING\nMOTOR PARTS\nOPTICALS\nPHARMACEUTICALS\nPVC PIPES\nRETAILER\nSERVICES\nSERSTA\nSTATIONARY\nSTEEL\nTEXTILES\nTOURISM\nTRANSPORTATION\nWATER TANKS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "business",
+   "fieldtype": "Select",
+   "label": "Business",
+   "options": "\nACCOUNTANTS\nAGRICULTURAL ENGINEERING\nAGRICULTURAL & FORMING EQUIPMENT\nAGRO DEALERS\nAIR & CARGO\nARCHITECTS\nBEVERAGES\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nBUTCHERY\nCHEMICALS\nCHEMICALS AND STATIONARY\nCIVIL ENGINEERING\nCOMMUTER\nDAIRY PRODUCTS\nDOCTORS\nDRY CLEANING\nELECTRICAL ENGINEERING\nELECTRICAL PRODUCTS\nENGINEERING CONSULATANTS\nENGINEERING CONSULTANCY\nESTATES\nFARMING\nFIXED TELEPHONE OPERATORS\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nGARAGES\nGENERAL DEALER\nGINNERIES\nGOODS RETAILING\nHARDWARE\nHAULAGE\nHORTICULTURE\nHOTELS\nHUMAN RESOURCES\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nLANDSPACE CONSTRUCTORS\nLAUNDRY\nLODGGES\nMANUFACTURER\nMANUFACTURING\nMARINE\nMECHANICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMETAL PACKAGE\nMETAL PACKAGING\nMILLERS\nMINES\nMINING ENGINEERING\nMINING SUPPLIES\nMOBILE PHONE OPERATORS\nMOTOR PARTS\nMOTOR SPARES\nOTHERS\nPAPER & ALLIED PRODUCTS\nPERMACULTURE\nPLASTIC PACKAGE\nPLASTIC PACKAGING\nPOULTRY\nPRIVATE BUYERS\nPRIVATE HOSPITALS\nRANCHING\nRAIL\nRESTAURANT\nRESTAURANTS\nRESORTS\nROAD CONSTRUCTION\nROAD MAINTENANCE\nSECURITY\nSERVICE STATIONS\nSERVICES RETAILING\nSTATIONARY\nSTATIONARY AND COMPUTERS\nSTATIONARY AND IT PRODUCTS\nTAKE AWAYS\nTIMBER PRODUCTS\nTOBACCO PROCESSING/ MERCHANTS\nWHOLESALER\nWHOLESALERS",
+   "reqd": 1
+  },
+  {
+   "fieldname": "trading_name",
+   "fieldtype": "Data",
+   "label": "Trading Name"
+  },
+  {
+   "fieldname": "parent_company",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Parent Company"
+  },
+  {
+   "fieldname": "section_break_hgwqu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bank_details",
+   "fieldtype": "Heading",
+   "label": "Bank Details"
+  },
+  {
+   "fieldname": "section_break_jjcgw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Link",
+   "label": "Bank",
+   "options": "Banks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ac_no",
+   "fieldtype": "Data",
+   "label": "A/C No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ckyo3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_hmvne",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "Heading",
+   "label": "Directors"
+  },
+  {
+   "fieldname": "section_break_q9tws",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "director_1",
+   "fieldtype": "Data",
+   "label": "Director 1"
+  },
+  {
+   "fieldname": "director_3",
+   "fieldtype": "Data",
+   "label": "Director 3"
+  },
+  {
+   "fieldname": "column_break_0scrd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "director_2",
+   "fieldtype": "Data",
+   "label": "Director 2"
+  },
+  {
+   "fieldname": "director_4",
+   "fieldtype": "Data",
+   "label": "Director 4"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Reg. No"
+  },
+  {
+   "fieldname": "column_break_o6hkb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "taxno",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Tax No"
+  },
+  {
+   "fieldname": "vat_reg_no",
+   "fieldtype": "Data",
+   "label": "stamp duty % Reg. No"
+  },
+  {
+   "fieldname": "location1",
+   "fieldtype": "Data",
+   "label": "City 2",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-26 07:15:55.537597",
+ "modified_by": "Administrator",
+ "module": "Administration",
+ "name": "Company-Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestECIPrintproposals(FrappeTestCase):
+class TestECIPrintProposals(FrappeTestCase):
 	pass

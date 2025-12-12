@@ -1,0 +1,306 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{debit_note_no}",
+ "creation": "2024-03-21 08:19:35.370968",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "debit_note",
+  "section_break_avrex",
+  "invoice",
+  "section_break_xi2wo",
+  "policy_holder",
+  "ph_name",
+  "column_break_hnbps",
+  "quotation_number",
+  "section_break_nhd0n",
+  "invoice_number",
+  "invoice_no",
+  "invoice_date",
+  "vat",
+  "month",
+  "currency",
+  "column_break_yeqin",
+  "debit_note_date",
+  "ed_number",
+  "debit_note_no",
+  "total_amountincl_vat",
+  "section_break_svt60",
+  "invoce_details",
+  "debit_note_child_table",
+  "section_break_xqpup",
+  "dd_amount",
+  "column_break_ohjat",
+  "premium_rate",
+  "column_break_5inxx",
+  "premiumrate",
+  "section_break_kodvm",
+  "ddamount",
+  "column_break_hrkxt",
+  "premium_rate1",
+  "column_break_gv2ul",
+  "premium_rate2",
+  "column_break_tpo84",
+  "comments",
+  "column_break_ypx6f",
+  "section_break_cryxr",
+  "column_break_enecd",
+  "column_break_jnif7",
+  "column_break_ikljq",
+  "internal_invoice",
+  "column_break_mjcue",
+  "tax_invoice",
+  "column_break_nptfz",
+  "section_break_ferfp"
+ ],
+ "fields": [
+  {
+   "fieldname": "debit_note",
+   "fieldtype": "Tab Break",
+   "label": "Debit Note"
+  },
+  {
+   "fieldname": "section_break_avrex",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Heading",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "section_break_xi2wo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Select",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "section_break_nhd0n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Percent",
+   "label": "Stamp duty %"
+  },
+  {
+   "fieldname": "column_break_yeqin",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debit_note_date",
+   "fieldtype": "Date",
+   "label": "Debit Note Date"
+  },
+  {
+   "fieldname": "total_amountincl_vat",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount(incl VAT)"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "section_break_svt60",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "debit_note_child_table",
+   "fieldtype": "Table",
+   "options": "Debit Note Invoice Details DCI"
+  },
+  {
+   "fieldname": "section_break_xqpup",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "internal_invoice",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Internal Invoice"
+  },
+  {
+   "fieldname": "tax_invoice",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Tax Invoice"
+  },
+  {
+   "fieldname": "column_break_tpo84",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ypx6f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mjcue",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nptfz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_number",
+   "fieldtype": "Select",
+   "label": "Invoice N0"
+  },
+  {
+   "fieldname": "dd_amount",
+   "fieldtype": "Data",
+   "label": "Dcl Amount"
+  },
+  {
+   "fieldname": "column_break_ohjat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "column_break_5inxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premiumrate",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_kodvm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ddamount",
+   "fieldtype": "Data",
+   "label": " Dcl Amount"
+  },
+  {
+   "fieldname": "column_break_hrkxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate1",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "column_break_gv2ul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "section_break_cryxr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoce_details",
+   "fieldtype": "HTML",
+   "label": "Invoice Details",
+   "options": "<h5>Invoice Details</h5>"
+  },
+  {
+   "fieldname": "column_break_hnbps",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "column_break_enecd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jnif7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ikljq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ferfp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "debit_note_no",
+   "fieldtype": "Data",
+   "label": "Dedbit Note No",
+   "unique": 1
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "label": "ED Number"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency_Finance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-04 10:32:47.929448",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Debit Note",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

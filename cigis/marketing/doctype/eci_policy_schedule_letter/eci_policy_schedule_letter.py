@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class ECI_Policy_Schedule_letter(Document):
+class ECIPolicyScheduleLetter(Document):
 	pass

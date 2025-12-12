@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:buyer",
+ "autoname": "format:{cb_request_number}",
  "creation": "2024-03-05 09:08:12.572711",
  "default_view": "List",
  "doctype": "DocType",
@@ -26,7 +26,8 @@
   "reqdate",
   "column_break_qmzai",
   "refnumber",
-  "policy_type"
+  "policy_type",
+  "cancel"
  ],
  "fields": [
   {
@@ -101,8 +102,7 @@
   {
    "fieldname": "buyer",
    "fieldtype": "Data",
-   "label": " Buyer",
-   "unique": 1
+   "label": " Buyer"
   },
   {
    "fieldname": "cb_request_number",
@@ -129,15 +129,21 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Buyer Type"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Cancel"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-16 10:30:52.094463",
+ "modified": "2025-12-04 10:03:50.406226",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "CB Request",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

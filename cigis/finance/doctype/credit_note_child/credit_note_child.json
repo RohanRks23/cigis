@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-09 08:34:22.161852",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "buyer",
+  "dcl_amt",
+  "premium_rate",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Country"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "dcl_amt",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Dcl Amt"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-01 08:44:37.888923",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "credit note child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

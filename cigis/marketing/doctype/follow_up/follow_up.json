@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:followup_id",
@@ -24,16 +23,13 @@
   "upload",
   "section_break_hxzet",
   "schedule_tab",
+  "client",
   "schdate",
+  "mailid",
+  "schtime",
   "column_break_jkrg9",
   "contactperson",
-  "section_break_9x0ln",
-  "mailid",
-  "column_break_gomvk",
   "comment1",
-  "section_break_vzrp0",
-  "schtime",
-  "column_break_mub5g",
   "phoneno"
  ],
  "fields": [
@@ -68,7 +64,8 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Status",
-   "options": "\nACTIVE\nINACTIVE"
+   "options": "\nACTIVE\nINACTIVE",
+   "reqd": 1
   },
   {
    "fieldname": "followup_id",
@@ -139,7 +136,7 @@
   },
   {
    "fieldname": "phoneno",
-   "fieldtype": "Phone",
+   "fieldtype": "Data",
    "label": "Phone No"
   },
   {
@@ -148,35 +145,26 @@
    "label": " Follow Ups"
   },
   {
-   "fieldname": "column_break_gomvk",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_vzrp0",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "section_break_9x0ln",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "column_break_mub5g",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "visit_no",
    "fieldtype": "Int",
+   "hidden": 1,
    "label": "Visit No"
   },
   {
    "fieldname": "comment1",
    "fieldtype": "Data",
    "label": "Comments"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Company-Details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-31 08:07:09.170854",
+ "modified": "2025-12-05 11:08:57.995431",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Follow UP",

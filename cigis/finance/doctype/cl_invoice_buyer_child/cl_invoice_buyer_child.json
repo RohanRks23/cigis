@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-29 07:21:48.912870",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "buyer",
+  "declamt",
+  "premium_rate",
+  "premamount"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Country"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "declamt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Decl.Amt"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "premamount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Prem.Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-24 11:43:48.336805",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "cl invoice buyer child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

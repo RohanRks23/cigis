@@ -1,7 +1,7 @@
 // Copyright (c) 2024, SAiS and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('covering Letter_ECI', {
+frappe.ui.form.on('Covering Letter ECI', {
     refresh(frm) {
         // Get the value of name1 field
         var name1 = frm.doc.name1;

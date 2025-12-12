@@ -1,9 +1,7 @@
 {
- "_comments": "[]",
- "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{client_name}-{####}",
+ "autoname": "format:{client_name}",
  "creation": "2024-03-19 12:54:07.076111",
  "default_view": "List",
  "doctype": "DocType",
@@ -360,17 +358,18 @@
    "fieldtype": "Section Break"
   },
   {
-   "fetch_from": "bond_facility_no.name12",
+   "fetch_from": "bond_facility_no.client_name",
    "fieldname": "client_name",
-   "fieldtype": "Link",
-   "label": "Client Name",
-   "options": "Bond Facility"
+   "fieldtype": "Select",
+   "label": "Client Name"
   },
   {
    "fetch_from": "client_name.facility_no",
    "fieldname": "bond_facility_no",
    "fieldtype": "Data",
-   "label": "Bond Facility No "
+   "in_list_view": 1,
+   "label": "Bond Facility No ",
+   "reqd": 1
   },
   {
    "fieldname": "current_year_ended",
@@ -1809,7 +1808,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-07 07:33:05.190303",
+ "modified": "2025-11-24 15:27:46.383856",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Bond Facility Ratio Analysis",

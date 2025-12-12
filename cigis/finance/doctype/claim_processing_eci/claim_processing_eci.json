@@ -1,0 +1,656 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-18 06:59:17.021118",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_wktjl",
+  "client",
+  "policy_no",
+  "type",
+  "payment_ref_no",
+  "buyer",
+  "claim_ref_no",
+  "claim_ammount",
+  "reinsure",
+  "column_break_03biz",
+  "status",
+  "process_date",
+  "cause_of_loss",
+  "insured_amt",
+  "beci",
+  "section_break_dmqsq",
+  "claim_processing",
+  "section_break_ikec3",
+  "cost_saving",
+  "column_break_ump3m",
+  "terms_of_payment",
+  "section_break_wmout",
+  "payment_due_date",
+  "column_break_xbd4k",
+  "claim_settlement_due_date",
+  "section_break_rtx34",
+  "date_claim_lodged",
+  "column_break_mby3g",
+  "trading_experience",
+  "section_break_xksnx",
+  "shippment",
+  "column_break_5qhks",
+  "proof_of_solvency",
+  "section_break_6dmhg",
+  "liquidators_name",
+  "column_break_mtnwk",
+  "evidence_of_claim_againset_of_estate",
+  "section_break_5cuhq",
+  "basis_of_credit_limit",
+  "column_break_nj2lh",
+  "credit_limit",
+  "section_break_tas5s",
+  "effective_date_of_credit_limit",
+  "column_break_vu7ji",
+  "expiry_date_of_credit_limit",
+  "section_break_14wlw",
+  "are_over_dues_in_line_with_credit_limit",
+  "section_break_k4qxq",
+  "were_invoiced_goods_declared_accordingly",
+  "column_break_y7mze",
+  "p",
+  "column_break_km6el",
+  "were_premium_paid_on_time",
+  "column_break_a6q8y",
+  "q",
+  "section_break_vlxgj",
+  "date_beci_first_notified_of_the_claim",
+  "action_taken_by_policyholder_to_prevent_loss",
+  "column_break_oo7fy",
+  "has_debt_been_handed_over_any_admissible_items",
+  "column_break_hnvfk",
+  "t",
+  "column_break_ermy8",
+  "in_anyadmissible_items",
+  "column_break_ifq3j",
+  "coppies_of_correspondence_relating_to_debit",
+  "column_break_7jd7g",
+  "v",
+  "section_break_zn6wl",
+  "reason_given_by_buyer_default",
+  "section_break_3wief",
+  "has_the_buyer_defaulted_before",
+  "column_break_qlqge",
+  "x",
+  "section_break_n1vze",
+  "is_there_dispute_between_buyer_and_seller",
+  "column_break_4piiq",
+  "y",
+  "section_break_yqbnx",
+  "has_legal_action_been_taken_against__the_buyer",
+  "column_break_64cyc",
+  "z",
+  "section_break_sqxl8",
+  "does_beci_have_a_liability",
+  "column_break_e8d5d",
+  "aa",
+  "section_break_owmtb",
+  "are_there_posibilities_of_recovery",
+  "column_break_rsv91",
+  "ab",
+  "section_break_whd8x",
+  "any_exposure_to_policy_holder",
+  "column_break_nbsek",
+  "ac",
+  "section_break_gjdmt",
+  "frm",
+  "column_break_r0mxj",
+  "ad",
+  "section_break_0cago",
+  "column_break_fq2ok",
+  "column_break_z5syc",
+  "column_break_dto2a",
+  "column_break_dl6th",
+  "next",
+  "section_break_wqkl3"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "HTML",
+   "label": "General Info",
+   "options": "<h5>General Info</h5>"
+  },
+  {
+   "fieldname": "section_break_wktjl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No/BondNo"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "payment_ref_no",
+   "fieldtype": "Data",
+   "label": "Payment Ref No"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Data",
+   "label": "Claim Ref No"
+  },
+  {
+   "fieldname": "claim_ammount",
+   "fieldtype": "Data",
+   "label": "Claim Amount"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "Reinsure%"
+  },
+  {
+   "fieldname": "column_break_03biz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "process_date",
+   "fieldtype": "Data",
+   "label": "Process Date"
+  },
+  {
+   "fieldname": "cause_of_loss",
+   "fieldtype": "Data",
+   "label": "Cause Of Loss"
+  },
+  {
+   "fieldname": "insured_amt",
+   "fieldtype": "Data",
+   "label": "Insured Amt"
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "Data",
+   "label": "BECI%"
+  },
+  {
+   "fieldname": "section_break_dmqsq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "claim_processing",
+   "fieldtype": "HTML",
+   "label": "Claim Processing",
+   "options": " <h5>Claim Processing</h5>"
+  },
+  {
+   "fieldname": "section_break_ikec3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_saving",
+   "fieldtype": "Data",
+   "label": "Cost Saving",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_ump3m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms Of Payment",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_wmout",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_due_date",
+   "fieldtype": "Date",
+   "label": "Payment Due Date",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_xbd4k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claim_settlement_due_date",
+   "fieldtype": "Date",
+   "label": "Claim Settlement Due Date",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_rtx34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_claim_lodged",
+   "fieldtype": "Data",
+   "label": "Date Claim Lodged",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_mby3g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "trading_experience",
+   "fieldtype": "Data",
+   "label": "Trading Experience",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_xksnx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shippment",
+   "fieldtype": "Data",
+   "label": "Shippment",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_5qhks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proof_of_solvency",
+   "fieldtype": "Data",
+   "label": "Proof Of Solvency",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_6dmhg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "liquidators_name",
+   "fieldtype": "Data",
+   "label": "Liquidators Name",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_mtnwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "evidence_of_claim_againset_of_estate",
+   "fieldtype": "Data",
+   "label": "Evidence Of Claim againset Of Estate",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_5cuhq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "basis_of_credit_limit",
+   "fieldtype": "Data",
+   "label": "Basis Of Credit Limit",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_nj2lh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit Limit",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_tas5s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "effective_date_of_credit_limit",
+   "fieldtype": "Date",
+   "label": "Effective Date Of Credit Limit",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_vu7ji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expiry_date_of_credit_limit",
+   "fieldtype": "Date",
+   "label": "Expiry Date Of Credit Limit",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_14wlw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "are_over_dues_in_line_with_credit_limit",
+   "fieldtype": "Data",
+   "label": "Are Over Dues in Line With Credit Limit",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_k4qxq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "were_invoiced_goods_declared_accordingly",
+   "fieldtype": "HTML",
+   "label": "Were invoiced goods declared accordingly",
+   "options": "<h5>Were invoiced goods declared accordingly:</h5>"
+  },
+  {
+   "fieldname": "column_break_y7mze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "p",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "column_break_km6el",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "were_premium_paid_on_time",
+   "fieldtype": "HTML",
+   "label": "Were Premium Paid on Time",
+   "options": "<h5>Were Premium Paid on Time:</h5>"
+  },
+  {
+   "fieldname": "column_break_a6q8y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_vlxgj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_beci_first_notified_of_the_claim",
+   "fieldtype": "Date",
+   "label": "Date BECI first notified of the claim",
+   "options": " "
+  },
+  {
+   "fieldname": "action_taken_by_policyholder_to_prevent_loss",
+   "fieldtype": "Small Text",
+   "label": "Action taken by policyholder to prevent loss",
+   "options": "<h5>Action taken by policyholder to prevent loss:</h5>"
+  },
+  {
+   "fieldname": "column_break_oo7fy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "has_debt_been_handed_over_any_admissible_items",
+   "fieldtype": "HTML",
+   "label": " Has Debt been handed over  to Debt collectors or the attorneys for collection?",
+   "options": " <h5>Has Debt been handed over  to Debt collectors or the attorneys for collection?</h5>"
+  },
+  {
+   "fieldname": "column_break_hnvfk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "t",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "column_break_ermy8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "in_anyadmissible_items",
+   "fieldtype": "Data",
+   "label": " Any admissible items",
+   "options": " "
+  },
+  {
+   "fieldname": "column_break_ifq3j",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "coppies_of_correspondence_relating_to_debit",
+   "fieldtype": "HTML",
+   "label": "coppies of correspondence relating to debit",
+   "options": "<h5>coppies of correspondence relating to debit:</h5>"
+  },
+  {
+   "fieldname": "column_break_7jd7g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "v",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_zn6wl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reason_given_by_buyer_default",
+   "fieldtype": "Small Text",
+   "label": "Reason given by buyer default",
+   "options": "<h5>Reason given by buyer default:</h5>"
+  },
+  {
+   "fieldname": "section_break_3wief",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "has_the_buyer_defaulted_before",
+   "fieldtype": "HTML",
+   "label": "Has the buyer defaulted before",
+   "options": "<h5>Has the buyer defaulted before:</h5>"
+  },
+  {
+   "fieldname": "column_break_qlqge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "x",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_n1vze",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "is_there_dispute_between_buyer_and_seller",
+   "fieldtype": "HTML",
+   "label": "is there dispute between buyer and seller",
+   "options": "<h5>is there dispute between buyer and seller:</h5>"
+  },
+  {
+   "fieldname": "column_break_4piiq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "y",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_yqbnx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "has_legal_action_been_taken_against__the_buyer",
+   "fieldtype": "HTML",
+   "label": "Has legal action been taken against  the buyer",
+   "options": "<h5>Has legal action been taken against  the buyer</h5>"
+  },
+  {
+   "fieldname": "column_break_64cyc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "z",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_sqxl8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "does_beci_have_a_liability",
+   "fieldtype": "HTML",
+   "label": "Does BECI have a liability",
+   "options": "<h5>Does BECI have a liability:</h5>"
+  },
+  {
+   "fieldname": "column_break_e8d5d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aa",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_owmtb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "are_there_posibilities_of_recovery",
+   "fieldtype": "HTML",
+   "label": "Are there posibilities of recovery",
+   "options": "<h5>Are there posibilities of recovery:</h5>"
+  },
+  {
+   "fieldname": "column_break_rsv91",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ab",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_whd8x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "any_exposure_to_policy_holder",
+   "fieldtype": "HTML",
+   "label": "Any exposure to policy holder",
+   "options": "<h5>Any exposure to policy holder?</h5>"
+  },
+  {
+   "fieldname": "column_break_nbsek",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ac",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_gjdmt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "frm",
+   "fieldtype": "HTML",
+   "label": " is the policy holder  currently continuing to trade with the buyer?",
+   "options": "<h5>is the policy holder  currently continuing to trade with the buyer?</h5>"
+  },
+  {
+   "fieldname": "column_break_r0mxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ad",
+   "fieldtype": "HTML",
+   "options": " <meta charset=\"UTF-8\">\n<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n<title>Radio Button Example</title>\n<style>\n  .hidden {\n    display: none;\n  }\n\n  /* Style to display radio buttons inline */\n  input[type=\"radio\"] {\n    display: inline-block;\n    margin-right: 10px; /* Adjust the spacing between the radio buttons */\n  }\n</style>\n\n<form>\n  <input id=\"yes\" name=\"yesOption\" type=\"radio\" value=\"yes\">\n  <label for=\"yes\">yes</label>\n  \n  <input id=\"no\" name=\"noOption\" type=\"radio\" value=\"no\">\n  <label for=\" no\">  no</label><br>\n\n  <div class=\"hidden\" id=\"vatField\">\n    VAT Amount: <input id=\"vatAmount\" name=\"vatAmount\" type=\"text\">\n  </div>\n</form>\n"
+  },
+  {
+   "fieldname": "section_break_0cago",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_fq2ok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_z5syc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dto2a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dl6th",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next",
+   "fieldtype": "Button",
+   "label": "Next"
+  },
+  {
+   "fieldname": "section_break_wqkl3",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 07:35:32.187416",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Claim Processing ECI",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

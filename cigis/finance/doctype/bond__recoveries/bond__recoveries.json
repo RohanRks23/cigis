@@ -1,0 +1,183 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{bond_no}",
+ "creation": "2024-04-23 09:07:53.279416",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ewew",
+  "general_info",
+  "section_break_4q1kv",
+  "bond_holder",
+  "bondholder",
+  "bond_no",
+  "bondno",
+  "principal",
+  "recovery_no",
+  "claim_refno",
+  "reinsurer",
+  "lawerdebt_collector",
+  "amtrecovered",
+  "column_break_kjdpm",
+  "status",
+  "receipt_no",
+  "claim_amount",
+  "reinsurer_percentage",
+  "lawer_",
+  "due",
+  "section_break_so8wm",
+  "recovery_details",
+  "add_new",
+  "bond_recoveries"
+ ],
+ "fields": [
+  {
+   "fieldname": "ewew",
+   "fieldtype": "Tab Break",
+   "label": "Recoveries"
+  },
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_4q1kv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Select",
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "bondno",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "bondholder",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "recovery_no",
+   "fieldtype": "Data",
+   "label": "Recovery No"
+  },
+  {
+   "fieldname": "claim_refno",
+   "fieldtype": "Data",
+   "label": "Claim Ref.No"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "ReInsurer"
+  },
+  {
+   "fieldname": "lawerdebt_collector",
+   "fieldtype": "Data",
+   "label": "Lawer/Debt Collector"
+  },
+  {
+   "fieldname": "amtrecovered",
+   "fieldtype": "Data",
+   "label": "Amt.Recovered"
+  },
+  {
+   "fieldname": "column_break_kjdpm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "receipt_no",
+   "fieldtype": "Data",
+   "label": "Receipt No"
+  },
+  {
+   "fieldname": "claim_amount",
+   "fieldtype": "Data",
+   "label": "Claim Amount"
+  },
+  {
+   "fieldname": "reinsurer_percentage",
+   "fieldtype": "Data",
+   "label": "ReInsurer Percentage"
+  },
+  {
+   "fieldname": "lawer_",
+   "fieldtype": "Data",
+   "label": "Lawer %"
+  },
+  {
+   "fieldname": "due",
+   "fieldtype": "Data",
+   "label": "Due"
+  },
+  {
+   "fieldname": "recovery_details",
+   "fieldtype": "Heading",
+   "label": "Recovery Details"
+  },
+  {
+   "fieldname": "section_break_so8wm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "bond_recoveries",
+   "fieldtype": "Table",
+   "options": "Bond Recoveries Child Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-26 08:50:54.314846",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Bond  Recoveries",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

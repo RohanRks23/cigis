@@ -1,0 +1,207 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}-{#####}",
+ "creation": "2025-11-07 06:27:10.487446",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pobox",
+  "column_break_zlkjh",
+  "column_break_0ixul",
+  "harare",
+  "section_break_ua8nz",
+  "proposal",
+  "ae_no",
+  "pleaseinform",
+  "client_name",
+  "a_date_established",
+  "b_directorspartners",
+  "c_holding_or_parent_company",
+  "bankers_branch",
+  "account_no",
+  "nature",
+  "spreadof",
+  "exportturnover",
+  "deletewhatever",
+  "isyourcreditinsurance",
+  "principalbuyers",
+  "pastexperience",
+  "pastexperiencetable",
+  "appendstatemnt",
+  "7wecertify",
+  "expotersingnature",
+  "section_break_hsuty",
+  "section_break_tuggv",
+  "entered",
+  "column_break_l5xku"
+ ],
+ "fields": [
+  {
+   "fieldname": "pobox",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; margin-top: 20px;\">\n  <h4>P.O. BOX CY 1584 CAUSEWAY</h4>\n<h4>E-MAIL credsure@mail.pci.co.zw</h4>\n</div>\n"
+  },
+  {
+   "fieldname": "column_break_zlkjh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0ixul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "harare",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; margin-top: 20px;\">\n  <h4>HARARE </h4>\n<h4>TELEPHONE 738944/706101</h4>\n</div>\n"
+  },
+  {
+   "fieldname": "section_break_ua8nz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposal",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: center; margin-top: 30px; line-height: 1.6;\">\n  <h4 style=\"margin-bottom: 10px;\">PROPOSAL FOR AN</h4>\n  <h4 style=\"margin: 5px 0;\">EXPORT CREDIT INSURANCE POLICY\n  </h4><h4 style=\"margin: 5px 0;\">EXPORT SHIPMENTS - WHOLE TURNOVER COVER</h4>\n  <h4 style=\"margin: 5px 0;\">ALL MARKETS or SELECTED MARKETS\n</h4></div>\n"
+  },
+  {
+   "fieldname": "ae_no",
+   "fieldtype": "Data",
+   "label": "AE No"
+  },
+  {
+   "fieldname": "pleaseinform",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: justify; margin-top: 20px; line-height: 1.6;\">\n  <p>\n   Please inform us of the terms on which you are prepared to issue a Policy to indemnify us under the conditions of such Policy\nagainst losses as therein defined that we may sustain in respect of goods exported by us to buyers outside Zimbabwe.<br>To enable you to do this we give you, in the strictest confidence, the following information :-<br>(1) NAME (FULL STYLE AND ADDRESS): SAIS TECHBULLS\n  </p>\n</div>\n"
+  },
+  {
+   "fieldname": "a_date_established",
+   "fieldtype": "Data",
+   "label": "(a) Date Established"
+  },
+  {
+   "fieldname": "b_directorspartners",
+   "fieldtype": "Data",
+   "label": "(b) Directors/Partners"
+  },
+  {
+   "fieldname": "c_holding_or_parent_company",
+   "fieldtype": "Data",
+   "label": "(c) Holding or Parent Company"
+  },
+  {
+   "fieldname": "bankers_branch",
+   "fieldtype": "Data",
+   "label": "Bankers (Branch)"
+  },
+  {
+   "fieldname": "account_no",
+   "fieldtype": "Data",
+   "label": "Account No "
+  },
+  {
+   "fieldname": "nature",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: justify; margin-top: 20px; line-height: 1.6;\">\n  <p>\n   (2) NATURE OF BUSINESS (Manufacturing, Wholesaler, Retailer or Other - Specify):<br>(a) Kinds of Goods Sold: BATT<br>(b) Type of Buyers Mainly Involved (e.g. Manufacturers, Wholesalers, Retalers or Other - Specify):\n  </p>\n</div>\n"
+  },
+  {
+   "fieldname": "spreadof",
+   "fieldtype": "HTML",
+   "options": "<p style=\"font-size: 14px; line-height: 1.6; text-align: justify;\">\n  <strong>(3) SPREAD OF EXPORT TURNOVER</strong><br>\n  (a) We give details of OUR TOTAL TURNOVER achieved with all Markets during the last completed year AND our\n  total anticipated export turnover to each of the countries for the next 12 months during which the proposal Policy is\n  to apply.\n</p>\n"
+  },
+  {
+   "fieldname": "exportturnover",
+   "fieldtype": "Table",
+   "options": "Print Proposal Eci Child"
+  },
+  {
+   "fieldname": "isyourcreditinsurance",
+   "fieldtype": "HTML",
+   "options": "<div style=\"border: 1px solid #000; padding: 10px; margin-top: 10px; font-size: 13px; line-height: 1.5;\">\n  <p>\n    <b>(4)</b> Is your Credit Insurance Policy, when issued, to be ceded to a financial or other institution as collateral?\n    <b>Yes / No</b>\n  </p>\n  <p>If yes, please give full name and address of such institution:</p>\n\n  <textarea style=\"width: 100%; border: none; border-bottom: 1px solid #000; height: 20px; resize: none;\"></textarea>\n  <textarea style=\"width: 100%; border: none; border-bottom: 1px solid #000; height: 20px; resize: none;\"></textarea>\n  <textarea style=\"width: 100%; border: none; border-bottom: 1px solid #000; height: 20px; resize: none;\"></textarea>\n  <textarea style=\"width: 100%; border: none; border-bottom: 1px solid #000; height: 20px; resize: none;\"></textarea>\n</div>\n"
+  },
+  {
+   "fieldname": "deletewhatever",
+   "fieldtype": "HTML",
+   "options": "<div style=\"padding: 10px; font-size: 13px; line-height: 1.5;\">\n  <p><b>(a)</b> Delete whatever is not applicable</p>\n  <p><b>(i)</b> We wish to obtain a quotation for cover of <b>All markets</b></p>\n  <p><b>(ii)</b> We wish to obtain a quotation for cover of the following <b>Selected markets only:</b></p>\n\n  <textarea style=\"width: 100%; border: none; border-bottom: 1px dashed #000; height: 20px; resize: none;\"></textarea>\n  <textarea style=\"width: 100%; border: none; border-bottom: 1px dashed #000; height: 20px; resize: none;\"></textarea>\n</div>\n"
+  },
+  {
+   "fieldname": "principalbuyers",
+   "fieldtype": "HTML",
+   "options": "<div style=\"font-size: 13px; line-height: 1.5; padding: 10px;\">\n  <p><b>(5) PRINCIPAL BUYERS</b></p>\n  <p>\n    We append below a list of our principal buyers, and their bankers, in our Export Markets together with an indication\n    of the maximum amount outstanding in our books in respect of such buyers at any one point in time during the past 12 months.\n  </p>\n  <p><i>(Supplementary Sheets may be attached).</i></p>\n\n  <table style=\"width: 100%; border-collapse: collapse; border: 1px solid #000; font-size: 13px;\">\n    <tbody><tr>\n      <th style=\"border: 1px solid #000; padding: 6px;\">Name of Buyers<br>Name of Directors if known<br>Fax &amp; Phone Nos.</th>\n      <th style=\"border: 1px solid #000; padding: 6px;\">Buyer ref. Numbers</th>\n      <th style=\"border: 1px solid #000; padding: 6px;\">Address</th>\n      <th style=\"border: 1px solid #000; padding: 6px;\">Maximum Amount Outstanding</th>\n      <th style=\"border: 1px solid #000; padding: 6px;\">Credit Limits Required</th>\n    </tr>\n\n    <!-- Editable Row -->\n    <tr>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\">USD<br><br>Terms:</td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n    </tr>\n\n    <!-- Fax / Tel Row -->\n    <tr>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\">Fax:<br>Tel:</td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n    </tr>\n\n    <!-- Bankers / Branch Row -->\n    <tr>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\">Bankers:</td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\">Branch:</td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n      <td contenteditable=\"true\" style=\"border: 1px solid #000; padding: 4px;\"></td>\n    </tr>\n  </tbody></table>\n\n  <p style=\"margin-top: 10px;\">\n    <b>Note:</b><br>\n   In the event of a Policy being issued to the Proposer it will be necessary for the Insured to make application for credit limits\non the form provided by Credsure for that purpose. Section 5 of this Proposal is not to be regarded as an application for credit\nlimits. If the quotation made in pursuance of this proposal is accepted by the exporter, it is not implied that Credsure is under an\nobligation to issue Credit Limits in respect of buyers mentioned above or to the extent of the amounts outstanding unless\nCredsure has previously given such undertaking in writing.<br>e.g. If you are supplying monthly consignments valued at US$10 000 and granting 90 days credit terms this figure could be not\nless that US$30 000.\n  </p>\n</div>\n"
+  },
+  {
+   "fieldname": "pastexperience",
+   "fieldtype": "HTML",
+   "options": "<p style=\"font-size: 14px; line-height: 1.6; text-align: justify;\">\n  <strong>(6) PAST EXPERIENCE</strong><br>\n Our bad debts, which term shall mean the actual losses incurred on all buyers outside Zimbabwe arising only from the\ninsolvency or financial difficulties of such buyers, exclusive of compensation received from agents, insurers and any other\nsource for the previous three completed years and the subsequent period to date, have been as follows:\n</p>\n"
+  },
+  {
+   "fieldname": "pastexperiencetable",
+   "fieldtype": "Table",
+   "options": "Past Exceperince print Proposal"
+  },
+  {
+   "fieldname": "appendstatemnt",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: justify; margin-top: 20px; line-height: 1.6; font-size: 13px;\">\n  <p>\n    (a) We append a statement of overdue accounts (if any) with an estimate of possible losses thereon. \n    (If there are no such overdue accounts, please state hereunder to this effect.)\n  </p>\n  <textarea style=\"width: 100%; height: 40px; border: none; border-bottom: 1px dashed #000; resize: none;\"></textarea>\n\n  <p>\n    (b) We append a note giving details of any exceptional losses in individual firms or countries as included in the details in (6) above.\n  </p>\n  <textarea style=\"width: 100%; height: 40px; border: none; border-bottom: 1px dashed #000; resize: none;\"></textarea>\n</div>\n"
+  },
+  {
+   "fieldname": "7wecertify",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: justify; margin-top: 20px; line-height: 1.6;\">\n  <p>\n   (7) (a) We certify that the representations made and facts stated by us are true and that we have not\nmisrepresented or omitted any material fact. (Attention is drawn to Section 8 of the Export\nCredit reinsurance Act, No. 43 of 1965 [as amended ] ).<br>(b.) We agree that the person filling in this Proposal Form, wholly or in part, does so as our agent and not that\nof Credsure and that neither facts within the knowledge of nor statements made to any agent of Credsure\nrelative to this Proposal shall be binding on Credsure unless embodied in writing on this Proposal Form.\n  </p>\n</div>"
+  },
+  {
+   "fieldname": "expotersingnature",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; margin-top: 20px; font-size: 13px; line-height: 1.6;\">\n  <p>\n    <b>EXPORTER\u2019S SIGNATURE</b>\n    <input style=\"width: 50%; border: none; border-bottom: 1px dashed #000;\" type=\"text\">\n    &nbsp;(<b>NAME PRINTED</b>)\n  </p>\n\n  <p>\n    (Capacity - Director; Manager; Secretary):\n    <input style=\"width: 60%; border: none; border-bottom: 1px dashed #000;\" type=\"text\">\n  </p>\n\n  <p>\n    <b>AUTHORISED FOR AND ON BEHALF OF</b>\n    <input style=\"width: 100%; border: none; border-bottom: 1px dashed #000;\" type=\"text\">\n  </p>\n\n  <textarea style=\"width: 100%; height: 40px; border: none; border-bottom: 1px dashed #000; resize: none;\"></textarea>\n\n  <p>\n    <b>DATE AT THIS</b>\n    <input style=\"width: 15%; border: none; border-bottom: 1px dashed #000;\" type=\"text\">\n    &nbsp;<b>DAY OF</b>\n    <input style=\"width: 25%; border: none; border-bottom: 1px dashed #000;\" type=\"text\">\n    &nbsp;20\n    <input style=\"width: 10%; border: none; border-bottom: 1px dashed #000;\" type=\"text\">\n  </p>\n</div>\n"
+  },
+  {
+   "fieldname": "section_break_hsuty",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "entered",
+   "fieldtype": "HTML",
+   "options": "<table style=\"border-collapse: collapse; width: 45%; float: right;\">\n  <tbody><tr>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Entered</td>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Date:</td>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Signature</td>\n  </tr>\n  <tr>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Checked</td>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Date:</td>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Signature</td>\n  </tr>\n  <tr>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Date:</td>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Date:</td>\n    <td style=\"border: 1px solid #000; padding: 6px;\">Signature</td>\n  </tr>\n</tbody></table>\n"
+  },
+  {
+   "fieldname": "column_break_l5xku",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_tuggv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-11 14:03:08.558142",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal ECI Proposal",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

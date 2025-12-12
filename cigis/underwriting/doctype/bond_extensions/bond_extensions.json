@@ -17,8 +17,10 @@
   "bond_details1",
   "section_break_rjpxu",
   "bond_holder2",
+  "bond_holder",
   "section_break_hu2pa",
   "bond_no2",
+  "bond_no",
   "column_break_49659",
   "bond_extnreq_date",
   "section_break_rb7df",
@@ -40,54 +42,17 @@
   "section_break_i1exc",
   "bond_type_1",
   "section_break_edqqw",
-  "bond_extension",
-  "section_break_h0ocg",
+  "tab_break_z2grd",
   "request_date",
   "column_break_7cazp",
   "new_bond_value",
-  "section_break_ow9ga",
+  "section_break_2djg3",
   "reason",
-  "column_break_m640d",
   "details",
-  "section_break_vrvbr",
-  "extension_upto",
   "column_break_0pale",
+  "extension_upto",
   "new_premium_rate",
-  "section_break_yni8z",
-  "bond_type1",
-  "section_break_i4bqw",
-  "deputyshreiff_bond1",
-  "column_break_lrzo7",
-  "other_bonds1",
-  "section_break_xbkmf",
-  "bond_details",
-  "section_break_wdstg",
-  "bond_holder1",
-  "section_break_zttem",
-  "bond_no1",
-  "column_break_mkl4n",
-  "bond_extnreq_date1",
-  "section_break_d4baq",
-  "client1",
-  "column_break_bklbi",
-  "principal1",
-  "section_break_cs52j",
-  "project1",
-  "column_break_wjqix",
-  "description1",
-  "section_break_duahx",
-  "bond_period_from1",
-  "column_break_slxgw",
-  "bond_period_to2",
-  "section_break_hfazv",
-  "bond_value1",
-  "column_break_zrly2",
-  "extension_req_no1",
-  "section_break_abbyb",
-  "bond_type_2",
-  "section_break_w4mwd",
-  "approval",
-  "section_break_ooihu",
+  "tab_break_i3yy9",
   "approved_on"
  ],
  "fields": [
@@ -131,11 +96,6 @@
   {
    "fieldname": "section_break_rjpxu",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_holder2",
-   "fieldtype": "Select",
-   "label": "Bond Holder"
   },
   {
    "fieldname": "section_break_hu2pa",
@@ -238,18 +198,10 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "bond_extension",
-   "fieldtype": "Heading",
-   "label": "Bond Extension"
-  },
-  {
-   "fieldname": "section_break_h0ocg",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "request_date",
    "fieldtype": "Date",
-   "label": "Request Date"
+   "label": "Request Date",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_7cazp",
@@ -261,17 +213,9 @@
    "label": "New Bond Value"
   },
   {
-   "fieldname": "section_break_ow9ga",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "reason",
    "fieldtype": "Long Text",
    "label": "Reason"
-  },
-  {
-   "fieldname": "column_break_m640d",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "details",
@@ -279,13 +223,10 @@
    "label": "Details"
   },
   {
-   "fieldname": "section_break_vrvbr",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "extension_upto",
    "fieldtype": "Date",
-   "label": "Extension Upto"
+   "label": "Extension Upto",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_0pale",
@@ -294,172 +235,44 @@
   {
    "fieldname": "new_premium_rate",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "New Premium Rate"
-  },
-  {
-   "fieldname": "section_break_yni8z",
-   "fieldtype": "Tab Break",
-   "label": "Extensions"
-  },
-  {
-   "fieldname": "bond_type1",
-   "fieldtype": "Heading",
-   "label": "Bond Type"
-  },
-  {
-   "fieldname": "section_break_i4bqw",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "deputyshreiff_bond1",
-   "fieldtype": "Check",
-   "label": "DeputyShreiff Bond"
-  },
-  {
-   "fieldname": "column_break_lrzo7",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "other_bonds1",
-   "fieldtype": "Check",
-   "label": "Other bonds"
-  },
-  {
-   "fieldname": "section_break_xbkmf",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_details",
-   "fieldtype": "Heading",
-   "label": "Bond Details"
-  },
-  {
-   "fieldname": "section_break_wdstg",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_holder1",
-   "fieldtype": "Data",
-   "label": "Bond Holder"
-  },
-  {
-   "fieldname": "section_break_zttem",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_no1",
-   "fieldtype": "Data",
-   "label": "Bond No"
-  },
-  {
-   "fieldname": "column_break_mkl4n",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "bond_extnreq_date1",
-   "fieldtype": "Date",
-   "label": "Bond/ ExtnReq Date"
-  },
-  {
-   "fieldname": "section_break_d4baq",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "client1",
-   "fieldtype": "Data",
-   "label": "Client"
-  },
-  {
-   "fieldname": "column_break_bklbi",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "principal1",
-   "fieldtype": "Data",
-   "label": "Principal"
-  },
-  {
-   "fieldname": "section_break_cs52j",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "project1",
-   "fieldtype": "Long Text",
-   "label": "Project"
-  },
-  {
-   "fieldname": "column_break_wjqix",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "description1",
-   "fieldtype": "Long Text",
-   "label": "Description"
-  },
-  {
-   "fieldname": "section_break_duahx",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_period_from1",
-   "fieldtype": "Date",
-   "label": "Bond Period From"
-  },
-  {
-   "fieldname": "column_break_slxgw",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "bond_period_to2",
-   "fieldtype": "Date",
-   "label": "Bond Period To"
-  },
-  {
-   "fieldname": "section_break_hfazv",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_value1",
-   "fieldtype": "Data",
-   "label": "Bond Value"
-  },
-  {
-   "fieldname": "column_break_zrly2",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "extension_req_no1",
-   "fieldtype": "Data",
-   "label": "Extension Req No"
-  },
-  {
-   "fieldname": "section_break_abbyb",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_type_2",
-   "fieldtype": "Data",
-   "label": "Bond Type"
-  },
-  {
-   "fieldname": "section_break_w4mwd",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "approval",
-   "fieldtype": "Heading",
-   "label": "Approval"
-  },
-  {
-   "fieldname": "section_break_ooihu",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "approved_on",
    "fieldtype": "Date",
    "label": "Approved On"
+  },
+  {
+   "fieldname": "tab_break_i3yy9",
+   "fieldtype": "Tab Break",
+   "label": "Approval"
+  },
+  {
+   "fieldname": "tab_break_z2grd",
+   "fieldtype": "Tab Break",
+   "label": "Bond Extensions"
+  },
+  {
+   "fieldname": "section_break_2djg3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Bond No"
+  },
+  {
+   "fieldname": "bond_holder2",
+   "fieldtype": "Select",
+   "label": "Bond Holder"
   },
   {
    "fieldname": "bond_no2",
@@ -469,7 +282,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-01 05:44:48.655715",
+ "modified": "2025-12-03 11:22:06.145296",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Bond Extensions",

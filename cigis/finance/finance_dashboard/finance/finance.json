@@ -1,0 +1,84 @@
+{
+ "cards": [],
+ "chart_options": "",
+ "charts": [
+  {
+   "chart": "Credit Note",
+   "width": "Half"
+  },
+  {
+   "chart": "Debit Note",
+   "width": "Half"
+  },
+  {
+   "chart": "Claim Payments",
+   "width": "Half"
+  },
+  {
+   "chart": "Advance Premium Invoice",
+   "width": "Half"
+  },
+  {
+   "chart": "Potential Claim Payment",
+   "width": "Half"
+  },
+  {
+   "chart": "Claim Register",
+   "width": "Half"
+  },
+  {
+   "chart": "Assign Lawer",
+   "width": "Half"
+  },
+  {
+   "chart": "Potential Claim",
+   "width": "Half"
+  },
+  {
+   "chart": "CI Claims",
+   "width": "Half"
+  },
+  {
+   "chart": "Bond Claims",
+   "width": "Half"
+  },
+  {
+   "chart": "Claim Process",
+   "width": "Half"
+  },
+  {
+   "chart": "Assign Lawer",
+   "width": "Half"
+  },
+  {
+   "chart": "CL Recoveries",
+   "width": "Half"
+  },
+  {
+   "chart": "Bond Recoveries",
+   "width": "Half"
+  },
+  {
+   "chart": "Finance Pie chart",
+   "width": "Half"
+  },
+  {
+   "width": "Half"
+  },
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 10:48:56.535725",
+ "dashboard_name": "Finance",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-07-03 08:37:31.231790",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Finance",
+ "owner": "Administrator"
+}

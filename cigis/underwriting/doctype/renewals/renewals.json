@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{renewal_req_no1}",
+ "autoname": "format:{extension_req_no}",
  "creation": "2024-02-16 12:32:08.631428",
  "default_view": "List",
  "doctype": "DocType",
@@ -36,7 +36,7 @@
   "section_break_e9xkf",
   "bond_value",
   "column_break_pj0kv",
-  "renewal_req_no1",
+  "extension_req_no",
   "section_break_fzqwr",
   "bondtype1",
   "bond_renewal_tab",
@@ -54,48 +54,11 @@
   "column_break_y0ahc",
   "details",
   "section_break_hqisw",
-  "bond_type",
-  "section_break_ioqpd",
-  "other_bonds1",
-  "column_break_bdib0",
-  "deputyshireff_bond1",
-  "section_break_fpe7p",
-  "bond_history1",
-  "section_break_crxe6",
-  "bond_holder1",
-  "section_break_f0661",
-  "bond_no1",
-  "column_break_us3bw",
-  "date",
-  "section_break_mbsxz",
-  "client1",
-  "column_break_xgkd8",
-  "principal1",
-  "section_break_5s4hv",
-  "project1",
-  "column_break_aro50",
-  "description1",
-  "section_break_uqavt",
-  "bond_period_from1",
-  "column_break_28r40",
-  "bond_period_to1",
-  "section_break_g03oz",
-  "bond_value1",
-  "column_break_imfvx",
-  "renewal_req_no",
-  "section_break_vwxqg",
-  "bond_type1",
-  "section_break_btvmj",
   "approval",
   "section_break_wfojn",
   "approved_on"
  ],
  "fields": [
-  {
-   "fieldname": "bond_type",
-   "fieldtype": "Heading",
-   "label": "Bond Type"
-  },
   {
    "fieldname": "section_break_f0u4u",
    "fieldtype": "Section Break"
@@ -104,7 +67,8 @@
    "default": "0",
    "fieldname": "deputyshreiff_bond",
    "fieldtype": "Check",
-   "label": "DeputyShreiff Bond"
+   "label": "DeputyShreiff Bond",
+   "read_only_depends_on": "other_bonds"
   },
   {
    "fieldname": "column_break_p2oke",
@@ -114,7 +78,8 @@
    "default": "0",
    "fieldname": "other_bonds",
    "fieldtype": "Check",
-   "label": "Other Bonds"
+   "label": "Other Bonds",
+   "read_only_depends_on": "deputyshreiff_bond"
   },
   {
    "fieldname": "bond_history_tab",
@@ -122,27 +87,17 @@
    "label": "Bond History"
   },
   {
-   "fieldname": "bond_holder",
-   "fieldtype": "Select",
-   "label": "Bond Holder"
-  },
-  {
    "fieldname": "section_break_m4mqt",
    "fieldtype": "Section Break"
   },
   {
    "fieldname": "bond_no",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Bond No"
   },
   {
    "fieldname": "column_break_pwfye",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "Date"
   },
   {
    "fieldname": "section_break_vrlsx",
@@ -212,11 +167,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "renewal_req_no",
-   "fieldtype": "Data",
-   "label": "Renewal Req No"
-  },
-  {
    "fieldname": "section_break_fzqwr",
    "fieldtype": "Section Break"
   },
@@ -227,7 +177,7 @@
   },
   {
    "fieldname": "bond_renewal_tab",
-   "fieldtype": "Heading",
+   "fieldtype": "Tab Break",
    "label": "Bond Renewal"
   },
   {
@@ -317,144 +267,8 @@
    "label": "Date"
   },
   {
-   "fieldname": "renewal_req_no1",
-   "fieldtype": "Data",
-   "label": "Renewal Req No"
-  },
-  {
-   "fieldname": "section_break_ioqpd",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "other_bonds1",
-   "fieldtype": "Check",
-   "label": "Other Bonds"
-  },
-  {
-   "fieldname": "column_break_bdib0",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "deputyshireff_bond1",
-   "fieldtype": "Check",
-   "label": "DeputyShireff Bond"
-  },
-  {
-   "fieldname": "section_break_fpe7p",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_history1",
-   "fieldtype": "Heading",
-   "label": "Bond History"
-  },
-  {
-   "fieldname": "section_break_crxe6",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_holder1",
-   "fieldtype": "Data",
-   "label": "Bond Holder"
-  },
-  {
-   "fieldname": "section_break_f0661",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_no1",
-   "fieldtype": "Data",
-   "label": "Bond No"
-  },
-  {
-   "fieldname": "column_break_us3bw",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_mbsxz",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "client1",
-   "fieldtype": "Data",
-   "label": "Client"
-  },
-  {
-   "fieldname": "column_break_xgkd8",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "principal1",
-   "fieldtype": "Data",
-   "label": "Principal"
-  },
-  {
-   "fieldname": "section_break_5s4hv",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "project1",
-   "fieldtype": "Long Text",
-   "label": "Project"
-  },
-  {
-   "fieldname": "column_break_aro50",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "description1",
-   "fieldtype": "Long Text",
-   "label": "Description"
-  },
-  {
-   "fieldname": "section_break_uqavt",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_period_from1",
-   "fieldtype": "Date",
-   "label": "Bond Period From"
-  },
-  {
-   "fieldname": "column_break_28r40",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "bond_period_to1",
-   "fieldtype": "Date",
-   "label": "Bond Period To"
-  },
-  {
-   "fieldname": "section_break_g03oz",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_value1",
-   "fieldtype": "Data",
-   "label": "Bond Value"
-  },
-  {
-   "fieldname": "column_break_imfvx",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_vwxqg",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_type1",
-   "fieldtype": "Data",
-   "label": "Bond Type"
-  },
-  {
-   "fieldname": "section_break_btvmj",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "approval",
-   "fieldtype": "Heading",
+   "fieldtype": "Tab Break",
    "label": "Approval"
   },
   {
@@ -465,11 +279,21 @@
    "fieldname": "approved_on",
    "fieldtype": "Date",
    "label": "Approved On"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Select",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "extension_req_no",
+   "fieldtype": "Data",
+   "label": "Renewal Req No"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-04 12:10:27.778299",
+ "modified": "2025-12-03 11:53:00.051561",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Renewals",

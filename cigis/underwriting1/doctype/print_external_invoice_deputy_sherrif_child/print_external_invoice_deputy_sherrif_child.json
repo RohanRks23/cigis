@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-11 08:30:14.404363",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tax_invoice",
+  "section_break_rk3nr",
+  "cresure",
+  "column_break_lujac",
+  "pobox",
+  "section_break_qskky",
+  "invoice_to",
+  "attn",
+  "address",
+  "city",
+  "vat_registration_no",
+  "telephone",
+  "fax",
+  "column_break_blga9",
+  "invoice_no",
+  "reference",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "tax_invoice",
+   "fieldtype": "HTML",
+   "label": "Tax Invoice",
+   "options": "<!-- paste this into your HTML/Print Format -->\n<div style=\"display: flex; align-items: center; justify-content: center; height: 100vh;\">\n  <h1 style=\"margin: 0; font-size: 40px; font-weight: 700; letter-spacing: 2px;\">\n    TAX INVOICE\n  </h1>\n</div>\n"
+  },
+  {
+   "fieldname": "section_break_rk3nr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cresure",
+   "fieldtype": "HTML",
+   "label": "CRESURE",
+   "options": "<div style=\"font-family: Arial, sans-serif; line-height: 1.4; font-size: 14px;\">\n  <strong style=\"font-size: 16px;\">CREDSURE</strong><br>\n  Credit Insurance Zimbabwe Limited<br>\n  <strong>CREDSURE VAT Reg. No. 200058221</strong>\n</div>\n"
+  },
+  {
+   "fieldname": "column_break_lujac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pobox",
+   "fieldtype": "HTML",
+   "label": "pobox",
+   "options": "<div style=\"font-family: Arial, sans-serif; line-height: 1.4; font-size: 14px;\">\n  <strong style=\"font-size: 16px;\">P.O.Box CY 1584</strong><br>\n  causeway, Harare<br>\n  <strong>Tel: 263-4-738944</strong>\n<b>Fax:263-4-706105</b> \n</div>\n"
+  },
+  {
+   "fieldname": "section_break_qskky",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_to",
+   "fieldtype": "Data",
+   "label": "INVOICE TO"
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": "ATTN"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY"
+  },
+  {
+   "fieldname": "vat_registration_no",
+   "fieldtype": "Data",
+   "label": "VAT REGISTRATION NO"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "TELEPHONE"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX"
+  },
+  {
+   "fieldname": "column_break_blga9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "INVOICE NO"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "REFERENCE"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-11 08:30:14.404363",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Print External Invoice deputy sherrif child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

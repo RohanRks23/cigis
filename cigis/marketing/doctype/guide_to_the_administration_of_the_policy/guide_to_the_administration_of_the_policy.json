@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PLY.#####",
+ "creation": "2024-02-01 11:28:39.672024",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "paragraph",
+  "table",
+  "paragraph2",
+  "section_break_ajyuj",
+  "paragraph3",
+  "section_break_v6mgt",
+  "paragraph4",
+  "column_break_k9tk3",
+  "address2",
+  "column_break_oltb7",
+  "address3",
+  "section_break_k2egc"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<h3>GUIDELINE TO COLLECTION OF OVERDUE AMOUNTS</h3>"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p>It has come to our attention that some of our valued policy holders are not adhering to the credit control and debt\ncollection procedures stipulated in Proviso 12 of the External Trade Policy document. We now take the opportunity to\nbring to your attention to this proviso, which lays out the procedure to follow in the collection of overdue amounts.\nCopy of the Proviso 12 is attached for your perusal, and the same is briefly discussed below.</p>\n<p>Proviso 12A is straight forward and reminds policy holders that they are expected to conduct their own credit control\nactivity and only refer to CREDSURE after having sent out the final demand.</p>\n<p>Proviso 12B prescribes when to send the final demand to the defaulting buyer.</p>\n<p>Proviso 12C describes the format that the final demand should take including the wording of the letter, information to\nbe sent to CREDSURE in the event payment is not received within 10 days of sending the letter, or, on establishment of the\ndebtor\u2019s insolvency. The table below summarises the collection activity.</p>\n<p>Period Overdue (Days) Action to be taken</p>\n\n\n"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Guide Child Table"
+  },
+  {
+   "fieldname": "paragraph2",
+   "fieldtype": "HTML",
+   "label": "Paragraph2",
+   "options": "\n<p>Please also note that instead of taking the debt to lawyers for collection in line with Proviso 12C(iv) CREDSURE usually\nrecommends that the debts be handed to the CREDSURE preferred debt collector - Credit Factors and Discounters - for\ncollection. However, if you already have an established external debt collector, you may hand over to them and advise\nCREDSURE accordingly.</p>\n<p>Proviso 12D is a reminder to policy holders that failure to comply with the proviso may lead to repudiation of claims,\nand hence the importance that CREDSURE attaches to this proviso and our added effort to ensure that all the policy holders\nunderstand and comply with the proviso.</p>\n<p>Please be reminded that once CREDSURE has paid a claim, the debtor is pursued for the 100% recovery of the debt and\nany amounts recovered are shared with CREDSURE according to the claims sharing ratio.</p>\n<p>Should you need any clarification regarding this proviso, please do not hesitate to contact us at 3188015.</p>\n<br><br>\n<p>&nbsp;&nbsp;Rated BBB+ by Global Credit Rating(\"GCR\")\n</p>\n<br>\n<p>a BDC Subsidiary | Directors: K.H. Munamati(Chairman), S Moncho, G. Mmelesi, M. Mbo, M.Radibe, B Ditlhabi</p>\n"
+  },
+  {
+   "fieldname": "section_break_ajyuj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph3",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_v6mgt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph4",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_k9tk3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_oltb7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address3",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "section_break_k2egc",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 07:08:16.332044",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Guide to the Administration of the Policy",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

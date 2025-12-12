@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-29 06:57:03.580336",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sl_no",
+  "country",
+  "buyer",
+  "terms_of_payment",
+  "exchange_rate",
+  "fx_value",
+  "pula",
+  "premium_rate",
+  "amount1",
+  "amount2"
+ ],
+ "fields": [
+  {
+   "fieldname": "sl_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sl No"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Terms of Payment"
+  },
+  {
+   "fieldname": "exchange_rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exchange Rate"
+  },
+  {
+   "fieldname": "fx_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FX Value"
+  },
+  {
+   "fieldname": "pula",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "USD"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "premium rate"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "amount1",
+   "fieldtype": "Data",
+   "label": "amount1"
+  },
+  {
+   "fieldname": "amount2",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-25 11:53:14.477754",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "ExportDeclarationChid",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

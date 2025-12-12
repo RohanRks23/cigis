@@ -1,0 +1,216 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{invoice_no}",
+ "creation": "2024-03-26 07:33:50.116608",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ci_invoices",
+  "section_break_jxecg",
+  "policy_holder",
+  "quotation_number",
+  "ed_number",
+  "month",
+  "column_break_adxlb",
+  "year",
+  "with_vat",
+  "with_out_vat",
+  "vat",
+  "currency",
+  "column_break_c8l8f",
+  "invoice_no",
+  "invoice_amount",
+  "invoice_amount_without_vat",
+  "invoice_date",
+  "section_break_nt2b1",
+  "export_buyer",
+  "section_break_yykh3",
+  "export_invoice",
+  "section_break_pwxeb",
+  "column_break_v77be",
+  "column_break_735xn",
+  "column_break_vaptv",
+  "tax_invoice",
+  "column_break_gyvqx",
+  "internal_invoice",
+  "column_break_w6bbk",
+  "column_break_e6mvy"
+ ],
+ "fields": [
+  {
+   "fieldname": "ci_invoices",
+   "fieldtype": "HTML",
+   "label": "CI Invoices",
+   "options": "<h5>CI Invoices</h5>"
+  },
+  {
+   "fieldname": "section_break_jxecg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Data",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "invoice_amount_without_vat",
+   "fieldtype": "Currency",
+   "label": "Invoice Amount W/O stamp duty"
+  },
+  {
+   "fieldname": "column_break_adxlb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "label": "Year"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_vat",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "With VAT",
+   "options": " ",
+   "read_only_depends_on": "with_out_vat"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Stamp duty %"
+  },
+  {
+   "fieldname": "column_break_c8l8f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_nt2b1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_yykh3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "export_buyer",
+   "fieldtype": "Table",
+   "options": "cl invoice buyer child"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Declaration Month"
+  },
+  {
+   "fieldname": "export_invoice",
+   "fieldtype": "Table",
+   "options": "cl invoice items child"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Currency",
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "column_break_v77be",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_735xn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tax_invoice",
+   "fieldtype": "Button",
+   "label": "Tax Invoice"
+  },
+  {
+   "fieldname": "section_break_pwxeb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gyvqx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "internal_invoice",
+   "fieldtype": "Button",
+   "label": "Internal Invoice"
+  },
+  {
+   "fieldname": "column_break_vaptv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_w6bbk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "with_out_vat",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "With Out Vat",
+   "read_only_depends_on": "with_vat"
+  },
+  {
+   "fieldname": "column_break_e6mvy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "label": "Ed number"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-04 10:57:26.452741",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "CI Invoices",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

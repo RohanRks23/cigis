@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class ListOfActiveBuyers_Child_Table(Document):
+class ListofActiveBuyersChildTable(Document):
 	pass

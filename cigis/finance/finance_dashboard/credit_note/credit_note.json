@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Credit Note",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-28 10:58:31.121230",
+ "dashboard_name": "Credit Note",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-06-28 10:58:31.121230",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Credit Note",
+ "owner": "Administrator"
+}

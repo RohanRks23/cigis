@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Debtor_schedule_child(Document):
+class DebtorScheduleChild(Document):
 	pass

@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class ECI_Principal_buyer_table(Document):
+class ECIPrincipalBuyerTable(Document):
 	pass

@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:credit_limit_no",
+ "autoname": "format:{credit_limit_number}",
  "creation": "2024-02-18 16:21:13.798104",
  "default_view": "List",
  "doctype": "DocType",
@@ -11,52 +11,43 @@
   "single_buyer_cl_application_tab",
   "section_break_3yely",
   "section_break_7trvd",
-  "cl_application_for_single_buyer",
+  "credit_limit_processing",
+  "column_break_d9rnz",
   "section_break_l0kp2",
   "client",
   "section_break_sqcsm",
   "client1",
-  "section_break_gszxk",
-  "buyer_details",
-  "section_break_4rdsb",
+  "section_break_quijn",
   "column_break_cpefz",
-  "dci_buyer",
-  "section_break_ozm5b",
   "eci_buyer",
-  "column_break_3owiq",
-  "column_break_m1kf1",
-  "column_break_mqiun",
-  "column_break_xvvuf",
-  "section_break_hv9c4",
+  "column_break_oxmip",
+  "dci_buyer",
+  "section_break_e9hy2",
   "buyer",
-  "buyer_short_name",
-  "column_break_hh3du",
+  "column_break_w1ddq",
   "new",
-  "section_break_f93la",
+  "section_break_3bjjp",
   "trading_style",
-  "regno__id_no",
-  "tel_no",
-  "bank",
+  "credit_limit",
+  "telephone_number",
+  "date",
   "branch",
-  "director_1",
-  "director_3",
-  "director_5",
-  "column_break_tl8d2",
-  "credit_limit_no",
+  "credit_bureau_report",
+  "cb_report_required",
+  "cb_report",
+  "section_break_ozm5b",
+  "credit_limit_number",
   "address1",
   "address2",
-  "fax_no",
-  "account_no",
+  "fax_number",
+  "account_number",
   "director2",
   "director4",
-  "section_break_ivsek",
-  "credit_limit",
-  "section_break_o3dpa",
+  "section_break_bnfpn",
   "credit_limit_required",
   "comment",
-  "column_break_a2men",
-  "cl_application_date",
-  "section_break_crfbm"
+  "column_break_ddrtb",
+  "cl_application_date"
  ],
  "fields": [
   {
@@ -73,11 +64,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "cl_application_for_single_buyer",
-   "fieldtype": "Heading",
-   "label": "CL Application for Single Buyer"
-  },
-  {
    "fieldname": "section_break_l0kp2",
    "fieldtype": "Section Break"
   },
@@ -92,206 +78,28 @@
   },
   {
    "fieldname": "client1",
-   "fieldtype": "Link",
+   "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Client",
-   "options": "Company-Details",
-   "unique": 1
-  },
-  {
-   "fieldname": "section_break_gszxk",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "buyer_details",
-   "fieldtype": "Heading",
-   "label": "Buyer details"
-  },
-  {
-   "fieldname": "section_break_4rdsb",
-   "fieldtype": "Section Break"
+   "label": "Client"
   },
   {
    "fieldname": "column_break_cpefz",
    "fieldtype": "Column Break"
   },
   {
-   "default": "0",
-   "fetch_from": "buyer.eci",
-   "fieldname": "eci_buyer",
-   "fieldtype": "Check",
-   "label": "ECI Buyer"
-  },
-  {
    "fieldname": "section_break_ozm5b",
    "fieldtype": "Column Break"
   },
   {
-   "default": "0",
-   "fetch_from": "buyer.dci",
-   "fieldname": "dci_buyer",
-   "fieldtype": "Check",
-   "label": "DCI Buyer"
-  },
-  {
-   "fieldname": "column_break_3owiq",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_m1kf1",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_mqiun",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_xvvuf",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_hv9c4",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "buyer",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Buyer",
-   "options": "Buyer"
-  },
-  {
-   "fetch_from": "buyer.buyer_id",
-   "fieldname": "buyer_short_name",
-   "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Buyer Short Name"
-  },
-  {
-   "fieldname": "column_break_hh3du",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "new",
-   "fieldtype": "Button",
-   "label": "New"
-  },
-  {
-   "fieldname": "section_break_f93la",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fetch_from": "buyer.trading_name",
-   "fieldname": "trading_style",
-   "fieldtype": "Data",
-   "label": "Trading Style"
-  },
-  {
-   "fetch_from": "buyer.registration_no",
-   "fieldname": "regno__id_no",
-   "fieldtype": "Data",
-   "label": "Reg.No / Id No."
-  },
-  {
-   "fetch_from": "buyer.tel_no1",
-   "fieldname": "tel_no",
-   "fieldtype": "Data",
-   "label": "Tel No."
-  },
-  {
-   "fieldname": "bank",
    "fieldtype": "Select",
-   "label": "Bank",
-   "options": "SELECT\nBank of Botswana\nFirst National Bank Botswana (FNBB)\nStandard Chartered Bank Botswana\nBarclays Bank of Botswana (now Absa Bank Botswana)\nStanbic Bank Botswana\nBank Gaborone\nCapital Bank\nBancABC Botswana"
-  },
-  {
-   "fetch_from": "buyer.branch",
-   "fieldname": "branch",
-   "fieldtype": "Data",
-   "label": "Branch"
-  },
-  {
-   "fetch_from": "buyer.director_1",
-   "fieldname": "director_1",
-   "fieldtype": "Data",
-   "label": "Director 1",
-   "reqd": 1
-  },
-  {
-   "fetch_from": "buyer.director_2",
-   "fieldname": "director_3",
-   "fieldtype": "Data",
-   "label": "Director 3"
-  },
-  {
-   "fieldname": "director_5",
-   "fieldtype": "Data",
-   "label": "Director 5"
-  },
-  {
-   "fieldname": "column_break_tl8d2",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "credit_limit_no",
-   "fieldtype": "Data",
-   "label": "Credit Limit No.",
-   "unique": 1
-  },
-  {
-   "fetch_from": "buyer.physical_address",
-   "fieldname": "address1",
-   "fieldtype": "Data",
-   "label": "Address1"
-  },
-  {
-   "depends_on": "dci_buyer",
-   "fetch_from": "buyer.postal_address",
-   "fieldname": "address2",
-   "fieldtype": "Data",
-   "label": " Address2"
-  },
-  {
-   "depends_on": "dci_buyer",
-   "fetch_from": "buyer.fax",
-   "fieldname": "fax_no",
-   "fieldtype": "Data",
-   "label": "Fax. No."
-  },
-  {
-   "depends_on": "dci_buyer",
-   "fetch_from": "buyer.ac_no",
-   "fieldname": "account_no",
-   "fieldtype": "Data",
-   "label": "Account No.",
-   "reqd": 1
-  },
-  {
-   "depends_on": "eci_buyer\r\ndci_buyer",
-   "fetch_from": "client1.director_2",
-   "fieldname": "director2",
-   "fieldtype": "Data",
-   "label": "Director2"
-  },
-  {
-   "depends_on": "eci_buyer\r\ndci_buyer",
-   "fetch_from": "client1.director_4",
-   "fieldname": "director4",
-   "fieldtype": "Data",
-   "label": "Director4"
-  },
-  {
-   "fieldname": "section_break_ivsek",
-   "fieldtype": "Section Break"
+   "in_list_view": 1,
+   "label": "Buyer"
   },
   {
    "fieldname": "credit_limit",
-   "fieldtype": "Heading",
-   "label": "Credit Limit"
-  },
-  {
-   "fieldname": "section_break_o3dpa",
-   "fieldtype": "Section Break"
+   "fieldtype": "Data",
+   "label": "Reg Number/ID Number"
   },
   {
    "fieldname": "credit_limit_required",
@@ -306,8 +114,120 @@
    "reqd": 1
   },
   {
-   "fieldname": "column_break_a2men",
+   "fieldname": "credit_limit_processing",
+   "fieldtype": "Heading",
+   "label": "Credit Limit Processing"
+  },
+  {
+   "fieldname": "section_break_quijn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_bnfpn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_d9rnz",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Bank"
+  },
+  {
+   "fieldname": "credit_bureau_report",
+   "fieldtype": "Data",
+   "label": "Director1"
+  },
+  {
+   "fieldname": "cb_report_required",
+   "fieldtype": "Data",
+   "label": "Director3",
+   "options": "\n "
+  },
+  {
+   "fieldname": "column_break_ddrtb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cb_report",
+   "fieldtype": "Data",
+   "label": "Director5",
+   "options": "\n "
+  },
+  {
+   "default": "0",
+   "fieldname": "eci_buyer",
+   "fieldtype": "Check",
+   "label": "ECI Buyer",
+   "read_only_depends_on": "dci_buyer"
+  },
+  {
+   "fieldname": "column_break_oxmip",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dci_buyer",
+   "fieldtype": "Check",
+   "label": "DCI Buyer",
+   "read_only_depends_on": "eci_buyer"
+  },
+  {
+   "fieldname": "section_break_e9hy2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "trading_style",
+   "fieldtype": "Data",
+   "label": "Trading Style"
+  },
+  {
+   "fieldname": "telephone_number",
+   "fieldtype": "Data",
+   "label": "Telephone Number"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "credit_limit_number",
+   "fieldtype": "Data",
+   "label": "Credit Limit Number"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "Data",
+   "label": "Address1"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "Data",
+   "label": "Address2"
+  },
+  {
+   "fieldname": "fax_number",
+   "fieldtype": "Data",
+   "label": "Fax Number"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "director2",
+   "fieldtype": "Data",
+   "label": "Director2"
+  },
+  {
+   "fieldname": "director4",
+   "fieldtype": "Data",
+   "label": "Director4"
   },
   {
    "fieldname": "cl_application_date",
@@ -316,17 +236,26 @@
    "reqd": 1
   },
   {
-   "fieldname": "section_break_crfbm",
+   "fieldname": "column_break_w1ddq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new",
+   "fieldtype": "Button",
+   "label": "New"
+  },
+  {
+   "fieldname": "section_break_3bjjp",
    "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-19 08:55:20.039586",
+ "modified": "2025-11-20 06:35:26.925285",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Single Buyer CL Application",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

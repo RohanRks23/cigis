@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Print_child(Document):
+class PrintChild(Document):
 	pass

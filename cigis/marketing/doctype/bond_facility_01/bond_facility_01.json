@@ -1,0 +1,327 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-30 08:10:11.635228",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_facility_application_tab",
+  "company",
+  "section_break_lod8s",
+  "client_name",
+  "reg_no",
+  "status1",
+  "column_break_ly6we",
+  "estd_date",
+  "nature_of_business",
+  "created_date",
+  "section_break_pdoa1",
+  "general",
+  "section_break_7wudp",
+  "facility_no",
+  "signed_by",
+  "capacity",
+  "column_break_hmxhm",
+  "signed_on",
+  "broker",
+  "section_break_mlnqo",
+  "facility_check_list_items",
+  "section_break_ipesu",
+  "bond_facility_application_form",
+  "financial_statement",
+  "certificate_of_incorporation",
+  "group_company_tab",
+  "add_new4",
+  "group_company",
+  "directorsshareholder_tab",
+  "add_new",
+  "directors",
+  "company_details_tab",
+  "add_new1",
+  "company_child",
+  "banking_details_tab",
+  "name1",
+  "ac_no",
+  "period_with_bankyears",
+  "cash_balance",
+  "investment",
+  "column_break_cs0bk",
+  "how_secured",
+  "column_break_o0esm",
+  "bank_guarentee__facility",
+  "guarentee__outstanding",
+  "other_bankers",
+  "personel",
+  "add_new3"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_facility_application_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Facility Application"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "HTML",
+   "label": "Company",
+   "options": " <h4 style=\"color: black;\">Company</h4>"
+  },
+  {
+   "fieldname": "section_break_lod8s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Company-Details"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "label": "Registration Number"
+  },
+  {
+   "fieldname": "status1",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInActive"
+  },
+  {
+   "fieldname": "column_break_ly6we",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estd_date",
+   "fieldtype": "Date",
+   "label": "Established Date"
+  },
+  {
+   "fieldname": "nature_of_business",
+   "fieldtype": "Select",
+   "label": "Nature Of Business",
+   "options": "\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nCHEMICALS\nCHEMICALS AND STATIONARY\nCIVIL ENGINEERING\nELECTRICAL ENGINEERING\nENGINEERING CONSULTANCY\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nGENERAL DEALER\nGOODS RETAILING\nGOODS RETALING\nHARDWARE\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nMANUFACTURER\nMANUFACTURING\nMECHANICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMINING ENGINEERING\nOTHERS\nRESTAURANT\nROAD CONSTRUCTION\nROAD MAINTENANCE\nSERVICES RETAILING\nSTATIONARY\nSTATIONARY AND COMPUTERS\nSTATIONARY AND IT PRODUCTS\nWHOLESALERS"
+  },
+  {
+   "fieldname": "created_date",
+   "fieldtype": "Data",
+   "label": "created Date"
+  },
+  {
+   "fieldname": "section_break_pdoa1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_no",
+   "fieldtype": "Data",
+   "label": "Facility Number"
+  },
+  {
+   "fieldname": "signed_by",
+   "fieldtype": "Data",
+   "label": "Signed By"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Select",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "column_break_hmxhm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signed_on",
+   "fieldtype": "Date",
+   "label": "Signed On"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Link",
+   "label": "Broker",
+   "options": "Brokers"
+  },
+  {
+   "fieldname": "section_break_mlnqo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_check_list_items",
+   "fieldtype": "HTML",
+   "label": "Facility Check List Items",
+   "options": " <h4 style=\"color: black;\">Facility Check List Items</h4>"
+  },
+  {
+   "fieldname": "section_break_ipesu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_facility_application_form",
+   "fieldtype": "Attach",
+   "label": "Bond Facility Application Form"
+  },
+  {
+   "fieldname": "financial_statement",
+   "fieldtype": "Attach",
+   "label": "Financial Statement"
+  },
+  {
+   "fieldname": "certificate_of_incorporation",
+   "fieldtype": "Attach",
+   "label": "Certificate Of Incorporation"
+  },
+  {
+   "fieldname": "group_company_tab",
+   "fieldtype": "Tab Break",
+   "label": "Group Company "
+  },
+  {
+   "fieldname": "general",
+   "fieldtype": "HTML",
+   "label": "General",
+   "options": "  <h4 style=\"color: black;\">General</h4>"
+  },
+  {
+   "fieldname": "section_break_7wudp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_new4",
+   "fieldtype": "Data",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "group_company",
+   "fieldtype": "Table",
+   "label": "Group Company",
+   "options": "Group Company child"
+  },
+  {
+   "fieldname": "directorsshareholder_tab",
+   "fieldtype": "Tab Break",
+   "label": "Directors/Shareholder"
+  },
+  {
+   "fieldname": "add_new",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "Data",
+   "label": "Director Shareholder",
+   "options": "Directors and Shareholders"
+  },
+  {
+   "fieldname": "company_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Company "
+  },
+  {
+   "fieldname": "add_new1",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "company_child",
+   "fieldtype": "Table",
+   "label": "Company",
+   "options": "Company child bond facility"
+  },
+  {
+   "fieldname": "banking_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Banking"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name",
+   "options": "\nABSA BANK LTD\nACCESS BANK, NORTH END, ZAMBIA\nAFRASIA KINGDOM BANK\nAGRIBANK\nBANC ABC\nBANCO MILLENIUM BIM\nBANCO TERRA\nBANK WINDHOEK\nBARCLAYS BANK GHANA LIMITED\nBARCLAYS BANK KENYA LTD\nBARCLAYS BANK OF ZAMBIA PLC\nBARCLAYS BANK OF ZIMBABWE LTD\nBRAMER BANK MAURITIUS\nCABS\nCAPITAL BANK ZIMBABWE\nCAVEMONT MERCHANT BANK\nCAVMONT NEW CAPITAL BANK\nCBZ BANK LIMITED\nCITIBANK\nECOBANK\nECOBANK GHANA LTD\nEMIRATES NBD\nFBC BANK LIMITED\nFIRST ALLIANCE BANK\nFIRST ALLIANCE BANK ZAMBIA LTD\nFIRST MERCHANT BANK LTD MALAWI\nFIRST NATIONAL BANK OF SA LTD\nFIRST ALLIANCE BANK ZAMBIA LTD\nFIRST MERCHANT BANK LTD MALAWI\nFIRST NATIONAL BANK OF SA LTD\nFIRSTRAND BANK NAMIBIA LIMITED\nFNB BOTSWANA LIMITED\nINDI-ZAMBIA BANK LTD\nINTERFIN BANK\nINVESTRUST BANK PLC\nMBCA BANK LIMITED\nMETBANK ZIMBABWE LIMITED\nNATIONAL BANK OF MALAWI\nNMB BANK LIMITED\nPOSB\nRESERVE BANK OF ZIMBABWE\nSTANBIC BANK ZAMBIA LTD\nSTANBIC BANK ZIMBABWE LTD\nSTANDARD BANK MOZAMBIQUE LIMITED\nSTANDARD BANK OF MALAWI\nSTANDARD BANK OF SA\nSTANDARD BANK OF SOUTH AFRICA LIMITED\nSTANDARD BANK BOTSWANA LIMITED\nSTANDARD CHARTERED BANK ZAMBIA LIMITED\nSTANDARD CHARTERED BANK ZIMBABWE LTD\nTETRAD BANK\nTN BANK LIMITED\nTRUST BANK\nUT BANK GHANA\nZABG\nZAMBIA NATIONAL COMMERCIAL BANK\nZB BANK LIMITED\nSTANDARD CHARTERED BANK BOTSWANA LIMITED\nFIRST CARE CHEMIST (PTY LTD)\nSTANDARD BANK(SA)\nCAVM\nECO BANK\nSTANDARD BANK NAMIBIA\nBANCO COMMERICAL E DE INVESTIMENTOS\nSTANDARD CHARTERED BANK BOTSWANA LTD\nSTANDARD CHARTERED BANK\nCITI BANK\nFIRST NATIONAL BANK(SA)"
+  },
+  {
+   "fieldname": "ac_no",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "period_with_bankyears",
+   "fieldtype": "Data",
+   "label": "Period with bank(years)"
+  },
+  {
+   "fieldname": "cash_balance",
+   "fieldtype": "Data",
+   "label": "Cash Balance"
+  },
+  {
+   "fieldname": "investment",
+   "fieldtype": "Data",
+   "label": "Investment"
+  },
+  {
+   "fieldname": "column_break_cs0bk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "how_secured",
+   "fieldtype": "Data",
+   "label": "How Secured"
+  },
+  {
+   "fieldname": "column_break_o0esm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_guarentee__facility",
+   "fieldtype": "Data",
+   "label": "Bank Guarantee  Facility"
+  },
+  {
+   "fieldname": "guarentee__outstanding",
+   "fieldtype": "Data",
+   "label": "Guarantee  Outstanding"
+  },
+  {
+   "fieldname": "other_bankers",
+   "fieldtype": "Data",
+   "label": "Other Bankers"
+  },
+  {
+   "fieldname": "personel",
+   "fieldtype": "Data",
+   "label": "Personel"
+  },
+  {
+   "fieldname": "add_new3",
+   "fieldtype": "Data",
+   "label": "Add New"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-03 13:19:45.705747",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Bond Facility_01",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

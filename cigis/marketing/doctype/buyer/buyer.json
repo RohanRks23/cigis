@@ -32,19 +32,19 @@
   "trading_name",
   "physical_address",
   "location1",
+  "postal_address",
+  "location2",
   "phone",
   "estddate",
-  "bank",
-  "ac_no",
   "industry",
   "column_break_rnwnr",
   "registration_no",
-  "postal_address",
-  "location2",
   "fax",
   "no_of_employees",
-  "branch",
   "status",
+  "bank",
+  "branch",
+  "ac_no",
   "business",
   "date",
   "section_break_zkutb",
@@ -108,7 +108,8 @@
    "fieldname": "buyer_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Buyer Name"
+   "label": "Buyer Name",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_ibrys",
@@ -166,54 +167,61 @@
   },
   {
    "fieldname": "country",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Country",
-   "options": "Select\nAbu Dhabi\nAjman\nAndorra\nAngola\nAnguilla\nAntigua&Barbuda\nArgentina\nAruba\nAscension Island\nAustralia\nAustria\nAzores\nBahamas\nBahrain\nBarbados\nBelgium\nBELIZE\nBermuda\nBolivia\nBOTSWANA\nBrazil\nBrunei\nCanada\nCanary Islands\nCAYMAN ISLANDS\nCEUTA&MELILLA\nCHANNEL ISLANDS\nCHILE\nCHINA\nCHRISTMAS ISLANDS\nCOCOS ISLANDS\nCOLOMBIA\nCONGO DRC\nCOOK ISLANDS\nCYPRUS\nCZECH REPUBLIC\nDENMARK\nDOMINICAN REPUBLIC\nDUBAI\nECUADOR\nEGYPT\nEI SALVADOR\nEIRE\nFALKLAND ISLANDS\nFAROE ISLANDS\nFIJI\nFINLAND\nFRANCE\nFRENCH GUINEA\nFRENCH POLYNESIA\nFUJAIRAH\nGERMANY\nGHANA\nGIBRALTAR\nGREECE\nGREENLAND\nGRENADA\nGUADELOUPE\nGUAM\nGUATEMALA\nHONDURAS\nHONG KONG\nHUNGARY\nICELAND\nINDIA\nIsle of Man\nISRAEL\nITALY\nJAMAICA\nJAPAN\nJORDAN\nKENYA\nKIRIBATI\nKOREA(SOUTH)\nKUWAIT\nLAOS\nLIECHTENSTEIN\nLUXEMBOURG\nMACAO\nMADEIRA\nMALAWI\nMALAYSIA\nMALDIVES\nMALTA\nMARSHALL ISLANDS\nMARTINIQUE\nMAURITIUS\nMAYOTTE\nMEXICO\nMICRONESIA, FEDERATED STATES OF\nMONACO\nMONTSERRAT\nMOROCCO\nMOZAMBIQUE\nNAMBIA\nNETHERLANDS\nNETHERLANDS ANTILLES\nNEW CALEDONIA\nNEW ZEALAND\nNICARAGUA\nNIUE\nNORFOLK ISLANDS\nNORTHERN MARIANA ISLANDS\nNORWAY\nOMAN\nPAKISTAN\nPALAU\nPANAMA\nPARAGUAY\nPHILIPPINES\nPITCAIRN ISLAND\nPOLAND\nPORTUGAL\nPUERTO RICO\nQATAR\nRas Al Khaimah\nREUNION\nSAINT LUCIA\nSAINT VINCENT & THE GRENADINES\nSAMOA, AMERICAN\nSAMOA, WESTERN\nSAN MARINO\nSAUDI ARABIA\nSENEGAL\nSEYCHELLES\nSHARJAH\nSINGAPORE\nSOLOMON ISLANDS\nSOUTH AFRICA\nSOUTH GEORGIA & SOUTH SANDWICH ISLANDS\nSPAIN\nSRI LANKA\nST PIERRE & MIQUELON\nST. HELENA\nST. KITTS & NEVIS\nSWAZILAND\nSWEDEN\nSWITZERLAND\nTAIWAN\nTHAILAND\nTOKELAU\nTONGA\nTRINIDAD AND TOBAGO\nTRISTAN DA CUNHA\nTUNISIA\nTURKEY\nTURKS AND CAICOS ISLANDS\nTUVALU\nUMM AL QUWAIN\nUNITED KINGDOM\nUnited States of America\nURUGUAY\nVANUATU\nVATICAN CITY\nVIRGIN ISLANDS BRITISH\nVIRGIN ISLANDS, US\nWALLIS & FORTUNA ISLANDS\nYEMEN\nZAMBIA\nZimbabwe\nNULL"
+   "options": "Country Details",
+   "reqd": 1
   },
   {
    "fieldname": "trading_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Trading Name"
+   "label": "Trading Name",
+   "reqd": 1
   },
   {
    "fieldname": "physical_address",
    "fieldtype": "Data",
-   "label": "Physical Address"
+   "label": "Physical Address",
+   "reqd": 1
   },
   {
    "fieldname": "location1",
    "fieldtype": "Data",
-   "label": "Location 1"
+   "label": "City 1",
+   "reqd": 1
   },
   {
    "fieldname": "phone",
    "fieldtype": "Data",
-   "label": "Phone"
+   "label": "Phone",
+   "reqd": 1
   },
   {
    "fieldname": "estddate",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Estd.Date",
-   "options": "Select\nABSA\nBANK OF BARODA(BOTSWANA)LTD\nBANC ABC\nBANCO COMMERICAL E DE INVESTIMENTOS\nBANCO INTERNATIONAL DE CREDITO\nBANK GABORONE\nBANK OF BOTSWANA\nBANK OF INDIA\nBANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY(BBS)\nBOTSWANA SAVINGS BANK\nBOTSWANA VACCINE INST\nCAPITAL BANK\nCBZ BANK\nECO BANK\nFIRST CARE CHEMIST (PTY LTD)\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK\nMIGRATION BANK\nNED BANK\nNMB BANK LIMITED\nRAND MERCHANT\nSTANBIC BANK\nSTANDARD BANK(SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD\n"
+   "options": "\n"
   },
   {
    "fieldname": "bank",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Bank",
-   "options": "\nABS01\nBanc1\nCBZB\nFIRS1\nBANK1\nBancA\nRAND\nNMBB\nSTANB\nCAPIT\nBANK3\nNEDBA\nSTAN4\nSTAN1\nECOB\nSTAN2\nFIRS4\nBARCL\nBOTSW\nBOTS1\nMIGRA\nSTAN3\nBANC2\nBANK2\nFIRST\nBANKG\nKING\nBOTS2\nBIM\nFIRS2\nBANK4"
+   "options": "Banks",
+   "reqd": 1
   },
   {
    "fieldname": "ac_no",
    "fieldtype": "Data",
-   "label": "A/C No"
+   "label": "A/C No",
+   "reqd": 1
   },
   {
    "fieldname": "industry",
    "fieldtype": "Select",
    "label": "Industry",
-   "options": "Select\nAGRICULTURE\nBEEF\nCONFECTIONERY\nCommunications\nCONSTRUCTION\nDISTRIBUTOR\nFINANCIAL SERVICES\nHARDWARE\nIT SOFTWARE & HARDWARE\nMINING\nMOTOR PARTS\nOPTICALS\nPHARMACEUTICALS\nPVC PIPES\nRETAILER\nSTATIONARY\nSTEEL\nTEXTILES\nTOURISM\nTRANSPORTATION\nWATER TANKS\nNULL"
+   "options": "\nAGRICULTURE\nBEEF\nCONFECTIONERY\nCommunications\nCONSTRUCTION\nCONSULTANTS\nDISTRIBUTOR\nFINANCIAL SERVICES\nGENERAL TRADING\nHARDWARE\nHOSPITALITY\nIT SOFTWARE & HARDWARE\nMANUFACTURING\nMINING\nMOTOR PARTS\nOPTICALS\nPHARMACEUTICALS\nPVC PIPES\nRETAILER\nSERVICES\nSTATIONARY\nSTEEL\nSERSTA\nTEXTILES\nTOURISM\nTRANSPORTATION\nWATER TANKS"
   },
   {
    "fieldname": "column_break_rnwnr",
@@ -232,17 +240,20 @@
   {
    "fieldname": "location2",
    "fieldtype": "Data",
-   "label": "Location 2"
+   "label": "City 2",
+   "reqd": 1
   },
   {
    "fieldname": "fax",
    "fieldtype": "Data",
-   "label": "Fax"
+   "label": "Fax",
+   "reqd": 1
   },
   {
    "fieldname": "no_of_employees",
    "fieldtype": "Data",
-   "label": "No.of Employees"
+   "label": "No.of Employees",
+   "reqd": 1
   },
   {
    "fieldname": "branch",
@@ -253,13 +264,13 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "\nSelect\nActive\nInActive"
+   "options": "\nActive\nInActive"
   },
   {
    "fieldname": "business",
    "fieldtype": "Select",
    "label": "Business",
-   "options": "Select\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nBUTCHERY\nCHEMICALS\nCIVIL ENGINEERING\nCHEMICALS AND STATIONARY\nENGINEERING CONSULTANCY\nELECTRICAL ENGINEERING\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nGOODS RETALING\nGENERAL DEALER\nHARDWARE\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nMANUFACTURER\nMECHANICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMANUFACTURING\nMINING ENGINEERING\nOTHERS\nROAD CONSTRUCTION\nRESTAURANT\nROAD MAINTENANCE\nSTATIONARY AND IT PRODUCTS\nSERVICES RETAILING\nSTATIONARY AND COMPUTERS\nSTATIONARY\nWHOLESALERS\nNULL"
+   "options": "\nACCOUNTANTS\nAGRICULTURAL & FARMING EQUIPMENT\nAGRICULTURAL ENGINEERING\nAGRO DEALERS\nAIR & CARGO\nARCHITECTS\nBEVERAGES\nBUILDING CONSTRUCTION\nBUILDING MAINTENANCE\nBUTCHERY\nCHEMICALS\nCIVIL ENGINEERING\nCOMMUTER\nCHEMICALS AND STATIONARY\nDAIRY PRODUCTS\nDOCTORS\nDRY CLEANING\nENGINEERING CONSULTANCY\nELECTRICAL ENGINEERING\nELECTRICAL PRODUCTS\nENGINEERING CONSULTANTS\nESTATES\nFARMING\nFREIGHT FORWARDING\nFURNITURE AND HARDWARE\nFIXED TELEPHONE OPERATORS\nGARAGES\nGOODS RETAILING\nGINNERIES\nPRIVATE BUYERS\nGENERAL DEALER\nHARDWARE\nHAULAGE\nHORTICULTURE\nHOTELS\nHUMAN RESOURCES\nINSTRUMENTATION\nIT PRODUCTS\nLANDSCAPE CONTRACTORS\nLAUNDRY\nLODGGES\nMANUFACTURER\nMARINE\nMECHANICAL CONTRACTORS\nMECHANICAL ENGINEERING\nMETAL PACKAGING\nMANUFACTURING\nMILLERS\nMINING ENGINEERING\nMINES\nMINING SUPPLIES\nMOBILE PHONE OPERATORS\nMOTOR SPARES\nOTHERS\nPAPER & ALLIED PRODUCTS\nPERMACULTURE\nPLASTIC PACKAGING\nPOULTRY\nPRIVATE HOSPITALS\nRAIL\nRANCHING\nROAD CONSTRUCTION\nRESORTS\nRESTAURANT\nRESTAURANTS\nROAD MAINTENANCE\nSECURITY\nSERVICE STATIONS\nSTATIONARY AND IT PRODUCTS\nSERVICES RETAILING\nSTATIONARY AND COMPUTERS\nSTATIONARY\nTAKE AWAYS\nTIMBER PRODUCTS\nTOBACCO PROCESSING / MERCHANTS\nWHOLESALER"
   },
   {
    "default": "Today",
@@ -283,12 +294,12 @@
   {
    "fieldname": "referance_1",
    "fieldtype": "Data",
-   "label": "Referance 1"
+   "label": "Reference 1"
   },
   {
    "fieldname": "referance_2",
    "fieldtype": "Data",
-   "label": "Referance 2"
+   "label": "Reference 2"
   },
   {
    "fieldname": "column_break_ktcid",
@@ -344,7 +355,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-08 17:22:48.337201",
+ "modified": "2025-12-05 09:34:57.692127",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Buyer",

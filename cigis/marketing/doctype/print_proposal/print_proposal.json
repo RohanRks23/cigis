@@ -1,16 +1,16 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{client_name}-{####}",
+ "autoname": "format:{client}-{####}",
  "creation": "2024-03-12 07:34:21.411412",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
-  "column_break_ivtin",
+  "from",
   "paragraph",
+  "address",
   "section_break_t5hvw",
   "heading",
   "section_break_dn5w1",
@@ -18,37 +18,29 @@
   "section_break_oe86x",
   "proposer",
   "section_break_jsrjk",
-  "client_name",
-  "trade_style",
-  "registrationno",
-  "establishmentdate",
-  "directors",
-  "table",
+  "client",
+  "print_proposal_child",
+  "section_break_y6wjk",
+  "months",
   "section_break_2exqz",
-  "postal_address",
-  "physical_address",
-  "telephone",
-  "fax",
-  "email",
-  "bankers",
-  "account_no"
+  "proposal_child",
+  "section_break_6ewsa",
+  "schedule",
+  "principal",
+  "proposals_child",
+  "premium",
+  "proposers_signature",
+  "capacity_director_manager_secretary",
+  "authorised_officer_for_and_on_behalf_of",
+  "date",
+  "telephone"
  ],
  "fields": [
-  {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "Image",
-   "options": "   <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
-  },
-  {
-   "fieldname": "column_break_ivtin",
-   "fieldtype": "Column Break"
-  },
   {
    "fieldname": "paragraph",
    "fieldtype": "HTML",
    "label": "Paragraph",
-   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n<br>"
+   "options": "<p style=\"text-align: right;\">\nTO:\n <br>\nCredit Insurance Zimbabwe Limited\n<br>\nP.O. Box CY 1584\n<br>\nHARARE\n<br>\nTelephone: 738944-7\n<br>\nDate: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\n<br>\n</p>\n<br>"
   },
   {
    "fieldname": "section_break_t5hvw",
@@ -58,7 +50,7 @@
    "fieldname": "heading",
    "fieldtype": "HTML",
    "label": "Heading",
-   "options": "<br>\n<p style=\"text-align: center;\"><strong>PROPOSAL FOR SHORT TERM DOMESTIC CREDIT INSURANCE POLICY</strong></p>\n"
+   "options": "<p style=\"text-align: left;\">Dear Sirs,\n<br>\nRe: PROPOSAL FOR CREDIT INSURANCE POLICY - DOMESTIC SUPPLIERS\u2019 CREDIT</p>\n"
   },
   {
    "fieldname": "section_break_dn5w1",
@@ -78,107 +70,105 @@
    "fieldname": "proposer",
    "fieldtype": "HTML",
    "label": "Proposer",
-   "options": "<p style=\"text-align: center;\">\n<strong>1.PROPOSER</strong></p>"
+   "options": "<p style=\"text-align: left;\">\nPlease inform us of the terms on which you are prepared to issue a Credit Insurance Policy to indemnify us, according to the conditions of such Policy, against\na loss as therein defined that we may sustain in respect of goods sold by us on credit terms to buyers in Zimbabwe.\nTo enable you to do this we give you, in the strictest confidence, the following information:<br>\n(1) BANKER &amp; BRANCH AND BANK ACCOUNT NUMBERS.<br>\n(2) A copy of our latest Audited Balance Sheet. Please return / retain same.<br>\n(3) The nature of our business is: (e.g. manufacturer, Wholesaler etc.) :<br>\n(4) The goods sold / service rendered by us are:<br>\n(5) (a) Our turnover with the buyers in Zimbabwe for the last\n3 financial years and our bad debt losses (net) incurred in each of the three years have been as follows:</p>"
   },
   {
    "fieldname": "section_break_jsrjk",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "client_name",
-   "fieldtype": "Data",
-   "label": "Registered name",
-   "options": "<p><b>a)Registered name  </b> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  INFORMATION Technology PTY(LTD)\n<br></p>"
+   "fieldname": "section_break_2exqz",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "trade_style",
-   "fieldtype": "Data",
-   "label": "Trade style",
-   "options": "<p><b>b)Trade style  </b> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  MANUFACTUTRER</p>\n<br><br>"
-  },
-  {
-   "fieldname": "registrationno",
-   "fieldtype": "Data",
-   "label": "Registered No",
-   "options": "<p><b>c)Registered number  </b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  CO.2000/236</p>\n",
-   "read_only": 1
-  },
-  {
-   "fieldname": "establishmentdate",
-   "fieldtype": "Date",
-   "label": "Date established",
-   "options": "<p><b>d)Data established  </b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  </p>\n<br>",
-   "read_only": 1
-  },
-  {
-   "fieldname": "directors",
+   "fieldname": "from",
    "fieldtype": "HTML",
-   "label": "Directors",
-   "options": "<p><b>e)Directors;Partners;Members;Proprietor</b></p>"
+   "label": "From",
+   "options": "<p style=\"text-align: left;\">\nFrom:\n</p>"
   },
   {
-   "fieldname": "table",
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">\n(Please give full name and address)\n</p>"
+  },
+  {
+   "fieldname": "print_proposal_child",
    "fieldtype": "Table",
-   "options": "Print_child",
-   "read_only": 1
+   "options": "Print Proposal child"
   },
   {
-   "fieldname": "postal_address",
-   "fieldtype": "Data",
-   "label": "Postal Address",
-   "options": "<p><b>f)Postal address  </b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  P O BOX 201408   GABORONE  BOTSWANA</p>",
-   "read_only": 1
+   "fieldname": "section_break_y6wjk",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "physical_address",
+   "fieldname": "months",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">(b) Our actual turnover and /or estimated bad debt losses during the period of\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..month since the last completed financial year have<br>\nbeen US$.............................................. on a turnover of approximately US$..................................<br>\n(6) (a) Our turnover for the current financial year is estimated at US$......................................................................<br>\n(b) Our turnover on the selected buyers for the current financial year is estimated at US$.................................<br>\n(7) The normal terms granted to our customers are\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026days. Maximum\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..<br>\n(8) The following are the total amounts owed by our debtors in respect of the last 6 months of trading (at least 3 months of trading required).</p>"
+  },
+  {
+   "fieldname": "proposal_child",
+   "fieldtype": "Table",
+   "options": "Proposal Child"
+  },
+  {
+   "fieldname": "section_break_6ewsa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">(9) We attach a copy of our debtors schedule for the month of \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..20\u2026\u2026\u2026\u2026\u2026\u2026..and confirm that<br>\nthis represents an average month<br>\nPlease return/retain this schedule<br><br>\n*Turnover to exclude export sales.<br><br>\n</p>"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">(10) We list below our principal buyers in Zimbabwe together with an indication for the maximum amount outstanding in our\nbooks in respect of such buyers at any one point in time during the past 12 months. (If space provided is insufficient please\nattach a list).</p>"
+  },
+  {
+   "fieldname": "proposals_child",
+   "fieldtype": "Table",
+   "options": "Proposals Child"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">We understand that the issue of a premium quotation will not imply an undertaking by Credsure that it will eventually be able to<br>\nissue cover on any of the buyers listed in paragraph (10) or shown in the attached list or debtors schedule.<br>\n(11) We wish to receive from you a quotation covering:-<br>\n(a) All debtors accounts:<br>\n(b) All our debtors account on which amounts in excess of US$..........................................are outstanding. We estimate that\nthe aggregate amount usually owing by this group of debtors is approximately\u2026\u2026\u2026\u2026\u2026% of our total monthly book debts.<br>\n(c) Specified debtors accounts.<br><br>\n(12) DECLARATION<br><br>\n(a) We certify that the representations made and facts stated by us are true and that we have not misrepresented or\nomitted any material fact which might have a bearing upon the policy and we agree that such representation and fact shall form\nthe basis of and be incorporated in the Policy and we agree that such representations and facts and due performance of each\nand every undertaking contained herein or in the policy shall be a condition precedent to any liability of the Credit Insurance\nZimbabwe Limited thereunder.<br>\n(b) We agree that the person filling in the form, wholly or in part, does so as our agent and not that of Credsure and\nthat neither fact within the knowledge of nor statements made to any of Credsure relative to this proposal shall be binding in\nCredsure unless embodied in writing in this proposal.</p>"
+  },
+  {
+   "fieldname": "proposers_signature",
+   "fieldtype": "HTML",
+   "label": "PROPOSERS SIGNATURE",
+   "options": "<p style=\"text-align: left;\">PROPOSER'S SIGNATURE...............................................................................................................................................................</p>"
+  },
+  {
+   "fieldname": "capacity_director_manager_secretary",
    "fieldtype": "Data",
-   "label": "Physical address",
-   "options": "<p><b>g)Physical address  </b> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNIT 4,PLOT 168,GICP,GABORONE\n<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GABORONE</p>",
-   "read_only": 1
+   "label": "Capacity Director Manager Secretary"
+  },
+  {
+   "fieldname": "authorised_officer_for_and_on_behalf_of",
+   "fieldtype": "Data",
+   "label": "AUTHORISED OFFICER FOR AND ON BEHALF OF"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
   },
   {
    "fieldname": "telephone",
    "fieldtype": "Data",
-   "label": "Telephone",
-   "options": "<p><b>h)Telephone number  </b>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 3159226/7</p>",
-   "read_only": 1
+   "label": "TELEPHONE"
   },
   {
-   "fieldname": "fax",
+   "fieldname": "client",
    "fieldtype": "Data",
-   "label": "Fax",
-   "options": "<p><b>Fax number  </b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 3170457</p>",
-   "read_only": 1
-  },
-  {
-   "fieldname": "email",
-   "fieldtype": "Data",
-   "label": "Email",
-   "options": "<p><b>i) E-Mail </b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  </p>\n",
-   "read_only": 1
-  },
-  {
-   "fieldname": "bankers",
-   "fieldtype": "Data",
-   "label": "Bankers & Branch",
-   "options": "<p><b>j)Bankers &amp; Branch  </b>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; FIRST NATIONAL BANK OF BOTSWANA  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  INDUSTRIAL</p>",
-   "read_only": 1
-  },
-  {
-   "fieldname": "account_no",
-   "fieldtype": "Data",
-   "label": "Account no",
-   "options": "<p><b>k)Account  number  </b>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 62015477905</p>",
-   "read_only": 1
-  },
-  {
-   "fieldname": "section_break_2exqz",
-   "fieldtype": "Section Break"
+   "label": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-22 08:57:23.947684",
+ "modified": "2025-11-06 08:18:23.453717",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Print proposal",

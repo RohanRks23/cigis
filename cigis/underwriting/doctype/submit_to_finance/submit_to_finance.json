@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:invoice_no",
@@ -13,51 +12,44 @@
   "section_break_egjkz",
   "client",
   "name1",
+  "ed_number",
+  "quotation_numbers",
   "invoice_date",
-  "vat",
-  "column_break_ak6ib",
-  "status",
+  "premium_rate1",
+  "month",
+  "column_break_1ndw7",
   "invoice_no",
+  "status",
+  "currency",
+  "vat",
+  "decl_amt",
   "invoice_amount",
+  "invoice_stamp_duty",
+  "invoice_amount_wo_stamp_duty",
+  "year",
   "section_break_inhpr",
   "child_table",
   "section_break_k0j1z",
+  "go_back",
   "line_items",
   "section_break_vypcr",
-  "month",
-  "column_break_fddih",
-  "year",
-  "section_break_fl3vl",
   "premium_charges",
   "column_break_o0wcc",
   "premium_rate",
   "column_break_ensok",
   "a",
   "section_break_bingk",
-  "credit_limit_fee",
-  "column_break_on9lu",
-  "credit_limit",
-  "column_break_prazd",
-  "b",
-  "section_break_ybkak",
-  "credit_limit_enquiry_fee",
-  "column_break_ihech",
-  "credit_limits",
-  "column_break_ztvx9",
-  "c",
-  "section_break_zv3n7",
   "add",
   "column_break_owmug",
-  "column_break_ibnty",
-  "total",
-  "section_break_nnkli",
-  "column_break_7ramw",
-  "column_break_fddhi",
   "column_break_eiqw2",
-  "submit_to_finance",
+  "total",
+  "section_break_zv3n7",
+  "column_break_ibnty",
   "column_break_6m1mk",
-  "column_break_kasnc",
-  "column_break_mwjit"
+  "column_break_mwjit",
+  "submit_to_finance",
+  "grandtotal",
+  "grandtotal1"
  ],
  "fields": [
   {
@@ -78,8 +70,7 @@
    "fieldname": "name1",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Name",
-   "unique": 1
+   "label": "Name"
   },
   {
    "default": "Today",
@@ -90,11 +81,7 @@
   {
    "fieldname": "vat",
    "fieldtype": "Data",
-   "label": "Vat"
-  },
-  {
-   "fieldname": "column_break_ak6ib",
-   "fieldtype": "Column Break"
+   "label": "Stamp duty %"
   },
   {
    "fieldname": "status",
@@ -128,6 +115,7 @@
   {
    "fieldname": "line_items",
    "fieldtype": "Heading",
+   "hidden": 1,
    "label": "Line Items "
   },
   {
@@ -141,22 +129,15 @@
    "options": "Select\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
   },
   {
-   "fieldname": "column_break_fddih",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "year",
    "fieldtype": "Data",
    "label": "Year",
    "options": "Select\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030"
   },
   {
-   "fieldname": "section_break_fl3vl",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "premium_charges",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
+   "hidden": 1,
    "label": "Premium Charges:"
   },
   {
@@ -166,6 +147,7 @@
   {
    "fieldname": "premium_rate",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Premium rate"
   },
   {
@@ -174,59 +156,12 @@
   },
   {
    "fieldname": "a",
-   "fieldtype": "Currency"
+   "fieldtype": "Currency",
+   "hidden": 1
   },
   {
    "fieldname": "section_break_bingk",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "credit_limit_fee",
-   "fieldtype": "Currency",
-   "label": "Credit Limit Fee:"
-  },
-  {
-   "fieldname": "column_break_on9lu",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "credit_limit",
-   "fieldtype": "Currency",
-   "label": "Credit Limits"
-  },
-  {
-   "fieldname": "column_break_prazd",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "b",
-   "fieldtype": "Currency"
-  },
-  {
-   "fieldname": "section_break_ybkak",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "credit_limit_enquiry_fee",
-   "fieldtype": "Currency",
-   "label": "Credit Limit Enquiry fee:"
-  },
-  {
-   "fieldname": "column_break_ihech",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "credit_limits",
-   "fieldtype": "Currency",
-   "label": "Credit Limits"
-  },
-  {
-   "fieldname": "column_break_ztvx9",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "c",
-   "fieldtype": "Currency"
   },
   {
    "fieldname": "section_break_zv3n7",
@@ -235,6 +170,7 @@
   {
    "fieldname": "add",
    "fieldtype": "Button",
+   "hidden": 1,
    "label": "Add"
   },
   {
@@ -248,19 +184,8 @@
   {
    "fieldname": "total",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total"
-  },
-  {
-   "fieldname": "section_break_nnkli",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "column_break_7ramw",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_fddhi",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "column_break_eiqw2",
@@ -269,6 +194,7 @@
   {
    "fieldname": "submit_to_finance",
    "fieldtype": "Button",
+   "hidden": 1,
    "label": "Submit to Finance"
   },
   {
@@ -276,17 +202,69 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "column_break_kasnc",
+   "fieldname": "column_break_mwjit",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "column_break_mwjit",
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "label": "DD Ref number"
+  },
+  {
+   "fieldname": "quotation_numbers",
+   "fieldtype": "Data",
+   "label": "Quotation number"
+  },
+  {
+   "fieldname": "go_back",
+   "fieldtype": "Button",
+   "label": "CANCEL"
+  },
+  {
+   "fieldname": "premium_rate1",
+   "fieldtype": "Data",
+   "label": "Premium rate"
+  },
+  {
+   "fieldname": "grandtotal",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Grand total"
+  },
+  {
+   "fieldname": "grandtotal1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Grand total1"
+  },
+  {
+   "fieldname": "invoice_stamp_duty",
+   "fieldtype": "Currency",
+   "label": "Invoice Stamp duty Amount"
+  },
+  {
+   "fieldname": "decl_amt",
+   "fieldtype": "Data",
+   "label": "Decl Amt."
+  },
+  {
+   "fieldname": "invoice_amount_wo_stamp_duty",
+   "fieldtype": "Currency",
+   "label": "Invoice amount W/O stamp duty"
+  },
+  {
+   "fieldname": "column_break_1ndw7",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-02 06:47:14.174650",
+ "modified": "2025-12-09 08:07:15.714480",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Submit to Finance",

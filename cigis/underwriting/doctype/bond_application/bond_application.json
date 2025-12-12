@@ -1,6 +1,4 @@
 {
- "_comments": "[]",
- "_liked_by": "[]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{bond_no}",
@@ -19,6 +17,7 @@
   "column_break_txua0",
   "facility_no",
   "reg_date",
+  "dates",
   "section_break_1qrlv",
   "previous_bond_details",
   "section_break_xxdk3",
@@ -139,13 +138,15 @@
   {
    "fieldname": "facility_name",
    "fieldtype": "Select",
-   "label": "Facility Name"
+   "label": "Facility Name",
+   "reqd": 1
   },
   {
    "fetch_from": "facility_name.reg_no",
    "fieldname": "reg_no",
    "fieldtype": "Data",
-   "label": "Reg. No :"
+   "label": "Reg. No :",
+   "reqd": 1
   },
   {
    "fetch_from": "facility_name.status1",
@@ -261,19 +262,23 @@
   },
   {
    "fieldname": "bond_in_favour",
-   "fieldtype": "Data",
-   "label": "Bond in favour of (Principal):"
+   "fieldtype": "Link",
+   "label": "Bond in favour of (Principal):",
+   "options": "Company-Details",
+   "reqd": 1
   },
   {
-   "fetch_from": "bond_in_favour.postal_address",
+   "fetch_from": "bond_in_favour.physical_address",
    "fieldname": "address",
    "fieldtype": "Data",
    "label": "Address"
   },
   {
    "fieldname": "bond_type",
-   "fieldtype": "Data",
-   "label": "Bond Type:"
+   "fieldtype": "Select",
+   "label": "Bond Type:",
+   "options": "\nCONSTRUCTION BOND\nCUSTOMS BONDS\nTRADE BOND\nSUPPLIER GUARANTEES\nVAT BONDS",
+   "reqd": 1
   },
   {
    "fieldname": "description_contract",
@@ -298,7 +303,8 @@
   {
    "fieldname": "project",
    "fieldtype": "Long Text",
-   "label": "Project:"
+   "label": "Project:",
+   "reqd": 1
   },
   {
    "fieldname": "bond_subtype",
@@ -311,12 +317,13 @@
   },
   {
    "fieldname": "period_from",
-   "fieldtype": "Data",
-   "label": "Period From:"
+   "fieldtype": "Date",
+   "label": "Period From:",
+   "reqd": 1
   },
   {
    "fieldname": "demand_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Demand Date:"
   },
   {
@@ -325,8 +332,9 @@
   },
   {
    "fieldname": "to",
-   "fieldtype": "Data",
-   "label": "To:"
+   "fieldtype": "Date",
+   "label": "To:",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_ll6ky",
@@ -343,13 +351,16 @@
   },
   {
    "fieldname": "currency_code",
-   "fieldtype": "Data",
-   "label": "Currency Code:"
+   "fieldtype": "Link",
+   "label": "Currency Code:",
+   "options": "Currency_Finance",
+   "reqd": 1
   },
   {
    "fieldname": "foreign_currency_amount",
    "fieldtype": "Currency",
-   "label": "Foreign Currency Amount:"
+   "label": "Foreign Currency Amount:",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_empd6",
@@ -358,12 +369,14 @@
   {
    "fieldname": "exchange_rate",
    "fieldtype": "Data",
-   "label": "Exchange Rate:"
+   "label": "Exchange Rate:",
+   "reqd": 1
   },
   {
    "fieldname": "amount_in_pula",
    "fieldtype": "Currency",
-   "label": "Amount in Pula:"
+   "label": "Amount in USD:",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_vxqb1",
@@ -377,7 +390,8 @@
   {
    "fieldname": "signed_by",
    "fieldtype": "Data",
-   "label": "Signed By:"
+   "label": "Signed By:",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_yfuxj",
@@ -390,7 +404,7 @@
   },
   {
    "fieldname": "signed_on",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Signed On:"
   },
   {
@@ -444,12 +458,13 @@
   },
   {
    "fieldname": "refer_to_reinsurer",
-   "fieldtype": "Data",
-   "label": "Refer to Reinsurer"
+   "fieldtype": "Link",
+   "label": "Refer to Reinsurer",
+   "options": "ReInsurers Details"
   },
   {
    "fieldname": "refer_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Refer Date"
   },
   {
@@ -459,8 +474,9 @@
   },
   {
    "fieldname": "insurer_name",
-   "fieldtype": "Data",
-   "label": "Insurer Name"
+   "fieldtype": "Link",
+   "label": "Insurer Name",
+   "options": "Company-Details"
   },
   {
    "fieldname": "risk_percentage",
@@ -489,12 +505,13 @@
   {
    "fieldname": "beci_ref_number",
    "fieldtype": "Data",
-   "label": "BECI Ref. Number"
+   "label": "CREDSURE Ref. Number"
   },
   {
    "fieldname": "the_insured",
-   "fieldtype": "Data",
-   "label": "The Insured"
+   "fieldtype": "Link",
+   "label": "The Insured",
+   "options": "Company-Details"
   },
   {
    "fieldname": "guarantee_amount",
@@ -504,12 +521,12 @@
   {
    "fieldname": "total_beci_exposure_onincl_this_gurantee",
    "fieldtype": "Currency",
-   "label": "Total BECI exposure on(Incl this gurantee)"
+   "label": "Total Credsure exposure on(Incl this gurantee)"
   },
   {
    "fieldname": "total_in_excess_of_beci_exposure_limit_per_insured",
    "fieldtype": "Currency",
-   "label": "Total in excess of BECI exposure limit per insured"
+   "label": "Total in excess of Credsure exposure limit per insured"
   },
   {
    "fieldname": "excess_insurable_by_reisurer",
@@ -525,7 +542,8 @@
    "fieldname": "guarantee_fee",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Guarantee Fee%"
+   "label": "Guarantee Fee%",
+   "reqd": 1
   },
   {
    "fieldname": "guarantee_fee_p",
@@ -536,7 +554,8 @@
    "fieldname": "portion_of_guarantee_guarantee_vat_p",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Portion Of Guarantee to ReInsurer %"
+   "label": "Portion Of Guarantee to ReInsurer %",
+   "reqd": 1
   },
   {
    "fieldname": "reinsurer_portion_of_guarantee_fee_p",
@@ -546,7 +565,7 @@
   {
    "fieldname": "total_amount_payable_to_beci",
    "fieldtype": "Currency",
-   "label": "Total Amount Payable To BECI(Incl VAT): P"
+   "label": "Total Amount Payable To Credsure (Incl VAT): P"
   },
   {
    "fieldname": "reinsurer_portion_of_guarantee_amount",
@@ -557,18 +576,21 @@
    "fieldname": "beci_commission_p",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "BECI Commission %"
+   "label": "Credsure Commission %",
+   "reqd": 1
   },
   {
    "fieldname": "reinsurer_commissions",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "ReInsurer Commission %"
+   "label": "ReInsurer Commission %",
+   "reqd": 1
   },
   {
    "fieldname": "other_insurer_commissions",
    "fieldtype": "Data",
-   "label": "Other Insurer Commission %"
+   "label": "Other Insurer Commission %",
+   "reqd": 1
   },
   {
    "fieldname": "total_amount_payable_to_reinsurer",
@@ -591,7 +613,7 @@
   },
   {
    "fieldname": "reinsurer_response_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "ReInsurer Response Date"
   },
   {
@@ -602,12 +624,12 @@
   {
    "fieldname": "less_beci_exposure_limit_per_insured",
    "fieldtype": "Currency",
-   "label": "LESS BECI exposure limit per insured"
+   "label": "LESS Credsure exposure limit per insured"
   },
   {
    "fieldname": "amount_insurable_by_reinsurer_beci",
    "fieldtype": "Currency",
-   "label": "Amount insurable by ReInsurer & BECI"
+   "label": "Amount insurable by ReInsurer & Credsure "
   },
   {
    "fieldname": "month",
@@ -617,12 +639,12 @@
   {
    "fieldname": "portion_of_guarantee_to_beci",
    "fieldtype": "Percent",
-   "label": "Portion Of Guarantee to BECI %"
+   "label": "Portion Of Guarantee to Credsure %"
   },
   {
    "fieldname": "beci_portion_of_gurantee_fee",
    "fieldtype": "Currency",
-   "label": "BECI Portion of Guarantee Fee(EXCL VAT): P"
+   "label": "Credsure Portion of Guarantee Fee(EXCL VAT): P"
   },
   {
    "fieldname": "to_",
@@ -632,12 +654,12 @@
   {
    "fieldname": "beci_portion_of_gurantee_amount_p",
    "fieldtype": "Currency",
-   "label": "BECI Portion of Guarantee Amount: P"
+   "label": "Credsure Portion of Guarantee Amount: P"
   },
   {
    "fieldname": "beci_commission",
    "fieldtype": "Currency",
-   "label": "BECI Commission"
+   "label": "Credsure Commission"
   },
   {
    "fieldname": "reinsurer_commission",
@@ -652,7 +674,6 @@
   {
    "fieldname": "vat",
    "fieldtype": "Data",
-   "hidden": 1,
    "label": "Vat"
   },
   {
@@ -664,12 +685,19 @@
   {
    "fieldname": "phone",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "phone"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dates",
+   "fieldtype": "Data",
+   "label": "Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-02 09:14:42.502407",
+ "modified": "2025-12-09 11:42:34.181194",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Bond Application",

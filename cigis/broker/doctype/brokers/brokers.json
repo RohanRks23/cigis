@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:{name1}",
  "creation": "2024-05-20 10:18:44.282034",
@@ -47,7 +48,7 @@
    "fieldname": "location",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Location1",
+   "label": "City 1",
    "reqd": 1
   },
   {
@@ -59,7 +60,7 @@
   {
    "fieldname": "location1",
    "fieldtype": "Data",
-   "label": "Location2",
+   "label": "City 2",
    "reqd": 1
   },
   {
@@ -76,7 +77,8 @@
   {
    "fieldname": "contact_person",
    "fieldtype": "Data",
-   "label": "Contact Person"
+   "label": "Contact Person",
+   "reqd": 1
   },
   {
    "fieldname": "telephone",
@@ -97,7 +99,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-29 08:12:31.633276",
+ "modified": "2025-11-06 07:14:08.604885",
  "modified_by": "Administrator",
  "module": "Broker",
  "name": "Brokers",

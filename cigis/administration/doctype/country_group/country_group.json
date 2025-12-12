@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{country}",
+ "creation": "2024-09-17 09:04:25.924959",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "country_group"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country_group",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Country Group",
+   "options": "\n1A\n1B\n1C\n2A\n2B\n2C\n3A\n3B\n3C\nANGOLA\nSOUTH AFRICA",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-30 13:41:40.268196",
+ "modified_by": "Administrator",
+ "module": "Administration",
+ "name": "Country Group",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

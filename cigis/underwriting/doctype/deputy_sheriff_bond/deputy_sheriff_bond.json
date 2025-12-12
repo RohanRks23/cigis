@@ -97,13 +97,13 @@
    "fieldname": "reinsurer_ref_numbeecgc_invoice_no",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "ReInsurer Ref. Numbe/ECGC Invoice No",
+   "label": "ReInsurer Ref. Numbe/CREDSURE  Invoice No",
    "reqd": 1
   },
   {
    "fieldname": "ecgc_reinsurance_commission",
    "fieldtype": "Percent",
-   "label": "ECGC ReInsurance Commission %"
+   "label": "CREDSURE ReInsurance Commission %"
   },
   {
    "fieldname": "column_break_yfdti",
@@ -113,13 +113,12 @@
    "fieldname": "broker",
    "fieldtype": "Link",
    "label": "Broker",
-   "options": "DataStored"
+   "options": "Brokers"
   },
   {
    "fieldname": "premium",
    "fieldtype": "Currency",
-   "label": "Premium",
-   "reqd": 1
+   "label": "Premium"
   },
   {
    "fieldname": "security_type",
@@ -154,7 +153,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-08 06:48:13.310720",
+ "modified": "2025-11-10 11:00:27.415312",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Deputy Sheriff Bond",

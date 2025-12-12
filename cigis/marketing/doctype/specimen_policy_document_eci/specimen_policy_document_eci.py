@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class SpecimenPolicyDocument_ECI(Document):
+class SpecimenPolicyDocumentECI(Document):
 	pass

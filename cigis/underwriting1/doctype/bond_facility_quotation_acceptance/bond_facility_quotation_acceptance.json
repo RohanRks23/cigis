@@ -1,8 +1,7 @@
 {
- "_comments": "[]",
- "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{name1}",
  "creation": "2024-02-19 06:28:07.205476",
  "default_view": "List",
  "doctype": "DocType",
@@ -13,22 +12,24 @@
   "section_break_7qjht",
   "name1",
   "quotation_no",
+  "column_break_kl8tl",
+  "faciity_no",
+  "bond_quotation_is_authorized_by",
+  "section_break_fq5fo",
   "bond_facility_limit1",
   "bond_facility_limit2",
   "bond_facility_limit3",
   "bond_facility_limit4",
   "net_facility_amount",
-  "column_break_kl8tl",
-  "faciity_no",
-  "bond_quotation_is_authorized_by",
+  "column_break_ih4mw",
+  "currency1",
   "security_percentage_for_limit1",
   "security_percentage_for_limit2",
   "security_percentage_for_limit3",
   "security_percentage_for_limit4",
   "security_percentage_for_limit5",
-  "section_break_fq5fo",
-  "details",
   "section_break_3zhxs",
+  "details",
   "facility_inception_date",
   "quotation_signed_by",
   "quotation_signed_on"
@@ -45,11 +46,9 @@
   },
   {
    "fieldname": "name1",
-   "fieldtype": "Link",
+   "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Name",
-   "options": "Bond Facility Quotation",
-   "reqd": 1
+   "label": "Name"
   },
   {
    "fetch_from": "name1.quotation_no",
@@ -87,13 +86,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "name1.bond_facility_no",
-   "fieldname": "faciity_no",
-   "fieldtype": "Data",
-   "label": "Faciity No"
-  },
-  {
-   "default": "Mrs.Lavanya",
    "fieldname": "bond_quotation_is_authorized_by",
    "fieldtype": "Data",
    "label": "Bond Quotation is Authorized By "
@@ -156,14 +148,30 @@
    "in_list_view": 1,
    "label": "Quotation Signed on",
    "reqd": 1
+  },
+  {
+   "fetch_from": "name1.bond_facility_no",
+   "fieldname": "faciity_no",
+   "fieldtype": "Data",
+   "label": "Facility No",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_ih4mw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency1",
+   "fieldtype": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 18:54:41.638170",
+ "modified": "2025-10-30 06:37:43.535474",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Bond Facility Quotation Acceptance",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

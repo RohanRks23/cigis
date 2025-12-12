@@ -1,0 +1,2249 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{####}",
+ "creation": "2025-11-06 06:39:25.653529",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "domestic_compact_policy",
+  "column_break_ewabv",
+  "column_break_rhbx5",
+  "column_break_ifukw",
+  "column_break_jt8fa",
+  "contents",
+  "column_break_6sthh",
+  "page",
+  "section_break_baayp",
+  "article_1",
+  "column_break_yceri",
+  "losses_covered",
+  "column_break_u9bpz",
+  "article_2",
+  "column_break_m6hxo",
+  "contracts_covered_and_commencement_of_cover",
+  "section_break_qcpqt",
+  "article_3",
+  "column_break_appny",
+  "claims",
+  "section_break_iq4pe",
+  "article_4",
+  "column_break_vksii",
+  "the_credit_limit",
+  "section_break_5v5yh",
+  "article_5",
+  "column_break_s5rsl",
+  "credit_beyond_due_date",
+  "section_break_v4pu0",
+  "article_6",
+  "column_break_4o4ai",
+  "minimising_loss_and_obtaining_recoveries",
+  "section_break_xkekw",
+  "article_7",
+  "column_break_mwjbx",
+  "allocation_of_moneys_received",
+  "section_break_f7muo",
+  "article_8",
+  "column_break_khdxz",
+  "withdrawal_of_cover",
+  "section_break_i8phb",
+  "article_9",
+  "column_break_sphvy",
+  "assignment_of_policy_rights",
+  "section_break_3zhik",
+  "article_10",
+  "column_break_stoep",
+  "assignment_of_contract_rights",
+  "section_break_sa1iv",
+  "article_11",
+  "column_break_oisni",
+  "the_proposal_and_disclosure_of_facts",
+  "section_break_vhzih",
+  "article_12",
+  "column_break_67sft",
+  "premium",
+  "section_break_tg69t",
+  "article_13",
+  "column_break_ayizb",
+  "observance_of_stipulations",
+  "section_break_6j2mj",
+  "article_14",
+  "column_break_kkvjo",
+  "joint_and_several_obligations",
+  "section_break_yus1x",
+  "article_15",
+  "column_break_my0vj",
+  "uninsured_percentage",
+  "section_break_1dgxo",
+  "article_16",
+  "column_break_hzl41",
+  "disputes_and_guarantees_of_payment",
+  "section_break_tamnt",
+  "article_17",
+  "column_break_lsmd2",
+  "misrepresentations_or_fraudulent_acts",
+  "section_break_3j6vt",
+  "article_18",
+  "column_break_k8rkx",
+  "set_off",
+  "section_break_04kjl",
+  "article_19",
+  "column_break_dtpcx",
+  "variations_of_terms_of_cover",
+  "section_break_eawaz",
+  "article_20",
+  "column_break_hzymc",
+  "waiver",
+  "section_break_ripu9",
+  "article_21",
+  "column_break_aecvg",
+  "relevant_law",
+  "section_break_lqr3r",
+  "article_22",
+  "column_break_3tljp",
+  "definitions",
+  "section_break_wtady",
+  "headings_and_side_headings",
+  "section_break_itjji",
+  "article1",
+  "column_break_tqq0z",
+  "lossescovered",
+  "section_break_uyq7l",
+  "column_break_sasbt",
+  "column_break_vksox",
+  "para1",
+  "section_break_nvsjg",
+  "insolvency",
+  "column_break_znkcn",
+  "a_the_insolvency_of_any_of_your_buyers",
+  "section_break_jkws8",
+  "default",
+  "column_break_vvlwt",
+  "b_the_failure_of_a_buyer_to_pay_you_an_undisputed",
+  "section_break_nrwpj",
+  "article2",
+  "column_break_mersi",
+  "contracts_covered_and_commencement",
+  "section_break_1gisf",
+  "contractscovered",
+  "column_break_xtzwb",
+  "para_2",
+  "section_break_tkljs",
+  "commencement_of_cover",
+  "column_break_e75ff",
+  "para_3",
+  "section_break_pddxe",
+  "delivery",
+  "column_break_rqpll",
+  "para_4",
+  "section_break_k6vq5",
+  "article3",
+  "column_break_2cmss",
+  "claims1",
+  "section_break_lk9dy",
+  "period_for_submission",
+  "column_break_tdcy7",
+  "para_5",
+  "section_break_nkns2",
+  "calculation_of_loss",
+  "column_break_eukbq",
+  "para_6",
+  "section_break_eailm",
+  "date_of_ascertainment_of_loss",
+  "column_break_tw3ph",
+  "para_7",
+  "section_break_ms002",
+  "column_break_lxr5b",
+  "column_break_v9ei3",
+  "section_break_k7tuu",
+  "limitation_by_credit_limit",
+  "column_break_rtzzy",
+  "para_8",
+  "section_break_4jqpk",
+  "article4",
+  "column_break_vzuay",
+  "thecreditlimit",
+  "section_break_6rwdg",
+  "written_credit_limits",
+  "column_break_c2fw0",
+  "para_9",
+  "section_break_uj7c7",
+  "compliance_with_credit_limit",
+  "column_break_yybnh",
+  "para_10",
+  "section_break_rxvzc",
+  "article5",
+  "column_break_f64qf",
+  "creditbeyondduedate",
+  "section_break_oudfk",
+  "maximum_extension_period",
+  "column_break_ghqn8",
+  "para_11",
+  "section_break_9rpbc",
+  "article6",
+  "column_break_ye2r1",
+  "minimisinglossandobtainingrecoveries",
+  "section_break_ecg4f",
+  "notification",
+  "column_break_limsm",
+  "para_12",
+  "section_break_cmb6s",
+  "loss_minimisation_and_recovery_action",
+  "column_break_dnwh2",
+  "para_13",
+  "section_break_xd5ed",
+  "contributions_to_your_costs_and",
+  "column_break_gqo6k",
+  "para_14",
+  "section_break_oapv2",
+  "remittance_of_recoveries",
+  "column_break_ekkrc",
+  "para_15",
+  "section_break_knxib",
+  "article7",
+  "column_break_dhxli",
+  "allocationofmoneysreceived",
+  "section_break_kyfz1",
+  "column_break_eu8dk",
+  "column_break_uskgz",
+  "para_16",
+  "section_break_qdux5",
+  "article8",
+  "column_break_kjae0",
+  "withdrawalofcover",
+  "section_break_nfmvq",
+  "automatic_withdrawal",
+  "column_break_avd1e",
+  "para_17",
+  "section_break_wnf44",
+  "withdrawal_by_us",
+  "column_break_d7tua",
+  "para_18",
+  "section_break_rqqmu",
+  "article9",
+  "column_break_km4tr",
+  "assignmentofpolicyrights",
+  "section_break_z0ppf",
+  "loss_payee",
+  "column_break_xbsy9",
+  "para_19",
+  "section_break_4woa3",
+  "article10",
+  "column_break_a3ssp",
+  "assignmentofcontractrights",
+  "section_break_wj8ao",
+  "column_break_ji3mz",
+  "column_break_kuiz6",
+  "para_20",
+  "section_break_weqlw",
+  "article11",
+  "column_break_qgryq",
+  "theproposalanddisclosureoffacts",
+  "section_break_mxhti",
+  "column_break_7bc1d",
+  "column_break_s1rt3",
+  "para_21",
+  "section_break_ytqtf",
+  "article12",
+  "column_break_fkosy",
+  "premium1",
+  "section_break_grzxo",
+  "column_break_yshop",
+  "column_break_rwyyi",
+  "para_22",
+  "section_break_x2kgx",
+  "article13",
+  "column_break_mcbdh",
+  "observanceofstipulations",
+  "section_break_cnu6z",
+  "column_break_nxqyi",
+  "column_break_mmqhh",
+  "para_23",
+  "section_break_rubog",
+  "article14",
+  "column_break_xxaoq",
+  "jointandseveralobligations",
+  "section_break_kasz1",
+  "column_break_9owcb",
+  "column_break_8iuk8",
+  "para_24",
+  "section_break_jjw5h",
+  "article15",
+  "column_break_gpmz1",
+  "uninsuredpercentage",
+  "section_break_rlw2n",
+  "column_break_kuszt",
+  "column_break_ctarg",
+  "para_25",
+  "section_break_pfusb",
+  "article16",
+  "column_break_jvroq",
+  "disputesandguaranteesofpayment",
+  "section_break_ydrrq",
+  "disputes",
+  "column_break_zk39p",
+  "para_26",
+  "section_break_uof8b",
+  "guarantees",
+  "column_break_cctfz",
+  "para_27",
+  "section_break_ufutb",
+  "article17",
+  "column_break_7dwse",
+  "misrepresentationsorfraudulentacts",
+  "section_break_lkrsw",
+  "column_break_uam4r",
+  "column_break_ldzv4",
+  "para_28",
+  "section_break_hbayf",
+  "article18",
+  "column_break_ubxzv",
+  "setoff",
+  "section_break_sqtot",
+  "column_break_5v6qu",
+  "column_break_nkrfn",
+  "para_29",
+  "section_break_lpjyd",
+  "article19",
+  "column_break_kxahk",
+  "variationsoftermsofcover",
+  "section_break_5ujfy",
+  "column_break_bt5ye",
+  "column_break_9jzlf",
+  "para_30",
+  "section_break_ikkhn",
+  "article20",
+  "column_break_diiod",
+  "waiver1",
+  "section_break_qsjxd",
+  "column_break_u7nod",
+  "column_break_in5bt",
+  "para_31",
+  "section_break_dwv7i",
+  "article21",
+  "column_break_uzow7",
+  "relevantlaw",
+  "section_break_5o2le",
+  "column_break_inaxs",
+  "column_break_bwexd",
+  "para_32",
+  "section_break_mrxgm",
+  "article22",
+  "column_break_mdvrw",
+  "definitions1",
+  "section_break_hr1yi",
+  "insolvency1",
+  "column_break_ydq4i",
+  "para_33",
+  "section_break_yc2fo",
+  "recoveries",
+  "column_break_yx5xq",
+  "para_34",
+  "section_break_mkq2g",
+  "specified_deductions",
+  "column_break_seap3",
+  "para_35",
+  "section_break_mru8r",
+  "schedule_referred",
+  "section_break_ytn2y",
+  "section_1",
+  "column_break_4zewr",
+  "name_of_insured",
+  "section_break_orfeq",
+  "section_2",
+  "column_break_3b5bk",
+  "commencement_date",
+  "section_break_e19yc",
+  "section_3",
+  "column_break_gbdoq",
+  "description_of_goods__agr",
+  "section_break_xnh76",
+  "section_4",
+  "column_break_tgiq4",
+  "premium2",
+  "section_break_fe1hk",
+  "section_5",
+  "column_break_esgwx",
+  "insured_percentage",
+  "section_break_nwego",
+  "section_6",
+  "column_break_d21z2",
+  "maximum_terms_of_payment",
+  "section_break_aslnw",
+  "section_7",
+  "column_break_wzi3e",
+  "maximumextensionperiod1",
+  "section_break_ufkuw",
+  "section_break_coezx",
+  "igned_for_and_on_behalf_of_credsure",
+  "section_break_cnvoy",
+  "line",
+  "section_break_igbv6",
+  "authorised_signatories"
+ ],
+ "fields": [
+  {
+   "fieldname": "domestic_compact_policy",
+   "fieldtype": "HTML",
+   "label": "DOMESTIC COMPACT POLICY",
+   "options": "<div style=\"width: 100%; text-align: center; margin-top: 20px;\">\n<h2 style=\"margin-bottom: 5px;\">DOMESTIC COMPACT POLICY</h2>\n</div>"
+  },
+  {
+   "fieldname": "contents",
+   "fieldtype": "Heading",
+   "label": "CONTENTS"
+  },
+  {
+   "fieldname": "column_break_ewabv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6sthh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "page",
+   "fieldtype": "Heading",
+   "label": "PAGE"
+  },
+  {
+   "fieldname": "column_break_rhbx5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ifukw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "article_1",
+   "fieldtype": "HTML",
+   "label": "Article 1",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 1</div>\n"
+  },
+  {
+   "fieldname": "losses_covered",
+   "fieldtype": "HTML",
+   "label": "Losses Covered",
+   "options": "<div style=\"font-size: 13px;\">Losses Covered</div>\n"
+  },
+  {
+   "fieldname": "section_break_baayp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yceri",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_u9bpz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_2",
+   "fieldtype": "HTML",
+   "label": "Article 2",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 2</div>\n"
+  },
+  {
+   "fieldname": "column_break_m6hxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contracts_covered_and_commencement_of_cover",
+   "fieldtype": "HTML",
+   "label": "Contracts Covered and Commencement of Cover",
+   "options": "<div style=\"font-size: 13px;\">Contracts Covered &amp; Commencement of Cover</div>\n"
+  },
+  {
+   "fieldname": "section_break_qcpqt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_3",
+   "fieldtype": "HTML",
+   "label": "Article 3 ",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 3</div>\n"
+  },
+  {
+   "fieldname": "column_break_appny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claims",
+   "fieldtype": "HTML",
+   "label": "Claims",
+   "options": "<div style=\"font-size: 13px;\">Claims</div>\n"
+  },
+  {
+   "fieldname": "section_break_iq4pe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_4",
+   "fieldtype": "HTML",
+   "label": "Article 4",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 4</div>\n"
+  },
+  {
+   "fieldname": "column_break_vksii",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "the_credit_limit",
+   "fieldtype": "HTML",
+   "label": "The Credit Limit",
+   "options": "<div style=\"font-size: 13px;\">The Credit Limit</div>\n"
+  },
+  {
+   "fieldname": "section_break_5v5yh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_5",
+   "fieldtype": "HTML",
+   "label": "Article 5",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 5</div>\n"
+  },
+  {
+   "fieldname": "column_break_s5rsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_beyond_due_date",
+   "fieldtype": "HTML",
+   "label": "Credit Beyond Due Date",
+   "options": "<div style=\"font-size: 13px;\">Credit Beyond Due Date</div>\n"
+  },
+  {
+   "fieldname": "section_break_v4pu0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_6",
+   "fieldtype": "HTML",
+   "label": "Article 6",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 6</div>\n"
+  },
+  {
+   "fieldname": "column_break_4o4ai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "minimising_loss_and_obtaining_recoveries",
+   "fieldtype": "HTML",
+   "label": "Minimising Loss and Obtaining Recoveries",
+   "options": "<div style=\"font-size: 13px;\">Minimising Loss &amp; Obtaining Recoveries</div>\n"
+  },
+  {
+   "fieldname": "section_break_xkekw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_7",
+   "fieldtype": "HTML",
+   "label": "Article 7",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 7</div>\n"
+  },
+  {
+   "fieldname": "column_break_mwjbx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "allocation_of_moneys_received",
+   "fieldtype": "HTML",
+   "label": "Allocation of Moneys Received",
+   "options": "<div style=\"font-size: 13px;\">Allocation of Moneys Received</div>\n"
+  },
+  {
+   "fieldname": "section_break_f7muo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_8",
+   "fieldtype": "HTML",
+   "label": "Article 8",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 8</div>\n"
+  },
+  {
+   "fieldname": "column_break_khdxz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "withdrawal_of_cover",
+   "fieldtype": "HTML",
+   "label": "Withdrawal of Cover",
+   "options": "<div style=\"font-size: 13px;\">Withdrawal of Cover</div>\n"
+  },
+  {
+   "fieldname": "section_break_i8phb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_9",
+   "fieldtype": "HTML",
+   "label": "Article 9",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 9</div>\n"
+  },
+  {
+   "fieldname": "column_break_sphvy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assignment_of_policy_rights",
+   "fieldtype": "HTML",
+   "label": "Assignment of Policy Rights",
+   "options": "<div style=\"font-size: 13px;\">Assignment of Policy Rights</div>\n"
+  },
+  {
+   "fieldname": "section_break_3zhik",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_10",
+   "fieldtype": "HTML",
+   "label": "Article 10",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 10</div>\n"
+  },
+  {
+   "fieldname": "column_break_stoep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assignment_of_contract_rights",
+   "fieldtype": "HTML",
+   "label": "Assignment of Contract Rights",
+   "options": "<div style=\"font-size: 13px;\">Assignment of Contract Rights</div>\n"
+  },
+  {
+   "fieldname": "section_break_sa1iv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_11",
+   "fieldtype": "HTML",
+   "label": "Article 11",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 11</div>\n"
+  },
+  {
+   "fieldname": "column_break_oisni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "the_proposal_and_disclosure_of_facts",
+   "fieldtype": "HTML",
+   "label": "The Proposal and Disclosure of Facts",
+   "options": "<div style=\"font-size: 13px;\">The Proposal &amp; Disclosure of Facts</div>\n"
+  },
+  {
+   "fieldname": "section_break_vhzih",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_12",
+   "fieldtype": "HTML",
+   "label": "Article 12",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 12</div>\n"
+  },
+  {
+   "fieldname": "column_break_67sft",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "HTML",
+   "label": "Premium",
+   "options": "<div style=\"font-size: 13px;\">Premium</div>\n"
+  },
+  {
+   "fieldname": "section_break_tg69t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_13",
+   "fieldtype": "HTML",
+   "label": "Article 13",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 13</div>\n"
+  },
+  {
+   "fieldname": "column_break_ayizb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "observance_of_stipulations",
+   "fieldtype": "HTML",
+   "label": "Observance of Stipulations",
+   "options": "<div style=\"font-size: 13px;\">Observance of Stipulations</div>\n"
+  },
+  {
+   "fieldname": "section_break_6j2mj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_14",
+   "fieldtype": "HTML",
+   "label": "Article 14",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 14</div>\n"
+  },
+  {
+   "fieldname": "column_break_kkvjo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "joint_and_several_obligations",
+   "fieldtype": "HTML",
+   "label": "Joint and Several Obligations",
+   "options": "<div style=\"font-size: 13px;\">Joint and Several Obligations</div>\n"
+  },
+  {
+   "fieldname": "section_break_yus1x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_15",
+   "fieldtype": "HTML",
+   "label": "Article 15",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 15</div>\n"
+  },
+  {
+   "fieldname": "column_break_my0vj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uninsured_percentage",
+   "fieldtype": "HTML",
+   "label": "Uninsured Percentage",
+   "options": "<div style=\"font-size: 13px;\">Un-insured Percentage</div>\n"
+  },
+  {
+   "fieldname": "section_break_1dgxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_16",
+   "fieldtype": "HTML",
+   "label": "Article 16",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 16</div>\n"
+  },
+  {
+   "fieldname": "column_break_hzl41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "disputes_and_guarantees_of_payment",
+   "fieldtype": "HTML",
+   "label": "Disputes and Guarantees of Payment",
+   "options": "<div style=\"font-size: 13px;\">Disputes &amp; Guarantees of Payment</div>\n"
+  },
+  {
+   "fieldname": "section_break_tamnt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_17",
+   "fieldtype": "HTML",
+   "label": "Article 17",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 17</div>\n"
+  },
+  {
+   "fieldname": "column_break_lsmd2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "misrepresentations_or_fraudulent_acts",
+   "fieldtype": "HTML",
+   "label": "Misrepresentations or Fraudulent Acts",
+   "options": "<div style=\"font-size: 13px;\">Misrepresentations or Fraudulent Acts</div>\n"
+  },
+  {
+   "fieldname": "section_break_3j6vt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_18",
+   "fieldtype": "HTML",
+   "label": "Article 18",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 18</div>\n"
+  },
+  {
+   "fieldname": "column_break_k8rkx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "set_off",
+   "fieldtype": "HTML",
+   "label": "Set Off",
+   "options": "<div style=\"font-size: 13px;\">Set Off</div>\n"
+  },
+  {
+   "fieldname": "section_break_04kjl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_19",
+   "fieldtype": "HTML",
+   "label": "Article 19",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 19</div>\n"
+  },
+  {
+   "fieldname": "column_break_dtpcx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "variations_of_terms_of_cover",
+   "fieldtype": "HTML",
+   "label": "Variations of Terms of Cover",
+   "options": "<div style=\"font-size: 13px;\">Variations of Terms of Cover</div>\n"
+  },
+  {
+   "fieldname": "section_break_eawaz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_20",
+   "fieldtype": "HTML",
+   "label": "Article 20",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 20</div>\n"
+  },
+  {
+   "fieldname": "column_break_hzymc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "waiver",
+   "fieldtype": "HTML",
+   "label": "Waiver",
+   "options": "<div style=\"font-size: 13px;\">Waiver</div>\n"
+  },
+  {
+   "fieldname": "section_break_ripu9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_21",
+   "fieldtype": "HTML",
+   "label": "Article 21",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 21</div>\n"
+  },
+  {
+   "fieldname": "column_break_aecvg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "relevant_law",
+   "fieldtype": "HTML",
+   "label": "Relevant Law",
+   "options": "<div style=\"font-size: 13px;\">Relevant Law</div>\n"
+  },
+  {
+   "fieldname": "section_break_lqr3r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article_22",
+   "fieldtype": "HTML",
+   "label": "Article 22",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 22</div>\n"
+  },
+  {
+   "fieldname": "column_break_3tljp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "definitions",
+   "fieldtype": "HTML",
+   "label": "Definitions",
+   "options": "<div style=\"font-size: 13px;\">Definitions</div>\n"
+  },
+  {
+   "fieldname": "section_break_wtady",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "headings_and_side_headings",
+   "fieldtype": "HTML",
+   "label": "Headings and side headings",
+   "options": "<p>(Note : Headings and side-headings in this Policy are for convenience only and shall not be used as aids in constructions).</p>"
+  },
+  {
+   "fieldname": "section_break_itjji",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article1",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 1",
+   "options": "<div style=\"font-weight: bold; font-size: 16px;\">ARTICLE 1</div>\n"
+  },
+  {
+   "fieldname": "column_break_tqq0z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lossescovered",
+   "fieldtype": "HTML",
+   "label": "LOSSES COVERED",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">LOSSES COVERED</div>\n"
+  },
+  {
+   "fieldname": "section_break_uyq7l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "para1",
+   "fieldtype": "HTML",
+   "label": "Para1",
+   "options": "<p>Subject to the provisions of this Policy we, Credit Insurance Zimbabwe Limited\n(Credsure) agree to pay you, the Insured named in Section 1 of the Schedule,\nthe Insured Percentage of any loss you may sustain because of the occurrence of\nany of the following causes of loss :</p>"
+  },
+  {
+   "fieldname": "column_break_sasbt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vksox",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nvsjg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "insolvency",
+   "fieldtype": "HTML",
+   "label": "Insolvency",
+   "options": "<p>Insolvency</p>"
+  },
+  {
+   "fieldname": "column_break_znkcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a_the_insolvency_of_any_of_your_buyers",
+   "fieldtype": "HTML",
+   "label": "A The Insolvency of any of your buyers.",
+   "options": "<p>A The Insolvency of any of your buyers.</p>"
+  },
+  {
+   "fieldname": "section_break_jkws8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "default",
+   "fieldtype": "HTML",
+   "label": "Default",
+   "options": "<p>Default</p>"
+  },
+  {
+   "fieldname": "column_break_vvlwt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_the_failure_of_a_buyer_to_pay_you_an_undisputed",
+   "fieldtype": "HTML",
+   "label": "B The failure of a buyer to pay you an undisputed",
+   "options": "<p>B The failure of a buyer to pay you an undisputed\namount owing within 120 days of due date.</p>"
+  },
+  {
+   "fieldname": "section_break_nrwpj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article2",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 2",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">ARTICLE 2</div>\n"
+  },
+  {
+   "fieldname": "column_break_mersi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contracts_covered_and_commencement",
+   "fieldtype": "HTML",
+   "label": "CONTRACTS COVERED AND COMMENCEMENT OF COVER",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">CONTRACTS COVERED AND COMMENCEMENT OF COVER</div>\n"
+  },
+  {
+   "fieldname": "section_break_1gisf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "contractscovered",
+   "fieldtype": "HTML",
+   "label": "Contracts Covered",
+   "options": "<p>Contracts Covered</p>"
+  },
+  {
+   "fieldname": "column_break_xtzwb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_2",
+   "fieldtype": "HTML",
+   "label": "Para 2",
+   "options": "<p>A The policy applies to all contracts of sale you make\nwith buyers in connection with your Trade.\nContracts must specify the nature and quantity of the goods to be sold\n(or the services to be performed), as well as the terms of payment, which\nmust not exceed the Maximum Terms of Payment specified in Section 6 of\nthe Schedule.</p>"
+  },
+  {
+   "fieldname": "section_break_tkljs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commencement_of_cover",
+   "fieldtype": "HTML",
+   "label": "Commencement of Cover",
+   "options": "<p>Commencement of Cover</p>"
+  },
+  {
+   "fieldname": "column_break_e75ff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_3",
+   "fieldtype": "HTML",
+   "label": "Para 3",
+   "options": "<p>B Cover commences when the goods are delivered or, in the case of services,\nwhen each invoice for services performed is submitted to the buyer.</p>"
+  },
+  {
+   "fieldname": "section_break_pddxe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "delivery",
+   "fieldtype": "HTML",
+   "label": "Delivery",
+   "options": "<p>Delivery</p>"
+  },
+  {
+   "fieldname": "column_break_rqpll",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_4",
+   "fieldtype": "HTML",
+   "label": "Para 4",
+   "options": "<p>C Delivery is deemed to be made when you, or anyone acting on your behalf,\nparts with possession of the goods for the purpose of transmitting them to the buyer.</p>"
+  },
+  {
+   "fieldname": "section_break_k6vq5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article3",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 3",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 3</div>\n"
+  },
+  {
+   "fieldname": "column_break_2cmss",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claims1",
+   "fieldtype": "HTML",
+   "label": "CLAIMS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">CLAIMS</div>\n"
+  },
+  {
+   "fieldname": "section_break_lk9dy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period_for_submission",
+   "fieldtype": "HTML",
+   "label": "Period for Submission",
+   "options": "<p>Period for Submission</p>"
+  },
+  {
+   "fieldname": "column_break_tdcy7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_5",
+   "fieldtype": "HTML",
+   "label": "Para 5",
+   "options": "<p>A Claims (including all available information) must be made within 180 days of\nthe expiry of the Maximum Extension Period, specified in Section 7 of the\nSchedule, using the form we will provide. However, where you have agreed in\nwriting to extend the due date by a shorter period, the Maximum Extension\nPeriod shall mean that shorter period. We may vary this period by written\nnotice at any time.</p>"
+  },
+  {
+   "fieldname": "section_break_nkns2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "calculation_of_loss",
+   "fieldtype": "HTML",
+   "label": "Calculation of Loss",
+   "options": "<p>Calculation of Loss</p>"
+  },
+  {
+   "fieldname": "column_break_eukbq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_6",
+   "fieldtype": "HTML",
+   "label": "Para 6",
+   "options": "<p>B We will calculate your loss as being the amount owing to you from the buyer\nless any Specified Deductions. We will include in the amount owing\nany contractual interest accruing up to the original due date of payment, but\nnot any interest accruing after that time.</p>"
+  },
+  {
+   "fieldname": "section_break_eailm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_ascertainment_of_loss",
+   "fieldtype": "HTML",
+   "label": "Date of Ascertainment of Loss",
+   "options": "<p>Date of Ascertainment of Loss</p>"
+  },
+  {
+   "fieldname": "column_break_tw3ph",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_7",
+   "fieldtype": "HTML",
+   "label": "Para 7",
+   "options": "<p>C The amount of your loss shall be ascertained on the date of ascertainment of\nloss, which shall be as follows : <br>\n<br>(a) for Insolvency, immediately after the granting of a Provisional Order of\nInsolvency.<br>\n<br>(b) for Default, 120 days after due date of payment.<br></p>"
+  },
+  {
+   "fieldname": "section_break_ms002",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lxr5b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_v9ei3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_k7tuu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "limitation_by_credit_limit",
+   "fieldtype": "HTML",
+   "label": "Limitation by Credit Limit",
+   "options": "<p>Limitation by Credit Limit</p>"
+  },
+  {
+   "fieldname": "column_break_rtzzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4jqpk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article4",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 4",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 4</div>\n"
+  },
+  {
+   "fieldname": "column_break_vzuay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "thecreditlimit",
+   "fieldtype": "HTML",
+   "label": "THE CREDIT LIMIT",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">THE CREDIT LIMIT</div>\n"
+  },
+  {
+   "fieldname": "section_break_6rwdg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "written_credit_limits",
+   "fieldtype": "HTML",
+   "label": "Written Credit Limits",
+   "options": "<p>Written Credit Limits</p>"
+  },
+  {
+   "fieldname": "column_break_c2fw0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_11",
+   "fieldtype": "HTML",
+   "label": "Para 11",
+   "options": "<p>A You may not agree in your contract of sale to any extension of due date of\npayment. However, you may, if the need arises, allow credit to run for a\nperiod beyond due date, or agree in writing to an extension of due date,\nprovided that the period or extension you allow is not longer than the\nMaximum Extension Period specified in Section 7 of the Schedule.<br>\n\n<br>B Unless you obtain our prior written agreement, the granting of credit beyond\ndue date is not permitted in the case of bills of exchange or promissory notes.<br></p>"
+  },
+  {
+   "fieldname": "section_break_uj7c7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "compliance_with_credit_limit",
+   "fieldtype": "HTML",
+   "label": "Compliance with Credit Limit",
+   "options": "<p>Compliance with Credit Limit</p>"
+  },
+  {
+   "fieldname": "column_break_yybnh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_12",
+   "fieldtype": "HTML",
+   "label": "Para 12",
+   "options": "<p>A Notwithstanding the provisions of Article 3, you must notify us immediately,\nusing the form we will provide, if you have reason to believe that a buyer is in\nfinancial difficulties, or if payment of any amount is still overdue from a buyer\n10 (ten) days after the expiry of the Maximum Extension Period.</p>"
+  },
+  {
+   "fieldname": "section_break_rxvzc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article5",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 5",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 5</div>\n"
+  },
+  {
+   "fieldname": "column_break_f64qf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creditbeyondduedate",
+   "fieldtype": "HTML",
+   "label": "CREDIT BEYOND DUE DATE",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">CREDIT BEYOND DUE DATE</div>\n"
+  },
+  {
+   "fieldname": "section_break_oudfk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "maximum_extension_period",
+   "fieldtype": "HTML",
+   "label": "Maximum Extension Period",
+   "options": "<p>Maximum Extension Period</p>"
+  },
+  {
+   "fieldname": "column_break_ghqn8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_13",
+   "fieldtype": "HTML",
+   "label": "Para 13",
+   "options": "<p>B You must :\nRecovery Action<br>\n<br>(i) use due care and diligence and take all practicable measures to prevent\nand minimise loss; <br>\n<br>(ii) ensure that all rights against the contract goods, buyers and third parties\nare properly preserved and exercised and if required, promptly assign\nand transfer to us those rights or any goods, negotiable instruments,\nguarantees or other securities in relation to the contract of sale; <br>\n<br>(iii) take all steps we may require in connection with a potential or actual loss,\nincluding the institution of legal proceedings, and the appointment of us\nas your agent or attorney with power in your name :<br>\n<br>\u2022 to take legal proceedings against any person from whom\namounts payable in connection with the contract of sale may be\nobtained;<br>\n<br>\u2022 to appoint any person for the purposes of collection of amounts\npayable in connection with the contract of sale; <br>\n<br>(iv) take all steps we may require in connection with a potential or actual loss\nfor the purposes of enforcing any rights and remedies or obtaining relief\nagainst, or indemnity from, any other party; <br>\n<br>(v) provide us with all information and documents that we may require. <br>\n</p>"
+  },
+  {
+   "fieldname": "section_break_9rpbc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article6",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 6",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 6</div>\n"
+  },
+  {
+   "fieldname": "column_break_ye2r1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "minimisinglossandobtainingrecoveries",
+   "fieldtype": "HTML",
+   "label": "MINIMISING LOSS AND OBTAINING RECOVERIES",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">MINIMISING LOSS AND OBTAINING RECOVERIES</div>\n"
+  },
+  {
+   "fieldname": "section_break_ecg4f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notification",
+   "fieldtype": "HTML",
+   "label": "Notification",
+   "options": "<p>Notification</p>"
+  },
+  {
+   "fieldname": "column_break_limsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cmb6s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dnwh2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_xd5ed",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "para_8",
+   "fieldtype": "HTML",
+   "label": "Para 8",
+   "options": "<p>D  We shall not be liable to pay more than the Insured\nPercentage of the Credit Limit for the buyer.</p>"
+  },
+  {
+   "fieldname": "para_9",
+   "fieldtype": "HTML",
+   "label": "Para 9",
+   "options": "<p>A You must obtain a Credit Limit in writing from us for every buyer. The amount\nshall be determined at our discretion and shall be approved on the terms and\nconditions we think appropriate. Those terms and conditions will take\nprecedence in the event of any conflict with the provisions of the Policy.</p>"
+  },
+  {
+   "fieldname": "para_10",
+   "fieldtype": "HTML",
+   "label": "Para 10",
+   "options": "<p>B We shall not be liable for any amount where you have not complied with the\nterms and conditions of the Credit Limit, or where a Credit Limit has not\nbeen established before the date of ascertainment of loss.</p>"
+  },
+  {
+   "fieldname": "loss_minimisation_and_recovery_action",
+   "fieldtype": "HTML",
+   "label": "Loss Minimisation and Recovery Action",
+   "options": "<p>Loss Minimisation and Recovery Action</p>"
+  },
+  {
+   "fieldname": "contributions_to_your_costs_and",
+   "fieldtype": "HTML",
+   "label": "Contributions to your Costs and",
+   "options": "<p>Contributions to your Costs and</p>"
+  },
+  {
+   "fieldname": "column_break_gqo6k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_14",
+   "fieldtype": "HTML",
+   "label": "Para 14",
+   "options": "<p>C We will contribute towards costs and expenses Expenses that you properly and\nreasonably incur in fulfilling the above obligations. Our contribution will be\nproportionate to our actual or potential liability for the loss. However, we will not\ncontribute towards your administrative costs and expenses.</p>"
+  },
+  {
+   "fieldname": "section_break_oapv2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remittance_of_recoveries",
+   "fieldtype": "HTML",
+   "label": "Remittance of Recoveries",
+   "options": "<p>Remittance of Recoveries</p>"
+  },
+  {
+   "fieldname": "column_break_ekkrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_15",
+   "fieldtype": "HTML",
+   "label": "Para 15",
+   "options": "<p> D All recoveries received shall immediately be remitted to us. Until this remittance\nis made you receive and hold recoveries in trust for us. After receipt by us\nRecoveries will be divided between you and us in the proportion in which the loss\nis borne by each of us, whether or not the division results in our retaining a\ngreater sum than the amount we may pay. <br>\n<br>E If you fail to comply with any of the provisions of this Article after we have made a\npayment, then you will be liable to refund the payment to us on demand.</p>"
+  },
+  {
+   "fieldname": "section_break_knxib",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article7",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 7",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 7</div>\n"
+  },
+  {
+   "fieldname": "column_break_dhxli",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "allocationofmoneysreceived",
+   "fieldtype": "HTML",
+   "label": "ALLOCATION OF MONEYS RECEIVED",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">ALLOCATION OF MONEYS RECEIVED</div>\n"
+  },
+  {
+   "fieldname": "section_break_kyfz1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_eu8dk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_16",
+   "fieldtype": "HTML",
+   "label": "Para 16",
+   "options": "<p>All amounts received by you or us in connection with any contracts of sale (including\ncontracts not covered by the Policy) shall, as between us, be applied to amounts\nowing under all your contracts of sale with the same buyer in chronological order of\ndue dates.</p>"
+  },
+  {
+   "fieldname": "column_break_uskgz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qdux5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article8",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 8",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 8</div>\n"
+  },
+  {
+   "fieldname": "column_break_kjae0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "withdrawalofcover",
+   "fieldtype": "HTML",
+   "label": "WITHDRAWAL OF COVER",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">WITHDRAWAL OF COVER</div>\n"
+  },
+  {
+   "fieldname": "section_break_nfmvq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "automatic_withdrawal",
+   "fieldtype": "HTML",
+   "label": "Automatic Withdrawal",
+   "options": "<p>Automatic Withdrawal</p>"
+  },
+  {
+   "fieldname": "column_break_avd1e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_17",
+   "fieldtype": "HTML",
+   "label": "Para 17",
+   "options": "<p>A If payment of any amount is overdue from a buyer at the date of expiry of the\nMaximum Extension Period, the Policy will not apply to goods delivered or, in the case\nof services, to invoices submitted to that buyer, after that date.</p>"
+  },
+  {
+   "fieldname": "section_break_wnf44",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "withdrawal_by_us",
+   "fieldtype": "HTML",
+   "label": "Withdrawal by Us",
+   "options": "<p>Withdrawal by Us</p>"
+  },
+  {
+   "fieldname": "column_break_d7tua",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_18",
+   "fieldtype": "HTML",
+   "label": "Para 18",
+   "options": "<p>B We may at any time and for any reason by written notice to you cancel any Credit\nLimit and withdraw cover in respect of any buyer. The Policy will not apply to goods\ndelivered to such buyer or, in the case of services, to invoices submitted, on or after\nthe date specified in the notice (not being earlier than the date of the notice).</p>"
+  },
+  {
+   "fieldname": "section_break_rqqmu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article9",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 9",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 9</div>\n"
+  },
+  {
+   "fieldname": "column_break_km4tr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assignmentofpolicyrights",
+   "fieldtype": "HTML",
+   "label": "ASSIGNMENT OF POLICY RIGHTS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">ASSIGNMENT OF POLICY RIGHTS</div>\n"
+  },
+  {
+   "fieldname": "section_break_z0ppf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loss_payee",
+   "fieldtype": "HTML",
+   "label": "Loss Payee",
+   "options": "<p>Loss Payee</p>"
+  },
+  {
+   "fieldname": "column_break_xbsy9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_19",
+   "fieldtype": "HTML",
+   "label": "Para 19",
+   "options": "<p>You cannot assign or transfer this Policy or any of its benefits without our prior written\nconsent. Your failure to heed this stipulation shall void the Policy. You may,\nhowever, require net claims payments to be made to a named cessionary, using the\nform we will provide, your obligations under the Policy remaining unaffected.</p>"
+  },
+  {
+   "fieldname": "section_break_4woa3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article10",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 10",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 10</div>\n"
+  },
+  {
+   "fieldname": "column_break_a3ssp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assignmentofcontractrights",
+   "fieldtype": "HTML",
+   "label": "ASSIGNMENT OF CONTRACT RIGHTS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">ASSIGNMENT OF CONTRACT RIGHTS</div>"
+  },
+  {
+   "fieldname": "section_break_wj8ao",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ji3mz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_20",
+   "fieldtype": "HTML",
+   "label": "Para 20",
+   "options": "<p>You may assign your rights under the contract of sale provided this does not\ncontravene the contract terms and you give us details when making a claim.\nHowever, we shall not be liable to pay you for any loss until the person in whose\nfavour the assignment has been made has given us a written undertaking in a form\nacceptable to us that he will not make any claim to our portion of any Recoveries.</p>"
+  },
+  {
+   "fieldname": "column_break_kuiz6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_weqlw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article11",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 11",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 11</div>\n"
+  },
+  {
+   "fieldname": "column_break_qgryq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "theproposalanddisclosureoffacts",
+   "fieldtype": "HTML",
+   "label": "THE PROPOSAL AND DISCLOSURE OF FACTS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">THE PROPOSAL AND DISCLOSURE OF FACTS</div>"
+  },
+  {
+   "fieldname": "section_break_mxhti",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7bc1d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_21",
+   "fieldtype": "HTML",
+   "label": "Para 21",
+   "options": "<p>The proposal for this insurance is incorporated into this Policy as its basis. If any of\nthe statements contained in the proposal is untrue or incorrect in any respect this\nPolicy shall be void, but we may retain any premium paid. You must have disclosed\nand continue at all times to disclose promptly all circumstances which might affect the\nrisks covered by the Policy, or our willingness to accept liability for such risks.</p>"
+  },
+  {
+   "fieldname": "column_break_s1rt3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ytqtf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article12",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 12",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 12</div>\n"
+  },
+  {
+   "fieldname": "column_break_fkosy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium1",
+   "fieldtype": "HTML",
+   "label": "PREMIUM",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">PREMIUM</div>"
+  },
+  {
+   "fieldname": "section_break_grzxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yshop",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rwyyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_22",
+   "fieldtype": "HTML",
+   "label": "Para 22",
+   "options": "<p>The premium and other charges specified in Section 4 of the Schedule shall be paid\non the issue of the Policy, or in such other manner as may be agreed to by us in\nwriting, and shall not be refundable.</p>"
+  },
+  {
+   "fieldname": "section_break_x2kgx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article13",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 13",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 13</div>\n"
+  },
+  {
+   "fieldname": "column_break_mcbdh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "observanceofstipulations",
+   "fieldtype": "HTML",
+   "label": "OBSERVANCE OF STIPULATIONS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">OBSERVANCE OF STIPULATIONS</div>"
+  },
+  {
+   "fieldname": "section_break_cnu6z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nxqyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mmqhh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_23",
+   "fieldtype": "HTML",
+   "label": "Para 23",
+   "options": "<p>Due payment of all premiums (and other charges) specified in Section 4 of the\nSchedule, and the due performance and observance of every stipulation in the Policy\nor the proposal, shall be conditions precedent to any liability on our part. In the event\nof any breach of any condition precedent we also have the right to retain any premium\npaid and give written notice terminating the Policy.</p>"
+  },
+  {
+   "fieldname": "section_break_rubog",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article14",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 14",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 14</div>\n"
+  },
+  {
+   "fieldname": "column_break_xxaoq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "jointandseveralobligations",
+   "fieldtype": "HTML",
+   "label": "JOINT AND SEVERAL OBLIGATIONS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">JOINT AND SEVERAL OBLIGATIONS</div>\n"
+  },
+  {
+   "fieldname": "section_break_kasz1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_9owcb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8iuk8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_24",
+   "fieldtype": "HTML",
+   "label": "Para 24",
+   "options": "<p>The obligations of the persons named in Section 1 of the Schedule shall be joint and\nseveral.</p>"
+  },
+  {
+   "fieldname": "article15",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 15",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 15</div>\n"
+  },
+  {
+   "fieldname": "column_break_gpmz1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uninsuredpercentage",
+   "fieldtype": "HTML",
+   "label": "UNINSURED PERCENTAGE",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">UNINSURED PERCENTAGE</div>\n"
+  },
+  {
+   "fieldname": "section_break_rlw2n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kuszt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ctarg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_25",
+   "fieldtype": "HTML",
+   "label": "Para 25",
+   "options": "<p>You must retain exclusively for your own account as an uninsured risk any amount\nwhich exceeds the amount we are liable to pay you under the Policy.</p>"
+  },
+  {
+   "fieldname": "section_break_jjw5h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_pfusb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article16",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 16",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 16</div>\n"
+  },
+  {
+   "fieldname": "column_break_jvroq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "disputesandguaranteesofpayment",
+   "fieldtype": "HTML",
+   "label": "DISPUTES AND GUARANTEES OF PAYMENT",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">DISPUTES AND GUARANTEES OF PAYMENT</div>\n"
+  },
+  {
+   "fieldname": "section_break_ydrrq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "disputes",
+   "fieldtype": "HTML",
+   "label": "Disputes",
+   "options": "<p>Disputes</p>"
+  },
+  {
+   "fieldname": "column_break_zk39p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_26",
+   "fieldtype": "HTML",
+   "label": "Para 26",
+   "options": "<p>A We shall not be liable to pay you for so long as a buyer claims for any reason that\nhe is justified in withholding payment of all or part of an amount owing or in not\nperforming any of his obligations under the contract of sale.</p>"
+  },
+  {
+   "fieldname": "section_break_uof8b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "guarantees",
+   "fieldtype": "HTML",
+   "label": "Guarantees",
+   "options": "<p>Guarantees</p>"
+  },
+  {
+   "fieldname": "column_break_cctfz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_27",
+   "fieldtype": "HTML",
+   "label": "Para 27",
+   "options": "<p>B Where we have made it a condition of cover in the Credit Limit that there be a\nguarantee or surety, we may reserve the right to withhold payment to you until a\nfinal judgement for the amount owing has been obtained against that guarantor or\nsurety in a court of law or an arbitration court.</p>"
+  },
+  {
+   "fieldname": "section_break_ufutb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article17",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 17",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 17</div>\n"
+  },
+  {
+   "fieldname": "column_break_7dwse",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "misrepresentationsorfraudulentacts",
+   "fieldtype": "HTML",
+   "label": "MISREPRESENTATIONS OR FRAUDULENT ACTS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">MISREPRESENTATIONS OR FRAUDULENT ACTS</div>\n"
+  },
+  {
+   "fieldname": "section_break_lkrsw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_uam4r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ldzv4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_28",
+   "fieldtype": "HTML",
+   "label": "Para 28",
+   "options": "<p>Any misrepresentation, whether fraudulent or otherwise, or fraudulent conduct on\nyour part, or on the part of any of your employees or agents (or on the part of any\nother person who has a legal or beneficial interest in the policy or its proceeds) in\nrelation to this Policy (including the proposal), to any claim under it, or to any contract\nof sale to which the Policy applies, will render the Policy void, but we may retain any\npremium paid and you will be liable to refund to us any payment we may have made\nunder the Policy.</p>"
+  },
+  {
+   "fieldname": "column_break_jt8fa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hbayf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article18",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 18",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 18</div>\n"
+  },
+  {
+   "fieldname": "column_break_ubxzv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "setoff",
+   "fieldtype": "HTML",
+   "label": "SET OFF",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">SET OFF</div>\n"
+  },
+  {
+   "fieldname": "section_break_sqtot",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_5v6qu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nkrfn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_29",
+   "fieldtype": "HTML",
+   "label": "Para 29",
+   "options": "<p>We have the right to apply any amount payable by or to us under this Policy in or\ntowards payment of any amount owing from you to us (paying interest before\nprincipal) whether under this Policy or otherwise.</p>"
+  },
+  {
+   "fieldname": "section_break_lpjyd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article19",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 19",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 19</div>\n"
+  },
+  {
+   "fieldname": "column_break_kxahk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "variationsoftermsofcover",
+   "fieldtype": "HTML",
+   "label": "VARIATIONS OF TERMS OF COVER",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">VARIATIONS OF TERMS OF COVER</div>\n"
+  },
+  {
+   "fieldname": "section_break_5ujfy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bt5ye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_9jzlf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_30",
+   "fieldtype": "HTML",
+   "label": "Para 30",
+   "options": "<p>We have the right at any time to vary by written notice any of the provisions of the\nPolicy or to reduce or restrict the cover granted on any particular buyer. The variation\nwill apply to contracts of sale made or, in the case of services, to invoices submitted,\nafter the date which will be specified in the notice (not being earlier than the date of\nthe notice).</p>"
+  },
+  {
+   "fieldname": "article20",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 20",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 20</div>\n"
+  },
+  {
+   "fieldname": "column_break_diiod",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "waiver1",
+   "fieldtype": "HTML",
+   "label": "WAIVER",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">WAIVER</div>\n"
+  },
+  {
+   "fieldname": "section_break_ikkhn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_u7nod",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_in5bt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_31",
+   "fieldtype": "HTML",
+   "label": "Para 31",
+   "options": "<p>No indulgence granted by us to you in regard to any of the provisions of this Policy\nshall be regarded as a tacit waiver of our rights, nor shall any actual waiver of your\nduties or obligations be valid or binding upon us unless we have given it in writing.</p>"
+  },
+  {
+   "fieldname": "section_break_qsjxd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_dwv7i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article21",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 21",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 21</div>\n"
+  },
+  {
+   "fieldname": "column_break_uzow7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "relevantlaw",
+   "fieldtype": "HTML",
+   "label": "RELEVANT LAW",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">RELEVANT LAW</div>\n"
+  },
+  {
+   "fieldname": "section_break_5o2le",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_inaxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bwexd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_32",
+   "fieldtype": "HTML",
+   "label": "Para 32",
+   "options": "<p>This Policy and any actions arising between you and us shall be governed by and\nconstrued in accordance with Zimbabwe Law and subject to the jurisdiction of the\nZimbabwe Courts, or by mutual agreement to arbitration in Zimbabwe, and in either\ncase the addresses for service shall be those contained in this Policy.</p>"
+  },
+  {
+   "fieldname": "section_break_mrxgm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "article22",
+   "fieldtype": "HTML",
+   "label": "ARTICLE 22",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Article 22</div>\n"
+  },
+  {
+   "fieldname": "column_break_mdvrw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "definitions1",
+   "fieldtype": "HTML",
+   "label": "DEFINITIONS",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">DEFINITIONS</div>\n"
+  },
+  {
+   "fieldname": "section_break_hr1yi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "insolvency1",
+   "fieldtype": "HTML",
+   "label": "Insolvency",
+   "options": "<p>Insolvency</p>"
+  },
+  {
+   "fieldname": "column_break_ydq4i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_33",
+   "fieldtype": "HTML",
+   "label": "Para 33",
+   "options": "<p>A \u201cInsolvency\u201d shall occur if :<br>\n<br>(i) the Insured Buyer is un-incorporated and -<br>\n<br>(a) his Estate is Sequestrated by an Order of Court; or<br>\n<br>(b) his Estate is placed under Provisional Sequestration; or<br>\n<br>(c) the Insured Buyer has made a formal Assignment, Composition or other\nscheme for the benefit of his creditors generally;<br>\n<br>or<br>\n\n<br>(ii) the Insured Buyer is a corporate entity and -<br>\n<br>(a) it has been Wound up by the Court; or<br>\n<br>(b) it has been placed under Provisional Liquidation; or<br>\n<br>(c) a Scheme of Arrangement has been concluded, and sanctioned by the\nCourt, between the Insured Buyer and its creditors, or any class of them,\nto settle wholly or partially the financial obligations of the Insured Buyer;<br>\n<br>or<br>\n<br>(d) a Provisional Judicial Management Order against the Insured Buyer has\nbeen made which stays all proceedings against the Insured Buyer without\nthe leave of the Court.<br>\n<br>or<br>\n<br>(iii) you show, to our satisfaction, that the buyers financial state is such that\neven partial payment is unlikely and that to enforce judgement or to seek a\nliquidation or a winding-up order would have no foreseeable result other than\none disproportionate to the likely cost of the proceedings;</p>"
+  },
+  {
+   "fieldname": "section_break_yc2fo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recoveries",
+   "fieldtype": "HTML",
+   "label": "Recoveries",
+   "options": "<p>Recoveries</p>"
+  },
+  {
+   "fieldname": "column_break_yx5xq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_34",
+   "fieldtype": "HTML",
+   "label": "Para 34",
+   "options": "<p>B \u201cRecoveries\u201d means all sums whatsoever received, recovered or realised whether\nby you, by any person acting on your behalf, or by us in relation to a contract of\nsale after the date of ascertainment of loss.</p>"
+  },
+  {
+   "fieldname": "section_break_mkq2g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specified_deductions",
+   "fieldtype": "HTML",
+   "label": "Specified Deductions",
+   "options": "<p>Specified Deductions</p>"
+  },
+  {
+   "fieldname": "column_break_seap3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "para_35",
+   "fieldtype": "HTML",
+   "label": "Para 35",
+   "options": "<p>C \u201cSpecified Deductions\u201d means any amount which, at the date of ascertainment of\nloss, you or the buyer are entitled to credit to the buyer\u2019s account whether by way\nof payment, set off, counterclaim or otherwise; and any expenses which you\nhave saved.</p>"
+  },
+  {
+   "fieldname": "section_break_mru8r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "schedule_referred",
+   "fieldtype": "HTML",
+   "label": "SCHEDULE REFERRED TO IN AND FORMING PART OF",
+   "options": "<div style=\"width: 100%; text-align: center; margin-top: 16px;\">\n<h4 style=\"margin-bottom: 5px;\"><br>SCHEDULE REFERRED TO IN AND FORMING PART OF<br>\n<br>POLICY NO DCPNB AD 474/11 (SPECIMEN) DATED: 22 January 2013</h4>\n</div>\n\n\n"
+  },
+  {
+   "fieldname": "section_break_ytn2y",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_1",
+   "fieldtype": "HTML",
+   "label": "Section 1 ",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 1 :</div>\n"
+  },
+  {
+   "fieldname": "column_break_4zewr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_of_insured",
+   "fieldtype": "HTML",
+   "label": "Name of Insured",
+   "options": "<p>Name of Insured : SAIS TECHBULLS<br>\nAddress : BOTSWANA ALLAALLA</p>"
+  },
+  {
+   "fieldname": "section_break_orfeq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_2",
+   "fieldtype": "HTML",
+   "label": "Section 2",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 2 :</div>\n"
+  },
+  {
+   "fieldname": "commencement_date",
+   "fieldtype": "HTML",
+   "label": "Commencement Date",
+   "options": "<p> <br>Commencement Date : 29/10/2025<br>\nExpiry Date :</p>"
+  },
+  {
+   "fieldname": "column_break_3b5bk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_e19yc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_3",
+   "fieldtype": "HTML",
+   "label": "Section 3",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 3 :</div>\n"
+  },
+  {
+   "fieldname": "column_break_gbdoq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description_of_goods__agr",
+   "fieldtype": "HTML",
+   "label": "Description of Goods  AGR",
+   "options": "<p>Description of Goods : AGR</p>"
+  },
+  {
+   "fieldname": "section_break_xnh76",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_4",
+   "fieldtype": "HTML",
+   "label": "Section 4",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 4 :</div>\n"
+  },
+  {
+   "fieldname": "column_break_tgiq4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium2",
+   "fieldtype": "HTML",
+   "label": "Premium",
+   "options": "<p><br>Premium : $0.00<br>\nRevenue Stamps : $</p>"
+  },
+  {
+   "fieldname": "section_break_fe1hk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_5",
+   "fieldtype": "HTML",
+   "label": "Section 5",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 5 :</div>\n"
+  },
+  {
+   "fieldname": "column_break_esgwx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insured_percentage",
+   "fieldtype": "HTML",
+   "label": "Insured Percentage",
+   "options": "<p>Insured Percentage : 0.00%</p>"
+  },
+  {
+   "fieldname": "section_break_nwego",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_6",
+   "fieldtype": "HTML",
+   "label": "Section 6",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 6 :</div>\n"
+  },
+  {
+   "fieldname": "column_break_d21z2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximum_terms_of_payment",
+   "fieldtype": "HTML",
+   "label": "Maximum Terms of Payment",
+   "options": "<p>Maximum Terms of Payment :</p>"
+  },
+  {
+   "fieldname": "section_break_aslnw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_7",
+   "fieldtype": "HTML",
+   "label": "Section 7",
+   "options": "<div style=\"font-weight: bold; font-size: 14px;\">Section 7 : </div>\n"
+  },
+  {
+   "fieldname": "column_break_wzi3e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximumextensionperiod1",
+   "fieldtype": "HTML",
+   "label": "Maximum Extension Period ",
+   "options": "<p>Maximum Extension Period :</p>"
+  },
+  {
+   "fieldname": "section_break_ufkuw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_coezx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "igned_for_and_on_behalf_of_credsure",
+   "fieldtype": "HTML",
+   "label": "SIGNED for and on behalf of CREDSURE",
+   "options": "<div style=\"width: 100%; text-align: center; margin-top: 20px;\">\n<h6 style=\"margin-bottom: 5px;\">SIGNED for and on behalf of CREDSURE :</h6>\n</div>"
+  },
+  {
+   "fieldname": "section_break_cnvoy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "authorised_signatories",
+   "fieldtype": "HTML",
+   "label": "Authorised Signatories",
+   "options": "<p>Authorised Signatories</p>"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "HTML",
+   "label": "Line",
+   "options": "<div style=\"display: flex; justify-content: center; margin-top: 30px;\">\n    <div style=\"border-bottom: 1px solid #555; width: 200px;\"></div>\n    <div style=\"border-bottom: 1px solid #555; width: 200px;\"></div>\n</div>\n"
+  },
+  {
+   "fieldname": "section_break_igbv6",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 06:16:04.970167",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Compact Policy DCI Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

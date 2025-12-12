@@ -1,16 +1,13 @@
 {
- "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{to}",
+ "autoname": "format:{to}-{YYYY}-{#####}",
  "creation": "2024-03-12 06:55:19.366734",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
-  "credit",
   "section_break_k6t9t",
   "column_break_3vtnx",
   "policy_no",
@@ -22,21 +19,17 @@
   "of",
   "section_break_mx1jh",
   "matter",
-  "esa"
+  "esa",
+  "section_break_90lxq",
+  "paragraph",
+  "section_break_7r4t6",
+  "paragraph1",
+  "column_break_zvcvf",
+  "address",
+  "column_break_xkgyd",
+  "address1"
  ],
  "fields": [
-  {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "image",
-   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br>"
-  },
-  {
-   "fieldname": "credit",
-   "fieldtype": "HTML",
-   "label": "credit",
-   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n"
-  },
   {
    "fieldname": "section_break_k6t9t",
    "fieldtype": "Section Break"
@@ -48,8 +41,7 @@
   {
    "fieldname": "policy_no",
    "fieldtype": "Data",
-   "label": "Policy No",
-   "read_only": 1
+   "label": "Policy Number"
   },
   {
    "fieldname": "proposal_no",
@@ -86,7 +78,7 @@
    "fieldname": "matter",
    "fieldtype": "HTML",
    "label": "Matter",
-   "options": "<p>The Insured has accepted an offer of indemnity made by <b>BECI</b> pursuant to a proposal for Export Cred Insurance completed by the Insured. Now therefore subject to the teams and conditions of this policy BEC agrees that in the event of a <b>CAUSE OF LOSS* </b> (8) resulting in the Insured not receiving Payment of a <b>INSURED DEBT* </b> (7) arising from any <b>INSURABLE TRANSACTION *</b> (1), BECI will indemnify the Insured to the extent of the <b>INSURED PERCENTAGE* </b> (11) of the <b>AMOUNT OF LOSS* </b> (10), subject to the <b>MAXIMUILIABILITY*</b> (15) <br><br>  As defined<br><br><br> <b>SIGNED</b> for and on behalf of  BECI</p><p></p>"
+   "options": "<p>The Insured has accepted an offer of indemnity made by <b>CREDSURE</b> pursuant to a proposal for Export Cred Insurance completed by the Insured. Now therefore subject to the teams and conditions of this policy BEC agrees that in the event of a <b>CAUSE OF LOSS* </b> (8) resulting in the Insured not receiving Payment of a <b>INSURED DEBT* </b> (7) arising from any <b>INSURABLE TRANSACTION *</b> (1), BECI will indemnify the Insured to the extent of the <b>INSURED PERCENTAGE* </b> (11) of the <b>AMOUNT OF LOSS* </b> (10), subject to the <b>MAXIMUILIABILITY*</b> (15) <br><br>  As defined<br><br><br> <b>SIGNED</b> for and on behalf of  BECI</p><p></p>"
   },
   {
    "fieldname": "esa",
@@ -97,14 +89,54 @@
    "fieldname": "of",
    "fieldtype": "Data",
    "label": "Of"
+  },
+  {
+   "fieldname": "section_break_90lxq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_7r4t6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_zvcvf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_xkgyd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 13:08:06.177515",
+ "modified": "2025-11-28 13:09:24.246376",
  "modified_by": "Administrator",
  "module": "Marketing",
- "name": "Specimen Policy Document_ECI",
+ "name": "Specimen Policy Document ECI",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

@@ -83,7 +83,7 @@
    "fieldname": "image",
    "fieldtype": "HTML",
    "label": "Image",
-   "options": "   <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+   "options": "<img alt=\"My Image\" src=\"https://www.credsure.co.zw/assets/images/Logo-Credsure.png\" style=\"position: absolute; top: 10px; left: 10px; width: 150px; height: auto;\">"
   },
   {
    "fieldname": "column_break_oti9e",
@@ -93,7 +93,7 @@
    "fieldname": "paragraph",
    "fieldtype": "HTML",
    "label": "paragraph",
-   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n<br>"
+   "options": "<div style=\"display: flex; justify-content: flex-end; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6;\">\n  <div style=\"text-align: left;\">\n    Export Credit Insurance and Guarantee Company (Botswana) Pty. Ltd.<br>\n    For Credsure Address: CredSure House, 69 Sam Nujoma Street, Harare, Zimbabwe<br>\n    Telephone: (+263) 242 738945-47<br>\n    Email: <a href=\"mailto:headoffice@credsure.co.zw\" style=\"color: #000; text-decoration: none;\">headoffice@credsure.co.zw</a><br>\n    Website: <a href=\"https://www.credsure.co.zw\" style=\"color: #000; text-decoration: none;\" target=\"_blank\">www.credsure.co.zw</a>\n  </div>\n</div>"
   },
   {
    "fieldname": "section_break_vdbq7",
@@ -158,7 +158,7 @@
   {
    "fieldname": "print_child_table",
    "fieldtype": "Table",
-   "options": "Print_child"
+   "options": "Print Child"
   },
   {
    "fieldname": "postal_address",
@@ -260,7 +260,7 @@
   {
    "fieldname": "spread_of_turnover_eci",
    "fieldtype": "Table",
-   "options": "Spread_of_turnover_ECI"
+   "options": "Spread of Turnover ECI"
   },
   {
    "fieldname": "turnover_letter",
@@ -309,7 +309,7 @@
   {
    "fieldname": "principal_buyer_table",
    "fieldtype": "Table",
-   "options": "ECI_Principal_buyer_table"
+   "options": "ECI Principal Buyer Table"
   },
   {
    "fieldname": "information",
@@ -353,7 +353,7 @@
   {
    "fieldname": "past_experiences",
    "fieldtype": "Table",
-   "options": "ECI_Past_experience"
+   "options": "ECI Past Experience"
   },
   {
    "fieldname": "financial_statement",
@@ -415,10 +415,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-23 09:27:34.247706",
+ "modified": "2025-11-06 13:55:33.732192",
  "modified_by": "Administrator",
  "module": "Marketing",
- "name": "ECI Print proposals",
+ "name": "ECI Print Proposals",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"priyanka.g@techbulls.co.in\", \"nagoor.s@techbulls.co.in\", \"chandrasekhar.d@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:schedule_no",
@@ -13,9 +12,7 @@
   "schedule",
   "section_break_h9r1o",
   "client_name",
-  "client_name1",
   "proposal_no",
-  "proposal_no1",
   "column_break_x91ix",
   "schedule_no",
   "status1",
@@ -136,7 +133,8 @@
    "fieldname": "client_name",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Client Name"
+   "label": "Client Name",
+   "reqd": 1
   },
   {
    "fieldname": "schedule_no",
@@ -171,21 +169,21 @@
    "fieldname": "terms_of_payment",
    "fieldtype": "Select",
    "label": "Terms Of Payment",
-   "options": "\n1-3m\n1-3mLC\n4-6m\n4-6mLC\ncad\ncadLC\nTT7d"
+   "options": "Select\n1-3m\n1-3mLC\n4-6m\n4-6mLC\ncad\ncadLC\nTT7d"
   },
   {
    "fieldname": "commercial_pre_rate",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Commercial Pre. Rate"
   },
   {
    "fieldname": "premium_rate",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Premium rate"
   },
   {
    "fieldname": "commercial_premium_amt_p",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Commercial Premium Amt p"
   },
   {
@@ -194,28 +192,28 @@
   },
   {
    "fieldname": "buyer_type",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Buyer Type",
    "options": "\nASSOCIATED COMPANIES\nGOVERNMENT BUYERS\nPRIVATE BUYERS"
   },
   {
    "fieldname": "political_pre_rate",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Political Pre. Rate"
   },
   {
    "fieldname": "turnover__p",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Turnover  p"
   },
   {
    "fieldname": "political_premium_amt",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Political Premium Amt"
   },
   {
    "fieldname": "total_pre_amt",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Total Pre. Amt "
   },
   {
@@ -226,17 +224,19 @@
   {
    "fieldname": "inception_date",
    "fieldtype": "Date",
-   "label": "Inception Date"
+   "label": "Inception date"
   },
   {
    "fieldname": "individual_first_lossp",
-   "fieldtype": "Currency",
-   "label": "Individual First loss(p)"
+   "fieldtype": "Data",
+   "label": "Individual First loss(p)",
+   "reqd": 1
   },
   {
    "fieldname": "min_premium_depositp",
-   "fieldtype": "Currency",
-   "label": "Min Premium Deposit(p)"
+   "fieldtype": "Data",
+   "label": "Min Premium Deposit(p)",
+   "reqd": 1
   },
   {
    "default": "0",
@@ -250,18 +250,19 @@
   },
   {
    "fieldname": "limit_of_descrition",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Limit of Descrition"
   },
   {
    "fieldname": "franchise_lossp",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Franchise loss(p)"
   },
   {
    "fieldname": "insured_commercial_risks_for_all_insured_companies",
-   "fieldtype": "Currency",
-   "label": "Insured % Commercial risks for all Insured Companies "
+   "fieldtype": "Data",
+   "label": "Insured % Commercial risks for all Insured Companies ",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_oukaw",
@@ -611,17 +612,20 @@
   {
    "fieldname": "commercial",
    "fieldtype": "Currency",
-   "label": "Commercial"
+   "label": "Commercial",
+   "read_only": 1
   },
   {
    "fieldname": "political",
    "fieldtype": "Currency",
-   "label": "Political"
+   "label": "Political",
+   "read_only": 1
   },
   {
    "fieldname": "total",
    "fieldtype": "Currency",
-   "label": "Total"
+   "label": "Total",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_lmeze",
@@ -634,12 +638,12 @@
   },
   {
    "fieldname": "per_enquiryp",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "Per Enquiry(p)"
   },
   {
    "fieldname": "cl_per_monthp",
-   "fieldtype": "Currency",
+   "fieldtype": "Data",
    "label": "CL Per Month(p)"
   },
   {
@@ -663,9 +667,9 @@
   },
   {
    "fieldname": "country_of_dest",
-   "fieldtype": "Select",
-   "label": "Country",
-   "options": "\nAfghanistan\nAlbania\nAland Islands\nAlgeria\nAmerican Samoa\nAustralia\nAustria\nBangladesh\nBelgium\nBhutan\nBotswana\nBrazil\nBritish Indian Ocean Territory\nCanada\nCentral African Republic\nDenmark\nEgypt\nFinland\nFrance\nGeorgia\nGermany\nHong Kong\nIceland\nIndia\nIndonesia\nItaly\nJapan\nJersey\nKenya\nKorea, Republic of\nMalaysia\nMaldives\nMexico\nMonaco\nMongolia\nMontenegro\nMontserrat\nSwaziland"
+   "fieldtype": "Link",
+   "label": "Country  ",
+   "options": "Country Group"
   },
   {
    "default": "0",
@@ -736,13 +740,7 @@
    "fieldname": "html2",
    "fieldtype": "HTML",
    "label": "html",
-   "options": "<style>\n  .underlined a {\n    text-decoration: underline;\n  }\n</style>\n\n<p class=\"underlined\"><a>Policy Schedule</a></p>\n<p class=\"underlined\"><a>Consent Form</a></p>\n<p class=\"underlined\"><a>Agenda and Endorsement</a></p>\n"
-  },
-  {
-   "fieldname": "client_name1",
-   "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Client name"
+   "options": "<style>\n  .underlined a {\n    text-decoration: underline;\n  }\n</style>\n\n<p class=\"underlined\"><a>Policy Schedule</a></p>\n<p class=\"underlined\"><a>Consent Form</a></p>\n<p class=\"underlined\"><a>Agenda and Endorsement</a></p>\n<p class=\"underlined\"><a>Policy Quotation</a></p>\n"
   },
   {
    "fieldname": "goods_services",
@@ -753,7 +751,7 @@
   {
    "fieldname": "proposal_no",
    "fieldtype": "Select",
-   "label": "Proposal No."
+   "label": "Proposal Number"
   },
   {
    "fieldname": "section_break_gnd0n",
@@ -767,7 +765,7 @@
   {
    "fieldname": "add_new",
    "fieldtype": "Button",
-   "label": "Add "
+   "label": "ADD"
   },
   {
    "fieldname": "section_break_ublax",
@@ -776,7 +774,8 @@
   {
    "fieldname": "com_pre_amt",
    "fieldtype": "Currency",
-   "label": "Total:  Comm.Pre.Amt"
+   "label": "Total:  Comm.Pre.Amt",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_eheuc",
@@ -785,7 +784,8 @@
   {
    "fieldname": "pol_pre_amt",
    "fieldtype": "Currency",
-   "label": "Total: Pol.Pre.Amt"
+   "label": "Total: Pol.Pre.Amt",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_oazlp",
@@ -794,17 +794,12 @@
   {
    "fieldname": "amt",
    "fieldtype": "Currency",
-   "label": "Total: Amount"
+   "label": "Total: Amount",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_jn7lt",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "proposal_no1",
-   "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Proposal no."
   },
   {
    "default": "0",
@@ -823,7 +818,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-05 06:16:48.403450",
+ "modified": "2025-12-09 09:30:29.854547",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "ECI Quotations",

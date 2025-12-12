@@ -8,7 +8,6 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
   "schedule",
   "section_break_lmese",
   "policy_no",
@@ -23,12 +22,6 @@
   "sign"
  ],
  "fields": [
-  {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "Image",
-   "options": "    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Centered Image</title>\n    <style>\n        /* Style to center the image */\n        .centered-image {\n            display: block;\n            margin: auto;\n        }\n    </style>\n\n\n\n    <img alt=\"https://www.beci.co.bw/themes/theme/logo.png\" class=\"centered-image\" src=\"https://www.beci.co.bw/themes/theme/logo.png\">\n\n\n\n"
-  },
   {
    "fieldname": "schedule",
    "fieldtype": "HTML",
@@ -78,7 +71,7 @@
   {
    "fieldname": "dci_child",
    "fieldtype": "Table",
-   "options": "DCI_Child_Schedule_letter"
+   "options": "DCI Child Schedule Letter"
   },
   {
    "fieldname": "sign",
@@ -89,7 +82,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-26 06:36:05.533959",
+ "modified": "2025-10-29 12:17:52.351471",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Schedule Letter",

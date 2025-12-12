@@ -1,0 +1,166 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}-{YYYY}-{#####}",
+ "creation": "2025-10-31 13:49:21.797271",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "our_ref",
+  "client_name",
+  "date",
+  "address",
+  "attention",
+  "column_break_jpoxm",
+  "section_break_hkwui",
+  "subject",
+  "section_break_3wihj",
+  "re",
+  "section_break_lifmn",
+  "subject1",
+  "subject2",
+  "subject3",
+  "subject4",
+  "subject6",
+  "subject7",
+  "section_break_kgjjq",
+  "section_break_4oqsr",
+  "section_break_gsiks",
+  "subject5"
+ ],
+ "fields": [
+  {
+   "fieldname": "our_ref",
+   "fieldtype": "Data",
+   "label": "OUR REF"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "Dear Sir\n"
+  },
+  {
+   "fieldname": "re",
+   "fieldtype": "Data",
+   "label": "Re"
+  },
+  {
+   "fieldname": "subject1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>We refer to your request for a quotation and now have pleasure in enclosing our Domestic Compact Policy Quotation, for your further perusal and consideration. The details are effective from 01 February 2024 to 31 January 2025 per the details shown hereunder. \n</p>\n"
+  },
+  {
+   "fieldname": "subject2",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>The Policy will run for 12 months initially and will be extended by a simple endorsement to cover the subsequent year\u2019s cover. Cover shall be on your buyer namely, Eagletron International (Pvt) Limited, for the initial twelve months credit period on a premium rate of 0.119% which yields an annual premium of            US$3 110 inclusive of US$148.00 Revenue Stamps for the first year.  \n</p><p></p>"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "Attention"
+  },
+  {
+   "fieldname": "subject3",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nThe second year\u2019s premium dues will be $2 962.00. or alternatively you can pay the full premium for the two years amounting to $6 072. The benefits accruing from this Policy are that; it is almost paperless in that there are no monthly Declarations, or monthly invoices nor statements required. The only Declaration required is when the buyer defaults. \n</p><p></p>"
+  },
+  {
+   "fieldname": "subject4",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nInsured percentage has been set at 90 %, meaning that in the event of a payment default situation, our indemnity would be limited to 90% of the outstanding debt. Kindly note that the Insured will still have the asset at its convenience and the Insurer can facilitate for its disposal for mutual benefit. \n<br></p>"
+  },
+  {
+   "fieldname": "subject5",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p style=\"text-align: left;\">\nYours faithfully<br><br>\n<strong>for CREDSURE</strong><br>\n</p><br>\n<strong><u>ROY GOVERA</u></strong><br>\nSENIOR UNDERWRITER - CREDIT<p></p>"
+  },
+  {
+   "fieldname": "section_break_kgjjq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_4oqsr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_gsiks",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "section_break_3wihj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_lifmn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subject6",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br><p>Should you wish to accept the Quotation, please sign the attached Acceptance Advices  \n\n\u201cA\u201d or \u201cB\u201d for either year one or for the two-year charge and return to us together with your preferred payment of $3 110 for the first year or $6 072 for the full two year period. <br></p>"
+  },
+  {
+   "fieldname": "subject7",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>We look forward to hearing from you in due course and assure you of our best attention at all times.  \n<br></p>"
+  },
+  {
+   "fieldname": "column_break_jpoxm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hkwui",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-28 11:35:57.931368",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "CoveringLetter",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

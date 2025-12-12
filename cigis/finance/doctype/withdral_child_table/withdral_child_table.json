@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-13 10:08:42.169640",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fundtrnno",
+  "date",
+  "withdrawls"
+ ],
+ "fields": [
+  {
+   "fieldname": "fundtrnno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FundtrnNo"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "withdrawls",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Withdrawls"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-13 10:10:45.361735",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Withdral Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

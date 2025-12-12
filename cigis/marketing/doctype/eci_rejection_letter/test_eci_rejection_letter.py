@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestECI_Rejection_Letter(FrappeTestCase):
+class TestECIRejectionLetter(FrappeTestCase):
 	pass

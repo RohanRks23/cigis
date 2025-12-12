@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class DCI_Child_Schedule_letter(Document):
+class DCIChildScheduleLetter(Document):
 	pass

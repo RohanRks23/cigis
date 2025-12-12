@@ -1,0 +1,231 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2024-04-17 08:03:02.413465",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "claim_processing",
+  "section_break_jlirm",
+  "name1",
+  "policy_numberbond_number",
+  "type",
+  "claim_ref_number",
+  "claim_ammount",
+  "reinsure",
+  "column_break_aonnj",
+  "status",
+  "process_date",
+  "cause_of_loss",
+  "insured_amount",
+  "beci",
+  "section_break_lj58h",
+  "payment_details",
+  "section_break_omco8",
+  "payment_amount",
+  "fm_comments",
+  "gm_comments_section",
+  "section_break_jj8lo",
+  "column_break_yblln",
+  "column_break_oyxsj",
+  "column_break_elpfe",
+  "column_break_gwdl6",
+  "gm_approval",
+  "column_break_gsnfo",
+  "gm_rejection",
+  "column_break_yo155",
+  "settelement_report",
+  "column_break_hcwyz",
+  "cancel",
+  "column_break_jjo6c"
+ ],
+ "fields": [
+  {
+   "fieldname": "claim_processing",
+   "fieldtype": "HTML",
+   "label": "Claim Processing",
+   "options": "<h5>Claim Processing</h5>"
+  },
+  {
+   "fieldname": "section_break_jlirm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "policy_numberbond_number",
+   "fieldtype": "Data",
+   "label": "Policy number/Bond Number"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "claim_ref_number",
+   "fieldtype": "Data",
+   "label": "Claim Ref Number"
+  },
+  {
+   "fieldname": "claim_ammount",
+   "fieldtype": "Data",
+   "label": "Claim Amount"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "Reinsure%"
+  },
+  {
+   "fieldname": "column_break_aonnj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "process_date",
+   "fieldtype": "Data",
+   "label": "Process Date"
+  },
+  {
+   "fieldname": "cause_of_loss",
+   "fieldtype": "Data",
+   "label": "Cause Of Loss"
+  },
+  {
+   "fieldname": "insured_amount",
+   "fieldtype": "Data",
+   "label": "Insured Amount"
+  },
+  {
+   "fieldname": "beci",
+   "fieldtype": "Data",
+   "label": "BECI%"
+  },
+  {
+   "fieldname": "section_break_lj58h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_details",
+   "fieldtype": "HTML",
+   "label": "Payment Details",
+   "options": "<h5>Payment Details</h5>"
+  },
+  {
+   "fieldname": "section_break_omco8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_amount",
+   "fieldtype": "Currency",
+   "label": "Payment Amount"
+  },
+  {
+   "fieldname": "fm_comments",
+   "fieldtype": "Small Text",
+   "label": "FM Comments"
+  },
+  {
+   "fieldname": "gm_comments_section",
+   "fieldtype": "Small Text",
+   "label": "GM Comments"
+  },
+  {
+   "fieldname": "section_break_jj8lo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yblln",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_oyxsj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_elpfe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gwdl6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gm_approval",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "GM Approval"
+  },
+  {
+   "fieldname": "column_break_gsnfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gm_rejection",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "GM Rejection"
+  },
+  {
+   "fieldname": "column_break_yo155",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "settelement_report",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Settlement Report"
+  },
+  {
+   "fieldname": "column_break_hcwyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "column_break_jjo6c",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 07:36:23.831679",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Claim Processing Dci Status",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

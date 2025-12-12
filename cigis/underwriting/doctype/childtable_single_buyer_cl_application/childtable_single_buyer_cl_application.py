@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class childtable_SingleBuyerCLApplication(Document):
+class ChildtableSingleBuyerCLApplication(Document):
 	pass

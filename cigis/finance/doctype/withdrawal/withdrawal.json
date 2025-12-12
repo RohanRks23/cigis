@@ -1,0 +1,170 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{fund_provider}",
+ "creation": "2024-04-04 12:03:34.758039",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_9xwpm",
+  "fund_provider",
+  "column_break_24lw1",
+  "status",
+  "section_break_x3ste",
+  "name1",
+  "column_break_iqkc0",
+  "fund_ref_id",
+  "section_break_efhie",
+  "initial_fund",
+  "column_break_jhwym",
+  "fund_inception_date",
+  "section_break_liroj",
+  "add",
+  "section_break_dz0hz",
+  "withdrawal_history",
+  "withdral_history",
+  "section_break_vn2p6",
+  "total_withdraw_amount",
+  "column_break_bnves",
+  "fund_transaction_type",
+  "fundtrnno"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_9xwpm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fund_provider",
+   "fieldtype": "Select",
+   "label": "Fund Provider"
+  },
+  {
+   "fieldname": "column_break_24lw1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "section_break_x3ste",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_iqkc0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fund_ref_id",
+   "fieldtype": "Data",
+   "label": "Fund Ref ID"
+  },
+  {
+   "fieldname": "section_break_efhie",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "initial_fund",
+   "fieldtype": "Currency",
+   "label": "Initial Fund"
+  },
+  {
+   "fieldname": "column_break_jhwym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fund_inception_date",
+   "fieldtype": "Date",
+   "label": "Fund Inception Date"
+  },
+  {
+   "fieldname": "add",
+   "fieldtype": "Button",
+   "label": "Add New"
+  },
+  {
+   "fieldname": "section_break_dz0hz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "withdral_history",
+   "fieldtype": "Table",
+   "options": "Withdral Child Table"
+  },
+  {
+   "fieldname": "section_break_vn2p6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_withdraw_amount",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Withdraw Amount"
+  },
+  {
+   "fieldname": "column_break_bnves",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fund_transaction_type",
+   "fieldtype": "Select",
+   "label": "Fund Transaction Type",
+   "options": "\nINTEREST\nMGMTFEE"
+  },
+  {
+   "fieldname": "fundtrnno",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Fundtrnno"
+  },
+  {
+   "fieldname": "withdrawal_history",
+   "fieldtype": "Heading",
+   "label": "Withdrawal History"
+  },
+  {
+   "fieldname": "section_break_liroj",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-18 09:03:35.553342",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Withdrawal",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

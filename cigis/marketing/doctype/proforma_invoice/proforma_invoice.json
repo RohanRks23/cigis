@@ -1,54 +1,49 @@
 {
- "_liked_by": "[\"priyanka.g@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:invoice_to",
+ "autoname": "format:{invoice_to}-{YYYY}-{#####} ",
  "creation": "2024-03-27 13:12:15.174225",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "invoice_to",
+  "policy_number",
+  "quotation_numbers",
+  "name1",
   "address",
   "city",
-  "invoice_to",
-  "name1",
   "vat_registration_no",
   "taxno",
+  "section_break_g0ilw",
   "reference",
   "date",
   "telephone",
   "fax",
-  "section_break_g0ilw",
   "data1",
-  "section_break_f1icj",
   "data2",
-  "section_break_wnvlt",
   "data3",
-  "section_break_aotbs",
   "data4",
   "section_break_nisvn",
-  "section_break_mlk5o",
-  "terms"
+  "terms",
+  "back"
  ],
  "fields": [
   {
    "fieldname": "address",
-   "fieldtype": "HTML",
-   "label": "ADDRESS",
-   "options": "    <style>\n        .right-align {\n            text-align: right;\n        }\n    </style>\n\n\n    <div class=\"right-align\">\n        <p><b>ADDRESS: P O BOX 80180</b></p>\n    </div>\n"
+   "fieldtype": "Data",
+   "label": "Address"
   },
   {
    "fieldname": "city",
-   "fieldtype": "HTML",
-   "label": "CITY",
-   "options": "    <style>\n        .right-align {\n            text-align: right;\n        }\n    </style>\n\n\n    <div class=\"right-align\">\n        <p><b>CITY: GABORONE</b></p>\n    </div>\n"
+   "fieldtype": "Data",
+   "label": "City"
   },
   {
    "fieldname": "invoice_to",
    "fieldtype": "Data",
-   "label": "Invoice To",
-   "unique": 1
+   "label": "Invoice To"
   },
   {
    "fieldname": "name1",
@@ -87,7 +82,7 @@
   },
   {
    "fieldname": "section_break_g0ilw",
-   "fieldtype": "Section Break"
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "data1",
@@ -95,26 +90,14 @@
    "label": "Premium"
   },
   {
-   "fieldname": "section_break_f1icj",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "data2",
    "fieldtype": "Data",
    "label": "Sub Total"
   },
   {
-   "fieldname": "section_break_wnvlt",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "data3",
    "fieldtype": "Data",
    "label": "VAT @14.00 %"
-  },
-  {
-   "fieldname": "section_break_aotbs",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "data4",
@@ -126,22 +109,33 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "section_break_mlk5o",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "terms",
    "fieldtype": "HTML",
    "options": "\n\n\n    <style>\n        .center {\n            text-align: center;\n        }\n    </style>\n\n\n    <div class=\"center\">\n        <p><b>Terms:</b> This Invoice Is Payable On Presentation</p>\n    </div>\n\n\n\n"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "CANCEL"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "quotation_numbers",
+   "fieldtype": "Data",
+   "label": "Quotation Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-09 11:58:31.235079",
+ "modified": "2025-12-09 07:44:40.055917",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Proforma Invoice",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

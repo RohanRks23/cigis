@@ -1,0 +1,247 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{receiptno}",
+ "creation": "2024-04-02 09:56:47.641686",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reference",
+  "client",
+  "client_name",
+  "invoice_number",
+  "advance_premium_no",
+  "advance_premium_number",
+  "invoiceno",
+  "receiptno",
+  "policy_number",
+  "policyno",
+  "depositamt",
+  "totaldeduction",
+  "depositbalance",
+  "deduct_from_deposit",
+  "yes",
+  "no1",
+  "receiptamt",
+  "receipt_currency",
+  "paymnetmode",
+  "paymentdate",
+  "column_break_ayrew",
+  "receiptdate",
+  "invoice_amt",
+  "payments",
+  "deductamt",
+  "invoicebalanceamt",
+  "no",
+  "transaction_no",
+  "cheque_no",
+  "credit_card_no",
+  "bank_guarantee"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Select",
+   "label": "Client"
+  },
+  {
+   "fieldname": "receiptno",
+   "fieldtype": "Data",
+   "label": "Receipt No",
+   "unique": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reference",
+   "options": "-- PLEASE SELECT FIRST--\nAdvance Premium\nInvoice\nPremium Deposite\nPrePayment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "policyno",
+   "fieldtype": "Data",
+   "label": "PolicyNo"
+  },
+  {
+   "fieldname": "depositamt",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Deposit Amt"
+  },
+  {
+   "fieldname": "totaldeduction",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Deduction"
+  },
+  {
+   "fieldname": "depositbalance",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Deposit Balance"
+  },
+  {
+   "default": "0",
+   "fieldname": "deduct_from_deposit",
+   "fieldtype": "Heading",
+   "label": "Deduct From Deposit"
+  },
+  {
+   "fieldname": "receiptamt",
+   "fieldtype": "Data",
+   "label": "Receipt Amt"
+  },
+  {
+   "fieldname": "paymnetmode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "-- Please Select --\nBANK DIRECT DEPOSIT\nCREDIT CARD\nCASH"
+  },
+  {
+   "fieldname": "paymentdate",
+   "fieldtype": "Date",
+   "label": "Payment Date"
+  },
+  {
+   "fieldname": "column_break_ayrew",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receiptdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Receipt Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "invoiceno",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "payments",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Payments"
+  },
+  {
+   "fieldname": "deductamt",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Deduct Amt"
+  },
+  {
+   "fieldname": "invoicebalanceamt",
+   "fieldtype": "Data",
+   "label": "Invoice Balance Amt"
+  },
+  {
+   "depends_on": "eval:doc.paymnetmode==\"CASH\"",
+   "fieldname": "no",
+   "fieldtype": "Data",
+   "label": "No."
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "1",
+   "fieldname": "no1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client name"
+  },
+  {
+   "fieldname": "invoice_amt",
+   "fieldtype": "Data",
+   "label": "Invoice Amt"
+  },
+  {
+   "fieldname": "receipt_currency",
+   "fieldtype": "Link",
+   "label": "Receipt currency ",
+   "options": "Currency_Finance"
+  },
+  {
+   "depends_on": "eval:doc.paymnetmode==\"BANK DIRECT DEPOSIT\"",
+   "fieldname": "transaction_no",
+   "fieldtype": "Data",
+   "label": "Transaction No"
+  },
+  {
+   "depends_on": "eval:doc.paymnetmode==\"CHEQUE\"",
+   "fieldname": "cheque_no",
+   "fieldtype": "Data",
+   "label": "Cheque No"
+  },
+  {
+   "depends_on": "eval:doc.paymnetmode==\"CREDIT CARD\"",
+   "fieldname": "credit_card_no",
+   "fieldtype": "Data",
+   "label": "Credit Card No"
+  },
+  {
+   "depends_on": "eval:doc.paymnetmode==\"BANK GUARANTEE\"",
+   "fieldname": "bank_guarantee",
+   "fieldtype": "Data",
+   "label": "Bank Guarantee"
+  },
+  {
+   "fieldname": "invoice_number",
+   "fieldtype": "Select",
+   "label": "Invoice Number"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Select",
+   "label": "Policy Number"
+  },
+  {
+   "depends_on": "eval:doc.reference==\"Advance Premium\"",
+   "fieldname": "advance_premium_no",
+   "fieldtype": "Select",
+   "label": "Advance Premium No"
+  },
+  {
+   "fieldname": "advance_premium_number",
+   "fieldtype": "Data",
+   "label": "Advance Premium Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-08 13:30:31.585807",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Receipt",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,322 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}-{YYYY}-{####}",
+ "creation": "2024-05-07 11:33:21.355064",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "for",
+  "section_break_cuvke",
+  "name1",
+  "invoice_no",
+  "quotation_number",
+  "address",
+  "section_break_vrwtw",
+  "city",
+  "column_break_dlef4",
+  "date",
+  "section_break_5mzzy",
+  "vat",
+  "section_break_4ahjd",
+  "section_break_grexf",
+  "head1",
+  "invioce_childtable",
+  "premium_income_section",
+  "domestic_premium",
+  "total_amount",
+  "column_break_fdw6z",
+  "premium_rate",
+  "section_break_pjr6z",
+  "head",
+  "exportdetails",
+  "commercial_perms_total",
+  "column_break_nclac",
+  "political_perms_total",
+  "column_break_hbsx9",
+  "total_perms",
+  "column_break_e919t",
+  "political_reinsurance",
+  "column_break_uron5",
+  "reinsurercommercialamt",
+  "column_break_nfnbp",
+  "reinsurerpoliticalamt",
+  "column_break_2gbpi",
+  "percentage",
+  "domestic_amount",
+  "insuredpercentage",
+  "domesticdetails",
+  "totalforthedeclarationamount",
+  "column_break_xeybb",
+  "column_break_sklnu",
+  "c29",
+  "section_break_fwepm",
+  "c_handling_fee_income",
+  "section_break_k3s7d",
+  "commercialbotswana_insurance_company",
+  "column_break_anncy",
+  "handlepoliticalamt",
+  "section_break_kjg11",
+  "column_break_jxxts"
+ ],
+ "fields": [
+  {
+   "fieldname": "for",
+   "fieldtype": "HTML",
+   "label": "For",
+   "options": "\n\n\n    <style>\n        h3, h4 {\n            text-align: center;\n        }\n    </style>\n\n\n\n<h3>FOR INTERNAL USE ONLY</h3>\n\n\n\n"
+  },
+  {
+   "fieldname": "section_break_cuvke",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "NAME"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "section_break_vrwtw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY"
+  },
+  {
+   "fieldname": "column_break_dlef4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "section_break_5mzzy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "stamp duty REGISTRATION NO:"
+  },
+  {
+   "fieldname": "column_break_e919t",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "political_reinsurance",
+   "fieldtype": "HTML",
+   "label": "Political Reinsurance",
+   "options": "<p>Political Reinsurance</p>"
+  },
+  {
+   "fieldname": "column_break_uron5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nfnbp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2gbpi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xeybb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sklnu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "c29",
+   "fieldtype": "Data",
+   "label": "TOTAL"
+  },
+  {
+   "fieldname": "section_break_fwepm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c_handling_fee_income",
+   "fieldtype": "HTML",
+   "label": "C HANDLING FEE INCOME",
+   "options": "<style>\n    h4 {\n        text-align: left;\n        display: inline; /* Display the heading inline */\n    }\n</style>\n\n<h4>C   HANDLING FEE INCOME</h4>\n"
+  },
+  {
+   "fieldname": "section_break_k3s7d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commercialbotswana_insurance_company",
+   "fieldtype": "Currency",
+   "label": "Commercial()"
+  },
+  {
+   "fieldname": "column_break_anncy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invioce_childtable",
+   "fieldtype": "Table",
+   "options": "InternalInvoicechildtable"
+  },
+  {
+   "fieldname": "commercial_perms_total",
+   "fieldtype": "Currency",
+   "label": "Total Commercial Perms "
+  },
+  {
+   "fieldname": "political_perms_total",
+   "fieldtype": "Currency",
+   "label": "Total Political Perms "
+  },
+  {
+   "fieldname": "total_perms",
+   "fieldtype": "Currency",
+   "label": "Total Perms"
+  },
+  {
+   "fieldname": "section_break_pjr6z",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nclac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hbsx9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reinsurercommercialamt",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "reinsurerpoliticalamt",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Int"
+  },
+  {
+   "fieldname": "handlepoliticalamt",
+   "fieldtype": "Currency",
+   "label": "Political"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "INVOICE No"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "head",
+   "fieldtype": "HTML",
+   "options": "<style>\n    h4 {\n        text-align: left;\n        display: inline; /* Display the heading inline */\n    }\n</style>\n<h4>B  REINSURER PREMIUM PAYABLE</h4>"
+  },
+  {
+   "fieldname": "section_break_4ahjd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_grexf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_kjg11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_jxxts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "head1",
+   "fieldtype": "HTML",
+   "options": "<style>\n    h4 {\n        text-align: left;\n        display: inline; /* Display the heading inline */\n    }\n</style>\n<h4>A  PREMIUM INCOME</h4>"
+  },
+  {
+   "fieldname": "domestic_premium",
+   "fieldtype": "Data",
+   "label": "Domestic Premium"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_fdw6z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_income_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "domestic_amount",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "insuredpercentage",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "totalforthedeclarationamount",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "exportdetails",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "domesticdetails",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-28 12:28:28.093563",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Internal Invoice for CI Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

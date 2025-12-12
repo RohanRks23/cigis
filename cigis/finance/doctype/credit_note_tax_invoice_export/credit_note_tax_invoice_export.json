@@ -1,0 +1,303 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{invoice1}-{YYYY}-{#####}",
+ "creation": "2025-12-01 05:49:39.800094",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_lrhxr",
+  "heading",
+  "section_break_wdpll",
+  "beci_matter",
+  "column_break_owgko",
+  "beci_side_matter",
+  "section_break_r5zq6",
+  "invoice1",
+  "attn",
+  "address",
+  "city",
+  "vat",
+  "telephone",
+  "fax",
+  "column_break_67wtv",
+  "invoice2",
+  "currency",
+  "vat_percentage",
+  "reference1",
+  "date1",
+  "credit_note_no",
+  "section_break_zlc9h",
+  "month",
+  "column_break_mcyqw",
+  "description1",
+  "section_break_ljlnc",
+  "taxinvoicechildforciinvoice",
+  "section_break_q8rdo",
+  "tax_child",
+  "column_break_nhkjk",
+  "column_break_cmxwp",
+  "column_break_wwuuf",
+  "g",
+  "section_break_40r9u",
+  "column_break_nd0gt",
+  "column_break_hdy2i",
+  "sub_total",
+  "section_break_xrezd",
+  "column_break_clajr",
+  "column_break_4jnf5",
+  "currency9",
+  "section_break_mgwxo",
+  "tearms",
+  "section_break_l212b",
+  "data",
+  "quotation_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_lrhxr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<h3 style=\"text-align: center;\">TAX INVOICE</h3>\n"
+  },
+  {
+   "fieldname": "section_break_wdpll",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci_matter",
+   "fieldtype": "HTML",
+   "label": "CREDSURE Matter",
+   "options": "<p>CREDSURE<br>\nCredit Insurance Zimbabwe limited<br>\nCREDSURE VAT Reg.No.200058221</p>\n"
+  },
+  {
+   "fieldname": "column_break_owgko",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beci_side_matter",
+   "fieldtype": "HTML",
+   "label": "CREDSURE side Matter",
+   "options": "<p>P.O,Box CY 1584<br>\nCauseway, Harare<br>\nTel:263-4-738944<br>\nFax:263-4-706105<br>\n</p>"
+  },
+  {
+   "fieldname": "section_break_r5zq6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice1",
+   "fieldtype": "Data",
+   "label": "Invoice To:"
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": " Attn:"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address:"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City:"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "VAT Registration No:"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone:"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "column_break_67wtv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice2",
+   "fieldtype": "Data",
+   "label": "Invoice No:"
+  },
+  {
+   "fieldname": "vat_percentage",
+   "fieldtype": "Data",
+   "label": "Stamp duty %"
+  },
+  {
+   "fieldname": "reference1",
+   "fieldtype": "Data",
+   "label": "Reference:"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Data",
+   "label": "Date:"
+  },
+  {
+   "fieldname": "section_break_zlc9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Declaration Month"
+  },
+  {
+   "fieldname": "column_break_mcyqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "HTML",
+   "label": "Description",
+   "options": "<br>\n<br>\n<p>Description: Export Insurance</p>"
+  },
+  {
+   "fieldname": "section_break_ljlnc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "taxinvoicechildforciinvoice",
+   "fieldtype": "Table",
+   "options": "TaxInvoicechildforCIInvoice"
+  },
+  {
+   "fieldname": "section_break_q8rdo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tax_child",
+   "fieldtype": "Table",
+   "options": "TaxinvoiceChildTable"
+  },
+  {
+   "fieldname": "column_break_nhkjk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cmxwp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wwuuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "g",
+   "fieldtype": "Currency",
+   "label": "Sub Total"
+  },
+  {
+   "fieldname": "section_break_40r9u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_nd0gt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hdy2i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "Data",
+   "label": "Stamp duty @ "
+  },
+  {
+   "fieldname": "section_break_xrezd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_clajr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4jnf5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency9",
+   "fieldtype": "Currency",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_mgwxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tearms",
+   "fieldtype": "HTML",
+   "label": "Tearms",
+   "options": " <h5> TERMS : THIS INVOICE IS PAYABLE ON PRESENTATION </h5>"
+  },
+  {
+   "fieldname": "section_break_l212b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "HTML",
+   "label": "data",
+   "options": "<h4>Our policy of insurance stipulates that our invoices are to be paid on presentation; therefore no credit period is allowable.</h4>"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "credit_note_no",
+   "fieldtype": "Data",
+   "label": "Credit/Debit Note No",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-09 11:15:29.400368",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Credit Note Tax Invoice Export",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

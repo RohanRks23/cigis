@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Student_child(Document):
+class StudentChild(Document):
 	pass

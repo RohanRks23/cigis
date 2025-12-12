@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestGuide_Store_Data(FrappeTestCase):
+class TestGuideStoreData(FrappeTestCase):
 	pass

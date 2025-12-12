@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-06 11:02:34.913310",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "facility",
+  "bondsoutstanding",
+  "rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "facility",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility"
+  },
+  {
+   "fieldname": "bondsoutstanding",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bond(s)Outstanding"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-06 11:03:15.955461",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Current Bonds Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

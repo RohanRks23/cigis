@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "creation": "2024-04-02 19:36:56.003060",
@@ -17,7 +16,6 @@
   {
    "fieldname": "cl_review_no",
    "fieldtype": "Data",
-   "in_list_view": 1,
    "label": "CL Review No"
   },
   {
@@ -48,7 +46,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-09 09:19:13.080020",
+ "modified": "2025-10-14 11:36:53.279609",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Credit Limit Reviews Child",

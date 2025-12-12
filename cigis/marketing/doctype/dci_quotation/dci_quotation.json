@@ -1,0 +1,1205 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{schedule_no}",
+ "creation": "2024-03-19 17:36:16.223462",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dci_quotations_tab",
+  "section_break_ligxq",
+  "section_break_smb4h",
+  "client_name",
+  "proposal_no2",
+  "proposal_no1",
+  "schedule_no",
+  "column_break_wvydj",
+  "captured_on",
+  "status11",
+  "section_break_foxcg",
+  "column_break_egilh",
+  "column_break_gzomb",
+  "column_break_lyrix",
+  "column_break_bd8gq",
+  "domestic_credit_insurance_schedule_tab",
+  "section_break_t6l9h",
+  "section_break_qor7j",
+  "inception_date",
+  "goods_services",
+  "column_break_73ncl",
+  "column_break_bw2yy",
+  "goodsservice",
+  "agriculture",
+  "airconditioning",
+  "aluminium_boats",
+  "animal_vaccines",
+  "arts_crafts",
+  "batteries",
+  "building_materials",
+  "canning_cans",
+  "cellular",
+  "cereals",
+  "cigarettes",
+  "computer_electronic",
+  "concrete_products",
+  "corporate_clothing",
+  "cosmetics",
+  "couriers",
+  "engraving",
+  "fmcg",
+  "frozen_chicken",
+  "fuel",
+  "gas",
+  "hair_products",
+  "heavy_plant",
+  "invoice_factoring",
+  "column_break_zyg7q",
+  "leather_products",
+  "logistics",
+  "lubricants__fuel",
+  "meat_products",
+  "media__radio",
+  "merchandise",
+  "packaging_materials",
+  "perishable_goods",
+  "pharmaceuticals",
+  "plastic_and_spices",
+  "road_construction",
+  "salt",
+  "security_services",
+  "soda_ash",
+  "_diaries",
+  "steel_doors_window_farmes",
+  "steel_merchants",
+  "timber_products",
+  "travelling_bags",
+  "water_supplies",
+  "section_break_ipyqj",
+  "expected_turnover",
+  "estimated_govt_sales_plus_cash_sales",
+  "column_break_mkur8",
+  "total_no_of_debtors",
+  "limit_of_discretion",
+  "section_break_mnpln",
+  "franchise_loss",
+  "loss_ratio",
+  "buyers_excluded",
+  "column_break_q0qsp",
+  "of_the_turnover",
+  "insured_turnover",
+  "expected_insured_turnover",
+  "possible_declines_as_",
+  "admin_cost_per_buyer",
+  "section_break_x2fvt",
+  "average_bad_debts",
+  "column_break_3w8k5",
+  "break_evenpoint",
+  "total_credit_sale_cost",
+  "cost_ratio",
+  "beci_margin_on_cost_ratio",
+  "section_break_c3hdk",
+  "column_break_2hrk0",
+  "column_break_7r9da",
+  "column_break_lzq5p",
+  "calculate3",
+  "column_break_bytmg",
+  "section_break_vxqvb",
+  "section_break_8a8tf",
+  "section_break_4o52k",
+  "premium_details",
+  "column_break_r5php",
+  "credit_limit",
+  "section_break_t9ndt",
+  "premium_rate",
+  "min_annual_premium",
+  "expected_annual_premium",
+  "premium_deposit",
+  "column_break_15wlm",
+  "maximum_liability",
+  "fee_per_enquiry",
+  "fee_for_cl_per_month",
+  "section_break_w9dfs",
+  "column_break_g66pm",
+  "column_break_2q84q",
+  "column_break_6qxni",
+  "calculate1",
+  "column_break_32ipl",
+  "section_break_iqvih",
+  "links",
+  "section_break_zt0uh",
+  "options_tab",
+  "section_break_g39ww",
+  "column_break_ds6yl",
+  "section_break_awu8g",
+  "section_break_o86qy",
+  "section_break_wmrhw",
+  "expected_turnover_2",
+  "possible_declines_by_credsure",
+  "expected_insured_turnover_2",
+  "expected_premium_income",
+  "column_break_ecssm",
+  "estimated_govt_sales__plus_cash_sales",
+  "of_the_turnover_options",
+  "average_bad_debt_per_year",
+  "expected_profitloss_on_account",
+  "section_break_mvyfn",
+  "options1",
+  "column_break_1p8yw",
+  "options2",
+  "section_break_jpqwl",
+  "upfront_discount",
+  "proposed_prem_rate_after_discount",
+  "expected_prem_at_std",
+  "discount_offered",
+  "resultant_prem_income",
+  "allowable_claim_value",
+  "of_premium_received",
+  "premreceived_net_of_claims",
+  "retrospective_discount",
+  "_net_premium_received",
+  "credsure_profitloss_on_account",
+  "total_discount_given",
+  "column_break_mml0g",
+  "upfront_discount2",
+  "proposed_prem_rate_after_discount2",
+  "expected_prem_at_std2",
+  "discount_offered2",
+  "resultant_prem_income2",
+  "allowable_claim_value2",
+  "of_premium_received2",
+  "premreceived_net_of_claims2",
+  "retrospective_discount2",
+  "_net_premium_received2",
+  "credsure_profitloss_on_account_",
+  "total_discount_given2",
+  "section_break_taecn",
+  "section_break_9osem",
+  "section_break_3zbau",
+  "column_break_hxupb",
+  "column_break_bqats",
+  "column_break_lm66s",
+  "calculate2",
+  "column_break_vkizx",
+  "column_break_r2zos"
+ ],
+ "fields": [
+  {
+   "fieldname": "dci_quotations_tab",
+   "fieldtype": "Tab Break",
+   "label": "DCI Quotations "
+  },
+  {
+   "fieldname": "section_break_ligxq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_smb4h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "schedule_no",
+   "fieldtype": "Data",
+   "label": "Schedule No",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_wvydj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_foxcg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_egilh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gzomb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lyrix",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bd8gq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "domestic_credit_insurance_schedule_tab",
+   "fieldtype": "Tab Break",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "section_break_t6l9h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "column_break_73ncl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "goodsservice",
+   "fieldtype": "Heading",
+   "label": "Goods/Service"
+  },
+  {
+   "default": "0",
+   "depends_on": "agriculture",
+   "fieldname": "agriculture",
+   "fieldtype": "Check",
+   "label": "AGRICULTURE",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "airconditioning",
+   "fieldname": "airconditioning",
+   "fieldtype": "Check",
+   "label": "AIRCONDITIONING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "aluminium_boats",
+   "fieldname": "aluminium_boats",
+   "fieldtype": "Check",
+   "label": "ALUMINIUM BOATS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "animal_vaccines",
+   "fieldname": "animal_vaccines",
+   "fieldtype": "Check",
+   "label": "ANIMAL VACCINES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "arts_crafts",
+   "fieldname": "arts_crafts",
+   "fieldtype": "Check",
+   "label": "ARTS CRAFTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "batteries",
+   "fieldname": "batteries",
+   "fieldtype": "Check",
+   "label": "BATTERIES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "building_materials",
+   "fieldname": "building_materials",
+   "fieldtype": "Check",
+   "label": "BUILDING MATERIALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "canning_cans",
+   "fieldname": "canning_cans",
+   "fieldtype": "Check",
+   "label": "CANNING CANS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cellular",
+   "fieldname": "cellular",
+   "fieldtype": "Check",
+   "label": "CELLULAR",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cereals",
+   "fieldname": "cereals",
+   "fieldtype": "Check",
+   "label": "CEREALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cigarettes",
+   "fieldname": "cigarettes",
+   "fieldtype": "Check",
+   "label": "CIGARETTES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "computer_electronic",
+   "fieldname": "computer_electronic",
+   "fieldtype": "Check",
+   "label": "COMPUTER ELECTRONIC",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "concrete_products",
+   "fieldname": "concrete_products",
+   "fieldtype": "Check",
+   "label": "CONCRETE PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "corporate_clothing",
+   "fieldname": "corporate_clothing",
+   "fieldtype": "Check",
+   "label": "CORPORATE CLOTHING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "cosmetics",
+   "fieldname": "cosmetics",
+   "fieldtype": "Check",
+   "label": "COSMETICS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "couriers",
+   "fieldname": "couriers",
+   "fieldtype": "Check",
+   "label": "COURIERS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "engraving",
+   "fieldname": "engraving",
+   "fieldtype": "Check",
+   "label": "ENGRAVING",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "fmcg",
+   "fieldname": "fmcg",
+   "fieldtype": "Check",
+   "label": "FMCG",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "frozen_chicken",
+   "fieldname": "frozen_chicken",
+   "fieldtype": "Check",
+   "label": "FROZEN CHICKEN",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "fuel",
+   "fieldname": "fuel",
+   "fieldtype": "Check",
+   "label": "FUEL",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "gas",
+   "fieldname": "gas",
+   "fieldtype": "Check",
+   "label": "GAS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "hair_products",
+   "fieldname": "hair_products",
+   "fieldtype": "Check",
+   "label": "HAIR PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "heavy_plant",
+   "fieldname": "heavy_plant",
+   "fieldtype": "Check",
+   "label": "HEAVY PLANT MACHINERY",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "invoice_factoring",
+   "fieldname": "invoice_factoring",
+   "fieldtype": "Check",
+   "label": "INVOICE FACTORING",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zyg7q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "leather_products",
+   "fieldname": "leather_products",
+   "fieldtype": "Check",
+   "label": "LEATHER PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "logistics",
+   "fieldname": "logistics",
+   "fieldtype": "Check",
+   "label": "LOGISTICS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "lubricants__fuel",
+   "fieldname": "lubricants__fuel",
+   "fieldtype": "Check",
+   "label": "LUBRICANTS / FUEL",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "meat_products",
+   "fieldname": "meat_products",
+   "fieldtype": "Check",
+   "label": "MEAT PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "media__radio",
+   "fieldname": "media__radio",
+   "fieldtype": "Check",
+   "label": "MEDIA / RADIO",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "merchandise",
+   "fieldname": "merchandise",
+   "fieldtype": "Check",
+   "label": "MERCHANDISE",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "packaging_materials",
+   "fieldname": "packaging_materials",
+   "fieldtype": "Check",
+   "label": "PACKAGING MATERIALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "perishable_goods",
+   "fieldname": "perishable_goods",
+   "fieldtype": "Check",
+   "label": "PERISHABLE GOODS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "pharmaceuticals",
+   "fieldname": "pharmaceuticals",
+   "fieldtype": "Check",
+   "label": "PHARMACEUTICALS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "plastic_and_spices",
+   "fieldname": "plastic_and_spices",
+   "fieldtype": "Check",
+   "label": "PLASTICS AND SPICES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "road_construction",
+   "fieldname": "road_construction",
+   "fieldtype": "Check",
+   "label": "ROAD CONSTRUCTION",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "salt",
+   "fieldname": "salt",
+   "fieldtype": "Check",
+   "label": "SALT",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "security_services",
+   "fieldname": "security_services",
+   "fieldtype": "Check",
+   "label": "SECURITY SERVICES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "soda_ash",
+   "fieldname": "soda_ash",
+   "fieldtype": "Check",
+   "label": "SODA ASH",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "_diaries",
+   "fieldname": "_diaries",
+   "fieldtype": "Check",
+   "label": "STATIONARY DIARIES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "steel_doors_window_farmes",
+   "fieldname": "steel_doors_window_farmes",
+   "fieldtype": "Check",
+   "label": "STEEL DOORS WINDOW FARMES",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "steel_merchants",
+   "fieldname": "steel_merchants",
+   "fieldtype": "Check",
+   "label": "STEEL MERCHANTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "timber_products",
+   "fieldname": "timber_products",
+   "fieldtype": "Check",
+   "label": "TIMBER PRODUCTS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "travelling_bags",
+   "fieldname": "travelling_bags",
+   "fieldtype": "Check",
+   "label": "TRAVELLING BAGS",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "water_supplies",
+   "fieldname": "water_supplies",
+   "fieldtype": "Check",
+   "label": "WATER SUPPLIES",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_ipyqj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expected_turnover",
+   "fieldtype": "Currency",
+   "label": "Expected Turnover "
+  },
+  {
+   "fieldname": "estimated_govt_sales_plus_cash_sales",
+   "fieldtype": "Currency",
+   "label": "Estimated Govt. Sales plus Cash Sales "
+  },
+  {
+   "fieldname": "total_no_of_debtors",
+   "fieldtype": "Data",
+   "label": "Total No. Of Debtors"
+  },
+  {
+   "default": "0",
+   "fieldname": "limit_of_discretion",
+   "fieldtype": "Data",
+   "label": "Limit of Discretion"
+  },
+  {
+   "fieldname": "section_break_mnpln",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "franchise_loss",
+   "fieldtype": "Currency",
+   "label": "Franchise Loss"
+  },
+  {
+   "fieldname": "loss_ratio",
+   "fieldtype": "Currency",
+   "label": "Loss Ratio"
+  },
+  {
+   "default": "0",
+   "fieldname": "buyers_excluded",
+   "fieldtype": "Currency",
+   "label": "Buyers Excluded",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "possible_declines_as_",
+   "fieldtype": "Currency",
+   "label": "Possible Declines As %"
+  },
+  {
+   "fieldname": "column_break_q0qsp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "of_the_turnover",
+   "fieldtype": "Data",
+   "label": "Of The Turnover"
+  },
+  {
+   "fieldname": "section_break_x2fvt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "insured_turnover",
+   "fieldtype": "Currency",
+   "label": "Insured Turnover "
+  },
+  {
+   "fieldname": "expected_insured_turnover",
+   "fieldtype": "Currency",
+   "label": "Expected Insured Turnover"
+  },
+  {
+   "default": "0",
+   "fieldname": "admin_cost_per_buyer",
+   "fieldtype": "Currency",
+   "label": "Admin Cost Per Buyer"
+  },
+  {
+   "fieldname": "average_bad_debts",
+   "fieldtype": "Currency",
+   "label": "Average Bad Debts"
+  },
+  {
+   "fieldname": "break_evenpoint",
+   "fieldtype": "Currency",
+   "label": "Break Evenpoint"
+  },
+  {
+   "fieldname": "total_credit_sale_cost",
+   "fieldtype": "Currency",
+   "label": "Total Credit Sale Cost"
+  },
+  {
+   "fieldname": "cost_ratio",
+   "fieldtype": "Currency",
+   "label": "Cost Ratio"
+  },
+  {
+   "default": "0",
+   "fieldname": "beci_margin_on_cost_ratio",
+   "fieldtype": "Currency",
+   "label": "BECI Margin on Cost Ratio"
+  },
+  {
+   "fieldname": "section_break_vxqvb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8a8tf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_4o52k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "premium_details",
+   "fieldtype": "Heading",
+   "label": "Premium Details"
+  },
+  {
+   "fieldname": "column_break_r5php",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Heading",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "section_break_t9ndt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "premium_rate",
+   "fieldtype": "Currency",
+   "label": "Premium Rate%"
+  },
+  {
+   "fieldname": "min_annual_premium",
+   "fieldtype": "Currency",
+   "label": "Min Annual Premium",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expected_annual_premium",
+   "fieldtype": "Currency",
+   "label": "Expected Annual Premium",
+   "reqd": 1
+  },
+  {
+   "fieldname": "premium_deposit",
+   "fieldtype": "Currency",
+   "label": "Premium Deposit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "maximum_liability",
+   "fieldtype": "Data",
+   "label": "Maximum Liability",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_15wlm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fee_per_enquiry",
+   "fieldtype": "Data",
+   "label": "Fee Per Enquiry"
+  },
+  {
+   "fieldname": "fee_for_cl_per_month",
+   "fieldtype": "Data",
+   "label": "Fee For CL Per Month"
+  },
+  {
+   "fieldname": "section_break_w9dfs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "calculate1",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "section_break_iqvih",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "links",
+   "fieldtype": "HTML",
+   "label": "links",
+   "options": "<style>\n  .underlined {\n    display: inline; /* Change from block to inline */\n    margin-right: 10px; /* Add some space between links */\n  }\n  .underlined a {\n    text-decoration: underline;\n  }\n</style>\n<p class=\"underlined\"><a>Covering Letters</a></p>\n<p class=\"underlined\"><a>Schedule (Goods/Services) </a></p>\n<p class=\"underlined\"><a>Specimen Policy Documents</a></p>\n<p class=\"underlined\"><a>Consent Form</a></p>\n<p class=\"underlined\"><a>Acceptance Form</a></p>\n<p class=\"underlined\"><a>Guide to the Administration of the policy</a></p>\n<p class=\"underlined\"><a>Addendum and Endorsements to the policy</a></p>\n<p class=\"underlined\"><a>Policy Quotation</a></p>\n<p class=\"underlined\"><a>Compact Policy</a></p>\n"
+  },
+  {
+   "fieldname": "section_break_zt0uh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "options_tab",
+   "fieldtype": "Tab Break",
+   "label": "Options"
+  },
+  {
+   "fieldname": "section_break_g39ww",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ds6yl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_awu8g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_o86qy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_wmrhw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expected_turnover_2",
+   "fieldtype": "Currency",
+   "label": "Expected Turnover"
+  },
+  {
+   "fieldname": "expected_insured_turnover_2",
+   "fieldtype": "Currency",
+   "label": "Expected Insured Turnover"
+  },
+  {
+   "fieldname": "expected_premium_income",
+   "fieldtype": "Currency",
+   "label": "Expected Premium Income"
+  },
+  {
+   "fieldname": "expected_profitloss_on_account",
+   "fieldtype": "Data",
+   "label": "Expected Profit/Loss on Account"
+  },
+  {
+   "fieldname": "column_break_ecssm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estimated_govt_sales__plus_cash_sales",
+   "fieldtype": "Currency",
+   "label": "Estimated Govt. Sales  plus Cash Sales"
+  },
+  {
+   "fieldname": "average_bad_debt_per_year",
+   "fieldtype": "Currency",
+   "label": "Average Bad Debt per Year"
+  },
+  {
+   "fieldname": "section_break_mvyfn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "options1",
+   "fieldtype": "Heading",
+   "label": "Options1"
+  },
+  {
+   "fieldname": "column_break_1p8yw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "options2",
+   "fieldtype": "Heading",
+   "label": "Options2"
+  },
+  {
+   "fieldname": "section_break_jpqwl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "upfront_discount",
+   "fieldtype": "Currency",
+   "label": "Upfront Discount%"
+  },
+  {
+   "fieldname": "proposed_prem_rate_after_discount",
+   "fieldtype": "Currency",
+   "label": "Proposed Prem. Rate after Discount"
+  },
+  {
+   "default": "0",
+   "fieldname": "expected_prem_at_std",
+   "fieldtype": "Currency",
+   "label": "Expected Prem. at Std"
+  },
+  {
+   "fieldname": "discount_offered",
+   "fieldtype": "Data",
+   "label": "Discount Offered"
+  },
+  {
+   "fieldname": "resultant_prem_income",
+   "fieldtype": "Currency",
+   "label": "Resultant Prem. Income"
+  },
+  {
+   "default": "0",
+   "fieldname": "allowable_claim_value",
+   "fieldtype": "Currency",
+   "label": "Allowable Claim Value%"
+  },
+  {
+   "default": "0",
+   "fieldname": "of_premium_received",
+   "fieldtype": "Currency",
+   "label": "Of Premium Received"
+  },
+  {
+   "fieldname": "premreceived_net_of_claims",
+   "fieldtype": "Currency",
+   "label": "Prem.Received Net of Claims"
+  },
+  {
+   "default": "0",
+   "fieldname": "retrospective_discount",
+   "fieldtype": "Currency",
+   "label": "Retrospective Discount%"
+  },
+  {
+   "default": "0",
+   "fieldname": "_net_premium_received",
+   "fieldtype": "Currency",
+   "label": "% Net Premium Received"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_discount_given",
+   "fieldtype": "Currency",
+   "label": "Total Discount Given"
+  },
+  {
+   "fieldname": "column_break_mml0g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_taecn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_9osem",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_3zbau",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hxupb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bqats",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lm66s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculate2",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "column_break_vkizx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_r2zos",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "discount_offered2",
+   "fieldtype": "Currency",
+   "label": "Discount Offered"
+  },
+  {
+   "default": "0",
+   "fieldname": "resultant_prem_income2",
+   "fieldtype": "Currency",
+   "label": "Resultant Prem. Income"
+  },
+  {
+   "default": "0",
+   "fieldname": "allowable_claim_value2",
+   "fieldtype": "Currency",
+   "label": "Allowable Claim Value%"
+  },
+  {
+   "default": "0",
+   "fieldname": "of_premium_received2",
+   "fieldtype": "Currency",
+   "label": "Of Premium Received"
+  },
+  {
+   "default": "0",
+   "fieldname": "premreceived_net_of_claims2",
+   "fieldtype": "Currency",
+   "label": "Prem.Received Net of Claims"
+  },
+  {
+   "default": "0",
+   "fieldname": "retrospective_discount2",
+   "fieldtype": "Currency",
+   "label": "Retrospective Discount%"
+  },
+  {
+   "default": "0",
+   "fieldname": "_net_premium_received2",
+   "fieldtype": "Currency",
+   "label": "% Net Premium Received"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_discount_given2",
+   "fieldtype": "Currency",
+   "label": "Total Discount Given"
+  },
+  {
+   "default": "0",
+   "fieldname": "upfront_discount2",
+   "fieldtype": "Currency",
+   "label": "Upfront Discount%"
+  },
+  {
+   "default": "0",
+   "fieldname": "proposed_prem_rate_after_discount2",
+   "fieldtype": "Currency",
+   "label": "Proposed Prem. Rate after Discount"
+  },
+  {
+   "default": "0",
+   "fieldname": "expected_prem_at_std2",
+   "fieldtype": "Currency",
+   "label": "Expected Prem. at Std"
+  },
+  {
+   "fieldname": "section_break_qor7j",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3w8k5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mkur8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "goods/services"
+  },
+  {
+   "fieldname": "proposal_no1",
+   "fieldtype": "Select",
+   "label": "Proposal Number"
+  },
+  {
+   "fieldname": "proposal_no2",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "status11",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "column_break_bw2yy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "of_the_turnover_options",
+   "fieldtype": "Currency",
+   "label": "of The Trunover"
+  },
+  {
+   "fieldname": "captured_on",
+   "fieldtype": "Date",
+   "label": "Captured On"
+  },
+  {
+   "fieldname": "credsure_profitloss_on_account",
+   "fieldtype": "Currency",
+   "label": "CREDSURE Profit/Loss on Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "credsure_profitloss_on_account_",
+   "fieldtype": "Currency",
+   "label": "CREDSURE Profit/Loss on Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "possible_declines_by_credsure",
+   "fieldtype": "Currency",
+   "label": "Possible Declines By CREDSURE @"
+  },
+  {
+   "fieldname": "column_break_g66pm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6qxni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_32ipl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2q84q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2hrk0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_7r9da",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lzq5p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "calculate3",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "column_break_bytmg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_c3hdk",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-11 13:19:52.467416",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "DCI Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

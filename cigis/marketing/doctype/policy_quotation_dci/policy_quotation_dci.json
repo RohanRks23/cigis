@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{to}-{YYYY}-{#####}",
+ "creation": "2025-11-05 11:22:28.655649",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "paragraph",
+  "to",
+  "of",
+  "paragraph1",
+  "paragraph3",
+  "section_break_bmb5w",
+  "definitions",
+  "section_break_xjome",
+  "sub1",
+  "section_break_w9ybf",
+  "provisos",
+  "section_break_nhhlj",
+  "sub2",
+  "section_break_cnaog",
+  "paragraph4",
+  "section_break_2wikg",
+  "paragraph5",
+  "column_break_hth5k",
+  "address",
+  "column_break_ri4l9",
+  "address1",
+  "section_break_gckmv"
+ ],
+ "fields": [
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<br>\n<p style=\"text-align: center;\">\nCREDIT INSURANCE ZIMBABWE LIMITED\n</p>"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "OF"
+  },
+  {
+   "fieldname": "paragraph1",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<p>WHEREAS the Insured has, by a Proposal in writing, applied to Credsure for an offer of Indemnity;</p>\n<p>AND WHEREAS the Insured has on the 10 day of Oct-2025 accepted Credsure\u2019s offer to give an indemnity as hereinafter provided:</p>\n<p>NOW THEREFORE subject to the terms and conditions herein contained Credsure agrees that in the event of the Insured\nsustaining a LOSS* (7) in respect of an INSURED DEBT* (4) for GOODS* (10) DELIVERED* (6) owed by an INSURED BUYER*\n(3), Credsure will indemnify the Insured in such percentage of the AMOUNT OF LOSS* (8) as is specified in Section 4 of the\nSchedule to this POLICY* (1) (hereinafter called \u201cthe Insured Percentage\u201d)</p>\n<p>* As defined</p>\n\n"
+  },
+  {
+   "fieldname": "paragraph3",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<p style=\"text-align: center;\">\nSIGNED FOR AND ON BEHALF OF CREDSURE, THIS.........day of ..........<br><br><br><br>\n--------------------------------------------<br>\nAuthorised Signatories</p>"
+  },
+  {
+   "fieldname": "section_break_bmb5w",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "definitions",
+   "fieldtype": "HTML",
+   "label": "DEFINITIONS",
+   "options": "<p style=\"text-align: center;\">DEFINITIONS</p>"
+  },
+  {
+   "fieldname": "sub1",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<p><b>1 POLICY</b></p>\n<p>The \u201cPolicy\u201d includes the Schedules to the Policy and any Credit Limit Annexures and Endorsements which are issued in\nconnection with the Policy and a reference to the Policy includes (where the context admits) a reference to such Schedules,\nCredit Limit Annexures and Endorsements.</p>\n<p><b>2 BUYER</b></p>\n<p>\"BUYER\" means any person (including any company, association, partnership or individual) - not being a subsidiary or\nassociated company of the Insured or a Government, Government Agency or Local Authority - carrying on business in\nZimbabwe to whom the Insured shall have contracted to deliver goods on credit pursuant to a contract of sales.</p>\n<p><b>3 INSURED BUYER</b></p>\n<p>'INSURED BUYER' shall mean a Buyer in respect of whom a Credit Limit is in force in terms of Proviso 10.</p>\n<p><b>4 INSURED DEBT</b></p>\n<p>An 'INSURED DEBT' is such amount owed to the Insured by the Insured Buyer as does not exceed the relevant Credit Limit in\nforce in terms of proviso 10 and is the gross invoice value of goods delivered on or after the date specified in Section 3 of the\nSchedule pursuant to a contract of sale providing for the payment of the debt upon terms normally granted to the Insured\nBuyer but in any event not more favourable to the Insured Buyer than are specified in Section 8 of the Schedule.</p>\n<p><b>5 CREDIT LIMIT</b></p>\n<p>A 'CREDIT LIMIT\u2019 is the maximum aggregate amount outstanding at any one time on a particular Insured Buyer which is\ncovered in terms of this Policy. Unless Credsure provides to the contrary, any Credit Limit approved in respect of a particular\nInsured Buyer supersedes and is not additional to any Credit Limit previously approved in respect of that Buyer under this\nPolicy.</p>\n<p><b>6 DELIVERED/DELIVERY</b></p>\n<p>'DELIVERED/DELIVERY' means any valid legal form of delivery of goods by or on behalf of, the Insured to an Insured buyer.\n</p>\n<p><b>7 LOSS</b></p><p>\n</p><p>'LOSS' means the amount of an Insured Debt not paid to the Insured by reason of any of the following causes:</p>\n<p><b>A. Insolvency</b></p>\n<p>The Insured Buyer\u2019s Insolvency shall for the purposes of this Policy be confined to any of the undermentioned events.<br>\n(i) A Provisional Compulsory Sequestration Order granted against the Estate of the Insured Buyer;<br>\n(ii) The acceptance by the Court of a Provisional Voluntary Surrender of the Insured Buyer\u2019s Estate;<br>\n(iii) A Provisional Winding-up Order against the Insured Buyer, if a company;<br>\n(iv) A Statutory Compromise or Scheme of Arrangement binding on the Insured Buyer and/or all the Insured Buyer\u2019s\ncreditors;<br>\n(v) A Provisional Judicial Management Order granted against the Insured Buyer.</p>\n<p><b>B. Protracted default</b></p>\n<p>'Protracted Default' means failure of the Insured Buyer to pay an undisputed Insured Debt, or part thereof, relating to\ngoods in respect of which the Insured Buyer has accepted delivery, at the end of four months after the due date or\npostponed due date (See Proviso 14) provided the Insured proves to Credsure, if so required, that such failure is not due\nto force majeure which prevents the transfer of payment from the Insured Buyer to the Insured, or to a law or regulation\nhaving the force of law which entitles or obliges the Insured Buyer to refuse payment.</p>\n<p>Provided however that for the purposes of the definition of \u2018LOSS\u2019 within the context of this Policy there shall be excluded\nany loss arising from a dispute, and/or actual or alleged breach of contract by the Insured irrespective of whether the said\ndispute or breach relates to the Insured debt or any other transaction between the Insured and the Insured Buyer.</p>\n<p><b>8 AMOUNT OF LOSS</b></p>\n<p>The \u2018AMOUNT OF LOSS\u2019 means the Insured Debt that has not been paid, minus:<br>\nA. The value of any securities, indemnities, guarantees and /or suretyships held by the Insured in respect of the\nInsured Debt and not required to be ceded to Credsure in terms of Proviso 21: and<br>\nB. The amount of any counter-claim or set-off to which the Insured Buyer is entitled and any other advantages\navailable to the Insured for the purposes of reducing the amount of the Insured debt; and<br>\nC. Any expenses saved by the Insured or any allowance, rebate or refund relating to the Insured Debt, to which the\nInsured is entitled owing to the occurrence of a Loss; and<br>\nD. Any part of the Insured Debt which represents interest payable by the Insured Buyer for credit facilities in respect\nof any period subsequent to payment of the claim by Credsure.</p>\n<p><b>9 SALVAGE</b></p>\n<p>\u2018SALVAGE\u2019 means any monies received after Credsure has indemnified the Insured, and available for the purpose of reducing\nthe Loss which was the subject of Credsure indemnity.</p>\n<p><b>10 GOODS</b></p>\n<p>\u2018GOODS\u2019 shall mean the goods specified in Section 2 of the Schedule.</p>\n"
+  },
+  {
+   "fieldname": "section_break_xjome",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_w9ybf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "provisos",
+   "fieldtype": "HTML",
+   "label": "PROVISOS",
+   "options": "<p style=\"text-align: center;\">PROVISOS</p>"
+  },
+  {
+   "fieldname": "section_break_nhhlj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub2",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<p><b> 1 CONDITION PRECEDENT</b></p>\n<p>The due compliance by the Insured with all the Terms, Conditions and Provisos of this Policy and the truth of the statements and answers in the Proposal and the Acceptance Advice shall be a Condition Precedent to any liability of Credsure to make any payments to the Insured under this Policy. No waiver of any of the said Provisions by Credsure shall be valid or binding\non Credsure unless made in writing.</p>\n<p><b>2 PROPOSAL AND ACCEPTANCE ADVICE</b></p>\n<p>A. The Proposal made by the Insured and the Acceptance Advice signed by the Insured and the statements contained\ntherein are expressly accepted by the Insured and Credsure as being of the essence of the contract contained in\nthe Policy, and by accepting the Policy the Insured warrants that the statements made in the Proposal and the\nAcceptance Advice were true at the date of the Proposal and at the date when Credsure agreed to issue the Policy, but\nthis warranty is not to be construed as limiting the obligation imposed on the Insured by law to disclose to Credsure all\nmaterial circumstances and generally to use the utmost good faith.<br><br>\nB. If any of the statements contained in the Proposal or the Acceptance Advice be untrue or incorrect in any respect, this\nPolicy shall be void but Credsure may retain any premium that has been paid.</p>\n<p><b>3 EXERCISING OF CARE</b></p>\n<p>A. It shall be the duty of the Insured to exercise reasonable and usual care, skill, forethought and prudence in granting\ncredit to an Insured Buyer and in particular the Insured shall take into consideration his experience of the Insured Buyer\u2019s account.<br><br>\nB. In the case where information obtained or experience gained concerning a Buyer is not sufficiently favourable to justify\ngranting credit to such Buyer (albeit within the credit limit prescribed in respect of such Buyer) with the judgement of a\nreasonable businessman, the Insured shall inform Credsure of the fact in writing.<br><br>\nC. The Insured shall immediately notify Credsure of any event coming to his notice which is not of general knowledge and\nwhich is likely to cause a Loss in terms of the Policy or which is likely to cause a significant deterioration of the risk or\nrisks covered by this Policy.<br><br>\nD. In any proceedings by the Insured against Credsure the onus shall be upon the Insured to show that he has complied\nwith the requirements of the Proviso.</p>\n<p><b>4 ALL BUYERS PRINCIPLE</b></p>\n<p>Unless agreed to the contrary in a Special Condition or an Endorsement to the Policy, the Insured shall offer for cover all\ndeliveries to Buyers which are effected on terms less favourable to the Insured than Cash on Delivery (COD), Cash Sales or\nDeliveries on Consignment.</p>\n<p><b>5 CURRENCY</b></p>\n<p>This Policy shall apply to any debt payable to the Insured in any currency as stipulated by the Reserve Bank of Zimbabwe.</p>\n<p><b>6 OWN RISK</b></p>\n<p>The Insured shall retain for his own account and uninsured:<br>\nA. Either the amount of the Minimum Retention stated in Section 5 of the Schedule or so much of the Amount of Loss as\nexceeds the Insured Percentage thereof whichever is the greater, and<br><br>\nB. So much of any indebtedness owing to the Insured by an Insured Buyer as exceeds the credit Limit in force in respect of\nsuch Insured Buyer.</p>\n<p><b>7 ASSIGNMENT OF RIGHTS</b></p>\n<p>Assignment by the Insured of any rights under this Policy shall note be valid unless the written consent of Credsure has first\nbeen obtained and the assignment has been noted, recorded and approved in writing by Credsure. Credsure\u2019s consent and\napproval shall not be unreasonably withheld.</p>\n<p><b>8 ALTERATIONS IN CONDITIONS OF COVER</b></p>\n<p>A. Credsure may at any time and at its sole discretion by notice in writing to the Insured stipulate that credit granted to a\nparticular buyer will not be insured under this Policy or that the cover granted in terms of this Policy is reduced or\nrestricted in respect of any particular Insured Buyer. However, any such exclusion, reduction, restriction or alteration\nshall not apply to any Insured Debt which arose before the date of such notice<br><br>\nB. Credsure may by giving written notice to the Insured vary the Premium Rate and/or the Insured Percentage or change\nany other terms and conditions of the Policy with effect from the date specified in such notice, which shall not be earlier\nthan 90 days from the first day of the calendar month immediately following that in which such notice is dated. Should\nthe Insured not be willing to accept such variation of the Premium Rate and/or the Insured Percentage or any other\nterms and conditions of the Policy, notice of such non-acceptance must be given by the Insured to Credsure within 30\ndays from the date of such notice as aforesaid in writing, failing which the Insured shall be deemed to have accepted\nsuch variation or change as the case may be. If the Insured gives written notice in terms of this clause the Policy shall\nbe terminated on the last day of the aforesaid notice period for such variation or change notwithstanding anything to the\ncontrary contained in Proviso 26 below and the Policy shall not cover any deliveries made by the Insured subsequent to\nthe aforesaid effective date.</p>\n<p><b>9 AUTOMATIC SUSPENSION OF COVER</b></p>\n<p>Unless Credsure agrees to the contrary in writing, this Policy shall not apply to the delivery of goods to an Insured Buyer\nmade when:<br>\nA. A Bill of Exchange or other negotiable instrument drawn on or made by such Buyer remains unpaid 15 days or more\nafter the original due date or if the original due date was postponed (in accordance with Proviso 14) then 15 days or\nmore after the postponed due date; or<br><br>\nB. In the case of goods delivered to an Insured Buyer on open account, any amount remains unpaid 60 days or more after\nthe original due date or if the original due date was postponed (in accordance with proviso 14) then 60 days or more\nafter the postponed due date;<br>\nIrrespective of whether the unpaid Bill of Exchange or other negotiable instrument or overdue amounts are Insured in\nterms of this Policy or not; or<br><br>\nC. The Insured has knowledge that any of the conditions specified under the Definition of \u2018LOSS\u2019 has happened or is about\nto happen.</p>\n<p><b>10 CREDIT LIMITS</b></p>\n<p>A. Credit Limits required by the Insured up to and including the amount specified in Section 6 of the Schedule and herein\nafter called the Limit of Discretion, shall be established by the Insured and subject to the Insured\u2019s particular compliance with paragraph B hereunder. Limits so established by the Insured shall be deemed to have been approved and issued by Credsure.<br><br>\nB. The Limit established by the Insured within the Limit of Discretion shall be justified by:-<br>\n(i) The Insured\u2019s favourable payment experience with a number of deliveries made on credit terms to the relevant Buyer during the immediately proceeding 12 months; or where only a single delivery or no deliveries at all were made during the immediately proceeding 12 months, by:-<br>\n(ii) The sum of information in writing about the relevant Buyer obtained by the Insured within a period of 6 months prior\nto the granting of the credit including information from the approved source(s) specified in Section 7 of the Schedule.<br><br>\nC. The Insured shall apply in good time to Credsure for credit Limits or for increases of existing Credit Limit required by the\nInsured for amounts above the Limit of Discretion. Such Credit Limits shall be established by Credsure within its\nabsolute discretion and shall only be of force and effect if confirmed in writing by Credsure in Annexures to this Policy.<br><br>\nD. Any indebtedness which related to goods delivered to an Insured Buyer, and which exceeds the Credit Limit in force (in\nterms of paragraphs A, B or C above) in respect of that Buyer, shall only be accommodated under such Credit Limit as\nsoon as and to the extent that the amount outstanding under the Credit Limit is paid to the Insured and provided that at\nthe time of such accommodation becoming available under the Credit Limit, in the manner described above, there was\nnothing adverse known to be Insured regarding the risk in question.<br><br>\nE. A credit Limit issued by Credsure shall apply to the level specified to deliveries made before, on or after the date it was\nissued provided:-<br>\n(i) that at the dates of the application for/and issue of the Credit Limit, no amounts owing by the Buyer were unpaid as\ndescribed in paragraphs A and B of Proviso 9 and/or no adverse information was known to the Insured about the\nBuyer, and<br>\n(ii) that the deliveries satisfy the other requirements of an Insured Debt; and<br>\n(iii) that the credit Limit was applied for prior to, or shortly after, delivery.</p>\n<p><b>11 REMITTANCES AND RECOVERIES</b></p>\n<p>A. Any payment made by or on behalf of an Insured Buyer to the Insured and any Recoveries from whatever source which\nin each case serves to reduce the Insured Buyer\u2019s indebtedness to the Insured before a cause of loss occurred, shall\nfor the purpose of this Policy, be deemed to liquidate such outstanding amounts as have fallen due first -\nnotwithstanding that the Insured Buyer may have declared that the remittance in question was in liquidation of an\noutstanding amount falling due at some later date.<br><br>\nB. Any payments made by an insured Buyer or Recoveries made after a cause of loss has occurred shall be deemed to\nliquidate the outstanding balance and, where part of this outstanding balance is not insured, the payments and amounts\nrecovered shall be deemed to liquidate the Insured and Uninsured outstanding balance pro rata.</p>\n<p><b>12 DECLARATIONS</b></p>\n<p>A. The Insured shall submit monthly declarations to Credsure showing:-<br><br>\n(i) The total of the balances outstanding and arising from deliveries made on or after the date specified in Section 3 of\nthe Schedule on all Insured Buyers on the day specified in Section 11 of the Schedule, such balances reduced to\nthe amounts of the Credit Limits, where in the cases of individual Insured Buyers, the balances owing exceed the\namounts of the respective Credit Limits.\nThe Insured shall be entitled to exclude from the total of the balances which is to be declared, any amounts which\nare unpaid more than three months after the due date (meaning the postponed date where applicable).<br>\n(ii) All amounts covered by this Policy which were not paid on due date (meaning the postponed due date where\napplicable) and have remained unpaid for longer than;<br>\n(a) 15 days in the case of amounts payable against acceptance Bills of Exchange or other negotiable instruments; and<br>\n(b) 60 days in the case of amounts payable in any other manner.<br><br>\nB. (i) The first declaration shall be submitted within 14 days of the end of the first month of\nthe Inception date specified in Section 3 of the Schedule. Subsequent declarations shall be submitted monthly\nthereafter by not later than the 14th day of each succeeding month.<br>\n(ii) If this Policy is terminated no further such declarations need be submitted in respect of balances outstanding on or\nafter the termination date as referred to in Proviso 26, but the Insured shall pay to Credsure an extra premium equal\nto the premium payable on the last amount declared in accordance with A (i) above.<br>\n(iii) The Insured shall continue after the termination of this Policy to submit the declarations referred to in A (ii) above,\nmonthly, for as long as any amount covered by this Policy remains wholly or partly unpaid.<br><br>\nC. The particulars to be declared in terms of this Proviso shall be those specified on the returns provided by Credsure for\nthe purposes of submitted declarations.</p>\n<p><b>13 PREMIUMS</b></p>\n<p>A. The premium payable under this Policy shall be the product of the balances to be declared in accordance with Proviso\n12 A (i) and the rate specified in Section 11 of the Schedules: subject to the minimum annual premium as specified in\nSection 12 of the Schedule.<br><br>\nB. Should the premium calculated in accordance with A above on balances outstanding at the end of the months falling\nwithin the 12 months period commencing on the Inception Date specified in Section 3 of the Schedule or within any sub\nsubsequent 12 months period, yield an amount below the minimum annual premium specified in Section 12 of the\nSchedule, the Insured shall pay to Credsure the shortfall in premium on presentation of Credsure\u2019s statement.<br><br>\nC. The Deposit Premium (specified in Section 10 of the Schedule) shall be paid by the Insured to Credsure before the\nissue of the Policy and shall be applied in reduction of premiums payable to Credsure from time to time. As soon as\npremium in excess of the Deposit Premium has become payable such additional premium shall be paid from time to\ntime by the Insured on presentation of Credsure\u2019s statement. Save that it shall be applied as aforesaid, the Deposit\nPremium is not refundable to the Insured.</p>\n<p><b>14 POSTPONEMENT OF PAYMENT</b></p>\n<p>The Insured shall not agree to a postponement of the date for payment of any Insured Debt without prior written\napproval of Credsure, provided, however, that in the event of the need for such postponement, arising at, or shortly\nbefore the due date, the Insured may grant a postponement not exceeding the Maximum Extension Period specified in\nSection 9 of the Schedule.</p>\n<p><b>15 NOTIFICATION - MITIGATION OF LOSSES</b></p>\n<p>In the event of an Insured Debt not being paid two months after due date (or postponed due date where applicable) or in the\nevent of an Insured Buyer being at any time to the knowledge of the Insured in financial difficulties or in the event of an\nInsured Buyer\u2019s insolvency, the Insured shall immediately notify Credsure and shall take all prudent and reasonable steps in\nconsultation with Credsure to mitigate the amount of any loss which the Insured may have incurred or may be likely to incur,\nincluding if so required by Credsure, the execution of such documents and the doing of such things as may be necessary to\ncollect or enable Credsure to collect the whole or any part of the amount owing. The Insured shall not prove any claim in the\ninsolvency of an Insured Buyer without Credsure\u2019s prior written approval.</p>\n<p><b>16 LEGAL PROCEEDINGS</b></p>\n<p>Credsure shall have the right to require that all legal proceedings for the purpose of preventing or mitigating a threatening loss and/or for the purpose of recovering the whole or any part of an Insured Debt from any person, shall be instituted in the name of the Insured and conducted by an Attorney and Counsel nominated by Credsure and at Credsure\u2019s sole discretion\nand direction as to the nature and disposal by settlement or otherwise of the said legal proceedings. The Insured shall not\ninstitute any legal proceedings for the recovery of an Insured\u2019s Debt without Credsure\u2019s express written approval.</p>\n<p><b>17 COST INCURRED TO PREVENT OR MITIGATE A LOSS</b></p>\n<p>A. Any costs incurred by the Insured in consultation with the express approval of Credsure for the purposes of preventing a\nthreatening loss or mitigating an actual loss in terms of this Policy will be indemnified by Credsure to the extent of its proportionate interest in such loss. Such indemnity will be paid at the same time as the indemnity in respect of the Insured Debt concerned or as soon as the Insured Debt is paid, whichever may be earlier.<br><br>\nB. Any costs incurred by Credsure for the purpose of preventing a threatening loss or mitigating an actual loss in terms of\nthis Policy, will be borne by the Insured to the extent of his proportionate interest in such loss. Credsure shall be entitled\nto deduct from any indemnity payable by it any amount outstanding in terms of this Clause. If no indemnity becomes\npayable by Credsure any amounts due to it shall be paid as soon as such fact has been established.<br><br>\nC. Costs referred to under A and B above shall include any legal costs incurred or arising from any proceedings which were\ncommenced but not necessarily concluded before the payment of an indemnity in respect of the Insured Debt concerned.</p>\n<p><b>18 PROTRACTED DEFAULT IN CASES OF DISPUTE</b></p>\n<p>In the event of an Insured Buyer disputing his indebtedness the period of 4 months shall not commence to run for the\npurposes of Protracted Default unless and until an award confirming the indebtedness to the Insured has been made by a\ncourt of law or a court of arbitration in terms of the arbitration procedure agreed upon between the Insured and the Insured\nBuyer. Notwithstanding the foregoing, where the Insured Buyer disputes his indebtedness and Credsure is of the opinion that\nthe grounds for such dispute are frivolous, Credsure may at its sole discretion agree that the period of 4 months shall\ncommence to run at an earlier point in time than specified above.</p>\n<p><b>19 OFFERS OF COMPROMISE</b></p>\n<p>The Insured shall forthwith notify Credsure in writing of any offer of compromise or composition whether statutory or\notherwise and whether made to the Insured or to the creditors of an Insured Buyer generally in respect of any Insured Debt\nand the Insured shall give effect to and carry out the instructions of Credsure in respect of such compromise or composition\nand the Insured shall not, without the prior written consent of Credsure.<br><br>\nA Accept or refrain from objecting to or voting against any such compromise or composition.<br><br>\nB Compromise with or agree to the release in whole or in part of any Insured Buyer or any Surety, Guarantor or Security.</p>\n<p><b>20 LODGING OF CLAIMS</b></p>\n<p>Upon the occurrence of a Loss the Insured shall be entitled to make a claim under the Policy in respect of any Insured Debt\nin such form as Credsure shall specify and Credsure shall indemnify the Insured on the basis provided in this Policy within 30 days after the Insured has accepted in writing the basis of settlement proposed by Credsure Such claim shall be considered\nfor settlement:-<br><br>\nA Immediately after Credsure has received confirmation that any one of the events defined in Definition 7A of the Policy has\nhappened; or<br><br>\nB Immediately after Protracted Default as defined in Definition 7B of the Policy has occurred.</p>\n<p><b>21 CESSION OF RIGHTS</b></p>\n<p>Contemporaneously with and as a condition precedent to payment of a claim by Credsure to the Insured, the Insured\nshall if so required by Credsure:-<br><br>\nA Cede and transfer to Credsure his rights under the contract(s) to which the claim relates and/or all his rights in or\nunder any guarantees, suretyships or securities in respect of the Insured Debt.<br><br>\nB Deliver up to Credsure any goods in respect of which such payment has been made and any documents relating\nthereto and cede and transfer to Credsure his rights and interest in any such goods and documents.</p>\n<p><b>22 COLLECTION OF SALVAGE</b></p>\n<p>After payment of a claim by Credsure the Insured shall if so required by Credsure take all steps, including the institution\nof proceedings, to effect recoveries whether from the Insured Buyer or from any Guarantor and/or other person from\nwhom such recoveries may be made. Upon collection by the Insured or by Credsure of any Salvage, Credsure and the\nInsured shall share in the net amount of such Salvage in the respective proportions in which they bore the loss sustained.\nThe costs of any action commenced after payment of a claim shall be borne by Credsure if there is no recovery.</p>\n<p><b>23 FRAUDULENT OR FALSE CLAIMS</b></p>\n<p>If the Insured wilfully makes a false or misleading statement in or in connection with this Policy or if the Insured makes\nany claim knowing it to be false or fraudulent as regards amount or in any manner whatsoever, or if any false or\nmisleading statement be made or used in support thereof, or if any fraudulent means or devices are used by the Insured\nor anyone acting on his behalf to obtain any benefit under the Policy, or if the loss be occasioned by the wilful act or with\nthe conivance of the Insured then this contract shall become void and all premiums paid by the Insured shall be forfeited,\nand any sums previously paid by Credsure under the Policy shall forthwith be repayable by the Insured to Credsure.</p>\n<p><b>24 REPUDIATION OF CLAIMS</b></p>\n<p>A The Insured shall be advised by registered letter of any claim lodged by the Insured for which Credsure does not\nadmit liability. Should the Insured fail to institute proceedings disputing Credsure\u2019s repudiation of such claim as\naforementioned in a Zimbabwean court of law within a period of six months after the date of posting of Credsure\u2019s\nrelevant advice, the Insured\u2019s rights to any further action in connection with the claim will be forfeited and Credsure\nwill be absolved from all liability in respect of the claim repudiated by it.<br><br>\nB Nor shall Credsure be liable for any claim which is not lodged within a period of one year after the date specified in\nsub-clauses A and B of Proviso 20.</p>\n<p><b>25 CO-OPERATION - TENDERING OF INFORMATION</b></p>\n<p>Credsure may at any time examine or take copies of any letters, accounts or other documents in the possession or\ncontrol of the Insured relating to or connected with this insurance or any transaction between the Insured and any Insured\nBuyer. The Insured shall within such reasonable time as may be specified by Credsure, supply Credsure with any\ninformation in its possession or take any reasonable steps to obtain for Credsure any information or sight of any\ndocuments in the possession of any third party relating to or connected with this insurance or any transaction between\nthe Insured and any Insured Buyer.</p>\n<p><b>26 TERMINATION OF POLICY</b></p>\n<p>Both Credsure and the Insured shall have the right to terminate this Policy, by giving three calendar months\u2019 notice to this effect per registered letter. Such notice of termination shall not be given before eight months from the Inception date of\nthe Policy as specified in Section 3 of the Schedule have lapsed except where Proviso 8 B applies and the termination\nwill be effective to deliveries made on or after the first day of the fourth month following the month during which such\nnotice was given (the termination date). The terms and conditions of this Policy remain binding on Credsure and the\nInsured in regard to all deliveries made before the termination date.</p>\n<p><b>27 STAMP DUTY</b></p>\n<p>It is provided that Stamp Duty payable in terms of the Stamp Duties Act in force from time to time shall be borne by the\nInsured who shall on presentation of Credsure\u2019s statement refund Credsure any such Stamp Duty paid by Credsure.</p>"
+  },
+  {
+   "fieldname": "section_break_cnaog",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph4",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_2wikg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph5",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_hth5k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_ri4l9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "section_break_gckmv",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 07:11:53.607947",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Policy Quotation DCI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -26,33 +26,43 @@
   {
    "fieldname": "reinsurename",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name",
+   "reqd": 1,
    "unique": 1
   },
   {
    "fieldname": "shortname",
    "fieldtype": "Data",
-   "label": "Short Name"
+   "in_list_view": 1,
+   "label": "Short Name",
+   "reqd": 1
   },
   {
    "fieldname": "physicaladdress",
    "fieldtype": "Data",
-   "label": "Physical Address"
+   "in_list_view": 1,
+   "label": "Physical Address",
+   "reqd": 1
   },
   {
    "fieldname": "city",
    "fieldtype": "Data",
-   "label": "City"
+   "in_list_view": 1,
+   "label": "City",
+   "reqd": 1
   },
   {
    "fieldname": "telephone",
    "fieldtype": "Data",
-   "label": "Telephone"
+   "label": "Telephone",
+   "reqd": 1
   },
   {
    "fieldname": "contactperson",
    "fieldtype": "Data",
-   "label": "Contact Person"
+   "label": "Contact Person",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_7phll",
@@ -62,18 +72,21 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "\nActive\nInActive"
+   "options": "\nActive\nInActive",
+   "reqd": 1
   },
   {
    "fieldname": "postaladdress",
    "fieldtype": "Data",
-   "label": "Postal Address"
+   "label": "Postal Address",
+   "reqd": 1
   },
   {
    "fieldname": "country",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Country",
-   "options": "\nABU DHABI\nAJMAN\nANDORRA\nANGOLA\nANGUILLA\nANTIGUA&BARBUDA\nARGENTINA\nARUBA\nASCENSION ISLAND\nAUSTRALIA\nAUSTRIA\nAZORES\nBAHAMAS\nBAHRAIN\nBARBADOS\nBELGIUM\nBELIZE\nBERMUDA\nBOLIVIA\nBOTSWANA\nBRAZIL\nBRUNEI\nCANADA\nCANARY ISLANDS\nCAYMAN ISLANDS\nCEUTA&MELILLA\nCHANNEL ISLANDS\nCHILE\nCHINA\nCHRISTMAS ISLANDS\nCOCOS ISLANDS\nCOLOMBIA\nCONGO DRC\nCOOK ISLANDS\nCYPRUS\nCZECH REPUBLIC\nDENMARK\nDOMINICAN REPUBLIC\nDUBAI\nECUADOR\nEGYPT\nEI SALVADOR\nEIRE\nFALKLAND ISLANDS\nFAROE ISLANDS\nFIJI\nFINLAND\nFRANCE\nFRENCH GUINEA\nFRENCH POLYNESIA\nFUJAIRAH\nGERMANY\nGHANA\nGIBRALTAR\nGREECE\nGREENLAND\nGRENADA\nGUADELOUPE\nGUAM\nGUATEMALA\nHONDURAS\nHONG KONG\nHUNGARY\nICELAND\nINDIA\nISLE OF MAN\nISRAEL\nITALY\nJAMAICA\nJAPAN\nJORDAN\nKENYA\nKIRIBATI\nKOREA(SOUTH)\nKUWAIT\nLAOS\nLIECHTENSTEIN\nLUXEMBOURG\nMACAO\nMADEIRA\nMALAWI\nMALAYSIA\nMALDIVES\nMALTA\nMARSHALL ISLANDS\nMARTINIQUE\nMAURITIUS\nMAYOTTE\nMEXICO\nMICRONESIA, FEDERATED STATES OF\nMONACO\nMONTSERRAT\nMOROCCO\nMOZAMBIQUE\nNAMBIA\nNETHERLANDS\nNETHERLANDS ANTILLES\nNEW CALEDONIA\nNEW ZEALAND\nNICARAGUA\nNIUE\nNORFOLK ISLANDS\nNORTHERN MARIANA ISLANDS\nNORWAY\nOMAN\nPAKISTAN\nPALAU\nPANAMA\nPARAGUAY\nPHILIPPINES\nPITCAIRN ISLAND\nPOLAND\nPORTUGAL\nPUERTO RICO\nQATAR\nRAS AL KHAIMAH\nREUNION\nSAINT LUCIA\nSAINT VINCENT & THE GRENADINES\nSAMOA, AMERICAN\nSAMOA, WESTERN\nSAN MARINO\nSAUDI ARABIA\nSENEGAL\nSEYCHELLES\nSHARJAH\nSINGAPORE\nSOLOMON ISLANDS\nSOUTH AFRICA\nSOUTH GEORGIA & SOUTH SANDWICH ISLANDS\nSPAIN\nSRI LANKA\nST PIERRE & MIQUELON\nST. HELENA\nST. KITTS & NEVIS\nSWAZILAND\nSWEDEN\nSWITZERLAND\nTAIWAN\nTHAILAND\nTOKELAU\nTONGA\nTRINIDAD AND TOBAGO\nTRISTAN DA CUNHA\nTUNISIA\nTURKEY\nTURKS AND CAICOS ISLANDS\nTUVALU\nUMM AL QUWAIN\nUNITED KINGDOM\nUNITED STATES OF AMERICA\nURUGUAY\nVANUATU\nVATICAN CITY\nVIRGIN ISLANDS BRITISH\nVIRGIN ISLANDS, US\nWALLIS & FORTUNA ISLANDS\nYEMEN\nZAMBIA\nZIMBABWE\nNULL"
+   "options": "Country Details",
+   "reqd": 1
   },
   {
    "fieldname": "fax",
@@ -93,7 +106,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-25 06:21:43.034185",
+ "modified": "2025-10-30 12:30:43.702486",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "ReInsurers Details",

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{####}",
  "creation": "2024-04-02 10:00:51.259288",
  "default_view": "List",
  "doctype": "DocType",
@@ -17,12 +18,12 @@
  "fields": [
   {
    "fieldname": "minturnover",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Min Turnover"
   },
   {
    "fieldname": "maxturnover",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Max Turnover"
   },
   {
@@ -31,27 +32,28 @@
   },
   {
    "fieldname": "mindiscount",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Min Discount"
   },
   {
    "fieldname": "maxdiscount",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Max Discount"
   },
   {
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "ACTIVE\nINACTIVE"
+   "options": "\nACTIVE\nINACTIVE"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-02 10:00:51.259288",
+ "modified": "2025-09-30 09:34:57.705568",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Premium Discount",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

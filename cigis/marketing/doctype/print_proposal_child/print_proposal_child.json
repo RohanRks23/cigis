@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-29 10:55:56.795673",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "financial_year_ending",
+  "turnover",
+  "bad_debt_losses_total",
+  "largest_individual_loss",
+  "name_of_largest_individual_loss"
+ ],
+ "fields": [
+  {
+   "fieldname": "financial_year_ending",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Financial Year Ending"
+  },
+  {
+   "fieldname": "turnover",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": " Turnover US$"
+  },
+  {
+   "fieldname": "bad_debt_losses_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Bad Debt Losses (Total) US$"
+  },
+  {
+   "fieldname": "largest_individual_loss",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Largest Individual Loss US$"
+  },
+  {
+   "fieldname": "name_of_largest_individual_loss",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Largest individual Loss"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-08 09:37:57.966153",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

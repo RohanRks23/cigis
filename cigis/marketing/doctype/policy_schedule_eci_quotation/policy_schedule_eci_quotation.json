@@ -1,0 +1,219 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_of_insured}-{YYYY}-{#####}",
+ "creation": "2025-11-05 10:14:08.418617",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "paragraph",
+  "section_break_gsc3u",
+  "telephone",
+  "column_break_47dsd",
+  "fax",
+  "section_break_rrz3p",
+  "heading",
+  "section_break_ba0je",
+  "policy_number",
+  "quotation_number",
+  "proposal_no",
+  "date",
+  "name_of_insured",
+  "address",
+  "description_of_goods",
+  "from",
+  "notice_date",
+  "maximum_liability",
+  "deposit_premium",
+  "revenue_stamps",
+  "policy_table",
+  "section_break_kz7n7",
+  "paragraph1",
+  "section_break_q6rcz",
+  "paragraph2",
+  "column_break_kk1cr",
+  "address1",
+  "column_break_ljwxn",
+  "address2",
+  "section_break_vtjob"
+ ],
+ "fields": [
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p style=\"text-align: center;\">\nCREDIT INSURANCE ZIMBABWE LIMITED\n</p>"
+  },
+  {
+   "fieldname": "section_break_gsc3u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "column_break_47dsd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "section_break_rrz3p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<p style=\"text-align: center;\">\nSCHEDULE REFERRED TO IN AND FORMING PART OF:\n</p>"
+  },
+  {
+   "fieldname": "section_break_ba0je",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "name_of_insured",
+   "fieldtype": "Data",
+   "label": "Name of Insured"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "description_of_goods",
+   "fieldtype": "Data",
+   "label": "Description of goods"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "notice_date",
+   "fieldtype": "Date",
+   "label": "Notice Date"
+  },
+  {
+   "fieldname": "maximum_liability",
+   "fieldtype": "Data",
+   "label": "Maximum Liability"
+  },
+  {
+   "fieldname": "deposit_premium",
+   "fieldtype": "Data",
+   "label": "Deposit Premium"
+  },
+  {
+   "fieldname": "revenue_stamps",
+   "fieldtype": "Data",
+   "label": "Revenue Stamps"
+  },
+  {
+   "fieldname": "section_break_kz7n7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_q6rcz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph2",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_kk1cr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_ljwxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "section_break_vtjob",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy No",
+   "unique": 1
+  },
+  {
+   "fieldname": "policy_table",
+   "fieldtype": "Table",
+   "options": "policy schedule Child ECI"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation",
+   "unique": 1
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Proposal Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-01 07:40:49.159293",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Policy Schedule ECI Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

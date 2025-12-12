@@ -1,20 +1,18 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{to}",
+ "autoname": "format:{client}-{YYYY}-{#####}",
  "creation": "2024-05-21 13:36:35.558965",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
-  "column_break_5npzv",
-  "address1",
   "section_break_nmsuc",
   "rejection",
   "section_break_dkz6h",
   "section_break_ysoig",
+  "client",
   "to",
   "from",
   "date",
@@ -26,22 +24,6 @@
   "information"
  ],
  "fields": [
-  {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "Image",
-   "options": " <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
-  },
-  {
-   "fieldname": "column_break_5npzv",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "address1",
-   "fieldtype": "HTML",
-   "label": "Address",
-   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance and Guarantee <br>Company(Botswana)Pty.Ltd. <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana<br>\nUnit 1, Plot 142 Gaborone International Finance Park<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017<br>\nEmail: beci@beci.co.bw<br>  \nWebsite: <a href=\"http://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>"
-  },
   {
    "fieldname": "section_break_nmsuc",
    "fieldtype": "Section Break"
@@ -94,7 +76,7 @@
   },
   {
    "fieldname": "section_break_ns16p",
-   "fieldtype": "Section Break"
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "section_break_ggkxv",
@@ -104,14 +86,20 @@
    "fieldname": "information",
    "fieldtype": "Data",
    "label": "We regret to inform you that, your proposal has been rejected due to  the following reasons:"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Client"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-26 06:37:41.020900",
+ "modified": "2025-11-25 07:02:16.664333",
  "modified_by": "Administrator",
  "module": "Marketing",
- "name": "ECI_Rejection_Letter",
+ "name": "ECI Rejection Letter",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

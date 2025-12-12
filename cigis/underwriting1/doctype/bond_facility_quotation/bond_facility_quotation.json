@@ -1,8 +1,7 @@
 {
- "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:name1",
+ "autoname": "field:quotation_no",
  "creation": "2024-02-27 09:01:36.392509",
  "default_view": "List",
  "doctype": "DocType",
@@ -25,6 +24,12 @@
   "bond_facility_limit4",
   "net_bond_facility",
   "column_break_r2gxm",
+  "c1",
+  "c2",
+  "c3",
+  "c4",
+  "c5",
+  "column_break_tpwrt",
   "security_percentage_for_limit_1",
   "security_percentage_for_limit_2",
   "security_percentage_for_limit_3",
@@ -74,10 +79,8 @@
   },
   {
    "fieldname": "name1",
-   "fieldtype": "Link",
-   "label": "  Name",
-   "options": "Company-Details",
-   "unique": 1
+   "fieldtype": "Select",
+   "label": "  Name"
   },
   {
    "fieldname": "quotation_date",
@@ -98,7 +101,8 @@
   {
    "fieldname": "quotation_no",
    "fieldtype": "Data",
-   "label": "Quotation No"
+   "label": "Quotation No",
+   "unique": 1
   },
   {
    "fieldname": "section_break_qsgwn",
@@ -136,7 +140,8 @@
   {
    "fieldname": "net_bond_facility",
    "fieldtype": "Data",
-   "label": "Net bond Facility"
+   "label": "Net bond Facility",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_r2gxm",
@@ -173,27 +178,27 @@
   },
   {
    "fieldname": "note1",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Note"
   },
   {
    "fieldname": "note2",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Note"
   },
   {
    "fieldname": "note3",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Note"
   },
   {
    "fieldname": "note4",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Note"
   },
   {
    "fieldname": "note5",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Note"
   },
   {
@@ -260,7 +265,7 @@
   },
   {
    "fieldname": "reinsurer_feedback",
-   "fieldtype": "Select",
+   "fieldtype": "Long Text",
    "label": "ReInsurer FeedBack"
   },
   {
@@ -276,6 +281,7 @@
   {
    "fieldname": "quotation_authorized_by",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Quotation Authorized By"
   },
   {
@@ -291,7 +297,7 @@
    "fieldname": "send_to",
    "fieldtype": "Select",
    "label": "Send to",
-   "options": "SELECT\nbdube\nramalefo\ngoaboane\nagreey\nHaroldk\nkeletso\nmurphy\nvalerie\ncowell\npearl\nFaith\nMicus"
+   "options": "SELECT\nUnderWriting Manager\nGeneral Manager\nReinsurer\nFinance Manger\nMarketing Manager"
   },
   {
    "fieldname": "column_break_lg95e",
@@ -315,11 +321,35 @@
   {
    "fieldname": "column_break_pwves",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "c1",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "c2",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "c3",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "c4",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "c5",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "column_break_tpwrt",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-10 06:51:26.130397",
+ "modified": "2025-11-10 07:24:01.002016",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Bond Facility Quotation",

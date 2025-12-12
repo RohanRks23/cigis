@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Debt_History_Child(Document):
+class DebtHistoryChild(Document):
 	pass

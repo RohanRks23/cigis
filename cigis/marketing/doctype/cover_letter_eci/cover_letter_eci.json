@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-04 17:26:47.243128",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "to",
+  "date",
+  "address",
+  "attention",
+  "dear_sirs",
+  "section_break_p4t05",
+  "re_domestic_credit_insurance_quotation",
+  "column_break_b4rgb",
+  "credit",
+  "section_break_w3e6x",
+  "quotation",
+  "t_g_mlambo"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "Attention"
+  },
+  {
+   "fieldname": "dear_sirs",
+   "fieldtype": "HTML",
+   "label": "Dear Sirs",
+   "options": "<p style=\"text-align: left;\">Dear Sirs</p>"
+  },
+  {
+   "fieldname": "section_break_p4t05",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "re_domestic_credit_insurance_quotation",
+   "fieldtype": "HTML",
+   "label": "RE DOMESTIC CREDIT INSURANCE QUOTATION",
+   "options": "RE: DOMESTIC CREDIT INSURANCE QUOTATION"
+  },
+  {
+   "fieldname": "section_break_w3e6x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">We thank you for your completed Proposal Form and now have pleasure in enclosing our Quotation \nfor your consideration.<br><br>\nThe Insured Percentage has been set at 85%, being the level of indemnity payable in the event of a claim and the Maximum\nLiability at US$25.00, being the maximum amount that will be paid in any one insurance year. The figure is however, adjustable\nin keeping with your export performance.<br><br>\nWe are pleased to advise that we will be in a position to cover your Buyer. Should our Quotation be acceptable to yourselves,\nkindly sign and return one copy of the enclosed Acceptance Advice together with your payment of US$1,000.00 in respect of\nDeposit Premium and Revenue Stamps. The Deposit Premium will be credited to your account, and will be offset against any\nfuture premiums raised. The premium payable can be worked out by applying the rates set out on the Schedule to the Specimen Policy onto the monthly declared shipments, depending on the payment terms.<br><br>\nWe trust the above is in order and look forward to your further advices in due course.<br><br>\nYours faithfully<br>\nfor CREDSURE<br><br>\n</p>"
+  },
+  {
+   "fieldname": "t_g_mlambo",
+   "fieldtype": "Data",
+   "label": "T G MLAMBO"
+  },
+  {
+   "fieldname": "column_break_b4rgb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "OUR REF"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-05 09:18:06.153207",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "cover letter ECI",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

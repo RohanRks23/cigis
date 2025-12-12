@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-21 09:46:20.078035",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "recpt_no",
+  "amtreceived",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "recpt_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Recpt. No."
+  },
+  {
+   "fieldname": "amtreceived",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amt.Received"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-26 07:05:23.758381",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "CI Recoveries Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

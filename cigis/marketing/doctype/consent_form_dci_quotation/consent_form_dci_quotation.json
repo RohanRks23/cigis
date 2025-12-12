@@ -1,0 +1,213 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{company_name}-{YYYY}-{#####}",
+ "creation": "2025-11-01 08:10:26.037969",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "to",
+  "of",
+  "sub1",
+  "company_name",
+  "bankbranch",
+  "account_number",
+  "designation",
+  "signature",
+  "sub2",
+  "section_break_m09ws",
+  "section_break_r7eok",
+  "section_break_w6g3g",
+  "section_break_modp7",
+  "sub4",
+  "section_break_tu6mk",
+  "section_break_miv6o",
+  "date",
+  "section_break_pfkq0",
+  "section_break_74b8s",
+  "section_break_1eyme",
+  "sub3",
+  "section_break_dbn0f",
+  "paragraph",
+  "column_break_zsmvj",
+  "address1",
+  "column_break_gvvne",
+  "address",
+  "section_break_ilrxp",
+  "section_break_uyvc1"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nCONSENT FORM TO REQUEST BANK REPORT\n</p><p></p>"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "OF"
+  },
+  {
+   "fieldname": "sub1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nHereby give CREDSURE authority to obtain a bank report on the business account of\n</p><p></p>"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "bankbranch",
+   "fieldtype": "Data",
+   "label": "Bank/Branch"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Data",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "sub2",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p>\nWe also give the Bank authority to debit the company\u2019s account with the relevant charge for the Bank\nreport.\n</p><p>\n\n\n</p>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "sub3",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "sub4",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nCompany Stamp\n</p><p></p>"
+  },
+  {
+   "fieldname": "section_break_m09ws",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_r7eok",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_w6g3g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_miv6o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_tu6mk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_pfkq0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_dbn0f",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_zsmvj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_gvvne",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "section_break_ilrxp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_modp7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_74b8s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_1eyme",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_uyvc1",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 07:05:38.007838",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Consent Form DCI Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,220 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{bond_no}",
+ "creation": "2024-03-19 11:47:33.223381",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_claims_tab",
+  "bond_details",
+  "section_break_qlxgl",
+  "client",
+  "client1",
+  "bond_no",
+  "bond_no1",
+  "principal",
+  "project",
+  "bond_period_from",
+  "bond_value",
+  "policy_type",
+  "column_break_savnd",
+  "date",
+  "description",
+  "bond_period_to",
+  "claim_ref_no",
+  "reinsurer",
+  "section_break_kcaia",
+  "bond_claim_check_list_item",
+  "demand_letter",
+  "contractor_final_account_report",
+  "section_break_mstec",
+  "claim_details",
+  "section_break_h1v1s",
+  "reason",
+  "details",
+  "column_break_dnt2z",
+  "value"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_claims_tab",
+   "fieldtype": "Tab Break",
+   "label": "Bond Claims"
+  },
+  {
+   "fieldname": "bond_details",
+   "fieldtype": "HTML",
+   "label": "Bond Details",
+   "options": "<h5>Bond Details</h5>"
+  },
+  {
+   "fieldname": "section_break_qlxgl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Select",
+   "label": "Client "
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Data",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "bond_value",
+   "fieldtype": "Data",
+   "label": "Bond Value"
+  },
+  {
+   "fieldname": "column_break_savnd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Data",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Data",
+   "label": "Claim Reference Number"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "Reinsurer"
+  },
+  {
+   "fieldname": "section_break_kcaia",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bond_claim_check_list_item",
+   "fieldtype": "HTML",
+   "label": "Bond Claim Check List Item",
+   "options": "<h5>Bond Claim Check List Item</h5>"
+  },
+  {
+   "default": "0",
+   "fieldname": "demand_letter",
+   "fieldtype": "Check",
+   "label": "Demand Letter",
+   "options": " "
+  },
+  {
+   "fieldname": "section_break_mstec",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "claim_details",
+   "fieldtype": "HTML",
+   "label": "Claim Details",
+   "options": "<h5>Claim Details</h5>"
+  },
+  {
+   "fieldname": "section_break_h1v1s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reason",
+   "options": "\nEXCLUSIONS\nINSOLVENCY\nOTHERS\nPROTRACTED DEFAULT",
+   "reqd": 1
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "column_break_dnt2z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Value",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "contractor_final_account_report",
+   "fieldtype": "Check",
+   "label": "Contractor Final Account Report"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Bond Type"
+  },
+  {
+   "fieldname": "bond_no",
+   "fieldtype": "Select",
+   "label": "Bond Number"
+  },
+  {
+   "fieldname": "bond_no1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Bond Number"
+  },
+  {
+   "fieldname": "client1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "client"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-19 09:08:25.340950",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Bond Claims",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

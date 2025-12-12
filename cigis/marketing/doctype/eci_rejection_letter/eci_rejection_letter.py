@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class ECI_Rejection_Letter(Document):
+class ECIRejectionLetter(Document):
 	pass

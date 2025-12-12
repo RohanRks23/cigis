@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2024-03-18 07:21:00.630914",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "shortname",
+  "postaladdress",
+  "location",
+  "physicaladdress",
+  "location1",
+  "telephone",
+  "fax",
+  "column_break_wqwgl",
+  "status",
+  "country",
+  "vatregistrationno",
+  "contactperson",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Select",
+   "label": "Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "EMail"
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "ShortName"
+  },
+  {
+   "fieldname": "postaladdress",
+   "fieldtype": "Data",
+   "label": "Postal Address "
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "physicaladdress",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "location1",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "column_break_wqwgl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "vatregistrationno",
+   "fieldtype": "Data",
+   "label": "Vat Registration No"
+  },
+  {
+   "fieldname": "contactperson",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "options": "ACTIVE\nINACTIVE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-03 10:58:25.343767",
+ "modified_by": "Administrator",
+ "module": "Insured_Module",
+ "name": "Insured_Main",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

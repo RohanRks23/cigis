@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}-{YYYY}-{#####}",
+ "creation": "2025-11-01 08:19:31.560709",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sub1",
+  "client_name",
+  "address",
+  "column_break_tzuxw",
+  "section_break_gsqsv",
+  "sub2",
+  "sec1",
+  "paragraph1",
+  "sec2",
+  "paragraph2",
+  "paragraph3",
+  "sub4",
+  "column_break_tphby",
+  "section_break_xsple",
+  "date",
+  "section_break_nzepq",
+  "paragraph",
+  "section_break_manbk",
+  "sub",
+  "column_break_neshi",
+  "address1",
+  "column_break_qux0s",
+  "address2"
+ ],
+ "fields": [
+  {
+   "fieldname": "sub1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nCREDIT INSURANCE ZIMBABWE LIMITED\n</p><p></p>"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "sub2",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "Dear Sir"
+  },
+  {
+   "fieldname": "paragraph1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<p>\nWe acknowledge receipt of your Specimen Domestic Credit Insurance Policy and Quotation dated 29-Oct-2025</p>\n<p>\nwhich was issued to us for consideration in connection with our application.</p>\n<p>\nWe herewith accept your Quotation and instruct you to proceed with the issue of the Policy as per the\nQuotation. Our payment for USD 0.00 to cover the Deposit Premium and Revenue Stamps is enclosed.</p>\n<p>\nWe certify :\n</p><p>\n(a) That we have not insured and will not insure elsewhere any part of the purchase price receivable under any contract of\nsale insured in terms of your Policy (the Uninsured Percentage).</p>\n<p>\n(b) That we have not insured and will not insure elsewhere any amounts receivable in respect of contracts of sale which\nshould be insured under your Policy (Whole Turnover).</p>\n<p>\n(c) That we are not aware of any circumstances relating to any particular buyer or transaction which might adversely influence\nyour acceptance of any risks submitted to you.\n</p>\n<p>\n(d) That the representations made and facts stated by us in the Proposal Form are true and complete and that we agree that\nsuch representations and facts shall form the basis of and be incorporated in the Policy, and that the truth of such\nrepresentations and facts shall be a condition precedent to any liability of Credit Insurance Zimbabwe Limited there under.</p>"
+  },
+  {
+   "fieldname": "paragraph2",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "Yours Faithfully"
+  },
+  {
+   "fieldname": "paragraph3",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "\n<br><br><br>\nSigned ...........................\n<br><br>"
+  },
+  {
+   "fieldname": "sub4",
+   "fieldtype": "Small Text",
+   "label": "For and on behalf of :",
+   "options": "\n"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "sec1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sec2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tzuxw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_gsqsv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tphby",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_xsple",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_nzepq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_manbk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_neshi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_qux0s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 07:06:50.334028",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Acceptance Form DCI Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

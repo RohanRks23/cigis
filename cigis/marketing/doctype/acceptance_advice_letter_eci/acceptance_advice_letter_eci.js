@@ -1,7 +1,7 @@
 // Copyright (c) 2024, SAiS and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Acceptance Advice letter_ECI', {
+frappe.ui.form.on('Acceptance Advice Letter ECI', {
 	refresh: function(frm) {
         console.log("Acceptance letter");
 

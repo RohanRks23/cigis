@@ -1,0 +1,223 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_of_insured}-{YYYY}-{#####}",
+ "creation": "2025-10-30 06:48:00.982222",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "schedule",
+  "section_break_vh6m5",
+  "policy_no",
+  "name_of_insured",
+  "quotation_number",
+  "address",
+  "description_of_goods",
+  "period_for_shipment_of_goods",
+  "insured_percentage",
+  "minimum_retention",
+  "limit_of_discretion",
+  "aproved_sources_of_information",
+  "maximum_terms_of_payment",
+  "maximum_extention_period",
+  "deposit_premium",
+  "premium_rate",
+  "minimum_annual_premium",
+  "column_break_xjxq5",
+  "section_break_g3tc8",
+  "column_break_2tqz1",
+  "column_break_cvq4x",
+  "signed_for_and_on_behalf_of_credsure",
+  "authorised_signatories",
+  "section_break_tcd2g",
+  "sub3",
+  "section_break_msbgn",
+  "paragraph",
+  "column_break_xcqcj",
+  "address1",
+  "column_break_9pbe2",
+  "address2"
+ ],
+ "fields": [
+  {
+   "fieldname": "schedule",
+   "fieldtype": "HTML",
+   "label": "Schedule",
+   "options": "\n    <title>Centered and Capitalized Heading</title>\n    \n\n\n\n    <h4 style=\"text-align: center ;\">SCHEDULE</h4>\n    <h3 style=\"text-align: center ;\">SCHEDULE REFERRED TO IN AND FORMING PART OF:</h3>"
+  },
+  {
+   "fieldname": "section_break_vh6m5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "POLICY No"
+  },
+  {
+   "fieldname": "name_of_insured",
+   "fieldtype": "Data",
+   "label": "NAME OF INSURED"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "description_of_goods",
+   "fieldtype": "Data",
+   "label": "DESCRIPTION OF GOODS"
+  },
+  {
+   "fieldname": "period_for_shipment_of_goods",
+   "fieldtype": "Data",
+   "label": "PERIOD FOR SHIPMENT OF GOODS(Being the inception date)"
+  },
+  {
+   "fieldname": "insured_percentage",
+   "fieldtype": "Data",
+   "label": "INSURED PERCENTAGE"
+  },
+  {
+   "fieldname": "minimum_retention",
+   "fieldtype": "Data",
+   "label": "MINIMUM RETENTION"
+  },
+  {
+   "fieldname": "limit_of_discretion",
+   "fieldtype": "Data",
+   "label": "LIMIT OF DISCRETION"
+  },
+  {
+   "fieldname": "aproved_sources_of_information",
+   "fieldtype": "Data",
+   "label": "APPROVED SOURCE(S) OF INFORMATION"
+  },
+  {
+   "fieldname": "maximum_terms_of_payment",
+   "fieldtype": "Data",
+   "label": "MAXIMUM TERMS OF PAYMENT(Excluding Extensions)"
+  },
+  {
+   "fieldname": "maximum_extention_period",
+   "fieldtype": "Data",
+   "label": "MAXIMUM EXTENTION PERIOD"
+  },
+  {
+   "fieldname": "deposit_premium",
+   "fieldtype": "Data",
+   "label": "DEPOSIT PREMIUM"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "PREMIUM RATE On the insured balances outstanding on the last accounting day of each month"
+  },
+  {
+   "fieldname": "minimum_annual_premium",
+   "fieldtype": "Data",
+   "label": "MINIMUM ANNUAL PREMIUM"
+  },
+  {
+   "fieldname": "signed_for_and_on_behalf_of_credsure",
+   "fieldtype": "HTML",
+   "label": "SIGNED for and on behalf of Credsure",
+   "options": "<p style=\"text-align: right;\">SIGNED for and on behalf of Credsure<br></p>"
+  },
+  {
+   "fieldname": "authorised_signatories",
+   "fieldtype": "Signature",
+   "label": "Authorised Signatories",
+   "options": "<p style=\"text-align: left;\">Authorised Signatories</p>"
+  },
+  {
+   "fieldname": "column_break_xjxq5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_g3tc8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2tqz1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cvq4x",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_tcd2g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub3",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_msbgn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_xcqcj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_9pbe2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 07:03:16.549413",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Schedule Goods and Services DCI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

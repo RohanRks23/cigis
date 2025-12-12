@@ -1,0 +1,675 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{registered_name}-{####}",
+ "creation": "2025-10-30 09:01:21.811118",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "title",
+  "section_break_ktudh",
+  "registered_name",
+  "section_break_85zsz",
+  "physical_address",
+  "section_break_pbakp",
+  "postal_adress",
+  "column_break_wtmib",
+  "section_break_wmpcb",
+  "telephone",
+  "section_break_ydybw",
+  "column_break_rabsh",
+  "fax",
+  "column_break_cc0cw",
+  "registration_no",
+  "column_break_la3ru",
+  "column_break_jgjda",
+  "date_business_commenced",
+  "section_break_trtdt",
+  "nature_of_business",
+  "section_break_tdkfm",
+  "title2",
+  "section_break_pzisu",
+  "group_company",
+  "section_break_vsn3g",
+  "title3",
+  "section_break_3yeby",
+  "director_table",
+  "section_break_z50rg",
+  "title4",
+  "section_break_fd9na",
+  "company_table",
+  "section_break_1xzgk",
+  "title5",
+  "section_break_vxlfd",
+  "bankers",
+  "accno",
+  "period_with_bank",
+  "cash_balance_p",
+  "investments_p",
+  "column_break_8xlfr",
+  "overdraft_facility_usd",
+  "overdraft_used_usd",
+  "how_secured",
+  "bank_guarantee_facility_usd",
+  "guarantee_outstanding_usd",
+  "other_bankers",
+  "section_break_arsng",
+  "title6",
+  "section_break_48h1h",
+  "personel_table",
+  "section_break_dduzg",
+  "title7",
+  "section_break_sk1d7",
+  "1",
+  "column_break_mjtzy",
+  "data3",
+  "section_break_iub39",
+  "2",
+  "column_break_dktki",
+  "data4",
+  "section_break_tv8um",
+  "3",
+  "column_break_ymn4l",
+  "data6",
+  "section_break_cbioh",
+  "4",
+  "column_break_d3mp0",
+  "data5",
+  "section_break_1kizf",
+  "title8",
+  "section_break_opv7s",
+  "current_table",
+  "section_break_wsybg",
+  "title9",
+  "section_break_krgxe",
+  "facility_required",
+  "to_replace_existing_facility",
+  "addition_to_existing_facility",
+  "other_specify",
+  "remarksother_information",
+  "section_break_yhw1p",
+  "directors",
+  "section_break_kajqq",
+  "address1",
+  "column_break_f4fke",
+  "address2",
+  "column_break_c72oi",
+  "address",
+  "section_break_pufp6",
+  "title10",
+  "section_break_z6eyw",
+  "paragragh",
+  "section_break_u7ome",
+  "k",
+  "paragraph2",
+  "section_break_jyidm",
+  "title11",
+  "section_break_zp4yi",
+  "paragraph3",
+  "section_break_mi6yo",
+  "date",
+  "name5",
+  "designation",
+  "column_break_7eiqq",
+  "siganture",
+  "section_break_fwvpr",
+  "section_break_dyjiz",
+  "back"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "HTML",
+   "label": "Title",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n    A.  Company/Business Details\n</h5>\n"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<h3 style=\"text-transform: uppercase; font-weight: bold; text-align: center;\">\n    Bond Facility Application Form\n</h3>\n"
+  },
+  {
+   "fieldname": "section_break_ktudh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "registered_name",
+   "fieldtype": "Data",
+   "label": "Registered Name"
+  },
+  {
+   "fieldname": "postal_adress",
+   "fieldtype": "Data",
+   "label": "Postal Address "
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "section_break_85zsz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_pbakp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_wmpcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "column_break_wtmib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ydybw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "column_break_cc0cw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_rabsh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "registration_no",
+   "fieldtype": "Data",
+   "label": "Registration No"
+  },
+  {
+   "fieldname": "column_break_la3ru",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jgjda",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_business_commenced",
+   "fieldtype": "Data",
+   "label": "Date Business Commenced"
+  },
+  {
+   "fieldname": "section_break_trtdt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nature_of_business",
+   "fieldtype": "Data",
+   "label": "Nature of Business"
+  },
+  {
+   "fieldname": "section_break_tdkfm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title2",
+   "fieldtype": "HTML",
+   "label": "Title2",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n    B.  Required underwriting information attached\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_pzisu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_vsn3g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title3",
+   "fieldtype": "HTML",
+   "label": "Title3",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n    C.  shareholders/members/partners/sole\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_3yeby",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_z50rg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title4",
+   "fieldtype": "HTML",
+   "label": "Title4",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n    d.   subsidiary/associated/affiliated companies\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_fd9na",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_1xzgk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title5",
+   "fieldtype": "HTML",
+   "label": "Title5",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n    e.   banking details\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_vxlfd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bankers",
+   "fieldtype": "Data",
+   "label": "Bankers"
+  },
+  {
+   "fieldname": "accno",
+   "fieldtype": "Data",
+   "label": "Acc.No."
+  },
+  {
+   "fieldname": "period_with_bank",
+   "fieldtype": "Data",
+   "label": "Period with Bank"
+  },
+  {
+   "fieldname": "cash_balance_p",
+   "fieldtype": "Data",
+   "label": "Cash Balance P"
+  },
+  {
+   "fieldname": "investments_p",
+   "fieldtype": "Data",
+   "label": "Investments P"
+  },
+  {
+   "fieldname": "column_break_8xlfr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overdraft_facility_usd",
+   "fieldtype": "Data",
+   "label": "Overdraft Facility USD"
+  },
+  {
+   "fieldname": "overdraft_used_usd",
+   "fieldtype": "Data",
+   "label": "Overdraft Used USD"
+  },
+  {
+   "fieldname": "how_secured",
+   "fieldtype": "Data",
+   "label": "How Secured"
+  },
+  {
+   "fieldname": "bank_guarantee_facility_usd",
+   "fieldtype": "Data",
+   "label": "Bank Guarantee Facility USD"
+  },
+  {
+   "fieldname": "guarantee_outstanding_usd",
+   "fieldtype": "Data",
+   "label": "Guarantee Outstanding USD"
+  },
+  {
+   "fieldname": "other_bankers",
+   "fieldtype": "Link",
+   "label": "Other Bankers",
+   "options": "Banks"
+  },
+  {
+   "fieldname": "section_break_arsng",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title6",
+   "fieldtype": "HTML",
+   "label": "Title6",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n     F.   personnel\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_48h1h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title7",
+   "fieldtype": "HTML",
+   "label": " Title7",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n     G.   Bond history\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_sk1d7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "1",
+   "fieldtype": "HTML",
+   "label": "1",
+   "options": "Who issued your Bond(s) previously?\n"
+  },
+  {
+   "fieldname": "2",
+   "fieldtype": "HTML",
+   "label": "2",
+   "options": "Have any Bond(s) issued on your behalf ever been called up? if so, supply details"
+  },
+  {
+   "fieldname": "3",
+   "fieldtype": "HTML",
+   "label": "3",
+   "options": "Have you applied to anyone else for this facility ? if yes, with whom?"
+  },
+  {
+   "fieldname": "4",
+   "fieldtype": "HTML",
+   "label": "4",
+   "options": "Have any applications ever been turned down? if yes, by whom and why ?"
+  },
+  {
+   "fieldname": "section_break_1kizf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title8",
+   "fieldtype": "HTML",
+   "label": "Title8",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n     h.   Current bonds - please attach list of bonds presently operative\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_opv7s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_mjtzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dktki",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ymn4l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_iub39",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_tv8um",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data6",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_cbioh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_d3mp0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_wsybg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title9",
+   "fieldtype": "HTML",
+   "label": "Title9",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n      i.  new requirments\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_krgxe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_required",
+   "fieldtype": "Data",
+   "label": "Facility Required"
+  },
+  {
+   "fieldname": "to_replace_existing_facility",
+   "fieldtype": "Data",
+   "label": "To replace existing facility"
+  },
+  {
+   "fieldname": "addition_to_existing_facility",
+   "fieldtype": "Data",
+   "label": "Addition to existing facility"
+  },
+  {
+   "fieldname": "other_specify",
+   "fieldtype": "Data",
+   "label": "other (Specify)"
+  },
+  {
+   "fieldname": "remarksother_information",
+   "fieldtype": "Data",
+   "label": "Remarks/Other information"
+  },
+  {
+   "fieldname": "section_break_yhw1p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "HTML",
+   "label": "Directors",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_kajqq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address1",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_f4fke",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address2",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_c72oi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "section_break_pufp6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title10",
+   "fieldtype": "HTML",
+   "label": "Title10",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n      j.   legal action\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_z6eyw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragragh",
+   "fieldtype": "HTML",
+   "label": "Paragragh",
+   "options": "Please note details of any legal action, summons, judgments, liquidation/sequestration orders or offer of compromise against any shareholder or director of the company, or against the company, its holdings, subsidiaries or associated companies."
+  },
+  {
+   "fieldname": "section_break_u7ome",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "k",
+   "fieldtype": "HTML",
+   "label": "K.",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n     k.\n</h5>\n"
+  },
+  {
+   "fieldname": "paragraph2",
+   "fieldtype": "HTML",
+   "label": "paragraph2",
+   "options": "Have any of the Key personnel been a director/shareholder of a company which was liquidated or compromised with creditors? if so, please provide details on please."
+  },
+  {
+   "fieldname": "section_break_jyidm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title11",
+   "fieldtype": "HTML",
+   "label": "Titile11",
+   "options": "<h5 style=\"text-transform: uppercase; text-align: center;\">\n      l.   declaration\n</h5>\n"
+  },
+  {
+   "fieldname": "section_break_zp4yi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph3",
+   "fieldtype": "HTML",
+   "label": "Paragraph3"
+  },
+  {
+   "fieldname": "section_break_mi6yo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date",
+   "options": " \n      Date : ____________________ \n    "
+  },
+  {
+   "fieldname": "name5",
+   "fieldtype": "Data",
+   "label": "Name:",
+   "options": "   Name : ________________________________"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation",
+   "options": "   Designation : ________________________________"
+  },
+  {
+   "fieldname": "column_break_7eiqq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "siganture",
+   "fieldtype": "HTML",
+   "label": "Siganture",
+   "options": "\n      Signature : ________________________________\n    "
+  },
+  {
+   "fieldname": "group_company",
+   "fieldtype": "Table",
+   "options": "Group Country Child Table"
+  },
+  {
+   "fieldname": "director_table",
+   "fieldtype": "Table",
+   "options": "Director and Shareholder Child Table"
+  },
+  {
+   "fieldname": "company_table",
+   "fieldtype": "Table",
+   "options": "Company Child Table"
+  },
+  {
+   "fieldname": "personel_table",
+   "fieldtype": "Table",
+   "options": "personel Child Table"
+  },
+  {
+   "fieldname": "section_break_dduzg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_table",
+   "fieldtype": "Table",
+   "options": "Current Bonds Child Table"
+  },
+  {
+   "fieldname": "section_break_fwvpr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_dyjiz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-08 12:26:41.168875",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal BondFacility",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

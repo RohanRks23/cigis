@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client}-{YYYY}-{####}",
+ "creation": "2025-11-05 05:30:31.952319",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sub1",
+  "client",
+  "address",
+  "column_break_h5p48",
+  "section_break_khykb",
+  "sub2",
+  "section_break_9yfbz",
+  "sub3",
+  "column_break_haeu4",
+  "quotation",
+  "section_break_nnijc",
+  "sub4",
+  "section_break_4foaj",
+  "sub5",
+  "sub6",
+  "for_and_on_behalf_of",
+  "column_break_sooj4",
+  "section_break_hzluk",
+  "date",
+  "section_break_jm4pj",
+  "sub7",
+  "section_break_5ilwq",
+  "paragraph",
+  "column_break_vvdft",
+  "address1",
+  "column_break_sdoa3",
+  "address2"
+ ],
+ "fields": [
+  {
+   "fieldname": "sub1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br>\n<p>\nCREDIT INSURANCE ZIMBABWE LIMITED\n</p><p></p>"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_h5p48",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_khykb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub2",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "Dear Sir"
+  },
+  {
+   "fieldname": "section_break_9yfbz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub3",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "Acceptance Advice - Your Quotation No"
+  },
+  {
+   "fieldname": "column_break_haeu4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nnijc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub4",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<p>\nWe acknowledge receipt of your Specimen Export Credit Insurance Policy and Quotation dated 29 OCTOBER 2012 Which was issued to us for consideration in connection with our Application.</p>\n<p>We here with accept your Quotation and instruct you to proceed with the issue of the Policy as per the\nQuotation. Our payment for USD 1.00 to cover the Deposit Premium and Revenue Stamps is enclosed.</p>\n<p>We certify :</p>\n<p>(a) That we have not insured and will not insure elsewhere any part of the purchase price receivable under any contract of\nsale insured in terms of your Policy (the Uninsured Percentage).</p>\n<p>(b) That we have not insured and will not insure elsewhere any amounts receivable in respect of contracts of sale which\nshould be insured under your Policy (Whole Turnover).</p>\n<p>(c) That we are not aware of any circumstances relating to any particular buyer or transaction which might adversely influence your acceptance of any risks submitted to you.</p>\n<p>(d) That the representations made and facts stated by us in the Proposal Form are true and complete and that we agree that\nsuch representations and facts shall form the basis of and be incorporated in the Policy, and that the truth of such\nrepresentations and facts shall be a condition precedent to any liability of Credit Insurance Zimbabwe Limited thereunder.</p>"
+  },
+  {
+   "fieldname": "section_break_4foaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub5",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "Yours Faithfully"
+  },
+  {
+   "fieldname": "sub6",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<br><br><br>\nSigned ...........................\n<br><br>"
+  },
+  {
+   "fieldname": "for_and_on_behalf_of",
+   "fieldtype": "Small Text",
+   "label": "For and on behalf of "
+  },
+  {
+   "fieldname": "column_break_sooj4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_hzluk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_jm4pj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub7",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_5ilwq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_vvdft",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_sdoa3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-28 13:13:07.659710",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Acceptance Form ECI Quotation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

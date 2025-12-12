@@ -1,6 +1,4 @@
 {
- "_comments": "[]",
- "_liked_by": "[]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{facility_no}",
@@ -94,7 +92,9 @@
   {
    "fieldname": "name1",
    "fieldtype": "Select",
-   "label": "Name"
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
   },
   {
    "fieldname": "quotation_no",
@@ -118,7 +118,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-08 06:58:08.276889",
+ "modified": "2025-11-10 09:06:51.452741",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Security",

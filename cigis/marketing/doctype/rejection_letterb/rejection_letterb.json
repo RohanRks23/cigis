@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-14 08:32:28.856450",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image",
+  "column_break_89icm",
+  "address",
+  "section_break_hslv7",
+  "rejection",
+  "to",
+  "from",
+  "date",
+  "section_break_fzgou",
+  "regisration_no",
+  "column_break_wdrjq",
+  "facility_number",
+  "br",
+  "infromation"
+ ],
+ "fields": [
+  {
+   "fieldname": "image",
+   "fieldtype": "HTML",
+   "label": "Image",
+   "options": " <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
+  },
+  {
+   "fieldname": "column_break_89icm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Export Credit Insurence an Guarentee</h5>\n<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Company (Botswana) Pty.Ltd.</h5>\n<h5>&nbsp;&nbsp;&nbsp;&nbsp;Private Bag BO 279,Bontleng,Gaborone,Botswana</h5>\n<h5>&nbsp;&nbsp;Unit 1,Plot 142 Gaborone International Finance Park</h5>\n<h5>Telephone: +267 318 8015, Facsimile: +267 318 8017</h5>\n<h5>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; Email: beci@beci.co.bw</h5>\n<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  Website: http://www.beci.co.bw\n</h5>\n<br>"
+  },
+  {
+   "fieldname": "section_break_hslv7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rejection",
+   "fieldtype": "HTML",
+   "label": "Rejection",
+   "options": "<div class=\"centered\"><h4>Rejection Letter</h4>\n\n<style>\n.centered {\n  position: absolute;\n \nfont-size : 10px;\n  transform: translate(-50%, -50%);\n}\n</style>\n\n<br></div>"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "HTML",
+   "label": "To",
+   "options": "<p><b>TO:  </b> &nbsp; &nbsp;&nbsp;&nbsp;  MR RALPH WEELER,FATEMA KHAN</p>\n<br>"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "HTML",
+   "label": "From",
+   "options": "<p><b>FROM:  </b> &nbsp; &nbsp;&nbsp;&nbsp;  Underwriting \n Executive</p>\n<br>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "HTML",
+   "label": "Date",
+   "options": "<p><b>Date:  </b> &nbsp; &nbsp;&nbsp;&nbsp;  1/30/2024</p>\n<br><br>\n<br><br>\n\n"
+  },
+  {
+   "fieldname": "section_break_fzgou",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "regisration_no",
+   "fieldtype": "HTML",
+   "label": "Regisration no",
+   "options": "<p><b>Registration  No:  </b> &nbsp; &nbsp;&nbsp;&nbsp;  CO.2000/236</p>\n<br>\n"
+  },
+  {
+   "fieldname": "column_break_wdrjq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "facility_number",
+   "fieldtype": "Data",
+   "label": "Facility_number",
+   "options": " "
+  },
+  {
+   "fieldname": "br",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "infromation",
+   "fieldtype": "HTML",
+   "label": "We regret to inform you that,your proposal has been rejected due to  the following reasons:",
+   "options": "<p>INFROMATION TECHNOLOGY INTEGRATORS (PTY) LTD </p>\n<p>UNIT 4,PLOT 168,GICP,GABORONE</p>\n<p>GABORONE</p>\n<p>GABORONE                   BW</p>\n<p>P O BOX 201408        GABORONE       BOTSWANA</p>\n<br><br>\n\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-05 11:15:35.237119",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Rejection LetterB",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

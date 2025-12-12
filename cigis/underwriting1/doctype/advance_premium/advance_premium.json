@@ -1,14 +1,18 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:adv_premium_no",
  "creation": "2024-03-01 12:39:37.606516",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "policy_details",
+  "section_break_9fxls",
   "policy_holder",
   "policy_no",
+  "policy_no1",
   "estimated_turnover_for_year",
   "payment_month_and_year",
   "year",
@@ -19,33 +23,37 @@
   "premium_rate",
   "estimated_premium",
   "payment_type",
-  "vat"
+  "monthly_premium_value",
+  "vat",
+  "adv_premium_no"
  ],
  "fields": [
   {
    "fieldname": "policy_holder",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Policy Holder"
   },
   {
    "fieldname": "policy_no",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Policy No"
   },
   {
    "fieldname": "estimated_turnover_for_year",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Estimated Turnover for Year"
   },
   {
    "fieldname": "payment_month_and_year",
-   "fieldtype": "Data",
-   "label": "Payment Month and Year"
+   "fieldtype": "Select",
+   "label": "Payment Month and Year",
+   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOBER\nNOVEMBER\nDECEMBER"
   },
   {
    "fieldname": "year",
-   "fieldtype": "Data",
-   "label": "Year"
+   "fieldtype": "Select",
+   "label": "Year",
+   "options": "\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025"
   },
   {
    "fieldname": "noof_months_for_the_purpose",
@@ -68,31 +76,58 @@
   },
   {
    "fieldname": "premium_rate",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Premium Rate"
   },
   {
    "fieldname": "estimated_premium",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Estimated Premium"
   },
   {
    "fieldname": "payment_type",
-   "fieldtype": "Data",
-   "label": "Payment Type"
+   "fieldtype": "Select",
+   "label": "Payment Type",
+   "options": "\nMonthly\nQuarterly\nHalf Yearly\nYearly"
   },
   {
    "fieldname": "vat",
    "fieldtype": "Data",
    "label": "vat"
+  },
+  {
+   "fieldname": "adv_premium_no",
+   "fieldtype": "Data",
+   "label": "Adv.Premium No",
+   "unique": 1
+  },
+  {
+   "fieldname": "policy_details",
+   "fieldtype": "Heading",
+   "label": "Policy Details"
+  },
+  {
+   "fieldname": "section_break_9fxls",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no1",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "monthly_premium_value",
+   "fieldtype": "Data",
+   "label": "Monthly Premium Value"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 18:54:42.588557",
+ "modified": "2025-10-28 09:20:58.055664",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Advance Premium",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

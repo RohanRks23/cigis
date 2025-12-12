@@ -31,7 +31,7 @@
    "fieldname": "student_details",
    "fieldtype": "Table",
    "label": "student Details",
-   "options": "Student_child"
+   "options": "Student Child"
   },
   {
    "fieldname": "collage",
@@ -51,7 +51,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-22 11:48:09.932182",
+ "modified": "2025-09-26 13:29:15.817746",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Students",

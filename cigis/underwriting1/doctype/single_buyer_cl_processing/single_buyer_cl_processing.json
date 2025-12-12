@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{cl_check_no}",
  "creation": "2024-02-21 06:37:00.925928",
  "default_view": "List",
  "doctype": "DocType",
@@ -8,18 +9,17 @@
  "engine": "InnoDB",
  "field_order": [
   "credit_limit_processing_tab",
+  "section_break_hz554",
   "client",
   "section_break_tdngf",
-  "cl_check_no",
-  "client1",
-  "column_break_ctfuw",
   "name1",
+  "column_break_ctfuw",
+  "cl_check_no",
   "section_break_sovkt",
   "buyer_details",
   "section_break_1hrvg",
-  "buyer",
-  "column_break_mejr0",
   "buyer_name",
+  "column_break_mejr0",
   "section_break_pnlnr",
   "credit_limit",
   "section_break_uo9wm",
@@ -31,13 +31,22 @@
   "credit_bureau_report",
   "section_break_pth1l",
   "cb_report_required",
-  "cb_report",
   "column_break_yjwk1",
   "yes",
-  "cb_report_required__for_this_buyer",
-  "column_break_cmagd",
+  "column_break_hl7hf",
   "no",
+  "section_break_pm5ci",
+  "cb_report",
+  "column_break_vr9ce",
+  "required",
+  "notrequired",
+  "column_break_i3hki",
   "section_break_zumhv",
+  "column_break_dyecg",
+  "column_break_pl65d",
+  "column_break_jbmno",
+  "cb_request",
+  "column_break_bc5fc",
   "credit_analysis",
   "section_break_7tfv2",
   "business_organization",
@@ -87,18 +96,23 @@
   "conditions",
   "signatory",
   "signatory1",
-  "cb_request",
-  "to",
-  "attention",
-  "from",
-  "attention1",
-  "subject",
-  "amount_required"
+  "column_break_niqzl",
+  "exp_date",
+  "section_break_v34r8",
+  "approve",
+  "column_break_2b6mw",
+  "decline",
+  "column_break_7wfay",
+  "save",
+  "column_break_9tstw",
+  "cancel",
+  "section_break_ryue2",
+  "go_to_financial_analysis_"
  ],
  "fields": [
   {
    "fieldname": "credit_limit_processing_tab",
-   "fieldtype": "Tab Break",
+   "fieldtype": "Heading",
    "label": "Credit limit Processing"
   },
   {
@@ -113,23 +127,17 @@
   {
    "fetch_from": "client1.credit_limit_no",
    "fieldname": "cl_check_no",
-   "fieldtype": "Link",
-   "label": "CL Check No",
-   "options": "Single Buyer CL Application"
-  },
-  {
-   "fetch_from": "cl_check_no.client1",
-   "fieldname": "client1",
-   "fieldtype": "Data",
-   "label": "Client"
+   "fieldtype": "Select",
+   "label": "CL Check No"
   },
   {
    "fieldname": "column_break_ctfuw",
    "fieldtype": "Column Break"
   },
   {
+   "fetch_from": "cl_check_no.client1",
    "fieldname": "name1",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Name"
   },
   {
@@ -146,18 +154,11 @@
    "fieldtype": "Section Break"
   },
   {
-   "fetch_from": "cl_check_no.buyer",
-   "fieldname": "buyer",
-   "fieldtype": "Data",
-   "label": "Buyer",
-   "options": "Single Buyer CL Application"
-  },
-  {
    "fieldname": "column_break_mejr0",
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "cl_check_no.buyer_short_name",
+   "fetch_from": "cl_check_no.buyer",
    "fieldname": "buyer_name",
    "fieldtype": "Data",
    "label": "Buyer Name"
@@ -179,15 +180,13 @@
    "fetch_from": "cl_check_no.credit_limit_required",
    "fieldname": "credit_limit_required",
    "fieldtype": "Currency",
-   "label": "Credit Limit Required",
-   "options": "Single Buyer CL Application"
+   "label": "Credit Limit Required"
   },
   {
    "fetch_from": "cl_check_no.comment",
    "fieldname": "comment",
    "fieldtype": "Data",
-   "label": "Comment",
-   "options": "Single Buyer CL Application"
+   "label": "Comment"
   },
   {
    "fieldname": "column_break_vpzac",
@@ -197,8 +196,7 @@
    "fetch_from": "cl_check_no.cl_application_date",
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date",
-   "options": "Single Buyer CL Application"
+   "label": "Date"
   },
   {
    "fieldname": "section_break_eyrhr",
@@ -216,7 +214,8 @@
   {
    "fieldname": "cb_report_required",
    "fieldtype": "Heading",
-   "label": "CB Report Required?"
+   "label": "CB Report Required?",
+   "options": "<p>CB Report Required ?:</p>"
   },
   {
    "fieldname": "cb_report",
@@ -231,22 +230,15 @@
    "default": "0",
    "fieldname": "yes",
    "fieldtype": "Check",
-   "label": "Yes"
-  },
-  {
-   "fieldname": "cb_report_required__for_this_buyer",
-   "fieldtype": "Heading",
-   "label": "CB Report required  for this Buyer"
-  },
-  {
-   "fieldname": "column_break_cmagd",
-   "fieldtype": "Column Break"
+   "label": "Yes",
+   "read_only_depends_on": "no"
   },
   {
    "default": "0",
    "fieldname": "no",
    "fieldtype": "Check",
-   "label": "No"
+   "label": "No",
+   "read_only_depends_on": "yes"
   },
   {
    "fieldname": "section_break_zumhv",
@@ -380,6 +372,7 @@
   {
    "fieldname": "date1",
    "fieldtype": "Heading",
+   "hidden": 1,
    "label": "Date"
   },
   {
@@ -441,7 +434,8 @@
   {
    "fieldname": "recommended_to",
    "fieldtype": "Select",
-   "label": "Recommended To"
+   "label": "Recommended To",
+   "options": "\nbdube\nramalefo\ngoabaone\nagreey\nHaroldk\nKeletso\nmurphy\nValerie\namantle\ntshepo\ncowell\ndonald\npearl\nThabo\nMicus\nOnkabetse\nFaith\nGofaone\nGorata\nKatlego\nmatihogonolo"
   },
   {
    "fieldname": "column_break_uxpwd",
@@ -450,7 +444,8 @@
   {
    "fieldname": "recommen",
    "fieldtype": "Select",
-   "label": "Recommen"
+   "label": "Recommend",
+   "options": "\nAPPROVED\nDECLINE"
   },
   {
    "fieldname": "section_break_vdf5o",
@@ -494,53 +489,126 @@
    "label": "Signatory 2"
   },
   {
+   "depends_on": "yes",
    "fieldname": "cb_request",
-   "fieldtype": "Tab Break",
-   "label": "CB request"
+   "fieldtype": "Button",
+   "label": "CB Request"
   },
   {
-   "fieldname": "to",
-   "fieldtype": "Data",
-   "label": "To",
-   "reqd": 1
+   "fieldname": "column_break_hl7hf",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "attention",
-   "fieldtype": "Data",
-   "label": "Attention",
-   "reqd": 1
+   "fieldname": "section_break_pm5ci",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "from",
-   "fieldtype": "Data",
-   "label": "From",
-   "reqd": 1
+   "fieldname": "column_break_vr9ce",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "attention1",
-   "fieldtype": "Data",
-   "label": "Attention",
-   "reqd": 1
+   "fieldname": "column_break_i3hki",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "subject",
-   "fieldtype": "Data",
-   "label": "Subject",
-   "reqd": 1
+   "fieldname": "column_break_dyecg",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "amount_required",
+   "fieldname": "column_break_pl65d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jbmno",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bc5fc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_niqzl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exp_date",
    "fieldtype": "Data",
-   "label": "Amount Required",
-   "reqd": 1
+   "label": "EXP Date"
+  },
+  {
+   "fieldname": "section_break_v34r8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approve",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Approve"
+  },
+  {
+   "fieldname": "decline",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Decline"
+  },
+  {
+   "fieldname": "column_break_7wfay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "save",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Save "
+  },
+  {
+   "fieldname": "column_break_9tstw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "column_break_2b6mw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "yes",
+   "fieldname": "required",
+   "fieldtype": "HTML",
+   "options": "<h5>Requesting for CB report for this Buyer</h5>"
+  },
+  {
+   "depends_on": "no",
+   "fieldname": "notrequired",
+   "fieldtype": "HTML",
+   "options": "<h5>CB Report is not required for this buyer</h5>\n"
+  },
+  {
+   "fieldname": "section_break_ryue2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "go_to_financial_analysis_",
+   "fieldtype": "Button",
+   "label": "Go To Financial Analysis >>",
+   "options": "<a href=\"http://frappe-rd.sais-erp.com:9100/app/finacial-analysis-1/new-finacial-analysis-1-ngyzchbhfc\" style=\"text-decoration: underline;\" target=\"_blank\">Go To Financial Analysis &gt;&gt;</a>"
+  },
+  {
+   "fieldname": "section_break_hz554",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 18:54:39.007720",
+ "modified": "2025-12-08 06:28:07.345883",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Single Buyer CL Processing",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

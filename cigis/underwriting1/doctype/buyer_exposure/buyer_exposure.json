@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"chandrasekhar.d@techbulls.co.in\", \"amrutha.p@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "creation": "2024-02-26 08:21:51.719853",
@@ -8,19 +7,44 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "buyer"
+  "buyer",
+  "bond_holder",
+  "search",
+  "respective_policies_and_credit_limits",
+  "respective_bond_details"
  ],
  "fields": [
   {
    "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "bond_holder",
+   "fieldtype": "Data",
+   "label": "Bond Holder"
+  },
+  {
+   "fieldname": "search",
+   "fieldtype": "Button",
+   "label": "Search"
+  },
+  {
+   "fieldname": "respective_policies_and_credit_limits",
    "fieldtype": "Table",
-   "label": "Buyer",
-   "options": "Buyer Exposure child"
+   "label": "Respective Policies and Credit Limits",
+   "options": "Buyer Exposure Credit Limits Child"
+  },
+  {
+   "fieldname": "respective_bond_details",
+   "fieldtype": "Table",
+   "label": "Respective Bond Details",
+   "options": "Buyer Exposure Bond Details Child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 18:54:37.631900",
+ "modified": "2025-11-08 18:58:52.988430",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Buyer Exposure",

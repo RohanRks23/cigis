@@ -1,0 +1,780 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{data1}-{YYYY}-{#####}",
+ "creation": "2025-11-20 09:03:49.464427",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "proposal_for_credit_insurance_policy_domestic_suppliers_credit",
+  "from_please_give_full_naqme_and_address",
+  "section_break_b6uyw",
+  "data1",
+  "column_break_wkev3",
+  "data4",
+  "section_break_m8xyy",
+  "data2",
+  "column_break_9jcow",
+  "column_break_g88up",
+  "section_break_4kmkm",
+  "data3",
+  "column_break_yc97f",
+  "section_break_ereox",
+  "data5",
+  "section_break_cmggd",
+  "dear_sirmadam",
+  "section_break_8cy02",
+  "print_proposal_child",
+  "section_break_12w0q",
+  "total_turnover",
+  "column_break_fdfot",
+  "total_bad_debts",
+  "section_break_dq0km",
+  "b_our_actual_or_estimated_bad_debt_losses_during_the_period_of",
+  "column_break_hhdr4",
+  "dbox",
+  "column_break_dwwxq",
+  "dbox1",
+  "section_break_vdjig",
+  "dbox2",
+  "column_break_l7vsa",
+  "on_a_turnover_approximetly",
+  "column_break_v078k",
+  "dbox3",
+  "section_break_m9jhr",
+  "6aour_turnover_for_the_current",
+  "column_break_mljkg",
+  "dbox4",
+  "section_break_jauhm",
+  "bour_turnover_on_the_selected",
+  "column_break_zk4ep",
+  "dbox5",
+  "section_break_vfyit",
+  "7the_normal_terms",
+  "column_break_d13hz",
+  "dbox7",
+  "column_break_47pas",
+  "days_maximum",
+  "column_break_ri6fo",
+  "dbox6",
+  "section_break_lai0s",
+  "8_the_following_are_the_total_amounts",
+  "section_break_0re76",
+  "proposal_child",
+  "section_break_9hedb",
+  "column_break_mrvfo",
+  "column_break_4emdp",
+  "head",
+  "column_break_u32n2",
+  "estimatted_amount",
+  "section_break_f4wto",
+  "9",
+  "column_break_uvl6d",
+  "dbox8",
+  "column_break_mhxk9",
+  "20",
+  "column_break_hijci",
+  "dbox9",
+  "and_confirm",
+  "section_break_4jyge",
+  "10",
+  "section_break_lbrwm",
+  "proposals_child",
+  "section_break_blphq",
+  "we",
+  "section_break_xcnzo",
+  "11",
+  "section_break_xhpn7",
+  "a",
+  "section_break_zrtkg",
+  "b_all",
+  "column_break_ivi9z",
+  "dbox10",
+  "column_break_jczq7",
+  "are_ouststanding",
+  "section_break_x6grs",
+  "owing_by_this",
+  "column_break_m7qp9",
+  "dbox11",
+  "column_break_4vloe",
+  "of_our_total",
+  "section_break_yfqr3",
+  "c_sprcific",
+  "section_break_uy80c",
+  "declaration",
+  "section_break_uzmys",
+  "a1",
+  "section_break_czqhl",
+  "proposers_signature",
+  "section_break_r47ue",
+  "fullname",
+  "designation",
+  "column_break_bpsol",
+  "date2",
+  "sign",
+  "section_break_szlxm",
+  "authorised_officer_for_and_on_behalf_of",
+  "section_break_qkua5",
+  "fullname1",
+  "designation1",
+  "column_break_cao12",
+  "date3",
+  "sign1",
+  "section_break_irjac",
+  "for_credsure_only",
+  "section_break_xm2ia",
+  "fullname2",
+  "designation2",
+  "column_break_uc1wk",
+  "date4",
+  "sign2",
+  "section_break_jsagl",
+  "checked_by",
+  "section_break_1qzlx",
+  "fullname3",
+  "designation3",
+  "column_break_4hotv",
+  "date5",
+  "sign3",
+  "section_break_yvwzf",
+  "back"
+ ],
+ "fields": [
+  {
+   "fieldname": "proposal_for_credit_insurance_policy_domestic_suppliers_credit",
+   "fieldtype": "HTML",
+   "label": "proposal for credit insurance policy domestic supplier's credit",
+   "options": "<h2 style=\"color: #3F65A7; font-weight: bold; text-transform: uppercase; text-align: center;\">\n  PROPOSAL FOR CREDIT INSURANCE POLICY - DOMESTIC SUPPLIERS' CREDIT\n</h2>\n\n"
+  },
+  {
+   "fieldname": "from_please_give_full_naqme_and_address",
+   "fieldtype": "Heading",
+   "label": "FROM (Please give full naqme and address)"
+  },
+  {
+   "fieldname": "section_break_b6uyw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data",
+   "label": "Full Name "
+  },
+  {
+   "fieldname": "data2",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "data3",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_m8xyy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_4kmkm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ereox",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wkev3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_9jcow",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_g88up",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yc97f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data5",
+   "fieldtype": "Data",
+   "label": "AD No"
+  },
+  {
+   "fieldname": "section_break_cmggd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dear_sirmadam",
+   "fieldtype": "HTML",
+   "label": "Dear Sir/Madam,",
+   "options": "<div class=\"content\">\n    <p>Dear Sir / Madam,</p>\n\n    <p class=\"subject\">Re: PROPOSAL FOR CREDIT INSURANCE POLICY \u2013 DOMESTIC SUPPLIERS\u2019 CREDIT</p>\n\n    <p>Please inform us of the terms on which you are prepared to issue a Credit Insurance Policy to indemnify us, according to the conditions of such Policy, against a loss as therein defined that we may sustain in respect of goods sold by us on credit terms to buyers in Zimbabwe.</p>\n\n    <p>To enable you to do this we give you, in the strictest confidence, the following information:</p>\n\n    <div class=\"points\">\n      <p>(1) BANKER &amp; BRANCH AND BANK ACCOUNT NUMBERS.</p>\n      <p>(2) A COPY OF OUR LATEST AUDITED BALANCE SHEET. PLEASE RETURN/RETAIN SAME.</p>\n      <p>(3) THE NATURE OF OUR BUSINESS IS: (E.G. MANUFACTURER, WHOLESALER ETC.)</p>\n      <p>(4) THE GOODS SOLD / SERVICE RENDERED BY US ARE:</p>\n      <p>(5) (a) OUR TURNOVER WITH THE BUYERS IN ZIMBABWE FOR THE LAST 3 FINANCIAL YEARS AND OUR BAD DEBT LOSSES (NET) INCURRED IN EACH OF THE THREE YEARS HAVE BEEN AS FOLLOWS:</p>\n    </div></div>"
+  },
+  {
+   "fieldname": "section_break_8cy02",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_12w0q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_fdfot",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_0re76",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_9hedb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4emdp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_u32n2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_f4wto",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "9",
+   "fieldtype": "HTML",
+   "label": "9",
+   "options": " \n<p>(9) We attach a copy of our debtors schedule for the month of</p>\n   "
+  },
+  {
+   "fieldname": "section_break_4jyge",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "10",
+   "fieldtype": "HTML",
+   "label": "10",
+   "options": "<p>(10) We list below our principal buyers in Zimbabwe together with an indication for the maximum amount outstanding in our books in respect of such buyers at any one point in \n time during the past 12 months. (If space provided is insufficient, please\u00a0attach\u00a0a\u00a0list</p>"
+  },
+  {
+   "fieldname": "section_break_lbrwm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_blphq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "we",
+   "fieldtype": "HTML",
+   "label": "we",
+   "options": "<p>We understand that the issue of a premium quotation will not imply an undertaking by Credsure that it will eventually be able to issue cover on any of the buyers listed in paragraph \n(10) or shown in the attached list or debtors schedule.\n<br><br>We know of no adverse information concerning the buyer(s) mentioned which might influence Credsure in considering this application. We confirm in particular, that no amount(s) \nowing to us by any of the above Buyer(s) are two months or more overdue.</p>\n"
+  },
+  {
+   "fieldname": "section_break_xcnzo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "11",
+   "fieldtype": "HTML",
+   "label": "11",
+   "options": "<p>(11)We Wish to receive from to you a quotation covering</p>\n"
+  },
+  {
+   "fieldname": "section_break_zrtkg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "declaration",
+   "fieldtype": "Heading",
+   "label": "DECLARATION"
+  },
+  {
+   "fieldname": "section_break_uzmys",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "HTML",
+   "label": "(a)",
+   "options": "<p>(a) All debtors accounts</p>"
+  },
+  {
+   "fieldname": "section_break_czqhl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "proposers_signature",
+   "fieldtype": "Heading",
+   "label": "PROPOSER'S SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_r47ue",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "label": "FULL NAME"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_bpsol",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Data",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Data",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_szlxm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "authorised_officer_for_and_on_behalf_of",
+   "fieldtype": "Heading",
+   "label": "AUTHORISED OFFICER FOR AND ON BEHALF OF"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Data",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_qkua5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fullname1",
+   "fieldtype": "Data",
+   "label": "FULL NAME"
+  },
+  {
+   "fieldname": "designation1",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_cao12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "section_break_irjac",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "for_credsure_only",
+   "fieldtype": "Heading",
+   "label": "FOR CREDSURE ONLY"
+  },
+  {
+   "fieldname": "section_break_xm2ia",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fullname2",
+   "fieldtype": "Data",
+   "label": "FULL NAME"
+  },
+  {
+   "fieldname": "designation2",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_uc1wk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date4",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Data",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_jsagl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Heading",
+   "label": "CHECKED BY"
+  },
+  {
+   "fieldname": "section_break_1qzlx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fullname3",
+   "fieldtype": "Data",
+   "label": "FULL NAME"
+  },
+  {
+   "fieldname": "designation3",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_4hotv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date5",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "sign3",
+   "fieldtype": "Data",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "print_proposal_child",
+   "fieldtype": "Table",
+   "options": "Print Proposal child"
+  },
+  {
+   "fieldname": "proposal_child",
+   "fieldtype": "Table",
+   "options": "Proposal Child"
+  },
+  {
+   "fieldname": "total_turnover",
+   "fieldtype": "Data",
+   "label": "Total Turnover"
+  },
+  {
+   "fieldname": "total_bad_debts",
+   "fieldtype": "Data",
+   "label": "Total Bad Debt Loss"
+  },
+  {
+   "fieldname": "estimatted_amount",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "head",
+   "fieldtype": "HTML",
+   "options": "<p>Amount We estimate our likely outstanding balance to be$</p>"
+  },
+  {
+   "fieldname": "column_break_mrvfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
+  },
+  {
+   "fieldname": "section_break_yvwzf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_dwwxq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_l7vsa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_v078k",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposals_child",
+   "fieldtype": "Table",
+   "label": "table",
+   "options": "Print Proposal Child DCI"
+  },
+  {
+   "fieldname": "section_break_dq0km",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b_our_actual_or_estimated_bad_debt_losses_during_the_period_of",
+   "fieldtype": "HTML",
+   "label": " (b) Our actual or estimated bad debt losses during the period of ",
+   "options": "<p> (b) Our actual or estimated bad debt losses during the period of </p>"
+  },
+  {
+   "fieldname": "column_break_hhdr4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "dbox1",
+   "fieldtype": "HTML",
+   "label": "months since the last completed financial year has been US",
+   "options": "<p>months since the last completed financial year has been US$ </p>"
+  },
+  {
+   "fieldname": "section_break_vdjig",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dbox2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "on_a_turnover_approximetly",
+   "fieldtype": "HTML",
+   "label": "on a turnover approximetly",
+   "options": "<p> on a turnover of approximately US$ </p>"
+  },
+  {
+   "fieldname": "dbox3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_m9jhr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "6aour_turnover_for_the_current",
+   "fieldtype": "HTML",
+   "label": "(6)(a)our turnover for the current",
+   "options": "<p>(6)(a)Our turnover for the current financial year is estimated at US$</p>"
+  },
+  {
+   "fieldname": "column_break_mljkg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_jauhm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bour_turnover_on_the_selected",
+   "fieldtype": "HTML",
+   "label": "(b)Our turnover on the selected ",
+   "options": "<p>(b) Our turnover on the selected buyers for the current financial year is estimated at US$</p>"
+  },
+  {
+   "fieldname": "column_break_zk4ep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_vfyit",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "7the_normal_terms",
+   "fieldtype": "HTML",
+   "label": "(7)The normal terms",
+   "options": "<p>(7) The normal terms granted to our customers are</p>"
+  },
+  {
+   "fieldname": "column_break_d13hz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days_maximum",
+   "fieldtype": "HTML",
+   "label": "days. Maximum",
+   "options": "<p>days. Maximum</p>"
+  },
+  {
+   "fieldname": "column_break_ri6fo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox6",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "8_the_following_are_the_total_amounts",
+   "fieldtype": "HTML",
+   "label": "(8) The following are the total amounts",
+   "options": "<p>(8) The following are the total amounts owed by our debtors in respect of the last 6 months of tracing (at least 3 months of trading required).</p>"
+  },
+  {
+   "fieldname": "section_break_lai0s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dbox7",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_47pas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_uvl6d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_mhxk9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "20",
+   "fieldtype": "HTML",
+   "label": "20",
+   "options": "<p>20</p>"
+  },
+  {
+   "fieldname": "column_break_hijci",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "and_confirm",
+   "fieldtype": "HTML",
+   "label": "and confirm",
+   "options": "<p>and confirm that this represents is an average month</p>"
+  },
+  {
+   "fieldname": "section_break_xhpn7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a1",
+   "fieldtype": "HTML",
+   "label": "a",
+   "options": "<p>(a) We certify that the representations made and facts stated by us are true and that we have not misrepresented or omitted any material fact which might have a bearing upon the \npolicy and we agree that such representation and fact shall form the basis of and be incorporated in the Policy and we agree that such representations and facts and due performance \nof each and every undertaking contained herein or in the policy shall be a condition precedent to any liability of the Credsure Insurance Limited thereunder.<b></b>(b) We agree that the person filling in the form, wholly or in part, does so as our agent and not that of Credsure and that neither fact within the knowledge of nor statements made to \nany of Credsure relative to this proposal shall be binding in Credsure unless embodied in writing in\u00a0this\u00a0proposal.\n</p>"
+  },
+  {
+   "fieldname": "section_break_x6grs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b_all",
+   "fieldtype": "HTML",
+   "label": "(b) All",
+   "options": "<p>All our debtors account on which amounts in excess of US$</p>"
+  },
+  {
+   "fieldname": "column_break_jczq7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox10",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_ivi9z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "are_ouststanding",
+   "fieldtype": "HTML",
+   "label": "are ouststanding",
+   "options": "<p>are outstanding. We estimate that the aggregate amount usually</p>"
+  },
+  {
+   "fieldname": "section_break_yfqr3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "owing_by_this",
+   "fieldtype": "HTML",
+   "label": "owing by this",
+   "options": "<p>owing by this group of debtors is approximately</p>"
+  },
+  {
+   "fieldname": "column_break_m7qp9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbox11",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_4vloe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "of_our_total",
+   "fieldtype": "HTML",
+   "label": "of our total",
+   "options": "<p>% of out total monthly book debts.</p>"
+  },
+  {
+   "fieldname": "section_break_uy80c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c_sprcific",
+   "fieldtype": "HTML",
+   "label": "(c) Sprcific",
+   "options": "<p>(c) Specific debtors accounts</p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-08 09:34:20.661655",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal DCI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

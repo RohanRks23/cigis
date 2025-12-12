@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:credit_limit_no",
+ "autoname": "format:{credit_limit_no}",
  "creation": "2024-02-16 12:00:24.620667",
  "default_view": "List",
  "doctype": "DocType",
@@ -9,11 +9,14 @@
  "engine": "InnoDB",
  "field_order": [
   "credit_limit_processing_tab",
-  "credit_limit_no",
-  "policy_no",
-  "column_break_uhfef",
-  "capture_date",
+  "creditlimit1",
+  "section_break_s18if",
   "policy_holder_name",
+  "credit_limit_no",
+  "column_break_uhfef",
+  "policy_number",
+  "capture_date",
+  "policy_no",
   "section_break_dnp9u",
   "buyer_details",
   "section_break_rajf7",
@@ -33,14 +36,30 @@
   "credit_bureau_report",
   "section_break_iuqid",
   "cb_report_required",
-  "cb_report",
   "column_break_5m2fc",
   "yes",
   "column_break_ojenh",
   "no",
-  "report",
-  "view_cb_report",
   "section_break_pvn2f",
+  "cb_report",
+  "column_break_ystai",
+  "report",
+  "column_break_cslyy",
+  "cbreport",
+  "section_break_gpft2",
+  "cb_reports",
+  "column_break_snvr8",
+  "notrequired",
+  "column_break_ktg5r",
+  "section_break_iqzvp",
+  "column_break_gszqd",
+  "column_break_cior4",
+  "column_break_nttxk",
+  "column_break_tu90o",
+  "cb_request",
+  "column_break_2fimx",
+  "view_cb_report",
+  "section_break_m268n",
   "credit_analysis",
   "section_break_13eyc",
   "business_organisation",
@@ -51,11 +70,6 @@
   "management_experience",
   "bank_risk_category",
   "itc_clearence",
-  "annual_sales_for_the_last_23_years",
-  "outstanding_amount",
-  "repayment_ability",
-  "total_expouse",
-  "comments",
   "column_break_sxspu",
   "main_productservice",
   "level_of_competition",
@@ -65,7 +79,22 @@
   "trading_experience",
   "overdue_amount",
   "balance_sheet_analysis",
+  "section_break_fjnjq",
+  "annual_sales_for_the_last_23_years",
+  "column_break_khcgg",
+  "column_break_jp5zu",
+  "column_break_np9uj",
   "terms_of_payments",
+  "column_break_l0l1y",
+  "days_from",
+  "column_break_fea2n",
+  "date",
+  "section_break_herfx",
+  "outstanding_amount",
+  "repayment_ability",
+  "total_expouse",
+  "comments",
+  "column_break_kkg1t",
   "use_of_the_credit_limit",
   "recommended_exposure",
   "section_break_b3xsb",
@@ -76,23 +105,29 @@
   "recommend1",
   "section_break_okpp0",
   "cl_approve",
+  "section_break_oxk2v",
   "approved_amount",
+  "column_break_hvvsj",
+  "cl_review_date",
+  "section_break_z07v9",
   "comment1",
   "conditions",
+  "section_break_fku40",
   "signatory1",
   "signatory2",
+  "approved_date",
   "column_break_9l3q4",
-  "cl_review_date",
   "signatory_officer1",
   "signatory_officer2",
   "section_break_8r3yt",
   "column_break_5o3pg",
   "column_break_a0lil",
-  "cb_request",
   "section_break_0rpgv",
   "column_break_xsqex",
   "column_break_ocd0z",
-  "financial_analysis"
+  "financial_analysis",
+  "policy_type",
+  "buyer_id"
  ],
  "fields": [
   {
@@ -103,15 +138,13 @@
   {
    "fetch_from": "policy_no.credit_limit_no",
    "fieldname": "credit_limit_no",
-   "fieldtype": "Data",
-   "label": "Credit Limit No",
-   "unique": 1
+   "fieldtype": "Select",
+   "label": "Credit Limit No"
   },
   {
    "fieldname": "policy_no",
-   "fieldtype": "Link",
-   "label": "Policy No",
-   "options": "Credit Limits Application"
+   "fieldtype": "Select",
+   "label": "Policy No"
   },
   {
    "fieldname": "column_break_uhfef",
@@ -126,9 +159,8 @@
   {
    "fetch_from": "policy_no.policy_holder_name",
    "fieldname": "policy_holder_name",
-   "fieldtype": "Data",
-   "label": "Policy Holder Name",
-   "unique": 1
+   "fieldtype": "Select",
+   "label": "Policy Holder Name"
   },
   {
    "fieldname": "section_break_dnp9u",
@@ -226,6 +258,7 @@
    "options": "<p>CB Report Required ?:</p>"
   },
   {
+   "depends_on": "yes",
    "fieldname": "cb_report",
    "fieldtype": "HTML",
    "label": "CB Report",
@@ -239,7 +272,8 @@
    "default": "0",
    "fieldname": "yes",
    "fieldtype": "Check",
-   "label": "Yes"
+   "label": "Yes",
+   "read_only_depends_on": "no"
   },
   {
    "fieldname": "column_break_ojenh",
@@ -249,18 +283,20 @@
    "default": "0",
    "fieldname": "no",
    "fieldtype": "Check",
-   "label": "No"
+   "label": "No",
+   "read_only_depends_on": "yes"
   },
   {
+   "depends_on": "yes",
    "fieldname": "report",
    "fieldtype": "HTML",
-   "label": "Report",
-   "options": "<h5 style=\"color: black;\">CB Report required for this Buyer</h5>"
+   "options": "<h5>Requesting for CB report for this Buyer</h5>"
   },
   {
    "fieldname": "view_cb_report",
    "fieldtype": "Button",
-   "label": "View CB Report"
+   "hidden": 1,
+   "label": " View CB Report"
   },
   {
    "fieldname": "section_break_pvn2f",
@@ -334,7 +370,7 @@
   {
    "fieldname": "total_expouse",
    "fieldtype": "Data",
-   "label": "Total Expouse"
+   "label": "Total Exposure"
   },
   {
    "fieldname": "comments",
@@ -418,7 +454,7 @@
    "fieldname": "recommend_to",
    "fieldtype": "Select",
    "label": "Recommend To",
-   "options": "Select\nbdube\nramalefo\ngoabaone\nagreey\nHaroldk\nKeletso\nmurphy\nValerie\namantle\ntshepo\ncowell\ndonald\npearl\nThabo\nMicus\nOnkabetse\nFaith\nGofaone\nGorata\nKatlego\nmatihogonolo"
+   "options": "\nbdube\nramalefo\ngoabaone\nagreey\nHaroldk\nKeletso\nmurphy\nValerie\namantle\ntshepo\ncowell\ndonald\npearl\nThabo\nMicus\nOnkabetse\nFaith\nGofaone\nGorata\nKatlego\nmatihogonolo"
   },
   {
    "fieldname": "column_break_60hcw",
@@ -428,7 +464,7 @@
    "fieldname": "recommend1",
    "fieldtype": "Select",
    "label": "Recommend",
-   "options": "Select\nAPPROVED\nDECLINE"
+   "options": "\nAPPROVED\nDECLINE"
   },
   {
    "fieldname": "section_break_okpp0",
@@ -442,30 +478,39 @@
   },
   {
    "fieldname": "approved_amount",
-   "fieldtype": "Data",
-   "label": "Approved Amount"
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Approved Amount",
+   "reqd": 1
   },
   {
    "fieldname": "comment1",
    "fieldtype": "Small Text",
-   "label": "Comment"
+   "in_list_view": 1,
+   "label": "Comment",
+   "reqd": 1
   },
   {
    "fieldname": "conditions",
    "fieldtype": "Small Text",
-   "label": "Conditions"
+   "in_list_view": 1,
+   "label": "Conditions",
+   "reqd": 1
   },
   {
    "fieldname": "signatory1",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Signatory1",
-   "options": "Select\nUnder Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nRisk and Compliance Manager\nCredit and Data Analyst\nRisk Executive\nDirector"
+   "options": "\nUnderwriter\nChief Underwriter\nHead - Credit Division\nManaging Director\nCredit Committee",
+   "reqd": 1
   },
   {
    "fieldname": "signatory2",
    "fieldtype": "Select",
    "label": "Signatory2",
-   "options": "Select\nUnder Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nRisk and Compliance Manager\nCredit and Data Analyst\nRisk Executive\nDirector"
+   "options": "\nUnder Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nDirector",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_9l3q4",
@@ -474,19 +519,20 @@
   {
    "fieldname": "cl_review_date",
    "fieldtype": "Date",
-   "label": "CL Review Date"
+   "label": "CL Review Date",
+   "reqd": 1
   },
   {
    "fieldname": "signatory_officer1",
    "fieldtype": "Select",
    "label": "Signatory Officer1",
-   "options": "Select\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
+   "options": "\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
   },
   {
    "fieldname": "signatory_officer2",
    "fieldtype": "Select",
    "label": "Signatory Officer2",
-   "options": "Select\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
+   "options": "\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
   },
   {
    "fieldname": "section_break_8r3yt",
@@ -501,6 +547,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "depends_on": "yes",
    "fieldname": "cb_request",
    "fieldtype": "Button",
    "label": "CB Request"
@@ -519,18 +566,176 @@
   },
   {
    "fieldname": "financial_analysis",
-   "fieldtype": "HTML",
+   "fieldtype": "Button",
    "label": "Go To Financial Analysis >>",
    "options": "<a href=\"http://frappe-rd.sais-erp.com:9100/app/finacial-analysis-1/new-finacial-analysis-1-ngyzchbhfc\" style=\"text-decoration: underline;\" target=\"_blank\">Go To Financial Analysis &gt;&gt;</a>"
+  },
+  {
+   "fieldname": "creditlimit1",
+   "fieldtype": "Heading",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "section_break_s18if",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Number"
+  },
+  {
+   "fieldname": "column_break_ystai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cslyy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cbreport",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "options": "<h5>CB Report of this Buyer</h5>"
+  },
+  {
+   "fieldname": "section_break_gpft2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "no",
+   "fieldname": "cb_reports",
+   "fieldtype": "HTML",
+   "options": "<h5>CB Report:</h5>"
+  },
+  {
+   "fieldname": "column_break_snvr8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "no",
+   "fieldname": "notrequired",
+   "fieldtype": "HTML",
+   "label": "Report",
+   "options": "<h5>CB Report is not required for this buyer</h5>"
+  },
+  {
+   "fieldname": "column_break_ktg5r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_iqzvp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gszqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_cior4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nttxk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_tu90o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2fimx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_m268n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Type"
+  },
+  {
+   "fieldname": "buyer_id",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Buyer ID"
+  },
+  {
+   "fieldname": "section_break_fjnjq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_khcgg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jp5zu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_np9uj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_l0l1y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "days_from",
+   "fieldtype": "Data",
+   "label": "Days From"
+  },
+  {
+   "fieldname": "column_break_fea2n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_herfx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_kkg1t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_oxk2v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_hvvsj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_z07v9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_fku40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approved_date",
+   "fieldtype": "Date",
+   "label": "Approved Date",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 18:54:36.632806",
+ "modified": "2025-11-24 12:43:40.177025",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "Credit Limit Processing",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

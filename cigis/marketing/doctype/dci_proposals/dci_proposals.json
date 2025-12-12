@@ -152,6 +152,7 @@
   "section_break_cxaqg",
   "upload",
   "debtorsheduletable",
+  "calculate_grand_total",
   "grand_total",
   "section_break_t1tiy",
   "debtor_schedule_add_new",
@@ -173,8 +174,7 @@
   "section_break_m33li",
   "estimated_of_the_total_monthly_book_debits",
   "column_break_3imlq",
-  "remarks",
-  "excel_data"
+  "remarks"
  ],
  "fields": [
   {
@@ -212,33 +212,23 @@
    "fieldtype": "Section Break"
   },
   {
-   "fetch_from": "client_name.trading_name",
-   "fieldname": "trading_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Trading Name",
-   "reqd": 1
-  },
-  {
-   "fetch_from": "client_name.establisheddate",
    "fieldname": "establishmentdate",
    "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Established Date"
+   "label": "Established Date",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_bciwp",
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "client_name.vat_reg_no",
    "fieldname": "registrationno",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Reg.No"
+   "label": "Reg.No",
+   "reqd": 1
   },
   {
-   "fetch_from": "client_name.status",
    "fieldname": "status",
    "fieldtype": "Data",
    "label": "Status"
@@ -341,7 +331,7 @@
    "fieldname": "directors_shareholders_table",
    "fieldtype": "Table",
    "label": "Directors ShareHolders",
-   "options": "Directors_Shareholders_table"
+   "options": "Directors Shareholders Table"
   },
   {
    "fieldname": "tab_break_kgnw2",
@@ -723,7 +713,7 @@
    "fieldname": "buyer_experience_child_table",
    "fieldtype": "Table",
    "label": "Buyer Experience",
-   "options": "Buyer_experience_ch"
+   "options": "Buyer Experience Child Table"
   },
   {
    "fieldname": "section_break_dupxh",
@@ -806,7 +796,7 @@
    "fieldname": "debt_history_child_table",
    "fieldtype": "Table",
    "label": "Debt History",
-   "options": "Debt_History_Child"
+   "options": "Debt History Child"
   },
   {
    "fieldname": "credit_period",
@@ -893,7 +883,7 @@
    "fieldname": "debtorsheduletable",
    "fieldtype": "Table",
    "label": "Debtor Schedule",
-   "options": "Debtor_schedule_child"
+   "options": "Debtor Schedule Child"
   },
   {
    "fieldname": "section_break_t1tiy",
@@ -910,7 +900,7 @@
    "fieldname": "alternate_information_table",
    "fieldtype": "Table",
    "label": "Alternate Information",
-   "options": "Alter_Child_table"
+   "options": "Alter Child Table"
   },
   {
    "depends_on": "alternate_information",
@@ -933,7 +923,7 @@
    "fieldname": "principal_buyer_child_table",
    "fieldtype": "Table",
    "label": "Principal Buyer",
-   "options": "Principal_Buyer_ch"
+   "options": "Principal Buyer DCI Proposals Child Table"
   },
   {
    "fieldname": "quatation_tab",
@@ -1048,12 +1038,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "excel_data",
-   "fieldtype": "JSON",
-   "hidden": 1,
-   "label": "excel_data "
-  },
-  {
    "fieldname": "column_break_vrehy",
    "fieldtype": "Column Break"
   },
@@ -1065,11 +1049,24 @@
    "fieldname": "nature_of_bussiness_4",
    "fieldtype": "Data",
    "label": "Nature Of Bussiness"
+  },
+  {
+   "fieldname": "trading_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Trading Name",
+   "reqd": 1
+  },
+  {
+   "depends_on": "debtor_schedule",
+   "fieldname": "calculate_grand_total",
+   "fieldtype": "Button",
+   "label": "Calculate Grand Total"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-18 09:19:14.590949",
+ "modified": "2025-11-20 08:48:17.348205",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "DCI Proposals",

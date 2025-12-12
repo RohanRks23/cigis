@@ -1,4 +1,4 @@
-# Copyright (c) 2024, SAiS and Contributors
+# Copyright (c) 2025, SAiS and Contributors
 # See license.txt
 
 # import frappe

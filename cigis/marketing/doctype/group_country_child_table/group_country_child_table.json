@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-06 11:06:37.853637",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "compid",
+  "compname",
+  "comptype"
+ ],
+ "fields": [
+  {
+   "fieldname": "compid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Comp.ID"
+  },
+  {
+   "fieldname": "compname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Comp.Name"
+  },
+  {
+   "fieldname": "comptype",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Comp.Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-06 11:07:14.355430",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Group Country Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

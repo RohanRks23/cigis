@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-04 11:42:17.234048",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "our_ref",
+  "data1",
+  "section_break_imsh5",
+  "data2",
+  "data3",
+  "section_break_gi2uh",
+  "attention",
+  "data4",
+  "dear_sirs",
+  "section_break_yv6ul",
+  "re",
+  "column_break_lumte",
+  "data5",
+  "section_break_zvp89",
+  "paragraph"
+ ],
+ "fields": [
+  {
+   "fieldname": "our_ref",
+   "fieldtype": "Heading",
+   "label": "OUR REF"
+  },
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_imsh5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_gi2uh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Heading",
+   "label": "Attention"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "dear_sirs",
+   "fieldtype": "Heading",
+   "label": "Dear Sirs"
+  },
+  {
+   "fieldname": "re",
+   "fieldtype": "HTML",
+   "label": "RE",
+   "options": "<h3 style=\"text-align: center; margin: 0; padding: 0;\">\n  <u><strong>RE: DOMESTIC CREDIT INSURANCE QUOTATION-</strong></u>\n</h3>\n"
+  },
+  {
+   "fieldname": "column_break_lumte",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_yv6ul",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_zvp89",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "paragraph",
+   "options": "<div style=\"font-family: Arial, sans-serif; font-size: 13px; line-height: 1.6; text-align: justify;\">\n\n  <p>\n    We thank you for your completed Proposal Form and now have pleasure in enclosing our Quotation for your\n    consideration.\n  </p>\n\n  <p>\n    The Policy which best suits your requirements is a <strong>Domestic Suppliers\u2019 Credit Named Buyers Policy</strong>, based on\n    Turnover. You will have to apply for credit limits on all of your Buyers, hence the reference Named Buyers.\n    The Insured Percentage is <strong>90.00%</strong> and the Premium rate has been set at  %.\n  </p>\n\n  <p>\n    Should you wish to accept our offer, please sign one copy of the enclosed Acceptance Advice and return it to us\n    with your remittance of <u>US$</u> in respect of Annual Premium and Revenue Stamps.\n  </p>\n\n  <p>\n    We trust that the above is in order and await your further advices in due course.\n  </p>\n\n  <br>\n  <p>Yours faithfully,</p>\n  <p><strong>for CREDSURE</strong></p>\n\n\n  <div style=\"text-align: left; margin-top: 20px;\">\n    <div style=\"font-weight: bold;\">A.S. MARANGE</div>\n    <div style=\"border-bottom: 1px solid #000; width: 100px; margin: 4px 0;\"></div>\n    <div>CHIEF UNDERWRITER - CREDIT</div>\n  </div>\n\n</div>\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-04 12:16:02.787617",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Covering Letter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

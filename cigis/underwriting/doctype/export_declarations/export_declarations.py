@@ -1,7 +1,6 @@
 import frappe
 import pandas as pd
-from urllib.parse import urljoin  # Import urljoin to construct URLs safely
-from urllib.parse import quote  # Import the quote function for URL encoding
+from urllib.parse import urljoin, quote
 from frappe.model.document import Document
 import json
 
@@ -11,11 +10,16 @@ class ExportDeclarations(Document):
     @frappe.whitelist()
     def extractData(self):
 
-        # URL encode the file path to handle spaces and special characters
-        encoded_path = quote(self.upload1, safe='') 
-        
+        # Check if self.upload is not None before encoding
+        if self.upload1:
+            encoded_path = quote(self.upload1.encode(), safe='') 
+        else:
+            # Handle the case where self.upload is None
+            frappe.log_error("self.upload1 is None", "extractData")
+            return []
+
         # Construct the full URL using urljoin for safe URL construction
-        base_url = 'http://cigis.sais-erp.com/'
+        base_url = 'http://102.37.140.103/'
         Xl_Url = urljoin(base_url, encoded_path)
         
         try:
@@ -27,13 +31,13 @@ class ExportDeclarations(Document):
             df = df.dropna(how='all')
             data = []
             for index, row in df.iterrows():
-                data.append({'No': row[0], 'SlNo': row[1],'Buyer': row[2],'TermsofPayment': row[3],'ExhangeRate': row[4],'FXValue': row[5]})
+                data.append({'No': row[0], 'Buyer': row[1],'Terms of Payment': row[2],'Exchange Rate': row[3],'FX Value': row[4],'Pula': row[5]})
             
-
-            return data
-
+            return df.to_dict(orient='records')
             
         except Exception as e:
-            frappe.msgprint(f"Error loading Excel file: {str(e)}")
-
-
+            # Log the error instead of printing
+            frappe.log_error(f"Error loading Excel file: {str(e)}", "extractData")
+            # Return an empty list or None to indicate failure
+            return []
+            

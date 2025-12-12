@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Directors_Shareholders_table(Document):
+class DirectorsShareholdersTable(Document):
 	pass

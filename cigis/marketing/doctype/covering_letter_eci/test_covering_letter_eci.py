@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestcoveringLetter_ECI(FrappeTestCase):
+class TestCoveringLetterECI(FrappeTestCase):
 	pass

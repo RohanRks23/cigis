@@ -1,27 +1,24 @@
 {
- "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{buyer}-{####}",
  "creation": "2024-02-16 12:18:53.851801",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "search_cb_report_tab",
-  "section_break_ueyvp",
-  "cb_report_child_table",
-  "section_break_8xxt1",
   "tab_break_wdgsd",
   "cb_report",
   "section_break_kw5pq",
   "credit_bureau_request",
   "section_break_32uw7",
+  "buyer",
   "cb_request_number",
   "reqdate",
-  "buyer",
   "column_break_k5b5l",
   "refnumber",
+  "policy_type",
   "veiw_cb_request",
   "section_break_aphdp",
   "section_break_u1k6d",
@@ -34,24 +31,6 @@
   "description"
  ],
  "fields": [
-  {
-   "fieldname": "search_cb_report_tab",
-   "fieldtype": "Tab Break",
-   "label": "Search CB report"
-  },
-  {
-   "fieldname": "section_break_ueyvp",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "cb_report_child_table",
-   "fieldtype": "Table",
-   "options": "CB Report Child Table"
-  },
-  {
-   "fieldname": "section_break_8xxt1",
-   "fieldtype": "Section Break"
-  },
   {
    "fieldname": "tab_break_wdgsd",
    "fieldtype": "Tab Break",
@@ -80,7 +59,8 @@
   {
    "fieldname": "cb_request_number",
    "fieldtype": "Data",
-   "label": "CB Req Number"
+   "label": "CB Req Number",
+   "unique": 1
   },
   {
    "fetch_from": "refnumber.capture_date",
@@ -91,7 +71,7 @@
   {
    "fetch_from": "refnumber.buyer_name",
    "fieldname": "buyer",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Buyer"
   },
   {
@@ -100,9 +80,9 @@
   },
   {
    "fieldname": "refnumber",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "label": "Ref.Number",
-   "options": "Credit Limit Processing"
+   "unique": 1
   },
   {
    "fieldname": "veiw_cb_request",
@@ -143,7 +123,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Code",
-   "options": "Others\nRISK1\nRISK2\nRISK3\nRISK4\nRISK5\nRISK6",
+   "options": "Others\nRISK 1\nRISK 2\nRISK 3\nRISK 4\nRISK 5\nRISK 6",
    "reqd": 1
   },
   {
@@ -162,14 +142,20 @@
    "fieldname": "description",
    "fieldtype": "Small Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Buyer Type"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-03-05 18:54:30.606719",
+ "modified": "2025-11-10 10:10:11.344966",
  "modified_by": "Administrator",
  "module": "UnderWriting1",
  "name": "CB Report",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

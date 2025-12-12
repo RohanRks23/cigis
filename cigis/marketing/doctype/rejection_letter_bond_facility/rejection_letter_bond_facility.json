@@ -1,17 +1,16 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{client}-{####}",
  "creation": "2024-03-05 05:57:32.755366",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
-  "section_break_pcdpq",
-  "paragraph",
   "section_break_20qxy",
   "consent_form_to_request_bank_report",
+  "client",
   "to",
   "from",
   "date",
@@ -20,26 +19,14 @@
   "column_break_uxclm",
   "facility_no",
   "section_break_yevjp",
-  "a",
-  "b"
+  "address",
+  "rejection_letter_bond_facility",
+  "column_break",
+  "section_break_wsem8",
+  "section_break_bl1kr",
+  "back"
  ],
  "fields": [
-  {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "image",
-   "options": "   <img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
-  },
-  {
-   "fieldname": "section_break_pcdpq",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "paragraph",
-   "fieldtype": "HTML",
-   "label": "Paragraph",
-   "options": "<p style=\"text-align: right;\">\nExport Credit Insurance an Guarantee Company(Botswana)Pty.Ltd.  <br>\nPrivate Bag Bo 279,Bontleng, Gaborone, Botswana\n<br>\nUnit 1, Plot 142 Gaborone International Finance Park\n<br>\nTelephone : +267 318 8015, Facsimile: +267 318 8017\n<br>\nEmail: beci@beci.co.bw\n<br>  \nWebsite: <a href=\"\nhttp://www.beci.co.bw\">http://www.beci.co.bw</a>\n</p>\n<br>"
-  },
   {
    "fieldname": "section_break_20qxy",
    "fieldtype": "Section Break"
@@ -92,24 +79,45 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "a",
-   "fieldtype": "HTML",
-   "label": "a",
-   "options": "<h5>T.M SPARE SALES</h5>\n<h5>PLOT 14416 UNIT 4, G WEST INDUSTRIAL</h5>\n<h5>TLOKWENG</h5>\n<h5>GABORONE</h5>"
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
   },
   {
-   "fieldname": "b",
-   "fieldtype": "HTML",
-   "label": "b",
-   "options": "<h5>We regret to inform you that,your proposal has rejected due to the following reasons:</h5>\n<h5>NEW CLIENT COMING THROUGH AGREEY HOLDINGS</h5>"
+   "fieldname": "column_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "rejection_letter_bond_facility",
+   "fieldtype": "Data",
+   "label": "We regret to inform you that,your proposal has rejected due to the following reasons:"
+  },
+  {
+   "fieldname": "section_break_wsem8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_bl1kr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-16 13:33:46.792436",
+ "modified": "2025-12-08 12:35:37.420303",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Rejection Letter Bond Facility",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

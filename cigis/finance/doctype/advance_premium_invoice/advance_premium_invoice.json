@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{policy_holder}",
+ "creation": "2024-04-14 14:41:24.327201",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "advance_premium",
+  "section_break_61ptn",
+  "policy_holder",
+  "policy_no",
+  "estimated_turnover_for_year",
+  "vat",
+  "without_vat",
+  "comments",
+  "column_break_t9wpa",
+  "date",
+  "premium_rate",
+  "premium_amount",
+  "total_amount",
+  "invoice_amount",
+  "section_break_bitky"
+ ],
+ "fields": [
+  {
+   "fieldname": "advance_premium",
+   "fieldtype": "Heading",
+   "label": "Advance Premium"
+  },
+  {
+   "fieldname": "section_break_61ptn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "label": "Policy holder"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "estimated_turnover_for_year",
+   "fieldtype": "Currency",
+   "label": "Estimated Turnover For Year"
+  },
+  {
+   "default": "0",
+   "fieldname": "vat",
+   "fieldtype": "Check",
+   "label": "With Vat"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
+  },
+  {
+   "fieldname": "premium_amount",
+   "fieldtype": "Data",
+   "label": "Estimated Premium "
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Data",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "section_break_bitky",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "without_vat",
+   "fieldtype": "Check",
+   "label": "Without VAT"
+  },
+  {
+   "fieldname": "column_break_t9wpa",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 16:26:18.180813",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Advance Premium Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -10,48 +10,51 @@
  "field_order": [
   "export_declarations_tab",
   "policy",
-  "section_break_jsefr",
   "policy_holder",
-  "policy_holder1",
+  "section_break_jsefr",
   "policy_number",
-  "policy_no",
+  "quotation_number",
   "policy_expire_date",
-  "declaration_for_the_month_of",
+  "month",
   "column_break_acprc",
   "status",
   "inception_date",
   "ed_number",
   "capture_date",
-  "section_break_nns50",
+  "currency",
   "year",
+  "section_break_nns50",
   "section_break_ucgls",
   "upload",
   "upload1",
   "section_break_yyhg6",
   "turn_over",
   "export_declaration",
+  "section_break_fexmb",
   "section_break_sbgwf",
   "buyer1",
   "section_break_zrcx6",
   "buyer",
-  "column_break_agrr7",
   "section_break_al9cz",
   "terms_of_payment",
+  "country",
   "column_break_bt867",
   "exchange_rate",
+  "premium_rate",
   "column_break_mqk98",
   "fx_value",
+  "amount1",
   "column_break_zx3oq",
   "column_break_sxdjt",
   "amount_pula",
   "column_break_z0rgn",
+  "section_break_wdaap",
   "section_break_gkup3",
   "add",
   "column_break_wx5ck",
-  "prepare_invoice",
-  "amount1",
-  "premium_rate",
-  "country"
+  "column_break_t0usv",
+  "column_break_cqrtf",
+  "prepare_invoice"
  ],
  "fields": [
   {
@@ -70,21 +73,15 @@
    "fieldtype": "Section Break"
   },
   {
-   "fetch_from": "policy_number.inception_date",
+   "default": "Today",
    "fieldname": "inception_date",
-   "fieldtype": "Date",
-   "label": "Inception Date"
+   "fieldtype": "Data",
+   "label": "Inception date"
   },
   {
    "fieldname": "policy_expire_date",
    "fieldtype": "Data",
    "label": "Policy Expire Date"
-  },
-  {
-   "fieldname": "declaration_for_the_month_of",
-   "fieldtype": "Select",
-   "label": "Declaration for the month of",
-   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOMBER\nNOVEMBER\nDECEMBER"
   },
   {
    "fieldname": "column_break_acprc",
@@ -112,7 +109,7 @@
    "fieldname": "year",
    "fieldtype": "Select",
    "label": "Year",
-   "options": "\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+   "options": "\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035\n2036\n2037\n2038\n2039\n2040"
   },
   {
    "fieldname": "section_break_ucgls",
@@ -142,14 +139,13 @@
   {
    "fieldname": "buyer",
    "fieldtype": "Select",
-   "label": "Buyer",
-   "options": "Buyer"
+   "label": "Buyer"
   },
   {
    "fieldname": "terms_of_payment",
    "fieldtype": "Select",
    "label": "Terms Of Payment",
-   "options": "\nterms of payment\n1-3m\n1-3mlc\n4-6m\n4-6mlc\ncad\ncadLC\nTT7d"
+   "options": "Select\n1-3m\n1-3mLC\n4-6m\n4-6mLC\ncad\ncadLC\nTT7d"
   },
   {
    "fieldname": "column_break_bt867",
@@ -159,8 +155,7 @@
    "fieldname": "exchange_rate",
    "fieldtype": "Currency",
    "in_list_view": 1,
-   "label": "Exchange Rate(1 Pula =.)",
-   "reqd": 1
+   "label": "Exchange Rate(1 USD =.)"
   },
   {
    "fieldname": "column_break_mqk98",
@@ -170,8 +165,7 @@
    "fieldname": "fx_value",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "FX Value",
-   "reqd": 1
+   "label": "FX Value"
   },
   {
    "fieldname": "column_break_sxdjt",
@@ -180,11 +174,7 @@
   {
    "fieldname": "amount_pula",
    "fieldtype": "Currency",
-   "label": "Amount (Pula)"
-  },
-  {
-   "fieldname": "column_break_agrr7",
-   "fieldtype": "Column Break"
+   "label": "Amount (USD)"
   },
   {
    "fieldname": "column_break_z0rgn",
@@ -193,7 +183,7 @@
   {
    "fieldname": "export_declaration",
    "fieldtype": "Table",
-   "options": "Export Declaration Chid"
+   "options": "ExportDeclarationChid"
   },
   {
    "fieldname": "section_break_sbgwf",
@@ -207,6 +197,7 @@
   {
    "fieldname": "prepare_invoice",
    "fieldtype": "Button",
+   "hidden": 1,
    "label": "Prepare Invoice"
   },
   {
@@ -218,13 +209,11 @@
   {
    "fieldname": "premium_rate",
    "fieldtype": "Data",
-   "hidden": 1,
    "label": "premium Rate"
   },
   {
    "fieldname": "amount1",
    "fieldtype": "Data",
-   "hidden": 1,
    "label": "Amount"
   },
   {
@@ -234,8 +223,7 @@
   {
    "fieldname": "country",
    "fieldtype": "Data",
-   "hidden": 1,
-   "label": "country"
+   "label": "Country"
   },
   {
    "fetch_from": "ph_name.policy_number",
@@ -270,24 +258,45 @@
    "fieldname": "ed_number",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "ED Number",
+   "label": "ED Ref Number",
    "unique": 1
   },
   {
-   "fieldname": "policy_holder1",
-   "fieldtype": "Data",
-   "label": "policy Holder"
+   "fieldname": "section_break_wdaap",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "policy_no",
+   "fieldname": "column_break_cqrtf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quotation_number",
    "fieldtype": "Data",
-   "hidden": 1,
-   "label": "Policy Number"
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "label": "Declaration for the month of",
+   "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOBER\nNOVEMBER\nDECEMBER"
+  },
+  {
+   "fieldname": "section_break_fexmb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_t0usv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Select",
+   "label": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-31 09:16:33.497478",
+ "modified": "2025-12-08 06:52:07.591786",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Export Declarations",

@@ -1,0 +1,322 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{credit_note_no}",
+ "creation": "2024-03-21 08:11:01.164135",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_note",
+  "section_break_dzaeu",
+  "invoice",
+  "section_break_ov1ux",
+  "policy_holder",
+  "policy_holder1",
+  "column_break_fwfpm",
+  "quotation_number",
+  "section_break_cwlkb",
+  "invoice_number",
+  "invoice_no",
+  "invoice_date",
+  "vat",
+  "month",
+  "currency",
+  "column_break_ivii4",
+  "credit_note_date",
+  "ed_number",
+  "credit_note_no",
+  "total_amountincl_vat",
+  "section_break_jqsgb",
+  "invoce_details",
+  "section_break_b27lx",
+  "credit_note_child",
+  "section_break_y56ey",
+  "invoice_details_section",
+  "dcl_amount1",
+  "column_break_yxuq6",
+  "premium_rate1",
+  "column_break_c44bl",
+  "a",
+  "section_break_zzse1",
+  "dcl_amount2",
+  "column_break_1mrrm",
+  "premium_rate2",
+  "column_break_vdpbh",
+  "d",
+  "column_break_5xihb",
+  "comments",
+  "column_break_0lhsl",
+  "section_break_wnero",
+  "column_break_lfqni",
+  "column_break_wpocd",
+  "column_break_nleav",
+  "internal_invoice",
+  "column_break_u2rrk",
+  "tax_invoice",
+  "column_break_0yyww",
+  "cancel"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_note",
+   "fieldtype": "Heading",
+   "label": "Credit Note",
+   "options": "<h3>Credit Note</h3>"
+  },
+  {
+   "fieldname": "section_break_dzaeu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Heading",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "section_break_ov1ux",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Select",
+   "label": "Policy Holder"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Invoice Number"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Stamp duty %"
+  },
+  {
+   "fieldname": "column_break_ivii4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_note_date",
+   "fieldtype": "Date",
+   "label": "Credit Note Date"
+  },
+  {
+   "fieldname": "credit_note_no",
+   "fieldtype": "Data",
+   "label": "Credit Note Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "total_amountincl_vat",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount(incl VAT):                P",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_jqsgb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_cwlkb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_y56ey",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_yxuq6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_5xihb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_wnero",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "internal_invoice",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Internal Invoice"
+  },
+  {
+   "fieldname": "tax_invoice",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Tax Invoice"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Cancel"
+  },
+  {
+   "fieldname": "column_break_0lhsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_u2rrk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0yyww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nleav",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wpocd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_lfqni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_note_child",
+   "fieldtype": "Table",
+   "options": "credit note child"
+  },
+  {
+   "fieldname": "invoce_details",
+   "fieldtype": "HTML",
+   "label": "Invoice Details",
+   "options": "<h5>Invoice Details</h5>"
+  },
+  {
+   "fieldname": "section_break_b27lx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_holder1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Policy Holder1"
+  },
+  {
+   "fieldname": "invoice_number",
+   "fieldtype": "Select",
+   "label": "Inovice No"
+  },
+  {
+   "fieldname": "invoice_details_section",
+   "fieldtype": "Section Break",
+   "label": "Invoice Details"
+  },
+  {
+   "fieldname": "dcl_amount1",
+   "fieldtype": "Data",
+   "label": "Declaration Amount $"
+  },
+  {
+   "fieldname": "premium_rate1",
+   "fieldtype": "Data",
+   "label": "Premium Rate:"
+  },
+  {
+   "fieldname": "column_break_c44bl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zzse1",
+   "fieldtype": "Section Break",
+   "label": "Credit Note Details"
+  },
+  {
+   "fieldname": "dcl_amount2",
+   "fieldtype": "Data",
+   "label": "Dcl.Amount: P"
+  },
+  {
+   "fieldname": "column_break_1mrrm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate2",
+   "fieldtype": "Data",
+   "label": "Premium Rate: P"
+  },
+  {
+   "fieldname": "column_break_vdpbh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation number"
+  },
+  {
+   "fieldname": "column_break_fwfpm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "label": "ED Number"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currecny",
+   "options": "Currency_Finance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-10 06:57:36.725568",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Credit Note",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

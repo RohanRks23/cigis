@@ -1,0 +1,872 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}-{YYYY}-{#####}",
+ "creation": "2025-11-20 13:13:22.801061",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "proposal",
+  "section_break_zmq2o",
+  "ae_no",
+  "section_break_adbsb",
+  "important_notice",
+  "please",
+  "please_use_block_letters",
+  "section_break_bahjk",
+  "1_general_information",
+  "section_break_8dnis",
+  "name1",
+  "physical_address",
+  "date_established",
+  "directorspartners",
+  "holding_or_parent_company",
+  "bankers_branch",
+  "account_no",
+  "section_break_e27rj",
+  "2_nature_of_business",
+  "section_break_khmtc",
+  "specify",
+  "bussiness_type",
+  "section_break_dpyto",
+  "kinds",
+  "goods_services",
+  "section_break_kxoey",
+  "types",
+  "private_buyers",
+  "3_spread_of_export_turnover",
+  "a",
+  "section_break_idf6b",
+  "exportturnover",
+  "section_break_ka94j",
+  "b_choose_the_applicable",
+  "section_break_pfhbn",
+  "i_we_wish_to_obtain_a_quotation_for_cover_of_all_markets",
+  "section_break_w8dlj",
+  "ii",
+  "column_break_nqjlm",
+  "d19",
+  "section_break_utmbe",
+  "turnover",
+  "section_break_q9o6v",
+  "c",
+  "column_break_kitud",
+  "d20",
+  "section_break_a1h2l",
+  "4_credit_insurance_policy",
+  "section_break_nzn6a",
+  "41",
+  "column_break_m7zdy",
+  "yes",
+  "column_break_nnfst",
+  "no",
+  "section_break_wqqrz",
+  "if_yes",
+  "column_break_ibc2d",
+  "d21",
+  "section_break_dfl79",
+  "42",
+  "column_break_trpue",
+  "yes1",
+  "column_break_elsye",
+  "no1",
+  "section_break_2arwx",
+  "43",
+  "column_break_j8hgl",
+  "yes2",
+  "column_break_24fqr",
+  "no2",
+  "section_break_9dhnl",
+  "5_principal_buyers",
+  "section_break_f4fi2",
+  "we_append",
+  "section_break_5gpii",
+  "supplementary_sheets_may_be_attached",
+  "principal_buyer_table",
+  "section_break_3nbqt",
+  "note",
+  "in_the_event",
+  "section_break_4jtdl",
+  "6_past_experience",
+  "section_break_qrqnu",
+  "our_bad_debtd",
+  "pastexperiencetable",
+  "section_break_lxxux",
+  "we_appened_a_statemet",
+  "d22",
+  "b_we_append_a_note_giving",
+  "section_break_50uil",
+  "7_insurance_history_and_claims_experience",
+  "section_break_gr74m",
+  "a1",
+  "column_break_pcr9l",
+  "yes3",
+  "column_break_n686t",
+  "no3",
+  "section_break_didpa",
+  "if_yes_who_was_your_insurer_and_the_period_you_were_on_cover",
+  "d23",
+  "section_break_o2gwm",
+  "b",
+  "column_break_8qofb",
+  "yes4",
+  "column_break_kzwct",
+  "no4",
+  "section_break_5dlai",
+  "8_declaration",
+  "a2",
+  "b2",
+  "section_break_b3q5e",
+  "exporter_s_signature",
+  "section_break_jaggf",
+  "f1",
+  "de1",
+  "column_break_xre22",
+  "da1",
+  "s1",
+  "section_break_fe1vl",
+  "counter_signed",
+  "section_break_nyhgc",
+  "f2",
+  "de2",
+  "column_break_m5qnl",
+  "da2",
+  "s2",
+  "section_break_t2u9x",
+  "for_credsure_only",
+  "section_break_gljqn",
+  "f3",
+  "de3",
+  "column_break_c8rbe",
+  "da3",
+  "s3",
+  "section_break_3vbfm",
+  "checked_by",
+  "section_break_1kyiz",
+  "f4",
+  "de4",
+  "column_break_lxyru",
+  "da4",
+  "s4",
+  "section_break_0mkox",
+  "back"
+ ],
+ "fields": [
+  {
+   "fieldname": "proposal",
+   "fieldtype": "HTML",
+   "label": "proposal",
+   "options": "<div style=\"text-align: center; color: #3F65A7; font-weight: bold; text-transform: uppercase; font-family: Arial,Helvetica,sans-serif; font-size: 22px;\">\n    PROPOSAL FOR AN EXPORT CREDIT INSURANCE POLICY <br><br>\n    EXPORT SHIPMENTS \u2013 WHOLE TURNOVER COVER ALL MARKETS OR SELECTED MARKETS\n</div>\n\n"
+  },
+  {
+   "fieldname": "section_break_zmq2o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ae_no",
+   "fieldtype": "Data",
+   "label": "AE No."
+  },
+  {
+   "fieldname": "section_break_adbsb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "important_notice",
+   "fieldtype": "Heading",
+   "label": "IMPORTANT NOTICE"
+  },
+  {
+   "fieldname": "please",
+   "fieldtype": "HTML",
+   "label": "please",
+   "options": "<p> Please inform us of the terms on which you are prepared to issue a Policy to indemnify us under the conditions of such Policy against losses as therein defined that we may sustain in respect of goods exported by us to buyers outside Zimbabwe.<br><br>\n To enable you to do this we give you, in the strictest confidence, the following information. </p>"
+  },
+  {
+   "fieldname": "please_use_block_letters",
+   "fieldtype": "Heading",
+   "label": "PLEASE USE BLOCK LETTERS"
+  },
+  {
+   "fieldname": "section_break_bahjk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "1_general_information",
+   "fieldtype": "Heading",
+   "label": "1. GENERAL INFORMATION"
+  },
+  {
+   "fieldname": "section_break_8dnis",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "physical_address",
+   "fieldtype": "Data",
+   "label": "Physical Address"
+  },
+  {
+   "fieldname": "date_established",
+   "fieldtype": "Data",
+   "label": "Date Established"
+  },
+  {
+   "fieldname": "directorspartners",
+   "fieldtype": "Data",
+   "label": "Directors/Partners"
+  },
+  {
+   "fieldname": "holding_or_parent_company",
+   "fieldtype": "Data",
+   "label": "Holding or Parent Company"
+  },
+  {
+   "fieldname": "bankers_branch",
+   "fieldtype": "Data",
+   "label": "Bankers (Branch)"
+  },
+  {
+   "fieldname": "account_no",
+   "fieldtype": "Data",
+   "label": "Account No"
+  },
+  {
+   "fieldname": "section_break_e27rj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "2_nature_of_business",
+   "fieldtype": "Heading",
+   "label": "2. NATURE OF BUSINESS"
+  },
+  {
+   "fieldname": "section_break_khmtc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specify",
+   "fieldtype": "HTML",
+   "label": "Specify",
+   "options": "<p>Specify nature of business (Manufacturing, Wholesaler, Retailer or Other \u2013 Specify): </p>"
+  },
+  {
+   "fieldname": "section_break_dpyto",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kinds",
+   "fieldtype": "HTML",
+   "label": "Kinds",
+   "options": "<p>Kinds of Goods Sold:</p>"
+  },
+  {
+   "fieldname": "types",
+   "fieldtype": "HTML",
+   "label": "Types",
+   "options": "<p>Type of Buyers Mainly Involved (e.g. Manufacturers, Wholesalers, Retalers or Other \u2013Specify):</p>"
+  },
+  {
+   "fieldname": "3_spread_of_export_turnover",
+   "fieldtype": "Heading",
+   "label": "3. SPREAD OF EXPORT TURNOVER"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "HTML",
+   "label": "a",
+   "options": "<p> (a) We give details of OUR TOTAL TURNOVER achieved with all Markets during the last completed year AND our total anticipated export turnover to each of the countries\n     for the next 12 months during which the proposal Policy is to apply</p>"
+  },
+  {
+   "fieldname": "section_break_kxoey",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_idf6b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ka94j",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b_choose_the_applicable",
+   "fieldtype": "Heading",
+   "label": "(b) Choose the applicable"
+  },
+  {
+   "fieldname": "section_break_pfhbn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "i_we_wish_to_obtain_a_quotation_for_cover_of_all_markets",
+   "fieldtype": "Check",
+   "label": " (i) We wish to obtain a quotation for cover of All markets"
+  },
+  {
+   "fieldname": "section_break_w8dlj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ii",
+   "fieldtype": "HTML",
+   "label": " (ii)",
+   "options": "<p> (ii) We wish to obtain a quotation for cover of the following Selected markets only</p>"
+  },
+  {
+   "fieldname": "column_break_nqjlm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d19",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_utmbe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "turnover",
+   "fieldtype": "HTML",
+   "label": "Turnover",
+   "options": "<p> \u201cTurnover\u201d should exclude the value of shipments in respect of which irrevocable payment is made to you in Zimbabwean currency prior to the dates of shipment of goods or where \npayment is made against documents in Zimbabwe under an irrevocable letter of credit confirmed before shipment by a bank in Zimbabwe</p>"
+  },
+  {
+   "fieldname": "section_break_q9o6v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "c",
+   "fieldtype": "HTML",
+   "label": "(c)",
+   "options": "<p> (c)The NUMBER OF BUYERS in countries specified above (in 3 (b) (i) or (ii) whichever applies) is approximately</p>"
+  },
+  {
+   "fieldname": "column_break_kitud",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d20",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_a1h2l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "4_credit_insurance_policy",
+   "fieldtype": "Heading",
+   "label": " 4. CREDIT INSURANCE POLICY"
+  },
+  {
+   "fieldname": "section_break_nzn6a",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "41",
+   "fieldtype": "HTML",
+   "label": "4.1",
+   "options": "<p>4.1  Is your Credit Insurance Policy, when issued, to be ceded to a financial or other institution as collateral?   </p>"
+  },
+  {
+   "fieldname": "column_break_m7zdy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_nnfst",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_wqqrz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "if_yes",
+   "fieldtype": "HTML",
+   "label": "If yes",
+   "options": "<p>  If \u2018Yes\u2019, please give full name and address of such institution</p>"
+  },
+  {
+   "fieldname": "column_break_ibc2d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d21",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_dfl79",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "42",
+   "fieldtype": "HTML",
+   "label": "4.2",
+   "options": "<p>n\n 4.2  Do you owe your previous insurer any premiums?</p>"
+  },
+  {
+   "fieldname": "column_break_trpue",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes1",
+   "fieldtype": "Check",
+   "label": "yes"
+  },
+  {
+   "fieldname": "column_break_elsye",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_2arwx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "43",
+   "fieldtype": "HTML",
+   "label": "4.3",
+   "options": "<p>4.3  Have you ever suffered any loss related to the risk to be insured?</p>"
+  },
+  {
+   "fieldname": "column_break_j8hgl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes2",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_24fqr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no2",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_9dhnl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "5_principal_buyers",
+   "fieldtype": "Heading",
+   "label": "5. PRINCIPAL BUYERS"
+  },
+  {
+   "fieldname": "section_break_f4fi2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "we_append",
+   "fieldtype": "HTML",
+   "label": "we append",
+   "options": "<p> We append below a list of our principal buyers, and their bankers, in our Export Markets together with an indication of the maximum amount outstanding in our books in respect of \nsuch buyers at any one point in time during the past 12 months</p>"
+  },
+  {
+   "fieldname": "section_break_5gpii",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supplementary_sheets_may_be_attached",
+   "fieldtype": "Heading",
+   "label": " (Supplementary Sheets may be attached)"
+  },
+  {
+   "fieldname": "section_break_3nbqt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Heading",
+   "label": " Note"
+  },
+  {
+   "fieldname": "in_the_event",
+   "fieldtype": "HTML",
+   "label": "In the Event",
+   "options": "<p> In the event of a Policy being issued to the Proposer it will be necessary for the Insured to make application for credit limits on the form provided by Credsure for that purpose.\n Section 5 of this Proposal is not to be regarded as an application for credit limits. If the quotation made in pursuance of this proposal is accepted by the exporter. We know of no \nadverse information concerning the buyer(s) mentioned which might influence Credsure in considering this application. We confirm in particular, that no amount(s) owing to us by any \nof the above Buyer(s) are two months or more overdue.</p><br><br> e.g. If you are supplying monthly consignments valued at US$10 000 and granting 90 days credit terms this figure could be for example US$30 000<p></p>"
+  },
+  {
+   "fieldname": "section_break_4jtdl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "6_past_experience",
+   "fieldtype": "Heading",
+   "label": "6. PAST EXPERIENCE"
+  },
+  {
+   "fieldname": "section_break_qrqnu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "our_bad_debtd",
+   "fieldtype": "HTML",
+   "label": "our bad debtd",
+   "options": "<p>Our bad debts, which term shall mean the actual losses incurred on all buyers outside Zimbabwe arising only from the insolvency or financial difficulties of such buyers, exclusive of \ncompensation received from agents, insurers and any other source for the previous three completed years and the subsequent period to date, have been as follows.</p>"
+  },
+  {
+   "fieldname": "section_break_lxxux",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "we_appened_a_statemet",
+   "fieldtype": "HTML",
+   "label": "we appened a statemet",
+   "options": "<p> a) We append a statement of overdue accounts (if any) with an estimate of possible losses thereon. (If there are no such over due accounts, please state hereunder to this  effect.)</p>"
+  },
+  {
+   "fieldname": "d22",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "b_we_append_a_note_giving",
+   "fieldtype": "HTML",
+   "label": "b) we append a note giving",
+   "options": "<p> (b) We append a note giving details of any exceptional losses in individual firms or countries as included in the details in (6) above</p>"
+  },
+  {
+   "fieldname": "section_break_50uil",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "7_insurance_history_and_claims_experience",
+   "fieldtype": "Heading",
+   "label": "7. INSURANCE HISTORY AND CLAIMS EXPERIENCE"
+  },
+  {
+   "fieldname": "section_break_gr74m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a1",
+   "fieldtype": "HTML",
+   "label": "a",
+   "options": "a)  Have you ever been insured before?   "
+  },
+  {
+   "fieldname": "column_break_pcr9l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes3",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_n686t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no3",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_didpa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "if_yes_who_was_your_insurer_and_the_period_you_were_on_cover",
+   "fieldtype": "HTML",
+   "label": "  If Yes who was your insurer and the period you were on cover",
+   "options": "<p>  If \u2018Yes\u2019, who was your insurer and the period you were on cover</p>"
+  },
+  {
+   "fieldname": "d23",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_o2gwm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "HTML",
+   "label": "b",
+   "options": "<p> b) Do you owe your previous insurer any premiums? </p>"
+  },
+  {
+   "fieldname": "column_break_8qofb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes4",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_kzwct",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no4",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_5dlai",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "8_declaration",
+   "fieldtype": "Heading",
+   "label": " 8. DECLARATION"
+  },
+  {
+   "fieldname": "a2",
+   "fieldtype": "HTML",
+   "label": "a",
+   "options": "<p> a) We certify that the representations made and facts stated by us are true and that we have not misrepresented or omitted any material fact. (Attention is drawn to Section 8 of the\n    Export Credit reinsurance Act, No. 43 of 1965 [as amended ] )</p>"
+  },
+  {
+   "fieldname": "b2",
+   "fieldtype": "HTML",
+   "label": "b",
+   "options": "<p> b) We agree that the person filling in this Proposal Form, wholly or in part, does so as your agent and not that of Credsure and that neither facts within the knowledge of nor statements\n    made to any agent of Credsure relative to this Proposal shall be binding on Credsure unless embodied in writing on this Proposal Form</p>"
+  },
+  {
+   "fieldname": "section_break_b3q5e",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "exporter_s_signature",
+   "fieldtype": "Heading",
+   "label": "Exporter s Signature"
+  },
+  {
+   "fieldname": "section_break_jaggf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "f1",
+   "fieldtype": "Data",
+   "label": " FULL NAME"
+  },
+  {
+   "fieldname": "de1",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_xre22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "da1",
+   "fieldtype": "Date",
+   "label": " DATE"
+  },
+  {
+   "fieldname": "s1",
+   "fieldtype": "Data",
+   "label": " SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_fe1vl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "counter_signed",
+   "fieldtype": "Heading",
+   "label": " Counter Signed"
+  },
+  {
+   "fieldname": "section_break_nyhgc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "f2",
+   "fieldtype": "Data",
+   "label": " FULL NAME"
+  },
+  {
+   "fieldname": "de2",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_m5qnl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "da2",
+   "fieldtype": "Date",
+   "label": " DATE"
+  },
+  {
+   "fieldname": "s2",
+   "fieldtype": "Data",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_t2u9x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "for_credsure_only",
+   "fieldtype": "Heading",
+   "label": "For Credsure Only"
+  },
+  {
+   "fieldname": "section_break_gljqn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "f3",
+   "fieldtype": "Data",
+   "label": " FULL NAME"
+  },
+  {
+   "fieldname": "de3",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_c8rbe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "da3",
+   "fieldtype": "Date",
+   "label": " DATE"
+  },
+  {
+   "fieldname": "s3",
+   "fieldtype": "Data",
+   "label": "SIGNATURE"
+  },
+  {
+   "fieldname": "section_break_3vbfm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by",
+   "fieldtype": "Heading",
+   "label": "Checked By"
+  },
+  {
+   "fieldname": "section_break_1kyiz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "f4",
+   "fieldtype": "Data",
+   "label": " FULL NAME"
+  },
+  {
+   "fieldname": "de4",
+   "fieldtype": "Data",
+   "label": "DESIGNATION"
+  },
+  {
+   "fieldname": "column_break_lxyru",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "da4",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "s4",
+   "fieldtype": "Data",
+   "label": " SIGNATURE"
+  },
+  {
+   "fieldname": "bussiness_type",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "private_buyers",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "exportturnover",
+   "fieldtype": "Table",
+   "options": "Print Proposal Eci Child"
+  },
+  {
+   "fieldname": "pastexperiencetable",
+   "fieldtype": "Table",
+   "options": "Past Exceperince print Proposal"
+  },
+  {
+   "fieldname": "section_break_0mkox",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
+  },
+  {
+   "fieldname": "principal_buyer_table",
+   "fieldtype": "Table",
+   "options": "Print Proposal ECI Child Principle Buyer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-08 06:36:59.534946",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal ECI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

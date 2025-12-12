@@ -11,10 +11,10 @@
   "credit_limit_processing_tab",
   "creditlimit1",
   "section_break_jmoas",
-  "policy_no",
-  "policy_number",
   "credit_limit_no",
   "credit_number",
+  "policy_no",
+  "policy_number",
   "column_break_fbgf1",
   "capture_date",
   "policy_holder_name",
@@ -32,7 +32,7 @@
   "section_break_g7vqn",
   "credit_limit",
   "column_break_v0tfb",
-  "comment",
+  "comment1",
   "section_break_dhvlj",
   "credit_bureau_report",
   "section_break_iuqid",
@@ -95,7 +95,7 @@
   "outstanding_amount",
   "repayment_ability",
   "total_exposure",
-  "comments",
+  "comment2",
   "column_break_n41vi",
   "use_of_the_credit_limit",
   "recommended_exposure",
@@ -109,10 +109,11 @@
   "cl_approve",
   "section_break_qdqnt",
   "approved_amount",
+  "approved_date",
   "column_break_9l3q4",
   "cl_review_date",
   "section_break_qwdq3",
-  "comment1",
+  "comment3",
   "conditions",
   "section_break_vownd",
   "signatory1",
@@ -129,7 +130,6 @@
   "buyer_id",
   "policy_type",
   "financial_analysis",
-  "approved_date",
   "data",
   "separate"
  ],
@@ -177,11 +177,6 @@
   {
    "fieldname": "column_break_v0tfb",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "comment",
-   "fieldtype": "Small Text",
-   "label": "Comment"
   },
   {
    "fieldname": "section_break_dhvlj",
@@ -306,11 +301,6 @@
    "label": "Repayment Ability"
   },
   {
-   "fieldname": "comments",
-   "fieldtype": "Small Text",
-   "label": "Comments"
-  },
-  {
    "fieldname": "column_break_sxspu",
    "fieldtype": "Column Break"
   },
@@ -388,7 +378,7 @@
    "fieldname": "recommend_to",
    "fieldtype": "Select",
    "label": "Recommend To",
-   "options": "bdube\nramalefo\ngoabaone\nagreey\nHaroldk\nKeletso\nmurphy\nValerie\namantle\ntshepo\ncowell\ndonald\npearl\nThabo\nMicus\nOnkabetse\nFaith\nGofaone\nGorata\nKatlego\nmatihogonolo"
+   "options": "\nsmarange\nckambani\nrgovera\nimeza\nAdmin\nstembo\ntzengeya\ntmlambo\nrbiza\npmpofu\nwnyirenda\nbdube\nramalefo\ngoabaone\nagreey\nHaroldk\nKeletso\nmurphy\nValerie\namantle\ntshepo\ncowell\ndonald\npearl\nThabo\nMicus\nOnkabetse\nFaith\nGofaone\nGorata\nKatlego\nmatihogonolo"
   },
   {
    "fieldname": "column_break_60hcw",
@@ -413,33 +403,30 @@
   {
    "fieldname": "approved_amount",
    "fieldtype": "Currency",
-   "label": "Approved Amount",
-   "reqd": 1
+   "label": "Approved Amount"
   },
   {
    "fieldname": "comment1",
    "fieldtype": "Small Text",
-   "label": "Comment",
-   "reqd": 1
+   "label": "Request Comment"
   },
   {
    "fieldname": "conditions",
    "fieldtype": "Small Text",
-   "label": "Conditions",
-   "reqd": 1
+   "label": "Conditions"
   },
   {
    "fieldname": "signatory1",
    "fieldtype": "Select",
    "label": "Signatory1",
-   "options": "Under Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nRisk and Compliance Manager\nCredit and Data Analyst\nRisk Executive\nDirector",
+   "options": "\nUnder Writing Officer\nChief Underwriter\nUnderwriter\nMD\nHead of Credit Department\nChief UnderwriterUnder Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nRisk and Compliance Manager\nCredit and Data Analyst\nRisk Executive\nDirector",
    "reqd": 1
   },
   {
    "fieldname": "signatory2",
    "fieldtype": "Select",
    "label": "Signatory2",
-   "options": "Under Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nRisk and Compliance Manager\nCredit and Data Analyst\nRisk Executive\nDirector",
+   "options": "\nUnder Writing Officer\nUnder Writing Executive\nUnder Writing Manager\nGeneral Manager\nRisk and Compliance Manager\nCredit and Data Analyst\nRisk Executive\nDirector",
    "reqd": 1
   },
   {
@@ -456,13 +443,13 @@
    "fieldname": "signatory_officer1",
    "fieldtype": "Select",
    "label": "Signatory Officer1",
-   "options": "admin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
+   "options": "\nSelect\n27\n38\n7\n34\n29\n18\n6\n37\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
   },
   {
    "fieldname": "signatory_officer2",
    "fieldtype": "Select",
    "label": "Signatory Officer2",
-   "options": "\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
+   "options": "\nSelect\n27\n36\n31\n15\n29\n18\n6\n37\nadmin\nbdube\nramalefo\ngoabaone\nagreey\nmodise\nmapho\nsophie\npsebina\nktau\nandrew\nkego\nbone\nharoldk\nkeletso\nthabiso\nsylvia\ninmoalosi\nannah\npiletso\ntapiwa\nkelebogile\nmurphy\nkarabo\nvalerie\nkagiso\nfredy\nramocha\nmoagi\nmampane\namantle\ntshabaesele\ntshepo\ncowell\ndonald\noboitshwarelo\nthabang\nportia\ngame\nphemelo\npearl\nthabo\nmicus\njanet\nbonolo\nonkabetse\nmogomotsi\ngodiraone\nbokang\nmoreri\nkuda\nfaith\ngofaone\ngoitsemodimo\ngorata\nkatlego\ntumisang\nelaine\nmatlhogonolo"
   },
   {
    "fieldname": "section_break_8r3yt",
@@ -519,7 +506,7 @@
    "fieldname": "days_from",
    "fieldtype": "Select",
    "label": "Days From",
-   "options": "Statement\nInvoice"
+   "options": "\nSelect\nInvoice date\nStatement date\nStatement\nInvoice"
   },
   {
    "fieldname": "column_break_qtqdt",
@@ -645,7 +632,6 @@
    "default": "Today",
    "fieldname": "approved_date",
    "fieldtype": "Date",
-   "hidden": 1,
    "label": "Approved Date"
   },
   {
@@ -693,7 +679,7 @@
    "fieldname": "policy_number",
    "fieldtype": "Data",
    "hidden": 1,
-   "label": "Policy No"
+   "label": "Policy No1"
   },
   {
    "fieldname": "credit_limit_no",
@@ -748,12 +734,22 @@
    "fieldname": "credit_number",
    "fieldtype": "Data",
    "hidden": 1,
-   "label": "Credit Limit No"
+   "label": "Credit Limit No1"
+  },
+  {
+   "fieldname": "comment2",
+   "fieldtype": "Small Text",
+   "label": "Analysis Comment"
+  },
+  {
+   "fieldname": "comment3",
+   "fieldtype": "Small Text",
+   "label": "Approval Comment"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-04 09:24:09.234167",
+ "modified": "2025-10-31 10:37:39.622268",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Credit Limit Processing",

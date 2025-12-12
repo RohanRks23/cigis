@@ -12,12 +12,18 @@
   "general",
   "section_break_fvph7",
   "policy_holder",
+  "quotation_number",
+  "ed_number",
   "invoice_date",
-  "column_break_kmsa4",
-  "vat",
+  "month",
   "column_break_ygqsb",
   "invoice_no",
+  "currency",
+  "decl_amt",
+  "vat",
   "invoice_amount",
+  "stamp_duty_value",
+  "year",
   "section_break_j020m",
   "buyer",
   "export_buyer",
@@ -27,31 +33,20 @@
   "section_break_3fob2",
   "line_item",
   "section_break_hppuy",
-  "month",
   "premium_charges",
   "section_break_yhwab",
-  "year",
-  "section_break_lri0c",
-  "credit_limit_fee",
-  "column_break_vbutj",
-  "credit_limits",
-  "column_break_afoio",
-  "x",
-  "section_break_pbsup",
-  "credit_limit_enquiry_fee",
-  "column_break_js63s",
-  "credit_limits1",
-  "column_break_fghi7",
-  "y",
   "total",
   "section_break_u2j51",
   "column_break_5nkm3",
-  "column_break_8bo6q",
   "add",
+  "column_break_8bo6q",
+  "column_break_bfnkv",
+  "column_break_h5hml",
   "column_break_t4kfj",
-  "submit_to_finance",
   "section_break_wpwsw",
-  "country"
+  "country",
+  "section_break_dhhjh",
+  "cancel"
  ],
  "fields": [
   {
@@ -75,19 +70,15 @@
    "label": "Policy Holder Name"
   },
   {
+   "default": "Today",
    "fieldname": "invoice_date",
    "fieldtype": "Date",
    "label": "Invoice Date"
   },
   {
-   "fieldname": "column_break_kmsa4",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "vat",
-   "fieldtype": "Select",
-   "label": "Vat",
-   "options": "\n0\n10\n12\n14"
+   "fieldtype": "Data",
+   "label": "Stamp duty %"
   },
   {
    "fieldname": "column_break_ygqsb",
@@ -140,6 +131,7 @@
   {
    "fieldname": "line_item",
    "fieldtype": "HTML",
+   "hidden": 1,
    "label": "Line Item",
    "options": "<h5>Line Item</h5>"
   },
@@ -149,13 +141,14 @@
   },
   {
    "fieldname": "month",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Month",
    "options": "\nJANUARY\nFEBRUARY\nMARCH\nAPRIL\nMAY\nJUNE\nJULY\nAUGUST\nSEPTEMBER\nOCTOMBER\nNOVEMBER\nDECEMBER"
   },
   {
    "fieldname": "premium_charges",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Premium Charges"
   },
   {
@@ -164,67 +157,14 @@
   },
   {
    "fieldname": "year",
-   "fieldtype": "Select",
+   "fieldtype": "Data",
    "label": "Year",
-   "options": "\n2018\n2019\n2020\n2021\n2022\n2023\n2024"
-  },
-  {
-   "fieldname": "section_break_lri0c",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "credit_limit_fee",
-   "fieldtype": "Data",
-   "label": "Credit Limit Fee"
-  },
-  {
-   "fieldname": "column_break_vbutj",
-   "fieldtype": "Column Break",
-   "options": " "
-  },
-  {
-   "fieldname": "credit_limits",
-   "fieldtype": "Data",
-   "label": "Credit Limits"
-  },
-  {
-   "fieldname": "column_break_afoio",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "x",
-   "fieldtype": "Currency"
-  },
-  {
-   "fieldname": "section_break_pbsup",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "credit_limit_enquiry_fee",
-   "fieldtype": "Data",
-   "label": "Credit Limit Enquiry Fee"
-  },
-  {
-   "fieldname": "column_break_js63s",
-   "fieldtype": "Column Break",
-   "options": " "
-  },
-  {
-   "fieldname": "credit_limits1",
-   "fieldtype": "Data",
-   "label": "Credit Limits"
-  },
-  {
-   "fieldname": "column_break_fghi7",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "y",
-   "fieldtype": "Currency"
+   "options": "\n2001\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035\n2036\n2037\n2038\n2039\n2040"
   },
   {
    "fieldname": "total",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "total"
   },
   {
@@ -250,11 +190,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "submit_to_finance",
-   "fieldtype": "Button",
-   "label": "Submit To Finance"
-  },
-  {
    "fieldname": "section_break_wpwsw",
    "fieldtype": "Section Break"
   },
@@ -263,11 +198,53 @@
    "fieldtype": "Data",
    "hidden": 1,
    "label": "Country"
+  },
+  {
+   "fieldname": "quotation_number",
+   "fieldtype": "Data",
+   "label": "Quotation Number"
+  },
+  {
+   "fieldname": "column_break_bfnkv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_h5hml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_dhhjh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cancel",
+   "fieldtype": "Button",
+   "label": "CANCEL"
+  },
+  {
+   "fieldname": "ed_number",
+   "fieldtype": "Data",
+   "label": "ED number"
+  },
+  {
+   "fieldname": "stamp_duty_value",
+   "fieldtype": "Currency",
+   "label": "Invoice Stamp duty Amount"
+  },
+  {
+   "fieldname": "decl_amt",
+   "fieldtype": "Data",
+   "label": "Decl amt."
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-14 08:12:52.816257",
+ "modified": "2025-12-09 08:07:35.996830",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Export Declaration Invoice",

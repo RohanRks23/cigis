@@ -1,0 +1,226 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-19 11:13:44.433133",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "credit_insurance_potential_claim_details_tab",
+  "credit_insurance_potential_claim_details",
+  "section_break_a2zsd",
+  "general_info",
+  "section_break_qxygw",
+  "ph_name",
+  "policy_no",
+  "inception_date",
+  "buyer",
+  "terms_of_payment",
+  "potential_claim_no",
+  "total_potential_claim_value",
+  "total_payment",
+  "balance_claim_value",
+  "column_break_h2yte",
+  "client_type",
+  "credit_limit",
+  "cl_inception_date",
+  "section_break_j16vk",
+  "payment_details",
+  "section_break_ol3g4",
+  "payment_no",
+  "section_break_48q61",
+  "payment_mode",
+  "column_break_jef9b",
+  "direct_payment",
+  "column_break_2t0tc",
+  "through_beci",
+  "section_break_wxm9i",
+  "date",
+  "amount_paid",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "credit_insurance_potential_claim_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Credit Insurance Potential Claim Details"
+  },
+  {
+   "fieldname": "credit_insurance_potential_claim_details",
+   "fieldtype": "HTML",
+   "label": "Credit Insurance Potential Claim Details",
+   "options": "<h5>Credit Insurance Potential Claim Details</h5>"
+  },
+  {
+   "fieldname": "section_break_a2zsd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general_info",
+   "fieldtype": "HTML",
+   "label": "General Info",
+   "options": "<h5>General Info</h5>"
+  },
+  {
+   "fieldname": "section_break_qxygw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Data",
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "terms_of_payment",
+   "fieldtype": "Data",
+   "label": "Terms Of Payment"
+  },
+  {
+   "fieldname": "potential_claim_no",
+   "fieldtype": "Data",
+   "label": "Potential Claim No"
+  },
+  {
+   "fieldname": "total_potential_claim_value",
+   "fieldtype": "Data",
+   "label": "Total Potential Claim Value"
+  },
+  {
+   "fieldname": "total_payment",
+   "fieldtype": "Data",
+   "label": "Total Payment"
+  },
+  {
+   "fieldname": "balance_claim_value",
+   "fieldtype": "Data",
+   "label": "Balance Claim Value"
+  },
+  {
+   "fieldname": "column_break_h2yte",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client_type",
+   "fieldtype": "Data",
+   "label": "Client Type"
+  },
+  {
+   "fieldname": "credit_limit",
+   "fieldtype": "Data",
+   "label": "Credit Limit"
+  },
+  {
+   "fieldname": "cl_inception_date",
+   "fieldtype": "Data",
+   "label": "CL Inception Date"
+  },
+  {
+   "fieldname": "section_break_j16vk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_details",
+   "fieldtype": "HTML",
+   "label": "Payment Details",
+   "options": "<h5>Payment Details</h5>"
+  },
+  {
+   "fieldname": "section_break_ol3g4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_no",
+   "fieldtype": "Data",
+   "label": "payment No"
+  },
+  {
+   "fieldname": "section_break_48q61",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "HTML",
+   "label": "Payment Mode",
+   "options": "<h5>Payment Mode:</h5>"
+  },
+  {
+   "fieldname": "column_break_jef9b",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "direct_payment",
+   "fieldtype": "Check",
+   "label": "Direct Payment"
+  },
+  {
+   "fieldname": "column_break_2t0tc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "through_beci",
+   "fieldtype": "Check",
+   "label": "Through BECI"
+  },
+  {
+   "fieldname": "section_break_wxm9i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amount_paid",
+   "fieldtype": "Data",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-02 09:06:56.642482",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Credit Insurance Potential Claim Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

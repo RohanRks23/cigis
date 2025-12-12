@@ -322,10 +322,10 @@
   },
   {
    "fieldname": "send",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "hidden": 1,
    "label": "Send to:",
-   "options": "Select\nBonani Dube\nRocky Ramalefo\nAgree L Sebinyane\nHarold Kuvenga\nMurphy Ntuane\nAmantle Ramokutsomo\nTshepo Nfakose\nCowell Habana\nOnkabetse Magang\nMtlhogonolo Leoketsa"
+   "options": "\nUnderWriting Manager\nGeneral Manager\nReinsurer"
   },
   {
    "fieldname": "column_break_jtn7f",
@@ -382,7 +382,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-01 08:37:50.342622",
+ "modified": "2025-11-11 08:19:14.318560",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Facility Review",

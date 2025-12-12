@@ -133,7 +133,8 @@
   "baddebts_addnew",
   "baddebts",
   "section_break_as8ko",
-  "remarks"
+  "remarks",
+  "section_break_ifxda"
  ],
  "fields": [
   {
@@ -163,7 +164,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fetch_from": "client_name.vat_reg_no",
    "fieldname": "registration_no",
    "fieldtype": "Data",
    "label": "Reg.No"
@@ -187,9 +187,8 @@
    "label": "Trading Name"
   },
   {
-   "fetch_from": "client_name.establisheddate",
    "fieldname": "establishment_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Estd.Date"
   },
   {
@@ -672,7 +671,7 @@
    "fieldname": "letters_of_credit",
    "fieldtype": "Select",
    "label": "Letters of Credit",
-   "options": "\nLetter of Credit\nLetter of Credit Not Confirmed\nLetter of Credit Confirmed by Bank in Botswana\nNone"
+   "options": "\nLetter of Credit\nLetter of Credit Not Confirmed\nNone"
   },
   {
    "fieldname": "principal_buyer_tab",
@@ -688,7 +687,7 @@
    "fieldname": "principal_buyer",
    "fieldtype": "Table",
    "label": "Principal Buyer",
-   "options": "Principal_Buyer_Table"
+   "options": "Principal Buyer ECI Proposal Child Table"
   },
   {
    "fieldname": "cover_required_tab",
@@ -747,7 +746,7 @@
    "fieldname": "baddebts",
    "fieldtype": "Table",
    "label": "Past Experience",
-   "options": "BadDebts_Table"
+   "options": "Bad Debts Table"
   },
   {
    "fieldname": "bad_debts",
@@ -823,11 +822,15 @@
   {
    "fieldname": "section_break_onq7p",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ifxda",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-04 08:46:36.534722",
+ "modified": "2025-12-04 07:16:07.028355",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "ECI Proposal",

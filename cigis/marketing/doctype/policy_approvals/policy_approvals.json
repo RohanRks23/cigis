@@ -1,9 +1,8 @@
 {
- "_liked_by": "[\"priyanka.g@techbulls.co.in\", \"nagoor.s@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:policy_number",
- "creation": "2024-02-16 06:43:28.228740",
+ "creation": "2025-11-11 11:19:58.623128",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -17,13 +16,13 @@
   "quotation_date",
   "policy_holder",
   "policy_number",
-  "policy_type",
   "premium",
   "premium_rate",
   "payment_mode",
   "bank",
-  "column_break_aam9p",
+  "column_break_wvr7q",
   "status",
+  "policy_type",
   "goods_services",
   "proposal_no",
   "acceptance_date",
@@ -31,7 +30,14 @@
   "expiry_date",
   "autharoized_signatory",
   "payment_terms",
-  "section_break_hctgr",
+  "section_break_ywfko",
+  "section_break_0zitl",
+  "reinsurer",
+  "column_break_dzlj5",
+  "reinsurer_per1",
+  "section_break_cm6b3",
+  "add_reinsurers",
+  "reinsurers",
   "html"
  ],
  "fields": [
@@ -54,7 +60,12 @@
    "fieldtype": "Section Break"
   },
   {
-   "default": "Today",
+   "fieldname": "quotation_numbers",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Quotation Number"
+  },
+  {
    "fieldname": "quotation_date",
    "fieldtype": "Date",
    "label": "Quotation Date"
@@ -66,59 +77,26 @@
    "label": "Policy Holder"
   },
   {
-   "fieldname": "autharoized_signatory",
-   "fieldtype": "Data",
-   "label": "Autharoized Signatory",
-   "reqd": 1
-  },
-  {
-   "fieldname": "premium_rate",
-   "fieldtype": "Data",
-   "label": "Premium Rate"
-  },
-  {
-   "fieldname": "bank",
-   "fieldtype": "Select",
-   "label": "Bank",
-   "options": "\nABSA\nBANC ABC\nBanco Comercial e de Investimantos\nBANCO INTERNATIONAL DE CREDITO\nBANK GABORONE\nBANK OF BARODA(BOTSWANA)LTD\nBANK OF INDIA\nBANK OF BOTSWANA\nBANK OF INDIA BANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY (BBS)\nBOTSWANA SAVINGS BANK\nBotswana Vaccine Inst\nCAPITAL BANK\nCBZ BANK\nECOBANK\nFIRST CARE CHEMIST (PTY) LTD\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK MIGRATION BANK\nNEDBANK\nNMB BANK LIMITED\nMIGRATION BANK\nRAND MERCHANT\nSTANBIC BANK\nSTANDARD BANK(SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD"
-  },
-  {
-   "fieldname": "column_break_aam9p",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fetch_from": "quotation_number.status12",
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Status",
-   "options": "\nActive\nInActive\nAccepted"
-  },
-  {
-   "fetch_from": "quotation_number.proposal_no",
-   "fieldname": "proposal_no",
-   "fieldtype": "Data",
-   "label": "Proposal No"
-  },
-  {
    "fieldname": "policy_number",
    "fieldtype": "Data",
    "label": "Policy Number",
    "unique": 1
   },
   {
-   "default": "Today",
-   "fieldname": "acceptance_date",
-   "fieldtype": "Date",
-   "label": "Acceptance Date",
-   "reqd": 1
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Policy Type"
   },
   {
-   "fetch_from": "quotation_number.inception_date",
-   "fieldname": "inception_date",
-   "fieldtype": "Date",
-   "label": "Inception Date",
-   "reqd": 1
+   "fieldname": "premium",
+   "fieldtype": "Data",
+   "label": "Premium (p)"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "Premium Rate"
   },
   {
    "fieldname": "payment_mode",
@@ -127,7 +105,62 @@
    "options": "\nBANK DIRECT DEPOSIT\nBANK GUARANTEE\nCREDIT CARD\nCHEQUE\nCASH"
   },
   {
-   "fieldname": "section_break_hctgr",
+   "fieldname": "bank",
+   "fieldtype": "Data",
+   "label": "Bank"
+  },
+  {
+   "fieldname": "column_break_wvr7q",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nActive\nInActive\nAccepted"
+  },
+  {
+   "fieldname": "goods_services",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "goods/service"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "acceptance_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Acceptance Date"
+  },
+  {
+   "fieldname": "inception_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Inception Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry date"
+  },
+  {
+   "fieldname": "autharoized_signatory",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Autharoized Signatory"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "section_break_ywfko",
    "fieldtype": "Section Break"
   },
   {
@@ -137,45 +170,43 @@
    "options": "\n\n\n  <meta charset=\"UTF-8\">\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n  <style>\n    .underlined {\n      display: flex;\n      justify-content: space-between; /* Adjust space between items */\n    }\n\n    .underlined a {\n      text-decoration: underline;\n    }\n\n    .underlined p {\n      margin: 0 10px; /* Adjust the gap between items */\n    }\n  </style>\n  <title>Underlined Words</title>\n\n\n  <div class=\"underlined\">\n    <p class=\"underlined\"><a>Covering Letter</a></p>\n    <p class=\"underlined\"><a>Policy Document</a></p>\n    <p class=\"underlined\"><a>Policy Schedule</a></p>\n    <p class=\"underlined\"><a>Policy Administration Guidelines</a></p>\n    <p class=\"underlined\"><a>Credit Limit Application Forms</a></p>\n  </div>\n\n\n"
   },
   {
-   "fetch_from": "policy_holder.schedule_no",
-   "fieldname": "quotation_numbers",
-   "fieldtype": "Select",
-   "label": "Quotation Numbers",
-   "reqd": 1
+   "fieldname": "reinsurer",
+   "fieldtype": "Link",
+   "label": "Reinsurer",
+   "options": "ReInsurers Details"
   },
   {
-   "fieldname": "policy_type",
+   "fieldname": "section_break_cm6b3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsurers",
+   "fieldtype": "Table",
+   "label": "Multiple ReInsurers",
+   "options": "Multiple ReInsurers"
+  },
+  {
+   "fieldname": "column_break_dzlj5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_0zitl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reinsurer_per1",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Policy Type"
+   "label": "Reinsurer %"
   },
   {
-   "fetch_from": "quotation_number.premium_deposit",
-   "fieldname": "premium",
-   "fieldtype": "Data",
-   "label": "Premium (p)"
-  },
-  {
-   "fieldname": "goods_services",
-   "fieldtype": "Text",
-   "hidden": 1,
-   "label": "goods/service"
-  },
-  {
-   "fieldname": "expiry_date",
-   "fieldtype": "Date",
-   "label": "Expiry date",
-   "reqd": 1
-  },
-  {
-   "fieldname": "payment_terms",
-   "fieldtype": "Data",
-   "label": "Payment Terms"
+   "fieldname": "add_reinsurers",
+   "fieldtype": "Button",
+   "label": "Add Reinsurers"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-04 06:38:37.871662",
+ "modified": "2025-11-30 18:25:30.200447",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Policy Approvals",

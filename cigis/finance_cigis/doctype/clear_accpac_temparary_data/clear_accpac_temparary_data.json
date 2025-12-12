@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-30 07:49:42.112845",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "accpac_admininstration",
+  "section_break_hg6mh",
+  "section_break_od4zq",
+  "select_data_to_clear_data",
+  "section_break_favsa",
+  "accounts_receivable",
+  "column_break_artb1",
+  "account_payable",
+  "column_break_flvsc",
+  "general_ledger",
+  "column_break_cdznk",
+  "delete"
+ ],
+ "fields": [
+  {
+   "fieldname": "accpac_admininstration",
+   "fieldtype": "Heading",
+   "label": "Accpac Admininstration"
+  },
+  {
+   "fieldname": "select_data_to_clear_data",
+   "fieldtype": "Heading",
+   "label": "Select data to clear data:"
+  },
+  {
+   "fieldname": "section_break_favsa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "accounts_receivable",
+   "fieldtype": "Check",
+   "label": "Accounts Receivable"
+  },
+  {
+   "fieldname": "column_break_artb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "account_payable",
+   "fieldtype": "Check",
+   "label": "Account Payable"
+  },
+  {
+   "fieldname": "section_break_hg6mh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_od4zq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_flvsc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "general_ledger",
+   "fieldtype": "Check",
+   "label": "General Ledger"
+  },
+  {
+   "fieldname": "delete",
+   "fieldtype": "Button",
+   "label": "Delete"
+  },
+  {
+   "fieldname": "column_break_cdznk",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-30 08:11:08.290114",
+ "modified_by": "Administrator",
+ "module": "Finance_CIGIS",
+ "name": "Clear Accpac Temparary Data",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

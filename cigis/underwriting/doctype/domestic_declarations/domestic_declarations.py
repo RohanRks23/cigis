@@ -17,7 +17,7 @@ class DomesticDeclarations(Document):
             return []
 
         # Construct the full URL using urljoin for safe URL construction
-        base_url = 'http://cigis.sais-erp.com/'
+        base_url = 'http://102.37.140.103/'
         Xl_Url = urljoin(base_url, encoded_path)
         
         try:
@@ -49,7 +49,7 @@ class DomesticDeclarations(Document):
             return []
 
         # Construct the full URL using urljoin for safe URL construction
-        base_url = 'http://cigis.sais-erp.com/'
+        base_url = 'http://102.37.140.103/'
         Xl_Url = urljoin(base_url, encoded_path)
         
         try:

@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-13 12:25:52.890412",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reinsurers",
+  "reinsurer_per"
+ ],
+ "fields": [
+  {
+   "fieldname": "reinsurers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ReInsurers"
+  },
+  {
+   "fieldname": "reinsurer_per",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ReInsurer %"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-24 09:18:45.271413",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Multiple ReInsurers",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

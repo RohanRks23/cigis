@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-06 11:09:42.449626",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_names",
+  "shares_held",
+  "d_number_coregnumber",
+  "married_anc_cop"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_names",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Names"
+  },
+  {
+   "fieldname": "shares_held",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "%Shares Held"
+  },
+  {
+   "fieldname": "d_number_coregnumber",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "D Number Co.Reg.Number"
+  },
+  {
+   "fieldname": "married_anc_cop",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Married ANC/ COP"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-06 11:12:14.989032",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Director and Shareholder Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

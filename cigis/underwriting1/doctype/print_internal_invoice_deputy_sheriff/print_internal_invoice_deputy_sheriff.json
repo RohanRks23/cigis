@@ -1,0 +1,385 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{invoice_no}-{####}",
+ "creation": "2025-11-12 05:56:55.896338",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "account_document",
+  "section_break_oqz5r",
+  "performance_bond",
+  "section_break_5stg4",
+  "credsure_invoice_breakdown",
+  "column_break_qqlyf",
+  "for_internal_use",
+  "section_break_h78pz",
+  "account",
+  "column_break_fhsfi",
+  "column_break_czt5l",
+  "invoice_no",
+  "invoice_date",
+  "section_break_y2qfq",
+  "beci_income",
+  "column_break_ze7ql",
+  "rate__",
+  "column_break_pfiwv",
+  "amount",
+  "section_break_keoin",
+  "premium",
+  "column_break_vhruc",
+  "data1",
+  "column_break_jq1dx",
+  "data2",
+  "section_break_czd8s",
+  "vat",
+  "column_break_ph80j",
+  "data3",
+  "column_break_bmtdo",
+  "data4",
+  "section_break_aejbd",
+  "column_break_o0gmo",
+  "column_break_quan3",
+  "column_break_6lqoc",
+  "total",
+  "column_break_ixsmm",
+  "data5",
+  "section_break_qegkc",
+  "column_break_wlvcr",
+  "column_break_rc91y",
+  "rates",
+  "section_break_w8xp3",
+  "reinsurance_premium",
+  "column_break_6aefj",
+  "data6",
+  "column_break_o7mjl",
+  "data7",
+  "section_break_ogbkk",
+  "broker_charge",
+  "column_break_xlulh",
+  "data8",
+  "column_break_m8a21",
+  "data9",
+  "section_break_uiyjm",
+  "beci_commission",
+  "column_break_ta0ww",
+  "data10",
+  "column_break_qyeml",
+  "data11",
+  "section_break_texzw",
+  "due_to",
+  "data12",
+  "back"
+ ],
+ "fields": [
+  {
+   "fieldname": "account_document",
+   "fieldtype": "HTML",
+   "label": "Account Document",
+   "options": "<div style=\"text-align: center;\"><b><h2>ACCOUNT DOCUMENT</h2></b></div>"
+  },
+  {
+   "fieldname": "section_break_oqz5r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "performance_bond",
+   "fieldtype": "HTML",
+   "label": "Performance Bond",
+   "options": "<div style=\"text-align: center;\"><b><h2>PERFORMANCE BOND</h2></b></div>"
+  },
+  {
+   "fieldname": "section_break_5stg4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credsure_invoice_breakdown",
+   "fieldtype": "HTML",
+   "label": "CREDSURE INVOICE BREAKDOWN",
+   "options": "<div><b><h3>CREDSURE INVOICE BREAKDOWN</h3></b></div>"
+  },
+  {
+   "fieldname": "column_break_qqlyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "for_internal_use",
+   "fieldtype": "HTML",
+   "label": "for internal use",
+   "options": "<div><b><h3>***For Internal Use***</h3></b></div>"
+  },
+  {
+   "fieldname": "section_break_h78pz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "account",
+   "fieldtype": "Data",
+   "label": "ACCOUNT"
+  },
+  {
+   "fieldname": "column_break_fhsfi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_czt5l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "INVOICE NO"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Data",
+   "label": "INVOICE DATE"
+  },
+  {
+   "fieldname": "section_break_y2qfq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci_income",
+   "fieldtype": "Heading",
+   "label": "CREDSURE INCOME"
+  },
+  {
+   "fieldname": "column_break_ze7ql",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rate__",
+   "fieldtype": "Heading",
+   "label": "RATE @ %"
+  },
+  {
+   "fieldname": "column_break_pfiwv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Heading",
+   "label": "AMOUNT"
+  },
+  {
+   "fieldname": "section_break_keoin",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "premium",
+   "fieldtype": "Heading",
+   "label": "PREMIUM"
+  },
+  {
+   "fieldname": "column_break_vhruc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_jq1dx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_czd8s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Heading",
+   "label": "Stamp duty %"
+  },
+  {
+   "fieldname": "column_break_ph80j",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_bmtdo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_aejbd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_o0gmo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Heading",
+   "label": "TOTAL"
+  },
+  {
+   "fieldname": "data5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_quan3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ixsmm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rates",
+   "fieldtype": "Heading",
+   "label": "RATE @ %"
+  },
+  {
+   "fieldname": "reinsurance_premium",
+   "fieldtype": "HTML",
+   "label": "REINSURANCE PREMIUM",
+   "options": "<div><h3>REINSURANCE PREMIUM</h3></div>"
+  },
+  {
+   "fieldname": "section_break_w8xp3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6aefj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data6",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_o7mjl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data7",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_ogbkk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "broker_charge",
+   "fieldtype": "HTML",
+   "label": "BROKER CHARGE",
+   "options": "<div><h3>BROKER CHARGE</h3></div>"
+  },
+  {
+   "fieldname": "column_break_xlulh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_m8a21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_uiyjm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beci_commission",
+   "fieldtype": "HTML",
+   "label": "BECI COMMISSION",
+   "options": "<div><h3>CREDSURE COMMISSION</h3></div>"
+  },
+  {
+   "fieldname": "column_break_ta0ww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data10",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_qyeml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data11",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_texzw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "due_to",
+   "fieldtype": "Heading",
+   "label": "DUE TO"
+  },
+  {
+   "fieldname": "section_break_qegkc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wlvcr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rc91y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6lqoc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data12",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-09 06:29:10.119626",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Print internal invoice deputy sheriff",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

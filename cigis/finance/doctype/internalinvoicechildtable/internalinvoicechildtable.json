@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-22 03:18:03.603094",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer",
+  "country",
+  "declamt",
+  "commercial_perms",
+  "political_perms",
+  "commercial_perm1",
+  "political_perms1",
+  "total_perms"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BUYER"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "COUNTRY"
+  },
+  {
+   "fieldname": "declamt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Decl.Amt"
+  },
+  {
+   "fieldname": "commercial_perms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "COMMERCIAL PERMS"
+  },
+  {
+   "fieldname": "political_perms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "POLITICAL PERMS"
+  },
+  {
+   "fieldname": "commercial_perm1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "COMMERCIAL PERMS"
+  },
+  {
+   "fieldname": "political_perms1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "POLITICAL PERMS"
+  },
+  {
+   "fieldname": "total_perms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TOTAL PERMS"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-22 03:20:43.283130",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "InternalInvoicechildtable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

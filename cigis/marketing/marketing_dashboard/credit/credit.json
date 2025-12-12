@@ -1,0 +1,37 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "DCI Proposal",
+   "width": "Half"
+  },
+  {
+   "chart": "ECI Proposals",
+   "width": "Half"
+  },
+  {
+   "chart": "Bond Facility",
+   "width": "Half"
+  },
+  {
+   "chart": "Policy Approvals",
+   "width": "Half"
+  },
+  {
+   "chart": "Eci Quotation",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-10-24 10:45:41.470512",
+ "dashboard_name": "Credit",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-10-24 10:45:41.470512",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Credit",
+ "owner": "Administrator"
+}

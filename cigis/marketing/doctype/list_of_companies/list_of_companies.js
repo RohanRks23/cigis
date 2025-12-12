@@ -1,7 +1,7 @@
 // Copyright (c) 2024, SAiS and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('List Of Companies', {
+frappe.ui.form.on('List of Companies', {
 	// refresh: function(frm) {
 
 	// }

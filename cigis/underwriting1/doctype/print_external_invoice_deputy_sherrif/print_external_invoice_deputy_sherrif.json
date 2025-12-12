@@ -1,0 +1,337 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{invoice_no}-{####}",
+ "creation": "2025-11-11 07:18:26.069029",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tax_invoice",
+  "section_break_izi9g",
+  "credsure",
+  "column_break_q2xfs",
+  "pobox",
+  "section_break_vypit",
+  "invoice_to",
+  "attn",
+  "address",
+  "city",
+  "vat_registration_no",
+  "telephone",
+  "fax",
+  "column_break_pg5r7",
+  "invoice_no",
+  "reference",
+  "date",
+  "section_break_v6mku",
+  "description1",
+  "re_insurer_ref_no",
+  "client",
+  "principal",
+  "description",
+  "section_break_mynh8",
+  "period",
+  "column_break_gdjvd",
+  "to",
+  "column_break_phme8",
+  "month",
+  "section_break_et1uu",
+  "data3",
+  "column_break_ap6bn",
+  "data4",
+  "column_break_72rqs",
+  "data5",
+  "section_break_5166c",
+  "column_break_e73v1",
+  "column_break_jfrew",
+  "column_break_q6khn",
+  "data6",
+  "section_break_pvunp",
+  "column_break_gfwsr",
+  "column_break_pacmj",
+  "column_break_9ii3h",
+  "data7",
+  "section_break_hqp8d",
+  "column_break_mha3g",
+  "column_break_e4xds",
+  "column_break_uuqn9",
+  "data8",
+  "section_break_c2ary",
+  "note",
+  "back"
+ ],
+ "fields": [
+  {
+   "fieldname": "tax_invoice",
+   "fieldtype": "HTML",
+   "label": "Tax Invoice",
+   "options": "<div style=\"text-align: center;\"><b><h2>TAX INVOICE</h2></b></div>\n\n"
+  },
+  {
+   "fieldname": "section_break_izi9g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credsure",
+   "fieldtype": "HTML",
+   "label": "Credsure",
+   "options": "<div style=\"font-family: Arial, sans-serif; line-height: 1.4; font-size: 14px;\">\n  <strong style=\"font-size: 16px;\">CREDSURE</strong><br>\n  Credit Insurance Zimbabwe Limited<br>\n  <strong>CREDSURE VAT Reg. No. 200058221</strong>\n</div>\n"
+  },
+  {
+   "fieldname": "column_break_q2xfs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pobox",
+   "fieldtype": "HTML",
+   "label": "pobox",
+   "options": "<div style=\"font-family: Arial, sans-serif; line-height: 1.4; font-size: 14px;\">\n  <strong style=\"font-size: 16px;\">P.O.Box CY 1584</strong><br>\n  causeway, Harare<br>\n  <strong>Tel: 263-4-738944</strong>\n<b>Fax:263-4-706105</b> \n</div>\n"
+  },
+  {
+   "fieldname": "section_break_vypit",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "invoice_to",
+   "fieldtype": "Data",
+   "label": "INVOICE TO"
+  },
+  {
+   "fieldname": "attn",
+   "fieldtype": "Data",
+   "label": "ATTN"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "CITY"
+  },
+  {
+   "fieldname": "vat_registration_no",
+   "fieldtype": "Data",
+   "label": "VAT REGISTRATION NO"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "TELEPHONE"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "FAX"
+  },
+  {
+   "fieldname": "column_break_pg5r7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "INVOICE NO"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "REFERENCE"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "section_break_v6mku",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description1",
+   "fieldtype": "Data",
+   "label": "DESCRIPTION"
+  },
+  {
+   "fieldname": "re_insurer_ref_no",
+   "fieldtype": "Data",
+   "label": "RE INSURER REF NO"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "CLIENT"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "PRINCIPAL"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "DESCRIPTION"
+  },
+  {
+   "fieldname": "section_break_mynh8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "period",
+   "fieldtype": "Data",
+   "label": "PERIOD"
+  },
+  {
+   "fieldname": "column_break_ap6bn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "column_break_phme8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gdjvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "MONTH"
+  },
+  {
+   "fieldname": "section_break_et1uu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_72rqs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5166c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data3",
+   "fieldtype": "Data",
+   "label": "GUARANTEE AMOUNT"
+  },
+  {
+   "fieldname": "data4",
+   "fieldtype": "Data",
+   "label": "RATE"
+  },
+  {
+   "fieldname": "data5",
+   "fieldtype": "Data",
+   "label": "PREMIUM"
+  },
+  {
+   "fieldname": "column_break_e73v1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data6",
+   "fieldtype": "Data",
+   "label": "SUB TOTAL"
+  },
+  {
+   "fieldname": "data7",
+   "fieldtype": "Data",
+   "label": "Stamp duty %@ O.OO %"
+  },
+  {
+   "fieldname": "data8",
+   "fieldtype": "Data",
+   "label": "TOTAL DUE"
+  },
+  {
+   "fieldname": "section_break_hqp8d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_jfrew",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_q6khn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_pvunp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gfwsr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pacmj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_9ii3h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_mha3g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_e4xds",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_uuqn9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_c2ary",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "HTML",
+   "label": "note",
+   "options": "<p>NOTE: THIS INVOICE IS PAYABLE ON PRESENTATION. COULD BE PAID INTO OUR ACCOUNT AT BARCLAYS BANK INDUSTRIAL GABORONE, A/C 03-1075 246. IF SOUTH AFRICA PAYMENTS IN OUR NAME COULD BE SENT TO LOMBARD INSURANCE Co.</p>"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-09 06:51:15.661548",
+ "modified_by": "Administrator",
+ "module": "UnderWriting1",
+ "name": "Print External Invoice deputy sherrif",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

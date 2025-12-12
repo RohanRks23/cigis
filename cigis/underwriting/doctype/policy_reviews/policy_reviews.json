@@ -1,6 +1,4 @@
 {
- "_comments": "[]",
- "_liked_by": "[\"venkateshreddy.k@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{pr_number}",
@@ -12,9 +10,9 @@
  "field_order": [
   "policy_details",
   "section_break_gv6oj",
-  "policy_no",
-  "column_break_jnppo",
   "policy_holder",
+  "column_break_jnppo",
+  "policy_no",
   "section_break_k8lfc",
   "policy_type",
   "pr_number",
@@ -42,98 +40,6 @@
   "no_of_enquiry",
   "insured",
   "section_break_sgpsk",
-  "previous_1st_term",
-  "section_break_o92aw",
-  "period_under_review1",
-  "maximum_liability1",
-  "commercial_liability1",
-  "premium_rate1",
-  "political_liability1",
-  "column_break_jlzq9",
-  "cl_enquiry_fee1",
-  "cl_per_month1",
-  "no_of_cls1",
-  "no_of_enquiry1",
-  "insured1",
-  "section_break_2skj6",
-  "previous_2nd_term",
-  "section_break_edn1h",
-  "period_under_review2",
-  "maximum_liability2",
-  "commercial_liability2",
-  "premium_rate2",
-  "political_liability2",
-  "column_break_0nosl",
-  "cl_enquiry_fee2",
-  "cl_per_month2",
-  "no_of_cls2",
-  "no_of_enquiry2",
-  "insured2",
-  "section_break_e3mhj",
-  "performancecurrent_year",
-  "section_break_1t6rf",
-  "expected_insured_turnover",
-  "actual_insured_turnover",
-  "excess_shortfall",
-  "claims_as_of_actual_premium",
-  "total_cl_fee",
-  "column_break_uuwdq",
-  "expected_premium",
-  "actual_premium_charged",
-  "claims_provision",
-  "actual_claims",
-  "total_cl_enq_fee",
-  "section_break_ukhyg",
-  "performanceprevious_1st_year",
-  "section_break_0ynbv",
-  "expected_insured_turnover1",
-  "actual_insured_turnover1",
-  "excess_shortfall1",
-  "claims_as_of_actual_premium1",
-  "total_cl_fee1",
-  "column_break_cl8qd",
-  "expected_premium1",
-  "actual_premium_charged1",
-  "claims_provision1",
-  "actual_claims1",
-  "total_cl_enq_fee1",
-  "section_break_mvfio",
-  "performanceprevious_2nd_year",
-  "section_break_iaknq",
-  "expected_insured_turnover2",
-  "actual_insured_turnover2",
-  "excess_shortfall2",
-  "claims_as_of_actual_premium2",
-  "total_cl_fee2",
-  "column_break_kyjo2",
-  "expected_premium2",
-  "actual_premium_charged2",
-  "claims_provision2",
-  "actual_claims2",
-  "total_cl_enq_fee2",
-  "section_break_kkvsv",
-  "profitloss",
-  "column_break_1jigu",
-  "profitlossprevious_1st_year",
-  "section_break_q02qq",
-  "total_receipts",
-  "total_amount_of_claims",
-  "cost_of_credit_information",
-  "actual_profit_loss_on_policy",
-  "section_break_nvhj1",
-  "total_receipts1",
-  "total_amount_claims1",
-  "cost_of_credit_information1",
-  "actual_profit_loss_on_policy1",
-  "section_break_4vcsj",
-  "profitlossprevious_2nd_year",
-  "section_break_2jk3d",
-  "total_receipts2",
-  "total_amount_claims2",
-  "column_break_dlzpy",
-  "cost_of_credit_information2",
-  "actual_profit_loss_on_policy2",
-  "section_break_sbf79",
   "recommended_revised_terms",
   "section_break_lgtoy",
   "to_estimate_for_next_12_months",
@@ -189,7 +95,7 @@
   {
    "fetch_from": "policy_no.policy_holder",
    "fieldname": "policy_holder",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Policy Holder"
   },
   {
@@ -311,472 +217,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "previous_1st_term",
-   "fieldtype": "Heading",
-   "label": "Previous 1st Term"
-  },
-  {
-   "fieldname": "section_break_o92aw",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "period_under_review1",
-   "fieldtype": "Data",
-   "label": "Preiod Under Review"
-  },
-  {
-   "default": "0",
-   "fieldname": "maximum_liability1",
-   "fieldtype": "Currency",
-   "label": "Maximum Liability"
-  },
-  {
-   "default": "0",
-   "fieldname": "premium_rate1",
-   "fieldtype": "Currency",
-   "label": "Premium Rate"
-  },
-  {
-   "default": "0",
-   "fieldname": "insured1",
-   "fieldtype": "Currency",
-   "label": "Insured"
-  },
-  {
-   "fieldname": "column_break_jlzq9",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "cl_enquiry_fee1",
-   "fieldtype": "Currency",
-   "label": "CL Enquiry Fee"
-  },
-  {
-   "default": "0",
-   "fieldname": "cl_per_month1",
-   "fieldtype": "Currency",
-   "label": "CL Per Month"
-  },
-  {
-   "default": "0",
-   "fieldname": "no_of_cls1",
-   "fieldtype": "Data",
-   "label": "No. of CLs"
-  },
-  {
-   "default": "0",
-   "fieldname": "no_of_enquiry1",
-   "fieldtype": "Data",
-   "label": "No of Enquiry"
-  },
-  {
-   "fieldname": "section_break_2skj6",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "previous_2nd_term",
-   "fieldtype": "Heading",
-   "label": "Previous 2nd Term"
-  },
-  {
-   "fieldname": "section_break_edn1h",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "period_under_review2",
-   "fieldtype": "Data",
-   "label": "Preiod Under Review"
-  },
-  {
-   "default": "0",
-   "fieldname": "maximum_liability2",
-   "fieldtype": "Currency",
-   "label": "Maximum Liability"
-  },
-  {
-   "default": "0",
-   "fieldname": "premium_rate2",
-   "fieldtype": "Currency",
-   "label": "Premium Rate"
-  },
-  {
-   "default": "0",
-   "fieldname": "insured2",
-   "fieldtype": "Currency",
-   "label": "Insured"
-  },
-  {
-   "fieldname": "column_break_0nosl",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "cl_enquiry_fee2",
-   "fieldtype": "Currency",
-   "label": "CL Enquiry Fee"
-  },
-  {
-   "default": "0",
-   "fieldname": "cl_per_month2",
-   "fieldtype": "Currency",
-   "label": "CL Per Month"
-  },
-  {
-   "default": "0",
-   "fieldname": "no_of_cls2",
-   "fieldtype": "Data",
-   "label": "No. of CLs"
-  },
-  {
-   "default": "0",
-   "fieldname": "no_of_enquiry2",
-   "fieldtype": "Data",
-   "label": "No of Enquiry"
-  },
-  {
-   "fieldname": "section_break_e3mhj",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "performancecurrent_year",
-   "fieldtype": "Heading",
-   "label": "Performance(Current Year)"
-  },
-  {
-   "fieldname": "section_break_1t6rf",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "expected_insured_turnover",
-   "fieldtype": "Currency",
-   "label": "Expected Insured Turnover"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_insured_turnover",
-   "fieldtype": "Currency",
-   "label": "Actual Insured Turnover"
-  },
-  {
-   "default": "0",
-   "fieldname": "excess_shortfall",
-   "fieldtype": "Currency",
-   "label": "Excess Shortfall"
-  },
-  {
-   "default": "0",
-   "fieldname": "claims_as_of_actual_premium",
-   "fieldtype": "Data",
-   "label": "Claims as of Actual Premium"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_cl_fee",
-   "fieldtype": "Data",
-   "label": "Total no CL Fee"
-  },
-  {
-   "fieldname": "column_break_uuwdq",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "expected_premium",
-   "fieldtype": "Currency",
-   "label": "Expected Premium"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_premium_charged",
-   "fieldtype": "Currency",
-   "label": "Actual Premium Charged"
-  },
-  {
-   "default": "0",
-   "fieldname": "claims_provision",
-   "fieldtype": "Currency",
-   "label": "Claims Provision"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_claims",
-   "fieldtype": "Currency",
-   "label": "Actual Claims"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_cl_enq_fee",
-   "fieldtype": "Data",
-   "label": "Total CL Enq Fee"
-  },
-  {
-   "fieldname": "section_break_ukhyg",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "performanceprevious_1st_year",
-   "fieldtype": "Heading",
-   "label": "Performance(Previous 1st Year)"
-  },
-  {
-   "fieldname": "section_break_0ynbv",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "expected_insured_turnover1",
-   "fieldtype": "Currency",
-   "label": "Expected Insured Turnover"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_insured_turnover1",
-   "fieldtype": "Currency",
-   "label": "Actual Insured Turnover"
-  },
-  {
-   "default": "0",
-   "fieldname": "excess_shortfall1",
-   "fieldtype": "Currency",
-   "label": "Excess Shortfall"
-  },
-  {
-   "default": "0",
-   "fieldname": "claims_as_of_actual_premium1",
-   "fieldtype": "Data",
-   "label": "Claims as of Actual Premium"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_cl_fee1",
-   "fieldtype": "Data",
-   "label": "Total no CL Fee"
-  },
-  {
-   "fieldname": "column_break_cl8qd",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "expected_premium1",
-   "fieldtype": "Currency",
-   "label": "Expected Premium"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_premium_charged1",
-   "fieldtype": "Currency",
-   "label": "Actual Premium Charged"
-  },
-  {
-   "default": "0",
-   "fieldname": "claims_provision1",
-   "fieldtype": "Currency",
-   "label": "Claims Provision"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_claims1",
-   "fieldtype": "Currency",
-   "label": "Actual Claims"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_cl_enq_fee1",
-   "fieldtype": "Data",
-   "label": "Total CL Enq Fee"
-  },
-  {
-   "fieldname": "section_break_mvfio",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "performanceprevious_2nd_year",
-   "fieldtype": "Heading",
-   "label": "Performance(Previous 2nd Year)"
-  },
-  {
-   "fieldname": "section_break_iaknq",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "expected_insured_turnover2",
-   "fieldtype": "Currency",
-   "label": "Expected Insured Turnover"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_insured_turnover2",
-   "fieldtype": "Currency",
-   "label": "Actual Insured Turnover"
-  },
-  {
-   "default": "0",
-   "fieldname": "excess_shortfall2",
-   "fieldtype": "Currency",
-   "label": "Excess Shortfall"
-  },
-  {
-   "default": "0",
-   "fieldname": "claims_as_of_actual_premium2",
-   "fieldtype": "Currency",
-   "label": "Claims as of Actual Premium"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_cl_fee2",
-   "fieldtype": "Data",
-   "label": "Total no CL Fee"
-  },
-  {
-   "fieldname": "column_break_kyjo2",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "expected_premium2",
-   "fieldtype": "Currency",
-   "label": "Expected Premium"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_premium_charged2",
-   "fieldtype": "Currency",
-   "label": "Actual Premium Charged"
-  },
-  {
-   "default": "0",
-   "fieldname": "claims_provision2",
-   "fieldtype": "Currency",
-   "label": "Claims Provision"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_claims2",
-   "fieldtype": "Currency",
-   "label": "Actual Claims"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_cl_enq_fee2",
-   "fieldtype": "Data",
-   "label": "Total CL Enq Fee"
-  },
-  {
-   "fieldname": "section_break_kkvsv",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "profitloss",
-   "fieldtype": "Heading",
-   "label": "Profit/Loss"
-  },
-  {
-   "fieldname": "section_break_q02qq",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_receipts",
-   "fieldtype": "Currency",
-   "label": "Total Receipts"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_amount_of_claims",
-   "fieldtype": "Currency",
-   "label": "Total Amount of Claims"
-  },
-  {
-   "default": "0",
-   "fieldname": "cost_of_credit_information",
-   "fieldtype": "Currency",
-   "label": "Cost of Credit Information"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_profit_loss_on_policy",
-   "fieldtype": "Currency",
-   "label": "Actual Profit Loss on Policy"
-  },
-  {
-   "fieldname": "section_break_nvhj1",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "profitlossprevious_1st_year",
-   "fieldtype": "Heading",
-   "label": "Profit/Loss(Previous 1st Year)"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_receipts1",
-   "fieldtype": "Currency",
-   "label": "Total Receipts"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_amount_claims1",
-   "fieldtype": "Currency",
-   "label": "Total Amount of Claims"
-  },
-  {
-   "default": "0",
-   "fieldname": "cost_of_credit_information1",
-   "fieldtype": "Currency",
-   "label": "Cost of Credit Information"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_profit_loss_on_policy1",
-   "fieldtype": "Currency",
-   "label": "Actual Profit Loss on Policy"
-  },
-  {
-   "fieldname": "section_break_4vcsj",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "profitlossprevious_2nd_year",
-   "fieldtype": "Heading",
-   "label": "Profit/Loss(Previous 2nd Year)"
-  },
-  {
-   "fieldname": "section_break_2jk3d",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_receipts2",
-   "fieldtype": "Currency",
-   "label": "Total Receipts"
-  },
-  {
-   "default": "0",
-   "fieldname": "total_amount_claims2",
-   "fieldtype": "Currency",
-   "label": "Total Amount of Claims"
-  },
-  {
-   "default": "0",
-   "fieldname": "cost_of_credit_information2",
-   "fieldtype": "Currency",
-   "label": "Cost of Credit Information"
-  },
-  {
-   "default": "0",
-   "fieldname": "actual_profit_loss_on_policy2",
-   "fieldtype": "Currency",
-   "label": "Actual Profit Loss on Policy"
-  },
-  {
-   "fieldname": "section_break_sbf79",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "recommended_revised_terms",
    "fieldtype": "Heading",
    "label": "Recommended Revised Terms"
@@ -836,7 +276,8 @@
   {
    "fieldname": "comments",
    "fieldtype": "Small Text",
-   "label": "Comments"
+   "label": "Comments",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_8dxxz",
@@ -870,7 +311,7 @@
    "fieldname": "recomended1",
    "fieldtype": "Select",
    "label": "Recommended",
-   "options": "\nAPPROVED\nDECLINE"
+   "options": "\nApproved\nDecline"
   },
   {
    "fieldname": "approvers_comments",
@@ -880,10 +321,6 @@
   {
    "fieldname": "section_break_lgtoy",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "column_break_1jigu",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "commercial_liability",
@@ -909,30 +346,6 @@
    "label": "Political Liability"
   },
   {
-   "default": "0",
-   "fieldname": "commercial_liability1",
-   "fieldtype": "Currency",
-   "label": "Commercial Liability"
-  },
-  {
-   "default": "0",
-   "fieldname": "political_liability1",
-   "fieldtype": "Currency",
-   "label": "Political Liability"
-  },
-  {
-   "default": "0",
-   "fieldname": "commercial_liability2",
-   "fieldtype": "Currency",
-   "label": "Commercial Liability"
-  },
-  {
-   "default": "0",
-   "fieldname": "political_liability2",
-   "fieldtype": "Currency",
-   "label": "Political Liability"
-  },
-  {
    "fieldname": "add_new",
    "fieldtype": "Button",
    "hidden": 1,
@@ -940,8 +353,9 @@
   },
   {
    "fieldname": "country",
-   "fieldtype": "Select",
-   "label": "Country"
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country Details"
   },
   {
    "fieldname": "terms_of_payment",
@@ -1054,15 +468,11 @@
   {
    "fieldname": "column_break_jnppo",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_dlzpy",
-   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-31 08:48:50.069793",
+ "modified": "2025-11-26 06:13:00.256509",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Policy Reviews",

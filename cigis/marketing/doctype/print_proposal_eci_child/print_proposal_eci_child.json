@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-07 07:01:04.706525",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "countries_of_destination",
+  "total_turnover_during_preceding_year",
+  "anticipated_total_turnover_for_next_12_months",
+  "currency_contracted_in",
+  "terms_of_payment_period_of_credit_given_to_buyers_normal",
+  "terms_of_payment_period_of_credit_given_to_buyers_maximum"
+ ],
+ "fields": [
+  {
+   "fieldname": "countries_of_destination",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "countries of destination"
+  },
+  {
+   "fieldname": "total_turnover_during_preceding_year",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Turnover during preceding year"
+  },
+  {
+   "fieldname": "anticipated_total_turnover_for_next_12_months",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Anticipated Total Turnover for next 12 months"
+  },
+  {
+   "fieldname": "currency_contracted_in",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "currency contracted in"
+  },
+  {
+   "fieldname": "terms_of_payment_period_of_credit_given_to_buyers_normal",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "terms of payment (period of credit given to buyers) Normal "
+  },
+  {
+   "fieldname": "terms_of_payment_period_of_credit_given_to_buyers_maximum",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "terms of payment (period of credit given to buyers) Maximum"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-07 07:04:46.584203",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal Eci Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

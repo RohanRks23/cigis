@@ -1,0 +1,227 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{claim_ref_no}",
+ "creation": "2024-04-21 09:36:32.107805",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info",
+  "section_break_eckx4",
+  "ph_name",
+  "policy_holder",
+  "policy_no",
+  "policy_number",
+  "buyer",
+  "claim_ref_no",
+  "recovery_no",
+  "lawyer_debt_collector",
+  "column_break_f4nlz",
+  "claim_amount",
+  "policy_type",
+  "receipt_no",
+  "lawyer",
+  "amt_recovered",
+  "due",
+  "section_break_gfdom",
+  "recovery_history",
+  "section_break_pmnjp",
+  "amount_recovered",
+  "reinsurer_percentage",
+  "beci_percentage",
+  "payment_mode",
+  "column_break_ytk2v",
+  "date",
+  "reinsurer_amount",
+  "beci_amount",
+  "payment_no",
+  "section_break_55jst",
+  "addnew",
+  "childtable"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info",
+   "fieldtype": "Heading",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "section_break_eckx4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ph_name",
+   "fieldtype": "Select",
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "policy_holder",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "PH Name"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Select",
+   "label": "Policy No"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "label": "Buyer"
+  },
+  {
+   "fieldname": "claim_ref_no",
+   "fieldtype": "Data",
+   "label": "Claim Ref. No"
+  },
+  {
+   "fieldname": "recovery_no",
+   "fieldtype": "Data",
+   "label": "Recovery No"
+  },
+  {
+   "fieldname": "lawyer_debt_collector",
+   "fieldtype": "Data",
+   "label": "Lawyer/ Debt Collector"
+  },
+  {
+   "fieldname": "column_break_f4nlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "claim_amount",
+   "fieldtype": "Data",
+   "label": "Claim Amount"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Policy Type"
+  },
+  {
+   "fieldname": "receipt_no",
+   "fieldtype": "Data",
+   "label": "Receipt No"
+  },
+  {
+   "fieldname": "lawyer",
+   "fieldtype": "Data",
+   "label": "Lawyer%"
+  },
+  {
+   "fieldname": "amt_recovered",
+   "fieldtype": "Data",
+   "label": "Amt. Recovered"
+  },
+  {
+   "fieldname": "due",
+   "fieldtype": "Data",
+   "label": "Due"
+  },
+  {
+   "fieldname": "section_break_gfdom",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "recovery_history",
+   "fieldtype": "Heading",
+   "label": "Recovery History"
+  },
+  {
+   "fieldname": "section_break_pmnjp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amount_recovered",
+   "fieldtype": "Data",
+   "label": "Amount Recovered"
+  },
+  {
+   "fieldname": "reinsurer_percentage",
+   "fieldtype": "Data",
+   "label": "ReInsurer Percentage"
+  },
+  {
+   "fieldname": "beci_percentage",
+   "fieldtype": "Data",
+   "label": "Credsure Percentage"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "\nBANK DIRECT DEPOSIT\nBANK GUARANTEE\nCREDIT CARD\nCHEQUE\nCASH"
+  },
+  {
+   "fieldname": "column_break_ytk2v",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reinsurer_amount",
+   "fieldtype": "Data",
+   "label": "Reinsurer Amount"
+  },
+  {
+   "fieldname": "beci_amount",
+   "fieldtype": "Data",
+   "label": "CREDSURE Amount"
+  },
+  {
+   "fieldname": "payment_no",
+   "fieldtype": "Data",
+   "label": "Payment No"
+  },
+  {
+   "fieldname": "section_break_55jst",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "addnew",
+   "fieldtype": "Button",
+   "label": "Add"
+  },
+  {
+   "fieldname": "childtable",
+   "fieldtype": "Table",
+   "options": "CI Recoveries Child"
+  },
+  {
+   "fieldname": "policy_number",
+   "fieldtype": "Data",
+   "label": "Policy Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-13 10:17:56.318320",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "CI Recoveries",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

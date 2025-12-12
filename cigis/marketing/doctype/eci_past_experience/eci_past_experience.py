@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class ECI_Past_experience(Document):
+class ECIPastExperience(Document):
 	pass

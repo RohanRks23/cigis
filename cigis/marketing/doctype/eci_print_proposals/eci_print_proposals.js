@@ -1,7 +1,7 @@
 // Copyright (c) 2024, SAiS and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('ECI Print proposals', {
+frappe.ui.form.on('ECI Print Proposals', {
     onload: function (frm) {
         // frm.fields_dict['principal_buyer_table'].grid.wrapper.find('.grid-row .btn[data-fieldname="edit"]').hide();
         

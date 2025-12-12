@@ -1,0 +1,169 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{our_ref}-{####}",
+ "creation": "2025-10-30 06:33:43.798419",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "our_ref",
+  "date",
+  "address",
+  "attention",
+  "dear_sirs",
+  "section_break_ctnjx",
+  "re_domestic_credit_insurance_quotation",
+  "column_break_p3gqh",
+  "credit",
+  "section_break_bngz5",
+  "quotation",
+  "as_marange",
+  "section_break_fzkem",
+  "paragraph",
+  "section_break_tq891",
+  "paragraph1",
+  "column_break_arnvw",
+  "address1",
+  "column_break_upvwk",
+  "address2",
+  "_section",
+  "div"
+ ],
+ "fields": [
+  {
+   "fieldname": "our_ref",
+   "fieldtype": "Data",
+   "label": "OUR REF"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "Attention"
+  },
+  {
+   "fieldname": "dear_sirs",
+   "fieldtype": "HTML",
+   "label": "Dear Sirs",
+   "options": "<p style=\"text-align: left;\">Dear Sirs</p>"
+  },
+  {
+   "fieldname": "re_domestic_credit_insurance_quotation",
+   "fieldtype": "HTML",
+   "label": "RE DOMESTIC CREDIT INSURANCE QUOTATION",
+   "options": "RE: DOMESTIC CREDIT INSURANCE QUOTATION"
+  },
+  {
+   "fieldname": "column_break_p3gqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_ctnjx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_bngz5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "HTML",
+   "options": "<p style=\"text-align: left;\">We thank you for your completed Proposal Form and now have pleasure in enclosing our Quotation for your\nconsideration.<br><br>\nThe Policy which best suits your requirements is a Domestic Suppliers\u2019 Credit Named Buyers Policy, based on\nTurnover. You will have to apply for credit limits on all of your Buyers, hence the reference Named Buyers. The\nInsured Percentage is 80% and the Premium rate has been set at %.<br><br>\nShould you wish to accept our offer, please sign one copy of the enclosed Acceptance Advice and return it to us\nwith your remittance of US$in respect of Annual Premium and Revenue Stamps.<br><br>\nWe trust that the above is in order and await your further advices in due course.<br><br><br>\nYours faithfully<br>\nfor CREDSURE<br><br>\n</p>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "as_marange",
+   "fieldtype": "Data",
+   "label": "A.S. MARANGE"
+  },
+  {
+   "fieldname": "section_break_fzkem",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div style=\"text-align: center; font-size: 13px; line-height: 1.5;\">\n  <u>Directors: S. Mhlanga (Chairman), L. Madavo (Managing), S.K. Chiganze, F. Kapanje, T. Mudangwe, E. Muvingi, B. Shumba</u>\n  <br><br>\n\n  <div style=\"color: green; font-weight: bold; font-size: 16px;\">\n    Credit Insurance Zimbabwe Limited\n  </div>\n  <div style=\"color: green;\">(Since 1965)</div>\n\n  <hr style=\"width: 80%; margin: 10px auto; border: 1px solid #ccc;\">\n\n  </div>"
+  },
+  {
+   "fieldname": "section_break_tq891",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paragraph1",
+   "fieldtype": "HTML",
+   "label": "Paragraph",
+   "options": "<div>\n    Credsure House, 69 Sam Nujoma St.<br>\n    P.O. Box CY 1584 Causeway, Harare, Zimbabwe<br>\n    Tel: 263-4-738944 or 706101-4 &nbsp; Fax: (263-4) 706105<br>\n    Email: headoffice@credsure.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "column_break_arnvw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    1st Floor Zimre Centre, 109 Herbert Chitepo St, P.O. Box 79, Mutare<br>\n    Tel: 020 68438 / 68439\n  </div>"
+  },
+  {
+   "fieldname": "column_break_upvwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address2",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<div>\n    Suite 12, 1st Floor, Westbourne Building<br>\n    Btwn 8th &amp; 9th / Josiah Tongogara Ave, P.O. Box 3183, Bulawayo<br>\n    Tel: (263) 885579/80<br>\n    Email: credsurebyo@zol.co.zw\n  </div>"
+  },
+  {
+   "fieldname": "_section",
+   "fieldtype": "Section Break",
+   "label": "   "
+  },
+  {
+   "fieldname": "div",
+   "fieldtype": "Data",
+   "label": "  </div>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-20 12:13:54.727129",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Cover Letter DCI",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,5 +1,4 @@
 {
- "_liked_by": "[\"nagoor.s@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{name_of_insured}",
@@ -9,8 +8,6 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
-  "section_break_ujfb8",
   "schedule",
   "section_break_y8w5f",
   "policy_number",
@@ -27,12 +24,6 @@
   "eci_policy"
  ],
  "fields": [
-  {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "image",
-   "options": "\n\n\n    <meta charset=\"UTF-8\">\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n    <title>Centered Image</title>\n    <style>\n        /* Style to center the image */\n        .centered-image {\n            display: block;\n            margin: auto;\n        }\n    </style>\n\n\n    <!-- Place the image inside a container div for better alignment control -->\n    <div style=\"text-align: center;\">\n        <img alt=\"Logo\" class=\"centered-image\" src=\"https://www.beci.co.bw/themes/theme/logo.png\">\n    </div>\n\n\n<br>"
-  },
   {
    "fieldname": "schedule",
    "fieldtype": "HTML",
@@ -101,16 +92,12 @@
   {
    "fieldname": "eci_policy",
    "fieldtype": "Table",
-   "options": "ECI_Policy_Schedule_letter"
-  },
-  {
-   "fieldname": "section_break_ujfb8",
-   "fieldtype": "Section Break"
+   "options": "ECI Policy Schedule Letter"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 11:34:56.602496",
+ "modified": "2025-10-29 13:15:22.221577",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Policy Schedule For ECIS",

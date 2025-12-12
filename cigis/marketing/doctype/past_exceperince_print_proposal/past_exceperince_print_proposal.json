@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-07 07:32:49.946332",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "no_of_cases",
+  "for_each_of_the_3_last_completed_financial_years_ending",
+  "actual_and_estimates",
+  "totals"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Country"
+  },
+  {
+   "fieldname": "no_of_cases",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No. of Cases"
+  },
+  {
+   "fieldname": "for_each_of_the_3_last_completed_financial_years_ending",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "For each of the 3 last completed Financial Years ending"
+  },
+  {
+   "fieldname": "totals",
+   "fieldtype": "Table",
+   "options": "Totals Print Proposal"
+  },
+  {
+   "fieldname": "actual_and_estimates",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Actual and Estimated for Subsequent"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-07 10:35:28.754889",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Past Exceperince print Proposal",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

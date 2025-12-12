@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client_name}",
+ "creation": "2024-06-03 11:48:18.904698",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "invoice_details",
+  "section_break_l8x6c",
+  "client_name",
+  "bnd_facility_no",
+  "principal",
+  "loi_no",
+  "tender_no",
+  "invoice_no",
+  "invoice_date",
+  "column_break_rlbyl",
+  "amount",
+  "currency",
+  "vat",
+  "invoice_amount",
+  "facility_date",
+  "amount_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice_details",
+   "fieldtype": "Heading",
+   "label": "Invoice Details"
+  },
+  {
+   "fieldname": "section_break_l8x6c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bnd_facility_no",
+   "fieldtype": "Data",
+   "label": "BND Facility No"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Select",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "loi_no",
+   "fieldtype": "Select",
+   "label": "LOI NO"
+  },
+  {
+   "fieldname": "tender_no",
+   "fieldtype": "Data",
+   "label": "Tender No"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Data",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "column_break_rlbyl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  },
+  {
+   "default": "14",
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Stamp duty"
+  },
+  {
+   "fieldname": "invoice_amount",
+   "fieldtype": "Data",
+   "label": "Invoice Amount"
+  },
+  {
+   "fieldname": "facility_date",
+   "fieldtype": "Date",
+   "label": "Facility Date"
+  },
+  {
+   "fieldname": "amount_date",
+   "fieldtype": "Date",
+   "label": "Amount Date"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency_Finance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-04 10:44:42.501636",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "LOI Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

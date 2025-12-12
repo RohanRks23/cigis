@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client}-{YYYY}-{#####}",
+ "creation": "2024-02-08 08:47:41.157406",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_nmsuc",
+  "rejection",
+  "section_break_dkz6h",
+  "section_break_ysoig",
+  "client",
+  "to",
+  "from",
+  "date",
+  "regisration_no",
+  "proposal_no",
+  "address",
+  "section_break_ns16p",
+  "section_break_ggkxv",
+  "information"
+ ],
+ "fields": [
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "section_break_nmsuc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rejection",
+   "fieldtype": "HTML",
+   "label": "Rejection",
+   "options": "<br><p style=\"text-align: center;\">\n<strong>Rejection Letter</strong>\n</p>"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "default": " Underwriting Executive",
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "regisration_no",
+   "fieldtype": "Data",
+   "label": "Reg No"
+  },
+  {
+   "fieldname": "proposal_no",
+   "fieldtype": "Data",
+   "label": "Proposal No"
+  },
+  {
+   "fieldname": "information",
+   "fieldtype": "Data",
+   "label": "We regret to inform you that, your proposal has been rejected due to  the following reasons:"
+  },
+  {
+   "fieldname": "section_break_dkz6h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ns16p",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ysoig",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ggkxv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-25 06:59:07.842490",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Rejection Letter",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

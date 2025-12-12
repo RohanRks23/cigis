@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{shortname}",
+ "creation": "2024-03-28 09:47:30.523427",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fname",
+  "shortname",
+  "physicaladdress",
+  "city",
+  "telephone",
+  "contactperson",
+  "column_break_dl3xy",
+  "status",
+  "postaladdress",
+  "fax",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "fname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "Short Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "physicaladdress",
+   "fieldtype": "Data",
+   "label": "Physical Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "reqd": 1
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contactperson",
+   "fieldtype": "Data",
+   "label": "Contact Person",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dl3xy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nACTIVE\nINACTIVE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "postaladdress",
+   "fieldtype": "Data",
+   "label": "Postal Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "Fax"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-Mail"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-18 06:27:47.407493",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "FundProviderDetail",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

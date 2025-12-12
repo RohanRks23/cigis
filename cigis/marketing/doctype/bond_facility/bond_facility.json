@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{client_name}",
+ "autoname": "format:{facility_no}",
  "creation": "2024-02-14 12:02:11.166431",
  "default_view": "List",
  "doctype": "DocType",
@@ -73,8 +73,10 @@
   "others_specify",
   "remarksother_information",
   "details",
+  "application_remarks",
   "column_break_gvmsf",
   "goodsservices",
+  "agri",
   "agriculture",
   "airconditioning",
   "aluminium_boats",
@@ -85,9 +87,9 @@
   "canning_cans",
   "cellular",
   "cereals",
-  "column_break_dqgna",
   "leather_products",
   "logistics",
+  "column_break_dqgna",
   "lubricants__fuel",
   "meat_products",
   "media__radio",
@@ -96,17 +98,24 @@
   "perishable_goods",
   "pharmaceuticals",
   "plastics__spices",
-  "column_break_0dp0y",
   "mining_engineering",
   "others",
   "road_construction",
   "restaurant",
+  "column_break_0dp0y",
   "road_maintenance",
   "stationary_and_it_products",
   "services_retailing",
   "stationary_and_computers",
   "stationary",
-  "wholesaler"
+  "wholesaler",
+  "electrical_products",
+  "estates",
+  "logdges",
+  "manufacturing",
+  "mining_supplies",
+  "paper_allied_products",
+  "plastic_package"
  ],
  "fields": [
   {
@@ -128,15 +137,16 @@
    "fieldname": "client_name",
    "fieldtype": "Link",
    "label": "Client Name",
-   "options": "Company-Details"
+   "options": "Company-Details",
+   "reqd": 1
   },
   {
-   "fetch_from": "client_name.registration_number",
    "fetch_if_empty": 1,
    "fieldname": "reg_no",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Reg .No"
+   "label": "Reg .No",
+   "reqd": 1
   },
   {
    "fetch_from": "client_name.status",
@@ -150,12 +160,12 @@
    "fieldtype": "Column Break"
   },
   {
-   "fetch_from": "client_name.establisheddate",
    "fetch_if_empty": 1,
    "fieldname": "estd_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "in_list_view": 1,
-   "label": "Established Date"
+   "label": "Established Date",
+   "reqd": 1
   },
   {
    "fetch_from": "client_name.business",
@@ -163,7 +173,7 @@
    "fieldname": "nature_of_business",
    "fieldtype": "Select",
    "label": "Nature Of Business",
-   "options": "\nGOODS RETALING\nGENERAL DEALER\nSTATIONARY AND COMPUTERS\nELECTRICAL ENGINEERING\nROAD CONSTRUCTION\nMECHANICAL ENGINEERING\nINSTRUMENTATION\nWHOLESALERS\nMANUFACTURING\nBUILDING CONSTRUCTION\nGOODS RETAILING\nCIVIL ENGINEERING\nRESTAURANT\nMECHANICAL CONTRACTORS\nSTATIONARY AND IT PRODUCTS\nSTATIONARY\nENGINEERING CONSULTANCY\nCHEMICALS AND STATIONARY\nSERVICES RETAILING\nOTHERS\nLANDSCAPE CONTRACTORS\nCHEMICALS\nFURNITURE AND HARDWARE\nFREIGHT FORWARDING\nHARDWARE\nMINING ENGINEERING\nROAD MAINTENANCE\nIT PRODUCTS\nMANUFACTURER\nBUILDING MAINTENANCE"
+   "options": "\nGOODS RETALING\nESTATES\nGENERAL DEALER\nSTATIONARY AND COMPUTERS\nELECTRICAL ENGINEERING\nROAD CONSTRUCTION\nMECHANICAL ENGINEERING\nINSTRUMENTATION\nWHOLESALERS\nMANUFACTURING\nBUILDING CONSTRUCTION\nBEVERAGES\nGOODS RETAILING\nCIVIL ENGINEERING\nRESTAURANT\nMECHANICAL CONTRACTORS\nSTATIONARY AND IT PRODUCTS\nSTATIONARY\nENGINEERING CONSULTANCY\nCHEMICALS AND STATIONARY\nSERVICES RETAILING\nOTHERS\nLANDSCAPE CONTRACTORS\nCHEMICALS\nFURNITURE AND HARDWARE\nFREIGHT FORWARDING\nHARDWARE\nHOTELS\nMINING ENGINEERING\nROAD MAINTENANCE\nIT PRODUCTS\nMANUFACTURER\nBUILDING MAINTENANCE\nPAPER & ALLIED PRODUCTS\nMINING SUPPLIES"
   },
   {
    "fieldname": "section_break_yffrc",
@@ -189,13 +199,15 @@
   {
    "fieldname": "signed_by",
    "fieldtype": "Data",
-   "label": "Signed By"
+   "label": "Signed By",
+   "reqd": 1
   },
   {
    "fieldname": "capacity",
    "fieldtype": "Select",
    "label": "Capacity",
-   "options": "\nCONTRACTOR\nMEMBER\nMANAGER\nDIRECTOR\nPARTNER\nPRULANCER\nOTHERS"
+   "options": "\nCONTRACTOR\nMEMBER\nMANAGER\nDIRECTOR\nPARTNER\nPRULANCER\nOTHERS",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_wj7wj",
@@ -204,7 +216,8 @@
   {
    "fieldname": "signed_on",
    "fieldtype": "Date",
-   "label": "Signed On"
+   "label": "Signed On",
+   "reqd": 1
   },
   {
    "fieldname": "broker",
@@ -269,19 +282,22 @@
   },
   {
    "fieldname": "name1",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Name",
-   "options": "\nABSA\nBanco Commerical e de Investimentos\nBanco International DE CREDITO\nBANK GABORONE\nBANK OF BARODA(BOTSWANA)LTD\nBANC ABC\nBANK OF BOTSWANA\nBANK OF INDIA\nBANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY(BBS)\nBOTSWANA SAVINGS BANK\nBotswana Vaccine Inst\nCAPITAL BANK\nCBZ BANK\nECO BANK\nFIRST CARE CHEMIST (PTY LTD)\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK\nMIGRATION BANK\nNED BANK\nNMB BANK LIMITED\nRAND MERCHANT\nSTANBIC BANK\nSTANDARD BANK(SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD"
+   "options": "Banks",
+   "reqd": 1
   },
   {
    "fieldname": "ac_no",
    "fieldtype": "Data",
-   "label": "Account Number"
+   "label": "Account Number",
+   "reqd": 1
   },
   {
    "fieldname": "period_with_bankyears",
    "fieldtype": "Data",
-   "label": "Period with bank(years)"
+   "label": "Period with bank(years)",
+   "reqd": 1
   },
   {
    "fieldname": "cash_balance",
@@ -328,9 +344,9 @@
   },
   {
    "fieldname": "other_bankers",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Other Bankers",
-   "options": "\nABSA\nBANC ABC\nBanco Commerical e de Investimentos\nBanco International DE CREDITO\nBANK GABORONE\nBANK OF BARODA (BOTSWANA) LTD\nBANK OF BOTSWANA\nBANK OF INDIA\nBANK WINDHOEK\nBARCLAYS BANK OF BOTSWANA\nBIM\nBOTSWANA BUILDING SOCIETY(BBS)\nBOTSWANA SAVINGS BANK\nBotswana Vaccine Inst\nCAPITAL BANK\nCBZ BANK\nECO BANK\nFIRST CARE CHEMIST (PTY LTD)\nFIRST NATIONAL BANK NAMIBIA\nFIRST NATIONAL BANK OF BOTSWANA\nFIRST NATIONAL BANK(SA)\nFIRST SUN ALLIANCE INSURANCE BROKERS\nKINGDOM BANK\nMIGRATION BANK\nNED BANK\nNMB BANK LIMITED\nRAND MERCHANT\nSTANBIC BANK\nSTANDARD BANK(SA)\nSTANDARD BANK NAMIBIA\nSTANDARD CHARTERED BANK\nSTANDARD CHARTERED BANK BOTSWANA LTD"
+   "options": "Banks"
   },
   {
    "fieldname": "personnel_tab",
@@ -379,7 +395,8 @@
   {
    "fieldname": "required_facility",
    "fieldtype": "Currency",
-   "label": "Required Facility"
+   "label": "Required Facility",
+   "reqd": 1
   },
   {
    "fieldname": "others_specify",
@@ -550,7 +567,7 @@
    "fieldname": "current_bond",
    "fieldtype": "Table",
    "label": "Current",
-   "options": "current bond child bond facility"
+   "options": "Current Bond Child Bond Facility"
   },
   {
    "fieldname": "add_new3",
@@ -561,11 +578,11 @@
    "fieldname": "personel_child",
    "fieldtype": "Table",
    "label": "Personel",
-   "options": "personnel child bond facility"
+   "options": "Personnel Child Bond Facility"
   },
   {
    "fieldname": "created_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "hidden": 1,
    "label": "created Date"
   },
@@ -579,12 +596,6 @@
    "fieldtype": "Table",
    "label": "Group Company",
    "options": "Group Company child"
-  },
-  {
-   "fieldname": "directors",
-   "fieldtype": "Table",
-   "label": "Director Shareholder",
-   "options": "directors_and_share_holders"
   },
   {
    "fieldname": "column_break_0dp0y",
@@ -649,11 +660,69 @@
    "fieldname": "wholesaler",
    "fieldtype": "Check",
    "label": "WHOLESALER"
+  },
+  {
+   "fieldname": "directors",
+   "fieldtype": "Table",
+   "label": "Directors Shareholders",
+   "options": "ShareHolder Child Table"
+  },
+  {
+   "default": "0",
+   "fieldname": "manufacturing",
+   "fieldtype": "Check",
+   "label": "MANUFACTURING"
+  },
+  {
+   "default": "0",
+   "fieldname": "estates",
+   "fieldtype": "Check",
+   "label": "ESTATES"
+  },
+  {
+   "default": "0",
+   "fieldname": "mining_supplies",
+   "fieldtype": "Check",
+   "label": "MINING SUPPLIES"
+  },
+  {
+   "default": "0",
+   "fieldname": "logdges",
+   "fieldtype": "Check",
+   "label": "LOGDGES"
+  },
+  {
+   "default": "0",
+   "fieldname": "plastic_package",
+   "fieldtype": "Check",
+   "label": "PLASTIC PACKAGE"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical_products",
+   "fieldtype": "Check",
+   "label": "ELECTRICAL PRODUCTS"
+  },
+  {
+   "default": "0",
+   "fieldname": "paper_allied_products",
+   "fieldtype": "Check",
+   "label": "PAPER ALLIED PRODUCTS"
+  },
+  {
+   "fieldname": "application_remarks",
+   "fieldtype": "Small Text",
+   "label": "Application Remarks"
+  },
+  {
+   "fieldname": "agri",
+   "fieldtype": "Data",
+   "label": "AGRICULTURE"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-03 06:42:08.799145",
+ "modified": "2025-10-30 08:34:17.474990",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Bond Facility",

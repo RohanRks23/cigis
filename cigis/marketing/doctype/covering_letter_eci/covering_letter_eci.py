@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class coveringLetter_ECI(Document):
+class CoveringLetterECI(Document):
 	pass

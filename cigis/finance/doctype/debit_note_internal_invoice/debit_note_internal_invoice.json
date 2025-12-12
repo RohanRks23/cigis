@@ -1,0 +1,410 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-03 07:01:25.242313",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_uslnt",
+  "for_internal_use_only",
+  "column_break_4i87s",
+  "section_break_rzexx",
+  "name1",
+  "address",
+  "city",
+  "vat_registration_no",
+  "column_break_fwnay",
+  "date",
+  "section_break_lob5v",
+  "a_premium_income",
+  "section_break_d6raq",
+  "domestic_premium",
+  "column_break_eeifu",
+  "domestic_premium_1",
+  "column_break_ccgjy",
+  "domestic_premium_2",
+  "section_break_l5z9k",
+  "column_break_bi79m",
+  "column_break_6v15r",
+  "total",
+  "section_break_5qzzs",
+  "b_reinsurer_premiums_payable",
+  "section_break_2g2oa",
+  "botswana_insurance_con",
+  "fmre_property_ca",
+  "first_reinsurance",
+  "lombard_insurance",
+  "munich_re_group",
+  "column_break_mzjlp",
+  "botswana_insurance_con_1",
+  "fmre_property_ca1",
+  "first_reinsurance1",
+  "lombard_insurance1",
+  "munich_re_group1",
+  "column_break_3dnzf",
+  "botswana_insurance_con_2",
+  "fmre_property_ca2",
+  "first_reinsurance2",
+  "lombard_insurance2",
+  "munich_re_group2",
+  "section_break_3gsy5",
+  "column_break_c64sb",
+  "column_break_32k33",
+  "total1",
+  "section_break_ry1pc",
+  "handling_fee_income",
+  "section_break_plwx0",
+  "commercial",
+  "commercial1",
+  "commercial2",
+  "commercial3",
+  "commercial4",
+  "column_break_ddrar",
+  "commercial5",
+  "commercial6",
+  "commercial7",
+  "commercial8",
+  "commercial9",
+  "column_break_ie09z",
+  "commercial11",
+  "commercial12",
+  "commercial13",
+  "commercial14",
+  "commercial15",
+  "section_break_3ausw",
+  "column_break_7k6ks",
+  "column_break_hca0e",
+  "total33"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_uslnt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "for_internal_use_only",
+   "fieldtype": "Heading",
+   "label": "For Internal Use Only"
+  },
+  {
+   "fieldname": "column_break_4i87s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_rzexx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "vat_registration_no",
+   "fieldtype": "Data",
+   "label": "Vat Registration No"
+  },
+  {
+   "fieldname": "column_break_fwnay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_lob5v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a_premium_income",
+   "fieldtype": "Heading",
+   "label": "A Premium Income"
+  },
+  {
+   "fieldname": "section_break_d6raq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "domestic_premium",
+   "fieldtype": "Data",
+   "label": "Domestic Premium"
+  },
+  {
+   "fieldname": "column_break_eeifu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "domestic_premium_1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_ccgjy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "domestic_premium_2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_l5z9k",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bi79m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_6v15r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_5qzzs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "b_reinsurer_premiums_payable",
+   "fieldtype": "Heading",
+   "label": "B Reinsurer Premiums Payable"
+  },
+  {
+   "fieldname": "section_break_2g2oa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "botswana_insurance_con",
+   "fieldtype": "Data",
+   "label": "Botswana Insurance con"
+  },
+  {
+   "fieldname": "fmre_property_ca",
+   "fieldtype": "Data",
+   "label": "FMRE Property & CA"
+  },
+  {
+   "fieldname": "first_reinsurance",
+   "fieldtype": "Data",
+   "label": "First Reinsurance"
+  },
+  {
+   "fieldname": "lombard_insurance",
+   "fieldtype": "Data",
+   "label": "Lombard Insurance"
+  },
+  {
+   "fieldname": "munich_re_group",
+   "fieldtype": "Data",
+   "label": "Munich re Group"
+  },
+  {
+   "fieldname": "column_break_mzjlp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "botswana_insurance_con_1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "fmre_property_ca1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "first_reinsurance1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "lombard_insurance1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "munich_re_group1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_3dnzf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "botswana_insurance_con_2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "fmre_property_ca2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "first_reinsurance2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "lombard_insurance2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "munich_re_group2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_3gsy5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_c64sb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_32k33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total1",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_ry1pc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "handling_fee_income",
+   "fieldtype": "Heading",
+   "label": "Handling Fee Income"
+  },
+  {
+   "fieldname": "section_break_plwx0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "commercial",
+   "fieldtype": "Data",
+   "label": "Commercial"
+  },
+  {
+   "fieldname": "commercial1",
+   "fieldtype": "Data",
+   "label": "Commerical"
+  },
+  {
+   "fieldname": "commercial2",
+   "fieldtype": "Data",
+   "label": "Commerical"
+  },
+  {
+   "fieldname": "commercial3",
+   "fieldtype": "Data",
+   "label": "Commerical"
+  },
+  {
+   "fieldname": "commercial4",
+   "fieldtype": "Data",
+   "label": "Commerical"
+  },
+  {
+   "fieldname": "column_break_ddrar",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commercial5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial6",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial7",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_ie09z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "commercial11",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial12",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial13",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial14",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "commercial15",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_3ausw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7k6ks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hca0e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total33",
+   "fieldtype": "Data",
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-26 07:10:47.198616",
+ "modified_by": "Administrator",
+ "module": "Finance",
+ "name": "Debit Note Internal Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

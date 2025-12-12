@@ -1,6 +1,4 @@
 {
- "_comments": "[]",
- "_liked_by": "[]",
  "actions": [],
  "allow_rename": 1,
  "autoname": "format:{cancellation_req_no}",
@@ -49,39 +47,6 @@
   "project_completion_date",
   "section_break_xlm3s",
   "details",
-  "section_break_rwuea",
-  "bond_type1",
-  "section_break_9vn8v",
-  "deputyshreiff_bond1",
-  "column_break_4zqzn",
-  "other_bonds1",
-  "section_break_fdjgr",
-  "bond_details1",
-  "section_break_bk5bm",
-  "bond_holder1",
-  "section_break_dh1tb",
-  "bond_no1",
-  "column_break_k43ma",
-  "date1",
-  "section_break_1adce",
-  "client1",
-  "column_break_sgytd",
-  "principal1",
-  "section_break_4cyru",
-  "description2",
-  "column_break_58ye0",
-  "description3",
-  "section_break_yritx",
-  "bond_period_from1",
-  "column_break_hwrge",
-  "bond_period_to1",
-  "section_break_iajdm",
-  "bond_value1",
-  "column_break_5owag",
-  "cancellation_req_no1",
-  "section_break_pajxf",
-  "bondtype2",
-  "section_break_7afzz",
   "approval",
   "section_break_mmpba",
   "send_to_recommendation",
@@ -237,7 +202,7 @@
   },
   {
    "fieldname": "bond_cancellation",
-   "fieldtype": "Heading",
+   "fieldtype": "Tab Break",
    "label": "Bond Cancellation"
   },
   {
@@ -271,159 +236,8 @@
    "label": "Details"
   },
   {
-   "fieldname": "section_break_rwuea",
-   "fieldtype": "Tab Break",
-   "label": "Cancellation"
-  },
-  {
-   "fieldname": "bond_type1",
-   "fieldtype": "Heading",
-   "label": "Bond Type"
-  },
-  {
-   "fieldname": "section_break_9vn8v",
-   "fieldtype": "Section Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "deputyshreiff_bond1",
-   "fieldtype": "Check",
-   "label": "DeputyShreiff Bond"
-  },
-  {
-   "fieldname": "column_break_4zqzn",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "other_bonds1",
-   "fieldtype": "Check",
-   "label": "Other Bonds"
-  },
-  {
-   "fieldname": "section_break_fdjgr",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_details1",
-   "fieldtype": "Heading",
-   "label": "Bond Details"
-  },
-  {
-   "fieldname": "section_break_bk5bm",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_holder1",
-   "fieldtype": "Data",
-   "label": "Bond Holder"
-  },
-  {
-   "fieldname": "section_break_dh1tb",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_no1",
-   "fieldtype": "Data",
-   "label": "Bond No"
-  },
-  {
-   "fieldname": "column_break_k43ma",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "date1",
-   "fieldtype": "Date",
-   "label": "Date"
-  },
-  {
-   "fieldname": "section_break_1adce",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "client1",
-   "fieldtype": "Data",
-   "label": "Client"
-  },
-  {
-   "fieldname": "column_break_sgytd",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "principal1",
-   "fieldtype": "Data",
-   "label": "Principal"
-  },
-  {
-   "fieldname": "section_break_4cyru",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "description2",
-   "fieldtype": "Long Text",
-   "label": "Description"
-  },
-  {
-   "fieldname": "column_break_58ye0",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "description3",
-   "fieldtype": "Long Text",
-   "label": "Description"
-  },
-  {
-   "fieldname": "section_break_yritx",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_period_from1",
-   "fieldtype": "Date",
-   "label": "Bond Period From"
-  },
-  {
-   "fieldname": "column_break_hwrge",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "bond_period_to1",
-   "fieldtype": "Date",
-   "label": "Bond Period To"
-  },
-  {
-   "fieldname": "section_break_iajdm",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bond_value1",
-   "fieldtype": "Data",
-   "label": "Bond Value"
-  },
-  {
-   "fieldname": "column_break_5owag",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "cancellation_req_no1",
-   "fieldtype": "Data",
-   "label": "Cancellation Req No"
-  },
-  {
-   "fieldname": "section_break_pajxf",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "bondtype2",
-   "fieldtype": "Data",
-   "label": "Bond Type"
-  },
-  {
-   "fieldname": "section_break_7afzz",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "approval",
-   "fieldtype": "Heading",
+   "fieldtype": "Tab Break",
    "label": "Approval"
   },
   {
@@ -433,7 +247,8 @@
   {
    "fieldname": "send_to_recommendation",
    "fieldtype": "Select",
-   "label": "Send to Recommendation"
+   "label": "Send to Recommendation",
+   "options": "\nUnderWriting Manager\nGeneral Manager\nFinance Manager\nMarketing Manager"
   },
   {
    "fieldname": "section_break_5wl7h",
@@ -447,7 +262,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-04 13:01:58.469383",
+ "modified": "2025-11-11 08:47:09.651182",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Cancellation",

@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-05 11:24:31.779402",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_buyers",
+  "name_of_directors_if_known",
+  "buyeref",
+  "adress",
+  "bankers",
+  "maximum",
+  "credit_limits_required"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_buyers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name Of Buyers"
+  },
+  {
+   "fieldname": "name_of_directors_if_known",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name Of Directors if Known"
+  },
+  {
+   "fieldname": "buyeref",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Buyer Ref. Numbers"
+  },
+  {
+   "fieldname": "adress",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address & Phone Numbers"
+  },
+  {
+   "fieldname": "bankers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bankers & Branch"
+  },
+  {
+   "fieldname": "maximum",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Maximum Amount Outstanding (USD$ & Terms)"
+  },
+  {
+   "fieldname": "credit_limits_required",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Credit Limits Required"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-05 11:24:50.239257",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Print Proposal Child DCI",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

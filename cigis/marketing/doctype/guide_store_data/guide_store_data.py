@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Guide_Store_Data(Document):
+class GuideStoreData(Document):
 	pass

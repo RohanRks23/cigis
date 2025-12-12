@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Policy_schedule_childtable(Document):
+class PolicyScheduleChildtable(Document):
 	pass

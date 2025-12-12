@@ -8,7 +8,6 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "image",
   "credit",
   "section_break_fntlj",
   "company",
@@ -23,16 +22,10 @@
  ],
  "fields": [
   {
-   "fieldname": "image",
-   "fieldtype": "HTML",
-   "label": "image",
-   "options": "<img alt=\"https://www.beci.co.bw/themes/theme/logo.png \" src=\"https://www.beci.co.bw/themes/theme/logo.png\" style=\"position: absolute; top: 10px; left: 10px;\">\n<br><br><br><br><br><br>"
-  },
-  {
    "fieldname": "credit",
    "fieldtype": "HTML",
    "label": "credit",
-   "options": "<p style=\"text-align: right;\"><b>Export Credit Insurance and Guarantee<br>Company(Botswana) Pty. Ltd.<br>Private Bag BO 279, Bontleng, Gaborone, Botswana<br>Unit 1, Plot 142 Gaborone International Finance Park<br>Telephone: +267 318 8015, Facsimile: +267 318 8017<br>Email: beci@beci.co.bw<br>Website: http://www.beci.co.bw</b></p>"
+   "options": "<p style=\"text-align: right;\"><b>Export Credit Insurance and Guarantee<br>Company(Botswana) Pty. Ltd.<br>CredSure House, 69 Sam Nujoma Street, Hre, Zw<br>Telephone: +267 318 8015, Facsimile: +267 318 8017<br>Email: headoffice@credsure.co.zw<br>Website: https://www.credsure.co.zw/</b></p>"
   },
   {
    "fieldname": "section_break_fntlj",
@@ -88,7 +81,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-23 10:48:19.475057",
+ "modified": "2025-10-29 12:11:15.565787",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "Covering Letters",

@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Spread_of_turnover_ECI(Document):
+class SpreadofTurnoverECI(Document):
 	pass

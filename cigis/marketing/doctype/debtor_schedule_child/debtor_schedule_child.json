@@ -12,7 +12,8 @@
   "sdays",
   "ndays",
   "odays",
-  "total"
+  "total",
+  "select_buyer"
  ],
  "fields": [
   {
@@ -56,15 +57,21 @@
    "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "Total"
+  },
+  {
+   "default": "0",
+   "fieldname": "select_buyer",
+   "fieldtype": "Check",
+   "label": "Select Buyer"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-26 06:53:17.547773",
+ "modified": "2025-11-05 17:58:35.994667",
  "modified_by": "Administrator",
  "module": "Marketing",
- "name": "Debtor_schedule_child",
+ "name": "Debtor Schedule Child",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestBuyer_Experience_Add_New(FrappeTestCase):
+class TestBuyerExperienceAddNew(FrappeTestCase):
 	pass

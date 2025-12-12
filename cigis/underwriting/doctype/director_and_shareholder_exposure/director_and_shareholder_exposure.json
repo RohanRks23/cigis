@@ -1,7 +1,7 @@
 {
- "_liked_by": "[\"amrutha.p@techbulls.co.in\"]",
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:buyer_name",
  "creation": "2024-02-23 08:06:55.903591",
  "default_view": "List",
  "doctype": "DocType",
@@ -20,7 +20,8 @@
    "fieldname": "buyer_name",
    "fieldtype": "Data",
    "hidden": 1,
-   "label": "Buyer Name"
+   "label": "Buyer Name",
+   "unique": 1
   },
   {
    "fieldname": "directors_table",
@@ -49,10 +50,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-09 13:16:15.846620",
+ "modified": "2025-10-24 11:06:40.807910",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Director and Shareholder Exposure",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

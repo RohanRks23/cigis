@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Buyer_Experience_Add_New(Document):
+class BuyerExperienceAddNew(Document):
 	pass

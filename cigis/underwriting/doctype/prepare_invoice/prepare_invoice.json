@@ -1,0 +1,236 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{credsure_refno}-{####}",
+ "creation": "2025-11-11 07:31:13.629411",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bond_invoice",
+  "section_break_fnft3",
+  "credsure_refno",
+  "guarantee_amount",
+  "bond_period_from",
+  "month",
+  "guarantee_fee_rate",
+  "reinsure",
+  "reinsurer_refnumber",
+  "reinsurer",
+  "portion_of_guarantee_amount_to_reinsurer",
+  "portion_of_guatrantee_fee_to_reinsurer",
+  "credsure_commission",
+  "broker",
+  "brokers",
+  "total_duewith_out_vat",
+  "vat",
+  "v_at",
+  "total_due",
+  "column_break_ugpeu",
+  "invoice_date",
+  "bond_period_to",
+  "guarantee_fee",
+  "credsure",
+  "portion_of_guarantee_amount_to_credsure",
+  "portion_of_guarantee_fee_to_credsure",
+  "credsurecommission",
+  "broker_commission",
+  "client",
+  "principal",
+  "bond_type",
+  "section_break_lknry",
+  "back"
+ ],
+ "fields": [
+  {
+   "fieldname": "bond_invoice",
+   "fieldtype": "Heading",
+   "label": "Bond Invoice"
+  },
+  {
+   "fieldname": "section_break_fnft3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credsure_refno",
+   "fieldtype": "Data",
+   "label": "CREDSURE REF.NO"
+  },
+  {
+   "fieldname": "guarantee_amount",
+   "fieldtype": "Data",
+   "label": "Guarantee Amount"
+  },
+  {
+   "fieldname": "bond_period_from",
+   "fieldtype": "Data",
+   "label": "Bond Period From"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Data",
+   "label": "Month"
+  },
+  {
+   "fieldname": "guarantee_fee_rate",
+   "fieldtype": "Data",
+   "label": "Guarantee Fee Rate"
+  },
+  {
+   "fieldname": "reinsure",
+   "fieldtype": "Data",
+   "label": "ReInsure"
+  },
+  {
+   "fieldname": "reinsurer_refnumber",
+   "fieldtype": "Data",
+   "label": "ReInsurer Ref.Number"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Data",
+   "label": "ReInsurer%"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_reinsurer",
+   "fieldtype": "Data",
+   "label": "Portion of Guarantee Amount To ReInsurer"
+  },
+  {
+   "fieldname": "portion_of_guatrantee_fee_to_reinsurer",
+   "fieldtype": "Data",
+   "label": "Portion of Guatrantee Fee To ReInsurer"
+  },
+  {
+   "fieldname": "credsure_commission",
+   "fieldtype": "Data",
+   "label": "CREDSURE Commission%"
+  },
+  {
+   "fieldname": "broker",
+   "fieldtype": "Data",
+   "label": "Broker"
+  },
+  {
+   "fieldname": "brokers",
+   "fieldtype": "Data",
+   "label": "Broker%"
+  },
+  {
+   "fieldname": "total_duewith_out_vat",
+   "fieldtype": "Data",
+   "label": "Total Due(with out Stamp duty)"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Data",
+   "label": "Stamp duty %"
+  },
+  {
+   "fieldname": "v_at",
+   "fieldtype": "Data",
+   "label": "Stamp duty "
+  },
+  {
+   "fieldname": "total_due",
+   "fieldtype": "Data",
+   "label": "Total Due"
+  },
+  {
+   "fieldname": "column_break_ugpeu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Invoice Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bond_period_to",
+   "fieldtype": "Data",
+   "label": "Bond Period To"
+  },
+  {
+   "fieldname": "guarantee_fee",
+   "fieldtype": "Data",
+   "label": "Guarantee Fee"
+  },
+  {
+   "fieldname": "credsure",
+   "fieldtype": "Data",
+   "label": "CREDSURE%"
+  },
+  {
+   "fieldname": "portion_of_guarantee_amount_to_credsure",
+   "fieldtype": "Data",
+   "label": "Portion of Guarantee Amount To CREDSURE"
+  },
+  {
+   "fieldname": "portion_of_guarantee_fee_to_credsure",
+   "fieldtype": "Data",
+   "label": "Portion of guarantee Fee To CREDSURE"
+  },
+  {
+   "fieldname": "credsurecommission",
+   "fieldtype": "Data",
+   "label": "CREDSURE Commission"
+  },
+  {
+   "fieldname": "broker_commission",
+   "fieldtype": "Data",
+   "label": "Broker Commission"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "principal",
+   "fieldtype": "Data",
+   "label": "Principal"
+  },
+  {
+   "fieldname": "bond_type",
+   "fieldtype": "Data",
+   "label": "Bond type"
+  },
+  {
+   "fieldname": "section_break_lknry",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "back",
+   "fieldtype": "Button",
+   "label": "Back"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-04 09:32:21.522999",
+ "modified_by": "Administrator",
+ "module": "UnderWriting",
+ "name": "Prepare Invoice",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
