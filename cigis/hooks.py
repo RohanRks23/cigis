@@ -7,6 +7,12 @@ app_description = "Credit Insurance and Guarantee Information System"
 app_email = "asrn@sais-erp.com"
 app_license = "MIT"
 
+# Fixtures: Take backup of Custom Field and Client Script doctypes to the app
+fixtures = [
+    {"doctype": "Custom Field"},
+    {"doctype": "Client Script"}
+]
+
 # Includes in <head>
 # ------------------
 
