@@ -1,0 +1,393 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-06 10:57:52.059987",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "poboxcy",
+  "column_break_q4zxv",
+  "specimen",
+  "column_break_5cv9e",
+  "telephone",
+  "section_break_sull0",
+  "schedule_referred_to_in_and_forming_part_of",
+  "policy_no",
+  "section_break_w9zzv",
+  "section_1",
+  "column_break_mh0ip",
+  "name_of_insured",
+  "address",
+  "policy_type",
+  "qno",
+  "section_break_jlcsq",
+  "section_2",
+  "column_break_c7i4r",
+  "description_of_goods",
+  "section_break_9seef",
+  "section_3",
+  "column_break_8zzzy",
+  "period_for_shipment_of_goods",
+  "section_break_njfu3",
+  "section_4",
+  "column_break_txorv",
+  "insured_percentage",
+  "section_break_vgxbg",
+  "section_5",
+  "column_break_thrij",
+  "minimum_retention",
+  "section_break_g25bq",
+  "section_6",
+  "column_break_lqgwe",
+  "limit_of_discretion",
+  "section_break_8ecpd",
+  "section_7",
+  "column_break_rsjoj",
+  "aproved_sources_of_information",
+  "section_break_r5ie7",
+  "section_8",
+  "column_break_ea8jd",
+  "maximum_terms_of_payment",
+  "section_break_u7tkj",
+  "section_9",
+  "column_break_xf3pr",
+  "maximum_extention_period",
+  "section_break_76d9b",
+  "section_10",
+  "column_break_ymxgl",
+  "deposit_premium",
+  "section_break_ifdnx",
+  "section_11",
+  "column_break_sshcl",
+  "premium_rate",
+  "data1",
+  "section_break_vhjpe",
+  "section_12",
+  "column_break_wnv1a",
+  "minimum_annual_premium",
+  "section_break_6py7d",
+  "column_break_pccjx",
+  "column_break_w7hap",
+  "signed"
+ ],
+ "fields": [
+  {
+   "fieldname": "poboxcy",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: justify; margin-top: 15px; line-height: 1.5;\">\n  <p>\nP O Box CY 1584<br><br>\nCAUSEWAY SPECIMEN\n  </p>\n</div>\n\n\n"
+  },
+  {
+   "fieldname": "column_break_q4zxv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "specimen",
+   "fieldtype": "Heading",
+   "label": "SPECIMEN"
+  },
+  {
+   "fieldname": "column_break_5cv9e",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "HTML",
+   "options": "<div style=\"width: 100%; text-align: justify; margin-top: 15px; line-height: 1.5;\">\n  <p>\nTelephone 738944/706101<br><br>\nFAX 706105\n  </p>\n</div>\n\n\n"
+  },
+  {
+   "fieldname": "section_break_sull0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "schedule_referred_to_in_and_forming_part_of",
+   "fieldtype": "HTML",
+   "label": "SCHEDULE REFERRED TO IN AND FORMING PART OF",
+   "options": "<div style=\"width: 100%; text-align: center; margin-top: 60px; margin-bottom: 60px;\">\n  <hr style=\"border: 1px solid #000; width: 100%; margin: 0;\">\n  <h4 style=\"margin: 10px 0;\">SCHEDULE REFERRED TO IN AND FORMING PART OF:</h4>\n  <hr style=\"border: 1px solid #000; width: 100%; margin: 0;\">\n</div>\n"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "POLICY No",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_w9zzv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_1",
+   "fieldtype": "Heading",
+   "label": "Section 1"
+  },
+  {
+   "fieldname": "column_break_mh0ip",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_of_insured",
+   "fieldtype": "Data",
+   "label": "NAME OF INSURED"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "ADDRESS"
+  },
+  {
+   "fieldname": "policy_type",
+   "fieldtype": "Data",
+   "label": "Policy type"
+  },
+  {
+   "fieldname": "qno",
+   "fieldtype": "Data",
+   "label": "Quotation number"
+  },
+  {
+   "fieldname": "section_break_jlcsq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_2",
+   "fieldtype": "Heading",
+   "label": "Section 2"
+  },
+  {
+   "fieldname": "column_break_c7i4r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description_of_goods",
+   "fieldtype": "Data",
+   "label": "DESCRIPTION OF GOODS"
+  },
+  {
+   "fieldname": "section_break_9seef",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_3",
+   "fieldtype": "Heading",
+   "label": "Section 3"
+  },
+  {
+   "fieldname": "column_break_8zzzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "period_for_shipment_of_goods",
+   "fieldtype": "Data",
+   "label": "PERIOD FOR SHIPMENT OF GOODS"
+  },
+  {
+   "fieldname": "section_break_njfu3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_4",
+   "fieldtype": "Heading",
+   "label": "Section 4"
+  },
+  {
+   "fieldname": "column_break_txorv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insured_percentage",
+   "fieldtype": "Data",
+   "label": "INSURED PERCENTAGE"
+  },
+  {
+   "fieldname": "section_break_vgxbg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_5",
+   "fieldtype": "Heading",
+   "label": "Section 5"
+  },
+  {
+   "fieldname": "column_break_thrij",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "minimum_retention",
+   "fieldtype": "Data",
+   "label": "MINIMUM RETENTION"
+  },
+  {
+   "fieldname": "section_break_g25bq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_6",
+   "fieldtype": "Heading",
+   "label": "Section 6"
+  },
+  {
+   "fieldname": "column_break_lqgwe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "limit_of_discretion",
+   "fieldtype": "Data",
+   "label": "LIMIT OF DISCRETION"
+  },
+  {
+   "fieldname": "section_break_8ecpd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_7",
+   "fieldtype": "Heading",
+   "label": "Section 7"
+  },
+  {
+   "fieldname": "column_break_rsjoj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aproved_sources_of_information",
+   "fieldtype": "Data",
+   "label": "APROVED SOURCE(S) OF INFORMATION"
+  },
+  {
+   "fieldname": "section_break_r5ie7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_8",
+   "fieldtype": "Heading",
+   "label": "Section 8"
+  },
+  {
+   "fieldname": "column_break_ea8jd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximum_terms_of_payment",
+   "fieldtype": "Data",
+   "label": "MAXIMUM TERMS OF PAYMENT"
+  },
+  {
+   "fieldname": "section_break_u7tkj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_9",
+   "fieldtype": "Heading",
+   "label": "Section 9"
+  },
+  {
+   "fieldname": "column_break_xf3pr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximum_extention_period",
+   "fieldtype": "Data",
+   "label": "MAXIMUM EXTENTION PERIOD"
+  },
+  {
+   "fieldname": "section_break_76d9b",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_10",
+   "fieldtype": "Heading",
+   "label": "Section 10"
+  },
+  {
+   "fieldname": "column_break_ymxgl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deposit_premium",
+   "fieldtype": "Data",
+   "label": "DEPOSIT PREMIUM"
+  },
+  {
+   "fieldname": "section_break_ifdnx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_11",
+   "fieldtype": "Heading",
+   "label": "Section 11"
+  },
+  {
+   "fieldname": "column_break_sshcl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "premium_rate",
+   "fieldtype": "Data",
+   "label": "PREMIUM RATE"
+  },
+  {
+   "fieldname": "data1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_vhjpe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_12",
+   "fieldtype": "Heading",
+   "label": "Section 12"
+  },
+  {
+   "fieldname": "column_break_wnv1a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "minimum_annual_premium",
+   "fieldtype": "Data",
+   "label": "MINIMUM ANNUAL PREMIUM"
+  },
+  {
+   "fieldname": "section_break_6py7d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_pccjx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_w7hap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signed",
+   "fieldtype": "HTML",
+   "label": "SIGNED",
+   "options": "<div style=\"width: 100%; text-align: center; margin-top: 40px; line-height: 1.6;\">\n  <h4 style=\"margin-bottom: 40px;\">SIGNED FOR AND ON BEHALF OF CREDSURE</h4>\n  <hr style=\"border: 1px solid #000; width: 60%; margin: 10px auto;\">\n  <h5 style=\"margin-top: 10px;\">AUTHORISED SIGNATORIES</h5>\n</div>\n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-17 12:14:44.581730",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Policy Schedule Policy Approvals",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
