@@ -192,7 +192,7 @@
   },
   {
    "fieldname": "buyer_type",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Buyer Type",
    "options": "\nASSOCIATED COMPANIES\nGOVERNMENT BUYERS\nPRIVATE BUYERS"
   },
@@ -818,7 +818,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-09 09:30:29.854547",
+ "modified": "2025-12-18 12:34:39.061438",
  "modified_by": "Administrator",
  "module": "Marketing",
  "name": "ECI Quotations",

@@ -22,7 +22,7 @@
   "invoice_date",
   "vat",
   "month",
-  "currency",
+  "curr",
   "column_break_ivii4",
   "credit_note_date",
   "ed_number",
@@ -288,7 +288,7 @@
    "label": "ED Number"
   },
   {
-   "fieldname": "currency",
+   "fieldname": "curr",
    "fieldtype": "Link",
    "label": "Currecny",
    "options": "Currency_Finance"
@@ -296,7 +296,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-10 06:57:36.725568",
+ "modified": "2025-12-18 06:04:42.146484",
  "modified_by": "Administrator",
  "module": "Finance",
  "name": "Credit Note",

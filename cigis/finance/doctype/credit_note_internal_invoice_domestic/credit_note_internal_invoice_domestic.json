@@ -12,7 +12,7 @@
   "section_break_cuvke",
   "name1",
   "invoice_no",
-  "currency",
+  "curr",
   "quotation_number",
   "ed_no",
   "address",
@@ -265,20 +265,20 @@
    "label": "ED Number"
   },
   {
-   "fieldname": "currency",
-   "fieldtype": "Data",
-   "label": "Currency"
-  },
-  {
    "fieldname": "credit_note_no",
    "fieldtype": "Data",
    "label": "Credit/Debit Note No",
    "read_only": 1
+  },
+  {
+   "fieldname": "curr",
+   "fieldtype": "Data",
+   "label": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-09 11:14:21.007121",
+ "modified": "2025-12-18 07:01:32.538915",
  "modified_by": "Administrator",
  "module": "Finance",
  "name": "Credit Note Internal Invoice Domestic",

@@ -21,9 +21,15 @@
   "inception_date",
   "ed_number",
   "capture_date",
-  "currency",
+  "curr",
   "year",
   "section_break_nns50",
+  "reinsurer",
+  "column_break_qkabw",
+  "reinsurer_per1",
+  "section_break_asghn",
+  "add_reinsurers",
+  "reinsurers",
   "section_break_ucgls",
   "upload",
   "upload1",
@@ -53,8 +59,7 @@
   "add",
   "column_break_wx5ck",
   "column_break_t0usv",
-  "column_break_cqrtf",
-  "prepare_invoice"
+  "column_break_cqrtf"
  ],
  "fields": [
   {
@@ -195,12 +200,6 @@
    "label": "Add "
   },
   {
-   "fieldname": "prepare_invoice",
-   "fieldtype": "Button",
-   "hidden": 1,
-   "label": "Prepare Invoice"
-  },
-  {
    "fieldname": "buyer1",
    "fieldtype": "HTML",
    "label": "Buyer",
@@ -289,14 +288,45 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "currency",
-   "fieldtype": "Select",
-   "label": "Currency"
+   "fieldname": "curr",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency_Finance"
+  },
+  {
+   "fieldname": "reinsurer",
+   "fieldtype": "Link",
+   "label": "Reinsurer",
+   "options": "ReInsurers Details"
+  },
+  {
+   "fieldname": "column_break_qkabw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reinsurer_per1",
+   "fieldtype": "Data",
+   "label": "Reinsurer %"
+  },
+  {
+   "fieldname": "section_break_asghn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_reinsurers",
+   "fieldtype": "Button",
+   "label": "Add Reinsurers"
+  },
+  {
+   "fieldname": "reinsurers",
+   "fieldtype": "Table",
+   "label": "Multiple ReInsurers",
+   "options": "Multiple ReInsurers"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-08 06:52:07.591786",
+ "modified": "2025-12-18 11:14:46.512916",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Export Declarations",

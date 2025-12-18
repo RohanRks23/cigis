@@ -16,7 +16,7 @@
   "beci_side_matter",
   "section_break_r5zq6",
   "invoice1",
-  "currency",
+  "curr",
   "attn",
   "address",
   "city",
@@ -253,20 +253,20 @@
    "label": "Invoice No:"
   },
   {
-   "fieldname": "currency",
-   "fieldtype": "Data",
-   "label": "Currency"
-  },
-  {
    "fieldname": "credit_note_no",
    "fieldtype": "Data",
    "label": "Credit/Debit Note No",
    "read_only": 1
+  },
+  {
+   "fieldname": "curr",
+   "fieldtype": "Data",
+   "label": "Currency"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-09 11:15:10.206631",
+ "modified": "2025-12-18 07:09:22.646358",
  "modified_by": "Administrator",
  "module": "Finance",
  "name": "Credit Note Tax Invoice Domestic",
