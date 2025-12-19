@@ -16,13 +16,15 @@
   "quotation_number",
   "policy_expire_date",
   "month",
-  "column_break_acprc",
+  "total_per",
+  "column_break_zhdyx",
   "status",
   "inception_date",
   "ed_number",
   "capture_date",
   "curr",
   "year",
+  "credsure",
   "section_break_nns50",
   "reinsurer",
   "column_break_qkabw",
@@ -87,10 +89,6 @@
    "fieldname": "policy_expire_date",
    "fieldtype": "Data",
    "label": "Policy Expire Date"
-  },
-  {
-   "fieldname": "column_break_acprc",
-   "fieldtype": "Column Break"
   },
   {
    "fetch_from": "policy_number.status",
@@ -322,11 +320,25 @@
    "fieldtype": "Table",
    "label": "Multiple ReInsurers",
    "options": "Multiple ReInsurers"
+  },
+  {
+   "fieldname": "total_per",
+   "fieldtype": "Data",
+   "label": "Total reinsurer %"
+  },
+  {
+   "fieldname": "credsure",
+   "fieldtype": "Data",
+   "label": "Credsure %"
+  },
+  {
+   "fieldname": "column_break_zhdyx",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-18 11:14:46.512916",
+ "modified": "2025-12-18 18:13:28.497934",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Export Declarations",

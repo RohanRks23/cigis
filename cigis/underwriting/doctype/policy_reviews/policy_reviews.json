@@ -57,7 +57,7 @@
   "section_break_9wban",
   "add_new",
   "section_break_4ljpk",
-  "country",
+  "country_name",
   "terms_of_payment",
   "commercial_pre_rate",
   "political_pre_rate",
@@ -352,12 +352,6 @@
    "label": "Add New"
   },
   {
-   "fieldname": "country",
-   "fieldtype": "Link",
-   "label": "Country",
-   "options": "Country Details"
-  },
-  {
    "fieldname": "terms_of_payment",
    "fieldtype": "Select",
    "label": "Terms of Payment",
@@ -370,9 +364,9 @@
   },
   {
    "fieldname": "buyer_type",
-   "fieldtype": "Data",
+   "fieldtype": "Select",
    "label": "Buyer Type",
-   "options": "\n"
+   "options": "\nASSOCIATED COMPANIES\nGOVERNMENT BUYERS\nPRIVATE BUYERS"
   },
   {
    "default": "0",
@@ -468,11 +462,17 @@
   {
    "fieldname": "column_break_jnppo",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "country_name",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country Group"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-26 06:13:00.256509",
+ "modified": "2025-12-18 18:53:23.096577",
  "modified_by": "Administrator",
  "module": "UnderWriting",
  "name": "Policy Reviews",
